@@ -1,0 +1,2077 @@
+{
+	id: "53AA952BECFDE713"
+	group: "66971E0EF19CA037"
+	order_index: 1
+	filename: "cyclic"
+	title: "&dCyclic"
+	icon: "cyclic:crafter"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.1785714285714306d
+		y: -14.625000000000004d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&f&lWelcome to Cyclic"
+			x: -0.5d
+			y: -14.0d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oSign the contract&r quest*"
+			description: [
+				"In the words of the author:"
+				"\"I just went ahead and added all the features that I wished were in the base game into one mod.  So just a ton of random items and changes that have no consistent theme other than I thought they would be fun\"."
+				"Cyclic adds a huge number of items to the game that serve all kinds of purposes."
+			]
+			dependencies: ["071125FC42EBEAB9"]
+			size: 1.5d
+			id: "6725FEA36C75E603"
+			tasks: [{
+				id: "5CB01BF4976EB60C"
+				type: "checkmark"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "386B8B75D420FD1A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4ED2526543BDA216"
+					type: "item"
+					item: "cyclic:honey_bucket"
+				}
+				{
+					id: "1E2C52334825180B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "&f&lBlock Placer"
+			x: -6.0d
+			y: -14.0d
+			subtitle: "Place any type of block in the Block Placer’s inventory"
+			description: ["The Block Placer will place a block from its inventory in front of it whenever it can."]
+			dependencies: ["5CC5BC642537960F"]
+			id: "111138B59C810AD6"
+			tasks: [{
+				id: "7463402FAE2D897B"
+				type: "item"
+				item: "cyclic:placer"
+			}]
+			rewards: [
+				{
+					id: "797D4561B0D31022"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C57DAFDFA19B74A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "2038E0F504C0DDFD"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lBlock Breaker"
+			x: -7.0d
+			y: -13.5d
+			subtitle: "Automatically breaks anything that is placed in front of it"
+			description: ["As if it was broken without silk touch (glass does not drop)."]
+			dependencies: ["5CC5BC642537960F"]
+			id: "7B2B5E663DAD0BA1"
+			tasks: [{
+				id: "550AD6B345546727"
+				type: "item"
+				item: "cyclic:breaker"
+			}]
+			rewards: [
+				{
+					id: "765F6D74DF4ACA5D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "37807E41C67963B0"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "14F16B44AE579414"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lItem User"
+			x: -7.5d
+			y: -12.5d
+			subtitle: "Can be set to right click or left click continuously in its range"
+			description: ["You can set the range, which click (use/left or attack/right), and the delay using the GUI. The Automated user can also be given tools to use or attack with. Any products of the process will be moved to the output slots in the bottom right of the Automated User’s GUI. If you click the purple square you can see the range of the Automated User."]
+			dependencies: ["5CC5BC642537960F"]
+			id: "59AF21CC68FA1FA5"
+			tasks: [{
+				id: "039B0F2A499D34AC"
+				type: "item"
+				item: "cyclic:user"
+			}]
+			rewards: [
+				{
+					id: "58D93FCF5C81F8E1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1BE6FF78D4DC1F24"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "390D681B3B5CB37D"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lPrecise Dropper"
+			x: -7.0d
+			y: -11.5d
+			description: ["The Precise Dropper is exactly like an ordinary vanilla Dropper except you can set the exact block that you want it to drop items onto using the offset slider (0-16 blocks in front of the dropper), how many items you want to drop (1-64 at a time), and the delay between dropping items (0-64 ticks)."]
+			dependencies: ["5CC5BC642537960F"]
+			id: "4A65BC007F778F5D"
+			tasks: [{
+				id: "6117BDDE75538647"
+				type: "item"
+				item: "cyclic:dropper"
+			}]
+			rewards: [
+				{
+					id: "34DD1B19391A7A27"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20B06AA5CE19405E"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "2509917467D51F0F"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lForester"
+			x: 9.0d
+			y: -13.0d
+			subtitle: "The Forester will automatically place these saplings anywhere that it can within its range"
+			description: ["Requires energy. Supply the Forester with any kind of sapling. When the saplings grow up the Forester will chop down the trees. The Forester does not collect the items that drop however. The range and mining height can be set in the GUI."]
+			dependencies: ["07D94600EFF47688"]
+			id: "7B72F9ACBD2A55AC"
+			tasks: [{
+				id: "774A20C92351FAD4"
+				type: "item"
+				item: "cyclic:forester"
+			}]
+			rewards: [
+				{
+					id: "76EECCF58A4D11CB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "220A5815D13E2806"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "1CC614CB652A6854"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lMiner"
+			x: 8.5d
+			y: -14.0d
+			subtitle: "Breaks all blocks in its range over time"
+			description: ["The range and height to mine can be set in the GUI. You can click the purple square to get a visual of the range. You can also whitelist or blacklist blocks that you want to/don’t want to be broken."]
+			dependencies: ["07D94600EFF47688"]
+			id: "4B61F4CF32C2F44A"
+			tasks: [{
+				id: "79CD517E5784566A"
+				type: "item"
+				item: "cyclic:miner"
+			}]
+			rewards: [
+				{
+					id: "639818E28E0E200C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5D2B2FA758ECF05A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "431D49CF035A7F69"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lShape Builder"
+			x: 6.5d
+			y: -12.0d
+			subtitle: "This machine starts in requires redstone mode unlike the other machines"
+			description: ["That’s because it would really be a mess if this thing was spam building stuff. Select a shape that you want the Structure Builder to build. Your options are wall, square, solid square, diagonal, pyramid, circle - horizontal, circle - vertical, sphere, dome, cup. You can set the height and width of your structure using the sliders. You can also place a GPS in the top left slot of the Structure Builder to offset the build to whatever block the GPS is connected to."]
+			dependencies: ["07D94600EFF47688"]
+			id: "4C0292782F9B81F4"
+			tasks: [{
+				id: "722D332723E86FCD"
+				type: "item"
+				item: "cyclic:structure"
+			}]
+			rewards: [
+				{
+					id: "5DC05C5BE8C0D701"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4CBF2B0F7D50E48E"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3F07CA368B7E7FFF"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lHarvester"
+			x: 7.5d
+			y: -14.5d
+			subtitle: "Harvests, collects, and replants all fully grown crops in its range every few seconds"
+			description: ["The range can be set in the GUI. You can also click the purple square to get a visual of how big the range is."]
+			dependencies: ["07D94600EFF47688"]
+			id: "4657A85B4C782C62"
+			tasks: [{
+				id: "50F1FAF02D1BA2AB"
+				type: "item"
+				item: "cyclic:harvester"
+			}]
+			rewards: [
+				{
+					id: "7898AA7EA9384658"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C97FE799AC1CEAE"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "53C1543596FBA6A1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lItem Collector"
+			x: -6.0d
+			y: -11.0d
+			subtitle: "Automatically collected any items in its range and stores them in its own inventory"
+			description: ["You can set the range by entering the GUI and clicking the range button to cycle through the options (1x1 to 19x19). You can also press the purple square to turn on a visual which shows the exact collection range of the Item Collector."]
+			dependencies: ["5CC5BC642537960F"]
+			id: "50C3683D4BE69085"
+			tasks: [{
+				id: "5F3EE4D376ADFA02"
+				type: "item"
+				item: "cyclic:collector"
+			}]
+			rewards: [
+				{
+					id: "1098EE4D082147E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "15CF34EDAC460CC9"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "38B25358908D3E5B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lFluid Collector"
+			x: 7.5d
+			y: -11.5d
+			description: ["You will need to put some kind of block in its inventory as well. Once you do this, it will start replacing any fluid it can find below itself up to 7 blocks away horizontally and 5 blocks below vertically with the block you have given it. Once it fills up with liquid or runs out of blocks it will stop."]
+			dependencies: ["07D94600EFF47688"]
+			id: "024786CFC74D9F75"
+			tasks: [{
+				id: "4BF5DB1B684BADC4"
+				type: "item"
+				item: "cyclic:collector_fluid"
+			}]
+			rewards: [
+				{
+					id: "7CE6282CCC5C1E2C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7395B24E1F7BC5D2"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "5B6F21B32C42F9F6"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lFluid Placer"
+			x: 8.5d
+			y: -12.0d
+			description: ["Fill the Fluid Placer with any fluid. The Fluid Placer will place the fluid which it is storing in front of itself when it is powered by a redstone signal."]
+			dependencies: ["07D94600EFF47688"]
+			id: "72D7656CEFC5404B"
+			tasks: [{
+				id: "560F3C4F782AD16F"
+				type: "item"
+				item: "cyclic:placer_fluid"
+			}]
+			rewards: [
+				{
+					id: "5DB528C3AD3AD213"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0CEB1F07737A8807"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "146E8516302F8170"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -12.5d
+			dependencies: ["6725FEA36C75E603"]
+			id: "5CC5BC642537960F"
+			tasks: [{
+				id: "2E214277D98045BB"
+				type: "item"
+				item: "cyclic:crafter"
+			}]
+			rewards: [
+				{
+					id: "5B72C090953BC5C9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7F96267F2D257069"
+					type: "random"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "504307AE74AFEAC6"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -13.0d
+			dependencies: ["6725FEA36C75E603"]
+			id: "07D94600EFF47688"
+			tasks: [{
+				id: "00CC1955B6704E63"
+				type: "item"
+				item: "cyclic:workbench"
+			}]
+			rewards: [
+				{
+					id: "2B1C7B0A2934929F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E60E73D612333FC"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "3AF05FEE8A436D45"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -7.5d
+			dependencies: ["70D20CD1E662D529"]
+			id: "08D359D021E423FE"
+			tasks: [{
+				id: "0752B71B5BFB4EED"
+				type: "item"
+				item: "cyclic:gem_amber"
+			}]
+			rewards: [
+				{
+					id: "6410700B7189521D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "36659795C9E79990"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "09BC1F39FA9390C2"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			dependencies: ["70D20CD1E662D529"]
+			id: "0C5C34A36AF49CD8"
+			tasks: [{
+				id: "0A28AB5B7385E05D"
+				type: "item"
+				item: "cyclic:gem_obsidian"
+			}]
+			rewards: [
+				{
+					id: "7DFBA03E5B710B68"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "411652BBEC32A81B"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "04D5D95BE9C82F50"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			dependencies: ["158B65BD64114835"]
+			id: "70D20CD1E662D529"
+			tasks: [{
+				id: "3B07BF8474B017E3"
+				type: "item"
+				item: "cyclic:solidifier"
+			}]
+			rewards: [
+				{
+					id: "607A76EE1764036D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0541238381ACB782"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "51E411710BE9409B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			dependencies: ["549FDD6CE6B6AE9A"]
+			id: "158B65BD64114835"
+			tasks: [{
+				id: "3CC953B0F4280CEE"
+				type: "item"
+				item: "cyclic:melter"
+			}]
+			rewards: [
+				{
+					id: "6F905A8D0B81B3D1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4A611A422513E7D5"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "0C2B7D97C9CB68C1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -11.5d
+			dependencies: ["5CC5BC642537960F"]
+			id: "0704DAF4B84D0581"
+			tasks: [{
+				id: "434C4FDBA4FF57C3"
+				type: "item"
+				item: "cyclic:uncrafter"
+			}]
+			rewards: [
+				{
+					id: "653C7B4C7C0ECE05"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71F74AA908F66C35"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "2DB8B30DF91AC065"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			dependencies: ["01B091232C2CB515"]
+			id: "549FDD6CE6B6AE9A"
+			tasks: [{
+				id: "215A7E0FEC059E3B"
+				type: "item"
+				item: "cyclic:biomass"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "3B0DA422AFBE6069"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1E5700EFECEEBC35"
+					type: "item"
+					item: "minecraft:jungle_leaves"
+					count: 12
+				}
+				{
+					id: "2E878636E5CE7BE5"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -11.0d
+			dependencies: ["01B091232C2CB515"]
+			id: "36214E9ECB3EADB4"
+			tasks: [{
+				id: "64930AF8E396AC6E"
+				type: "item"
+				item: "cyclic:crafting_stick"
+			}]
+			rewards: [
+				{
+					id: "6D3F486BB1B1BF84"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1AE02A9EF54A7444"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 12
+				}
+				{
+					id: "3176B3CBFF0687C7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -10.5d
+			dependencies: ["36214E9ECB3EADB4"]
+			id: "20862F7437FFCC5E"
+			tasks: [{
+				id: "5A7A0913AA04217E"
+				type: "item"
+				item: {
+					id: "cyclic:crafting_bag"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 9
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41B284D958A52507"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "01B669F7424B5015"
+					type: "item"
+					item: "minecraft:infested_stone_bricks"
+					count: 12
+				}
+				{
+					id: "4E76CF0B80D7DD2E"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "&f&lStorage Bag"
+			x: -3.0d
+			y: -9.5d
+			subtitle: "A bag that you can use to carry items"
+			description: ["The bag can be colored by opening it up with right click and clicking one of the buttons on the left side of the GUI. You can also set the bag to automatically store anything that enters your inventory, only store things that enter your inventory that are already in the bag, or do nothing. There is also a hit mode; when you hit an inventory (such as a chest) with a Storage Bag, there are three things that can happen."]
+			dependencies: ["36214E9ECB3EADB4"]
+			id: "46C2F0D83ECD1BA9"
+			tasks: [{
+				id: "24C918BCC923B17D"
+				type: "item"
+				item: {
+					id: "cyclic:storage_bag"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							Size: 81
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1F2E1C101AB23D5F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2EC8D4B4F3757F18"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "48D11B77D600D68C"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -9.0d
+			dependencies: ["46C2F0D83ECD1BA9"]
+			id: "6C13DD18D4B70D14"
+			tasks: [{
+				id: "10353EBE2025B585"
+				type: "item"
+				item: "cyclic:ender_bag"
+			}]
+			rewards: [
+				{
+					id: "0E344C26D3CA0C9C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5BE2BB1C726C402F"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 4
+				}
+				{
+					id: "2168C868BE92C83C"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -10.0d
+			dependencies: ["46C2F0D83ECD1BA9"]
+			id: "0C3C98FBE3F3110B"
+			tasks: [{
+				id: "3F18638E6F5DDD62"
+				type: "item"
+				item: "cyclic:tile_transporter_empty"
+			}]
+			rewards: [
+				{
+					id: "5A176DA76F4FD3AE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4AB974A30BC4A9FF"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "61EA1C35DD98732C"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			dependencies: ["46C2F0D83ECD1BA9"]
+			id: "69D348A55F4E48A4"
+			tasks: [{
+				id: "731D5CF0FBEA2932"
+				type: "item"
+				item: "cyclic:magic_net"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "484AD18FAACEF5D1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40CC0E19B4B3BA92"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "0542ACDF641ADFA3"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "&f&lThe Pearls"
+			x: -4.0d
+			y: -7.5d
+			dependencies: ["69D348A55F4E48A4"]
+			id: "712BFCF2C39AD263"
+			tasks: [
+				{
+					id: "7A3158996D24C73F"
+					type: "item"
+					item: {
+						id: "cyclic:ender_eye_reuse"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "193E9A77A2F3C262"
+					type: "item"
+					item: {
+						id: "cyclic:ender_pearl_reuse"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62CB5209FABA9607"
+					type: "item"
+					item: {
+						id: "cyclic:ender_pearl_mounted"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "125FFB788065C372"
+					type: "item"
+					item: "cyclic:spawner_seeker"
+				}
+			]
+			rewards: [
+				{
+					id: "7C8366A402828CD8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "153284BD51839C3C"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "06890BA156918B52"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&f&lTorch Launchers"
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["69D348A55F4E48A4"]
+			id: "46114E63F64D2795"
+			tasks: [
+				{
+					id: "62D6E6971C9724A3"
+					type: "item"
+					item: {
+						id: "cyclic:charm_torch"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22C9CF081C7ABD9B"
+					type: "item"
+					item: {
+						id: "cyclic:charm_torch_cave"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7C0CF9C4D542FCDC"
+					type: "item"
+					item: {
+						id: "cyclic:torch_launcher"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "73CBB592426331E1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "14CA71EDF86D554D"
+					type: "item"
+					item: "minecraft:torch"
+					count: 16
+				}
+				{
+					id: "3D281D3F67054DF8"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "22A410F979575C3A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&f&lCables"
+			x: 5.0d
+			y: -11.5d
+			description: [
+				"&lEnergy Cable:"
+				"A simple cable that can only transport energy. Right click on an energy cable to see how much energy is inside."
+				"&lItem Cable:"
+				"A  simple cable that can only transport items. Right click on an item cable to see what is inside."
+				"&lFluid Cable:"
+				"A simple cable that can only transport fluids. Right click on a Fluid Cable to see how much energy is inside."
+			]
+			dependencies: ["40D728B0C5A8EB5D"]
+			id: "2715C4F1B35B34D3"
+			tasks: [
+				{
+					id: "7DE6B05F3089B6DC"
+					type: "item"
+					item: "cyclic:energy_pipe"
+				}
+				{
+					id: "731F196235A89B0F"
+					type: "item"
+					item: "cyclic:item_pipe"
+				}
+				{
+					id: "39062D76C73F976D"
+					type: "item"
+					item: "cyclic:fluid_pipe"
+				}
+			]
+			rewards: [
+				{
+					id: "4A2CB1D3C272F845"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "69EB61A2520D93FF"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "38604C0862A69D07"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "&f&lUncrafting Grinder"
+			x: 9.0d
+			y: -9.0d
+			subtitle: "Place any item into the far left slot and hit the question mark button"
+			description: ["This will tell you if the item can be uncrafted. If it can be uncrafted, the Uncrafting Grinder will slowly turn the item into its components. Some recipes have been altered for balance. For example, the ardite sapling, which is easily farmable, contains a nether star in its crafting recipe. The nether star is not given back in the Uncrafting Grinder."]
+			dependencies: ["56FAB0452F74878E"]
+			id: "3158FE47257AFF11"
+			tasks: [{
+				id: "280F0DC01C2EC244"
+				type: "item"
+				item: "cyclic:computer_shape"
+			}]
+			rewards: [
+				{
+					id: "0E3F73440CCD83FB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "67A67C8B84FCB848"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "364DE68AFD7A1D56"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lRedstone Clock"
+			x: 8.5d
+			y: -8.0d
+			description: ["he redstone clock can be configured to send out a redstone pulse on a timer from any (or all) of its 6 sides. The length of the pulse is configurable, as well as the delay between pulses. You can also change the strength of the redstone pulse and turn off certain sides so that they do not pulse."]
+			dependencies: ["56FAB0452F74878E"]
+			id: "592FA2AA8B0414B7"
+			tasks: [{
+				id: "39F7351BBDA8DCB5"
+				type: "item"
+				item: "cyclic:clock"
+			}]
+			rewards: [
+				{
+					id: "426E06A4EBB6E861"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C63712424A42FC7"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "17FAC3F939503E9B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lWireless Redstone Transmitter"
+			x: 7.5d
+			y: -7.5d
+			description: ["Two parts of one system. Place a Wireless Receiver somewhere in your world. Hit the Wireless Receiver with the Wireless Transmitter to save its location (left click). Now place the Wireless Transmitter somewhere else in the world. Any time that the Wireless Transmitter is powered, the Wireless Receiver which it is connected to will also be powered."]
+			dependencies: ["56FAB0452F74878E"]
+			id: "107623515DFCD3A1"
+			tasks: [{
+				id: "44FD15A5D7BD7F61"
+				type: "item"
+				item: "cyclic:wireless_transmitter"
+			}]
+			rewards: [
+				{
+					id: "01EF8A1CA33E8E20"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A0F1279FAD109C4"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "77EF0E6C1E0048F1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lWireless Redstone Receiver"
+			x: 6.5d
+			y: -8.0d
+			description: ["Two parts of one system. Place a Wireless Receiver somewhere in your world. Hit the Wireless Receiver with the Wireless Transmitter to save its location (left click). Now place the Wireless Transmitter somewhere else in the world. Any time that the Wireless Transmitter is powered, the Wireless Receiver which it is connected to will also be powered."]
+			dependencies: ["56FAB0452F74878E"]
+			id: "5416FE933966639A"
+			tasks: [{
+				id: "12D6F67857246870"
+				type: "item"
+				item: "cyclic:wireless_receiver"
+			}]
+			rewards: [
+				{
+					id: "6B92F3CBBCF23E26"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D384A1937F5F1AE"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "40F588B43698F3A7"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -9.0d
+			dependencies: ["2715C4F1B35B34D3"]
+			id: "56FAB0452F74878E"
+			tasks: [{
+				id: "5ABFA858AC392049"
+				type: "item"
+				item: "cyclic:disenchanter"
+			}]
+			rewards: [
+				{
+					id: "43E065A7EF204DCA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0FC6B660B4921DC7"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "732D676B5AED741C"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -9.0d
+			dependencies: ["56FAB0452F74878E"]
+			id: "42B4E694DFD02ACD"
+			tasks: [{
+				id: "0A2D0874C9F87702"
+				type: "item"
+				item: {
+					id: "cyclic:battery"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2E9409E474787D15"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4AFD2FA312EE7E62"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "363CD80CEAEA979E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -10.0d
+			dependencies: ["56FAB0452F74878E"]
+			id: "7A8D7FBC53A73A56"
+			tasks: [{
+				id: "12B9C905C3230F5E"
+				type: "item"
+				item: "cyclic:fisher"
+			}]
+			rewards: [
+				{
+					id: "5BD4F758F92FE145"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "669A92559D688DC2"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "10AE11E947AB0344"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["46114E63F64D2795"]
+			id: "7A750DF10E92B471"
+			tasks: [{
+				id: "2CEC16449285E66D"
+				type: "item"
+				item: {
+					id: "cyclic:glove_climb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4EC45D90E562F81C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1701B198324BCFB2"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "52F5404C549D512C"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			shape: "octagon"
+			dependencies: ["444B1B9E2460E1AD"]
+			id: "6B9D2BB968B4463F"
+			tasks: [{
+				id: "65D23378984ECA3B"
+				type: "item"
+				item: {
+					id: "cyclic:charm_ultimate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5324B03041D05030"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D41CBF156C34855"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "375E4B0F4DE16A19"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&f&lThe Charms"
+			x: -4.0d
+			y: -6.0d
+			dependencies: ["46114E63F64D2795"]
+			id: "444B1B9E2460E1AD"
+			tasks: [
+				{
+					id: "4D2FF4B8CE3DC95F"
+					type: "item"
+					item: {
+						id: "cyclic:charm_void"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "31EADBF6B87D7F66"
+					type: "item"
+					item: {
+						id: "cyclic:charm_antidote"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7EA61E2627C15C4C"
+					type: "item"
+					item: {
+						id: "cyclic:charm_fire"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F5281FB71CC9604"
+					type: "item"
+					item: {
+						id: "cyclic:charm_wither"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7E978A3A529EC1CA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "18168C8F80504B17"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "5DACFEEFC6D456FF"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "1DCFBABDFDDFD113"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["7A750DF10E92B471"]
+			id: "2218324EB0ED1DE8"
+			tasks: [{
+				id: "207D23D4A281DE25"
+				type: "item"
+				item: {
+					id: "cyclic:antigravity"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71F421E5449D37D7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B7D8BDD5779C31C"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "6D0C0E783980A12B"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			shape: "heart"
+			dependencies: [
+				"46114E63F64D2795"
+				"2218324EB0ED1DE8"
+				"6B9D2BB968B4463F"
+			]
+			size: 1.3d
+			id: "2F3642D6B0CAF95F"
+			tasks: [{
+				id: "2A7B3E4E5DF7C4FA"
+				type: "item"
+				item: "cyclic:heart"
+			}]
+			rewards: [
+				{
+					id: "78530253AC6D71A4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3E1EF1EEB7B363C3"
+					type: "item"
+					item: "cyclic:heart_empty"
+				}
+				{
+					id: "4AD3E19D5D05E5A6"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "1EC118E26649F044"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -10.5d
+			dependencies: ["6115BE7A9E526397"]
+			id: "2640A7557D30E133"
+			tasks: [{
+				id: "5CAEFB67ACF55FAC"
+				type: "item"
+				item: "cyclic:apple_ender"
+			}]
+			rewards: [
+				{
+					id: "07C6F834BD0751C2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "125A4EE1096875F6"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "06B971FD670570CD"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -9.5d
+			dependencies: ["2715C4F1B35B34D3"]
+			id: "6115BE7A9E526397"
+			tasks: [{
+				id: "1A097B809EF9736E"
+				type: "item"
+				item: "cyclic:apple_honey"
+			}]
+			rewards: [
+				{
+					id: "57680A00BE1FDA40"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E4C63D1841C477A"
+					type: "item"
+					item: "minecraft:honey_block"
+				}
+				{
+					id: "74A527374A497AC9"
+					type: "item"
+					item: "cyclic:apple_sprout"
+				}
+				{
+					id: "5CF20F89D216B6B0"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -9.5d
+			dependencies: ["6115BE7A9E526397"]
+			id: "5C822E5CC5CF1E13"
+			tasks: [{
+				id: "3E4A6AC3B511692F"
+				type: "item"
+				item: "cyclic:apple_prismarine"
+			}]
+			rewards: [
+				{
+					id: "0F02F357160BFA47"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "48615CFED22808FF"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "1D35A839B43F1479"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.5d
+			dependencies: ["6115BE7A9E526397"]
+			id: "50FF985123C1A518"
+			tasks: [{
+				id: "155E49380DA984C2"
+				type: "item"
+				item: "cyclic:apple_lapis"
+			}]
+			rewards: [
+				{
+					id: "55F14CE99E850803"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "11D8EB34857A912F"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "7497032D05405A1A"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			dependencies: ["6115BE7A9E526397"]
+			id: "12E931060AA686AD"
+			tasks: [{
+				id: "1C92B7F5C5E5E47E"
+				type: "item"
+				item: "cyclic:apple_iron"
+			}]
+			rewards: [
+				{
+					id: "2546FCB28ED3C723"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6671901E7DEB03F4"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6E9EB174C6423AE0"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			dependencies: ["6115BE7A9E526397"]
+			id: "24BA2DD2922C87EA"
+			tasks: [{
+				id: "0C8A359334E5C8D7"
+				type: "item"
+				item: "cyclic:apple_diamond"
+			}]
+			rewards: [
+				{
+					id: "6FCB210B3953A816"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "740D47BA59806C20"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "77BD75852D0DA67E"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -9.5d
+			dependencies: ["6115BE7A9E526397"]
+			id: "32671A03395F3A0B"
+			tasks: [{
+				id: "23379175BBA29860"
+				type: "item"
+				item: "cyclic:apple_emerald"
+			}]
+			rewards: [
+				{
+					id: "7B4774FF2A2AF1F4"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "46CB081B113F3619"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "768F5F7D25F22513"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -12.5d
+			description: ["Right click or shift right click a block with the Wooden Wrench. The block will be rotated if possible."]
+			dependencies: ["6725FEA36C75E603"]
+			id: "01B091232C2CB515"
+			tasks: [{
+				id: "4E1A484C0D6E3505"
+				type: "item"
+				item: {
+					id: "cyclic:wrench"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "63492F2C7DBD3BDE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "78AFA93E89FB348C"
+					type: "item"
+					item: "minecraft:stone"
+					count: 12
+				}
+				{
+					id: "48398E69D2C532B4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -12.5d
+			dependencies: ["6725FEA36C75E603"]
+			id: "40D728B0C5A8EB5D"
+			tasks: [{
+				id: "1CDD921492462705"
+				type: "item"
+				item: "cyclic:cable_wrench"
+			}]
+			rewards: [
+				{
+					id: "6BDA73D0C4525788"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C603B563B5261E0"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 12
+				}
+				{
+					id: "77FF8AC53210BBA1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "&f&lCrystallized Obsidian Helmet"
+			x: 5.0d
+			y: -7.5d
+			subtitle: "*Unlocked by completing the &b&l&oCrystallized Obsidian&r quest*"
+			hide_dependency_lines: true
+			dependencies: ["0C5C34A36AF49CD8"]
+			id: "0F6D2FC0B1C93686"
+			tasks: [{
+				id: "38343145F3EFC461"
+				type: "item"
+				item: {
+					id: "cyclic:crystal_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "68B535E17897E3F4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "795A252F18205298"
+					type: "item"
+					item: "cyclic:apple_sprout_diamond"
+				}
+				{
+					id: "2FF69ED879A4DD4C"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "2C89301F58EF9FE5"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			title: "&f&lCrystallized Obsidian Chestplate"
+			x: 5.0d
+			y: -6.5d
+			shape: "hexagon"
+			subtitle: "*Unlocked by completing the &b&l&oCrystallized Obsidian&r quest*"
+			hide_dependency_lines: true
+			dependencies: ["0C5C34A36AF49CD8"]
+			id: "3357147D10CF5EB9"
+			tasks: [{
+				id: "3BDE3E50FFAB2E99"
+				type: "item"
+				item: {
+					id: "cyclic:crystal_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A5AD8426B279CA2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "387B57072B727D14"
+					type: "item"
+					item: "cyclic:apple_sprout_emerald"
+				}
+				{
+					id: "5339D0E5EA8DDAED"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "672ECB81F77FE530"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			title: "&f&lCrystallized Obsidian Leggings"
+			x: 5.0d
+			y: -5.5d
+			shape: "hexagon"
+			subtitle: "*Unlocked by completing the &b&l&oCrystallized Obsidian&r quest*"
+			hide_dependency_lines: true
+			dependencies: ["0C5C34A36AF49CD8"]
+			id: "72BFF0C19166E069"
+			tasks: [{
+				id: "16AB5376CE4087D3"
+				type: "item"
+				item: {
+					id: "cyclic:crystal_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "660AF4FE9C975450"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5C872FD8AEF8C134"
+					type: "item"
+					item: {
+						id: "cyclic:lever_remote"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "69CD2DE40271148B"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "224C7E033B634440"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			title: "&f&lCrystallized Obsidian Boots"
+			x: 5.0d
+			y: -4.5d
+			shape: "square"
+			subtitle: "*Unlocked by completing the &b&l&oCrystallized Obsidian&r quest*"
+			hide_dependency_lines: true
+			dependencies: ["0C5C34A36AF49CD8"]
+			id: "1BAB57BE59D85D30"
+			tasks: [{
+				id: "12ACF6A1FF8B5266"
+				type: "item"
+				item: {
+					id: "cyclic:crystal_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3DB77B53EDCCDB4B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "38C0E3FA39348FE9"
+					type: "item"
+					item: "cyclic:laser"
+				}
+				{
+					id: "4A544F6E2ACD04FE"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "3545389181D99417"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			title: "&f&lEngraved Thunder"
+			x: 6.0d
+			y: -6.5d
+			shape: "diamond"
+			subtitle: "*Unlocked by completing the &b&l&oCrystallized Obsidian&r quest*"
+			hide_dependency_lines: true
+			dependencies: ["0C5C34A36AF49CD8"]
+			id: "365F9E68BAB68011"
+			tasks: [{
+				id: "1FB3029FE23883E5"
+				type: "item"
+				item: {
+					id: "cyclic:lightning_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7FB1A0FCCA712789"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7BF35B54144A350A"
+					type: "item"
+					item: {
+						id: "cyclic:build_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "273816308EE3F0CE"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "06E2197F4553A719"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "&f&lCrystal Sword"
+			x: 4.0d
+			y: -6.5d
+			shape: "diamond"
+			subtitle: "*Unlocked by completing the &b&l&oCrystallized Obsidian&r quest*"
+			hide_dependency_lines: true
+			dependencies: ["0C5C34A36AF49CD8"]
+			id: "25757FFA41256265"
+			tasks: [{
+				id: "289A1F06265BCA59"
+				type: "item"
+				item: {
+					id: "cyclic:crystal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3CF0B95BBABE183E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2A715BC623CFEF5E"
+					type: "item"
+					item: "cyclic:anvil"
+				}
+				{
+					id: "0C2249C52A7A5D8E"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "3AA0E3746F45D692"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			title: "&f&lFrost Bringer"
+			x: 6.5d
+			y: -6.0d
+			shape: "diamond"
+			subtitle: "*Unlocked by completing the &b&l&oCrystallized Amber&r quest*"
+			hide_dependency_lines: true
+			dependencies: ["08D359D021E423FE"]
+			id: "05EF86CA0EF6DF50"
+			tasks: [{
+				id: "254251C616BA9F86"
+				type: "item"
+				item: {
+					id: "cyclic:ice_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4F8AACFD23DA9E5D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0AD2D27A483DD44C"
+					type: "item"
+					item: {
+						id: "cyclic:replace_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A982541DBC097FD"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "623AC379C3B100CE"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "&f&lDuskflame Hex"
+			x: 7.0d
+			y: -5.5d
+			shape: "diamond"
+			subtitle: "*Unlocked by completing the &b&l&oCrystallized Amber&r quest*"
+			hide_dependency_lines: true
+			dependencies: ["08D359D021E423FE"]
+			id: "00868CB5F30D0513"
+			tasks: [{
+				id: "206D0EAAC53C2444"
+				type: "item"
+				item: {
+					id: "cyclic:fire_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "40F2CAB54A6C41DB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "48706788918B3B4F"
+					type: "item"
+					item: {
+						id: "cyclic:offset_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1639CC3224B57302"
+					type: "item"
+					item: {
+						id: "cyclic:randomize_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5876F4C5BB036C13"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "3B1928A7B1482984"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+	]
+}

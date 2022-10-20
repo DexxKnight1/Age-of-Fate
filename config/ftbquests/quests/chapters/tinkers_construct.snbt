@@ -1,0 +1,1249 @@
+{
+	id: "3D67528F44964049"
+	group: "6F99F7CF29120AA9"
+	order_index: 1
+	filename: "tinkers_construct"
+	title: "&aTinkers Construct"
+	icon: {
+		id: "tconstruct:creative_slot"
+		Count: 1b
+		tag: {
+			slot: "upgrades"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 3.0d
+			y: -3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/spark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/spark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 48.0d
+			image: "kubejs:textures/item/tin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5714285714285694d
+			y: -6.374999999999993d
+			width: 1.0d
+			height: 1.0d
+			rotation: 26.0d
+			image: "kubejs:textures/item/gold.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: -47.0d
+			image: "kubejs:textures/item/purple.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5d
+			y: -5.160714285714278d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/silver.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.642857142857146d
+			y: -1.9107142857142847d
+			width: 1.0d
+			height: 1.0d
+			rotation: -37.0d
+			image: "kubejs:textures/item/gray.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 27.0d
+			image: "kubejs:textures/item/copper.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.2142857142857082d
+			y: -8.826785714285712d
+			width: 0.3d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "&2&lWelcome to Tinkers' Construct"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/tc.png"
+				}
+			}
+			x: -0.5d
+			y: -8.232142857142858d
+			shape: "gear"
+			subtitle: "*Unlocked by crafting all the &b&l&oStone Tools&r quest*"
+			description: [
+				"The Tinkers' Construct mod focuses on weapon and tool manufacturing."
+				""
+				"The mod adds patterns for tool and weapon parts that allow the player to create hundreds of combinations; each with their own strengths, weaknesses, and effects. After the tool or weapon is created, additional materials may be installed to boost the item's abilities, or to simulate vanilla enchantments."
+				""
+				"t introduces a multi-block structure called the Smeltery, which is used to craft metal tools and parts and some decorative blocks, as well as providing a method of doubling ore output."
+				""
+				"Getting Started:"
+				""
+				"Grout is an item added by the Tinkers' Construct mod. It is made by placing Gravel, Sand and Clay inside of a crafting grid. The block can be placed as the world for aesthetic purposes, but is meant as an intermediary step in the production of Seared Bricks, by smelting the Grout in a furnace."
+			]
+			dependencies: [
+				"3326FD70E5C481A2"
+				"0F712D4D42849CDA"
+				"050A2AE5DE0FFBF3"
+				"0AC2E5E4E7BFFEF8"
+			]
+			size: 1.5d
+			id: "247794E3ED9E0D65"
+			tasks: [{
+				id: "63C5A844C39B1BCE"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "5E2D82DCA9B5A1CC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "64EFCE813161BD06"
+					type: "item"
+					item: "tconstruct:grout"
+					count: 16
+				}
+				{
+					id: "51983D8145CFC5ED"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1F06BFE40F3630BB"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: [
+				"0439FE4D6A198C0D"
+				"3A38A35C846F5AF7"
+				"0E36DB826101024D"
+			]
+			id: "3061B917B5DC581C"
+			tasks: [{
+				id: "3782BFE1CDA317DE"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+			rewards: [
+				{
+					id: "084B7F9C868504F5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F53CF60BA5DAB19"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "1815040EC42D1585"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "0872A1582F787AB3"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "29B84DE2E9B7DCCA"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["1D4038F9AB73B8C0"]
+			id: "236DE6E8512DE567"
+			tasks: [{
+				id: "4972C29DCDA9FDE3"
+				type: "item"
+				item: "tconstruct:seared_heater"
+			}]
+			rewards: [
+				{
+					id: "5E86CB53BFF289D5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5D97C2C696BB9C90"
+					type: "item"
+					item: "tconstruct:clear_glass"
+					count: 8
+				}
+				{
+					id: "483E79EFD4B6CE7E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Part 3"
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["236DE6E8512DE567"]
+			id: "0E36DB826101024D"
+			tasks: [{
+				id: "1C57A12EDD141233"
+				type: "item"
+				item: "tconstruct:seared_fuel_tank"
+			}]
+			rewards: [
+				{
+					id: "722B3446CDE2A3F5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "26164F63BE6CEE21"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "0F89D299C3E734D4"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Part 1"
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["236DE6E8512DE567"]
+			id: "0439FE4D6A198C0D"
+			tasks: [
+				{
+					id: "44794AAC78C8218D"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "2CFE4B59EDDE80CE"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+			]
+			rewards: [
+				{
+					id: "62985BC3C4812172"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "35019E5D4B7E7E3B"
+					type: "item"
+					item: "ironchest:iron_chest"
+				}
+				{
+					id: "35CAEA8CE4CE6F93"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Part 2"
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["236DE6E8512DE567"]
+			id: "3A38A35C846F5AF7"
+			tasks: [
+				{
+					id: "56A84AAAFA9814A5"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+				{
+					id: "4A7AD683CF9FDF7F"
+					type: "item"
+					item: "tconstruct:seared_drain"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "70BAF2EE880FC42E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "062DBAC1572FB59E"
+					type: "item"
+					item: "tconstruct:lavawood"
+					count: 8
+				}
+				{
+					id: "1BBC63F697393C97"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			dependencies: ["247794E3ED9E0D65"]
+			id: "1D4038F9AB73B8C0"
+			tasks: [{
+				id: "2418682F2FE82838"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "21948BF332602D75"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6A6DE6FBB479F4E0"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 32
+				}
+				{
+					id: "04BA353EEE566342"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Crafting Station"
+			icon: {
+				id: "tconstruct:crafting_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			x: -4.5d
+			y: -0.5d
+			dependencies: ["3061B917B5DC581C"]
+			id: "27B61D861AA4513B"
+			tasks: [{
+				id: "367E64C7FA429B5C"
+				type: "item"
+				title: "Any tconstruct:crafting_station"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:crafting_stations"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A1BDB0E77F802EA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "78ABD97F2714C4AB"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "47D1ADD1A5C1CE15"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "Tinker Station"
+			icon: {
+				id: "tconstruct:tinker_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["3061B917B5DC581C"]
+			id: "2B78996C7CE9DB9C"
+			tasks: [{
+				id: "22B1610C55883514"
+				type: "item"
+				title: "Any tconstruct:tinker_station"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:tinker_stations"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4B1143F00E07E7DC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "00DF486DDF1941FC"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "053C6F065A76B3CC"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "Part Builder"
+			icon: {
+				id: "tconstruct:part_builder"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["3061B917B5DC581C"]
+			id: "4EF27C3B4382348E"
+			tasks: [{
+				id: "165C17AE561EEE03"
+				type: "item"
+				title: "Any tconstruct:part_builder"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:part_builders"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "21E7C38671B9E86B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7691D4FAB23C9B60"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2C6A97E8EABDF526"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["3061B917B5DC581C"]
+			id: "31B21AC67654A1EE"
+			tasks: [{
+				id: "14AAAF63D637AA54"
+				type: "item"
+				item: "tconstruct:tinkers_chest"
+			}]
+			rewards: [
+				{
+					id: "762E05EBD6B2375D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "194C2BC382FB9DFE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "734C1F7FC701C164"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["3061B917B5DC581C"]
+			id: "415385C2E88B3B36"
+			tasks: [{
+				id: "25117E6B27EB5FE4"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+			rewards: [
+				{
+					id: "6C2A6A788F184ECE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "00F8475A3DA6BE6D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4E09B656CF524595"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["3061B917B5DC581C"]
+			id: "2E220E25CB12ECAD"
+			tasks: [{
+				id: "046F297DEBCFCCD3"
+				type: "item"
+				item: "tconstruct:cast_chest"
+			}]
+			rewards: [
+				{
+					id: "791C5843B33938B8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "091FE7266A6D9188"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "64B875632534C13A"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			shape: "diamond"
+			dependencies: ["247794E3ED9E0D65"]
+			id: "1DC03339E7D90151"
+			tasks: [{
+				id: "3F00A059FF0E89E9"
+				type: "item"
+				item: "tconstruct:silky_cloth"
+			}]
+			rewards: [
+				{
+					id: "440FA5AC85A5E624"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0E171B66948DEF40"
+					type: "item"
+					item: "minecraft:stone"
+					count: 16
+				}
+				{
+					id: "5B4D24D7334AF93A"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "Crystals"
+			x: 5.0d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["1DC03339E7D90151"]
+			id: "34A04DFB7BC9D7C3"
+			tasks: [
+				{
+					id: "5A21AEA8C74C9B98"
+					type: "item"
+					item: "tconstruct:earth_slime_crystal"
+					count: 16L
+				}
+				{
+					id: "2873EF7BDD8EE808"
+					type: "item"
+					item: "tconstruct:sky_slime_crystal"
+					count: 16L
+				}
+				{
+					id: "15ED3E8E2383A2BA"
+					type: "item"
+					item: "tconstruct:ichor_slime_crystal"
+					count: 16L
+				}
+				{
+					id: "701403C89ADB3743"
+					type: "item"
+					item: "tconstruct:ender_slime_crystal"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "1669EDA4979580BD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "10E02C5D5C81BD2F"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "50A683F060277C4A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.5d
+			shape: "diamond"
+			dependencies: ["247794E3ED9E0D65"]
+			id: "5F3D0594173B14B7"
+			tasks: [{
+				id: "3271C83621600A34"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "107D29D44B4BF961"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "6569497E95F2338C"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 3
+				}
+				{
+					id: "001F2FD8A16E76CD"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "Reinforcements"
+			x: -6.0d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["5F3D0594173B14B7"]
+			id: "1AE2A9004E1663A6"
+			tasks: [
+				{
+					id: "6B192811AB693B0D"
+					type: "item"
+					item: "tconstruct:iron_reinforcement"
+				}
+				{
+					id: "668E27EB7F41B383"
+					type: "item"
+					item: "tconstruct:slimesteel_reinforcement"
+				}
+				{
+					id: "64013E238393F780"
+					type: "item"
+					item: "tconstruct:seared_reinforcement"
+				}
+				{
+					id: "72AEBFF2DA8B6CA7"
+					type: "item"
+					item: "tconstruct:gold_reinforcement"
+				}
+			]
+			rewards: [
+				{
+					id: "4AA600203F796F12"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2358F224F2AB4952"
+					type: "item"
+					item: "tconstruct:iron_reinforcement"
+					count: 3
+				}
+				{
+					id: "07EC8EBB85C222C8"
+					type: "item"
+					item: "tconstruct:slimesteel_reinforcement"
+					count: 3
+				}
+				{
+					id: "6CC1853A38B50765"
+					type: "item"
+					item: "tconstruct:seared_reinforcement"
+					count: 3
+				}
+				{
+					id: "25EBE306B852C0C6"
+					type: "item"
+					item: "tconstruct:gold_reinforcement"
+					count: 3
+				}
+				{
+					id: "246926DAC42E3C95"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "More Reinforcements"
+			x: -6.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["1AE2A9004E1663A6"]
+			id: "0FCCDD7C75FC8564"
+			tasks: [
+				{
+					id: "6DCC64BA08D0EFC5"
+					type: "item"
+					item: "tconstruct:emerald_reinforcement"
+				}
+				{
+					id: "1024535A7F3D4A74"
+					type: "item"
+					item: "tconstruct:bronze_reinforcement"
+				}
+				{
+					id: "659DF012CBA0E19E"
+					type: "item"
+					item: "tconstruct:cobalt_reinforcement"
+				}
+			]
+			rewards: [
+				{
+					id: "0E2CCF3F18B62BE8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3962EA441FA109D6"
+					type: "item"
+					item: "tconstruct:emerald_reinforcement"
+					count: 3
+				}
+				{
+					id: "0D6800FC57920BA6"
+					type: "item"
+					item: "tconstruct:bronze_reinforcement"
+					count: 3
+				}
+				{
+					id: "0A84D9F82C60BEE6"
+					type: "item"
+					item: "tconstruct:cobalt_reinforcement"
+					count: 3
+				}
+				{
+					id: "47C0273CC1D4CF36"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			title: "&l&5Slime Set"
+			x: 5.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["34A04DFB7BC9D7C3"]
+			id: "42F70BC5685E4299"
+			tasks: [
+				{
+					id: "27224E9164CF082C"
+					type: "item"
+					item: {
+						id: "tconstruct:ender_slime_sling"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "52E0F0A22084C3B0"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 546.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:bouncy"
+									level: 1s
+								}
+								{
+									name: "tconstruct:leaping"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "34FB22DE829106D9"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_leggings"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 630.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:pockets"
+									level: 1s
+								}
+								{
+									name: "tconstruct:protection"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:total_item_slots": 9
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+				{
+					id: "01535BE6955D2708"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_chestplate"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 672.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [{
+								name: "tconstruct:wings"
+								level: 1s
+							}]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:elyta": 1b
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "619A45733768BEBC"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "02B19D1876ADED5A"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "1087B6B232812881"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Tool and Weapon Casts"
+			x: 7.0d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["42F70BC5685E4299"]
+			id: "0B6AEE7A98A236F3"
+			tasks: [
+				{
+					id: "17EBF6608340B4F5"
+					type: "item"
+					item: "tconstruct:cobalt_ingot"
+					count: 8L
+				}
+				{
+					id: "310DD39B8C6E356B"
+					type: "item"
+					item: "tconstruct:slimesteel_ingot"
+					count: 8L
+				}
+				{
+					id: "097BC6073AC4CA93"
+					type: "item"
+					item: "tconstruct:rose_gold_ingot"
+					count: 8L
+				}
+				{
+					id: "4858304E390CC4B2"
+					type: "item"
+					item: "tconstruct:queens_slime_ingot"
+					count: 8L
+				}
+				{
+					id: "5CF64747778B654A"
+					type: "item"
+					item: "tconstruct:manyullyn_ingot"
+					count: 8L
+				}
+				{
+					id: "0C50677FEA3E8A4C"
+					type: "item"
+					item: "tconstruct:hepatizon_ingot"
+					count: 8L
+				}
+				{
+					id: "1EA65243E75B816C"
+					type: "item"
+					item: "tconstruct:pig_iron_ingot"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "0AE0471AA794946D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0FFC620F258EC455"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "03B3EECACFD23E8E"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "0BD19BBB88A87C4C"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3008F8A4A9888090"
+					type: "random"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "49440AB31A1B53D0"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "4B9700A2C5FBCD7D"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "Useful Casts"
+			x: -8.0d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["0FCCDD7C75FC8564"]
+			id: "7E77E5B9D1FAC02C"
+			tasks: [
+				{
+					id: "7462669B2EF4BE2E"
+					type: "item"
+					item: "tconstruct:ingot_cast"
+				}
+				{
+					id: "5D96BFAB49C11829"
+					type: "item"
+					item: "tconstruct:gem_cast"
+				}
+				{
+					id: "604F2C7199CBB124"
+					type: "item"
+					item: "tconstruct:nugget_cast"
+				}
+				{
+					id: "6062966044BA52F8"
+					type: "item"
+					item: "tconstruct:repair_kit_cast"
+				}
+				{
+					id: "00095490E7953089"
+					type: "item"
+					item: "tconstruct:rod_cast"
+				}
+				{
+					id: "127F5AB36D7E306F"
+					type: "item"
+					item: "tconstruct:plate_cast"
+				}
+				{
+					id: "36BA34AA04EC1B24"
+					type: "item"
+					item: "tconstruct:gear_cast"
+				}
+				{
+					id: "058E6FC384DD29D5"
+					type: "item"
+					item: "tconstruct:large_plate_cast"
+				}
+				{
+					id: "1340F64ABBE1C4D8"
+					type: "item"
+					item: "tconstruct:tool_handle_cast"
+				}
+				{
+					id: "22B6672965393232"
+					type: "item"
+					item: "tconstruct:tough_handle_cast"
+				}
+				{
+					id: "551FDD153CF5B576"
+					type: "item"
+					item: "tconstruct:tool_binding_cast"
+				}
+				{
+					id: "7E95621374784E22"
+					type: "item"
+					item: "tconstruct:small_axe_head_cast"
+				}
+				{
+					id: "6CA5E1D678DC6BEB"
+					type: "item"
+					item: "tconstruct:pickaxe_head_cast"
+				}
+				{
+					id: "5E0694CC8255D2F5"
+					type: "item"
+					item: "tconstruct:small_blade_cast"
+				}
+			]
+			rewards: [
+				{
+					id: "3EEF453A13476B6D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3E7491ED664DF88E"
+					type: "item"
+					item: "tconstruct:broad_axe_head_cast"
+				}
+				{
+					id: "5E9C1FCC9C9379AC"
+					type: "item"
+					item: "tconstruct:hammer_head_cast"
+				}
+				{
+					id: "32FBFB3A88B90A23"
+					type: "item"
+					item: "tconstruct:broad_blade_cast"
+				}
+				{
+					id: "1BB90C1E2761240A"
+					type: "item"
+					item: "tconstruct:wire_cast"
+				}
+				{
+					id: "1D42AC39E6E34864"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "17C23055A40D2561"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "2CEB9AA31218E282"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "2CC9EDB4272390F4"
+					type: "ftbmoney:money"
+					ftb_money: 750L
+				}
+			]
+		}
+		{
+			title: "Tinker's Anvil"
+			icon: {
+				id: "tconstruct:tinkers_anvil"
+				Count: 1b
+				tag: {
+					texture: "tconstruct:hepatizon_block"
+				}
+			}
+			x: -0.5d
+			y: 1.0d
+			shape: "pentagon"
+			dependencies: [
+				"0B6AEE7A98A236F3"
+				"7E77E5B9D1FAC02C"
+			]
+			size: 1.3d
+			id: "03D428D3BB5C4C60"
+			tasks: [{
+				id: "1107C993BDC032BA"
+				type: "item"
+				title: "Any tconstruct:tinkers_anvils"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:tinkers_anvils"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "37F1AD22C446142E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "164198D0B485407F"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "56EA6E653C8BC3E9"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "69F91363F157D028"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "510DCFDA3D70E82C"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+	]
+}

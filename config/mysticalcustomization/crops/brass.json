@@ -1,0 +1,13 @@
+{
+    "name": "Brass",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+        "item": "create:brass_ingot"
+    },
+    "color": "B5A642",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_ingot",
+        "essence": "mysticalagriculture:item/essence_ingot"
+    }
+}

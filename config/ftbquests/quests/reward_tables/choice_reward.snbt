@@ -1,0 +1,30 @@
+{
+	id: "384D06327753AE89"
+	order_index: 15
+	title: "Choice Reward"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:iron_ingot", count: 8 }
+		{ item: "minecraft:gold_ingot", count: 8 }
+		{ item: "alltheores:copper_ingot", count: 8 }
+		{ item: "alltheores:lead_ingot", count: 8 }
+		{ item: "alltheores:nickel_ingot", count: 8 }
+		{ item: "alltheores:tin_ingot", count: 8 }
+		{ item: "alltheores:silver_ingot", count: 8 }
+		{ item: "alltheores:osmium_ingot", count: 8 }
+		{ item: "alltheores:aluminum_ingot", count: 8 }
+		{ item: "alltheores:platinum_ingot", count: 8 }
+		{ item: "alltheores:uranium_ingot", count: 8 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 43520
+		string_id: "choice_reward"
+	}
+}

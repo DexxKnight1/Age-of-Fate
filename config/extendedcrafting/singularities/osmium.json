@@ -1,0 +1,10 @@
+{
+    "name": "Osmium",
+    "colors": [
+        "9AFEFF",
+        "748190"
+    ],
+    "ingredient": {
+        "item": "alltheores:osmium_ingot"
+    }
+}

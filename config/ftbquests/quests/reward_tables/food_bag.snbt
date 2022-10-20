@@ -1,0 +1,55 @@
+{
+	id: "2BF7C14D0BDC4BFA"
+	order_index: 14
+	title: "Food's Bag"
+	icon: "forbidden_arcanus:rune_bag"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "thermal:corn", count: 16 }
+		{ item: "thermal:onion", count: 16 }
+		{ item: "thermal:rice", count: 16 }
+		{ item: "thermal:eggplant", count: 16 }
+		{ item: "thermal:bell_pepper", count: 16 }
+		{ item: "thermal:green_bean", count: 16 }
+		{ item: "thermal:sadiroot", count: 16 }
+		{ item: "thermal:radish", count: 16 }
+		{ item: "pamhc2foodcore:toastitem", count: 16 }
+		{ item: "pamhc2foodextended:cookedtofishitem", count: 16 }
+		{ item: "pamhc2foodcore:donutitem", count: 16 }
+		{ item: "pamhc2foodcore:friedchickenitem", count: 16 }
+		{ item: "pamhc2foodextended:persimmonjellysandwichitem", count: 16 }
+		{ item: "pamhc2foodcore:caramelappleitem", count: 16 }
+		{ item: "pamhc2foodextended:broccolimacitem", count: 16 }
+		{ item: "pamhc2foodcore:bakedvegetablemedlyitem", count: 16 }
+		{ item: "pamhc2foodcore:cookiesandmilkitem", count: 16 }
+		{ item: "pamhc2foodcore:basiccheeseburgeritem", count: 16 }
+		{ item: "pamhc2foodcore:epicbaconitem", count: 16 }
+		{ item: "pamhc2foodcore:hotchocolateitem", count: 16 }
+		{ item: "pamhc2foodextended:spagettiitem", count: 16 }
+		{ item: "pamhc2foodextended:bbqchickenpizzaitem", count: 16 }
+		{ item: "pamhc2foodcore:softpretzelitem", count: 16 }
+		{ item: "pamhc2foodextended:tacoitem", count: 16 }
+		{ item: "pamhc2foodextended:hazelnutchocolateitem", count: 16 }
+		{ item: "pamhc2foodcore:chickendinneritem", count: 16 }
+		{ item: "pamhc2foodextended:cookedtofuttonitem", count: 16 }
+		{ item: "pamhc2foodextended:nachoesitem", count: 16 }
+		{ item: "pamhc2foodcore:meatloafitem", count: 16 }
+		{ item: "pamhc2foodextended:epicbltitem", count: 2 }
+		{ item: "pamhc2foodextended:potatoskinsitem", count: 16 }
+		{ item: "pamhc2foodcore:friesitem", count: 16 }
+		{ item: "pamhc2foodcore:basiccheeseburgeritem", count: 16 }
+		{ item: "pamhc2foodcore:cheeseitem", count: 16 }
+		{ item: "pamhc2foodcore:grilledcheeseitem", count: 16 }
+		{ item: "minecraft:cooked_porkchop", count: 16 }
+		{ item: "minecraft:cooked_mutton", count: 16 }
+		{ item: "minecraft:cooked_beef", count: 16 }
+		{ item: "minecraft:cooked_chicken", count: 16 }
+		{ item: "minecraft:cooked_rabbit", count: 16 }
+		{ item: "pamhc2foodextended:bananasplititem", count: 16 }
+		{ item: "forestcraft:cooked_venison", count: 16 }
+		{ item: "forestcraft:shishtauk", count: 16 }
+		{ item: "forestcraft:sweet_mega_muffin", count: 16 }
+	]
+}

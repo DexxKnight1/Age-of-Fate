@@ -1,0 +1,1031 @@
+{
+	id: "0252A38B84277ADE"
+	group: "5FA6CDF6F0D49B30"
+	order_index: 1
+	filename: "the_end"
+	title: "&3The End"
+	icon: "minecraft:end_portal_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -0.5d
+			y: 2.0d
+			width: 7.0d
+			height: 3.5d
+			rotation: 0.0d
+			image: "kubejs:textures/item/end_drag.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.1071428571428612d
+			y: -4.9464285714285765d
+			width: 0.3d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -0.5d
+			y: -4.5d
+			shape: "rsquare"
+			id: "1A33EEC89D130D51"
+			tasks: [{
+				id: "7AA522034DCC517D"
+				type: "dimension"
+				title: "Visit Dimension: &2The End"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [
+				{
+					id: "6A44DB9BB8ECB636"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7C847B5B5FEFA09A"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "76D13B915D466A54"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			description: ["The poise forest can be located semi-rarely in the outer islands of the end (where the chorus biome can also spawn)."]
+			dependencies: ["1A33EEC89D130D51"]
+			id: "7E92DD525C638AB2"
+			tasks: [{
+				id: "22202FAAE620AFC3"
+				type: "biome"
+				title: "Visit Biome: &2Poise Forest"
+				icon: "endergetic:poise_cluster"
+				biome: "endergetic:poise_forest"
+			}]
+			rewards: [
+				{
+					id: "60D2439A419D8071"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7C3D87D8FF623A54"
+					type: "item"
+					item: "endergetic:poise_chest"
+				}
+				{
+					id: "4D780F4B3775BD0F"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "44B793AD884BB19B"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: ["7E92DD525C638AB2"]
+			id: "12D7FD4BC49F3D28"
+			tasks: [{
+				id: "65B7F208CD805ADC"
+				type: "item"
+				item: "endergetic:poise_stem"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "6294F7528EF42A9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4D189192CB2CD8C7"
+					type: "item"
+					item: "endergetic:glowing_poise_stem"
+					count: 8
+				}
+				{
+					id: "33DBE85F9287DD24"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "089CA722B341456E"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/booflo.png"
+				}
+			}
+			x: 7.5d
+			y: -1.0d
+			dependencies: ["12D7FD4BC49F3D28"]
+			id: "47D251C3AE1CECAB"
+			tasks: [{
+				id: "2AA082C61D3BC903"
+				type: "kill"
+				entity: "endergetic:booflo"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "7A6E992E324FF9EC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6677FA0C2A5486EA"
+					type: "item"
+					item: "endergetic:poise_bush"
+					count: 2
+				}
+				{
+					id: "5E1DBF9018C0BAC9"
+					type: "item"
+					item: "endergetic:nether_corrock_crown"
+					count: 2
+				}
+				{
+					id: "3CD786ADA342D1A1"
+					type: "item"
+					item: "endergetic:end_corrock_crown"
+					count: 2
+				}
+				{
+					id: "5A1D9100042AFEAC"
+					type: "item"
+					item: "endergetic:overworld_corrock_crown"
+					count: 2
+				}
+				{
+					id: "511EC84BBD36AC6B"
+					type: "item"
+					item: "endergetic:end_corrock"
+					count: 2
+				}
+				{
+					id: "30D2F857C80A1C98"
+					type: "item"
+					item: "endergetic:nether_corrock"
+					count: 2
+				}
+				{
+					id: "0459E53C329EB3FC"
+					type: "item"
+					item: "endergetic:overworld_corrock"
+					count: 2
+				}
+				{
+					id: "63C612DBF309FAAF"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			dependencies: ["1A33EEC89D130D51"]
+			id: "72BAC92E25A843DB"
+			tasks: [{
+				id: "7213771DAF6EBE8F"
+				type: "biome"
+				title: "Visit Biome: &2End Highlands"
+				icon: "quark:myalite"
+				biome: "minecraft:end_highlands"
+			}]
+			rewards: [
+				{
+					id: "08895493C80A1C1A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1FBE3AEF96B31A5C"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "00F5430630C1DD9A"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/endergrade.png"
+				}
+			}
+			x: -6.0d
+			y: -0.5d
+			description: ["The endergrade are flying end creatures that can be found in the end islands. They can be found eating chorus fruit, You can ride them with a saddle and chorus fruit on a stick, Although slow they can be useful when traversing the treacherous landscape, Although they aren't very useful anywhere else as they are very slow and weak."]
+			dependencies: ["0EB7D152A3046A98"]
+			id: "2A4DEBDF3C16E0D2"
+			tasks: [{
+				id: "6BDB8F1B85FCFEE9"
+				type: "kill"
+				entity: "alexsmobs:endergrade"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "5ECC9F8D7B8545BC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "17D90C70A5426D4D"
+					type: "item"
+					item: "apotheosis:pearl_endshelf"
+					count: 6
+				}
+				{
+					id: "0ACEC97840A40BCF"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/enhe.png"
+				}
+			}
+			x: -5.5d
+			y: -1.5d
+			dependencies: ["0EB7D152A3046A98"]
+			id: "192AF43D0151121D"
+			tasks: [{
+				id: "77B7904B490FC543"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "7BB860FBAEDA214F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "49855F9D104D0CF8"
+					type: "item"
+					item: "minecraft:ender_chest"
+				}
+				{
+					id: "4E5161BF07B165FB"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 8
+				}
+				{
+					id: "53E2A05961E9259E"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			dependencies: ["1A33EEC89D130D51"]
+			id: "0EB7D152A3046A98"
+			tasks: [{
+				id: "024418CD55C196F2"
+				type: "biome"
+				title: "Visit Biome: &2End Midlands"
+				icon: "minecraft:end_stone"
+				biome: "minecraft:end_midlands"
+			}]
+			rewards: [
+				{
+					id: "265D010FBEE337B7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7C28D34A2D9C5C28"
+					type: "item"
+					item: "minecraft:end_stone_bricks"
+					count: 16
+				}
+				{
+					id: "7AD259324F15992A"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			title: "Voidstone"
+			x: -8.0d
+			y: -1.5d
+			dependencies: ["0EB7D152A3046A98"]
+			id: "6A196CC789B4198E"
+			tasks: [{
+				id: "5BD41BF45B127C03"
+				type: "item"
+				item: "quark:basalt"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "464A9ED90C6E9FB1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "009C019F324333D0"
+					type: "item"
+					item: {
+						id: "cyclic:charm_void"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "56737A0E9F28DD7A"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "Endimium Shard \\& Endimium Dust"
+			x: -9.0d
+			y: -1.0d
+			dependencies: ["6A196CC789B4198E"]
+			id: "25C3335CD3F77F7F"
+			tasks: [
+				{
+					id: "570FAABD4F397D58"
+					type: "item"
+					item: "terraqueous:endimium_gem"
+					count: 64L
+				}
+				{
+					id: "04E0CFDAA7ECC2D1"
+					type: "item"
+					item: "terraqueous:endimium_dust"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "68498FBF0648B29E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DA859C21F7F0341"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "terraqueous:displacement"
+						}
+					}
+				}
+				{
+					id: "639424D52615F629"
+					type: "item"
+					item: "terraqueous:baked_cloud_talisman"
+				}
+				{
+					id: "4E939CCB21ED46E0"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/enderiophage.png"
+				}
+			}
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["72BAC92E25A843DB"]
+			id: "0BDC4238B58B6AA3"
+			tasks: [{
+				id: "4D2102203B171533"
+				type: "kill"
+				entity: "alexsmobs:enderiophage"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "2169FD2F4375DBC2"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "4C5F5E72ACF5FC3F"
+					type: "item"
+					item: "alexsmobs:capsid"
+				}
+				{
+					id: "111FC0E9EC96D5A1"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "7D59B10281A45CCF"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["1A33EEC89D130D51"]
+			id: "43E4AB9EEE8802A5"
+			tasks: [{
+				id: "58E5632EFADF3740"
+				type: "advancement"
+				title: "Find The End City"
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "59A995F843B7FF18"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7C90A8C55BA6EB2E"
+					type: "item"
+					item: "minecraft:end_rod"
+					count: 16
+				}
+				{
+					id: "6EA9C9AE04A930C4"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 8
+				}
+				{
+					id: "5225BC8CB5FAA85F"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["43E4AB9EEE8802A5"]
+			id: "678CA57E073C80BA"
+			tasks: [{
+				id: "46633E4B108C2AC6"
+				type: "item"
+				item: "minecraft:shulker_shell"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "1FDA1578EB9F4195"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0975E3F36BBEC2EF"
+					type: "item"
+					item: {
+						id: "xreliquary:mob_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							entity: "minecraft:shulker"
+						}
+					}
+				}
+				{
+					id: "60B3378DB3FF67AC"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "7BACABAF70E7DDB5"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["678CA57E073C80BA"]
+			id: "4CA4A097432608A6"
+			tasks: [{
+				id: "76C2007C1CC4C3D1"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29BC463529F2F8B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7841D687047C65A0"
+					type: "item"
+					item: {
+						id: "alexsmobs:tarantula_hawk_elytra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34A26F756362618C"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/mimicube.png"
+				}
+			}
+			x: 1.5d
+			y: -1.0d
+			description: [
+				"Mimicubes are relatives of the slimes of the Overworld and the Magma Cubes of the Nether. These monsters can often be found guarding end cities. Unlike their slimy cousins, these gelatinous creatures possess a more powerful magic than almost any other known beast."
+				""
+				"When attacked, Mimicubes will attempt to mimic the weapons and armor of their attacker. This can mean that anyone wearing a helmet and brandishing a sword can find themselves being attacked by a Mimicube with the exact same equipment."
+				""
+				"Mimicubes can drop some of their magical gel, called Mimicream. One can harness the natural shape-shifting magic of the mimicream by using eight mimicream and any damageable item in the crafting grid. With a few limitations, this can effectively create a mimiced, copied tool or equipment, with almost all the enchantments of the original."
+			]
+			dependencies: ["43E4AB9EEE8802A5"]
+			id: "7F8E159B907F0ADD"
+			tasks: [{
+				id: "21C41E49E874A97A"
+				type: "kill"
+				entity: "alexsmobs:mimicube"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "6F236421DC02AC47"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A2D1428FA952582"
+					type: "item"
+					item: "alexsmobs:mimicream"
+					count: 16
+				}
+				{
+					id: "2EE833D4FAA3F04E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0E7C9EAD092B8229"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["1A33EEC89D130D51"]
+			id: "7B41E22954C3A94D"
+			tasks: [{
+				id: "6328BB51C46208F9"
+				type: "advancement"
+				title: "&2Awake the Ender Dragon... Again!"
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "32AD7BF49CD97C0D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7BF95F4628901421"
+					type: "item"
+					item: "minecraft:end_crystal"
+					count: 4
+				}
+				{
+					id: "47070320DC6355AE"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 16
+				}
+				{
+					id: "79C25B0A910F4EBA"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Enteriophage Rocket"
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["0BDC4238B58B6AA3"]
+			id: "0E37113432F0E8BD"
+			tasks: [{
+				id: "61007DDFB7809E00"
+				type: "item"
+				item: "alexsmobs:enderiophage_rocket"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "0B84E4384A97730F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "41505BE8BBEE534D"
+					type: "item"
+					item: "minecraft:firework_rocket"
+					count: 16
+				}
+				{
+					id: "7C8E498CA961F3B7"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Dragon Sinew"
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["7B41E22954C3A94D"]
+			id: "05968702B44A4E1F"
+			tasks: [{
+				id: "2D98B9F6BEDB6EE9"
+				type: "item"
+				item: "forestcraft:enderite_ingot"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "0784784DD63F919B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7BD84C65DD20EA4D"
+					type: "item"
+					item: "thermal:rf_coil_storage_augment"
+					count: 4
+				}
+				{
+					id: "00D8C615B8711F03"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Dragon Scale"
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["7B41E22954C3A94D"]
+			id: "16343E20329BD2F2"
+			tasks: [{
+				id: "479783FC7A337D9D"
+				type: "item"
+				item: "mysticalagradditions:dragon_scale"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "2785EC384050A4D6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "150C4958D00E8696"
+					type: "item"
+					item: "mysticalagradditions:dragon_egg_crux"
+				}
+				{
+					id: "3CE0A8C2B6A9DF13"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "534B9D6631822B94"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			title: "Dragon Egg"
+			x: -1.0d
+			y: 0.0d
+			dependencies: [
+				"05968702B44A4E1F"
+				"16343E20329BD2F2"
+			]
+			id: "763A800FB961D730"
+			tasks: [{
+				id: "6FEEAC6640BCD560"
+				type: "item"
+				item: "minecraft:dragon_egg"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "77A21343965E0FE0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5BE838BBE0CF5AF2"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 2
+				}
+				{
+					id: "1CB5232AE5F8879D"
+					type: "item"
+					item: "forbidden_arcanus:dark_nether_star"
+					count: 2
+				}
+				{
+					id: "169EE2F0F8604716"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			x: -4.821428571428562d
+			y: -0.625d
+			dependencies: ["192AF43D0151121D"]
+			id: "3636A75AB53F8C36"
+			tasks: [{
+				id: "1526BBF478C0770D"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "1B82E471A74CEBA9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "02FCDBC59D97296D"
+					type: "item"
+					item: {
+						id: "xreliquary:mob_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							entity: "minecraft:enderman"
+						}
+					}
+				}
+				{
+					id: "6A90E6074AEA1489"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3A83D9AE5F170EEA"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 2.642857142857146d
+			y: -0.1607142857142847d
+			dependencies: ["43E4AB9EEE8802A5"]
+			id: "1E9C22F2A7A08C39"
+			tasks: [{
+				id: "6535E019F0CE5D05"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+			rewards: [
+				{
+					id: "3BC9006FE850CD9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "574B2A76703F8366"
+					type: "item"
+					item: {
+						id: "xreliquary:mob_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							entity: "minecraft:endermite"
+						}
+					}
+				}
+				{
+					id: "01FA034CC86CA77A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Enderslime Block"
+			x: -7.5d
+			y: -0.5d
+			dependencies: ["0EB7D152A3046A98"]
+			id: "57E3E092D9605BEE"
+			tasks: [{
+				id: "4C38869DBD48302D"
+				type: "item"
+				item: "tconstruct:ender_slime"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "73FABE203499D3F7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "04EAEFFB859CF9AD"
+					type: "item"
+					item: "tconstruct:ender_slime_sapling"
+				}
+				{
+					id: "4265B29F1E72931B"
+					type: "item"
+					item: "tconstruct:ender_slime_ball"
+					count: 16
+				}
+				{
+					id: "3F4ABB87F3CE134E"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/endslime.png"
+				}
+			}
+			x: -8.0d
+			y: 0.5d
+			dependencies: ["57E3E092D9605BEE"]
+			id: "616C23FBC26366D7"
+			tasks: [{
+				id: "06705BA428CF0901"
+				type: "kill"
+				entity: "tconstruct:ender_slime"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "1B1BE3B4FF361A92"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "072EA5351DBC44DE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "523DD36C361AD567"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["7E92DD525C638AB2"]
+			id: "5FE3C9E85E742804"
+			tasks: [{
+				id: "71910769CFA4585A"
+				type: "item"
+				item: "endergetic:bolloom_fruit"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "1DEEF6DA4E139C72"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "47B49FE37A780929"
+					type: "item"
+					item: "endergetic:poise_bookshelf"
+				}
+				{
+					id: "76F2942BDBFFF9A0"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["5FE3C9E85E742804"]
+			id: "65206F763931628C"
+			tasks: [{
+				id: "13A9095F40F4A575"
+				type: "item"
+				item: "endergetic:eumus_brick"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "6158FC8B6CAD6604"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "6D7EC501D9421748"
+					type: "item"
+					item: "endergetic:eumus_bricks"
+					count: 16
+				}
+				{
+					id: "645378DECF87C27B"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "139F1E037D90D73B"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+	]
+}

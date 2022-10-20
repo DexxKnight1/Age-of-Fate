@@ -1,0 +1,35 @@
+
+#Settings for FluidTank.
+[common]
+	#Remove all recipe to make tanks.
+	RemoveRecipe = false
+	#Debug Mode
+	debug = false
+	#True to show invisible tank in creative tabs. Recipe and block aren't removed.
+	showInvisibleTankInTab = false
+	#Show tank info on TOP tooltip.
+	showTOP = true
+	#True to enable waila and top to show tank info.
+	showToolTipOnMods = true
+	#True to allow fluid supplier to work.
+	enableFluidSupplier = false
+	#False to disable rainbow renderer for pipe.
+	enablePipeRainbowRenderer = false
+	#Default color of pipe. Works only if 'enablePipeRainbowRenderer' is false.
+	pipeColor = -251658241
+	#The lower bound of position of fluid rendering. Default 0.001
+	#Range: 0.0 ~ 1.0
+	renderLowerBound = 0.001
+	#The upper bound of position of fluid rendering. Default 0.999
+	#Range: 0.0 ~ 1.0
+	renderUpperBound = 0.999
+
+	#Recipe settings
+	[common.recipe]
+		#True to use easy recipe.
+		easyRecipe = false
+		#False to prohibit invisible tanks from being used in recipes.
+		usableInvisibleInRecipe = true
+		#False to prohibit tanks with no recipe from being used in recipes of other tanks.
+		usableUnavailableTankInRecipe = true
+

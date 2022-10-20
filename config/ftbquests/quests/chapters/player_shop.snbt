@@ -1,0 +1,4128 @@
+{
+	id: "0B3F9F428A405DEC"
+	group: ""
+	order_index: 2
+	filename: "player_shop"
+	title: "&b&l&oPlayer Shop"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "kubejs:textures/item/pile_coins.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 2.5d
+			y: -5.0d
+			width: 7.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/item/playershop.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.607142857142854d
+			y: -4.482142857142858d
+			width: 1.0d
+			height: 2.0d
+			rotation: 90.0d
+			image: "kubejs:textures/item/firef.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.6785714285714377d
+			y: -4.446428571428569d
+			width: 1.0d
+			height: 2.0d
+			rotation: -90.0d
+			image: "kubejs:textures/item/fire.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/spark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Coal"
+			x: -7.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lCoal"
+			description: [""]
+			id: "79CD04B198CEE74D"
+			tasks: [{
+				id: "6C22AA83A2D50B14"
+				type: "item"
+				item: "minecraft:coal"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "636263BF83113A2C"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Coal trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Lapis Lazuli"
+			x: -6.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lLapis Lazuli"
+			id: "604CECB82227DCA9"
+			tasks: [{
+				id: "0788999E0302EA7E"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6F75CE14B781C6C7"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Lapis Lazuli trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Ender Perarls"
+			x: -3.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lEnder Pearls"
+			id: "31BD884F6E73B384"
+			tasks: [{
+				id: "3D791FC80EE2EC9A"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5465BD8B1A5FEDEC"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Ender Pearls trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Copper"
+			x: -1.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lCopper"
+			id: "4D0586DD28F94813"
+			tasks: [{
+				id: "41D4B4F13A4131C9"
+				type: "item"
+				item: "alltheores:copper_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0F9E4BB0604E123D"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Copper trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Iron"
+			x: 2.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lIron"
+			id: "2B407F58A7830B23"
+			tasks: [{
+				id: "256AEC7D861A8C44"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2C08F9CC059C7F35"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Iron trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			subtitle: "Bay your permission to open trading with &b&lSilver"
+			id: "4F6D5EA2A64D2876"
+			tasks: [{
+				id: "4DB16795A064A5CA"
+				type: "item"
+				item: "alltheores:silver_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "01196C89F5F6C009"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Silver trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lGold"
+			id: "11F2F6D1A7F55E23"
+			tasks: [{
+				id: "616885C48F6A48A8"
+				type: "item"
+				title: "Gold"
+				item: "minecraft:gold_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B2573AF68CF2339"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Gold trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Diamonds"
+			x: 11.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lDiamonds"
+			id: "262C045CC8DEC260"
+			tasks: [{
+				id: "032AC74B94AAA3A1"
+				type: "item"
+				item: "minecraft:diamond"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "491F63BF68D03C73"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Diamond trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Emeralds"
+			x: 10.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lEmeralds"
+			id: "7D16091C0D276750"
+			tasks: [{
+				id: "06023DC6180D40B9"
+				type: "item"
+				item: "minecraft:emerald"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "629EEC625C5F3B2D"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Emerald trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lNetherite"
+			id: "256B748B2F0845FD"
+			tasks: [{
+				id: "32ADC2AFF46CFEEB"
+				type: "item"
+				title: "Netherite"
+				item: "minecraft:netherite_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "58359CA90D98AD9C"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Netherite trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Nether Stars"
+			x: 12.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lNether Stars"
+			id: "56B8BE8DFA26886C"
+			tasks: [{
+				id: "170AD91C6112EFAF"
+				type: "item"
+				item: "minecraft:nether_star"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "48C8EC5FFB6FBCB3"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Nether Stars trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			dependencies: ["79CD04B198CEE74D"]
+			id: "01010E1C2B7C1798"
+			tasks: [{
+				id: "768208D566EB7D48"
+				type: "item"
+				item: "minecraft:coal_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "44755F516DF45087"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["604CECB82227DCA9"]
+			id: "12CD1D92D74D50F5"
+			tasks: [{
+				id: "5D3B47C704B7225A"
+				type: "item"
+				item: "minecraft:lapis_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "280F500D1F1AE81E"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["31BD884F6E73B384"]
+			id: "0929CFB89E04E3CC"
+			tasks: [{
+				id: "595F2DAB58FB159A"
+				type: "item"
+				item: "allthecompressed:ender_pearl_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "01A30C8D9B64A09F"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["4D0586DD28F94813"]
+			id: "4E2A61A0DCF658E1"
+			tasks: [{
+				id: "22BC0CF1D0FD9F55"
+				type: "item"
+				item: "alltheores:copper_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "264F88B966741665"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["2B407F58A7830B23"]
+			id: "124BD34F5184E026"
+			tasks: [{
+				id: "7FA604EDD82C1B1C"
+				type: "item"
+				item: "minecraft:iron_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6EF6B1EFAC688DD1"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["4F6D5EA2A64D2876"]
+			id: "41E7CCDA96DE1F20"
+			tasks: [{
+				id: "12A959D28C7E043D"
+				type: "item"
+				item: "alltheores:silver_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5EE162C64407DB11"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["11F2F6D1A7F55E23"]
+			id: "27E9964B8BD9526D"
+			tasks: [{
+				id: "2C869525BC4848C4"
+				type: "item"
+				item: "minecraft:gold_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5491442E32F9CECC"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			dependencies: ["262C045CC8DEC260"]
+			id: "2C0EDE351998F85F"
+			tasks: [{
+				id: "149F61B9273E44F7"
+				type: "item"
+				item: "minecraft:diamond_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "391FCA3DC91E98BD"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			dependencies: ["7D16091C0D276750"]
+			id: "2A93C43FB66A69B8"
+			tasks: [{
+				id: "00CC7187EAE85AAB"
+				type: "item"
+				item: "minecraft:emerald_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7DCC23A0DCC6E69C"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["256B748B2F0845FD"]
+			id: "1734EBEFAACB058C"
+			tasks: [{
+				id: "5166C231CA974732"
+				type: "item"
+				item: "minecraft:netherite_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4264576D7DF0FD40"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.5d
+			dependencies: ["56B8BE8DFA26886C"]
+			id: "2D3A69FCFB65973A"
+			tasks: [{
+				id: "433DEF7BC6C468CA"
+				type: "item"
+				item: "allthecompressed:nether_star_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "719910DC6F4C935F"
+				type: "ftbmoney:money"
+				ftb_money: 800L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["01010E1C2B7C1798"]
+			id: "2FFED5651C4FBF8A"
+			tasks: [{
+				id: "7CABE9A271441B52"
+				type: "item"
+				item: "allthecompressed:coal_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5058404AD8E50981"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			dependencies: ["2FFED5651C4FBF8A"]
+			id: "70AA53B5FC0DD60F"
+			tasks: [{
+				id: "1EA83EAA9E47A4C7"
+				type: "item"
+				item: "allthecompressed:coal_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3015ADECAF003CEC"
+				type: "ftbmoney:money"
+				ftb_money: 700L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			dependencies: ["70AA53B5FC0DD60F"]
+			id: "705FB104EDFAF027"
+			tasks: [{
+				id: "33E2DC1EB1F476F9"
+				type: "item"
+				item: "allthecompressed:coal_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "27A713C1449E9FC0"
+				type: "ftbmoney:money"
+				ftb_money: 2000L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			dependencies: ["705FB104EDFAF027"]
+			id: "43D1B2DECF66092B"
+			tasks: [{
+				id: "1F20E01D3D7F6273"
+				type: "item"
+				item: "allthecompressed:coal_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7913A96317A1D8CF"
+				type: "ftbmoney:money"
+				ftb_money: 10000L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			dependencies: ["43D1B2DECF66092B"]
+			id: "695347992AA2D5B1"
+			tasks: [{
+				id: "73D6488022DB49B2"
+				type: "item"
+				item: "allthecompressed:coal_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "54467D94560766C9"
+				type: "ftbmoney:money"
+				ftb_money: 100000L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			dependencies: ["695347992AA2D5B1"]
+			id: "32BEF64FE2EC72FB"
+			tasks: [{
+				id: "7C2D74B6DF51AEA3"
+				type: "item"
+				item: "allthecompressed:coal_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "56007873F797FE77"
+				type: "ftbmoney:money"
+				ftb_money: 950000L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 5.5d
+			dependencies: ["32BEF64FE2EC72FB"]
+			id: "56C798AD2F120F40"
+			tasks: [{
+				id: "2A44F37F81514C8F"
+				type: "item"
+				item: "allthecompressed:coal_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "11BE10A8DD8E6EA4"
+				type: "ftbmoney:money"
+				ftb_money: 8500000L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 7.5d
+			dependencies: ["339656C1BA71D1DF"]
+			id: "3DE981ACEDDF2F54"
+			tasks: [{
+				id: "49F4BC94F68A5262"
+				type: "item"
+				item: "allthecompressed:coal_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "434FE82BEE120BC9"
+				type: "ftbmoney:money"
+				ftb_money: 670000000L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 6.5d
+			dependencies: ["56C798AD2F120F40"]
+			id: "339656C1BA71D1DF"
+			tasks: [{
+				id: "39876C1ABCC80E74"
+				type: "item"
+				item: "allthecompressed:coal_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "53C1EA9708313712"
+				type: "ftbmoney:money"
+				ftb_money: 75000000L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["12CD1D92D74D50F5"]
+			id: "0210F8BCA54032A2"
+			tasks: [{
+				id: "5A4AED8E6AA73464"
+				type: "item"
+				item: "allthecompressed:lapis_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "59057019278C4715"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["0210F8BCA54032A2"]
+			id: "178BFA906BC06726"
+			tasks: [{
+				id: "2DFFB7C6BFE81434"
+				type: "item"
+				item: "allthecompressed:lapis_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "46433E66F5952A94"
+				type: "ftbmoney:money"
+				ftb_money: 3500L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["178BFA906BC06726"]
+			id: "38E68D61FFA9C37C"
+			tasks: [{
+				id: "188DB43AB023B8B7"
+				type: "item"
+				item: "allthecompressed:lapis_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1B20366116CD4C93"
+				type: "ftbmoney:money"
+				ftb_money: 8000L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			dependencies: ["38E68D61FFA9C37C"]
+			id: "76CC66026514DC5D"
+			tasks: [{
+				id: "7F0834F772CC0BDB"
+				type: "item"
+				item: "allthecompressed:lapis_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6B4F5E4607659835"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["76CC66026514DC5D"]
+			id: "3E55387A7089AF9A"
+			tasks: [{
+				id: "457631A4CE498C46"
+				type: "item"
+				item: "allthecompressed:lapis_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "065775D6EE6EB43B"
+				type: "ftbmoney:money"
+				ftb_money: 130000L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			dependencies: ["3E55387A7089AF9A"]
+			id: "4DAA27D052008D88"
+			tasks: [{
+				id: "61156F675D584BA1"
+				type: "item"
+				item: "allthecompressed:lapis_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4733A115D491D6BC"
+				type: "ftbmoney:money"
+				ftb_money: 1250000L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.5d
+			dependencies: ["4DAA27D052008D88"]
+			id: "5D95C340B4ED20A0"
+			tasks: [{
+				id: "6E8123133A875DA8"
+				type: "item"
+				item: "allthecompressed:lapis_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7390BF0055723E2F"
+				type: "ftbmoney:money"
+				ftb_money: 11000000L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.5d
+			dependencies: ["5D95C340B4ED20A0"]
+			id: "68C433537F81DAA7"
+			tasks: [{
+				id: "6734D299E6D7F1FF"
+				type: "item"
+				item: "allthecompressed:lapis_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "63135203C7B7A111"
+				type: "ftbmoney:money"
+				ftb_money: 95000000L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.5d
+			dependencies: ["68C433537F81DAA7"]
+			id: "4A4A0646D54D7F5F"
+			tasks: [{
+				id: "10B5F0584FD9D077"
+				type: "item"
+				item: "allthecompressed:lapis_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D32D7EEF4B142EF"
+				type: "ftbmoney:money"
+				ftb_money: 850000000L
+			}]
+		}
+		{
+			title: "Redstone"
+			x: -5.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lRedstone"
+			id: "1D7BABE27DE23311"
+			tasks: [{
+				id: "2033415E0C2DABCB"
+				type: "item"
+				item: "minecraft:redstone"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2250190EFEBC86C3"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Redstone trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["1D7BABE27DE23311"]
+			id: "6BEE85FCB98D262D"
+			tasks: [{
+				id: "7AEAC0811F48E9D0"
+				type: "item"
+				item: "minecraft:redstone_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6EAA8B2D9C34A06F"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["6BEE85FCB98D262D"]
+			id: "1C7E00613A2F3A03"
+			tasks: [{
+				id: "728CCAB5135926E5"
+				type: "item"
+				item: "allthecompressed:redstone_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "305B63E6E8FC6A48"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			dependencies: ["1C7E00613A2F3A03"]
+			id: "1B3E4ABE73A51FDC"
+			tasks: [{
+				id: "6BAEFF29FA84E8BC"
+				type: "item"
+				item: "allthecompressed:redstone_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2254C1622A638D39"
+				type: "ftbmoney:money"
+				ftb_money: 3000L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["1B3E4ABE73A51FDC"]
+			id: "12269067B8336571"
+			tasks: [{
+				id: "228323C35ED440EB"
+				type: "item"
+				item: "allthecompressed:redstone_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6C9E0A8C07883580"
+				type: "ftbmoney:money"
+				ftb_money: 7000L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			dependencies: ["12269067B8336571"]
+			id: "72EBC2D2D97E9B98"
+			tasks: [{
+				id: "7E160C8F7CFC2269"
+				type: "item"
+				item: "allthecompressed:redstone_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "41FA78EFB2D648BA"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			dependencies: ["72EBC2D2D97E9B98"]
+			id: "0D7319E4E586ADCC"
+			tasks: [{
+				id: "4D4E12EF2859A1D7"
+				type: "item"
+				item: "allthecompressed:redstone_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1050F4F9B53B2710"
+				type: "ftbmoney:money"
+				ftb_money: 120000L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			dependencies: ["0D7319E4E586ADCC"]
+			id: "6FD59E4B6FE902DD"
+			tasks: [{
+				id: "76C939A70F80CF02"
+				type: "item"
+				item: "allthecompressed:redstone_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2E6F3B766B9A8993"
+				type: "ftbmoney:money"
+				ftb_money: 1100000L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.5d
+			dependencies: ["6FD59E4B6FE902DD"]
+			id: "48717B81B4263BCF"
+			tasks: [{
+				id: "0AFF4B1CCC8A0F96"
+				type: "item"
+				item: "allthecompressed:redstone_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5272E7751551CFDB"
+				type: "ftbmoney:money"
+				ftb_money: 10000000L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			dependencies: ["48717B81B4263BCF"]
+			id: "4A247BFC53E1BB71"
+			tasks: [{
+				id: "6738026D2501482F"
+				type: "item"
+				item: "allthecompressed:redstone_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5A3DFC722BB277D6"
+				type: "ftbmoney:money"
+				ftb_money: 90000000L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.5d
+			dependencies: ["4A247BFC53E1BB71"]
+			id: "7D37E8D066220E44"
+			tasks: [{
+				id: "6C30664D0C5EAD1B"
+				type: "item"
+				item: "allthecompressed:redstone_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "44A4B2ADA00274A0"
+				type: "ftbmoney:money"
+				ftb_money: 810000000L
+			}]
+		}
+		{
+			title: "Glowstone"
+			x: -4.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lGlowstone"
+			id: "144CF0005B86C4C4"
+			tasks: [{
+				id: "6728DA6BD7855ABB"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1DD4F94A1B21A21D"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Glowstone trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["144CF0005B86C4C4"]
+			id: "123F69EE3F7AE513"
+			tasks: [{
+				id: "0893405C3F483495"
+				type: "item"
+				item: "minecraft:glowstone"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "02A9B5755003DD12"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["123F69EE3F7AE513"]
+			id: "12E919F01C1AD603"
+			tasks: [{
+				id: "45B918CCD3859013"
+				type: "item"
+				item: "allthecompressed:glowstone_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "506EBD935E55921B"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			dependencies: ["12E919F01C1AD603"]
+			id: "5F7B2FF0BFB87221"
+			tasks: [{
+				id: "1741A546C2899237"
+				type: "item"
+				item: "allthecompressed:glowstone_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0C0A65E77015189A"
+				type: "ftbmoney:money"
+				ftb_money: 3000L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["5F7B2FF0BFB87221"]
+			id: "017BC13E815AD04B"
+			tasks: [{
+				id: "42806C59AA3D291D"
+				type: "item"
+				item: "allthecompressed:glowstone_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "475A57C5FB097890"
+				type: "ftbmoney:money"
+				ftb_money: 7000L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["017BC13E815AD04B"]
+			id: "023603F8B92C7D48"
+			tasks: [{
+				id: "2213233A2E87DD6E"
+				type: "item"
+				item: "allthecompressed:glowstone_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7274C51792C0EDD9"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			dependencies: ["023603F8B92C7D48"]
+			id: "1C14D84650FB95EF"
+			tasks: [{
+				id: "2C3F8C493ECB88D2"
+				type: "item"
+				item: "allthecompressed:glowstone_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "47E0024440174073"
+				type: "ftbmoney:money"
+				ftb_money: 120000L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			dependencies: ["1C14D84650FB95EF"]
+			id: "5ED3B91A587B8D60"
+			tasks: [{
+				id: "33633F6976DAFA11"
+				type: "item"
+				item: "allthecompressed:glowstone_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4912E0A43A9067BF"
+				type: "ftbmoney:money"
+				ftb_money: 1100000L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			dependencies: ["5ED3B91A587B8D60"]
+			id: "778ACB52C726F686"
+			tasks: [{
+				id: "5D52D8D9E7BF8010"
+				type: "item"
+				item: "allthecompressed:glowstone_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "414231E05FF7ACE9"
+				type: "ftbmoney:money"
+				ftb_money: 10000000L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			dependencies: ["778ACB52C726F686"]
+			id: "24CF9826CFDFB97B"
+			tasks: [{
+				id: "23C678F9D36662C7"
+				type: "item"
+				item: "allthecompressed:glowstone_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6931A32D7CBD0949"
+				type: "ftbmoney:money"
+				ftb_money: 90000000L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.5d
+			dependencies: ["24CF9826CFDFB97B"]
+			id: "5D1945FF496AF7CA"
+			tasks: [{
+				id: "7391BB6F5F154BC3"
+				type: "item"
+				item: "allthecompressed:glowstone_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2F03B03A91D523D7"
+				type: "ftbmoney:money"
+				ftb_money: 810000000L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["0929CFB89E04E3CC"]
+			id: "342D9BA60AE9F2C1"
+			tasks: [{
+				id: "3ACE49358FD67848"
+				type: "item"
+				item: "allthecompressed:ender_pearl_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "004D8796A1952F62"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["342D9BA60AE9F2C1"]
+			id: "02D4C1A24BF9A47F"
+			tasks: [{
+				id: "4CB218646DA2143E"
+				type: "item"
+				item: "allthecompressed:ender_pearl_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "158A995041C1CFDF"
+				type: "ftbmoney:money"
+				ftb_money: 3500L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["02D4C1A24BF9A47F"]
+			id: "5B263C31B2F6F89C"
+			tasks: [{
+				id: "43466C1275B280D7"
+				type: "item"
+				item: "allthecompressed:ender_pearl_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "46575123190910C2"
+				type: "ftbmoney:money"
+				ftb_money: 8000L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			dependencies: ["5B263C31B2F6F89C"]
+			id: "078A5026895BBD1B"
+			tasks: [{
+				id: "17264A16A8D6A625"
+				type: "item"
+				item: "allthecompressed:ender_pearl_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7D2C073B6659C903"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["078A5026895BBD1B"]
+			id: "24B4380439DC6839"
+			tasks: [{
+				id: "2282FFA4233C9B77"
+				type: "item"
+				item: "allthecompressed:ender_pearl_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6E1D9DD6C4F29D41"
+				type: "ftbmoney:money"
+				ftb_money: 130000L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["24B4380439DC6839"]
+			id: "56AE94C00209408A"
+			tasks: [{
+				id: "440B2F2CA7CD1B12"
+				type: "item"
+				item: "allthecompressed:ender_pearl_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5763CDC64DF18AFB"
+				type: "ftbmoney:money"
+				ftb_money: 1250000L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			dependencies: ["56AE94C00209408A"]
+			id: "182C59A167CBAFE0"
+			tasks: [{
+				id: "132B056676BA3BA8"
+				type: "item"
+				item: "allthecompressed:ender_pearl_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "36F39AF56C15C718"
+				type: "ftbmoney:money"
+				ftb_money: 11000000L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			dependencies: ["182C59A167CBAFE0"]
+			id: "15A2105180DF3955"
+			tasks: [{
+				id: "7078C79ED7745B50"
+				type: "item"
+				item: "allthecompressed:ender_pearl_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "610A0C606C43AE1D"
+				type: "ftbmoney:money"
+				ftb_money: 95000000L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["15A2105180DF3955"]
+			id: "2DB870A819D1AE0E"
+			tasks: [{
+				id: "5556678405AAA134"
+				type: "item"
+				item: "allthecompressed:ender_pearl_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "59FB8334D5FA4E3E"
+				type: "ftbmoney:money"
+				ftb_money: 850000000L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lTin"
+			id: "2C525CE679492BD2"
+			tasks: [{
+				id: "4AFF62D2DEE30549"
+				type: "item"
+				title: "Tin"
+				item: "alltheores:tin_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "249914658B984E68"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Tin trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lLead"
+			id: "50771D8994DDFE0C"
+			tasks: [{
+				id: "1546E370B8732AA1"
+				type: "item"
+				title: "Lead"
+				item: "alltheores:lead_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6B806D276FD8992F"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Lead trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Nickel"
+			x: 5.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lNickel"
+			id: "346A0055619BB815"
+			tasks: [{
+				id: "70B0F745631E906A"
+				type: "item"
+				item: "alltheores:nickel_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5DE4F30C39423783"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Nickel trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Platinum"
+			x: 6.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lPlatinum"
+			id: "0B1A9117508057B8"
+			tasks: [{
+				id: "2BC0AF9B5E0E4FF0"
+				type: "item"
+				item: "alltheores:platinum_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3A83CAE13BFF1338"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Platinum trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Uranium"
+			x: 7.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lUranium"
+			id: "6B6C57B1805CFDC7"
+			tasks: [{
+				id: "5AC0CE1B3FCFFA19"
+				type: "item"
+				item: "alltheores:uranium_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2BF9EE9037AD38F4"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Uranium trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Aluminum"
+			x: -2.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lAluminum"
+			id: "37E4D5411095CCC5"
+			tasks: [{
+				id: "72915E9A6BAD9C9F"
+				type: "item"
+				item: "alltheores:aluminum_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4761B8F10273C9D0"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Aluminum trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			subtitle: "Buy your permission to open trading with &b&lOsmium"
+			id: "7AEBA3E1980CB63B"
+			tasks: [{
+				id: "1506EDA496667D62"
+				type: "item"
+				title: "Osmium"
+				item: "alltheores:osmium_ingot"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "075E015313C6CF03"
+				type: "item"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/trading_permission.png"
+					}
+				}
+				item: {
+					id: "kubejs:trading_permission"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Osmium trading permission\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["37E4D5411095CCC5"]
+			id: "0DB0726243A71776"
+			tasks: [{
+				id: "36C86CF79AA60E21"
+				type: "item"
+				item: "alltheores:aluminum_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4CDBB6FEBD387C2D"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["0DB0726243A71776"]
+			id: "76F2A2828FE7BC47"
+			tasks: [{
+				id: "7827769247400F1F"
+				type: "item"
+				item: "allthecompressed:aluminum_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "11D0C4B04329446C"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["76F2A2828FE7BC47"]
+			id: "360BA84BC08A66D9"
+			tasks: [{
+				id: "5786D3FB0AD8E1AD"
+				type: "item"
+				item: "allthecompressed:aluminum_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4998DF3EA0555359"
+				type: "ftbmoney:money"
+				ftb_money: 700L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["360BA84BC08A66D9"]
+			id: "49615F4951D12968"
+			tasks: [{
+				id: "3064D706C64482A9"
+				type: "item"
+				item: "allthecompressed:aluminum_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4A03099B5AEFB953"
+				type: "ftbmoney:money"
+				ftb_money: 2000L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["49615F4951D12968"]
+			id: "232C53D9E9B9A8C4"
+			tasks: [{
+				id: "5C192088428D7C53"
+				type: "item"
+				item: "allthecompressed:aluminum_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2F4DE795620F4DC3"
+				type: "ftbmoney:money"
+				ftb_money: 10000L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["232C53D9E9B9A8C4"]
+			id: "285C0605FCD56EFA"
+			tasks: [{
+				id: "4D81625D0467F77D"
+				type: "item"
+				item: "allthecompressed:aluminum_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "65CD6D4069C226BD"
+				type: "ftbmoney:money"
+				ftb_money: 100000L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			dependencies: ["285C0605FCD56EFA"]
+			id: "2A57E2AA7C13CEB0"
+			tasks: [{
+				id: "250F733C33954DE6"
+				type: "item"
+				item: "allthecompressed:aluminum_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "369DE9E878F5CECF"
+				type: "ftbmoney:money"
+				ftb_money: 950000L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["2A57E2AA7C13CEB0"]
+			id: "6598F858AF09C9EB"
+			tasks: [{
+				id: "769AA1C933FBE4A1"
+				type: "item"
+				item: "allthecompressed:aluminum_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "48ED6376EC9F02C6"
+				type: "ftbmoney:money"
+				ftb_money: 8500000L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			dependencies: ["6598F858AF09C9EB"]
+			id: "1B02EB0F9235A060"
+			tasks: [{
+				id: "340F35A3C8778BC7"
+				type: "item"
+				item: "allthecompressed:aluminum_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4281D2E05692DAC2"
+				type: "ftbmoney:money"
+				ftb_money: 75000000L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			dependencies: ["1B02EB0F9235A060"]
+			id: "248C7F8C72DF878A"
+			tasks: [{
+				id: "2C93D8211F49E8EB"
+				type: "item"
+				item: "allthecompressed:aluminum_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "43AFD0F67E4149E8"
+				type: "ftbmoney:money"
+				ftb_money: 670000000L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["4E2A61A0DCF658E1"]
+			id: "1D3A632B0123DB63"
+			tasks: [{
+				id: "7E2AA3C4687C7225"
+				type: "item"
+				item: "allthecompressed:copper_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "665D706DA9BFD7E9"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["1D3A632B0123DB63"]
+			id: "2DB047F25F27CC85"
+			tasks: [{
+				id: "5960C8EB7C0B4042"
+				type: "item"
+				item: "allthecompressed:copper_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "55AC69105E0F5EE3"
+				type: "ftbmoney:money"
+				ftb_money: 700L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["2DB047F25F27CC85"]
+			id: "30F573D5ACCB3C46"
+			tasks: [{
+				id: "1FDDE05EDD7D2E89"
+				type: "item"
+				item: "allthecompressed:copper_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "78F6E5B2DE57D38C"
+				type: "ftbmoney:money"
+				ftb_money: 2000L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["30F573D5ACCB3C46"]
+			id: "666DAE10199871CA"
+			tasks: [{
+				id: "08F8AB555557066A"
+				type: "item"
+				item: "allthecompressed:copper_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "439C204AC2C71FE2"
+				type: "ftbmoney:money"
+				ftb_money: 10000L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["666DAE10199871CA"]
+			id: "1D915B24A50E93AB"
+			tasks: [{
+				id: "3F2C74B9C8E9CC05"
+				type: "item"
+				item: "allthecompressed:copper_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "10B4743170E0B1A6"
+				type: "ftbmoney:money"
+				ftb_money: 100000L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["1D915B24A50E93AB"]
+			id: "322C1E985E522C7B"
+			tasks: [{
+				id: "318A1C5409DB37B5"
+				type: "item"
+				item: "allthecompressed:copper_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0C0BA87E772A876E"
+				type: "ftbmoney:money"
+				ftb_money: 950000L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			dependencies: ["322C1E985E522C7B"]
+			id: "71C03FC513A5CC4D"
+			tasks: [{
+				id: "66340B879AE4C35E"
+				type: "item"
+				item: "allthecompressed:copper_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "75BCD6478846DD9B"
+				type: "ftbmoney:money"
+				ftb_money: 8500000L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			dependencies: ["71C03FC513A5CC4D"]
+			id: "7946BF5216C4510A"
+			tasks: [{
+				id: "09417F381AB999AA"
+				type: "item"
+				item: "allthecompressed:copper_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "68BE1E789B025C22"
+				type: "ftbmoney:money"
+				ftb_money: 75000000L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			dependencies: ["7946BF5216C4510A"]
+			id: "1651048B2905FFA9"
+			tasks: [{
+				id: "7F370D040C4F75E1"
+				type: "item"
+				item: "allthecompressed:copper_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "58FA3BB8D64BCADD"
+				type: "ftbmoney:money"
+				ftb_money: 670000000L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["2C525CE679492BD2"]
+			id: "7D018655DF69B349"
+			tasks: [{
+				id: "2F0CFCD195503885"
+				type: "item"
+				item: "alltheores:tin_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "485F85724E9C5F87"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["7D018655DF69B349"]
+			id: "4D95B76D9D3D78DB"
+			tasks: [{
+				id: "1038762009D84C37"
+				type: "item"
+				item: "allthecompressed:tin_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "45137B7DAC515645"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["4D95B76D9D3D78DB"]
+			id: "354BD41284803B53"
+			tasks: [{
+				id: "41C7C9BCAF10F2BD"
+				type: "item"
+				item: "allthecompressed:tin_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7C903ABF67243E66"
+				type: "ftbmoney:money"
+				ftb_money: 3000L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["354BD41284803B53"]
+			id: "2D254F36B7DD1DBE"
+			tasks: [{
+				id: "5D0FE4B643E9292C"
+				type: "item"
+				item: "allthecompressed:tin_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2BE20A545A5B569B"
+				type: "ftbmoney:money"
+				ftb_money: 7000L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["2D254F36B7DD1DBE"]
+			id: "46685852FD2F46FC"
+			tasks: [{
+				id: "4BAAA673DC746EBB"
+				type: "item"
+				item: "allthecompressed:tin_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "20A2CF1200307F35"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["46685852FD2F46FC"]
+			id: "0B3FC4948D76AFA8"
+			tasks: [{
+				id: "49D86411B71B8485"
+				type: "item"
+				item: "allthecompressed:tin_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "23D49F97AC7153BB"
+				type: "ftbmoney:money"
+				ftb_money: 120000L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["0B3FC4948D76AFA8"]
+			id: "182C892B9984DA60"
+			tasks: [{
+				id: "3EC05230CE89B0F8"
+				type: "item"
+				item: "allthecompressed:tin_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5C61497961C162F9"
+				type: "ftbmoney:money"
+				ftb_money: 1100000L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["182C892B9984DA60"]
+			id: "5B7999E53ED25FC4"
+			tasks: [{
+				id: "477245F3670D52B9"
+				type: "item"
+				item: "allthecompressed:tin_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B4691CBBC98BA61"
+				type: "ftbmoney:money"
+				ftb_money: 10000000L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["5B7999E53ED25FC4"]
+			id: "34FCC8DACECBC07E"
+			tasks: [{
+				id: "0E77D9978A18AE88"
+				type: "item"
+				item: "allthecompressed:tin_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5222349680F0EB9F"
+				type: "ftbmoney:money"
+				ftb_money: 90000000L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["34FCC8DACECBC07E"]
+			id: "709672694CAE6DB7"
+			tasks: [{
+				id: "2BADE93AC52F3568"
+				type: "item"
+				item: "allthecompressed:tin_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6A304CC9C2E044DA"
+				type: "ftbmoney:money"
+				ftb_money: 810000000L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["50771D8994DDFE0C"]
+			id: "7C4A78776B2025BC"
+			tasks: [{
+				id: "57FF5DB490821EB8"
+				type: "item"
+				item: "alltheores:lead_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "443313E3017EBD4B"
+				type: "ftbmoney:money"
+				ftb_money: 150L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["7C4A78776B2025BC"]
+			id: "2EC461ECB0A4F291"
+			tasks: [{
+				id: "738564D9B6A305D4"
+				type: "item"
+				item: "allthecompressed:lead_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "12191B2CE1C06E98"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["2EC461ECB0A4F291"]
+			id: "10E93DDECB61A749"
+			tasks: [{
+				id: "0BD819BA1BBE7FFA"
+				type: "item"
+				item: "allthecompressed:lead_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "62A25C2BB8784808"
+				type: "ftbmoney:money"
+				ftb_money: 3000L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["10E93DDECB61A749"]
+			id: "1AD6F5D8D9D6F6CB"
+			tasks: [{
+				id: "38976A0D0BDBE2F7"
+				type: "item"
+				item: "allthecompressed:lead_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3F02CF4CAD50C8B8"
+				type: "ftbmoney:money"
+				ftb_money: 7000L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["1AD6F5D8D9D6F6CB"]
+			id: "67185BE28D50A14C"
+			tasks: [{
+				id: "333FE07E329F5EA8"
+				type: "item"
+				item: "allthecompressed:lead_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7BB30387CD8FA2C2"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["67185BE28D50A14C"]
+			id: "52F5B35024E58C34"
+			tasks: [{
+				id: "04D200C8A4113A86"
+				type: "item"
+				item: "allthecompressed:lead_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "385B0EA11DDC5469"
+				type: "ftbmoney:money"
+				ftb_money: 120000L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["52F5B35024E58C34"]
+			id: "02A1A787E9582A46"
+			tasks: [{
+				id: "7B1A1C9C3081FD8F"
+				type: "item"
+				item: "allthecompressed:lead_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7C5F43531D25D26A"
+				type: "ftbmoney:money"
+				ftb_money: 1100000L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["02A1A787E9582A46"]
+			id: "0D419D92A9570566"
+			tasks: [{
+				id: "42F73A2AEB7621E3"
+				type: "item"
+				item: "allthecompressed:lead_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "37CCA8D2C0BBC50E"
+				type: "ftbmoney:money"
+				ftb_money: 10000000L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			dependencies: ["0D419D92A9570566"]
+			id: "4A1ECF25AF9BD0D6"
+			tasks: [{
+				id: "2D3984F287DC306F"
+				type: "item"
+				item: "allthecompressed:lead_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "105A9EE83D94284C"
+				type: "ftbmoney:money"
+				ftb_money: 90000000L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			dependencies: ["4A1ECF25AF9BD0D6"]
+			id: "42BF2FBDDF374B58"
+			tasks: [{
+				id: "53F2A483BF278DE3"
+				type: "item"
+				item: "allthecompressed:lead_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1C78B1CDF9202C1B"
+				type: "ftbmoney:money"
+				ftb_money: 810000000L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["124BD34F5184E026"]
+			id: "57E15824E47A6EE2"
+			tasks: [{
+				id: "4F841ED89965F984"
+				type: "item"
+				item: "allthecompressed:iron_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "036947A4CA5A619B"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["57E15824E47A6EE2"]
+			id: "1CEC3DF845EB0534"
+			tasks: [{
+				id: "6DF50AE37A978B58"
+				type: "item"
+				item: "allthecompressed:iron_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "401C3F74A09FC1E7"
+				type: "ftbmoney:money"
+				ftb_money: 3000L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["1CEC3DF845EB0534"]
+			id: "4F0816CD2602D652"
+			tasks: [{
+				id: "31E9DE1E379644E0"
+				type: "item"
+				item: "allthecompressed:iron_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B1AEC25DAFCC237"
+				type: "ftbmoney:money"
+				ftb_money: 7000L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["4F0816CD2602D652"]
+			id: "3A3C9D9AA53A6028"
+			tasks: [{
+				id: "3FE96BBE512C2B1F"
+				type: "item"
+				item: "allthecompressed:iron_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "32D8FD735DD37B90"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["3A3C9D9AA53A6028"]
+			id: "4F525A251CA08095"
+			tasks: [{
+				id: "6D4CF2835BB7B137"
+				type: "item"
+				item: "allthecompressed:iron_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "70B861D552127850"
+				type: "ftbmoney:money"
+				ftb_money: 120000L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			dependencies: ["4F525A251CA08095"]
+			id: "33DDB564C3AE0EFF"
+			tasks: [{
+				id: "2F25D9D695810D7F"
+				type: "item"
+				item: "allthecompressed:iron_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0F40C16A2265E6B3"
+				type: "ftbmoney:money"
+				ftb_money: 1100000L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			dependencies: ["33DDB564C3AE0EFF"]
+			id: "354A0C256315940B"
+			tasks: [{
+				id: "27ED53467C7D2C11"
+				type: "item"
+				item: "allthecompressed:iron_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "57962A130EEBB030"
+				type: "ftbmoney:money"
+				ftb_money: 10000000L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			dependencies: ["354A0C256315940B"]
+			id: "7487ADB3944286AF"
+			tasks: [{
+				id: "418C9C63389D4A2D"
+				type: "item"
+				item: "allthecompressed:iron_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "47D0EBAEDCC7B4F0"
+				type: "ftbmoney:money"
+				ftb_money: 90000000L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			dependencies: ["7487ADB3944286AF"]
+			id: "6B5F49778A5C3366"
+			tasks: [{
+				id: "2B9607E776FD648D"
+				type: "item"
+				item: "allthecompressed:iron_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "644989C29EC46D53"
+				type: "ftbmoney:money"
+				ftb_money: 810000000L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["41E7CCDA96DE1F20"]
+			id: "7934B39B20D980C3"
+			tasks: [{
+				id: "3791B8559D75F768"
+				type: "item"
+				item: "allthecompressed:silver_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "65F8D209AD52C01D"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["7934B39B20D980C3"]
+			id: "032573E22A147809"
+			tasks: [{
+				id: "02DCAFF4C5C8A556"
+				type: "item"
+				item: "allthecompressed:silver_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "100A238384E001AA"
+				type: "ftbmoney:money"
+				ftb_money: 3000L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["032573E22A147809"]
+			id: "39F2C384C388CBFF"
+			tasks: [{
+				id: "44573108A97AEE5C"
+				type: "item"
+				item: "allthecompressed:silver_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "498BC540FD7D9293"
+				type: "ftbmoney:money"
+				ftb_money: 7000L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["39F2C384C388CBFF"]
+			id: "696D31252F990557"
+			tasks: [{
+				id: "4B43BA6CA936C5D9"
+				type: "item"
+				item: "allthecompressed:silver_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7BBE9588BFC85582"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["696D31252F990557"]
+			id: "7B3F2DA927083A65"
+			tasks: [{
+				id: "7D649994E96B2BE7"
+				type: "item"
+				item: "allthecompressed:silver_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4F26B1FFB99D3C10"
+				type: "ftbmoney:money"
+				ftb_money: 120000L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["7B3F2DA927083A65"]
+			id: "579FF8812E08653E"
+			tasks: [{
+				id: "682EB3F452A2EF46"
+				type: "item"
+				item: "allthecompressed:silver_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3AA15371AFDD28C0"
+				type: "ftbmoney:money"
+				ftb_money: 1100000L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			dependencies: ["579FF8812E08653E"]
+			id: "063E74B87741D550"
+			tasks: [{
+				id: "5DFA80A913D161D3"
+				type: "item"
+				item: "allthecompressed:silver_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "06DB93708BDD40C8"
+				type: "ftbmoney:money"
+				ftb_money: 10000000L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			dependencies: ["063E74B87741D550"]
+			id: "7600BF30EBA63B91"
+			tasks: [{
+				id: "4D429526431AD679"
+				type: "item"
+				item: "allthecompressed:silver_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3964083CFC8F2E42"
+				type: "ftbmoney:money"
+				ftb_money: 90000000L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["7600BF30EBA63B91"]
+			id: "55A6F108EBCDB9C9"
+			tasks: [{
+				id: "618ED510DCAB81F2"
+				type: "item"
+				item: "allthecompressed:silver_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "369322598F226B03"
+				type: "ftbmoney:money"
+				ftb_money: 810000000L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["27E9964B8BD9526D"]
+			id: "68968918B319B10A"
+			tasks: [{
+				id: "70625CB44338E84D"
+				type: "item"
+				item: "allthecompressed:gold_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "222F5EC8A118B178"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["68968918B319B10A"]
+			id: "1636586B28F46C5F"
+			tasks: [{
+				id: "583376E4033C1A15"
+				type: "item"
+				item: "allthecompressed:gold_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2EB253DF933829FB"
+				type: "ftbmoney:money"
+				ftb_money: 3500L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["1636586B28F46C5F"]
+			id: "398593911481298C"
+			tasks: [{
+				id: "19FEC41604D37D08"
+				type: "item"
+				item: "allthecompressed:gold_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6751B315453964D3"
+				type: "ftbmoney:money"
+				ftb_money: 8000L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["398593911481298C"]
+			id: "23B157213D942FAE"
+			tasks: [{
+				id: "50D34FD642EDC07D"
+				type: "item"
+				item: "allthecompressed:gold_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "57A8DD4656BE294C"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["23B157213D942FAE"]
+			id: "34293D3A086DE463"
+			tasks: [{
+				id: "4810D645A7534BB5"
+				type: "item"
+				item: "allthecompressed:gold_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "083791C64EAFA091"
+				type: "ftbmoney:money"
+				ftb_money: 130000L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["34293D3A086DE463"]
+			id: "3A4A6C0DA3E9568F"
+			tasks: [{
+				id: "7FA9E020129CB244"
+				type: "item"
+				item: "allthecompressed:gold_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "26E4D58332A8A6EC"
+				type: "ftbmoney:money"
+				ftb_money: 1250000L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["3A4A6C0DA3E9568F"]
+			id: "6047B6DDE4E2626E"
+			tasks: [{
+				id: "5FB509AF82810F5F"
+				type: "item"
+				item: "allthecompressed:gold_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "510B6AC8C85F93E3"
+				type: "ftbmoney:money"
+				ftb_money: 11000000L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			dependencies: ["6047B6DDE4E2626E"]
+			id: "047BC33597BEBD0A"
+			tasks: [{
+				id: "252D3FDE4E31988E"
+				type: "item"
+				item: "allthecompressed:gold_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "199C545B99A4F2A3"
+				type: "ftbmoney:money"
+				ftb_money: 95000000L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.5d
+			dependencies: ["047BC33597BEBD0A"]
+			id: "0824379669382814"
+			tasks: [{
+				id: "4A0A496B06CF279F"
+				type: "item"
+				item: "allthecompressed:gold_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "215763D8C13A3F2B"
+				type: "ftbmoney:money"
+				ftb_money: 850000000L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["346A0055619BB815"]
+			id: "3FB14FAC268A7109"
+			tasks: [{
+				id: "427DDF84E0A61022"
+				type: "item"
+				item: "alltheores:nickel_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6010A3BFF41DDCD2"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["3FB14FAC268A7109"]
+			id: "085A6140020F9ED6"
+			tasks: [{
+				id: "60B81FACA7352D7E"
+				type: "item"
+				item: "allthecompressed:nickel_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0B8451A2E060CC4D"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["085A6140020F9ED6"]
+			id: "2A09768810A4BDC5"
+			tasks: [{
+				id: "02A54B61C6090669"
+				type: "item"
+				item: "allthecompressed:nickel_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2C57D4BFB3DE986E"
+				type: "ftbmoney:money"
+				ftb_money: 3500L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["2A09768810A4BDC5"]
+			id: "653B32A1E41FBBA9"
+			tasks: [{
+				id: "40982D84B7660707"
+				type: "item"
+				item: "allthecompressed:nickel_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "40D811692BC62C64"
+				type: "ftbmoney:money"
+				ftb_money: 8000L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["653B32A1E41FBBA9"]
+			id: "2E0FAF296D13610B"
+			tasks: [{
+				id: "2D12E17A268B0164"
+				type: "item"
+				item: "allthecompressed:nickel_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6E306228A19D6650"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["2E0FAF296D13610B"]
+			id: "4785B695C6101996"
+			tasks: [{
+				id: "661A971B614DE05B"
+				type: "item"
+				item: "allthecompressed:nickel_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "25165F9DB11D7F4C"
+				type: "ftbmoney:money"
+				ftb_money: 130000L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["4785B695C6101996"]
+			id: "3710F55722D02562"
+			tasks: [{
+				id: "2D71E725563E5E6C"
+				type: "item"
+				item: "allthecompressed:nickel_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "029438E906BA0682"
+				type: "ftbmoney:money"
+				ftb_money: 1250000L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["3710F55722D02562"]
+			id: "5AD20032350490B8"
+			tasks: [{
+				id: "31CA779B565554C2"
+				type: "item"
+				item: "allthecompressed:nickel_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "47EA837755EDE74C"
+				type: "ftbmoney:money"
+				ftb_money: 11000000L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			dependencies: ["5AD20032350490B8"]
+			id: "3D52D7B777745618"
+			tasks: [{
+				id: "5F7476D9DC4301A4"
+				type: "item"
+				item: "allthecompressed:nickel_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "193D19037E2D50B7"
+				type: "ftbmoney:money"
+				ftb_money: 95000000L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			dependencies: ["3D52D7B777745618"]
+			id: "6CD73321786C67DF"
+			tasks: [{
+				id: "0219D0917A45073D"
+				type: "item"
+				item: "allthecompressed:nickel_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "30B0CA8AAC5A14BA"
+				type: "ftbmoney:money"
+				ftb_money: 850000000L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["0B1A9117508057B8"]
+			id: "59CE9F6895A96591"
+			tasks: [{
+				id: "4704DF00EF81ECD3"
+				type: "item"
+				item: "alltheores:platinum_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "306010D993B1F59D"
+				type: "ftbmoney:money"
+				ftb_money: 400L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["59CE9F6895A96591"]
+			id: "13CA7BF3B96C6205"
+			tasks: [{
+				id: "2FAC70F6938EDAE5"
+				type: "item"
+				item: "allthecompressed:platinum_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "47EAE6ADFA3DD061"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["13CA7BF3B96C6205"]
+			id: "39631F9AE243646B"
+			tasks: [{
+				id: "4D961E510F6C2F5B"
+				type: "item"
+				item: "allthecompressed:platinum_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "158DA1AB25C3F3F3"
+				type: "ftbmoney:money"
+				ftb_money: 5000L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["39631F9AE243646B"]
+			id: "19CC049DEAFC728D"
+			tasks: [{
+				id: "1C6AE0C0063AA0FF"
+				type: "item"
+				item: "allthecompressed:platinum_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4CF61CCD2CF61C25"
+				type: "ftbmoney:money"
+				ftb_money: 15000L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["19CC049DEAFC728D"]
+			id: "733A15268208D625"
+			tasks: [{
+				id: "004A0B327AA559D5"
+				type: "item"
+				item: "allthecompressed:platinum_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7C1AE0663A5F9DF1"
+				type: "ftbmoney:money"
+				ftb_money: 30000L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["733A15268208D625"]
+			id: "4FDC593C44BE25B6"
+			tasks: [{
+				id: "7AC24722708F12C4"
+				type: "item"
+				item: "allthecompressed:platinum_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "78D8DB8DB18562A8"
+				type: "ftbmoney:money"
+				ftb_money: 170000L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			dependencies: ["4FDC593C44BE25B6"]
+			id: "3D703DFD5CBEE45C"
+			tasks: [{
+				id: "758AF2031AD72166"
+				type: "item"
+				item: "allthecompressed:platinum_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "59EF3EAF0DAE30EF"
+				type: "ftbmoney:money"
+				ftb_money: 1600000L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			dependencies: ["3D703DFD5CBEE45C"]
+			id: "18F1B8991D4B00FD"
+			tasks: [{
+				id: "020870E5E8BCA420"
+				type: "item"
+				item: "allthecompressed:platinum_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5C1ABE27FA87A893"
+				type: "ftbmoney:money"
+				ftb_money: 14000000L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			dependencies: ["18F1B8991D4B00FD"]
+			id: "3480494996AC3BFA"
+			tasks: [{
+				id: "571A9E8506B3E91E"
+				type: "item"
+				item: "allthecompressed:platinum_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5CF5C2B051AE864C"
+				type: "ftbmoney:money"
+				ftb_money: 125000000L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			dependencies: ["3480494996AC3BFA"]
+			id: "496CB103795FB8D5"
+			tasks: [{
+				id: "7F0A9BE6216774F5"
+				type: "item"
+				item: "allthecompressed:platinum_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1051406B7386C010"
+				type: "ftbmoney:money"
+				ftb_money: 1000000000L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["6B6C57B1805CFDC7"]
+			id: "0BF6B8E0FDBE70D8"
+			tasks: [{
+				id: "412EB8B713F7DB56"
+				type: "item"
+				item: "alltheores:uranium_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7756C3A571AECE3F"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			dependencies: ["0BF6B8E0FDBE70D8"]
+			id: "7C96E64901673E6C"
+			tasks: [{
+				id: "0DE47276C9F2B1EA"
+				type: "item"
+				item: "allthecompressed:uranium_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "02800130F1ED6E17"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			dependencies: ["7C96E64901673E6C"]
+			id: "59ECCD4D53EDC9AA"
+			tasks: [{
+				id: "2DBB6C816D3F637D"
+				type: "item"
+				item: "allthecompressed:uranium_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "207B61D20B123147"
+				type: "ftbmoney:money"
+				ftb_money: 3500L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["59ECCD4D53EDC9AA"]
+			id: "38AA5AACD24CD5CE"
+			tasks: [{
+				id: "5484154984FCC94C"
+				type: "item"
+				item: "allthecompressed:uranium_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B4BBA5CAD75C9A7"
+				type: "ftbmoney:money"
+				ftb_money: 8000L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			dependencies: ["38AA5AACD24CD5CE"]
+			id: "064503F7D4C6523C"
+			tasks: [{
+				id: "068484446E0B76B4"
+				type: "item"
+				item: "allthecompressed:uranium_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "54F3A77866963CB7"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			dependencies: ["064503F7D4C6523C"]
+			id: "324C1DCF75086914"
+			tasks: [{
+				id: "2FE925CA9D037AEC"
+				type: "item"
+				item: "allthecompressed:uranium_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2219115262F9AF45"
+				type: "ftbmoney:money"
+				ftb_money: 130000L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			dependencies: ["324C1DCF75086914"]
+			id: "1667B04CE8D41617"
+			tasks: [{
+				id: "56D52D97BBF3DBC0"
+				type: "item"
+				item: "allthecompressed:uranium_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "524C5EEB84136032"
+				type: "ftbmoney:money"
+				ftb_money: 1250000L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			dependencies: ["1667B04CE8D41617"]
+			id: "7165876A884E67D1"
+			tasks: [{
+				id: "53C9126796868921"
+				type: "item"
+				item: "allthecompressed:uranium_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "61C083E5F1C3AC5B"
+				type: "ftbmoney:money"
+				ftb_money: 11000000L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			dependencies: ["7165876A884E67D1"]
+			id: "4A61E1318521A224"
+			tasks: [{
+				id: "17BD7ACA0BB60D4F"
+				type: "item"
+				item: "allthecompressed:uranium_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4012A71FB38D052C"
+				type: "ftbmoney:money"
+				ftb_money: 95000000L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.5d
+			dependencies: ["4A61E1318521A224"]
+			id: "16E003AC2D89FF17"
+			tasks: [{
+				id: "49B94F8878975591"
+				type: "item"
+				item: "allthecompressed:uranium_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E3CC1BC9363CEC5"
+				type: "ftbmoney:money"
+				ftb_money: 850000000L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			dependencies: ["7AEBA3E1980CB63B"]
+			id: "545480723751930D"
+			tasks: [{
+				id: "6E191CBAF3E04AB0"
+				type: "item"
+				item: "alltheores:osmium_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0AE998220A52DDFA"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["545480723751930D"]
+			id: "00D219E78FE279D9"
+			tasks: [{
+				id: "52C2835A11F3D403"
+				type: "item"
+				item: "allthecompressed:osmium_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "79D574900E6011C4"
+				type: "ftbmoney:money"
+				ftb_money: 500L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			dependencies: ["00D219E78FE279D9"]
+			id: "39438F3F69C6E492"
+			tasks: [{
+				id: "345C81CF2B29A77E"
+				type: "item"
+				item: "allthecompressed:osmium_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1EFCEACFFB3EFE91"
+				type: "ftbmoney:money"
+				ftb_money: 3500L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["39438F3F69C6E492"]
+			id: "309A86F08C2AE812"
+			tasks: [{
+				id: "7C12342A41A6AB82"
+				type: "item"
+				item: "allthecompressed:osmium_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "553DD3FA813EC4FC"
+				type: "ftbmoney:money"
+				ftb_money: 8000L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["309A86F08C2AE812"]
+			id: "778CF22D2DF5AC45"
+			tasks: [{
+				id: "3F305DDF72F7B96D"
+				type: "item"
+				item: "allthecompressed:osmium_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "356874C655302947"
+				type: "ftbmoney:money"
+				ftb_money: 17000L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			dependencies: ["778CF22D2DF5AC45"]
+			id: "31DE7D514E82DC84"
+			tasks: [{
+				id: "4E9116A94DB789B3"
+				type: "item"
+				item: "allthecompressed:osmium_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "04225A126B39C5B1"
+				type: "ftbmoney:money"
+				ftb_money: 130000L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			dependencies: ["31DE7D514E82DC84"]
+			id: "25FFBEEA38C215C8"
+			tasks: [{
+				id: "441747E07C57E198"
+				type: "item"
+				item: "allthecompressed:osmium_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7F74F27BC25A1A87"
+				type: "ftbmoney:money"
+				ftb_money: 1250000L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			dependencies: ["25FFBEEA38C215C8"]
+			id: "66301976464B02AD"
+			tasks: [{
+				id: "4B23CB03980A5A1A"
+				type: "item"
+				item: "allthecompressed:osmium_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5B251A289AE34F63"
+				type: "ftbmoney:money"
+				ftb_money: 11000000L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			dependencies: ["66301976464B02AD"]
+			id: "2BD8CCDD2610A564"
+			tasks: [{
+				id: "18FFA642FEC580ED"
+				type: "item"
+				item: "allthecompressed:osmium_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7F92D9118DCA339B"
+				type: "ftbmoney:money"
+				ftb_money: 95000000L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			dependencies: ["2BD8CCDD2610A564"]
+			id: "59D2C68B671A96A6"
+			tasks: [{
+				id: "093D896729D77D6F"
+				type: "item"
+				item: "allthecompressed:osmium_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6DDF9A551E5CAB5E"
+				type: "ftbmoney:money"
+				ftb_money: 850000000L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			dependencies: ["2C0EDE351998F85F"]
+			id: "2FF2A11F1CD78423"
+			tasks: [{
+				id: "2D36F60342DF1E24"
+				type: "item"
+				item: "allthecompressed:diamond_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3F49847125E972EC"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			dependencies: ["2FF2A11F1CD78423"]
+			id: "373D5E1FF2DAF927"
+			tasks: [{
+				id: "519AE34121416BD0"
+				type: "item"
+				item: "allthecompressed:diamond_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "183A55CBCF7F8F51"
+				type: "ftbmoney:money"
+				ftb_money: 5000L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			dependencies: ["373D5E1FF2DAF927"]
+			id: "75D2D43FD3FF53F6"
+			tasks: [{
+				id: "78F0DE24657AE97C"
+				type: "item"
+				item: "allthecompressed:diamond_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2227177D155F0F69"
+				type: "ftbmoney:money"
+				ftb_money: 15000L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			dependencies: ["75D2D43FD3FF53F6"]
+			id: "4D2FDCA45884ADDD"
+			tasks: [{
+				id: "3064A99617A4031B"
+				type: "item"
+				item: "allthecompressed:diamond_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5272129DCC157735"
+				type: "ftbmoney:money"
+				ftb_money: 30000L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 3.5d
+			dependencies: ["4D2FDCA45884ADDD"]
+			id: "32EB9AEC2DF4B106"
+			tasks: [{
+				id: "3C18831046276D87"
+				type: "item"
+				item: "allthecompressed:diamond_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7AC1D12EA05DA699"
+				type: "ftbmoney:money"
+				ftb_money: 170000L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			dependencies: ["32EB9AEC2DF4B106"]
+			id: "29678E0C75524FEF"
+			tasks: [{
+				id: "6D8A68477DA67257"
+				type: "item"
+				item: "allthecompressed:diamond_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "01BE57ABA1F68B2E"
+				type: "ftbmoney:money"
+				ftb_money: 1600000L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.5d
+			dependencies: ["29678E0C75524FEF"]
+			id: "4AE47D9552DC6D8F"
+			tasks: [{
+				id: "14A7ADE2D078DF5C"
+				type: "item"
+				item: "allthecompressed:diamond_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3BA9F1F52FA35021"
+				type: "ftbmoney:money"
+				ftb_money: 14000000L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 6.5d
+			dependencies: ["4AE47D9552DC6D8F"]
+			id: "1EFCEEBD109EDDFF"
+			tasks: [{
+				id: "2632E7AEB0C7E762"
+				type: "item"
+				item: "allthecompressed:diamond_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5D753BD04C55FCB5"
+				type: "ftbmoney:money"
+				ftb_money: 125000000L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 7.5d
+			dependencies: ["1EFCEEBD109EDDFF"]
+			id: "082973211B463C92"
+			tasks: [{
+				id: "3767B1DFBA7E3C9B"
+				type: "item"
+				item: "allthecompressed:diamond_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "01E4469D85609D41"
+				type: "ftbmoney:money"
+				ftb_money: 1000000000L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			dependencies: ["2A93C43FB66A69B8"]
+			id: "5A34ADF8CA18A658"
+			tasks: [{
+				id: "332AF1C1FF5FD6A6"
+				type: "item"
+				item: "allthecompressed:emerald_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "719CBCC6E9D7C3FD"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			dependencies: ["5A34ADF8CA18A658"]
+			id: "07DEFD73284145E5"
+			tasks: [{
+				id: "39DF1392433CBEBA"
+				type: "item"
+				item: "allthecompressed:emerald_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1A724B4096307B8F"
+				type: "ftbmoney:money"
+				ftb_money: 5000L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			dependencies: ["07DEFD73284145E5"]
+			id: "7768AD5F3A831073"
+			tasks: [{
+				id: "39424018D3498851"
+				type: "item"
+				item: "allthecompressed:emerald_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "054EB957CC6ED718"
+				type: "ftbmoney:money"
+				ftb_money: 15000L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			dependencies: ["7768AD5F3A831073"]
+			id: "0BF6424C683D15AC"
+			tasks: [{
+				id: "51BCAE8BBD2746A5"
+				type: "item"
+				item: "allthecompressed:emerald_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "24D372DB82DB5487"
+				type: "ftbmoney:money"
+				ftb_money: 30000L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			dependencies: ["0BF6424C683D15AC"]
+			id: "1B41706728581675"
+			tasks: [{
+				id: "3161AC66C1FBD70E"
+				type: "item"
+				item: "allthecompressed:emerald_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3B94A260262DC341"
+				type: "ftbmoney:money"
+				ftb_money: 170000L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			dependencies: ["1B41706728581675"]
+			id: "6449586ABA7114B3"
+			tasks: [{
+				id: "2DA3DC624F6FF324"
+				type: "item"
+				item: "allthecompressed:emerald_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "12BF3A44A32D8161"
+				type: "ftbmoney:money"
+				ftb_money: 1600000L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			dependencies: ["6449586ABA7114B3"]
+			id: "2422041855709153"
+			tasks: [{
+				id: "075E2A36BACD322E"
+				type: "item"
+				item: "allthecompressed:emerald_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7F89AD77D9538792"
+				type: "ftbmoney:money"
+				ftb_money: 14000000L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.5d
+			dependencies: ["2422041855709153"]
+			id: "021F62BBB53FA9F5"
+			tasks: [{
+				id: "192483EE29ACA16B"
+				type: "item"
+				item: "allthecompressed:emerald_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2D06955981E1EC93"
+				type: "ftbmoney:money"
+				ftb_money: 125000000L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.5d
+			dependencies: ["021F62BBB53FA9F5"]
+			id: "1FB7DA6D296E9AE8"
+			tasks: [{
+				id: "1DB72DF51BF270AE"
+				type: "item"
+				item: "allthecompressed:emerald_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "39C45F48519D322E"
+				type: "ftbmoney:money"
+				ftb_money: 1000000000L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["1734EBEFAACB058C"]
+			id: "7928D94EA8907AF8"
+			tasks: [{
+				id: "6A6DE20BEC42665F"
+				type: "item"
+				item: "allthecompressed:netherite_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "63BA1C7DD62D2E4B"
+				type: "ftbmoney:money"
+				ftb_money: 1000L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			dependencies: ["7928D94EA8907AF8"]
+			id: "56ACAC890EE49B21"
+			tasks: [{
+				id: "1E78F5AA97BE8A37"
+				type: "item"
+				item: "allthecompressed:netherite_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4ECC02D827BCAB38"
+				type: "ftbmoney:money"
+				ftb_money: 5000L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			dependencies: ["56ACAC890EE49B21"]
+			id: "37B69F7EA8F8EA2E"
+			tasks: [{
+				id: "48C639E2B116AEE5"
+				type: "item"
+				item: "allthecompressed:netherite_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4C05D3F99868AFFD"
+				type: "ftbmoney:money"
+				ftb_money: 15000L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			dependencies: ["37B69F7EA8F8EA2E"]
+			id: "7CC3AB7E0C9C31D6"
+			tasks: [{
+				id: "0AC47D40125E7C91"
+				type: "item"
+				item: "allthecompressed:netherite_block_4x"
+				consume_items: false
+			}]
+			rewards: [{
+				id: "72F84CDB17147801"
+				type: "ftbmoney:money"
+				ftb_money: 30000L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			dependencies: ["7CC3AB7E0C9C31D6"]
+			id: "0DE0DED1892DAD0F"
+			tasks: [{
+				id: "0032DE8809F5FD6F"
+				type: "item"
+				item: "allthecompressed:netherite_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "21804B01638C0BC3"
+				type: "ftbmoney:money"
+				ftb_money: 170000L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			dependencies: ["0DE0DED1892DAD0F"]
+			id: "16A44D1375B22E03"
+			tasks: [{
+				id: "60179FB71CDA322C"
+				type: "item"
+				item: "allthecompressed:netherite_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "35DAA37B83D90E0D"
+				type: "ftbmoney:money"
+				ftb_money: 1600000L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			dependencies: ["16A44D1375B22E03"]
+			id: "051FE9693FA85465"
+			tasks: [{
+				id: "612815354752F65C"
+				type: "item"
+				item: "allthecompressed:netherite_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "530085CF8DA5CAB8"
+				type: "ftbmoney:money"
+				ftb_money: 14000000L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			dependencies: ["051FE9693FA85465"]
+			id: "2FD1A21AE9ECD900"
+			tasks: [{
+				id: "71612A21D911328E"
+				type: "item"
+				item: "allthecompressed:netherite_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4505E6A60A23CAF1"
+				type: "ftbmoney:money"
+				ftb_money: 125000000L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 7.5d
+			dependencies: ["2FD1A21AE9ECD900"]
+			id: "022C375ADF78801A"
+			tasks: [{
+				id: "736103F02CAC1767"
+				type: "item"
+				item: "allthecompressed:netherite_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "416CE1146AF3B7A5"
+				type: "ftbmoney:money"
+				ftb_money: 1000000000L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -0.5d
+			dependencies: ["2D3A69FCFB65973A"]
+			id: "4D538EE66FDF37B9"
+			tasks: [{
+				id: "6629F595F97597C0"
+				type: "item"
+				item: "allthecompressed:nether_star_block_1x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "25D3A6D42A0D077B"
+				type: "ftbmoney:money"
+				ftb_money: 2000L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			dependencies: ["4D538EE66FDF37B9"]
+			id: "3C9E42FD03B6906F"
+			tasks: [{
+				id: "2668B6739F335AEF"
+				type: "item"
+				item: "allthecompressed:nether_star_block_2x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7667CCA54A83BBC6"
+				type: "ftbmoney:money"
+				ftb_money: 10000L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			dependencies: ["3C9E42FD03B6906F"]
+			id: "4022F9B757D3D655"
+			tasks: [{
+				id: "16479984BEDCDFDC"
+				type: "item"
+				item: "allthecompressed:nether_star_block_3x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2F3500467C41A2D8"
+				type: "ftbmoney:money"
+				ftb_money: 30000L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			dependencies: ["4022F9B757D3D655"]
+			id: "4D149965A5A8BF30"
+			tasks: [{
+				id: "0D6E9AE288EA0C9D"
+				type: "item"
+				item: "allthecompressed:nether_star_block_4x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "777249DDFD13DDB4"
+				type: "ftbmoney:money"
+				ftb_money: 60000L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.5d
+			dependencies: ["4D149965A5A8BF30"]
+			id: "0EA9C1C45FC7EA87"
+			tasks: [{
+				id: "79A2AD18DCA5384E"
+				type: "item"
+				item: "allthecompressed:nether_star_block_5x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "091D7B1496C89753"
+				type: "ftbmoney:money"
+				ftb_money: 340000L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			dependencies: ["0EA9C1C45FC7EA87"]
+			id: "58376360B57D5006"
+			tasks: [{
+				id: "452A03BD0BEA3461"
+				type: "item"
+				item: "allthecompressed:nether_star_block_6x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1D9C0FE6F08F2E1C"
+				type: "ftbmoney:money"
+				ftb_money: 3200000L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.5d
+			dependencies: ["58376360B57D5006"]
+			id: "1D75CBE81DFC89A8"
+			tasks: [{
+				id: "7B293C9147C588F0"
+				type: "item"
+				item: "allthecompressed:nether_star_block_7x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "50966D4720E85E6F"
+				type: "ftbmoney:money"
+				ftb_money: 28000000L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.5d
+			dependencies: ["1D75CBE81DFC89A8"]
+			id: "366B4B2007157630"
+			tasks: [{
+				id: "29DCD4685E43D491"
+				type: "item"
+				item: "allthecompressed:nether_star_block_8x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "60F4F7519222832B"
+				type: "ftbmoney:money"
+				ftb_money: 250000000L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.5d
+			dependencies: ["366B4B2007157630"]
+			id: "33447BA3EADA4199"
+			tasks: [{
+				id: "019CAA62C75783ED"
+				type: "item"
+				item: "allthecompressed:nether_star_block_9x"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "61E0E5F8EC8DDD7D"
+				type: "ftbmoney:money"
+				ftb_money: 5000000000L
+			}]
+		}
+	]
+}

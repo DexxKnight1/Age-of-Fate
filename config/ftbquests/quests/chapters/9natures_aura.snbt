@@ -1,0 +1,1482 @@
+{
+	id: "1A7890A14912C685"
+	group: "15F5BAC0BCC22DEF"
+	order_index: 0
+	filename: "9natures_aura"
+	title: "&9Nature's Aura"
+	icon: "naturesaura:gold_leaf"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.2142857142857153d
+		y: -9.553571428571427d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "naturesaura:book"
+				}
+			}
+			x: -0.5d
+			y: -9.0d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oSign the contract&r quest*"
+			dependencies: ["071125FC42EBEAB9"]
+			size: 1.5d
+			id: "5CD1D8CD682498B1"
+			tasks: [{
+				id: "3B58A7DA71C8D336"
+				type: "checkmark"
+				title: "&6&lWelcome to Nature's Aura"
+			}]
+			rewards: [
+				{
+					id: "4E7F0005C3F5BF97"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "54D6557089B2C60F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			dependencies: ["5CD1D8CD682498B1"]
+			id: "7FA3BB537E606DD9"
+			tasks: [{
+				id: "26740C87F556AFAA"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+			}]
+			rewards: [
+				{
+					id: "2964B637EE8A17CF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2EC913344CC771C9"
+					type: "item"
+					item: "naturesaura:golden_leaves"
+					count: 4
+				}
+				{
+					id: "491E45C23B45F6FF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			dependencies: ["7FA3BB537E606DD9"]
+			id: "540F24CCEC11EF80"
+			tasks: [{
+				id: "17D09B1124064592"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+			}]
+			rewards: [
+				{
+					id: "1203381C67E76548"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "440E85476349A466"
+					type: "item"
+					item: "naturesaura:aura_bloom"
+					count: 8
+				}
+				{
+					id: "51C1C78C4A7AB619"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4CA1B55334F4A48B"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			dependencies: ["540F24CCEC11EF80"]
+			id: "6096B32F24156DAA"
+			tasks: [{
+				id: "0120DF89A07CB1E4"
+				type: "item"
+				item: "naturesaura:gold_powder"
+			}]
+			rewards: [
+				{
+					id: "24DA2010714C8E01"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7102C4A23789BA34"
+					type: "item"
+					item: "naturesaura:gold_powder"
+					count: 3
+				}
+				{
+					id: "042A76C431C0B104"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "034C2BA93D359B20"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Wooden Stand"
+			x: -0.5d
+			y: -4.5d
+			dependencies: ["540F24CCEC11EF80"]
+			id: "01308DE801778949"
+			tasks: [{
+				id: "2CE102E5D8AFBCE0"
+				type: "item"
+				item: "naturesaura:wood_stand"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "3EB11A877F79401A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "333A97F89E5BD707"
+					type: "item"
+					item: "naturesaura:nether_grass"
+					count: 6
+				}
+				{
+					id: "67A9DF970983C9DF"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "03D082581F6A26DA"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			icon: "naturesaura:nature_altar"
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["55D4D9204BBA0B2F"]
+			id: "1294AA16EB85EBB4"
+			tasks: [
+				{
+					id: "4C3EAB8A068100C1"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "52BEC8609217DA8B"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 20L
+				}
+				{
+					id: "6F6FF8B2139C0684"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 8L
+				}
+				{
+					id: "39C6E0AC96A45D62"
+					type: "item"
+					item: "naturesaura:gold_brick"
+					count: 8L
+				}
+				{
+					id: "238E560DB0D4D179"
+					type: "item"
+					item: "minecraft:chiseled_stone_bricks"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "36DD1E43CDA9C765"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C2AB1AA8ADB5A2C"
+					type: "item"
+					item: "naturesaura:shockwave_creator"
+				}
+				{
+					id: "7AB66223D2C5EF77"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "1E4C6299C71C1901"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			dependencies: [
+				"26AEDF96F510061C"
+				"0DA4018FAEC34E37"
+				"713CA847896F563A"
+			]
+			id: "1AC0E360702623FE"
+			tasks: [{
+				id: "2F8E984E7E625954"
+				type: "item"
+				item: "naturesaura:offering_table"
+			}]
+			rewards: [
+				{
+					id: "657F1BD5787395CC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "70830D1576C64A99"
+					type: "item"
+					item: "simplylight:lamp_post"
+				}
+				{
+					id: "140BC75FC52EC681"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "43C7CC83E6E65B6F"
+					type: "ftbmoney:money"
+					ftb_money: 101L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["01308DE801778949"]
+			id: "55D4D9204BBA0B2F"
+			tasks: [{
+				id: "09D8CA3972EF8D73"
+				type: "item"
+				item: "naturesaura:token_joy"
+			}]
+			rewards: [
+				{
+					id: "3C95F83DDE6C1E44"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "1FE1E8132EF39039"
+					type: "item"
+					item: "naturesaura:spring"
+				}
+				{
+					id: "2238556146DEA258"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "14C4A98A4E0A4287"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["1294AA16EB85EBB4"]
+			id: "713CA847896F563A"
+			tasks: [{
+				id: "31169615E4739978"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+			rewards: [
+				{
+					id: "6A1172324EA732BD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "10217D2C9FEAC057"
+					type: "item"
+					item: "naturesaura:death_ring"
+				}
+				{
+					id: "0A40801F61DC0AE0"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "52900D0C7C83FA39"
+					type: "ftbmoney:money"
+					ftb_money: 44L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["01308DE801778949"]
+			id: "0DA4018FAEC34E37"
+			tasks: [{
+				id: "298E9BBB95FF6997"
+				type: "item"
+				item: "naturesaura:token_fear"
+			}]
+			rewards: [
+				{
+					id: "402AC3A02C55A481"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "708E0FD8902865CC"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 8
+				}
+				{
+					id: "243BF4238D928F06"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "5A1E42A7F7576360"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			dependencies: ["01308DE801778949"]
+			id: "26AEDF96F510061C"
+			tasks: [{
+				id: "22F56373B9B8FF37"
+				type: "item"
+				item: "naturesaura:token_sorrow"
+			}]
+			rewards: [
+				{
+					id: "1B981AC67591A2B7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2D1377468D7BEF70"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 8
+				}
+				{
+					id: "428172EDC74B69B5"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4BB48B241ACFC1A1"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			dependencies: ["1AC0E360702623FE"]
+			id: "13477EEDB1F7E316"
+			tasks: [{
+				id: "03E968F3D392953F"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+			rewards: [
+				{
+					id: "21CA7316561FB75E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "305811BBDC26CA89"
+					type: "item"
+					item: "naturesaura:animal_generator"
+				}
+				{
+					id: "4F71887F2219D96B"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "51C207F161FEC8F4"
+					type: "ftbmoney:money"
+					ftb_money: 55L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			dependencies: ["1AC0E360702623FE"]
+			id: "46AED245E29A7C51"
+			tasks: [
+				{
+					id: "47898273256C8FD2"
+					type: "item"
+					item: "naturesaura:clock_hand"
+				}
+				{
+					id: "17F792A7D310D9B6"
+					type: "item"
+					item: "naturesaura:time_changer"
+				}
+			]
+			rewards: [
+				{
+					id: "1E3FC9725898F4D8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4D82A49ECDD19BE2"
+					type: "item"
+					item: "naturesaura:end_city_finder"
+				}
+				{
+					id: "17E1AB0A7E5110E5"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "721DAB5B1457D45A"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["55D4D9204BBA0B2F"]
+			id: "4A7A2865AC5023C1"
+			tasks: [{
+				id: "201B3B74BD44EBB3"
+				type: "item"
+				item: "naturesaura:token_euphoria"
+			}]
+			rewards: [
+				{
+					id: "5076E6F58E2D7307"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "127D17CC0AF367FA"
+					type: "item"
+					item: "naturesaura:color_changer"
+				}
+				{
+					id: "23613F228E24E587"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0A33904299E9F346"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			dependencies: ["0DA4018FAEC34E37"]
+			id: "6B271A33379F4E07"
+			tasks: [{
+				id: "1D3D9881F0636459"
+				type: "item"
+				item: "naturesaura:token_terror"
+			}]
+			rewards: [
+				{
+					id: "3DB0CA0CC88190AB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "52175E7176CBFB55"
+					type: "item"
+					item: "naturesaura:placer"
+				}
+				{
+					id: "56B049AF7955D291"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "46EFB7C3F2585519"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -6.0d
+			dependencies: ["0CA20A8FCEBF4E49"]
+			id: "359D15F5BF7BF7F9"
+			tasks: [{
+				id: "0F3FE8BD23FAC894"
+				type: "item"
+				item: "naturesaura:token_rage"
+			}]
+			rewards: [
+				{
+					id: "1D014DB1C46F728E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "68A580F5F23853AF"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "604BCAFAB283192F"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "233DBE0A5EBE6B00"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			dependencies: ["01308DE801778949"]
+			id: "0CA20A8FCEBF4E49"
+			tasks: [{
+				id: "33D7C2B99531D9FC"
+				type: "item"
+				item: "naturesaura:token_anger"
+			}]
+			rewards: [
+				{
+					id: "4525BA90720EBCB1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5D3B3983A2F1E1D4"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "5F5F77CB5198B6D4"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["01308DE801778949"]
+			id: "6FB21CED07FF123A"
+			tasks: [{
+				id: "7FFCA9DACC87D4B0"
+				type: "item"
+				item: "naturesaura:eye"
+			}]
+			rewards: [
+				{
+					id: "18031E5B258C3D1E"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "034F651A0CEA48B3"
+					type: "item"
+					item: {
+						id: "eidolon:cleaving_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "52C3740AA0F6A9A0"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "046057250777E94F"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			dependencies: ["6FB21CED07FF123A"]
+			id: "026D46341C66192C"
+			tasks: [{
+				id: "4EFAE93BA53CCFB0"
+				type: "item"
+				item: "naturesaura:eye_improved"
+			}]
+			rewards: [
+				{
+					id: "48EFF669608916F0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "399FDB6D9CCF8381"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "29EA9DF109A89C95"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.6071428571428541d
+			y: -5.875d
+			dependencies: ["01308DE801778949"]
+			id: "6BC0A378E8461EC1"
+			tasks: [{
+				id: "3B3C8244CBFD60F0"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+			rewards: [
+				{
+					id: "7FB6DEAE4273F6A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E37ECDDD2231864"
+					type: "item"
+					item: {
+						id: "treasure2:skeleton_key"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								durability: 5
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0473CED257C78BBD"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "678D901858CD8C2C"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["1294AA16EB85EBB4"]
+			id: "7E228CA7729F37FA"
+			tasks: [{
+				id: "787D2018593D9163"
+				type: "item"
+				item: "naturesaura:conversion_catalyst"
+			}]
+			rewards: [
+				{
+					id: "3FDA96DAD65CB426"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00B8DC04CD77A40E"
+					type: "item"
+					item: "naturesaura:outpost_finder"
+				}
+				{
+					id: "248E70B4448FB4FC"
+					type: "item"
+					item: "naturesaura:birth_spirit"
+				}
+				{
+					id: "0310904312BAFBB3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "18353B9E788EF35C"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["1294AA16EB85EBB4"]
+			id: "355E10CBDBFE50F0"
+			tasks: [{
+				id: "72C2E2292796F117"
+				type: "item"
+				item: "naturesaura:crushing_catalyst"
+			}]
+			rewards: [
+				{
+					id: "333856B55B6145BB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "108EE594CE77058D"
+					type: "item"
+					item: "naturesaura:break_prevention"
+				}
+				{
+					id: "7325F6A7E81480B2"
+					type: "item"
+					item: "naturesaura:mover_cart"
+				}
+				{
+					id: "0A018E50288577D0"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "14E3BC0D72E5F44B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			dependencies: ["26AEDF96F510061C"]
+			id: "64742723F9E345C7"
+			tasks: [{
+				id: "47DD8A54D04E464A"
+				type: "item"
+				item: "naturesaura:token_grief"
+			}]
+			rewards: [
+				{
+					id: "3EA3F2195107A03C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "19C4D8C095ACC120"
+					type: "item"
+					item: "naturesaura:blast_furnace_booster"
+				}
+				{
+					id: "378C67132123865F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "151ECA606E44F358"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -7.0d
+			dependencies: ["64742723F9E345C7"]
+			id: "503DBEB4CD411F3C"
+			tasks: [{
+				id: "05C12922D9FE86E5"
+				type: "item"
+				item: "naturesaura:pet_reviver"
+			}]
+			rewards: [
+				{
+					id: "6670BCE91B1EF32D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6E596E804431272E"
+					type: "item"
+					item: "naturesaura:fortress_finder"
+				}
+				{
+					id: "73E175E6AED2412C"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "283CAD1A8D699440"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["713CA847896F563A"]
+			id: "3E8919ACCC998919"
+			tasks: [{
+				id: "24D7574DEBF5AE59"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+			}]
+			rewards: [
+				{
+					id: "3FF628023169B027"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "36DAB22325BAAF26"
+					type: "item"
+					item: "naturesaura:end_flower"
+					count: 16
+				}
+				{
+					id: "5D981949868B79BB"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "517275C64292A279"
+					type: "ftbmoney:money"
+					ftb_money: 47L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["713CA847896F563A"]
+			id: "1C7DAF2388B28BB9"
+			tasks: [{
+				id: "4DD099FDF2733199"
+				type: "item"
+				item: "naturesaura:range_visualizer"
+			}]
+			rewards: [
+				{
+					id: "5263078C6FB104AA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "61BE413B38D00EF6"
+					type: "item"
+					item: "naturesaura:field_creator"
+				}
+				{
+					id: "5FE5359DEEEA14FF"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "17F8EF005CCD4A99"
+					type: "ftbmoney:money"
+					ftb_money: 22L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["3E8919ACCC998919"]
+			id: "3620B4D5E51B8E2E"
+			tasks: [{
+				id: "037466E314FAF6C5"
+				type: "item"
+				item: "naturesaura:aura_trove"
+			}]
+			rewards: [
+				{
+					id: "59E8CD848BB205B4"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "55F750504203D50F"
+					type: "item"
+					item: "naturesaura:slime_split_generator"
+				}
+				{
+					id: "1DEA89E42F177736"
+					type: "random"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "3BA40AD7CE92FBAF"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "53591D009AD5AB42"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["713CA847896F563A"]
+			id: "3CA57107EB36818B"
+			tasks: [{
+				id: "723B08E8116F503B"
+				type: "item"
+				item: "naturesaura:aura_cache"
+			}]
+			rewards: [
+				{
+					id: "4E17196C319AE5E9"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "75690F2C3F787BC5"
+					type: "item"
+					item: "naturesaura:auto_crafter"
+				}
+				{
+					id: "1D93141FA9CCD88E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "25F37B76A7E85EE0"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			dependencies: ["3E8919ACCC998919"]
+			id: "60234F5F814BD630"
+			tasks: [{
+				id: "61ECC36C6023AC57"
+				type: "item"
+				item: "naturesaura:generator_limit_remover"
+			}]
+			rewards: [
+				{
+					id: "044FBEA49DC354D2"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "78BE45161AC251AA"
+					type: "item"
+					item: "naturesaura:weather_changer"
+				}
+				{
+					id: "709046F3248A97FE"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "012951BAEA80B854"
+					type: "ftbmoney:money"
+					ftb_money: 77L
+				}
+			]
+		}
+		{
+			x: 7.892857142857139d
+			y: -2.660714285714292d
+			dependencies: ["3E8919ACCC998919"]
+			id: "1038985DB4FF4362"
+			tasks: [{
+				id: "79156E3779CD512A"
+				type: "item"
+				item: "naturesaura:calling_spirit"
+			}]
+			rewards: [
+				{
+					id: "6E1E85F724254804"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "573625E5F705FFBA"
+					type: "item"
+					item: "naturesaura:potion_generator"
+				}
+				{
+					id: "1B2FE1B5F92DAE1B"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "3FD3F5F79D68CBC9"
+					type: "ftbmoney:money"
+					ftb_money: 88L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["55D4D9204BBA0B2F"]
+			id: "5754548A868D6BCB"
+			tasks: [{
+				id: "42E1C0F6914FF5B6"
+				type: "item"
+				item: "naturesaura:moss_generator"
+			}]
+			rewards: [
+				{
+					id: "6C6F9C394DBCDAD4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "27F6A7E73F5133EB"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B5A9C8821E988B0"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "4E5564549E93343B"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "300523B818FDB3FA"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "71271DDBC86462E2"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["0DA4018FAEC34E37"]
+			id: "1EE1E21E198493C2"
+			tasks: [{
+				id: "1F3AA44F7615756D"
+				type: "item"
+				item: "naturesaura:oak_generator"
+			}]
+			rewards: [
+				{
+					id: "0442D216DA0EED8D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "77B65D0D31281EBF"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7EEC393F5D4644C0"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			dependencies: ["55D4D9204BBA0B2F"]
+			id: "5AA4DAFD48B32DE4"
+			tasks: [{
+				id: "564B283FB509ACE4"
+				type: "item"
+				item: "naturesaura:flower_generator"
+			}]
+			rewards: [
+				{
+					id: "570C248B757219CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F5DE78A2F93A044"
+					type: "item"
+					item: "naturesaura:aura_detector"
+					count: 4
+				}
+				{
+					id: "523AA0A346DBDD3F"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "2E82C4F36F7E69C6"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.3392857142857153d
+			dependencies: ["713CA847896F563A"]
+			id: "412B1135A915CCFE"
+			tasks: [{
+				id: "6BB2046AF55AA31A"
+				type: "item"
+				item: "naturesaura:grated_chute"
+			}]
+			rewards: [
+				{
+					id: "35FAA89CB8584ACA"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "454F5C3BC73B322F"
+					type: "item"
+					item: "naturesaura:crimson_meal"
+					count: 12
+				}
+				{
+					id: "21FA88314FE7FDDF"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0728EC7A40BAD3E0"
+					type: "ftbmoney:money"
+					ftb_money: 33L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.3392857142857153d
+			dependencies: ["412B1135A915CCFE"]
+			id: "5EE4D120BE469E7E"
+			tasks: [{
+				id: "59035DD77E5AD6B4"
+				type: "item"
+				item: "naturesaura:hopper_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0E42C3980876302B"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "3FCDDADBBE0F22C1"
+					type: "item"
+					item: "chiselsandbits:modification_table"
+				}
+				{
+					id: "69844F67CFDD0264"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3C3B4EE75297E360"
+					type: "ftbmoney:money"
+					ftb_money: 66L
+				}
+			]
+		}
+		{
+			title: "Effect Powders"
+			x: -3.0d
+			y: -7.5d
+			dependencies: ["6096B32F24156DAA"]
+			id: "0BFC89C10CF47CD6"
+			tasks: [
+				{
+					id: "74CF056B0851545D"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:ore_spawn"
+						}
+					}
+				}
+				{
+					id: "4AD8110CA694CAFA"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:plant_boost"
+						}
+					}
+				}
+				{
+					id: "3D17621033682079"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:animal"
+						}
+					}
+				}
+				{
+					id: "2B0E92A212764205"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:cache_recharge"
+						}
+					}
+				}
+				{
+					id: "546DCE13ED17BF79"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:nether_grass"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "650B2DFC4CCD5710"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "72A39F9C20FD48B4"
+					type: "item"
+					item: "naturesaura:powder_placer"
+				}
+				{
+					id: "6AE1F491935F11E7"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			icon: "naturesaura:animal_spawner"
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["4A7A2865AC5023C1"]
+			id: "3CA5D58AD8C37B7C"
+			tasks: [
+				{
+					id: "0B7840AE8B165AD9"
+					type: "item"
+					item: "naturesaura:animal_spawner"
+				}
+				{
+					id: "36D799C9594318AA"
+					type: "item"
+					item: "naturesaura:infused_brick"
+					count: 16L
+				}
+				{
+					id: "79C43271FCDE3ABE"
+					type: "item"
+					item: "minecraft:hay_block"
+					count: 16L
+				}
+				{
+					id: "2E71460B72295AF8"
+					type: "item"
+					item: "naturesaura:ancient_planks"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "5C8068DED7FF1833"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3FD7908B0B5E3A0A"
+					type: "item"
+					item: "naturesaura:projectile_generator"
+				}
+				{
+					id: "37ED42C61819728E"
+					type: "item"
+					item: "naturesaura:firework_generator"
+				}
+				{
+					id: "13142D3FB0A0EABE"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "7D4C845E08EEF730"
+					type: "ftbmoney:money"
+					ftb_money: 95L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			dependencies: ["6FB21CED07FF123A"]
+			id: "33DE3B246C18194D"
+			tasks: [{
+				id: "45C49998F81CC1A1"
+				type: "item"
+				item: "naturesaura:chunk_loader"
+			}]
+			rewards: [
+				{
+					id: "73CBA8C2A845ED86"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "683CB174F98AE01F"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "5E3EB8F892F6127F"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["6FB21CED07FF123A"]
+			id: "4FB51C1C41BBD05D"
+			tasks: [{
+				id: "18C13DF5AA5EC095"
+				type: "item"
+				item: "naturesaura:animal_container"
+			}]
+			rewards: [
+				{
+					id: "46ED68F7DFAD3981"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7B77427517E22E01"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "13A0F075642BD59B"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["1294AA16EB85EBB4"]
+			id: "623B80E29E48B9F2"
+			tasks: [{
+				id: "6ECB158A4EDB5797"
+				type: "item"
+				item: "naturesaura:infused_stone"
+			}]
+			rewards: [
+				{
+					id: "0E332C298C6DFC12"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "021F3960F3B57573"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "6140D0761440371B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+	]
+}

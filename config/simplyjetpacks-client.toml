@@ -1,0 +1,53 @@
+
+#Simply Jetpacks 2 - Client Configurations
+[simplyjetpacks-client]
+
+	#Controls Configurations
+	[simplyjetpacks-client.controls]
+		#This sets whether you must hold sneak to hover.
+		invertHoverSneakingBehavior = false
+
+	#Audio Configurations
+	[simplyjetpacks-client.audio]
+		#This sets whether Jetpack sounds will play.
+		enableJetpackSounds = true
+
+	#Visual Configurations
+	[simplyjetpacks-client.visual]
+		#This sets whether Jetpack particles will be displayed.
+		enableJetpackParticles = true
+
+	#GUI Configurations
+	[simplyjetpacks-client.gui]
+		#Show the Throttle value in the Jetpack HUD.
+		showThrottle = true
+		#Show the exact energy of the Jetpack in the HUD.
+		showExactEnergy = false
+		#This sets whether or not Jetpack state messages will show.
+		enableStateMessages = true
+		#This sets whether or not the Jetpack HUD will be visible.
+		enableJetpackHud = true
+		#Show the Hover State in the HUD.
+		showHoverState = true
+		#Show the Emergency Hover State in the HUD.
+		showEHoverState = true
+		#Show the Charger State in the HUD.
+		showChargerState = true
+		#This sets the color of the Jetpack HUD.
+		#Range: > -2147483648
+		hudTextColor = 16777215
+		#Set the position of the Jetpack HUD on the screen.
+		#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, LEFT, RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+		hudTextPosition = "TOP_LEFT"
+		#Set the X offset of the Jetpack HUD on the screen.
+		#Range: > -2147483648
+		hudXOffset = 0
+		#Set the Y offset of the Jetpack HUD on the screen.
+		#Range: > -2147483648
+		hudYOffset = 0
+		#Set the scale of the Jetpack HUD on the screen.
+		#Range: 1 ~ 100
+		hudScale = 1
+		#Set if the Jetpack HUD values have text shadows.
+		hudTextShadow = true
+

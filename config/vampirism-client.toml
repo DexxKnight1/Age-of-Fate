@@ -1,0 +1,38 @@
+
+#Client configuration settings
+[client]
+
+	#Configure GUI
+	[client.gui]
+		#Y-Offset of the level indicator from the bottom in pixels
+		#Range: 0 ~ 270
+		levelOffsetY = 47
+		#X-Offset of the level indicator from the center in pixels
+		#Range: -250 ~ 250
+		levelOffsetX = 0
+		#Render skill menu button in inventory
+		skillButtonEnable = true
+		#Action Order in Select Action Screen (reset with ""), unnamed actions will appended
+		actionOrder = "vampirism:bat,vampirism:dark_blood_projectile,vampirism:disguise_vampire,vampirism:freeze,vampirism:half_invulnerable,vampirism:regen,vampirism:sunscreen,vampirism:summon_bat,vampirism:teleport,vampirism:vampire_invisibility,vampirism:vampire_rage,vampirism:awareness_hunter,vampirism:disguise_hunter,vampirism:potion_resistance_hunter,vampirism:hissing,werewolves:human_form,werewolves:beast_form,werewolves:survival_form,werewolves:howling,werewolves:rage,werewolves:sense,werewolves:fear,werewolves:leap,werewolves:hide_name"
+		#Force the guiSkillButton to the following y position from the center of the inventory, default value is -22
+		#Range: > -2147483648
+		overrideGuiSkillButtonY = -22
+		#Force the guiSkillButton to the following x position from the center of the inventory, default value is 125
+		#Range: > -2147483648
+		overrideGuiSkillButtonX = 125
+		#Disable the effect of blood vision. It can still be unlocked and activated but does not have any effect
+		disableBloodVisionRendering = false
+		#Disable the FOV change caused by the speed buf for vampire players
+		disableFovChange = false
+
+	#Configure rendering
+	[client.render]
+		#Render fog in vampire biome. Might be enforced server side
+		vampireForestFog = true
+		#Render player faces on advanced hunter or vampires
+		advancedMobPlayerFaces = true
+		#Render screen overlay. Don't disable
+		screenOverlay = true
+		#Render vampire eye/fang face overlay
+		vampireEyes = true
+

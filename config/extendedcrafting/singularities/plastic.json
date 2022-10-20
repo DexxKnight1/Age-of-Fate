@@ -1,0 +1,7 @@
+{
+    "name": "Plastic",
+    "colors": ["AEAEAE", "AEAEAE"],
+    "ingredient": {
+        "item": "industrialforegoing:plastic"
+    }
+}

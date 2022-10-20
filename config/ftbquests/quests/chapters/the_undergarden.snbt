@@ -1,0 +1,1633 @@
+{
+	id: "25AB2217A80C31F4"
+	group: "5FA6CDF6F0D49B30"
+	order_index: 6
+	filename: "the_undergarden"
+	title: "&3The Undergarden"
+	icon: "undergarden:catalyst"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -0.5d
+			y: -3.5d
+			width: 10.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/undgard.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.1785714285714235d
+			y: -2.232142857142854d
+			width: 0.3d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			width: 4.0d
+			height: 5.5d
+			rotation: 0.0d
+			image: "kubejs:textures/item/mastic.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			width: 1.5d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/stborn.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -0.5d
+			y: -2.0d
+			shape: "rsquare"
+			description: [
+				"The Undergarden is a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."
+				""
+				"Full mod tutorial: &9&o&nhttps://www.youtube.com/watch?v=eucjADqqNrY"
+			]
+			id: "22CB282DCBCEB69E"
+			tasks: [{
+				id: "2279BFD21422EC36"
+				type: "dimension"
+				title: "Visit Dimension: &2The Undergarden"
+				dimension: "undergarden:undergarden"
+			}]
+			rewards: [
+				{
+					id: "2A283567DCA24CB7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "14AB6FE174ECCB2F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "356206349D44F952"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.892857142857146d
+			y: -1.267857142857146d
+			subtitle: "A tough, slippery metal, defined by its slowing capabilities"
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "4DCC1256167B4A02"
+			tasks: [{
+				id: "05BA1CD5E0265BBA"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "26FAAF7B02DB823C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2A7E67A5E623AC3C"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0B191AB67A858AEC"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70FB2796EFC58FA2"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2CDD5F0D84C94743"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "12D6E7F4E8AED2A7"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -5.392857142857146d
+			y: -0.3392857142857153d
+			subtitle: "An odd metal crafted from the fossils of extinct species"
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "38E7968EE55F1CBA"
+			tasks: [{
+				id: "0E962555454654DF"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "16994E16CD1F8B68"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "362596460B878C6B"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F2BFB2C2C76FC53"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53CFF71028F6DE82"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4FA9657C0630EFDF"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "0A54E60E1F77CEE4"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -6.392857142857146d
+			y: 0.017857142857138797d
+			dependencies: ["38E7968EE55F1CBA"]
+			id: "2719884CCC39D86A"
+			tasks: [{
+				id: "1DA3E7AD38594A9C"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3EE9A637880862B5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "45F88C373AE3E67D"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "579538FA79263C4B"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F17C6F3380E7D68"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "125101B59296D57F"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "16EB0E5D20D5DCF8"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.4821428571428612d
+			dependencies: ["4DCC1256167B4A02"]
+			id: "28D846F1A27576D3"
+			tasks: [{
+				id: "318908A0B5609520"
+				type: "item"
+				item: {
+					id: "undergarden:froststeel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3CBD77155E48C6F0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2DAE8559C7E0574A"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00E1F57F121DDD24"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "18F49186F946E8EB"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3DEBA7FE54D01533"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "72784BA5C8FD5905"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -6.964285714285715d
+			y: -1.3035714285714306d
+			dependencies: ["28D846F1A27576D3"]
+			id: "1683730DCB6DA81B"
+			tasks: [{
+				id: "2B05054EFEA1CCA1"
+				type: "item"
+				item: {
+					id: "undergarden:froststeel_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "52FA3D14D4860A34"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7F1AC94F3B6F3C0D"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45613F0564676D21"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75D0F571336443C7"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7CD348806FDB6D5A"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "1F3D44F429514A31"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -7.0714285714285765d
+			y: 0.7321428571428541d
+			dependencies: ["2719884CCC39D86A"]
+			id: "566794569F565F0F"
+			tasks: [{
+				id: "528FA6DC40336E1B"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6BF0E188DF10644A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3DDC513B1500781C"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10F17A224D0B36B8"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27222EA5D10539B1"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6CD68DE8CDD9C434"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "711BA378B6B596AB"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -5.000000000000007d
+			y: 0.5535714285714306d
+			subtitle: "A metal said to have come from the Otherside"
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "47522EEC2217553B"
+			tasks: [{
+				id: "634E615EED22C3CD"
+				type: "item"
+				item: "undergarden:utherium_ingot"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "492F07D5E82ED388"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "321C9F94973A9359"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B2EDD6211489608"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "65BE13EAEF81817F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "57D9126516B0E279"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "0DDE7B3DA96A3ACB"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -5.785714285714292d
+			y: 1.2678571428571388d
+			dependencies: ["47522EEC2217553B"]
+			id: "2B550F8B05657F3F"
+			tasks: [{
+				id: "43CB48E7A846BF08"
+				type: "item"
+				item: {
+					id: "undergarden:utheric_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "05D4CB30B3C8BEF7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6EA81BB23586E564"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4A42AD131D8A2856"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "145C89C828FB2830"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "27EBCA92C2239598"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "4523E0CCE1A1BFFE"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -6.250000000000007d
+			y: 2.0892857142857153d
+			dependencies: ["2B550F8B05657F3F"]
+			id: "693E5DE7EF0B20E7"
+			tasks: [{
+				id: "398B6925A1D6942A"
+				type: "item"
+				item: {
+					id: "undergarden:utheric_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "09717BDEA740E166"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4DB08EE58ACDE3DD"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16F1C3278E720C9B"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73DC88B9FE04915C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "528BA932524FB86F"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "351504CA2E9C772F"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 3.999999999999993d
+			y: -1.125000000000007d
+			subtitle: "A soft, lustrous metal used for trading with Stoneborn"
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "40D83771AC679627"
+			tasks: [{
+				id: "1BD76589CF4F8665"
+				type: "item"
+				item: "undergarden:regalium_ingot"
+			}]
+			rewards: [
+				{
+					id: "4ADCD5490584E0CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "61A3D8FC04CBB79C"
+					type: "item"
+					item: "undergarden:diamond_ore"
+				}
+				{
+					id: "7F36D5ADD336EF11"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "67A29029AE6B5FAB"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 4.857142857142854d
+			y: -0.5535714285714235d
+			dependencies: ["40D83771AC679627"]
+			id: "74350A7A5E4054A6"
+			tasks: [{
+				id: "655C3FE8E6042E2C"
+				type: "item"
+				item: "undergarden:regalium_block"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "40411F15C7F20001"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "60B2B8EBB7BC79D4"
+					type: "item"
+					item: "undergarden:regalium_block"
+				}
+				{
+					id: "13686EC82FD0F5EE"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "6F08DBE4CB41DECB"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "60B4147F7ABDBA61"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "A unreliable, yet strong metal, forged from the remains of a Forgotten Guardian"
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "244AEAF3766BC263"
+			tasks: [{
+				id: "225F0943F4F57BA2"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+			}]
+			rewards: [
+				{
+					id: "5753795FAFCB42E2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "089F913317A801E2"
+					type: "item"
+					item: "undergarden:diamond_ore"
+					count: 2
+				}
+				{
+					id: "6E87BDFB99A3F4F4"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "2D2E2A3823243C6B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["244AEAF3766BC263"]
+			id: "0E9EC02D319CA4F9"
+			tasks: [{
+				id: "3B4DD0A15143E283"
+				type: "item"
+				item: {
+					id: "undergarden:forgotten_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "709D9FF1B54BDF15"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "462A76E999D68811"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4A933BB2DEA981CA"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40D98507CDF8C533"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "32238FAB60D7AFA1"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["0E9EC02D319CA4F9"]
+			id: "6DA8E38176240BF9"
+			tasks: [{
+				id: "7DAF533CFEE72BA8"
+				type: "item"
+				item: {
+					id: "undergarden:forgotten_battleaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 4s
+							id: "minecraft:knockback"
+						}]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "784C8A4237BEF781"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "78D327A2A24F9116"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "449AD5BABD54E3A9"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "19CBEC329877EC33"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "084B46C74CEFE202"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 5.357142857142854d
+			y: 0.2321428571428541d
+			dependencies: ["74350A7A5E4054A6"]
+			id: "3D2DC7FF259BFFCC"
+			tasks: [{
+				id: "49FEA5C227CD9ECF"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_battleaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 4s
+							id: "minecraft:knockback"
+						}]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "154FE7EB53752BB3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0F4C145479D4F887"
+					type: "item"
+					item: "undergarden:virulent_mix_bucket"
+				}
+				{
+					id: "3231EF950D238B23"
+					type: "item"
+					item: "undergarden:sediment_glass"
+					count: 32
+				}
+				{
+					id: "5997E178B6008A0B"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "2B47424001AB4958"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "6FC9C7D379D64E02"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5D77047A4C62530B"]
+			hide: true
+			id: "737F21E70E5FBE77"
+			tasks: [{
+				id: "26109EF8DFC06D3C"
+				type: "item"
+				item: "undergarden:bloody_stew"
+			}]
+			rewards: [
+				{
+					id: "131848632FC29E31"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "7736F4B3CE6CCAD4"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "10B1097AF88E3C21"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6080DF1EE73C9415"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5D77047A4C62530B"]
+			hide: true
+			id: "07D4CA0D8D7E3A04"
+			tasks: [{
+				id: "2F0C71312B2F90EC"
+				type: "item"
+				item: "undergarden:inky_stew"
+			}]
+			rewards: [
+				{
+					id: "42B77D131F0AD9AC"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "16E2CED3AD496F85"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "3D12CD2EBA3DC50C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "553ACD27F12F3E22"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5D77047A4C62530B"]
+			hide: true
+			id: "11529DCB56C0B1B8"
+			tasks: [{
+				id: "66DD65B4730D7209"
+				type: "item"
+				item: "undergarden:indigo_stew"
+			}]
+			rewards: [
+				{
+					id: "17ABBAFE2301764F"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "060350814AB42B12"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "57D3D83819CB7FB4"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4557A585DE570B4F"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5D77047A4C62530B"]
+			hide: true
+			id: "2A315FBE28220A0C"
+			tasks: [{
+				id: "62312A1171B30011"
+				type: "item"
+				item: "undergarden:veiled_stew"
+			}]
+			rewards: [
+				{
+					id: "6C87B0F845E2CAD1"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "69ECF946D514E7E8"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "6080D335EDA8485A"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7576D9B596962B3E"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["41B18BDA2A85AB8B"]
+			id: "5F0AB251E58815C1"
+			tasks: [{
+				id: "38FE40431DFCC606"
+				type: "item"
+				item: "undergarden:droopvine_item"
+			}]
+			rewards: [
+				{
+					id: "5646AC2BB1C78929"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "0FB4B1F8BDFF9F5A"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "1D67C0DD12E61E77"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3032586232FDCA1A"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["41B18BDA2A85AB8B"]
+			id: "42D920B478FF5F5D"
+			tasks: [{
+				id: "52A4C69D7D7006C5"
+				type: "item"
+				item: "undergarden:roasted_underbeans"
+			}]
+			rewards: [
+				{
+					id: "5A2E554154E1594F"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "28EA934064D6AF8A"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "679C55AB7DB251CA"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6E05DF90A8C9852B"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["5F0AB251E58815C1"]
+			id: "5D77047A4C62530B"
+			tasks: [{
+				id: "4BA972E2D323C5BA"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+			}]
+			rewards: [
+				{
+					id: "00EA8702B08A062F"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "6273B9603E3BF7BF"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "50EC9226F01FD584"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4A46605B2360E922"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["41B18BDA2A85AB8B"]
+			id: "09A7653BAB11C109"
+			tasks: [{
+				id: "203304297DD9163C"
+				type: "item"
+				item: "undergarden:dweller_steak"
+			}]
+			rewards: [
+				{
+					id: "432584560DA8D52C"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "02808A58854E8431"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "49D43A43EF5CEF1A"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "17283CA38782A3A9"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["41B18BDA2A85AB8B"]
+			id: "496D40C70C74585A"
+			tasks: [{
+				id: "47A4679A8E0D8CCF"
+				type: "item"
+				item: "undergarden:gloomper_leg"
+			}]
+			rewards: [
+				{
+					id: "3F869553E2339F1E"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "663A7746B72E1502"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "0FB47E40B32B9C6E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "083DA300B581A798"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["281349257023A982"]
+			id: "3AC45B5FE4BE35AE"
+			tasks: [{
+				id: "263C3037FA3782C0"
+				type: "item"
+				item: {
+					id: "undergarden:slingshot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1A0331A69E3D026B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "25633C3DFA3BA3AC"
+					type: "item"
+					item: "undergarden:goo_ball"
+				}
+				{
+					id: "5FC10013548974A4"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "76DF6ECE9D3681F8"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "A smooth piece of Depthrock, the perfect ammunition for a Slingshot"
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "281349257023A982"
+			tasks: [{
+				id: "1A80248392B11E5B"
+				type: "item"
+				item: "undergarden:depthrock_pebble"
+			}]
+			rewards: [
+				{
+					id: "2A14CDA7414B557F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1CDFB68488D18466"
+					type: "item"
+					item: "undergarden:mogmoss"
+				}
+				{
+					id: "47D23DBE65232C65"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "765C9D6ADAFF345E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			subtitle: "A makeshift projectile explosive, often sold by shady Stoneborn"
+			dependencies: ["031FA36C93EAC7E0"]
+			id: "34B8A8C0B0F2E35C"
+			tasks: [{
+				id: "5C41E14054EF56FF"
+				type: "item"
+				item: "undergarden:blisterbomb"
+			}]
+			rewards: [
+				{
+					id: "02B84B3E472860F1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4BFADA46AFDC638A"
+					type: "item"
+					item: "undergarden:ditchbulb"
+					count: 2
+				}
+				{
+					id: "6569DC101A666DB1"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "1236A902DF9B949E"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/forgo_guard.png"
+				}
+			}
+			x: -4.5d
+			y: 6.0d
+			shape: "rsquare"
+			subtitle: "The Forgotten Guardian is a mini-boss mob"
+			description: ["The Forgotten Guardian can only be found naturally in the catacombs, spawning with the generation of the world."]
+			hide_dependency_lines: true
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "146DFC9A9104EB9D"
+			tasks: [{
+				id: "5077F98E7BF4F9BA"
+				type: "kill"
+				entity: "undergarden:forgotten_guardian"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "2D41422C1C5AD15D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "2E7790CFA04A3239"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "6A577F0A13DF5CDA"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "35326BF97E24C37E"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "4809C063810308AB"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			subtitle: "Using it in the Overworld will cause a violent explosion"
+			description: ["A bed unique to the Undergarden, with the same functions and features as the original bed in Overworld it saves your spawn point in the Undergarden."]
+			dependencies: ["3AC45B5FE4BE35AE"]
+			id: "031FA36C93EAC7E0"
+			tasks: [{
+				id: "3216E90CAFB8586E"
+				type: "item"
+				item: "undergarden:depthrock_bed"
+			}]
+			rewards: [
+				{
+					id: "438F38DC7058B499"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6ADAF739D2DF3774"
+					type: "item"
+					item: "undergarden:mogmoss_rug"
+					count: 2
+				}
+				{
+					id: "53F2F06B4166180B"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "6E53527F0EA152FF"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/rotbet.png"
+				}
+			}
+			x: -3.5d
+			y: 6.0d
+			shape: "rsquare"
+			subtitle: "The Rotbeast is a hostile mobs native to The Otherside"
+			description: ["The Rotbeast can spawn on any solid block with a light level below 7. They have an increased chance of spawning in the Barren Abyss."]
+			hide_dependency_lines: true
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "6E28DA5F55F1E96F"
+			tasks: [{
+				id: "6682E9938F1EA52D"
+				type: "kill"
+				entity: "undergarden:rotbeast"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "46E701CB0903078B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1C64A3E7F01B34FF"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "6D8438359BBF1908"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "0C6F1052368C7CC3"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "0E5FB2CD313CE499"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/nargle.png"
+				}
+			}
+			x: -2.5d
+			y: 6.0d
+			shape: "rsquare"
+			subtitle: "Nargoyle is a Cavern Creatur hostile mob who dwell at the deepest depths"
+			description: [
+				"The Nargoyle will wander around. When it spots a player, it will run towards them and attack by leaping at them."
+				""
+				"Cavern Creatures can spawn on any solid block with a light level below 7 below Y 32."
+			]
+			hide_dependency_lines: true
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "0CE9EFCAD317CEFD"
+			tasks: [{
+				id: "32FC14C16E96E43F"
+				type: "kill"
+				entity: "undergarden:nargoyle"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "5657D3138C4306A1"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "258F3EF103B64D25"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "6308463FC3EF9F29"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "7B8AAFF9CACE34D2"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "1E5ECA9823D29B87"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			dependencies: ["34B8A8C0B0F2E35C"]
+			id: "0A530775BA18E2C8"
+			tasks: [{
+				id: "1C87BC37229FD68A"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "672DA4DA752DCE78"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7FA3D5E587E04865"
+					type: "item"
+					item: {
+						id: "undergarden:masticated_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 5s
+								id: "minecraft:thorns"
+							}]
+						}
+					}
+				}
+				{
+					id: "0EA625D9B99E6A46"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "2B69B5D2CC9EDA7B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["41B18BDA2A85AB8B"]
+			id: "747EA5D7DB4FAAF4"
+			tasks: [{
+				id: "597D06E854FA11A5"
+				type: "item"
+				item: "undergarden:cooked_gwibling"
+			}]
+			rewards: [
+				{
+					id: "4A765FFB64B59EC1"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "198BD7C74BACD71F"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "2533B1FDF79052B5"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2C80FB41C8DF17CC"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "41B18BDA2A85AB8B"
+			tasks: [{
+				id: "417EC28C33C2CDB5"
+				type: "item"
+				item: "undergarden:blisterberry"
+			}]
+			rewards: [
+				{
+					id: "3BBD9879150413A2"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "0AF142CFB185F028"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "2F9CA545C0D22883"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7A9149401D0AF9AD"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+	]
+}

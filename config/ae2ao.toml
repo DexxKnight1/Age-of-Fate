@@ -1,0 +1,7 @@
+DisableChannels = false
+ControllerLimits = false
+Max_X = 7
+Max_Y = 7
+Max_Z = 7
+SCFD = false
+ChatInfo = true

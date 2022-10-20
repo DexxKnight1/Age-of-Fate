@@ -1,0 +1,74 @@
+
+#Common configuration settings. Most other configuration can be found in the world (server)configuration folder
+[common]
+	#Use the vanilla campfire block instead of Vampirism's much cooler one
+	useVanillaCampfire = false
+	#Whether to modify the village world gen (size and frequency), based on world config
+	villageModify = true
+	#Check for new versions of Vampirism on startup
+	versionCheck = true
+	#Send mod version, MC version and mod count to mod author
+	collectStats = true
+	#INTERNAL - Set to 'never' if you don't want to be notified about integration mods
+	integrationsNotifier = ""
+	#INTERNAL
+	optifineBloodvisionWarning = false
+	#Desired maximum distance between villages in chunks
+	#Range: 1 ~ 100
+	villageDistance = 26
+	#Minimum distance between villages in chunks. Must be smaller than distance
+	#Range: 1 ~ 100
+	villageSeparation = 6
+
+#Affects all worlds. This is only considered on server (or in singleplayer), but Forge requires us to put it here
+[common-server]
+	#Whether glass bottles should be automatically be converted to blood bottles when needed
+	autoConvertGlassBottles = true
+	#If enabled adds a craftable umbrella that can be used to slowly walk though sunlight without taking damage
+	umbrella = false
+	#Enforce tent generation in any overworld world, even if they were not included in modded or datapack world-types on purpose. Does not affect Server#disableTentGeneration or disable tent generation itself.
+	enforceOverworldTentGeneration = true
+
+	[common-server.mobspawn]
+		#Vampire spawn chance/weight (e.g. Zombie: 100). Does not affect vampire forest.
+		#Range: 0 ~ 100000
+		vampireSpawnChance = 120
+		#Advanced vampire spawn chance/weight (e.g. Zombie: 100). Does not affect vampire forest.
+		#Range: 0 ~ 100000
+		advancedVampireSpawnChance = 66
+		#Hunter spawn chance. By default they only spawn in tent camps, but you can enable global spawn here.
+		#Range: 0 ~ 10000
+		hunterSpawnChance = 0
+		#Advanced hunter spawn chance. By default they only spawn in large tent camps, but you can enable global spawn here.
+		#Range: 0 ~ 100000
+		advancedHunterSpawnChance = 0
+		#Vampire baron spawn chance in vampire forest (reference vampire in forest: 35)
+		#Range: 0 ~ 10000
+		baronSpawnChance = 45
+
+	[common-server.world]
+		#Range: > 0
+		vampireForestWeight = 4
+		#Desired maximum distance in chunks between tents. Dont set hunterTentDistance <= hunterTentSeparation
+		#Range: 2 ~ 4096
+		hunterTentDistance = 100
+		#Desired minimum distance in chunks between tents. Dont set hunterTentDistance <= hunterTentSeparation
+		#Range: 1 ~ 4096
+		hunterTentSeparation = 4
+		#Control hunter camp generation. If disabled you should set hunterSpawnChance to 75.
+		enableHunterTentGeneration = true
+
+		#You might find some configuration values in the common section instead of here
+		[common-server.world.village]
+			#Weight of the Totem Building inside the Village
+			#Range: > 0
+			totemWeight = 20
+			#Chance for a totem to have a faction after generation
+			#Range: 0.0 ~ 1.0
+			villageTotemFactionChance = 0.6
+			#Weight of the Hunter Trainer Building inside the Village
+			#Range: > 0
+			villageHunterTrainerWeight = 400
+			#Whether village Temples should be replaced with versions that contain church altars.
+			villageReplaceTemples = true
+

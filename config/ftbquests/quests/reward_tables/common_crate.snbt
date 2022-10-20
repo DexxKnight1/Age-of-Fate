@@ -1,0 +1,88 @@
+{
+	id: "3D82A73DCBF63726"
+	order_index: 0
+	title: "Common Crate"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:stone", count: 16 }
+		{ item: "minecraft:glass", count: 16 }
+		{ item: "minecraft:oak_log", count: 16 }
+		{ item: "minecraft:iron_ore", count: 8 }
+		{ item: "minecraft:gold_ore", count: 8 }
+		{ item: "minecraft:sticky_piston", count: 2 }
+		{ item: "minecraft:piston", count: 2 }
+		{ item: "minecraft:white_wool", count: 16 }
+		{ item: "minecraft:bookshelf", count: 4 }
+		{ item: "minecraft:jukebox" }
+		{ item: "minecraft:pumpkin", count: 8 }
+		{ item: "minecraft:anvil" }
+		{ item: "minecraft:torch", count: 16 }
+		{ item: "minecraft:cobblestone_wall", count: 24 }
+		{ item: "minecraft:white_concrete", count: 16 }
+		{ item: "minecraft:lime_concrete_powder", count: 16 }
+		{ item: "minecraft:purple_carpet", count: 16 }
+		{ item: "minecraft:grass_block", count: 16 }
+		{ item: "minecraft:bamboo", count: 32 }
+		{ item: "minecraft:blue_ice", count: 8 }
+		{ item: "minecraft:cauldron" }
+		{ item: "minecraft:smithing_table" }
+		{ item: "minecraft:item_frame", count: 8 }
+		{ item: "minecraft:pumpkin_pie", count: 12 }
+		{ item: "apotheosis:common_tome" }
+		{ item: "quark:golden_apple_crate", count: 4 }
+		{ item: "storagedrawers:oak_full_drawers_1", count: 6 }
+		{ item: "ironchest:wood_to_iron_chest_upgrade", count: 4 }
+		{
+			item: {
+				id: "terraqueous:picket_fence"
+				Count: 1b
+				tag: {
+					rgb16: 4095s
+					rgbsimple: 0b
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "vampirism:pitchfork"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "lightingwand:wand"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:redstone_torch", count: 16 }
+		{ item: "minecraft:bucket", count: 3 }
+		{ item: "minecraft:wither_rose", count: 16 }
+		{ item: "notenoughwands:building_wand" }
+		{
+			item: {
+				id: "notenoughwands:protection_wand"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "notenoughwands:wand_core", count: 16 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 10600748
+		string_id: "common_crate"
+	}
+}

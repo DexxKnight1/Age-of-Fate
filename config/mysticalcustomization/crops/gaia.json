@@ -1,0 +1,15 @@
+{
+  "name": "Gaia",
+  "type": "resource",
+  "tier": "mysticalcustomization:magical",
+  "ingredient": {
+    "item": "botania:gaia_ingot"
+  },
+  "color": "E9E4D4",
+  "textures": {
+    "flower": "mysticalagriculture:block/gaia_flower",
+    "essence": "mysticalagriculture:item/gaia_essence",
+    "seeds": "mysticalagriculture:item/gaia_seeds"
+  },
+  "crux": "kubejs:magical_soil"
+}

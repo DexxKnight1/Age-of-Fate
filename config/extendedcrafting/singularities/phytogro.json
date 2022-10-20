@@ -1,0 +1,7 @@
+{
+    "name": "Phytogro",
+    "colors": ["00566D", "3FC9A9"],
+    "ingredient": {
+        "item": "thermal:phytogro"
+    }
+}

@@ -1,0 +1,2113 @@
+{
+	id: "1BDEBA367410E2CD"
+	group: "15F5BAC0BCC22DEF"
+	order_index: 1
+	filename: "9botania"
+	title: "&9Botania"
+	icon: {
+		id: "botania:third_eye"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.3571428571428541d
+		y: -9.732142857142858d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&3&lWelcome to Botania"
+			icon: {
+				id: "botania:lexicon"
+				Count: 1b
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			x: -0.4285714285714306d
+			y: -9.267857142857157d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oInfused Rock&r quest*"
+			description: [
+				"Botania is a tech mod themed around natural magic."
+				""
+				"Gameplay is centered around creating magical flowers and devices using Mana, the power of the earth."
+				""
+				"Botania is fully playable as a standalone mod (and is designed as such), but it functions just well in conjunction with other mods."
+				""
+				"The mod focuses on automation, but without elements that make it feel grindy-- systems can be thought out and designed, rather than built blindly from blueprints in JEI or a wiki."
+			]
+			dependencies: ["623B80E29E48B9F2"]
+			size: 1.5d
+			id: "46B386FC16966543"
+			tasks: [{
+				id: "071B5C826F3084B0"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "33159180F87B8F95"
+					type: "item"
+					item: "botania:pestle_and_mortar"
+				}
+				{
+					id: "37027349F938BD6E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "&3&lRunic Altar"
+			x: -2.5d
+			y: -8.0d
+			subtitle: "Runes are vital components of complex magical devices or flora, created on a Runic Altar"
+			description: [
+				"To use a Runic Altar, start by placing (via either a right-click or a simple toss) the components of the rune you want to create upon the altar."
+				""
+				"Point a Mana Spreader with a supply of Mana at the altar, and let the Mana flow.Your wand will show you the progress of the transfer; it should be apparent when the altar has received enough Mana. When that happens, just drop or right-click a piece of Livingrock upon the altar, then use the wand on it to collect your rune."
+				""
+				"Sneak-right clicking the Runic Altar with an empty hand while it's not accepting mana will pull out the last item input.Additionally, an attached Comparator will emit signal strength 1 if the altar is accepting Mana, and signal strength 2 if it's ready to craft the rune."
+			]
+			dependencies: ["46B386FC16966543"]
+			id: "3B40BB133B32FC37"
+			tasks: [{
+				id: "7874397CF4EC3AC8"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [
+				{
+					id: "4C9F5ECCB457D016"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "752F446CBC952E04"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4D30DA1FD3622A61"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&3&lSparks"
+			x: 2.5d
+			y: -8.0d
+			subtitle: "Sparks are interesting things"
+			description: [
+				"Created from a combination of raw energy and Mana, they can be placed only on a few specific Mana-containing or -accepting blocks (notably Mana Pools).Certain blocks have the ability to harness Mana from Sparks, but as of now their uses are sparse."
+				""
+				"Placing a Spark over a Mana Pool and another over a nearby block that can accept it will allow the latter to access the former's reserves on demand.To remove a Spark, simply sneak-right click it with a Wand of the Forest. Regular right-clicking will show which other Sparks this one can transfer to."
+				""
+				"Sparks can be dyed with Dye; sparks with different colors will never interact. They can also be splashed with a bit of Phantom Ink to make them highly translucent (in case you think they look too obtrusive)."
+			]
+			dependencies: ["46B386FC16966543"]
+			id: "22B899A8C0A59A43"
+			tasks: [{
+				id: "5D2256D33991EDF6"
+				type: "item"
+				item: "botania:spark"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "2DA48C7B059DA682"
+					type: "item"
+					item: "botania:spark"
+				}
+				{
+					id: "028C742A3EED622C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "&3&lRitual of Gaia"
+			icon: "botania:gaia_pylon"
+			x: 7.5d
+			y: -8.0d
+			subtitle: "The Ritual of Gaia is a trial often undertaken by elves"
+			description: [
+				"It yields Gaia Spirits, which are coveted as fragments of the power of the Goddess of Gaia herself.This ritual requires an Active Beacon with Gaia Pylons surrounding it (functioning as an altar), as well as a single Terrasteel Ingot (as a sacrifice)."
+				""
+				"To start the ritual, simply sneak-right click the Beacon with the Terrasteel Ingot, take a step back, and prepare to fight for your life. Preparation is absolutely required-- the fight with the Guardian of Gaia can be even harder than that with the Wither. Upon the Guardian's defeat, a handful of Spirits of Gaia is dropped as a prize."
+				""
+				"Standard gear for this ritual is a set of enchanted Elementium Armor, a Terra Blade, and a miscellany of Brews and Trinkets. Do note that the Beacon's effect is forcibly nullified during the battle.The Guardian has a massive pool of health, so preparing with Enchantments and Brews is a must!"
+				""
+				"The difficulty of (and reward yielded by) the ritual depends on the number of people participating. Performing the ritual with over five people in the vicinity can be a recipe for disaster with the chaos created, so rituals on that scale probably shouldn't be attempted.Lastly, it might be a good idea to stay away from the purple."
+			]
+			dependencies: ["46B386FC16966543"]
+			id: "3E375A499FD31092"
+			tasks: [
+				{
+					id: "639FC27D0AB22FE4"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "3DB8E8C8ECAFB184"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+			]
+			rewards: [
+				{
+					id: "18B317A3DB03D883"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "30BB829712854A87"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "2B899AE51F97776E"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "&3&lMystical Flowers"
+			x: -8.0d
+			y: -8.0d
+			subtitle: "Around the world, you may stumble upon a large variety of Mystical Flowers"
+			description: [
+				"Spotting these flowers doesn't take much work, as they glow faintly and sparkle.They come in a total of 16 different colors. These flowers can also be grown with Floral Fertilizer."
+				""
+				"These flowers can be plucked for Mystical Petals, which are used in the creation of magical instruments and plants. Right-clicking a petal upon the ground will bury it, making it emit particles. "
+				""
+				"There're also some taller variants of the typical Mystical Flowers around the world. These can only be gathered with Shears, but can be plucked for twice the petals a normal flower would yield. They're a bit too big for dye, though."
+				""
+				"Tall flower variants can be made manually by fertilizing a Mystical Flower or a Buried Petal with Bone Meal.If you find yourself running low on a particular color, try burying a petal of that color and using Bone Meal on it"
+			]
+			dependencies: ["46B386FC16966543"]
+			id: "0EC58920BF996185"
+			tasks: [{
+				id: "4814C619F355BF39"
+				type: "item"
+				title: "Any botania:mystical_flowers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1414BC6D57272DC5"
+					type: "item"
+					item: "botania:flower_bag"
+				}
+				{
+					id: "64ACB6558A94512C"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			title: "&3&lFloral Fertilizer"
+			x: -9.0d
+			y: -9.0d
+			subtitle: "This Floral Fertilizer will grow a few Mystical Flowers in the nearby vicinity, if you ever run low on those"
+			description: ["By mixing Dye with some Bone Meal, you'll create a different type of fertilizer."]
+			dependencies: ["0EC58920BF996185"]
+			id: "341C5C44245DE5E6"
+			tasks: [{
+				id: "02E5377D476566A7"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [
+				{
+					id: "4D0742A93D3569EE"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 12
+				}
+				{
+					id: "4C8956BDD24669C4"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			title: "&3&lPetal Apothecary"
+			icon: "botania:apothecary_default"
+			x: -8.0d
+			y: -6.5d
+			subtitle: "To create plant life that can do their bidding, a botanist needs a special means of infusing plants with mystical energy"
+			description: [
+				"This block, when placed in the world and given some water (by right-clicking or throwing in a Water Bucket), will accept any Mystical Petals thrown into it, absorbing their energies.Once the correct petals have been provided, throwing any Seeds in will finalize the crafting process."
+				""
+				"&lPure Daisy:"
+				"Far from being just the most basic, the Pure Daisy is the most important flower a botanist can have.This flower will purify any adjacent Wood and Stone blocks (as seen on the next page) into their purified counterparts, Livingwood and Livingrock. These resources are important crafting materials throughout a botanist's career."
+				""
+				"A few other blocks can also be purified by placing them around the flower. While not as unique and essential as the living blocks, these recipes still can come in handy: Netherrack purifies into Cobblestone, Soul Sand into Sand, Ice into Packed Ice, and Water into Snow."
+			]
+			dependencies: ["0EC58920BF996185"]
+			id: "109C0AE9202A6AB8"
+			tasks: [
+				{
+					id: "4141A9873EAE5BCF"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "651A6C123ABBB55B"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+			]
+			rewards: [
+				{
+					id: "5CDD7981E742E79A"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+				{
+					id: "5CA296658CF4CD93"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			title: "&3&lLivingwood \\& Livingrock"
+			x: -8.0d
+			y: -5.0d
+			subtitle: "These resources are important crafting materials throughout a botanist's career"
+			description: ["Pure Daisy will purify any adjacent Wood and Stone blocks into their purified counterparts, Livingwood and Livingrock."]
+			dependencies: ["109C0AE9202A6AB8"]
+			id: "362DA7F81CA0471F"
+			tasks: [
+				{
+					id: "7D46CE06435339F7"
+					type: "item"
+					item: "botania:livingrock"
+					count: 16L
+				}
+				{
+					id: "0D7E8E579F675234"
+					type: "item"
+					item: "botania:livingwood"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "6620583AF4FB0F2A"
+					type: "item"
+					item: "botania:livingrock"
+					count: 8
+				}
+				{
+					id: "1A841EBDEAF6493B"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8
+				}
+				{
+					id: "3EEDC50D88F03066"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			title: "&3&lMana Pool"
+			x: -9.0d
+			y: -3.5d
+			subtitle: "The Mana Pool is, simply put, a storage for Mana"
+			description: [
+				"It accepts mana from Mana Spreaders, and any adjacent ones will fill from it automatically.All Functional Flora require a nearby Mana Pool to draw power from."
+				""
+				"Mana Pools come in two types: a weaker, Diluted variety which stores a very small amount of Mana, and a Normal variety, which stores a hundred times more than the diluted kind.Whenever \"Mana Pool\" is referred to elsewhere, it refers to a normal one."
+				""
+				"The Diluted Mana Pool can be useful as a small buffer for a flower or system that doesn't use much Mana, as a normal pool holds a lot of it. Thanks to that, Mana readings for a normal pool won't be very precise: due to its scale, the displayed bar's size on a normal pool will increase very slowly."
+				""
+				"Tossing certain resources into a Mana Pool will infuse them with Mana from the pool, turning them into more magically-useful forms, like Manasteel Ingots or Mana Pearls.A Wand of the Forest can read the Mana levels in a pool, much like a Mana Spreader. A Redstone Comparator can also output a signal based on percentage full."
+			]
+			dependencies: ["362DA7F81CA0471F"]
+			id: "7FE9275AF74832C2"
+			tasks: [{
+				id: "7D6C3B68CC2E25DF"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [
+				{
+					id: "5AF3DCDF6C12127B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "160ED2D6FEC541FC"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3556241A556F4481"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "&3&lWand of the Forest"
+			x: -8.0d
+			y: -3.5d
+			subtitle: "A botanist's most important tool for manipulating flowers is the Wand of the Fores"
+			description: [
+				"This wand, crafted from a pair of Mystical Petals strapped to a few Livingwood Twigs, is a must-have for a huge number of botanical tasks."
+				""
+				"The wand has two modes, Bind Mode and Function Mode. In Bind Mode, sneak-right click it on a compatible block to select it, then sneak-right click elsewhere to bind the two blocks. In Function Mode it simply doesn't perform this function, freeing the sneak-right click action up for other tasks.The two modes can be switched between by sneak-right clicking the wand in the air."
+				""
+				"Sneak-right clicking a block in Function Mode rotates the block around the axis of the side it was clicked on-- for example, using the wand on the top of a Chest will change the direction it faces. Most blocks with orientations can be reoriented this way.A Dispenser holding a wand will use the wand on the block it currently faces, when triggered."
+			]
+			dependencies: ["362DA7F81CA0471F"]
+			id: "60819D8203DD7574"
+			tasks: [{
+				id: "5BB1D8B1F3121BEE"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "78568E7772264448"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "33240F9E1D473107"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1E74D80E4FE1BBD8"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "&3&lMana Spreader"
+			x: -7.0d
+			y: -3.5d
+			subtitle: "The Mana Spreader is the single most important tool a botanist needs to manipulate Mana"
+			description: [
+				"This block shoots Mana from point A to point B. It faces a cardinal direction when placed, but sneak-right clicking it with a Wand of the Forest on a face points it elsewhere. It can be aimed at other blocks with a wand in Bind Mode."
+				""
+				"The Mana Spreader has a small internal buffer of Mana, which will get filled by Generating Flora bound to it. (Flowers, when placed, auto-bind to the nearest spreader.) This buffer can be viewed by hovering over the Spreader with a Wand of the Forest in hand."
+				""
+				"Holding a Wand of the Forest makes nearby spreaders display aiming beams. Hovering over a spreader highlights its target. The sparkles show where Mana Loss begins to occur.As long as the target of the spreader can accept Mana (that is, can contain Mana and isn't full), the spreader will repeatedly fire Mana Bursts, which travel to their destination and transfer their Mana to it."
+				""
+				"Applying a Redstone Signal to a spreader will pause its firing of bursts. If finer control is required, a Pulse Mana Spreader is recommended, as it fires upon a redstone signal in lieu of a target."
+				""
+				"Right-clicking the spreader with a piece of Wool will sleeve it. In addition to making the spreader look fancier, it'll also muffle the sound when a burst is shot, reducing the potential noise of a large number of spreaders in one area.Right-clicking with an empty hand will remove the sleeve."
+			]
+			dependencies: ["362DA7F81CA0471F"]
+			id: "7F482DE84D2598A1"
+			tasks: [{
+				id: "5AF3EE1827708C31"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [
+				{
+					id: "176D6E4D9FE3829D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "438E48256DDBC256"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7FFB4AD3F297B9EE"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "&3&lEndoflame"
+			x: -8.0d
+			y: -2.0d
+			subtitle: "The Endoflame is a very rudimentary generating flower"
+			description: [
+				"It'll absorb any combustible items or blocks dropped on the nearby vicinity, one at a time, and burn through them to generate Mana.The amount of time it takes to burn through an item is roughly half of the time a Furnace would."
+				""
+				"There're a few small caveats though: the Endoflame will not burn anything that leave byproducts in Furnaces (e.g. Lava Buckets, which leave Buckets behind).Furthermore, the flower can only burn around four Block of Coals' worth of fuel at once. If any single fuel item with a longer burn time is used, its full efficiency will be lost."
+				""
+				"As the Endoflame is often a botanist's first foray into proper automatable Generating Flora, it shouldn't be run manually forever. As the flower requires dropped items, an Open Crate (found in the Natural Apparatus section of this book) and some sort of output limiter (a timer or pressure plate) would be ideal for it."
+			]
+			dependencies: [
+				"7FE9275AF74832C2"
+				"60819D8203DD7574"
+				"7F482DE84D2598A1"
+			]
+			id: "178FA5A419F3D3E7"
+			tasks: [{
+				id: "7547F2772D15F4F9"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [
+				{
+					id: "323F0B3A62FEB103"
+					type: "item"
+					item: "botania:open_crate"
+				}
+				{
+					id: "5C4166E886F4FE9A"
+					type: "item"
+					item: {
+						id: "botania:monocle"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5935A4D6E8140662"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			title: "&3&lMana Pearl"
+			x: -9.5d
+			y: -2.0d
+			subtitle: "The Mana Pearl is a crafting component"
+			description: ["Tossing a ender pearl into a Mana Pool will infuse them with Mana from the pool, turning them into Mana Pearl."]
+			dependencies: ["178FA5A419F3D3E7"]
+			id: "2374B7870E472B11"
+			tasks: [{
+				id: "2A94393C36B78B6D"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+			rewards: [
+				{
+					id: "4365E83D7CC8E174"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "586C13D70E94DE7D"
+					type: "item"
+					item: "botania:mana_pearl"
+				}
+				{
+					id: "215DC015E97B84F4"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lMana Diamond"
+			x: -6.5d
+			y: -2.0d
+			subtitle: "The Mana Diamond is a crafting component"
+			description: ["Tossing a diamond into a Mana Pool will infuse them with Mana from the pool, turning them into Mana Diamond."]
+			dependencies: ["178FA5A419F3D3E7"]
+			id: "2E43191801C85111"
+			tasks: [{
+				id: "344929583602913C"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+			rewards: [
+				{
+					id: "1EE77F5E5D2DB5B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "522C42AD1AEFB80B"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+				{
+					id: "32ECE1804C573EB5"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lMana Powder"
+			x: -9.0d
+			y: -1.0d
+			subtitle: "The Mana Powder is a crafting component"
+			description: ["Tossing a gunpowder, glowstone dust, redstone dust, sugar or any of 16 dyes into a Mana Pool will infuse them with Mana from the pool, turning them into Mana Powder."]
+			dependencies: ["178FA5A419F3D3E7"]
+			id: "41D5D32C64996FF3"
+			tasks: [{
+				id: "34EBC06706B4CB26"
+				type: "item"
+				item: "botania:mana_powder"
+			}]
+			rewards: [
+				{
+					id: "7E48AF55DF720CCF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4AABB15BC9768720"
+					type: "item"
+					item: "botania:mana_powder"
+				}
+				{
+					id: "437E381640721CFF"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lMana Infused String"
+			x: -7.0d
+			y: -1.0d
+			subtitle: "The Mana Infused String is a crafting component"
+			description: ["Tossing a string into a Mana Pool will infuse them with Mana from the pool, turning them into Mana Infused String."]
+			dependencies: ["178FA5A419F3D3E7"]
+			id: "331DCFE90D598175"
+			tasks: [{
+				id: "5169DA7894B5D06E"
+				type: "item"
+				item: "botania:mana_string"
+			}]
+			rewards: [
+				{
+					id: "0C2FD5E1B2B00718"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6B1346C31435A774"
+					type: "item"
+					item: "botania:mana_string"
+				}
+				{
+					id: "1D0F50D676EF3F34"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lBand of Mana"
+			x: -8.0d
+			y: 1.0d
+			subtitle: "The Band of Mana is a bauble able to store Mana like the Mana Tablet"
+			description: [
+				"Putting a Mana Tablet on a Manasteel ring makes the Tablet wearable."
+				""
+				"The Band of Mana functions exactly as its component Tablet does, but can be worn as a Trinket as well.Upgrading the ring by plating it with an ingot of Terrasteel allows it to store about four times as much Mana."
+			]
+			dependencies: [
+				"5FE3E43813BB376B"
+				"37E2D50FC8B75896"
+			]
+			id: "4F358929FBC4EABE"
+			tasks: [{
+				id: "14329CE7FD428196"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "06BACB134400E945"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E4F065EB37B0047"
+					type: "item"
+					item: {
+						id: "botania:magnet_ring"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "39C94DECFC3B45DA"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lManaglass"
+			x: -8.5d
+			y: 0.0d
+			subtitle: "The Managlass is a crafting component"
+			description: ["Tossing a glass into a Mana Pool will infuse them with Mana from the pool, turning them into Managlass."]
+			dependencies: ["178FA5A419F3D3E7"]
+			id: "5FE3E43813BB376B"
+			tasks: [{
+				id: "059CA21101B2CE46"
+				type: "item"
+				item: "botania:mana_glass"
+			}]
+			rewards: [
+				{
+					id: "72F408FEC732226D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12D0B502CE25FE1C"
+					type: "item"
+					item: "botania:mana_glass"
+				}
+				{
+					id: "7D6AA8C326053D32"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lManasteel Ingot"
+			x: -7.5d
+			y: 0.0d
+			subtitle: "The Manasteel Ingot is a crafting component"
+			description: ["Tossing a iron ingot into a Mana Pool will infuse them with Mana from the pool, turning them into Manasteel Ingot."]
+			dependencies: ["178FA5A419F3D3E7"]
+			id: "37E2D50FC8B75896"
+			tasks: [{
+				id: "40E4B1C8763628BA"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "1549BCE4E8262CAC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5206D57B29B659C4"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "20F438FB6028EE91"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lElemental Runes"
+			x: -2.5d
+			y: -6.5d
+			subtitle: "Runes are vital components of complex magical devices or flora, created on a Runic Altar"
+			description: ["A total of 16 Runes exist.The most elementary runes are named after the &lFour Elements&r, the intermediate runes are named after the &lFour Seasons&r, and the most advanced runes are named after the &lSeven Deadly Sins&r. A separate Rune of Mana also exists outside this progression."]
+			dependencies: ["3B40BB133B32FC37"]
+			id: "57ABC22505987FBD"
+			tasks: [
+				{
+					id: "71D72F310AD37269"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "7260CA02B0381796"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "6E0528ABF4148FCE"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "205F0108E4A42BE3"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "389EA28623B7F06C"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+			rewards: [
+				{
+					id: "197D2DA77D2BEC30"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "48471E84F54600EE"
+					type: "item"
+					item: "botania:rune_envy"
+				}
+				{
+					id: "3E5522EC88BB47D0"
+					type: "item"
+					item: "botania:rune_pride"
+				}
+				{
+					id: "3ED044C5C0CD1072"
+					type: "item"
+					item: "botania:rune_greed"
+				}
+				{
+					id: "3C59D9412C3E7B3B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&3&lPollidisiac"
+			x: -4.5d
+			y: -6.0d
+			subtitle: "Animals love eating"
+			description: ["That's all they seem to do, really. Strangely enough, though, they only eat things that are fed to them.The Pollidisiac will simply do just that; it uses mana to feed nearby food items on the ground (Wheat, Carrots, etc.) to animals within range, putting them in better moods."]
+			dependencies: ["57ABC22505987FBD"]
+			id: "01211D8F4AAA215C"
+			tasks: [{
+				id: "5B9D4260026095C2"
+				type: "item"
+				item: "botania:pollidisiac"
+			}]
+			rewards: [
+				{
+					id: "7E2F4571D8086983"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "54E9FFDE6066B7B6"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lNarslimmus"
+			x: -0.5d
+			y: -6.0d
+			subtitle: "There's some unidentified power in the universe that creates Slimes at certain points, seemingly at random"
+			description: ["Slime Chunks, they call those points. The Narslimmus is a flower that has the ability to tap into that energy; it'll absorb Slimes created by that power and collect all the Mana generated by the destruction. The larger the Slime, the more Mana is created. (It also makes a bit of a sticky mess)"]
+			dependencies: ["57ABC22505987FBD"]
+			id: "4CB280FE76F9D5A7"
+			tasks: [{
+				id: "2DB84247AED7583E"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [
+				{
+					id: "6453A246A9D73543"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7836D3187547AD48"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "21B101864550288F"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lRod of the Depths"
+			x: -5.0d
+			y: -5.0d
+			subtitle: "The Rod of the Depths is a more geological variant to the Rod of the Lands"
+			description: ["It does exactly the same thing, but with Cobblestone and for a slightly higher price.For that same Mana cost, this item can provide Cobblestone to the Rod of the Shifting Crust."]
+			dependencies: ["57ABC22505987FBD"]
+			id: "4317F4E1C4420545"
+			tasks: [{
+				id: "39619270136B7E28"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+			rewards: [
+				{
+					id: "75B2AAD3D21F80D1"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "62DB909B998136DA"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lRod of the Seas"
+			x: 0.0d
+			y: -5.0d
+			subtitle: "Similarly to its land-themed counterpart"
+			description: ["The Rod of the Seas will (at the cost of some Mana) place a block of Water wherever it's used. Furthermore, it can refill a Petal Apothecary."]
+			dependencies: ["57ABC22505987FBD"]
+			id: "3DCCB42B18DD752E"
+			tasks: [{
+				id: "4452B3EFA2AA74A3"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [
+				{
+					id: "3B58E0A76F72E86D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5510D535E974AD43"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "32F897390A6F3E8D"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lHopperhock"
+			x: -4.0d
+			y: -4.5d
+			subtitle: "The Hopperhock simply picks up items around it and put them in adjacent inventories (like Chests)"
+			description: [
+				"Mana is optional, but will increase its range if provided.Placing Item Frames on adjacent inventories will specify which items can or can't go in them."
+				""
+				"Any inventory with no adjacent Item Frame can accept any items, but labelled inventories will take priority.The rule used to sort items can be changed by sneak-right clicking (or using a Dispenser) on the flower with a Wand of the Forest in Function Mode."
+			]
+			dependencies: ["57ABC22505987FBD"]
+			id: "623C184495EB6647"
+			tasks: [{
+				id: "25BA43C8A9E59DF0"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+			rewards: [
+				{
+					id: "594C7220F25E913D"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "02C5993CA1FBB96C"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lClayconia"
+			x: -1.0d
+			y: -4.5d
+			subtitle: "The Clayconia is a simple flower"
+			description: ["All it does is moisten nearby Sand, turning it into pellets of Clay. This process uses a decent amount of Mana, but won't break the bank (or pool, as it were)."]
+			dependencies: ["57ABC22505987FBD"]
+			id: "172A4825C7433723"
+			tasks: [{
+				id: "27263CF6F7FEC360"
+				type: "item"
+				item: "botania:clayconia"
+			}]
+			rewards: [
+				{
+					id: "274B3FF929A5C41F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7CEFE06C7F10F470"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0F5145D65ABAA54D"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lRosa Arcana"
+			x: -2.5d
+			y: -3.0d
+			subtitle: "Experience Points contain a magic of their own"
+			description: ["The Rosa Arcana can tap into this magic, absorbing the experience of nearby players and turning it into Mana.It can also synthesize mana from experience orbs and enchanted items in the world; however, this method nets you a bit less mana for the same experience."]
+			dependencies: ["57ABC22505987FBD"]
+			id: "38C0BA5C9DCD97B0"
+			tasks: [{
+				id: "4F7184D05E03841D"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [
+				{
+					id: "14DD63FEF01E7AFE"
+					type: "item"
+					item: {
+						id: "botania:lens_flare"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "2CF616EDEE1BD773"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lRod of the Skies"
+			x: -3.5d
+			y: -3.5d
+			subtitle: "The Rod of the Skies uses Mana to launch its user high in the air"
+			description: [
+				"To use it, simply right-click with it and watch yourself soar.The rod, after usage, will briefly enter a mode where it negates fall-damage, keeping its user safe."
+				""
+				"This rod can be given to a Livingwood Avatar. When so given, an avatar will use its Mana to launch any players that jump near the avatar as if they'd used the rod themselves."
+			]
+			dependencies: ["57ABC22505987FBD"]
+			id: "188DC2FF3565C0D5"
+			tasks: [{
+				id: "36A6C9DC8B811A12"
+				type: "item"
+				item: {
+					id: "botania:tornado_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1A020B444A374D8D"
+					type: "item"
+					item: "botania:avatar"
+				}
+				{
+					id: "5FF0536BD590829E"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lRod of the Lands"
+			x: -1.5d
+			y: -3.5d
+			subtitle: "This rod can be given to a Livingwood Avatar"
+			description: [
+				"The Rod of the Lands is a simple tool: by drawing Mana from the user's inventory (sourced from a Mana Tablet or similar), it can conjure a Dirt block and place it in the world.For the same Mana cost, this item can provide Dirt to the Rod of the Shifting Crust."
+				""
+				"An avatar holding this rod will periodically use its own Mana to place a block of Dirt before itself."
+			]
+			dependencies: ["57ABC22505987FBD"]
+			id: "14AB86FC89D16CF9"
+			tasks: [{
+				id: "24788EFF4DFD6F39"
+				type: "item"
+				item: "botania:dirt_rod"
+			}]
+			rewards: [
+				{
+					id: "6157E164B36E7D84"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "37E3C2C802CE5783"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lBotanical Brewery"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Given the versatility of Mana, its practicality in Potion-making should come as a surprise to nobody"
+			description: [
+				"Brews are, simply put, variants on Potions. They're created using Mana as a base, but brewed with other ingredients.Unlike Potions, Brews have fixed multi-reagent recipes, and each vial brewed will contain multiple doses of product."
+				""
+				"The process of creating a Brew requires a Botanical Brewery, Vials, Mana, and (of course) the reagents themselves.The Mana functions as the solvent and energy source for a Brew and is drawn from Mana Bursts; simply pointing a Mana Spreader at the Brewery will work just fine.Additionally, partially empty Vials can be topped up with others containing the same Brew in a crafting grid."
+				""
+				"Working with a Botanical Brewery is rather simple.Begin by adding a Vial (with a right-click or a drop) into the brewery. Add all required ingredients in a similar manner. Once a Brew has all necessary reagents, give it a few moments to accept the requisite Mana, and it should automatically drop into your inventory."
+			]
+			dependencies: ["38C0BA5C9DCD97B0"]
+			id: "18593F98AD738BC8"
+			tasks: [{
+				id: "317180B0A685FA89"
+				type: "item"
+				item: "botania:brewery"
+			}]
+			rewards: [
+				{
+					id: "50D629BBDBE0E334"
+					type: "item"
+					item: "botania:vial"
+					count: 12
+				}
+				{
+					id: "0097BC971AE446A3"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lMana Lences"
+			x: -2.5d
+			y: -0.5d
+			subtitle: "A Mana Spreader can be upgraded with Mana Lenses"
+			description: [
+				"The most basic Mana Lens does absolutely nothing.A Lens can be dyed by crafting it with any color of dye to give it that color, or with a Mana Pearl to create a Rainbow Lens. These change the color of the fired burst."
+				""
+				"&lThe Velocity Lens&r will dramatically increase the speed at which a Mana Burst travels, but at the expense of initial capacity and faster Mana Loss."
+				""
+				"&lThe Potency Lens&r will double the amount of Mana a Mana Burst can carry; however, the beam travels slower, and after it starts to lose mana, does so at a much faster rate."
+			]
+			dependencies: [
+				"205F0108E4A42BE3"
+				"7260CA02B0381796"
+			]
+			id: "1952FDA7CC4E0D03"
+			tasks: [
+				{
+					id: "2956984FF4BFA011"
+					type: "item"
+					item: {
+						id: "botania:lens_speed"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "52A66C12C2CAD666"
+					type: "item"
+					item: {
+						id: "botania:lens_power"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "46AB755FE7C17731"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "47A29D2D0E82FF2A"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lTerrestrial Agglomeration Plate"
+			icon: "botania:terra_plate"
+			x: 2.5d
+			y: -6.5d
+			subtitle: "Terrasteel is a complex and useful magical alloy"
+			description: [
+				"For starters, its creation requires a Terrestrial Agglomeration Plate placed over a checkerboard pattern of Lapis Lazuli Blocks and Livingrock (or Shimmerrock). This block then needs to be provided with Mana, with Sparks being the most efficient mode of transfer."
+				""
+				"After a plate is set up and ready to receive Mana, tossing one Manasteel Ingot, Mana Diamond and Mana Pearl each upon the plate will begin the infusion.Picking up any of the items will halt the infusion, causing severe Mana Loss (all mana transferred to the plate is lost). The infusion uses about half a Mana Pool's worth of Mana to create a single piece of Terrasteel; multiple Sparks passing it Mana will accelerate the process."
+			]
+			dependencies: ["22B899A8C0A59A43"]
+			id: "03DA08E832880A28"
+			tasks: [
+				{
+					id: "37638B04B957234F"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "5B81EA89D81C3EF1"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+				{
+					id: "0E512E6EC46B9CD9"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+				{
+					id: "16811FFD5BDAA62C"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "5C67792190B8D5BF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0D4F7B7FAF0D99E8"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			title: "&3&lThe Portal to Alfheim"
+			icon: "botania:natura_pylon"
+			x: 2.5d
+			y: -5.0d
+			subtitle: "They say that once upon a time, Elves shared the world with us Minecraftians"
+			description: [
+				"Due to events presently unknown to us, at some point they were banished back to their own world, Alfheim, never to return.Experiments have been performed in an attempt to re-establish a connection between the two worlds, and a theoretical procedure for creating such a portal has been devised."
+				""
+				"Actually creating this portal would prove to be an arduous task: quite a few unusual resources would be necessary. The net requirements come down to 8 Livingwood blocks, 3 Glimmering Livingwood blocks, an Elven Gateway Core , and at least 2 Mana Pools and Natura Pylons."
+				""
+				"At least two Mana Pools with Natura Pylons directly above them would be needed within an 11x11x11 area around the Core. The initial activation of the portal, we believe, would cost a huge amount of Mana from said Pools, and would be performed by right-clicking the core with a Wand of the Forest.The portal is designed to draw Mana from all pools with Pylons equally; if any pool ran out, any connection a portal might have would close."
+				""
+				"Even with all these preparations, any link the portal could establish would be too weak to transfer living beings (so an Alfheim vacation's off the table no matter what), but items might just make it through-- though Mana from the surrounding Mana Pools would be needed for items to survive a return trip."
+				""
+				"All knowledge about Alfheim in this lexicon is, at this point, limited to what you find in this entry-- it seems that Elven knowledge has been almost totally lost.Perhaps if the Elves could have a look at this book, they could provide further insight."
+			]
+			dependencies: ["03DA08E832880A28"]
+			id: "655461FDEC647AB6"
+			tasks: [
+				{
+					id: "0B8243211AC756F7"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "71B227F97F3F25BC"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "42E990CB67DFCBEE"
+					type: "item"
+					item: "botania:mana_pool"
+					count: 2L
+				}
+				{
+					id: "5FCC8F0A5B83CEA7"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "7875190C530951E5"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "7EDD77A9B31DF2C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2EA21FB7BCC7E55E"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "76A7D6F5BE853429"
+					type: "ftbmoney:money"
+					ftb_money: 120L
+				}
+			]
+		}
+		{
+			title: "&3&lElementium Ingot"
+			x: 1.5d
+			y: -4.0d
+			subtitle: "Elementium Ingot is an item used to make many items"
+			description: ["It is an end-game resource created by throwing 2 Manasteel Ingots in a Portal to Alfheim."]
+			dependencies: ["655461FDEC647AB6"]
+			id: "149E7D8CBDB15FEB"
+			tasks: [{
+				id: "401D35629D34F499"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [
+				{
+					id: "31767358C655AB35"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1B5EA942D2DB5BEC"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "290A4B48DAFA7007"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lDragonstone"
+			x: 3.5d
+			y: -4.0d
+			subtitle: "Dragonstone is an item used to make many items"
+			description: ["It is an end-game resource created by throwing Mana Diamond in a Portal to Alfheim."]
+			dependencies: ["655461FDEC647AB6"]
+			id: "21E5FB07093761BB"
+			tasks: [{
+				id: "152A69EA1725DEBF"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+			rewards: [
+				{
+					id: "5F66388330DD718C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "490E29F04E3FBDD5"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "666E3386360EE3D5"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 6
+				}
+				{
+					id: "0DD1DF531CF586A2"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lPixie Dust"
+			x: 2.5d
+			y: -3.0d
+			subtitle: "Pixie Dust is an item used to make many items"
+			description: ["It is an end-game resource created by throwing Mana Pearl in a Portal to Alfheim."]
+			dependencies: ["655461FDEC647AB6"]
+			id: "5A0A25EC5E11D694"
+			tasks: [{
+				id: "054BF5065D7676F5"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [
+				{
+					id: "7D999CBD7EEB2BCA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BF9AB71F004850B"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "73A2BA6E4E46BC0B"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lElven Mana Spreaders"
+			x: 1.5d
+			y: -3.0d
+			subtitle: "When it comes right down to it, Dreamwood simply conducts Mana better than Livingwood"
+			description: [
+				"A few adjustments in recipe (like substituting Elementium for Gold) yield an Elven Mana Spreader, which conducts more Mana, faster, and for longer without Mana Loss.Unfortunately, these can't be turned into Pulse Mana Spreaders."
+				""
+				"Combining this already-powerful spreader with a Gaia Spirit and a Dragonstone gem yields an even more potent variant. The Gaia Spreader is the gold standard of Mana Spreaders, with upgrades pretty much all around.Do note that these spreaders fire larger payloads at once (and thus might fire less often)."
+			]
+			dependencies: ["149E7D8CBDB15FEB"]
+			id: "31B17D808AB30388"
+			tasks: [{
+				id: "39947F7610DB553E"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [
+				{
+					id: "5DD3DC7C04C22E14"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C8D987A00BFE3F7"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3E2B8711BED8C0AA"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lCorporea Networks"
+			x: 3.5d
+			y: -3.0d
+			subtitle: "The Corporea system uses the energy of the End, and the void between worlds, to transport items from point A to point B instantly without intervening blocks"
+			description: [
+				"A few things to know: Corporea Sparks are placed over Inventories (like a Chest or Dispenser), as opposed to Mana Containers. There are two types of Corporea Sparks: the plain old Corporea Spark, and the Master Corporea Spark. These Sparks work in networks: each Corporea Network needs one Master Corporea Spark, but any spark can communicate with any other in the network."
+				""
+				"The Master Corporea Spark, unfortunately, is too busy managing the network to see its own inventory.Furthermore, Corporea Sparks can't push items into their respective inventories; those should be added through means like Hoppers."
+			]
+			dependencies: ["21E5FB07093761BB"]
+			id: "5FA1D7705F4FA1B7"
+			tasks: [
+				{
+					id: "13FDB60582291A9D"
+					type: "item"
+					item: "botania:corporea_index"
+				}
+				{
+					id: "745751472C242799"
+					type: "item"
+					item: "botania:corporea_spark_master"
+				}
+			]
+			rewards: [
+				{
+					id: "3B71971D6F054D78"
+					type: "item"
+					item: "botania:corporea_spark"
+					count: 8
+				}
+				{
+					id: "218FD6F71282AA0A"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lSpark Augments"
+			x: 2.5d
+			y: -2.0d
+			subtitle: "Sparks seem to be more versatile than previously believed: a variety of Augments can be applied to them, enhancing their abilities"
+			description: [
+				"&lThe Recessive Augment&r makes a Spark distribute all of the Mana in its pool into any nearby non-augmented or Dispersive Sparks' pools, until its own is completely empty."
+				""
+				"&lThe Dominant Augment&r makes a Spark pull Mana from nearby non-augmented Sparks' pools into its own, until the latter is full."
+			]
+			dependencies: ["054BF5065D7676F5"]
+			id: "1BDF361FD1FE0B43"
+			tasks: [
+				{
+					id: "1817AEA1CF0C7D62"
+					type: "item"
+					item: "botania:spark_upgrade_recessive"
+				}
+				{
+					id: "6B98B84568C5413F"
+					type: "item"
+					item: "botania:spark_upgrade_dominant"
+				}
+			]
+			rewards: [
+				{
+					id: "071EB601B054462F"
+					type: "item"
+					item: "botania:spark_changer"
+				}
+				{
+					id: "512C4FFB6B733150"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "&3&lGaia Spirit"
+			x: 7.5d
+			y: -6.5d
+			subtitle: "The Gaia Spirit is a powerful end-game crafting component"
+			description: [
+				"It is dropped from the Gaia Guardian. Gaia Spirits can be used to craft powerful Baubles from Botania and more."
+				""
+				"Summoning the Gaia Guardian is necessary to acquire the first Gaia Spirits. The Gaia Guardian drops 8 Gaia Spirits. It is recommended to use half of these spirits to craft the Gaia Spirit Ingot, which can be used in place of Terrasteel to summon the Gaia Guardian II, which drops 16 Spirits on death."
+			]
+			dependencies: ["3E375A499FD31092"]
+			id: "6014E1B785593480"
+			tasks: [{
+				id: "5D657810A90D6702"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+			rewards: [
+				{
+					id: "6A4463B8506A7C0F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "22C37FEAE0DD6C63"
+					type: "item"
+					item: "botania:life_essence"
+				}
+				{
+					id: "66FE667797EE4F6F"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "&3&lBlack Hole Talisman"
+			x: 5.5d
+			y: -5.5d
+			subtitle: "The void is a massive space full of... nothing"
+			description: [
+				"Really. There's nothing there. But with a bit of ingenuity, this nothingness can be exploited to store blocks for you to your heart's content. The Black Hole Talisman utilizes powerful Gaia and Ender magics to store a virtually infinite quantity of a single type of block."
+				""
+				"Right-clicking a block with an empty Talisman will set it to store that type of block, and sneak-right clicking the Talisman in the air will enable or disable it. When enabled, a Talisman will absorb any blocks of its given type from its user's inventory.Placing the item in a crafting grid will yield its stored blocks, a stack at a time."
+				""
+				"Any blocks stored in a Talisman can be placed by simply right-clicking with it.Right-clicking the Talisman on an inventory will dump up to a stack of blocks into that inventory. Finally, a Talisman can provide a Rod of the Shifting Crust with the blocks it contains."
+			]
+			dependencies: ["6014E1B785593480"]
+			id: "1236A664C74AEDC2"
+			tasks: [{
+				id: "27CAC727B1B4A78D"
+				type: "item"
+				item: {
+					id: "botania:black_hole_talisman"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "70BB59FCB837FD23"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "6254306B3ACFB3C2"
+					type: "item"
+					item: "botania:dragonstone_block"
+					count: 4
+				}
+				{
+					id: "13CE09DF3F439A03"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&3&lGaia Mana Spreader"
+			x: 9.5d
+			y: -5.5d
+			subtitle: "The Gaia Mana spreader is functionally similar to the Elven Mana Spreader and standard Mana Spreader and is the highest upgraded Spreader available"
+			description: [
+				"Generating flowers must be placed within a 6 block radius to interact with this block and can be rebound using the Wand of the Forest. This Spreader can be turned OFF with redstone signal. It will not send mana bursts unless it detects a valid receiving block. It will not send a new burst until the last one sent has been received. Once the Spreader's mana burst range is reached it will start to lose mana in each subsequent block, there will always be a small loss of mana upon the burst entering a new Mana Spreader."
+				""
+				"Each Gaia Spreader mana burst contains four times more mana than that of the standard Spreader. The mana burst range is increased to 48 blocks. The internal storage is much larger at over 6 times the storage capacity of the other Spreader types."
+			]
+			dependencies: ["6014E1B785593480"]
+			id: "739BF68916CFBE63"
+			tasks: [{
+				id: "44854D3671CDDAE5"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+			rewards: [
+				{
+					id: "5C006382982E4661"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0DDC085095819A42"
+					type: "item"
+					item: "botania:gaia_ingot"
+					count: 4
+				}
+				{
+					id: "767DD6B001687695"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&3&lDandelifeon"
+			x: 6.5d
+			y: -5.0d
+			subtitle: "The Dandelifeon is not recommended for the faint of heart"
+			description: [
+				"This flower's function is based on a cellular automaton known as Conway's Game of Life. The area for this procedure is a 25x25 square, centered around the Dandelifeon itself.As long as the flower receives a redstone signal, it'll step the automaton twice a second.Each location within the flower's 25x25 area of effect counts as a Cell. Cells may be alive or dead; a cell counts as alive if its respective block is a Cellular Block (read on), or dead if it's anything else. The Neighbors of a cell are the eight cells surrounding any cell."
+				""
+				"All cells have an age; cells not created by the Dandelifeon start at zero. Whenever a cell survives a step, its age increases by one. Whenever a dead cell becomes a live cell, the age of the new live cell becomes the age of its oldest neighbour, plus one, capped at 100."
+			]
+			dependencies: ["6014E1B785593480"]
+			id: "2855246A1E706CED"
+			tasks: [{
+				id: "23572C029FF06A99"
+				type: "item"
+				item: "botania:dandelifeon"
+			}]
+			rewards: [
+				{
+					id: "306DEB06064408EF"
+					type: "item"
+					item: "botania:cell_block"
+					count: 8
+				}
+				{
+					id: "3559DC20631AA5E6"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&3&lDice of Fate"
+			x: 7.5d
+			y: -3.5d
+			subtitle: "The Dice of Fate is dropped by the hard mode version of Gaia Guardian"
+			description: [
+				"The dice is bound to the player it dropped for, and cannot be used by others. This item doesn't despawn when dropped onto the ground."
+				""
+				"When used, the dice will turn into a random relic not yet obtained by the player. Upon obtaining a relic the player will be awarded its respective advancement. If the player already has all the relic advancements, the dice will disappear instead."
+				""
+				"The legends say that the same Relic may not be awarded to the same person twice-- so keeping an earned Relic safe is high-priority; perhaps Resolute Ivy would make a good investment.Interestingly enough, an earned relic will transcribe the knowledge on its use into this lexicon. How convenient."
+			]
+			dependencies: ["6014E1B785593480"]
+			id: "31AEC775B5466878"
+			tasks: [{
+				id: "254132D868877C9D"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7421A940B09C7492"
+					type: "item"
+					item: "minecraft:diamond_block"
+					count: 20
+				}
+				{
+					id: "46F585A75E311919"
+					type: "item"
+					item: "minecraft:emerald_block"
+					count: 20
+				}
+				{
+					id: "2FBD52DA6EB9E713"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 20
+				}
+				{
+					id: "1DDBC4C82DD2639F"
+					type: "item"
+					item: "alltheores:platinum_block"
+					count: 20
+				}
+				{
+					id: "6003D3036EB2F363"
+					type: "item"
+					item: "botania:terrasteel_block"
+					count: 20
+				}
+				{
+					id: "1104F4CFF8797D8F"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 20
+				}
+				{
+					id: "63555AD762D01C2A"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&3&lResolute Ivy"
+			x: 8.5d
+			y: -5.0d
+			subtitle: "A dying person's items splatter all over the ground, which is generally a massive nuisance for all involved"
+			description: [
+				"This issue can be avoided quite simply: when a piece of Resolute Ivy is attached to an item in a crafting grid, the ivy will sacrifice itself at death to keep the item in its holder's inventory. Afterwards, another piece will be needed in the event of a second death."
+				""
+				"There is, however, one restriction on the items the ivy can protect.For technical reasons, the ivy will not attach to an item that leaves something behind when used in a crafting recipe (like a Bucket of Water or a Mortar and Pestle)."
+			]
+			dependencies: ["6014E1B785593480"]
+			id: "1092AA57732FEBC8"
+			tasks: [{
+				id: "1EDC0117E4E389DC"
+				type: "item"
+				item: "botania:keep_ivy"
+			}]
+			rewards: [
+				{
+					id: "73F15E0640C19E6B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12D8E5E591F818DC"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "5B07F5DCDC8AC121"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&3&lMana-infuser"
+			icon: "mythicbotany:mana_infuser"
+			x: 7.5d
+			y: -2.0d
+			subtitle: "Mythic Botany mod adds to the Mana system with the Mana-Infuser"
+			description: ["It is an upgrade to the Terrestrial Agglomeration Plate that requires a gold shimmerock plate and allows the creation of Alfsteel, a higher-tiered material than Terrasteel."]
+			dependencies: [
+				"152A69EA1725DEBF"
+				"054BF5065D7676F5"
+				"401D35629D34F499"
+			]
+			id: "3F9049E485ED4779"
+			tasks: [
+				{
+					id: "494F3098DA7B2386"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+				{
+					id: "36FF52FAD8B60BAA"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4L
+				}
+				{
+					id: "19C76C46ACDB9701"
+					type: "item"
+					item: "botania:shimmerrock"
+					count: 5L
+				}
+				{
+					id: "4B2DE0605298365E"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "4FFCAB500CD62B82"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "25BE83DF87793DC0"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "56FBFE5D4C24B635"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&3&lAlfsteel Pylon"
+			x: 7.5d
+			y: -1.0d
+			subtitle: "Additional Pylons"
+			description: [
+				"It has been well established at this point that mana is excellent at performing spontaneous recombinations. Some limited magics have managed to harness this by absorbing the latent mana in the globules left behind when the living pass. The Alfsteel Pylon helps to speed that process along, injecting pure mana directly into these Mendable items."
+				""
+				"Use a Mana Spreader to send mana into the Pylon. Any items enchanted with Mending that find themselves atop the Pylon will rapidly repair at the cost of mana."
+			]
+			dependencies: ["3F9049E485ED4779"]
+			id: "14FF5120BE45772E"
+			tasks: [{
+				id: "53DD56784E316818"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+			}]
+			rewards: [
+				{
+					id: "45E22FBCD230D487"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "3A45DA6D85C6FBEB"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "5933DE2037409BCF"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			title: "&5&lMechanical Apothecary"
+			x: -0.5d
+			y: 1.0d
+			subtitle: "Auto Apothecary"
+			description: ["An improved version of the Apothecary that uses water, seeds and ingredients to create all the flowers your heart desires."]
+			dependencies: ["778BEBE262A9F57B"]
+			id: "37505E128D75DFC6"
+			tasks: [{
+				id: "1A4DC5A5A89086BF"
+				type: "item"
+				item: "botanicalmachinery:mechanical_apothecary"
+			}]
+			rewards: [
+				{
+					id: "173EF550D9107EF1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "78CDFBC27D972311"
+					type: "item"
+					item: "botanicalmachinery:mana_emerald_block"
+					count: 3
+				}
+				{
+					id: "6DF090DA1069F793"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "13C74F79DD8C3E78"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			title: "&5&lMechanical Daisy"
+			x: 0.5d
+			y: 1.0d
+			subtitle: "Auto Living Wood/Rock"
+			description: ["By planting a Floating Pure Daisy onto a platform made out of Elementium, it is capable of processing 8 blocks at once in only a single block space. It can also handle fluids."]
+			dependencies: ["778BEBE262A9F57B"]
+			id: "1355E60676609056"
+			tasks: [{
+				id: "489FFBDBA1AB3CFE"
+				type: "item"
+				item: "botanicalmachinery:mechanical_daisy"
+			}]
+			rewards: [
+				{
+					id: "3D0FE0576671476B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "372B354BDBB071FB"
+					type: "item"
+					item: "botanicalmachinery:mana_emerald_block"
+					count: 3
+				}
+				{
+					id: "454E7F3D6036763A"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7D55B30671C673F9"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			title: "&5&lMechanical Mana Pool"
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Auto Mana Pool"
+			description: ["Just like a regular Mana Pool, this can store quite some mana. It is also capable of mana infusion. As with any other pool, you can use catalysts. However, this pool requires you to put them into its inventory and not to place them below it."]
+			dependencies: ["778BEBE262A9F57B"]
+			id: "6AE0FDB5088FDAF1"
+			tasks: [{
+				id: "0DD351C868606B65"
+				type: "item"
+				item: "botanicalmachinery:mechanical_mana_pool"
+			}]
+			rewards: [
+				{
+					id: "04E331A107BD75DA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1A30B5AC6F9BBCC2"
+					type: "item"
+					item: "botanicalmachinery:mana_emerald_block"
+					count: 3
+				}
+				{
+					id: "23B8B5B40D33293E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5FD47581F9510969"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			title: "&5&lMechanical Runic Altar"
+			x: 2.5d
+			y: 1.0d
+			subtitle: "Auto Runes"
+			description: ["This device allows you to create runes a lot more easily. Really, it's nothing more than a normal Runic Altar, which can be automated using hoppers."]
+			dependencies: ["778BEBE262A9F57B"]
+			id: "023FEB5056A55197"
+			tasks: [{
+				id: "40F6F7F20A7EF3FB"
+				type: "item"
+				item: "botanicalmachinery:mechanical_runic_altar"
+			}]
+			rewards: [
+				{
+					id: "22D7D13506DAD3B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7659C08FF0738593"
+					type: "item"
+					item: "botanicalmachinery:mana_emerald_block"
+					count: 3
+				}
+				{
+					id: "02E0494940A9B0B3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2DDA11574F8FC393"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			title: "&5&lIndustrial Agglomeration Factory"
+			x: 3.5d
+			y: 1.0d
+			subtitle: "Auto Terrasteel"
+			description: ["The Agglomeration Plate usually requires a stabilising platform underneath it. Not anymore with this device. This machine is pretty unknown to the regular botanist, so give it a shot!"]
+			dependencies: ["778BEBE262A9F57B"]
+			id: "20E9DDDD7B494D88"
+			tasks: [{
+				id: "62F1C3BEF84F7D42"
+				type: "item"
+				item: "botanicalmachinery:industrial_agglomeration_factory"
+			}]
+			rewards: [
+				{
+					id: "20717A4079861019"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00B03388D34376CC"
+					type: "item"
+					item: "botanicalmachinery:mana_emerald_block"
+					count: 3
+				}
+				{
+					id: "74524A414814FCC0"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2DF3167F57281C11"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			title: "&5&lMechanical Brewery"
+			x: 4.5d
+			y: 1.0d
+			subtitle: "Auto Potions"
+			description: ["An improved version of the Botanical Brewery that receives mana from sparks and lets you automate brews easily."]
+			dependencies: ["778BEBE262A9F57B"]
+			id: "2FD09C136E62C857"
+			tasks: [{
+				id: "3C9CDE64A7A2E334"
+				type: "item"
+				item: "botanicalmachinery:mechanical_brewery"
+			}]
+			rewards: [
+				{
+					id: "4F41E4F713B581C5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "51B437B397648915"
+					type: "item"
+					item: "botanicalmachinery:mana_emerald_block"
+					count: 3
+				}
+				{
+					id: "5347A7C6D06FB1D6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "547E23B69337E2CA"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			title: "&5&lAlfheim Market"
+			x: 5.5d
+			y: 1.0d
+			subtitle: "Auto Alfheim Portal"
+			description: ["This single block has a tiny version of an Alfheim Portal inside. It allows for trade with the elves without the need of having a gigantic portal around. Just be careful not to put any bread inside..."]
+			dependencies: ["778BEBE262A9F57B"]
+			id: "5B71E7C1B1A10F15"
+			tasks: [{
+				id: "5A5A6B3C0E02C96F"
+				type: "item"
+				item: "botanicalmachinery:alfheim_market"
+			}]
+			rewards: [
+				{
+					id: "3DFEF8DE4A9FD393"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "49F78A3666D4D012"
+					type: "item"
+					item: "botanicalmachinery:mana_emerald_block"
+					count: 3
+				}
+				{
+					id: "2713BDD62714486F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5EF76F700554B99E"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			title: "&5&lBotanical Machinery"
+			x: 2.5d
+			y: -0.5d
+			shape: "pentagon"
+			subtitle: "It's something that makes the mod magical"
+			description: [
+				"We all know, Botania is a tech mod. Magic mod. Tech mod. Magic mod? Tech mod!? It's a mod. A fancy mod with Mana, Mystical Flowers, Elves and the Gaia. Sometimes it can be hard or annoying to automate all the things in Botania."
+				""
+				"Botanical Machinery will help you automate basically everything from Botania. Quite uncommon in the world of Botania, this mod adds plenty of machines. What machines? Find out below!"
+				""
+				"Use Sparks to transfer mana from Mana Batery to Machines."
+				""
+				"All machines are compatible with other mods. You can automate everything with Refined Storage or Applied Energistics."
+			]
+			dependencies: ["5D657810A90D6702"]
+			size: 1.3d
+			id: "778BEBE262A9F57B"
+			tasks: [{
+				id: "083ECC3B439F545B"
+				type: "item"
+				item: "botanicalmachinery:mana_battery"
+			}]
+			rewards: [
+				{
+					id: "5E56125AF5F2867E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "36B78F1F833A0A24"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+	]
+}

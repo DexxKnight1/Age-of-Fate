@@ -1,0 +1,14 @@
+{
+  "name": "Livingwood",
+  "type": "resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "botania:livingwood"
+  },
+  "color": "5C3317",
+  "textures": {
+    "flower": "mysticalagriculture:block/livingwood_flower",
+    "essence": "mysticalagriculture:item/livingwood_essence",
+    "seeds": "mysticalagriculture:item/livingwood_seeds"
+  }
+}

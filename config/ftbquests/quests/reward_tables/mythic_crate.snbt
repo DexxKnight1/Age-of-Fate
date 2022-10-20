@@ -1,0 +1,208 @@
+{
+	id: "40FE31199ED4693C"
+	order_index: 6
+	title: "Mythic Crate"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "apotheosis:mythic_tome", weight: 3000 }
+		{ item: "apotheosis:mythic_shard", weight: 3000 }
+		{ item: "ars_nouveau:mythical_clay", weight: 3000 }
+		{
+			item: {
+				id: "enigmaticlegacy:astral_breaker"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3000
+		}
+		{ item: "minecraft:nether_star", count: 64, weight: 3000 }
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			count: 16
+			weight: 1000
+		}
+		{
+			item: {
+				id: "allthemodium:alloy_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:etherium_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3000
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:etherium_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3000
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:etherium_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3000
+		}
+		{
+			item: {
+				id: "allthemodium:alloy_pick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "allthemodium:alloy_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "allthemodium:alloy_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3000
+		}
+		{ item: "mekanism:alloy_atomic", count: 16, weight: 3000 }
+		{ item: "mekanism:pellet_antimatter", count: 8, weight: 3000 }
+		{ item: "bloodmagic:soulforge", weight: 3000 }
+		{
+			item: {
+				id: "eidolon:soulfire_wand"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3000
+		}
+		{ item: "forestcraft:molten_alloy", count: 64, weight: 3000 }
+		{
+			item: {
+				id: "vampirism:vampire_book"
+				Count: 1b
+				tag: {
+					generation: 3
+					pages: [
+						"[\"\",{\"text\":\"Liber XV\",\"bold\":true},{\"text\":\"\\nUtcumque potuimus veritatem scrutari, ea quae videre licuit per aetatem, vel perplexe interrogando versatos in medio scire, narravimus ordine casuum exposito diversorum:\",\"color\":\"reset\"}]"
+						"{\"text\":\"residua quae secuturus aperiet textus, pro virium captu limatius absolvemus, nihil obtrectatores longi, ut putant, operis formidantes. Tunc enim laudanda est brevitas cum moras rumpens intempestivas nihil subtrahit cognitioni gestorum.\"}"
+					]
+					title: "Liber XV"
+					author: "Unknown"
+					display: { }
+				}
+			}
+			weight: 3000
+		}
+		{ item: "mysticalagradditions:insanium_block", count: 12, weight: 3000 }
+		{ item: "mysticalagradditions:insanium_apple", count: 12, weight: 3000 }
+		{ item: "minecraft:netherite_block", count: 32, weight: 3000 }
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+			count: 16
+			weight: 3000
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "souls"
+				}
+			}
+			count: 16
+			weight: 3000
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "defense"
+				}
+			}
+			count: 16
+			weight: 3000
+		}
+		{
+			item: {
+				id: "iceandfire:dragonsteel_fire_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "iceandfire:dragonsteel_ice_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "iceandfire:dragonsteel_lightning_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 11141290
+		glow: 1b
+		string_id: "mythic_crate"
+	}
+}

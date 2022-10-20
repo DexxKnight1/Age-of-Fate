@@ -1,0 +1,105 @@
+{
+	id: "584FBF6F1E76E670"
+	order_index: 3
+	title: "Epic Crate"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "apotheosis:epic_tome", weight: 70 }
+		{ item: "immersiveengineering:shader_bag_epic", weight: 70 }
+		{ item: "pamhc2foodcore:epicbaconitem", count: 16, weight: 70 }
+		{ item: "pamhc2foodextended:epicbltitem", count: 8, weight: 70 }
+		{ item: "minecraft:emerald", count: 16, weight: 70 }
+		{ item: "enderstorage:ender_chest", weight: 70 }
+		{ item: "minecraft:diamond", count: 16, weight: 70 }
+		{ item: "mysticalagriculture:supremium_essence", count: 4, weight: 70 }
+		{ item: "minecraft:bookshelf", count: 25, weight: 70 }
+		{ item: "minecraft:nether_star", weight: 70 }
+		{
+			item: {
+				id: "minecraft:netherite_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_netherite"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{ item: "xreliquary:nebulous_heart", count: 16, weight: 70 }
+		{
+			item: {
+				id: "xreliquary:mercy_cross"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{ item: "xreliquary:rod_of_lyssa", weight: 70 }
+		{ item: "xreliquary:frozen_core", count: 16, weight: 70 }
+		{ item: "xreliquary:fertile_essence", count: 16, weight: 70 }
+		{ item: "xreliquary:eye_of_the_storm", count: 16, weight: 70 }
+		{ item: "xreliquary:molten_core", count: 16, weight: 70 }
+		{ item: "xreliquary:twilight_cloak", weight: 70 }
+		{ item: "botania:life_essence", weight: 70 }
+		{ item: "botania:rune_water", weight: 70 }
+		{ item: "botania:rune_summer", weight: 70 }
+		{
+			item: {
+				id: "botania:dice"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "naturesaura:token_euphoria", weight: 70 }
+		{ item: "terraqueous:ender_book", weight: 70 }
+		{
+			item: {
+				id: "iceandfire:siren_flute"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{ item: "twilightforest:magic_map_focus", weight: 70 }
+		{
+			item: {
+				id: "twilightforest:triple_bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{ item: "minecraft:enchanted_golden_apple", count: 12, weight: 70 }
+		{ item: "fluidtank:tank_diamond", weight: 10 }
+		{ item: "mekanism:digital_miner", weight: 10 }
+		{ item: "notenoughwands:advanced_wand_core", count: 16, weight: 10 }
+		{ item: "mod_lavacow:mootenheart" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16733525
+		glow: 1b
+		string_id: "epic_crate"
+	}
+}

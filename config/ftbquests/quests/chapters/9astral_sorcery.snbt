@@ -1,0 +1,1840 @@
+{
+	id: "1C04657DEE9BDD9A"
+	group: "15F5BAC0BCC22DEF"
+	order_index: 2
+	filename: "9astral_sorcery"
+	title: "&9Astral Sorcery"
+	icon: "astralsorcery:resonating_gem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 4.535714285714278d
+		y: -3.839285714285719d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&d&lWelcome to Astral Sorcery"
+			icon: "astralsorcery:tome"
+			x: 3.714285714285708d
+			y: -3.482142857142861d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oMagic Wokbench&r quest*"
+			description: [
+				"Astral Sorcery is a Minecraft magic mod focused around harnessing the powers of starlight and the constellations. Explore and discover the world and the sky above you; focus starlight to your will, strengthening yourself or enhancing the world around you."
+				""
+				"The mod itself has an ingame guide in the form of the Astral Tome, which will guide you through most of the mod if you read it carefully. Certain structures in the world are required for proper progression."
+			]
+			dependencies: ["1F59C800DAFC0A53"]
+			size: 1.5d
+			id: "0C1C67A4A32373FA"
+			tasks: [{
+				id: "070ED7C0A8EEC264"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "2D80DEBAA8B5324A"
+					type: "item"
+					item: "astralsorcery:linking_tool"
+				}
+				{
+					id: "06A0409874C7019D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: [
+				"The Luminous Crafting Table must be placed somewhere open to the sky to work. This table has a “Star Light” meter at the bottom when you open it. This will fill up depending on where the table is placed and the time. In the middle of the night, your table will have higher levels of Star Light than during the day."
+				""
+				"Tables placed at a higher elevation (max Y-level 120) will also get more Star Light. Higher levels can be achieved if you are near a Collector Crystal or in an area of high Starlight concentration (more on this later). This Star Light level is also affected by where the moon is and where you are in world, as it depends on what Constellations the table can see. During the day you will get next to no Star Light."
+				""
+				"This table can also be used as a regular crafting table (for crafting things related to Astral Sorcery) but when crafting anything for Astral Sorcery you will need your Resonating Wand. Unlike a normal crafting table where you can just pull out what you have crafted, you have to exit the table after creating the recipe and then right-click the table with the Resonating Wand. A beam of moonlight will shine on the table and then the crafted item will appear in the world on top of the table."
+			]
+			dependencies: ["20594315A9A44D98"]
+			id: "25D6350FE7132A12"
+			tasks: [{
+				id: "478F5687F28DEDC1"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [
+				{
+					id: "0D5937DDA14F7C34"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2973BCA04C08D20A"
+					type: "item"
+					item: "ars_nouveau:warp_scroll"
+					count: 16
+				}
+				{
+					id: "1FE7C0D944C1C5E1"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "4F5807DE896FF092"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&d&lLight \\& Darkness"
+			x: 4.5d
+			y: -2.0d
+			subtitle: "Illuminate or Obscured"
+			description: [
+				"&b&lIlluminating powder&r:"
+				"With a little bit of Starlight, glowstone and aquamarine you can craft Illumination Powder. It is very useful on its own but it's far more useful when used to craft other items. Once crafted you can right-click it on the ground and it will light up the area. Unlike a torch, it does not have a hit box. The only way to put these out is to place a block over them."
+				""
+				"&b&lNocturnal Powder&r:"
+				"Using the Illumination powder you can also create Nocturnal powder. When right-clicked on the ground it will create a dark patch which will eventually disappear leaving behind a group of mobs. The mobs spawned will vary per biome and the mods installed. If the mobs inside are somehow continuously removed (e.g. killed or pushed out of the area), more mobs will spawn inside the smoke!"
+			]
+			dependencies: ["25D6350FE7132A12"]
+			id: "31B734BC8C29019C"
+			tasks: [
+				{
+					id: "1EF51C49497E1DA5"
+					type: "item"
+					item: "astralsorcery:illumination_powder"
+				}
+				{
+					id: "376B58CB8EC68EA6"
+					type: "item"
+					item: "astralsorcery:nocturnal_powder"
+				}
+			]
+			rewards: [
+				{
+					id: "21075F4FF83450DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5E127D97AE12D84A"
+					type: "item"
+					item: "astralsorcery:illuminator"
+				}
+				{
+					id: "1C3629D17572BE9D"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "3AE86C44D3FCB338"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			description: [
+				"Rock Crystal ore can be found deep underground at Y-level 4 and below (give or take a few levels up or down) using a Resonating Wand. It requires a Diamond pickaxe (this could be different depending on other mods installed; needs to be able to mine obsidian) to harvest. A warning: Rock Crystal Ore can only be mined by a player standing within 10 blocks of it, anything else (like a quarry) and the ore will drop nothing."
+				""
+				"You are going to need more Rock Crystals. These are not always easy to come by so use these sparingly. If you wish to make a sword or a pickaxe from Rock Crystal take the following into consideration:"
+				""
+				"&b&lSize:&r Grindability/Durability - The bigger the better, this will increase the tool/weapon Durability."
+				"&b&lPurity:&r Power of Starlight if used to transmit Starlight, and resistance to loss of size when grinding. This will allow you to sharpen the tool/weapon to make it even stronger."
+				"&b&lCutting:&r Damage/tool speed"
+				""
+				"You can use normal Rock Crystals but you can enhance these to make them more powerful. Throwing these into Liquid Starlight will increase the Crystals overall size (up to 400). This is a slow process and could take some time so while that is happening you can move onto making a Grindstone."
+			]
+			dependencies: ["25D6350FE7132A12"]
+			id: "6D308964EEFAD4F7"
+			tasks: [{
+				id: "6D5852F32A259C65"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "023BAFFCD08207FC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5E08B00FC4144554"
+					type: "item"
+					item: {
+						id: "astralsorcery:rock_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "168C765332869110"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "46126A12D62041BE"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: [
+				"Now that you have a good amount of Liquid Starlight it's time to create your next item, the Fosic Resonator. This will require a bucket of Liquid Starlight and a gold ingot. This must be crafted on the Luminous Crafting Table."
+				""
+				"This little device will help you find higher concentrations of Starlight (useful if you are having problems with getting enough Starlight for crafting). With this in hand you walk around your world and find patches on the ground that are blue. This needs to be done at night and you may not see these patches if you are flying around too high or too fast."
+				""
+				"Dark Blue patches like the one above mean there is a medium concentration of Star Light."
+			]
+			dependencies: ["25D6350FE7132A12"]
+			id: "454EF2F419793A1B"
+			tasks: [{
+				id: "6590770F4D9E7A40"
+				type: "item"
+				item: {
+					id: "astralsorcery:resonator"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							upgrades: [0]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "44AC5D8A16345DA0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1E70A66DBA5E426A"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "27FDB251ED83EDAA"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			title: "&d&lSpectral Relay"
+			icon: "astralsorcery:spectral_relay"
+			x: 5.0d
+			y: 0.0d
+			description: [
+				"If you are still having problems with Starlight then there are other tools you can use to increase this. The Spectral Relay is a multiblock structure."
+				""
+				"You need to build this multiblock structure near (14 blocks away from the Altar is the max distance) your Luminous Crafting Table. More than one can be built to increase their power, and they can be built adjacent to one another so that they share sides."
+				""
+				"However as cool as this is, this is also a very inefficient setup due to Astral Sorcery’s starlight cannibalism mechanic, where any starlight collector (Crystal’s, Ritual Pedestals, Relays, etc.) operates most efficiently within its own 16 block area, edges determined by vectors. For example the second relay will add minimal, and probably immaterial amounts of starlight to the network. It will be significantly improved if the second relay was placed at least 16 blocks away from the other Relay."
+			]
+			dependencies: ["454EF2F419793A1B"]
+			id: "4A8E4E7E9E3C98D9"
+			tasks: [
+				{
+					id: "6A946F2EE8E2A635"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+				}
+				{
+					id: "1A4D89254094BE64"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+				}
+				{
+					id: "18A6751677E31F35"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 4L
+				}
+				{
+					id: "46A567891DD06095"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "4A63FE17247F9F37"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2F673E7EC2C7C344"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4DAE35F6DF8A6E58"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&d&lConstellations"
+			x: 1.5d
+			y: 0.5d
+			subtitle: "Constellations are a key mechanic in Astral Sorcery"
+			description: [
+				"There are 16 constellations. 5 are bright, 7 are dim and 4 are faint."
+				""
+				"&b&lBright&r constellations are visible to the player and possible to discover from the beginning. They are the only constellations a player can attune themselves to, and grant perks upon doing so."
+				""
+				"&b&lDim&r constellations are only visible after a player has attuned themselves to a constellation. Rock and Celestial Crystals can be attuned to these constellations."
+				""
+				"&b&lFaint&r constellations are only visible to an attuned player using an Observatory. However, they can be used to augment the rituals of other constellations."
+			]
+			dependencies: ["6D308964EEFAD4F7"]
+			id: "54C23FEC56713567"
+			tasks: [{
+				id: "18AE3D0839B978B3"
+				type: "item"
+				title: "Find any constellation"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "astralsorcery:constellations"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00963ABC44B4B3F8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "520301DC7F705D37"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "162A8EDD106FC2D2"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["6D308964EEFAD4F7"]
+			id: "591FB33D4F42416E"
+			tasks: [{
+				id: "4DF646D314570CD1"
+				type: "item"
+				item: {
+					id: "astralsorcery:crystal_pickaxe"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3BC7C3B270DC5606"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07307ECDC687546B"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "44DBF1DA94241CAE"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			icon: "astralsorcery:well"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"The Lightwell needs to be crafted in the Luminous Crafting Table and requires a few Rock Crystals. Now when you hover over Rock Crystals and hold sneak you can see some properties of the Rock Crystal such as Size, Purity and Cutting. When crafting your Lightwell make sure you pick the crystal with the LOWEST Purity, because you will need the higher Purity crystals later. The Purity of the crystal used has no effect on the Lightwell (but does for some other crafted blocks)."
+				""
+				"Put the Lightwell down under an open sky, then right-click the Lightwell with a valid item in hand to create Liquid Starlight. These items can’t be removed from the Lightwell, and will continue to generate Liquid Starlight until they shatter."
+				""
+				"Valid items starting with the (lowest to highest) starlight generation and (highest to lowest) shatter chance:"
+				"- Aquamarine"
+				"- Resonating Gems"
+				"- Rock Crystals"
+				"- Attuned Rock Crystals"
+				"- Celestial Crystals"
+				"- Attuned Celestial Crystals"
+				""
+				"It is best to start this process at the beginning of the night in order to get the most out of your items as you will get little to none during the day. Keep in mind that Lightwells can only hold up to 2 buckets of Liquid Starlight so you will want a liquid container nearby to put Liquid Starlight into during generation."
+			]
+			dependencies: ["6D308964EEFAD4F7"]
+			id: "00C4C037F7D8C302"
+			tasks: [
+				{
+					id: "3EDC5EDBA9311A0E"
+					type: "item"
+					item: "astralsorcery:well"
+				}
+				{
+					id: "1B2DB704612799E8"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "622B50218E8D883A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "137E2ADA3B683D04"
+					type: "item"
+					item: "astralsorcery:aquamarine_sand_ore"
+					count: 8
+				}
+				{
+					id: "7F29554183487B7D"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "704592BEB74E1872"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["Liquid Starlight behaves similarly to water. It moves WaterMills, flows a lot faster than water, gives you night vision when you stand in it, and it will freeze when in contact with water. When using it with other Mods, please note that it is considered very cold. If you try to extract this liquid via Thermal Expansion Fluid Ducts they will break (you will need to use Reinforced Liquid ducts). Liquid Star Light can be pumped out from the bottom of the Lightwell."]
+			dependencies: ["00C4C037F7D8C302"]
+			id: "1B67F057547C751C"
+			tasks: [{
+				id: "3635FBF651AAE063"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+			rewards: [
+				{
+					id: "72601EFDE2C0D78A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "790066DF611D8F7C"
+					type: "loot"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "4EEFE3AF67117D26"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			description: [
+				"Starmetal is the outcome of smelting Starmetal Ore which is unobtainable through mining and must be formed by a player. To form this ore a player must have obtained the linking wand and must have a floating crystal exposed to starlight nearby. (Can be found at Ancient Shrines)."
+				""
+				"Start by right clicking the linking wand onto the floating crystal and then onto a placed block of iron ore."
+			]
+			dependencies: ["6D308964EEFAD4F7"]
+			id: "1D7133978C27C4FF"
+			tasks: [{
+				id: "26B4F14DF43B743E"
+				type: "item"
+				item: "astralsorcery:starmetal_ore"
+			}]
+			rewards: [
+				{
+					id: "50FB678883F4295D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2BEDA54302A6C55E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "046835A3131A3D55"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["1D7133978C27C4FF"]
+			id: "7675D81B5615218E"
+			tasks: [{
+				id: "62637A0D5EBC9289"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60D5F65BBA77A7AC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "493DA2A254297CE1"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "4435FCCF3D3789BE"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "733D2A5780BA59C4"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "&d&lCelestial Crystals"
+			icon: {
+				id: "astralsorcery:celestial_crystal_cluster"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+					Damage: 4
+				}
+			}
+			x: -3.5d
+			y: -1.0d
+			subtitle: "Shall we make some crystals?"
+			description: ["Celestial crystals are enhanced versions of the regular rock crystals that can be mined deep underground. They are created by throwing stardust and a rock crystal into a pool of liquid starlight where a Celestial Crystal cluster will form. After a while the Celestial Crystal cluster will become fully grown and can be harvested by simply mining it with a pickaxe. Don't be hasty though because breaking a cluster before it is ready will either give you a low quality Celestial Crystal or nothing at all!"]
+			dependencies: [
+				"1B67F057547C751C"
+				"7675D81B5615218E"
+			]
+			id: "24FE4610F4260498"
+			tasks: [{
+				id: "7928791F7512E972"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "38DAAFA6AD5E1037"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6BDB2FACF1CE72AF"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "22759AD598AF8A8A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["24FE4610F4260498"]
+			id: "6FB8869F2C23EC94"
+			tasks: [{
+				id: "00A3A69DE323677F"
+				type: "item"
+				item: {
+					id: "astralsorcery:lens"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "15CD75AB6A68D778"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "410DB6B199E403C2"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+					count: 2
+				}
+				{
+					id: "6ECB3391D3DF9EF6"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["6FB8869F2C23EC94"]
+			id: "0C6AEA7B3A36DA36"
+			tasks: [{
+				id: "220171F81C0250BF"
+				type: "item"
+				item: {
+					id: "astralsorcery:prism"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "32E40DB3C46757D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "07BD6FB2C7E36687"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "2848A3C5BF5E9078"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			title: "&d&lCollector Crystal"
+			x: -2.5d
+			y: 3.0d
+			subtitle: "Collector Crystals are the next level of Starlight gathering after Relays"
+			description: [
+				"You can place/break these crafted Collector Crystals at will (in contrast to the ones you find in large Shrines). These can be made from Attuned Crystals with high stats to become the most potent sources of Starlight available. The biggest motivation to use Celestial Crystals over Rock Crystals, or to refine the Size, Purity and Cutting of any Crystal, is to make powerful Collector Crystals that you can link to your Celestial Altar. This could allow you to craft at noon, craft in the middle of a rainstorm or for accelerated transmutation."
+				""
+				"The best way to think about how a Crystal’s stats affect the performance of a Collector Crystal is to use a jeweler's analogy. In the end, all stats matter if you’re just concerned about producing the most Starlight possible."
+				""
+				"&lSize&r - the larger the size of a Crystal, the more Starlight it can gather (the more surface area it can collect light from)."
+				""
+				"&lPurity&r - You can gather all of the Starlight in the world, but it won’t do you any good if the Crystal is occluded or cloudy. Purity is one of the most punishing stats if low, but also one of the least rewarding if absolutely perfect (a purity of 90% versus 100% leads to only about a 5% difference in Starlight). It is the most difficult stat to min-max, but conversely, also the least required."
+				""
+				"&lCut&r - Lastly, Cut determines the resulting focus of the Starlight coming out of the Crystal. You can gather all the Starlight in the world and redirect through the purest crystal, but if the Cut isn’t good, the light won’t be focused."
+			]
+			dependencies: ["6FB8869F2C23EC94"]
+			id: "2D8554A5FFBC8909"
+			tasks: [{
+				id: "55A2438DF371C6F6"
+				type: "item"
+				title: "Any Collector Crystal"
+				item: {
+					id: "astralsorcery:celestial_collector_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							constellation: "astralsorcery:pelotrio"
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:collector.rate"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:constellation.pelotrio"
+										pLevel: 2
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "388D255787568AA1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5338F8E9AB81F98E"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "51EEF3232C46CCFB"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			title: "&d&lEnhanced Collector Crystal"
+			icon: {
+				id: "astralsorcery:celestial_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:discidia"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.discidia"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+			}
+			x: -3.0d
+			y: 4.0d
+			subtitle: "The final level of Starlight production uses the Enhanced Collector Crystal Structure"
+			description: ["To put it into relative terms, the amount of Starlight produced by Celestial Collectors with strong Crystals, let alone an Enhanced Collector, can allow a player to craft with an Iridescent Altar at noontime or in the middle of a thunderstorm. The amount of Starlight produced renders minor bonuses from elevation close to negligible, but if you still want to min-max, then feel free. As for the Enhanced Collector Structure, it allows a Collector Crystal to be somewhat performant throughout the night, even if its Constellation isn’t in the sky, or during the day. When it comes to Astral Sorcery’s Starlight network, it’s a spectrum of things that affect Starlight production, rather than an on/off switch. Night vs day, Rock Crystal vs Celestial, regular vs enhanced, poor stats vs. perfect stats, Constellation in the night sky, elevation level, Starlight concentration, etc."]
+			dependencies: ["2D8554A5FFBC8909"]
+			id: "41A543FC742FEC21"
+			tasks: [
+				{
+					id: "7FBA68BE12298DA2"
+					type: "item"
+					title: "Any Collector Crystal"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "astralsorcery:crystals/collector"
+						}
+					}
+				}
+				{
+					id: "104D941EE91BEB9A"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+				}
+				{
+					id: "6408895E9A57BE7B"
+					type: "item"
+					item: "astralsorcery:marble_engraved"
+					count: 5L
+				}
+				{
+					id: "5152969542D7582D"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 9L
+				}
+				{
+					id: "46BB08BBBC35CD84"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 5L
+				}
+				{
+					id: "099935AB65D43EEF"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "4A883B407AC303D9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7588812B128C4419"
+					type: "random"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "3E2329255274AB3E"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			title: "&d&lColoured Lenses"
+			x: -4.5d
+			y: 3.0d
+			subtitle: "Coloured Lenses can be put into Lenses"
+			description: [
+				"These should mainly be used for their effects rather than moving Starlight to your altar. Simply right-click a Coloured Lens on to a Lens you have previously placed down."
+				"You can remove a Coloured Lens by sneak-right-clicking the Lens. Lenses are also used for crafting. Each Coloured Lense has a different effect:"
+				"&lBreak (Yellow)&r - Breaks any block in front of the beam of light. Takes longer to break obsidian."
+				"&lGrowth (Green)&r - Will encourage plants and crops that are in front of the beam to grow."
+				"&lDamage (Red)&r - Will damage any mobs in front of the beam. This is Magical damage and will not hurt players."
+				"&lRegeneration (Pink)&r - This will heal mobs and the player. It will not add a regeneration effect."
+				"&lPush (Light Blue)&r - Items and mobs will be pushed along by the beam."
+				"&lSpectral (Purple)&r- Allows you to project Starlight through walls."
+			]
+			dependencies: ["6FB8869F2C23EC94"]
+			id: "74490FC5D6D9066B"
+			tasks: [{
+				id: "2BD3CAB5269C0D8A"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "astralsorcery:colored_lens"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "30B849E1EC40D76B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1B38BE24D5E4A5CD"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "01016C63F4167F75"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "&d&lRitual Pedestal"
+			icon: "astralsorcery:ritual_pedestal"
+			x: -2.0d
+			y: 5.0d
+			subtitle: "Now that you have an Attuned Rock Crystal you can make use of the Ritual Pedestal"
+			description: [
+				"This will require a structure built below it. Check your Tome for full instructions. Once built, you can throw in your newly acquired Attuned Rock Crystal. Be sure to illuminate the multiblock structure so that snow will not accumulate on the blocks and cancel the ritual."
+				""
+				"This Pedestal acts like a beacon. Each area of effect will be different depending on the attunement of the crystal. This beacon can have up to a 20 block radius and is dependant on the Size and Purity stats of the crystal you use (the Cutting attribute does not matter). You can remove the Attuned Crystal from the Pedestal by sneak-right-clicking it."
+			]
+			dependencies: ["41A543FC742FEC21"]
+			id: "6E9003DE9F6C55AE"
+			tasks: [
+				{
+					id: "04694775DB4D2C25"
+					type: "item"
+					item: "astralsorcery:ritual_pedestal"
+				}
+				{
+					id: "314926E56A8FEE3C"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12L
+				}
+				{
+					id: "7B94345A71E6BB2B"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+				}
+				{
+					id: "0C57577DF0467DFB"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 24L
+				}
+				{
+					id: "431CB15B09C1C5B8"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 20L
+				}
+			]
+			rewards: [
+				{
+					id: "03C3E5BF2A4B3F23"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3CB16032C5048D42"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "5C85C468523E5B86"
+					type: "ftbmoney:money"
+					ftb_money: 450L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.7589285714285765d
+			subtitle: "You have already discovered a few Constellations with the Looking Glass"
+			description: [
+				"This works, but there is an easier method to discovering the rest."
+				""
+				"If you are able to discover more Constellations then please do. Looking these Constellations up in your Tome will give you a bit more information on them."
+			]
+			dependencies: ["54C23FEC56713567"]
+			id: "18A743C75342AD78"
+			tasks: [{
+				id: "405B17EFBCF1023F"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [
+				{
+					id: "44BA920C6A72F5E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0165D73EA60C9CE6"
+					type: "item"
+					item: "minecraft:cod"
+					count: 16
+				}
+				{
+					id: "39808BBDEA04F5A3"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "25EEDA1191E34623"
+					type: "ftbmoney:money"
+					ftb_money: 22L
+				}
+			]
+		}
+		{
+			title: "&d&lStarlight Crafting Altar"
+			icon: "astralsorcery:altar_attunement"
+			x: 3.0d
+			y: 2.0d
+			subtitle: "Now you want to upgrade your Luminous Crafting Table to a Starlight Crafting Altar"
+			description: [
+				"This will enable you to make more powerful items. To craft this you will need plenty of Starlight and a few materials (please check your Tome). When you have all of these in the Luminous Crafting Table right-click it with your Resonating Wand and your Luminous Crafting Table will upgrade itself. This can take a little while so make sure you do this in the middle of the night. Please ensure that you have the correct materials (pay close attention to the types of marble blocks) to upgrade the Luminous Crafting Table or you may find that you need to craft another Basic Crafting Table to craft Marble."
+				""
+				"Once your Starlight Crafting Altar is done you will notice that it no longer works. This is because it needs a special platform in order to work. If you look in your Tome it will show you how to build this platform and what materials you need (use the Sextant to help with the layout)."
+				""
+				"You will notice that your Starlight Crafting Altar has a much bigger Starlight Meter. This altar also needs to have access to the sky, just like the Luminous Crafting Table did. It would be beneficial to get the Starlight Crafting Altar’s Starlight Level to full. This will make crafting and other activities easier. You can surround the altar with Spectral Relays to help boost the altar’s Starlight Level."
+			]
+			dependencies: ["25D6350FE7132A12"]
+			id: "18E3BC7A4323AB36"
+			tasks: [
+				{
+					id: "7F5746AFB34DDC61"
+					type: "item"
+					item: "astralsorcery:altar_attunement"
+				}
+				{
+					id: "44A44EA59322B0E4"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+				{
+					id: "3440EACA07CB0E3F"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 8L
+				}
+				{
+					id: "2A06FA5D9B2FBEB9"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 24L
+				}
+				{
+					id: "5DB1B1B8F8FC2482"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 28L
+				}
+				{
+					id: "6FB2844E42C4C865"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 21L
+				}
+			]
+			rewards: [
+				{
+					id: "0B1C84EC66DB676C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6675ED2B7390A363"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "757A6049C40F07E6"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: ["Craft a Telescope and place it down in a high place (away from buildings and trees). This will enable you to look at the stars and find other Constellations. The telescope will let you draw out these Constellation without needing to sneak and will let you scroll left and right without having to look around."]
+			dependencies: [
+				"7C82FD01F18C5DC9"
+				"18E3BC7A4323AB36"
+				"18A743C75342AD78"
+			]
+			id: "5DFF8DB9AED72D7D"
+			tasks: [{
+				id: "14B7AB2EAECE3C27"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+			rewards: [
+				{
+					id: "5D27E95DC5651F97"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "33EEEBDE0EBEF541"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2D0373EC3D1F5144"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "3722FB1919818F0E"
+					type: "ftbmoney:money"
+					ftb_money: 33L
+				}
+			]
+		}
+		{
+			title: "&d&lCelestial Gateway"
+			icon: {
+				id: "astralsorcery:celestial_gateway"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			x: 0.0d
+			y: 2.0d
+			subtitle: "With the Stardust and the Stardust Ingots you can move on to the Celestial Gateway"
+			description: [
+				"This requires a Rock Crystal but there is no need to worry about its attributes. You also need to build a structure for the Celestial Gateway to sit on. The design can be found in the Tome."
+				""
+				"Once the base is complete and the Celestial Gateway placed down, your Celestial Gateway should light up around the black blocks. Once you step inside this area a dark dome appears around you that stops at ground level. This is a teleportation pad. You can build more of these in your world (and other dimensions) and they will link to each other."
+				""
+				"When you have built more than one, a gold star will appear in the dome indicating the other gateway(s). These stars will be above ground level you so you will always be able to find them. If there is anything in the way (such as a tree) you will may not be able to see the whole dome."
+				""
+				"You can rename the gateway in an anvil which will create a small caption appearing on the star while looking at it, allowing you to differentiate between different locations.If you stand in the middle of the dome and sneak-right-click on a gold star, you will be teleported to that location. These also work in the Nether, End and other dimensions added by mods."
+			]
+			dependencies: ["5DFF8DB9AED72D7D"]
+			id: "4E988D511B486B73"
+			tasks: [
+				{
+					id: "2014AAAFF24F9DAF"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "0749E81EAE9FDF42"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 20L
+				}
+				{
+					id: "209B340DDADC66CC"
+					type: "item"
+					item: "astralsorcery:marble_engraved"
+					count: 4L
+				}
+				{
+					id: "2E3BFF923A468F8E"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "6EC84DA36E839946"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 25L
+				}
+			]
+			rewards: [
+				{
+					id: "5A34E43AC6738E6C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7B16F3D8C3B5A375"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "20894ED6721FF7C8"
+					type: "ftbmoney:money"
+					ftb_money: 55L
+				}
+			]
+		}
+		{
+			title: "&d&lAttunement Altar"
+			x: -0.5d
+			y: 4.0d
+			subtitle: "Now you are ready to start Attuning yourself with a Star Sign"
+			description: [
+				"This will allow you to specify the Crystals or powers that you are able to attain. Keep your telescope close to the Celestial Altar. Not only will you need to make an Attunement Altar but you will also need to build another altar for this to sit on. This can be found in your Tome."
+				""
+				"You will know the platform is right when you see lots of little sparkles on the ground around the Attunement Altar.You will also need a few Spectral Relays and you will need to pick a constellation to attune yourself to (these can be found by sneak-right-clicking your Tome).Take a Constellation Paper and put it in your off-hand. While in the Attunement Altar you will see little blue swirls on the ground that match the Constellation (you can only see this at night)."
+				""
+				"Put down Spectral Relays where the swirls appear. Once successful, the lines will connect and look like the Constellation. You can put more Relays down for other Constellations but remove at least ONE Relay from the previous Constellation (only one complete Constellation can be active at once). This will save you time in the future because you will just need to put one Relay down for a Constellation rather then all of them."
+				""
+				"For this to work you will have needed to discover the Constellation in the sky and it must also be in the sky on that night. This process could take a few days and relies on a little luck sometimes. If your chosen Constellation is not in the sky then this process will not work. You can always change what Constellation you want to attune to by changing the Relays."
+				""
+				"Once your Constellation is in the sky, step into the Attunement Altar and wait. Once the process has completed, you will have unlocked “perks”."
+			]
+			dependencies: ["6E9003DE9F6C55AE"]
+			id: "7C82FD01F18C5DC9"
+			tasks: [{
+				id: "3C40A744E4841766"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+			rewards: [
+				{
+					id: "6E666099583504EC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1A758EEB136F1539"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "2D397F827B1A63D3"
+					type: "ftbmoney:money"
+					ftb_money: 666L
+				}
+			]
+		}
+		{
+			title: "&d&lObservatory"
+			x: 1.5d
+			y: 4.0d
+			subtitle: "The Observatory enables you to find four new Constellations"
+			description: [
+				"These are Faint Constellations and can only be found with the Observatory because they are further away. When placed down, you will be able to get into the Observatory by right-clicking the seat. Once inside you will be able to see the night sky. Moving your mouse around will scan the night sky.Searching and drawing out the constellations works just like the looking glass."
+				""
+				"The new constellations are purple and can be seen in the night sky once found."
+				""
+				"You can also use the Observatory to find any other Constellations that you have not found."
+			]
+			dependencies: ["1B55BF86555E33C6"]
+			id: "0BCAB90C586AD945"
+			tasks: [{
+				id: "4F93F477F8A8C8AC"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+			rewards: [
+				{
+					id: "3624E2000DA63A39"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0644CFD454BF0D3A"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "76826C26D60C7559"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4412A180AE31E23F"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "410D991D427B55AF"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			title: "&d&lCelestial Altar"
+			icon: "astralsorcery:altar_constellation"
+			x: 3.0d
+			y: 3.5d
+			subtitle: "Your Starlight Crafting Altar can now be upgraded again"
+			description: [
+				"This requires a lot of Starlight and a few materials. The Celestial Altar also needs to have a physical upgrade, but this can be done once the altar block itself has been upgraded. Just like the previous upgrade, you place the materials into the Starlight Crafting Altar, right-click it with your Resonating Wand and wait for the magic."
+				""
+				"When building the new structure, make sure you check the Tome and rotate the image to see exactly where blocks should be placed (or use the Sextant)."
+				""
+				"Once the Celestial Altar has been built and upgraded you will notice there are even more spaces in the crafting grid."
+			]
+			dependencies: ["18E3BC7A4323AB36"]
+			id: "39248D50546DDCF5"
+			tasks: [
+				{
+					id: "219407792CF63324"
+					type: "item"
+					item: "astralsorcery:altar_constellation"
+				}
+				{
+					id: "2E9FFCF88105B5ED"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "4879434B1B2836C0"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+				{
+					id: "71A497629B682DB5"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 49L
+				}
+				{
+					id: "62501FC42B6ABF1A"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12L
+				}
+				{
+					id: "019FF33EA731042E"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+				{
+					id: "21F836817C19CA3B"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 40L
+				}
+			]
+			rewards: [
+				{
+					id: "34411BB6C087F392"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7363B97006D57D03"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "651967EEE55D84DD"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "3E0B7BF6D83D7E3C"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "34D75B136745919B"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "&d&lStellar Refraction Table"
+			x: 4.5d
+			y: 2.5d
+			subtitle: "The Stellar Refraction Table requires Infused Glass and an open sky above it to work"
+			description: [
+				"Once the Table is placed down, right-click it with a single piece of Infused Glass (bear in mind that this glass has a durability). Once in the Table the UI will change. The Table also requires Parchment. It can hold about a stack of Parchment (right-click with it to insert)."
+				""
+				"The basic idea behind this is that once you have inserted your glass and Parchment, you can then add up to three Constellations to the Parchment. Then you can etch the Constellations you selected to the glass. Once the glass has been etched you can take the Parchment away and insert items, potions or books. Over time these will become enchanted. This is heavily dependant on what Constellations you have found and what Constellations are currently in the sky. This table also does not work if the moon is too low to the horizon (early evening or early morning)."
+				""
+				"Here is a step-by-step:"
+				""
+				"1. First right-click Parchment and Infused Glass onto your Table"
+				""
+				"2. Right-click the Table and move up to three Constellations onto the Parchment. Remember these might be different depending on what you have discovered and what is currently in the sky. Sometimes this might fail and you will see fire fly out of your table which will destroy the parchment. This just means that crafting has failed due to the Constellations not working together. You might find this happens a lot when trying different combinations of Constellations"
+				""
+				"3. Eventually you will find a set of Constellations that will not burn your paper. Once this is done you will notice the glass has changed - this is your Engraved Glass. It has a limited amount of uses before you have to create a new one."
+				""
+				"4. Once you have Engraved Glass you can insert (right-click) books, armor, weapons or potions into your Table. Sneak right-click the Parchment to remove it from the Table."
+				""
+				"Remember each piece of Etched Glass has a limited amount of uses. Glass can also be taken out of the table by sneak-right-clicking it."
+			]
+			dependencies: ["39248D50546DDCF5"]
+			id: "0DE81B4B05F92D44"
+			tasks: [{
+				id: "42B83A8F570DC018"
+				type: "item"
+				item: "astralsorcery:refraction_table"
+			}]
+			rewards: [
+				{
+					id: "6267C11C341F5396"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3671AA7233D46AB4"
+					type: "item"
+					item: {
+						id: "astralsorcery:infused_glass"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42CA6BABD39A727C"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "065C2A09CD34FFE2"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "&d&lStarlight Infuser"
+			icon: "astralsorcery:infuser"
+			x: 4.5d
+			y: 4.5d
+			subtitle: "Next you want to build the Starlight Infuser"
+			description: ["This requires a structure to be built and is a bit more complicated than previous altars because it requires Liquid Starlight."]
+			dependencies: ["39248D50546DDCF5"]
+			id: "2990EBA63D1C449D"
+			tasks: [
+				{
+					id: "20FBE0ABD58B2B1C"
+					type: "item"
+					item: "astralsorcery:infuser"
+				}
+				{
+					id: "7E7C3FB9FE547376"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+				{
+					id: "463396A8BD7FBE51"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 8L
+				}
+				{
+					id: "3EDF189DE66783BA"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 4L
+				}
+				{
+					id: "781B56801F7C10DB"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 20L
+				}
+				{
+					id: "36438300F5E99407"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "31E77184BCA048C1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "11C4F6845180A3A1"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "2D499203F4171532"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "56D0925668CF4AF9"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "&d&lIridescent Altar"
+			icon: "astralsorcery:altar_radiance"
+			x: 3.0d
+			y: 5.5d
+			subtitle: "The Iridescent Altar requires a lot of Starlight and a few materials but is very important when moving on to more of this mod"
+			description: ["This altar will need a new structure around it. This only takes a few blocks around the top of the altar. Once built it will add a few new features around your altar. You will know this is done when a crystal appears above your altar."]
+			dependencies: ["39248D50546DDCF5"]
+			id: "1B55BF86555E33C6"
+			tasks: [
+				{
+					id: "0B53B7C00203E9B4"
+					type: "item"
+					item: "astralsorcery:altar_radiance"
+				}
+				{
+					id: "170A02BDF328A27E"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+				{
+					id: "39F592B7D13F1147"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+				{
+					id: "477BD8E4B377E540"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 68L
+				}
+				{
+					id: "3BCD0E49DF66000B"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12L
+				}
+				{
+					id: "415FC5A1B150130A"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 49L
+				}
+			]
+			rewards: [
+				{
+					id: "380DE1F5DAC536F9"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "381DD00FBFC930CD"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "6B4A07405D3C595B"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "6FCEEF4DB5F1B4D0"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "262BFC565984988E"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "4E82CF3E6D01B2F6"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&d&lContainment Chalice"
+			x: 4.5d
+			y: 6.5d
+			subtitle: "The first item that should be crafted is the Containment Chalice"
+			description: [
+				"Once the required items are in the table, there will be a picture (just like before) on the right side of the table that will confirm that you have all the right reagents.Before you right-click the table with your Resonating Wand, place down 5 relays on the Sooty Marble just inside the border. This is so you can see what the Altar is asking for and so you can put these items down quickly."
+				""
+				"Right-click your altar to begin the crafting process. As the process goes on, you will notice the relays will have a “Ghost” image of the item that it requires. Right-click the item into the relay."
+				""
+				"Once finished, the item will appear on top of the Altar.The Containment Chalice does a few things and can be very useful when paired with tech mods. The Chalice will hold 24MB of liquids. This means it will hold Liquid Starlight, water and lava. On its own it works as a good solution for holding Liquid Starlight."
+				""
+				"What's special about this Chalice is when you stand them next to each other when filled with different liquids. Filling one with Water and one with Liquid Starlight will cause the water and Starlight particles to interact with each other, creating blocks of Ice. This is because when Starlight touches water it turns into ice:"
+				"These Chalices do not have an inventory so the Ice will drop on the ground until they disappear or get picked up. Another great thing is that the ice created does not use up a whole bucket of each liquid, so 24 buckets should net you a few stacks of ice."
+				""
+				"You can also put 2 Chalices filled with water and Lava next to each other and have the same effect but instead of ice it will form cobblestone, smooth stone or obsidian at random."
+				"You can also combine 3 Chalices filled with Water, Lava and Liquid Starlight and collect other blocks such as Sand, ores and other goodies like Rock Crystals and Aquamarine Ore."
+				""
+				"These Chalices work well with other mods and you can pump liquids in and out from the bottom of them. Just be very careful where you place them and don't leave them running without a method of picking up the drops."
+			]
+			dependencies: ["1B55BF86555E33C6"]
+			id: "774C4712A20A61C4"
+			tasks: [{
+				id: "036E7373CE8C046D"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+			rewards: [
+				{
+					id: "40CAF209EFD90C5F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6FF77DF3F3130EF2"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "4E8646C84C25669B"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			title: "&d&lRitual Anchor"
+			x: -3.0d
+			y: 6.0d
+			description: [
+				"A pair of Ritual Anchors will enable you to move the area of effect of your Pedestal’s ritual. An example would be if you wanted to have Aevitas above your home, far away from your Pedestal."
+				""
+				"First you must place your desired Attuned Rock Crystal into the Pedestal. Then you need to place a Ritual Anchor five blocks above the Pedestal. When the second anchor is placed in a remote location, bind both of the Anchors and you will notice that the ritual effect works in the second location."
+				""
+				"Ensure that you keep the Linking Tool in your hand while binding these (don’t change to another item). This can be used with any number of the different Constellations."
+			]
+			dependencies: ["6E9003DE9F6C55AE"]
+			id: "0396B7D204803908"
+			tasks: [{
+				id: "187A6A7BC7D7F18F"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "0CC261B760ECC017"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "476676BAB654C237"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "090692217AC6CAAB"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&d&lShifting Star"
+			x: -0.5d
+			y: 5.5d
+			subtitle: "If you ever want to change your Attunement for whatever reason then you will need to craft a Shifting Star"
+			description: ["This can be used just like a bow (it will draw back and then break) and will clear your Attunement. This will undo all your progress with that attunement. Some of these attunements will take some time to progress through so make sure you are 100% sure you want to clear your attunement."]
+			dependencies: ["7C82FD01F18C5DC9"]
+			id: "3F06ECC2B050FB59"
+			tasks: [{
+				id: "147C531E12397149"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+			rewards: [
+				{
+					id: "1FBF0BF180AFBE45"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "632AAE0CF82C970B"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "48F2960A70A3E7D1"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "207F6300DB1BABC3"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&d&lIrradiant Star"
+			x: 0.5d
+			y: 6.5d
+			subtitle: "These stars will reset and refund points"
+			description: [
+				"Now if you have selected the wrong “Root” (constellation) or you have selected perks you don't want then you can reset these, resetting these will still keep any perk points you have earnt and let you spend them again."
+				""
+				"There are 5 stars you can use, using any of these stars will KEEP the attunement you want and remove the others."
+			]
+			dependencies: ["3F06ECC2B050FB59"]
+			id: "63ADEC39636F6880"
+			tasks: [{
+				id: "0E493C0BEEEE86D2"
+				type: "item"
+				title: "Any Irradiant Star"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "astralsorcery:stars/irradiant"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4716B7E38B87FFA0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3B7BF2AB98A7AD6F"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "166AD2241E6FE39B"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			title: "&d&lResplendent Prism"
+			x: -1.5d
+			y: 6.5d
+			subtitle: "The Resplendent Prism is a Bauble that sits in the Amulet slot"
+			description: ["This Bauble will add levels to random enchants on the items you are wearing or have equipped in your main or off hand. The Prism will add up to 3 different (random) enchant levels. This can also apply to enchants added by other mods. It is also very important to know that levels are added to EXISTING enchants."]
+			dependencies: ["3F06ECC2B050FB59"]
+			id: "1AE06F7D69C3A3B5"
+			tasks: [{
+				id: "4D027CEF2FB0E2E0"
+				type: "item"
+				item: {
+					id: "astralsorcery:enchantment_amulet"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "59ECE8A936DA7E9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "00068AD25DA44FC5"
+					type: "item"
+					item: "minecraft:jukebox"
+				}
+				{
+					id: "5E461D0EA92CE057"
+					type: "item"
+					item: "botania:record_gaia_2"
+				}
+				{
+					id: "34D51AB40727BC53"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "27D6169706F78F40"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["0C1C67A4A32373FA"]
+			id: "20594315A9A44D98"
+			tasks: [{
+				id: "4D10C3FCD1D663F6"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [
+				{
+					id: "41C56AB5E63C1D59"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A1D631A88FB13E4"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+				}
+				{
+					id: "561E39EE037407BA"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+	]
+}

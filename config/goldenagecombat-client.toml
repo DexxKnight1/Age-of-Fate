@@ -1,0 +1,29 @@
+
+[general]
+	#Legacy visuals and animations for miscellaneous things. Heavily inspired by the old "Orange's 1.7 Animations Mod" mod.
+	"Legacy Animations" = true
+
+[classic_combat]
+	#Expand all entity hitboxes by 10%, making hitting a target possible from a slightly greater range and with much increased accuracy.
+	"Inflate Hitboxes" = true
+	#When slowing down movement or stopping completely momentum is lost much quicker.
+	"Quick Slowdown" = true
+	#Prevent attack indicator from rendering regardless of what's been set for the "Attack Indicator" option in video settings.
+	"Remove Attack Indicator" = true
+
+[combat_adjustments]
+	#Remove "Attack Speed" attribute from inventory tooltips.
+	"Remove Attack Speed Tooltip" = true
+
+[legacy_animations]
+	#Armor on entities turns red when they receive damage just like their body.
+	"Render Damage On Armor" = true
+	#Allow using the "Attack" button while the "Use Item" button is held. Enables block hitting, also bow and food punching.
+	"Attack While Using" = true
+	#Use old third-person pose when blocking with a sword.
+	"Old Blocking Pose" = true
+	#Lost hearts no longer flash when disappearing.
+	"Disable Flashing Hearts" = false
+	#Eye height changes instantly without any interpolation. Affects mainly sneaking and swimming.
+	"Instant Eye Height" = false
+

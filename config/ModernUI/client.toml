@@ -1,0 +1,53 @@
+
+#Screen Config
+[screen]
+	#The duration of screen background and blur radius animation in milliseconds. (0 = OFF)
+	#Range: 0 ~ 800
+	animationDuration = 200
+	#Screen black background opacity in game, higher values will get darker.
+	#Range: 0.0 ~ 0.8
+	backgroundAlpha = 0.4
+	#Add blur effect to world renderer when opened, it is incompatible with OptiFine's FXAA shader or some mods.
+	blurEffect = true
+	#The blur effect radius, higher values result in a small loss of performance.
+	#Range: 2 ~ 18
+	blurRadius = 10
+	#A list of GUI screen superclasses that won't activate blur effect when opened.
+	blurBlacklist = ["net.minecraft.client.gui.screen.ChatScreen"]
+
+#Tooltip Config
+[tooltip]
+	#Enable Modern UI's tooltip style.
+	enable = true
+	#The tooltip frame color. Format: 0xRRGGBB. Default value: 0xAADCF0
+	frameColor = "0xAADCF0"
+
+#General Config
+[general]
+	#Play a sound effect when the game is loaded.
+	ding = true
+
+#Font Engine Config
+[font]
+	#Apply Modern UI font renderer (including text layouts) to the entire game rather than only Modern UI itself.
+	globalRenderer = true
+	#The font with the highest priority to use, the built-in font is always the second choice.
+	#This can be font family name if you want to use fonts that installed on your PC, for instance: Microsoft YaHei
+	#Or can be file path if you want to use external fonts, for instance: D:/Fonts/biliw.otf
+	#Or can be resource location if you want to use fonts in resource packs, for instance: modernui:font/biliw.otf
+	preferredFont = ""
+	#Allow global font renderer to draw text with shadow, setting to false can improve performance.
+	allowShadow = true
+	#Enable font anti-aliasing.
+	antiAliasing = true
+	#Enable high precision rendering, this is very useful especially when the font is very small.
+	highPrecision = true
+	#Enable mipmap for font textures, this makes font will not be blurred when scaling down.
+	enableMipmap = true
+	#The mipmap level for font textures.
+	#Range: 0 ~ 4
+	mipmapLevel = 4
+	#The default font size for texts with no size specified. (deprecated, to be removed)
+	#Range: 12 ~ 20
+	defaultFontSize = 16
+

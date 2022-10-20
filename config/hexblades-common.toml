@@ -1,0 +1,114 @@
+
+#Adjust these values to balance the bonus from devotion an Hexblade gets while awakened. Max devotion : 60
+["Weapon scaling - Sword"]
+	#Set the base damage of the fire sword Tier 1
+	"Sword T1 base damage" = 6
+	#Set the base damage of the fire sword Tier 2
+	"Sword T2 base damage" = 7
+	#Set the ratio of devotion -> attack power of the fire sword Tier 1.
+	"SwDS1 divide by" = 20
+	#Set the ratio of devotion -> attack power of the fire sword Tier 2.
+	"SwDS2 divide by" = 15
+	#Set the ratio of devotion -> elemental damage of the fire sword Tier 1.
+	"SwED1 divide by" = 20
+	#Set the ratio of devotion -> elemental damage of the fire sword Tier 2.
+	"SwED2 divide by" = 15
+
+["Weapon scaling - Katana"]
+	#Set the base damage of the ice katana Tier 1
+	"Katana T1 base damage" = 5
+	#Set the base damage of the ice katana Tier 2
+	"Katana T2 base damage" = 5
+	#Set the ratio of devotion -> attack power of the ice katana Tier 1.
+	"KDS1 divide by" = 25
+	#Set the ratio of devotion -> attack power of the ice katana Tier 2.
+	"KDS2 divide by" = 15
+	#Set the ratio of devotion -> attack speed of the ice katana Tier 1.
+	"KAS1 divide by" = 120
+	#Set the ratio of devotion -> attack speed of the ice katana Tier 2.
+	"KAS2 divide by" = 80
+	#Set the ratio of devotion -> elemental damage of the ice katana Tier 1.
+	"KED divide by" = 20
+
+["Weapon scaling - Saber"]
+	#Set the base damage of the water saber Tier 1
+	"Saber T1 base damage" = 5
+	#Set the base damage of the water saber Tier 2
+	"Saber T2 base damage" = 6
+	#Set the ratio of devotion -> attack power of the water saber Tier 1.
+	"SaDS1 divide by" = 25
+	#Set the ratio of devotion -> damage reduction of the water saber Tier 1.
+	"SaSH1 divide by" = 20
+	#Set the ratio of devotion -> attack power of the water saber Tier 2.
+	"SaDS2 divide by" = 15
+	#Set the ratio of devotion -> damage reduction of the water saber Tier 2.
+	"SaSH2 divide by" = 15
+	#Set the ratio of devotion -> elemental damage of the water saber Tier 2.
+	"SaED2 divide by" = 15
+
+["Weapon scaling - Dual"]
+	#Set the base damage of the left dagger
+	"Left dagger base damage" = 1
+	#Set the base damage of the right dagger
+	"Right dagger base damage" = 4
+	#Set the ratio of devotion -> attack power of the thunder duals Tier 1.
+	"DDS1 divide by" = 30
+	#Set the ratio of devotion -> attack speed of the thunder duals Tier 1.
+	"DAS1 divide by" = 60
+	#Set the ratio of devotion -> attack power of the thunder duals Tier 2.
+	"DDS2 divide by" = 20
+	#Set the ratio of devotion -> attack speed of the thunder duals Tier 2.
+	"DAS2 divide by" = 40
+	#Set the ratio of devotion -> recharge rate of the left thunder dual.
+	"DRR divide by" = 10
+
+["Weapon scaling - Hammer"]
+	#Set the base damage of the earth hammer Tier 1
+	"Hammer T1 base damage" = 7
+	#Set the ratio of devotion -> attack power of the earth hammer Tier 1.
+	"HDS1 divide by" = 20
+	#Set the ratio of devotion -> elemental damage of the earth hammer Tier 1.
+	"HED1 fixed damage" = 2.0
+	#Set the ratio of devotion -> mining speed of the earth hammer Tier 1.
+	"HMS1 divide by" = 20
+	#Set the ratio of devotion -> knockback of the earth hammer Tier 1.
+	"HKB1 divide by" = 30
+	#Set the base damage of the earth hammer Tier 2
+	"Hammer T2 base damage" = 8
+	#Set the ratio of devotion -> attack power of the earth hammer Tier 2.
+	"HDS2 divide by" = 15
+	#Set the ratio of devotion -> elemental damage of the earth hammer Tier 2.
+	"HED2 fixed damage" = 2.0
+	#Set the ratio of devotion -> mining speed of the earth hammer Tier 2.
+	"HMS2 divide by" = 10
+	#Set the ratio of devotion -> knockback of the earth hammer Tier 2.
+	"HKB2 divide by" = 20
+
+["Weapon Scaling - Sapping"]
+	#Set the base damage of the upgraded Sapping Sword
+	"Blood Sword base damage" = 4
+	#Set the ratio of devotion -> attack power of the Sapping sword upgrade
+	"BSWS divide by" = 30
+	#Set the ratio of devotion -> wither damage of the Sapping sword upgrade
+	"BSED divide by" = 30
+
+["MISC Configs"]
+	#Set the cooldown of the Urn of Endless Waters
+	"Refill every x ticks" = 100
+
+#WorldGen Configs
+["Fire Temple worldgen"]
+	#Average distance apart in chunks between spawn attempts
+	"Must be more than minimum" = 40
+	#Minimum distance apart in chunks between spawn attempts
+	"Must be less than average" = 15
+
+#Recipe disabler for hexblades
+["Recipe nukers"]
+	#set this to true to disable all hexblades crucible craftings
+	"Disable crucible recipes" = false
+	#set this to true to disable all hexblades ritual craftings
+	"Disable ritual recipes" = false
+	#set this to true to disable all hexblades magic workbench craftings
+	"Disable workbench recipes" = false
+

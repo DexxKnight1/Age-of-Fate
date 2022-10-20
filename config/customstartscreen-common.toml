@@ -1,0 +1,15 @@
+
+[General]
+	#Set the background color (R G B)
+	CustomColor = "26 26 26"
+	#Set the Forge Memory color (R G B) <recommend white>
+	CustomMemoryColor = "255 255 255"
+	#Enables CustomBackground (change it in openloader/resources/<insert your texture with [assets/minecraft/textures/gui/title/custom/back.png]
+	CustomBackground = true
+	#Change to false when you have a custom resourcepack set!
+	NoCustomTexture = false
+	#Enables CustomLogo {need to be like the Mojang one!} (change it in openloader/resources/<insert your texture with [assets/minecraft/textures/gui/title/custom/logo.png]
+	CustomLogo = false
+	#Change the ForgeMemoryInfo as you want! Leave it blank to remove it.
+	ForgeMemoryInfo = "Memory Heap: %d / %d MB (%.1f%%)  OffHeap: %d MB"
+

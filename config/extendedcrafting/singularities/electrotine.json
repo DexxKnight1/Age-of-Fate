@@ -1,0 +1,10 @@
+{
+    "name": "Electrotine",
+    "colors": [
+        "2B65EC",
+        "073C7D"
+    ],
+    "ingredient": {
+        "item": "projectred-core:electrotine_dust"
+    }
+}

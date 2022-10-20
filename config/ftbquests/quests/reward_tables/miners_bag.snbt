@@ -1,0 +1,59 @@
+{
+	id: "3AF525C1D3114C4E"
+	order_index: 12
+	title: "Miner's Bag"
+	icon: {
+		id: "blue_skies:loot_bag_starlit_crusher"
+		Count: 1b
+		tag: {
+			LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+			Rarity: 0
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:gold_ore", count: 8 }
+		{ item: "minecraft:iron_ore", count: 8 }
+		{ item: "minecraft:coal_ore", count: 8 }
+		{ item: "minecraft:nether_gold_ore", count: 8 }
+		{ item: "minecraft:lapis_ore", count: 8 }
+		{ item: "minecraft:diamond_ore", count: 8 }
+		{ item: "minecraft:redstone_ore", count: 8 }
+		{ item: "minecraft:emerald_ore", count: 8 }
+		{ item: "minecraft:nether_quartz_ore", count: 8 }
+		{ item: "evilcraft:dark_ore", count: 8 }
+		{ item: "mekanism:uranium_ore", count: 8 }
+		{ item: "endrem:end_crystal_ore", count: 8 }
+		{ item: "immersiveengineering:ore_uranium", count: 8 }
+		{ item: "astralsorcery:rock_crystal_ore", count: 8 }
+		{ item: "astralsorcery:starmetal_ore", count: 8 }
+		{ item: "iceandfire:silver_ore", count: 8 }
+		{ item: "iceandfire:sapphire_ore", count: 8 }
+		{ item: "iceandfire:amythest_ore", count: 8 }
+		{ item: "allthemodium:allthemodium_ore", count: 8 }
+		{ item: "thermal:tin_ore", count: 8 }
+		{ item: "thermal:apatite_ore", count: 8 }
+		{ item: "thermal:cinnabar_ore", count: 8 }
+		{ item: "thermal:niter_ore", count: 8 }
+		{ item: "thermal:sulfur_ore", count: 8 }
+		{ item: "thermal:copper_ore", count: 8 }
+		{ item: "thermal:lead_ore", count: 8 }
+		{ item: "thermal:silver_ore", count: 8 }
+		{ item: "thermal:nickel_ore", count: 8 }
+		{ item: "druidcraft:amber_ore", count: 8 }
+		{ item: "druidcraft:moonstone_ore", count: 8 }
+		{ item: "alltheores:ore_zinc", count: 8 }
+		{ item: "appliedenergistics2:quartz_ore", count: 8 }
+		{ item: "appliedenergistics2:charged_quartz_ore", count: 8 }
+		{ item: "mysticalagriculture:prosperity_ore", count: 8 }
+		{ item: "mysticalagriculture:inferium_ore", count: 8 }
+		{ item: "stalwart_dungeons:chorundum_ore", count: 8 }
+		{ item: "treasure2:topaz_ore", count: 8 }
+		{ item: "treasure2:onyx_ore", count: 8 }
+		{ item: "treasure2:ruby_ore", count: 8 }
+		{ item: "treasure2:sapphire_ore", count: 8 }
+		{ item: "mana-and-artifice:vinteum_ore", count: 8 }
+	]
+}

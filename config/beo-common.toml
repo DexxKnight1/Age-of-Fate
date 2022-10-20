@@ -1,0 +1,256 @@
+
+[ore_generation]
+
+	[ore_generation.emerald]
+		#Set Max Emerald Vein Size (Default = 4)
+		#Range: 0 ~ 36
+		emeraldVeinSize = 4
+		#Set Emerald Spawn Chance (Default = 2)
+		#Range: 0 ~ 32
+		emeraldChance = 2
+		#Set Emerald Min Spawn Height (Default = 25)
+		#Range: 12 ~ 75
+		emeraldMinHeight = 25
+		#Set Emerald Max Spawn Height (Default = 55)
+		#Range: 12 ~ 75
+		emeraldMaxHeight = 55
+
+	[ore_generation.diamond]
+		#Set Max Diamond Vein Size (Default = 8)
+		#Range: 0 ~ 36
+		diamondVeinSize = 8
+		#Set Diamond Spawn Chance (Default = 3)
+		#Range: 0 ~ 32
+		diamondChance = 3
+		#Set Diamond Min Spawn Height (Default = 35)
+		#Range: 12 ~ 75
+		diamondMinHeight = 35
+		#Set Diamond Max Spawn Height (Default = 65)
+		#Range: 12 ~ 75
+		diamondMaxHeight = 65
+
+	[ore_generation.redstone]
+		#Set Max Redstone Vein Size (Default = 8)
+		#Range: 0 ~ 36
+		redstoneVeinSize = 8
+		#Set Redstone Spawn Chance (Default = 8)
+		#Range: 0 ~ 64
+		redstoneChance = 8
+		#Set Redstone Min Spawn Height (Default = 45)
+		#Range: 12 ~ 75
+		redstoneMinHeight = 45
+		#Set Redstone Max Spawn Height (Default = 65)
+		#Range: 12 ~ 75
+		redstoneMaxHeight = 65
+
+	[ore_generation.lapis]
+		#Set Max Lapis Vein Size (Default = 7)
+		#Range: 0 ~ 36
+		lapisVeinSize = 7
+		#Set Lapis Spawn Chance (Default = 2)
+		#Range: 0 ~ 64
+		lapisChance = 2
+		#Set Lapis Min Spawn Height (Default = 30)
+		#Range: 12 ~ 75
+		lapisMinHeight = 30
+		#Set Lapis Max Spawn Height (Default = 60)
+		#Range: 12 ~ 75
+		lapisMaxHeight = 60
+
+	[ore_generation.coal]
+		#Set Max Coal Vein Size (Default = 17)
+		#Range: 0 ~ 64
+		coalVeinSize = 17
+		#Set Coal Spawn Chance (Default = 20)
+		#Range: 0 ~ 64
+		coalChance = 20
+		#Set Coal Min Spawn Height (Default = 25)
+		#Range: 12 ~ 75
+		coalMinHeight = 25
+		#Set Coal Max Spawn Height (Default = 55)
+		#Range: 12 ~ 75
+		coalMaxHeight = 55
+
+	[ore_generation.gold]
+		#Set Max Gold Vein Size (Default = 9)
+		#Range: 0 ~ 64
+		goldVeinSize = 9
+		#Set Gold Spawn Chance (Default = 4)
+		#Range: 0 ~ 64
+		goldChance = 4
+		#Set Gold Min Spawn Height (Default = 30)
+		#Range: 12 ~ 75
+		goldMinHeight = 30
+		#Set Gold Max Spawn Height (Default = 60)
+		#Range: 12 ~ 75
+		goldMaxHeight = 60
+
+	[ore_generation.silver]
+		#Set Max Silver Vein Size (Default = 9)
+		#Range: 0 ~ 64
+		silverVeinSize = 9
+		#Set Silver Spawn Chance (Default = 4)
+		#Range: 0 ~ 64
+		silverChance = 4
+		#Set Silver Min Spawn Height (Default = 30)
+		#Range: 12 ~ 75
+		silverMinHeight = 30
+		#Set Silver Max Spawn Height (Default = 60)
+		#Range: 12 ~ 75
+		silverMaxHeight = 60
+
+	[ore_generation.iron]
+		#Set Max Iron Vein Size (Default = 8)
+		#Range: 0 ~ 32
+		ironVeinSize = 8
+		#Set Iron Spawn Chance (Default = 20)
+		#Range: 0 ~ 64
+		ironChance = 20
+		#Set Iron Min Spawn Height (Default = 40)
+		#Range: 12 ~ 75
+		ironMinHeight = 40
+		#Set Iron Max Spawn Height (Default = 65)
+		#Range: 12 ~ 75
+		ironMaxHeight = 65
+
+	[ore_generation.lead]
+		#Set Max Lead Vein Size (Default = 8)
+		#Range: 0 ~ 32
+		leadVeinSize = 8
+		#Set Lead Spawn Chance (Default = 8)
+		#Range: 0 ~ 64
+		leadChance = 8
+		#Set Lead Min Spawn Height (Default = 40)
+		#Range: 12 ~ 75
+		leadMinHeight = 40
+		#Set Lead Max Spawn Height (Default = 65)
+		#Range: 12 ~ 75
+		leadMaxHeight = 65
+
+	[ore_generation.nickel]
+		#Set Max Nickel Vein Size (Default = 8)
+		#Range: 0 ~ 32
+		nickelVeinSize = 8
+		#Set Nickel Spawn Chance (Default = 4)
+		#Range: 0 ~ 64
+		nickelChance = 4
+		#Set Nickel Min Spawn Height (Default = 30)
+		#Range: 12 ~ 75
+		nickelMinHeight = 30
+		#Set Nickel Max Spawn Height (Default = 50)
+		#Range: 12 ~ 75
+		nickelMaxHeight = 50
+
+	[ore_generation.copper]
+		#Set Max Copper Vein Size (Default = 8)
+		#Range: 0 ~ 32
+		copperVeinSize = 8
+		#Set Copper Spawn Chance (Default = 20)
+		#Range: 0 ~ 64
+		copperChance = 20
+		#Set Copper Min Spawn Height (Default = 35)
+		#Range: 12 ~ 75
+		copperMinHeight = 35
+		#Set Copper Max Spawn Height (Default = 70)
+		#Range: 12 ~ 75
+		copperMaxHeight = 70
+
+	[ore_generation.aluminum]
+		#Set Max Aluminum Vein Size (Default = 8)
+		#Range: 0 ~ 32
+		aluminumVeinSize = 8
+		#Set Aluminum Spawn Chance (Default = 10)
+		#Range: 0 ~ 64
+		aluminumChance = 10
+		#Set Aluminum Min Spawn Height (Default = 45
+		#Range: 12 ~ 75
+		aluminumMinHeight = 45
+		#Set Aluminum Max Spawn Height (Default = 65)
+		#Range: 12 ~ 75
+		aluminumMaxHeight = 65
+
+	[ore_generation.tin]
+		#Set Max Tin Vein Size (Default = 8)
+		#Range: 0 ~ 32
+		tinVeinSize = 8
+		#Set Tin Spawn Chance (Default = 20)
+		#Range: 0 ~ 64
+		tinChance = 20
+		#Set Tin Min Spawn Height (Default = 40)
+		#Range: 12 ~ 75
+		tinMinHeight = 40
+		#Set Tin Max Spawn Height (Default = 65)
+		#Range: 12 ~ 75
+		tinMaxHeight = 65
+
+	[ore_generation.osmium]
+		#Set Max Osmium Vein Size (Default = 8)
+		#Range: 0 ~ 32
+		osmiumVeinSize = 8
+		#Set Osmium Spawn Chance (Default = 8)
+		#Range: 0 ~ 64
+		osmiumChance = 8
+		#Set Osmium Min Spawn Height (Default = 30)
+		#Range: 12 ~ 75
+		osmiumMinHeight = 30
+		#Set Osmium Max Spawn Height (Default = 75)
+		#Range: 12 ~ 75
+		osmiumMaxHeight = 75
+
+	[ore_generation.uranium]
+		#Set Max Uranium Vein Size (Default = 4)
+		#Range: 0 ~ 32
+		uraniumVeinSize = 4
+		#Set Uranium Spawn Chance (Default = 6)
+		#Range: 0 ~ 64
+		uraniumChance = 6
+		#Set Uranium Min Spawn Height (Default = 90)
+		#Range: 12 ~ 75
+		uraniumMinHeight = 30
+		#Set Uranium Max Spawn Height (Default = 125)
+		#Range: 12 ~ 75
+		uraniumMaxHeight = 65
+
+	[ore_generation.world_generation]
+		#Generate Emerald Ore
+		emerald = true
+		#Generate Diamond Ore
+		diamond = true
+		#Generate Redstone Ore
+		redstone = true
+		#Generate Lapis Ore
+		lapis = true
+		#Generate Coal Ore
+		coal = true
+		#Generate Gold Ore
+		gold = true
+		#Generate Silver Ore
+		silver = false
+		#Generate Iron Ore
+		iron = true
+		#Generate Lead Ore
+		lead = false
+		#Generate Nickel Ore
+		nickel = false
+		#Generate Copper Ore
+		copper = false
+		#Generate Aluminum Ore
+		aluminum = false
+		#Generate Tin Ore
+		tin = false
+		#Generate Osmium Ore
+		osmium = false
+		#Generate Uranium Ore
+		uranium = false
+
+[ore_protector]
+	#If set to 'true' Endermen will protect Nether Ores
+	endermenGuard = true
+	#Set to false if you want the Endermen to attack when using Silk Touch Tools
+	silkEffect = true
+	#Set range that Endermen will aggro when mining ores(Default = 8)
+	#Range: 0 ~ 64
+	protectionRange = 8
+	#Add Blocks to be protected by Endermen (Example: 'minecraft:end_stone')
+	protectedBlocks = ["beo:end_emerald_ore", "beo:end_diamond_ore", "beo:end_lapis_ore", "beo:end_redstone_ore", "beo:end_gold_ore", "beo:end_silver_ore", "beo:end_iron_ore", "beo:end_lead_ore", "beo:end_nickel_ore", "beo:end_coal_ore", "beo:end_copper_ore", "beo:end_aluminum_ore", "beo:end_tin_ore", "beo:end_osmium_ore", "beo:end_uranium_ore"]
+

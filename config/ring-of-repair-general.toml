@@ -1,0 +1,10 @@
+
+#Misc Ring Settings
+[misc_ring_settings]
+	#Delay between repair ticks, higher is slower repair [ default: 120 ]
+	#Range: 45 ~ 480
+	repairDelay = 75
+	#Repair modes: 0 = All Slots, 1 = Hotbar Only, 2 = Main Inventory Only, 3 = Armor & Shield Only [ default: 0 ]
+	#Range: 0 ~ 3
+	repairMode = 0
+

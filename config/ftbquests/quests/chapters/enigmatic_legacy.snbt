@@ -1,0 +1,1263 @@
+{
+	id: "5A4525EE85A001DD"
+	group: "15F5BAC0BCC22DEF"
+	order_index: 8
+	filename: "enigmatic_legacy"
+	title: "&9Enigmatic Legacy"
+	icon: "enigmaticlegacy:astral_dust"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -0.2857142857142847d
+		y: -7.160714285714285d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "You see, I am a very magnetic personality..."
+			description: ["When worn in the Ring slot, it will move any dropped items within 8 blocks radius towards the wearer, leaving trail of violet particles behind them."]
+			dependencies: ["3ABFE29062852FD6"]
+			id: "05EA6848C4510FAB"
+			tasks: [{
+				id: "3D80D0B72EDCBC9B"
+				type: "item"
+				item: "enigmaticlegacy:magnet_ring"
+			}]
+			rewards: [
+				{
+					id: "33E5C14302281082"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3979F0475B43854C"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "5B935FEED71C746C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "51D81CCB82AA5A6F"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Don't get any close to cesspools when wearing it. You won't be happy to see what happens."
+			description: ["When worn in the Ring slot, it will collect any dropped items within 16 blocks radius from the wearer of the ring."]
+			dependencies: ["05EA6848C4510FAB"]
+			id: "07912BA915367ECC"
+			tasks: [{
+				id: "0043CA3C784C1AA1"
+				type: "item"
+				item: "enigmaticlegacy:super_magnet_ring"
+			}]
+			rewards: [
+				{
+					id: "17F6BA5CCC8ADA14"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "46A73AD2F90E9A77"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "339F7F06AC566471"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "5F60C320A03D716B"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "42B4E0F3A77D702A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Handshake with the cosmic abyss. How romantic."
+			description: ["When worn in the Ring slot, it allows the player to open their Ender Chest inventory, by pressing related keybind (default: I)."]
+			dependencies: ["07912BA915367ECC"]
+			id: "6C5F93AFCF8CACB0"
+			tasks: [{
+				id: "17D12FD831E2FB68"
+				type: "item"
+				item: "enigmaticlegacy:ender_ring"
+			}]
+			rewards: [
+				{
+					id: "6D2D4F0E32F884FF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "63A405BEAD345A3F"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "43EFD6D278E4EAE2"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "22D30ED364815E47"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			subtitle: "It's truly curious how it came to existence, given that it never appears naturally across any of the reaches of The End."
+			description: ["It can be relatively rarely found in chests generated within End Cities."]
+			dependencies: ["3ABFE29062852FD6"]
+			id: "5AEDAD2BA20FB750"
+			tasks: [{
+				id: "29C59FD32EE013E1"
+				type: "item"
+				item: "enigmaticlegacy:etherium_ore"
+			}]
+			rewards: [
+				{
+					id: "7845B2C59FAD60F8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F90293E28CA4C43"
+					type: "item"
+					item: "enigmaticlegacy:etherium_ore"
+				}
+				{
+					id: "60B13242E5AC442B"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:ultimate_potion_lingering"
+						Count: 1b
+						tag: {
+							EnigmaticPotion: "ultimate_night_vision"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -4.5d
+			subtitle: "Don't let this name confuse you. It is physically solid. Very."
+			description: ["Etherium represents \"better than diamond\" tier of equipment, available in endgame stages of progression, after reaching the Outer Islands in The End. Tools and armor made of Etherium not only have high durability and effectiveness on their own, but also possess unique abilities that make them incomparably more powerful than anything vanilla Minecraft has to offer."]
+			dependencies: ["5AEDAD2BA20FB750"]
+			id: "5298FDCB080C6BA0"
+			tasks: [{
+				id: "124A53818176B966"
+				type: "item"
+				item: "enigmaticlegacy:etherium_ingot"
+			}]
+			rewards: [
+				{
+					id: "06EA24DEA7FAB190"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "58E14871E94F2C77"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:corrupted_tome"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "495ED027964077B7"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "759345AEC4A79C8F"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -4.0d
+			subtitle: "Next generation of bikini armor."
+			description: ["When worn, etherium armor will provide the player with high defensive stats and unlike other armor, will not be visible on them."]
+			dependencies: ["5298FDCB080C6BA0"]
+			id: "26F5882C2D317741"
+			tasks: [{
+				id: "60F52E110894E529"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "093F6F04E24DC621"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "2CA13CE1A89A5852"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "23C90E3FD4D34BAA"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			subtitle: "Next generation of bikini armor."
+			description: ["Etherium gear has exceptionally high durability as for armor, with the helmet having 1452 durability points, cuirass having 2112, greaves having 1980 and boots having 1716. It has protection stats noticeably better than that of a diamond armor, an is also not displayed on a player when they are wearing it, providing additional advantage in PvP encounters."]
+			dependencies: ["26F5882C2D317741"]
+			id: "25EB996570D15909"
+			tasks: [{
+				id: "5B5F73850E03FA65"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B85AF0D915CFB60"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "39FAA21A88DCCC7A"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "25CF98573E7372F9"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			subtitle: "Next generation of bikini armor."
+			description: ["But the greatest power of etherium armor lies in it's set bonus. Set bonus is activated when wearing all four pieces of the armor simultaneously. When that happens, additional text describing it will be seen when viewing the tooltip of any of those pieces."]
+			dependencies: ["25EB996570D15909"]
+			id: "4BB85B3AB0C08772"
+			tasks: [{
+				id: "6EC376345519D1BB"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "13D20BEC4748C790"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "12D58070463A6826"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "3F1655B7069503C8"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -1.0d
+			subtitle: "Next generation of bikini armor."
+			description: ["The bonus will generate a shield around the player, whenever their health drops below 40%. Health calculations consider maximum amount of health player can have at the moment, so if they have any effects that increase or decrease maximum health they can have, the amount of health required to generate a shield will change respectively."]
+			dependencies: ["4BB85B3AB0C08772"]
+			id: "50FA8E9AB010689B"
+			tasks: [{
+				id: "2EBB01E46492ED4A"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0765C70E1A057D2C"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "341CE086BD886D6C"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "1C49A0F66F5BB111"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -4.0d
+			subtitle: "Classic of all classics."
+			description: ["When mining a block that pickaxe is effective on, it will break additional such blocks in 3x3x1 area centered around the broken block, orientated respectively to the player's sight. This effect will not trigger if they are holding Shift, however, allowing to mine individual blocks if it's required."]
+			dependencies: ["5298FDCB080C6BA0"]
+			id: "0141B118123EC39B"
+			tasks: [{
+				id: "2646E39F279CFDDC"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69587AB1BF4554E1"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "4529B93C92AF20A1"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "62A8A6053B265354"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			subtitle: "A weapon worthy of true viking... or a true lumberjack. One of these guys should suffice."
+			description: ["When mining a block that waraxe is effective on, it will break additional such blocks in 3x3x3 area centered around the broken block. This effect will not trigger if player is holding Shift, however, allowing to mine individual blocks if it's required."]
+			dependencies: ["0141B118123EC39B"]
+			id: "77B80530F8609F7B"
+			tasks: [{
+				id: "28D619FDB6A04B77"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5F6BFBCF38276F0E"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "1D2594DAFF09C226"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "50D518CA700A2CB4"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			subtitle: "That's one compact and portable excavator."
+			description: ["When mining a block that shovel is effective on, it will break additional such blocks in 3x3x1 area centered around the broken block, orientated respectively to the player's sight. This effect will not trigger if they are holding Shift, however, allowing to mine individual blocks if it's required."]
+			dependencies: ["77B80530F8609F7B"]
+			id: "178168F4134EB8E5"
+			tasks: [{
+				id: "26F96596A1BFAB20"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "12E09B30F1F69839"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "6E3F5D7D51E663D7"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "448EBECF1048AEFC"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			subtitle: "A big blade for a big boy... Oh, wait, you're a girl?"
+			description: ["Pressing Right-Click while holding Etherium Broadsword in mainhand will throw it's user back a few blocks. This ability could be used again after 2 seconds cooldown expires."]
+			dependencies: ["178168F4134EB8E5"]
+			id: "2C4CD7394763E782"
+			tasks: [{
+				id: "03134621A662CFF0"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "649B7B813541FF6B"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "02B160E61B9AB052"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "2D17D70DD844B045"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Insert overthinked lore stuff here."
+			description: ["When mining a block that breaker is effective on, it will break additional such blocks in 3x3x1 area centered around the broken block, orientated respectively to the player's sight. This effect will not trigger if they are holding Shift, however, allowing to mine individual blocks if it's required."]
+			dependencies: [
+				"51687C4372CEB98B"
+				"0141B118123EC39B"
+				"178168F4134EB8E5"
+				"77B80530F8609F7B"
+			]
+			size: 1.2d
+			id: "6575317D05AF48EC"
+			tasks: [{
+				id: "1742FB1C43F2B626"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_breaker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "713CA718D0BE58F0"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					id: "3978918B078391A6"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "4DE19FE1CB1A6902"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "0544F2A9AAC2E4A9"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			subtitle: "Shamelessly stolen from the very depths of cosmic well of time."
+			description: ["It can be commonly found in chests generated within End Cities."]
+			dependencies: ["3ABFE29062852FD6"]
+			id: "51687C4372CEB98B"
+			tasks: [{
+				id: "31A76014F139F449"
+				type: "item"
+				item: "enigmaticlegacy:astral_dust"
+			}]
+			rewards: [
+				{
+					id: "775002E5404FDA34"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "03CC4CCABAB918C2"
+					type: "item"
+					item: "enigmaticlegacy:astral_dust"
+				}
+				{
+					id: "55FD49CC8F5694CA"
+					type: "item"
+					item: "pamhc2foodextended:cornishpastyitem"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			subtitle: "Yes, it stares right in your eyes. Always."
+			description: ["After being bound to a location, it will teleport any entity the player Left-Clicks on to that location, vanishing from their inventory right after."]
+			dependencies: ["3ABFE29062852FD6"]
+			id: "5D85DD83E65824E4"
+			tasks: [{
+				id: "682D6E6C95726C19"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:extradimensional_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "65EDF4718ECB66FA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0BDA5EB22C199182"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "5863AD97DFDD5FB3"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "3E0FDD946E348FAF"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4CFB0602EA528819"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7F3BC53D89BD5656"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			subtitle: "Don't leave this thing unattended. Given enough time, it will drain entire oceans."
+			description: ["When worn in the Charm slot, it will consume the water in a radius and shape similar to that of a regular Sponge, if you come in contact with any water block."]
+			dependencies: ["5D85DD83E65824E4"]
+			id: "5416535E697BDB2D"
+			tasks: [{
+				id: "6F63514EBED396EE"
+				type: "item"
+				item: "enigmaticlegacy:mega_sponge"
+			}]
+			rewards: [
+				{
+					id: "2879634CB68F5F51"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7E340CA77B556206"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "40C84EE83185635A"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "1C0F566846432959"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "1E085582ABF6D92E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4E191FE7D23C0934"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			subtitle: "Evil weapon against evil creatures. I bet this will work perfectly."
+			description: ["Has a 10% chance to behead monsters slain with this weapon. Each level of Looting enchantment applied to it increases the probability by another 5%."]
+			dependencies: ["3AE2C846449A901E"]
+			id: "037F874922352A48"
+			tasks: [{
+				id: "357BFF7F6F286FCF"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:forbidden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "467F78E35350C9B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C04A60BFE8B86DA"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "55DD5588BDC1D77A"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "3B63B3FB9566C278"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "516F2B572578E6D6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7FC256A7A7405037"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			subtitle: "Where do I put this scroll?.. I can't remember where I put this scroll!"
+			description: ["When equipped in the Arcane Scroll slot and activated, it will quickly consume or retreive player's experience, depending on the mode chosen. It will also collect any experience orb in the radius of 16 blocks from it's bearer. If deactivated, all of it's effects will be disabled."]
+			dependencies: ["3ABFE29062852FD6"]
+			id: "34B1CC13B5B096EA"
+			tasks: [{
+				id: "3CED048E00B39131"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:xp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0CC97A414D812718"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2712407B57949D75"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "14E831DB554D83FF"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "464D25B51A37FC92"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4997C3A5269764F8"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "76FF1C86E254C5D1"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			subtitle: "Looks like they've made sure that the wings won't meltdown in the sunlight this time."
+			description: ["When equipped in the Arcane Scroll slot, it will provide the bearer with an ability to freely fly, at the cost of slowly consuming their experience. When flying, it will also compensate mining speed penalty, boosting block breaking rate back to regular value."]
+			dependencies: ["63ACC29415D94F54"]
+			id: "58A625A699579D89"
+			tasks: [{
+				id: "33FE3EB6B5C5218C"
+				type: "item"
+				item: "enigmaticlegacy:heaven_scroll"
+			}]
+			rewards: [
+				{
+					id: "2948ED3E67017F3F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2922F837BC954A7A"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "6ACD63170840C2B4"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "448A2357508FAC22"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "2E8E0787E74E9952"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "01A72E805D16DA8D"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			subtitle: "There is a special advancement for dying while having it equipped in a hardcore world. I am sure."
+			description: ["When equpped in the Arcane Scroll slot, it will return the bearer to their respawn point within the current world in an instant of their death. The scroll itself will be dropped at the initial position of death."]
+			dependencies: ["34B1CC13B5B096EA"]
+			id: "63ACC29415D94F54"
+			tasks: [{
+				id: "41B4947C4F921117"
+				type: "item"
+				item: "enigmaticlegacy:escape_scroll"
+			}]
+			rewards: [
+				{
+					id: "32AF48D567169765"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34ED2E4521C95826"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "0DE9392CB857EB7A"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "6940A9C29CB4E936"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "597E03635B5AD781"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2240FE0D3346FE57"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Grants you the ability to fly."
+			description: ["Flying will quickly drain your experience. Flying within the range of the beacon does not drain experience. Compensates for the loss of mining speed while flying."]
+			dependencies: ["58A625A699579D89"]
+			id: "6B0DF7364F9B5DCE"
+			tasks: [{
+				id: "5F4CFC8434CD920E"
+				type: "item"
+				item: "enigmaticlegacy:fabulous_scroll"
+			}]
+			rewards: [
+				{
+					id: "369574373574F71A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5291825EDEF5BB38"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "2DE5BAE058B0038B"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "7DD12ADE5780657C"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "00CD915A33C8937C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5101D18A92C70C52"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Insert overthinked lore stuff here."
+			description: [
+				"Allows you to transfer enchantments from any item, by combining the tome with it in a crafting grid."
+				"Item which enchantments are absorbed by the book remains intact within the grid after crafting, besides having all of it's enchantments removed."
+			]
+			dependencies: ["5416535E697BDB2D"]
+			id: "3AE2C846449A901E"
+			tasks: [{
+				id: "7489C06F99A7304D"
+				type: "item"
+				item: "enigmaticlegacy:enchantment_transposer"
+			}]
+			rewards: [
+				{
+					id: "21A11EC6D211B1BF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5055E1EE3D5C0AB7"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "5263CD585F686C01"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "4EC783188AA2B4E7"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "6491B18FF79738A8"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "496CBE88597DA096"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Useful thing to protect your finger from being cut off some day. Perhaps."
+			description: ["Piglins become neutral when equipped, increasing luck by one."]
+			dependencies: ["6C5F93AFCF8CACB0"]
+			id: "517EAF56950207E4"
+			tasks: [{
+				id: "216DE3E3BD32511C"
+				type: "item"
+				item: "enigmaticlegacy:gem_ring"
+			}]
+			rewards: [
+				{
+					id: "1121F7B2D5CD5A61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C40A0F35F055B0E"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "28D14D43CA97D92B"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7D5DB347D82169F3"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&5&lWelcome to Enigmatic Legacy"
+			icon: "enigmaticlegacy:the_acknowledgment"
+			x: -1.0d
+			y: -6.5d
+			shape: "gear"
+			subtitle: "This mod is designed to provide tools that will aid you in exploring seemingly endless reaches of Minecraft's worlds."
+			size: 1.5d
+			id: "3ABFE29062852FD6"
+			tasks: [{
+				id: "353D92FB5AA053CE"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "383B3A30FA21132B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "14B98682C9151A57"
+					type: "item"
+					item: "enigmaticlegacy:cursed_ring"
+				}
+				{
+					id: "2D16769CE1A070CD"
+					type: "item"
+					item: "enigmaticlegacy:recall_potion"
+				}
+				{
+					id: "7E4E54F37C95985A"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:common_potion"
+						Count: 1b
+						tag: {
+							EnigmaticPotion: "haste"
+						}
+					}
+				}
+				{
+					id: "18757AB4CF1B45BC"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:ultimate_potion"
+						Count: 1b
+						tag: {
+							EnigmaticPotion: "ultimate_night_vision"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&5&lRing of the Seven Curses"
+			icon: "enigmaticlegacy:cursed_ring"
+			x: 3.5d
+			y: -5.0d
+			subtitle: "\"Once forged by an antediluvian god, it beckons mortals and higher beings alike with promise of untold riches and immeasurable might... Be it arrogance or ignorance that leads them to believe they can harness ring's power, both are paid for in suffering the extent of which defies description.\""
+			description: ["The Ring of Seven curses is a wearable item that can be equipped in the Curios ring slot. Once it is put on, it cannot be removed. Wearing it significantly and permanently changes gameplay to be extremely challenging."]
+			dependencies: ["3ABFE29062852FD6"]
+			id: "1FF431078E9F14E9"
+			tasks: [{
+				id: "499D3936E0549DD4"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "7F65E89DD06BBA2C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E6075952CAF5B2C"
+					type: "item"
+					item: "enigmaticlegacy:darkest_scroll"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			subtitle: "Arcane Scroll"
+			description: [
+				"Basic bonus:"
+				"+4% Attack Damage"
+				"+7% Mining Speed"
+				"+4% Health Regeneration"
+				"The base bonus above will be multiplied by the number of cursed enchantments in all your equipment items  (note the number of items). The seven curses of the Ring of Seven Curses are also counted."
+				"Only those who bear the seven curses are worthy of carrying this item."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1FF431078E9F14E9"]
+			id: "3349BD306A590085"
+			tasks: [{
+				id: "17D313B12A5C7549"
+				type: "item"
+				item: "enigmaticlegacy:cursed_scroll"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			subtitle: "Arcane Scroll"
+			description: [
+				"Only those who bear the Seven Curses can use this item."
+				"+1 Fortune Level."
+				"Piglins are neutral to you , even if there is a second curse, supplies will increase the yield by 100% ."
+				"Killing any mob provides an additional 15% chance to drop an emerald."
+				"Villager trading offers a 35% discount, and if you feel good, you have to suffer seven negative effects."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1FF431078E9F14E9"]
+			id: "51115C97C6CDFADD"
+			tasks: [{
+				id: "40059F17005D5735"
+				type: "item"
+				item: "enigmaticlegacy:avarice_scroll"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			shape: "pentagon"
+			subtitle: "The Cure"
+			description: [
+				"The only way to take off the Ring of Seven Curses is to go to the Nether with this stone and a soul crystal and jump into a lava lake big enough to consume this stone and soul crystal to destroy the Ring of Seven Curses."
+				"If the lava lake is not big enough, even if you jump into it and die, it will not destroy the Ring of Seven Curses and it will also consume the evil stone (does not consume the soul crystal)."
+				"When all goes well, the player will hear the roar of wither death upon death and find that the Ring of Seven Curses has permanently disappeared from the accessories slot upon resurrection."
+				"This process is irreversible!"
+				"Since the Ring of Seven Curses cannot be crafted, when the Ring of Seven Curses is destroyed, players can no longer obtain it except by cheating."
+				"It would be boring if you did that, wouldn't it?"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1FF431078E9F14E9"]
+			size: 1.5d
+			id: "041DF7D0D016B0C3"
+			tasks: [{
+				id: "0771636F7C00DC8B"
+				type: "item"
+				item: "enigmaticlegacy:cursed_stone"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			subtitle: "Talisman"
+			description: [
+				"Basic bonus:"
+				"+1% Attack Damage"
+				"+1% Attack Speed"
+				"+0.5% Movement Speed"
+				"+0.5% Damage Resistance"
+				"These attributes are multiplied by the total of all your gear/effects."
+				"Only those who bear the seven mantras have the ability to obtain this thing."
+				"This item can only be crafted/used by players wearing the Ring of Seven Curses in the Ring Bar."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1FF431078E9F14E9"]
+			id: "216383A1EA42CFDE"
+			tasks: [{
+				id: "279D5BC30DECE3E4"
+				type: "item"
+				item: "enigmaticlegacy:berserk_emblem"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			subtitle: "This item cannot burn in fire or lava."
+			description: [
+				"When equipped in the Charm slot or in your inventory, the player receives greater amount and power of enchantments when using an Enchanting Table. Enchanting has the chance to produce both treasure and curse enchants."
+				"This is a cursed item, meaning that can only be used when the Ring of Seven Curses is equipped."
+				"Due to the ability to get curse enchants with this item, it works well in conjunction with the Scroll of a Thousand Curses"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1FF431078E9F14E9"]
+			id: "6C775AF4D9F399EF"
+			tasks: [{
+				id: "13615751FF502579"
+				type: "item"
+				item: "enigmaticlegacy:enchanter_pearl"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["3ABFE29062852FD6"]
+			id: "5A31D0CCD2360586"
+			tasks: [{
+				id: "4AA49A3B50EBEBBF"
+				type: "item"
+				item: "enigmaticlegacy:the_twist"
+			}]
+			rewards: [
+				{
+					id: "7549BAC5B8FBCA51"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "054C5E6AAD221C48"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "69A4C1D590F482BE"
+					type: "item"
+					item: "forbidden_arcanus:dark_beacon"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["3ABFE29062852FD6"]
+			id: "443D11965967B122"
+			tasks: [{
+				id: "5DE080B409458C2A"
+				type: "item"
+				item: "enigmaticlegacy:animal_guide"
+			}]
+			rewards: [
+				{
+					id: "4358785FED473E66"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E4E87E40E230B08"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "12263D8B65C989BC"
+					type: "item"
+					item: "charm:dark_oak_bookcase"
+					count: 12
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["3ABFE29062852FD6"]
+			id: "34E45EE36B4BCA90"
+			tasks: [{
+				id: "1EA2FA4796FF962E"
+				type: "item"
+				item: "enigmaticlegacy:hunter_guide"
+			}]
+			rewards: [
+				{
+					id: "054F50E4C7D5BEBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0518C3D857E3EDED"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "52734EF6374E8E5D"
+					type: "item"
+					item: "buildersaddition:bookshelf_dark_oak"
+					count: 12
+				}
+			]
+		}
+	]
+}

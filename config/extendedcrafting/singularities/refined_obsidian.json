@@ -1,0 +1,7 @@
+{
+    "name": "Refined Obsidian",
+    "colors": ["7F67AB", "7F67AB"],
+    "ingredient": {
+        "item": "mekanism:ingot_refined_obsidian"
+    }
+}

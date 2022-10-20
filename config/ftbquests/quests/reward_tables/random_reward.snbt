@@ -1,0 +1,75 @@
+{
+	id: "4A44F82B0872FF4A"
+	order_index: 16
+	title: "Random Reward"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:ender_pearl", count: 16 }
+		{ item: "minecraft:redstone", count: 16 }
+		{ item: "minecraft:glowstone_dust", count: 16 }
+		{ item: "astralsorcery:stardust", count: 16 }
+		{ item: "minecraft:gunpowder", count: 16 }
+		{ item: "thermal:lead_dust", count: 16 }
+		{ item: "psi:psidust", count: 16 }
+		{ item: "thermal:diamond_dust", count: 16 }
+		{ item: "thermal:nickel_dust", count: 16 }
+		{ item: "minecraft:lapis_lazuli", count: 16 }
+		{ item: "minecraft:blaze_powder", count: 16 }
+		{ item: "thermal:silver_dust", count: 16 }
+		{ item: "thermal:tin_dust", count: 16 }
+		{ item: "thermal:copper_dust", count: 16 }
+		{ item: "thermal:emerald_dust", count: 16 }
+		{ item: "minecraft:coal", count: 16 }
+		{ item: "minecraft:quartz", count: 16 }
+		{ item: "appliedenergistics2:certus_quartz_crystal", count: 16 }
+		{ item: "appliedenergistics2:fluix_crystal", count: 16 }
+		{ item: "minecraft:charcoal", count: 16 }
+		{ item: "immersiveengineering:coal_coke", count: 16 }
+		{ item: "minecraft:glass", count: 16 }
+		{ item: "minecraft:obsidian", count: 16 }
+		{ item: "minecraft:stone", count: 16 }
+		{ item: "minecraft:white_wool", count: 16 }
+		{ item: "minecraft:piston", count: 4 }
+		{ item: "minecraft:sticky_piston", count: 4 }
+		{ item: "minecraft:hopper", count: 6 }
+		{ item: "minecraft:bricks", count: 16 }
+		{ item: "minecraft:cobweb", count: 16 }
+		{ item: "minecraft:slime_ball", count: 16 }
+		{ item: "minecraft:egg", count: 16 }
+		{ item: "minecraft:torch", count: 16 }
+		{ item: "minecraft:redstone_torch", count: 16 }
+		{ item: "torchmaster:feral_flare_lantern", count: 2 }
+		{ item: "minecraft:dark_prismarine", count: 16 }
+		{ item: "minecraft:prismarine_shard", count: 16 }
+		{ item: "minecraft:prismarine_crystals", count: 16 }
+		{ item: "minecraft:sea_lantern", count: 8 }
+		{ item: "minecraft:glowstone", count: 8 }
+		{ item: "minecraft:crying_obsidian", count: 16 }
+		{ item: "minecraft:iron_ingot", count: 16 }
+		{ item: "alltheores:lead_ingot", count: 16 }
+		{ item: "botania:mana_pearl", count: 16 }
+		{ item: "mekanism:alloy_infused", count: 16 }
+		{ item: "mekanism:basic_control_circuit", count: 16 }
+		{ item: "rftoolsbase:dimensionalshard", count: 16 }
+		{ item: "minecraft:blaze_rod", count: 16 }
+		{ item: "naturesaura:gold_powder", count: 16 }
+		{ item: "eidolon:sulfur", count: 16 }
+		{ item: "thermal:niter_dust", count: 16 }
+		{ item: "immersiveengineering:coal_coke", count: 16 }
+		{ item: "evilcraft:dark_gem_crushed", count: 16 }
+		{ item: "forestcraft:sponge_piece", count: 16 }
+		{ item: "bloodmagic:soulsnare", count: 16 }
+		{ item: "mana-and-artifice:vinteum_dust", count: 16 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 6481664
+		string_id: "random_reward"
+	}
+}

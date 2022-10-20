@@ -1,0 +1,34 @@
+
+###############################
+# Mod properties
+###############################
+[01-mod]
+	#Enables/Disables mod.
+	enabled = true
+	# The directory where mods are located
+	#This is relative to the Minecraft install path.
+	modFolder = "mods"
+	# The directory where configs are located.
+	#Resource files will be located here as well.
+	# This is relative to the Minecraft install path.
+	configFolder = "config"
+	#Enables/Disables version checking.
+	enableVersionChecker = true
+	# Remind the user of the latest version update.
+	enableLatestVersionReminder = true
+
+###############################
+# Logging properties
+###############################
+[02-logging]
+	# The logging level. Set to 'off' to disable logging.
+	# Values = [trace|debug|info|warn|error|off]
+	level = "info"
+	# The size a log file can be before rolling over to a new file.
+	size = "1000K"
+	# The directory where the logs should be stored.
+	# This is relative to the Minecraft install path.
+	folder = "logs"
+	# The base filename of the  log file.
+	filename = "log"
+

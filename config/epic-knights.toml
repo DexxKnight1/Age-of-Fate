@@ -1,0 +1,12 @@
+
+["Config for Epic Knights Mod!"]
+	#Works only in game with the difficulty set to hard. If true, monsters will be equipped with some armor and weapons of the mod. This is an boolean. Default value is true.
+	equipMonsters = true
+	#Works only if the game is set to the hard difficulty. Affects the chance that monsters will be equipped with some armor and weapons of the mod. This is an float. Default value is 0.5, Maximum value is 1.0.
+	#Range: 0.0 ~ 1.0
+	equipChance = 0.5
+	#Works only if the game is set to the hard difficulty. If false, equipment will not be overriden by equipping an armor. This is an float. Default value is false.
+	doOverrideEquipment = false
+	#If true, crafting recipes with the surcoat is available not only for the armor of this mod. Default value is true.
+	enableSurcoatRecipeForAllArmor = true
+

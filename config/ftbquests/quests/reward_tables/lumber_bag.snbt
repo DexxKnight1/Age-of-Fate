@@ -1,0 +1,40 @@
+{
+	id: "1DA820F678551254"
+	order_index: 13
+	title: "Lumber's Bag"
+	icon: "forbidden_arcanus:dark_rune_bag"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:oak_log", count: 16 }
+		{ item: "minecraft:spruce_log", count: 16 }
+		{ item: "minecraft:birch_log", count: 16 }
+		{ item: "minecraft:jungle_log", count: 16 }
+		{ item: "minecraft:acacia_log", count: 16 }
+		{ item: "minecraft:dark_oak_log", count: 16 }
+		{ item: "upgrade_aquatic:driftwood_log", count: 16 }
+		{ item: "upgrade_aquatic:river_log", count: 16 }
+		{ item: "biomesoplenty:fir_log", count: 16 }
+		{ item: "biomesoplenty:redwood_log", count: 16 }
+		{ item: "biomesoplenty:cherry_log", count: 16 }
+		{ item: "biomesoplenty:mahogany_log", count: 16 }
+		{ item: "biomesoplenty:jacaranda_log", count: 16 }
+		{ item: "biomesoplenty:palm_log", count: 16 }
+		{ item: "biomesoplenty:willow_log", count: 16 }
+		{ item: "biomesoplenty:dead_log", count: 16 }
+		{ item: "biomesoplenty:umbran_log", count: 16 }
+		{ item: "biomesoplenty:hellbark_log", count: 16 }
+		{ item: "terraqueous:mulberry_log", count: 16 }
+		{ item: "terraqueous:banana_log", count: 16 }
+		{ item: "terraqueous:coconut_log", count: 16 }
+		{ item: "terraqueous:plum_log", count: 16 }
+		{ item: "terraqueous:lemon_log", count: 16 }
+		{ item: "terraqueous:mango_log", count: 16 }
+		{ item: "terraqueous:peach_log", count: 16 }
+		{ item: "terraqueous:pear_log", count: 16 }
+		{ item: "terraqueous:orange_log", count: 16 }
+		{ item: "terraqueous:cherry_log", count: 16 }
+		{ item: "terraqueous:apple_log", count: 16 }
+	]
+}

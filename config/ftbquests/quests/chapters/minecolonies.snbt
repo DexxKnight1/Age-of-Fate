@@ -1,0 +1,2431 @@
+{
+	id: "339B9FD46A5F4CF4"
+	group: "11F74EE62D2AB5DF"
+	order_index: 0
+	filename: "minecolonies"
+	title: "&6MineColonies"
+	icon: "minecolonies:supplycampdeployer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 2.25d
+		y: -11.089285714285712d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&a&lWelcome to MineColonies"
+			icon: "villagertools:contract"
+			x: 1.5d
+			y: -10.5d
+			shape: "gear"
+			subtitle: "Minecolonies is an interactive Town building mod that allows you to create your own thriving Town within Minecraft"
+			description: [
+				"It depicts real-life scenarios by providing you with different craftable options to build your own Town and enhance your gaming experience. Featuring many NPC workers such as: Builders, Crafters, Farmers, Fishermen, Guards, Barracks, Miners, Smeltery, Baker, Cook/Restuarant, Deliveryman, Animal Herders and many more planned for development. As well as a specialized buildings such as: Warehouse, Citizen Huts and a Townhall. Minecolonies gives you the ability to create a colony as rich and unique as every player"
+				""
+				"You have full control of how to build your Town. You determine how many workers you want or need, what type of workers, where they will live, and hire or fire as you see fit. Creating a Town at your own pace. It is your Town to design and develop, you are the designer, administrator and boss."
+				""
+				"Your Town deserves the best security you can have. Strategically add Guard Towers or Tower Barracks to protect your Town from hostile mobs and barbarians that will attack on random nights. Give them the best weapons and armour your Town has to offer. They need to be fed well to work and protect it better. Keep a busy farmer to supply the baker and the cook at the restaurant, so no one goes hungry."
+			]
+			size: 1.5d
+			id: "7BD92050166191A6"
+			tasks: [{
+				id: "29F0CA2EE73B2E04"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "7911B56139A92CF7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2AE500B42B59B22D"
+					type: "item"
+					item: "structurize:sceptergold"
+				}
+				{
+					id: "7AC9CE30A117D489"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "&a&lThe Supply Ship or Supply Camp"
+			x: 0.0d
+			y: -9.5d
+			subtitle: "Step 1: Supply Camp/Supply Ship"
+			description: [
+				"Once you have chosen a location for your colony, you must place a Supply Ship or Supply Camp. You can only place one of these per world. The Supply Camp/Ship gives you the Town Hall block you need to officially start your colony. They also have some other supplies you may need during the building of your colony. Once you have the Town Hall block and the build tool, the remaining camp/ship is just decoration. You can leave it or tear it down."
+				""
+				"Before you place the Supply Camp, you need to have a large enough flat, clear piece of land that is as large as the camp area."
+				""
+				"For the Supply Ship, you need an area of water at least one block larger than the build area. Not all Camps or Ships are the same size."
+			]
+			dependencies: ["7BD92050166191A6"]
+			id: "01BA5896FE1F2896"
+			tasks: [{
+				id: "3245902090120C9A"
+				type: "item"
+				title: "Supply Camp/Supply Ship"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecolonies:supply_deployers"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0C043BAD01192B87"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6FF44B3293364411"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "070B91274E81B33E"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "&a&lThe Town Hall"
+			x: 0.0d
+			y: -8.0d
+			subtitle: "Step 2: Town Hall"
+			description: [
+				"The Town Hall block is what actually creates the colony. It also functions as the center of it. This is where you start using the build tool to place buildings. Using the build tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level)."
+				""
+				"Make sure you scout your area carefully before you decide where you want to place your Town Hall. Your colony will start with a 4 chunk radius (4 chunks in each direction) from the Town Hall block. Make sure this is where you want your colony to be."
+				""
+				"After you have carefully decided where you want to place your Town Hall (remember, the position where you placed the Town Hall block will be the center of your colony’s protected area. Once placed, the area will be set and cannot be changed), use your build tool to place the Town Hall block.Right-click the ground in the area you want to place the Town Hall. The building GUI will display showing the 3D preview of the building. You will be able to use the arrow buttons to move the building to the location you desire."
+				""
+				"&lNote:&r Make sure you use the + and - options in the GUI to make sure you have the ground level of the hut where you want the ground level to be. Not all hut blocks sit on the ground.Once you commit to the placement of the Town Hall (green checkmark), the Town Hall block will be placed."
+			]
+			dependencies: ["01BA5896FE1F2896"]
+			id: "649F6004232F335C"
+			tasks: [{
+				id: "607EDC7794E2FC97"
+				type: "advancement"
+				icon: "minecolonies:blockhuttownhall"
+				advancement: "minecolonies:minecolonies/build_town_hall"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "49619740F28C5471"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1276EF102DE839C6"
+					type: "item"
+					item: "minecolonies:clipboard"
+				}
+				{
+					id: "3B38801B6F1FED5E"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "5E37CB7FC3B747F4"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&a&lThe Builder"
+			x: -1.5d
+			y: -7.0d
+			subtitle: "Step 3: Builder’s Hut"
+			description: [
+				"Before anything can be built, you need a Builder. The Builder must build their own Builder’s Hut before building any other huts, and they cannot build or upgrade a hut to a higher level than their own hut level."
+				""
+				"Before you choose a place to build the Builder’s Hut, take into account the distances among the other possible building sites and obstacles like water, trees, caves, mountains, lava sources, etc. After you have selected a place for the hut, you have to craft the Builder’s Hut block and place it with your build tool. Once the hut is placed, the Builder will be automatically assigned (or you can manually assign one with the best Traits for a Builder if you changed this in the settings tab in the Town Hall’s GUI."
+				""
+				"Now you will have to issue the build assignment so the Builder can build their own hut first. The Builder will ask for the materials they need. Make sure to check the Resource Scroll or the second page of the Builder’s Hut GUI to see what materials the Builder is requesting for any build/upgrade. Any material in the list that is still missing will be in red letters. Once the Builder’s Hut is built you can now build anything you want, like worker huts, buildings, decorations, or your own schematics."
+				""
+				"&lNote:&r The Builder can only build or upgrade any other hut up to the level of their own hut. So, in order for the Builder to upgrade any building, the Builder’s Hut must be upgraded first. Then the Builder will be able to upgrade any other building(s)."
+			]
+			dependencies: ["649F6004232F335C"]
+			id: "59C805F0C3A3E7E0"
+			tasks: [{
+				id: "4F6E4CB69D98EDEC"
+				type: "advancement"
+				icon: "minecolonies:blockhutbuilder"
+				advancement: "minecolonies:minecolonies/check_out_guide"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "51D19410FF12E562"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5D9078C82164DD9E"
+					type: "item"
+					item: {
+						id: "minecolonies:resourcescroll"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "71354D7ACF92E092"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "213A3DDF9CE64BC5"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Tavern"
+			x: -5.0d
+			y: -6.0d
+			description: [
+				"Your colonists will need a place to sleep and a house, so it is recommended to build a Tavern next. The Tavern also allows visitors to come to your colony, and you can recruit them to stay as citizens."
+				""
+				"The Tavern is like a House in that it houses citizens, however, the Tavern houses four instead of one and can’t be upgraded to house more.Every so often, visitors will come to the Tavern. You can recruit these visitors (with items) to live and work in your colony. Don’t attack them, they’ll fight back! Upgrading the Tavern will garner more and better visitors.Recruiting used to be part of the Town Hall but has been moved here."
+				""
+				"&lNote:&r The Tavern can only be upgraded to level 3, not level 5. You can also only have 1 Tavern per colony."
+			]
+			dependencies: ["59C805F0C3A3E7E0"]
+			id: "25B2ADF0164EBDD7"
+			tasks: [{
+				id: "750DE8A0B2B0E73A"
+				type: "advancement"
+				icon: "minecolonies:blockhuttavern"
+				advancement: "minecolonies:minecolonies/build_tavern"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "69A5AD5129DA040F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "353BDC38EB151820"
+					type: "item"
+					item: "twilightforest:cooked_meef"
+					count: 32
+				}
+				{
+					id: "32465ED96AE80DF6"
+					type: "item"
+					item: "minecraft:bread"
+					count: 32
+				}
+				{
+					id: "05F114A5B9BF6456"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "0B8A2BA8929CEE41"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Forester’s Hut"
+			x: -4.482142857142861d
+			y: -8.3125d
+			subtitle: "The Forester’s Hut is where the Forester will go in between chopping down trees"
+			description: [
+				"The Forester will cut down any tree in an approximate 150 block area (from themselves) that is not in a hut schematic and doesn’t have cobblestone placed beneath it."
+				""
+				"&lNote:&r Foresters require hoes (for breaking leaves)."
+			]
+			dependencies: ["59C805F0C3A3E7E0"]
+			id: "10EFBDB2DF3301F4"
+			tasks: [{
+				id: "09030FEDC1E5D140"
+				type: "advancement"
+				icon: "minecolonies:blockhutlumberjack"
+				advancement: "minecolonies:production/build_lumberjack"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "611BA68CD599AD42"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7AEA86643D678F1B"
+					type: "random"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "57A579CDF4A3AF02"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Mine"
+			x: -5.5d
+			y: -7.5d
+			subtitle: "The Mine is where the Miner will mine for ores and materials"
+			description: [
+				"Once they are hired, the Miner will create a shaft downward and then branch out."
+				""
+				"The shaft the Miner creates downwards will go to a specific depth depending on the level of the Mine:"
+				"Mine Level 1 - Y level 50"
+				"Mine Level 2 - Y level 30"
+				"Mine Level 3+ - Bedrock"
+			]
+			dependencies: ["59C805F0C3A3E7E0"]
+			id: "3B3160E21CBAD118"
+			tasks: [{
+				id: "27744B08226BEEE5"
+				type: "advancement"
+				icon: "minecolonies:blockhutminer"
+				advancement: "minecolonies:production/build_miner"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "74AABAD384E51787"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1CA589DAEF0185CD"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "4FA92ADBB70253C2"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Warehouse"
+			x: -7.5d
+			y: -7.0d
+			subtitle: "The Warehouse is the central storage from where a Courier will store and retrieve everything your workers harvest, craft, or need"
+			description: [
+				"Items will be stored in racks.The level of the Warehouse will determine how many Couriers will be able to use it at the same time. Level up the Warehouse to increase the amount of Couriers that can work in it. Leveling up the Warehouse will also increase its storage capacity."
+				""
+				"&lNote:&r You can only have one Warehouse per colony."
+			]
+			dependencies: ["08E6410AC63CC533"]
+			id: "6B327509E285B9BA"
+			tasks: [{
+				id: "0A3B972C6B8BC15B"
+				type: "advancement"
+				icon: "minecolonies:blockhutwarehouse"
+				advancement: "minecolonies:production/build_warehouse"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2D0BE703632C0188"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3AE54A1CA6DC2651"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7310053C268F096A"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "&a&lThe University"
+			x: 1.5d
+			y: -6.0d
+			subtitle: "Step 4: Rest of the Colony"
+			description: [
+				"The University is where a Researcher will research various upgrades to your colony."
+				""
+				"As you level up the University, you can hire more researchers."
+			]
+			dependencies: ["59C805F0C3A3E7E0"]
+			id: "1AFDAA3909136444"
+			tasks: [{
+				id: "0D6D50DCDF2533BB"
+				type: "item"
+				item: "minecolonies:blockhutuniversity"
+			}]
+			rewards: [
+				{
+					id: "6F5AC70FF82D4420"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "55DDDCB33618944B"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "22C646DFA59B4A6A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Fisher’s Hut"
+			x: -5.0d
+			y: -9.5d
+			subtitle: "The Fisher’s Hut is where the Fisher will catch fish"
+			description: [
+				"The Fisher requires a fishing rod and a body of water of a minimum of 7 blocks wide x 7 blocks long x 1 block tall to be able to work, and the water must be near his hut."
+				""
+				"Upgrading the Fisher’s Hut will expand the range at which the Fisher can fish, and the higher the level of the Fisher’s Hut, the more loot the Fisher will be fishing out (instead of fish). This includes prismarine and sponges!"
+			]
+			dependencies: ["0E86F1602C93A043"]
+			id: "01D6457585743B28"
+			tasks: [{
+				id: "0ACDCA568DFA0CE2"
+				type: "advancement"
+				icon: "minecolonies:blockhutfisherman"
+				advancement: "minecolonies:production/build_fisherman"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "39DFE92812B62180"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0D087BF802BE8A86"
+					type: "item"
+					item: "minecraft:cod"
+					count: 16
+				}
+				{
+					id: "73690C10F235D71F"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "565C0719705E0DF2"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Restaurant"
+			x: -6.0d
+			y: -5.5d
+			subtitle: "The Restaurant is where the Cook will cook food, provided they have the necessary ingredients and fuel"
+			description: [
+				"When citizens are hungry, they will come to the Restaurant and the Cook will give them food. The Assistant Cook also works at the Restaurant. They craft needed food to help supply the colony."
+				""
+				"&lNote:&r You can only hire an Assistant Cook when the Restaurant is level 3 or higher."
+			]
+			dependencies: ["25B2ADF0164EBDD7"]
+			id: "2B0E3E6924D17A76"
+			tasks: [{
+				id: "4285DAAF98FF19CB"
+				type: "advancement"
+				icon: "minecolonies:blockhutcook"
+				advancement: "minecolonies:production/build_cook"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1F6004344BB1168A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "14899BC7E5B120FD"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "5EC8508A47710569"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Farm \\& Fields"
+			x: -2.5d
+			y: -8.5d
+			subtitle: "The Farm is where the Farmer will grow crops for your colony"
+			description: [
+				"The crops the Farmer currently cultivates are wheat, carrots, potatoes, beets, melons, pumpkins, and most crops from other mods (as long as they have normal growth behavior). Before the Farmer can start, you will have to give the Farmer a hoe, an axe (for harvesting crops), and the crop you want to cultivate."
+				""
+				"The Farmer will also craft seeds, carved pumpkins, hay bales, composted dirt, and coarse dirt. They will only make items when they have been taught the recipes, receive a request for an item, and have the needed materials."
+				""
+				"For the Farmer to start, you will also need to place fields. Place the Field block (it looks like a scarecrow) in the plot of farmland you want the Farmer to work on and right-click on it to access its GUI. Here you will place the seed of the crop you want this specific field to cultivate. (For potatoes, carrots, and other plants without seeds, just put the raw potato/carrot/etc in the Field.) If you decide later to change the type of crop you want cultivated in that farmland, just go into the Field’s GUI and switch the seed there."
+				""
+				"&lNote:&r The Farmer can only learn a set number of recipes based on their hut level."
+			]
+			dependencies: ["59C805F0C3A3E7E0"]
+			id: "0E86F1602C93A043"
+			tasks: [
+				{
+					id: "5D6834E6E9C495E5"
+					type: "advancement"
+					icon: "minecolonies:blockhutfarmer"
+					advancement: "minecolonies:production/build_farmer"
+					criterion: ""
+				}
+				{
+					id: "52DF6E10091661A5"
+					type: "item"
+					item: "minecolonies:blockhutfield"
+				}
+			]
+			rewards: [
+				{
+					id: "7CB6B505DC8F5FFA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "794A6D9995D7DA02"
+					type: "item"
+					item: "minecolonies:blockhutfield"
+				}
+				{
+					id: "476DE4B6700120F6"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "0B30B7F0D0040C2C"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Courier’s Hut"
+			x: -6.5d
+			y: -6.5d
+			subtitle: "The Courier runs back and forth from the Warehouse to all the worker huts in your colony, delivering materials to workers and putting finished products in the Warehouse"
+			description: [
+				"The level of the Courier’s Hut will dictate how many items the Courier can deliver, so if you want them to carry more materials/tools, upgrade their hut. Upgrading the hut will also increase the amount of requests they can keep track of at a time."
+				""
+				"The greater a Courier’s Agility skill, the faster they’ll run. The greater their Adaptability skill, the more huts they can visit before going back to the Warehouse."
+				""
+				"&lNote:&r You MUST build the Warehouse to at least level 1 so the Courier can do their work."
+			]
+			dependencies: ["59C805F0C3A3E7E0"]
+			id: "08E6410AC63CC533"
+			tasks: [{
+				id: "419989B0F51EEC39"
+				type: "advancement"
+				icon: "minecolonies:blockhutdeliveryman"
+				advancement: "minecolonies:production/build_delivery_person"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "09AF41A69F04A40E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6CE386C1094B42F6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2B0ABF1A60044969"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Composter’s Hut"
+			x: -3.5d
+			y: -10.0d
+			subtitle: "The Composter’s Hut is where the Composter will turn organic materials into compost, which can be used by the Farmer or Florist to fertilize crops or flowers"
+			description: [
+				"They can also create dirt if you have the setting enabled, which the Builder can use in buildings. The Composter uses compost barrels to make compost or dirt."
+				""
+				"&lHint:&r The higher the level of the Composter’s Hut, the more compost barrels the Composter will be able to use."
+			]
+			dependencies: ["0E86F1602C93A043"]
+			id: "70C6E443BB9BA72A"
+			tasks: [{
+				id: "5AD8B7AB8958984E"
+				type: "advancement"
+				icon: "minecolonies:blockhutcomposter"
+				advancement: "minecolonies:production/build_composter"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1C4C87055AF53A5D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5CD4B954EB2983FD"
+					type: "item"
+					item: "minecolonies:composted_dirt"
+					count: 3
+				}
+				{
+					id: "2912E932EEFE1D48"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "03983EAD7F4ECC62"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -10.0d
+			subtitle: "The Chicken Farmer’s Hut is where the Chicken Farmer will raise chickens, collect eggs, and butcher chickens for food"
+			description: [
+				"You will have to capture and bring in two chickens to the Chicken Farmer’s Hut, as the Chicken Farmer will not catch and bring in any chickens."
+				""
+				"&lNote:&r The Chicken Farmer will only keep two chickens alive per hut level, so at level 5 they will have ten chickens in their holding pens to breed and butcher."
+			]
+			dependencies: ["01D6457585743B28"]
+			id: "47DA70D77F240688"
+			tasks: [{
+				id: "6E7F5BAF2C1B01E2"
+				type: "item"
+				item: "minecolonies:blockhutchickenherder"
+			}]
+			rewards: [
+				{
+					id: "7A96B3CD8F08A07A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4A3051B3555E447D"
+					type: "item"
+					item: "minecraft:chicken"
+					count: 16
+				}
+				{
+					id: "090BA20AB94D9811"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -10.0d
+			subtitle: "The Swineherd’s Hut is where the Swineherd will breed and butcher pigs for food"
+			description: [
+				"You will have to capture and bring in two pigs to the Swineherd’s Hut, as the Swineherd will not catch and bring in any pigs."
+				""
+				"&lNote:&r The Swineherd will only keep two pigs alive per hut level, so at level 5 they will have ten pigs in their holding pens to breed and butcher."
+			]
+			dependencies: ["47DA70D77F240688"]
+			id: "44B24D443F699CF6"
+			tasks: [{
+				id: "23F29ABD0441CCA6"
+				type: "item"
+				item: "minecolonies:blockhutswineherder"
+			}]
+			rewards: [
+				{
+					id: "6DB43122842DBD1F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "78716E9413405F90"
+					type: "item"
+					item: "minecraft:porkchop"
+					count: 16
+				}
+				{
+					id: "1E9E546611A34EE1"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -10.0d
+			subtitle: "The Shepherd’s Hut is where the Shepherd will breed and butcher sheep for food and wool"
+			description: [
+				"You will have to capture and bring in two sheep to the Shepherd’s Hut, as the Shepherd will not catch and bring in any sheep."
+				""
+				"&lNote:&r The Shepherd will only keep two sheep alive per hut level, so at level 5 they will have ten sheep in their holding pens to breed and butcher."
+			]
+			dependencies: ["44B24D443F699CF6"]
+			id: "1A3C9F124B6E687F"
+			tasks: [{
+				id: "3478BD6047A8313E"
+				type: "item"
+				item: "minecolonies:blockhutshepherd"
+			}]
+			rewards: [
+				{
+					id: "4CBFD3B037530647"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C8A952122BB3FF4"
+					type: "item"
+					item: "minecraft:mutton"
+					count: 16
+				}
+				{
+					id: "78703004F0E02F96"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -10.0d
+			subtitle: "The Cowhand’s Hut is where the Cowhand will breed, butcher, and milk (if you have the option enabled) cows for food and leather"
+			description: [
+				"You will have to capture and bring in two cows to the Cowhand’s Hut, as the Cowhand will not catch and bring in any cows."
+				""
+				"&lNote:&r The Cowhand will only keep two cows alive per hut level, so at level 5 they will have ten cows in their holding pens to breed and butcher."
+			]
+			dependencies: ["1A3C9F124B6E687F"]
+			id: "527567CD8C852ED6"
+			tasks: [{
+				id: "4AA93698FF316FF7"
+				type: "item"
+				item: "minecolonies:blockhutcowboy"
+			}]
+			rewards: [
+				{
+					id: "14A54269B2DD1900"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "18F35981ACC8699F"
+					type: "item"
+					item: "minecraft:beef"
+					count: 16
+				}
+				{
+					id: "399355FA81C189E9"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Flower Shop"
+			x: 4.5d
+			y: -5.0d
+			subtitle: "The Flower Shop is where your Florist will grow flowers for your colony, if given compost and an axe"
+			description: ["The Flower Shop cannot be built until you have a level 3 Composter’s Hut (or three level 1 Composter’s Huts, or another equivalent) and have finished the research in the University."]
+			dependencies: ["1AFDAA3909136444"]
+			id: "7BA609263896CABC"
+			tasks: [{
+				id: "0B6E1FE3D4E6E475"
+				type: "advancement"
+				icon: "minecolonies:blockhutflorist"
+				advancement: "minecolonies:production/build_florist"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "268BC22AAC828664"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1FF39223E8E4462B"
+					type: "item"
+					item: "minecraft:rose_bush"
+				}
+				{
+					id: "18B9E315C10565C3"
+					type: "item"
+					item: "minecraft:sunflower"
+				}
+				{
+					id: "33D50E0635B5BFF0"
+					type: "item"
+					item: "minecraft:lilac"
+				}
+				{
+					id: "5A82D4FE79F0183E"
+					type: "item"
+					item: "minecraft:peony"
+				}
+				{
+					id: "27A7F30EBBFB8F16"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "29105E771C8EA558"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Library"
+			x: 6.0d
+			y: -5.5d
+			subtitle: "The Library is a way for you to raise your adult citizens’ Intelligence skill, which influences all other skill increases (at other jobs)"
+			description: [
+				"A citizen will randomly level up their Intelligence as long as they’re assigned to the Library. Being a Library Student is their full-time job, so you can’t have one citizen work at the Library and another worker hut at the same time."
+				""
+				"&lNote:&r The Library cannot be built until you finish the research in the University."
+			]
+			dependencies: ["1AFDAA3909136444"]
+			id: "0D7C129C45728971"
+			tasks: [{
+				id: "62C8DC9720910F1C"
+				type: "advancement"
+				icon: "minecolonies:blockhutlibrary"
+				advancement: "minecolonies:production/build_library"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "51AAA48A5973FBDB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7B058793ED8E31A1"
+					type: "item"
+					item: "minecraft:bookshelf"
+					count: 32
+				}
+				{
+					id: "371CC9B0D6525D10"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "388553AB05BB0214"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Crusher’s Hut"
+			x: 2.5d
+			y: -9.0d
+			subtitle: "The Crusher’s Hut is where the Crusher will take items and crush them into other blocks"
+			description: ["&lNote:&r The Crusher’s Hut cannot be built until you have a level 1 Stonemason’s Hut and have finished the research in the University."]
+			dependencies: ["1AFDAA3909136444"]
+			id: "238C2A741A6C8CA5"
+			tasks: [{
+				id: "0101F33216743D5F"
+				type: "advancement"
+				icon: "minecolonies:blockhutcrusher"
+				advancement: "minecolonies:production/build_crusher"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "349146682B507133"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7B5E2A166322954B"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "308694E61ADAEF77"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Blacksmith’s Hut"
+			x: 4.5d
+			y: -8.5d
+			subtitle: "The Blacksmith is a 3x3 crafter and can make any vanilla tools, armor, swords, and shields (no bows or redstone items)"
+			description: [
+				"The Blacksmith will work when they receive a request for any of those items from another worker."
+				""
+				"&lNote:&r The Blacksmith’s Hut cannot be built until you have a level 3 Mine (or three level 1 Mines, or another equivalent) and have finished the research in the University."
+			]
+			dependencies: ["1AFDAA3909136444"]
+			id: "60247F70F86D4E33"
+			tasks: [{
+				id: "16B9357028035C3F"
+				type: "advancement"
+				icon: "minecolonies:blockhutblacksmith"
+				advancement: "minecolonies:production/build_blacksmith"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "576FA0120872C6AE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4F2930FBF32F002F"
+					type: "random"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "316D112BCE5EBF74"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4D6EB3010C3B2EF7"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Bakery"
+			x: -7.0d
+			y: -5.0d
+			subtitle: "The Baker will craft bread dough, cookie dough, cake dough, and raw pumpkin pie, then bake these in a furnace to create bread, cookies, cakes, and pumpkin pies"
+			description: [
+				"They will only do this upon request, whether from the Cook, the postbox, or as a minimum stock in the Warehouse."
+				""
+				"The Baker can also craft some non-vanilla breads:"
+				""
+				"- Sweet bread, made from wheat and a honey bottle. Available at Bakery level 3. Has slightly higher saturation than normal bread, also gives you a speed boost and removes poison."
+				""
+				"- Milk-infused bread, made from wheat and a milk bucket. Available at Bakery level 4. Removes all potion effects (like milk buckets do)."
+				""
+				"- Golden bread, made from wheat and a gold ingot. Available at Bakery level 5. Instantly heals 2 hearts."
+				""
+				"- Chorus bread, made from wheat and a chorus fruit. Available after completing the Know the End research in the University. Has higher saturation than normal bread and teleports you to the surface after eating it."
+			]
+			dependencies: ["2B0E3E6924D17A76"]
+			id: "7E47815F9083FC5F"
+			tasks: [{
+				id: "5006A8FC894CEC21"
+				type: "advancement"
+				icon: "minecolonies:blockhutbaker"
+				advancement: "minecolonies:production/build_baker"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "782E2F5AFEDDF183"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5477AC6B9808E793"
+					type: "item"
+					item: "minecraft:bread"
+					count: 16
+				}
+				{
+					id: "2F01DC5D0D6D208F"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "7EE19EF309DD6784"
+					type: "item"
+					item: "minecraft:cookie"
+					count: 32
+				}
+				{
+					id: "5D5E40051B79BEF5"
+					type: "item"
+					item: "pamhc2foodcore:jellydonutitem"
+					count: 6
+				}
+				{
+					id: "0D471D53A0F7C03A"
+					type: "item"
+					item: "pamhc2foodextended:pomegranatepieitem"
+					count: 6
+				}
+				{
+					id: "7D7BE4AD8B682DD9"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Sawmill"
+			x: 6.999999999999993d
+			y: -6.125000000000007d
+			subtitle: "The Sawmill is where the Carpenter will craft any items made of at least 75% wood that do not include ingots, stone, redstone (or produce a redstone signal), or string"
+			description: [
+				"The Carpenter will also craft a few other items, including cactus planks, shingles, timber frames, compost barrels, and racks. For them to do this, you must teach the Sawmill the recipes and the Carpenter must receive a request for an item from another worker."
+				""
+				"&lNote:&r The Sawmill cannot be built until you have a level 3 Forester’s Hut (or three level 1 Forester’s Huts, or another equivalent) and have finished the research in the University."
+			]
+			dependencies: ["1AFDAA3909136444"]
+			id: "4A81B022AAEF4B12"
+			tasks: [{
+				id: "4E9BA44792F89BC4"
+				type: "advancement"
+				icon: "minecolonies:blockhutsawmill"
+				advancement: "minecolonies:production/build_sawmill"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "031E161C7814BC3D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "209113C5056F5225"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "3A9AEF210A997B14"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Sifter’s Hut"
+			x: 6.0d
+			y: -7.0d
+			subtitle: "The Sifter’s Hut is where the Sifter will sift through dirt, gravel, sand, or soul sand to find loot"
+			description: [
+				"Doing this will make the block the Sifter is sifting disappear."
+				""
+				"&lNote:&r The Sifter’s Hut cannot be built until you have a level 3 Fisher’s Hut (or three level 1 Fisher’s Huts, or another equivalent) and have finished the research in the University."
+			]
+			dependencies: ["1AFDAA3909136444"]
+			id: "714AB886BD12D987"
+			tasks: [{
+				id: "428E5D130C25010B"
+				type: "advancement"
+				icon: "minecolonies:blockhutsifter"
+				advancement: "minecolonies:production/build_sifter"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4385BD1EF382C768"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "402223E8D76EFD67"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 16
+				}
+				{
+					id: "3AEF8176DE5676F8"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 16
+				}
+				{
+					id: "2A00221FCE7C78C7"
+					type: "item"
+					item: "minecraft:sand"
+					count: 16
+				}
+				{
+					id: "544FADF286B54E7A"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 16
+				}
+				{
+					id: "34BB55260B82CB1F"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Smeltery"
+			x: 3.5d
+			y: -9.0d
+			subtitle: "The Smeltery is where the Smelter will smelt ores into ingots"
+			description: [
+				"The higher the level of the Smeltery, the more furnaces the Smelter will be able to use. A higher level will also have a higher chance to double and even triple the ingot output per block of ore. The Smelter’s Strength level will sometimes determine the chance to double or triple the ingot output of ores, according to the Smeltery level."
+				""
+				"&lNote:&r The Smeltery cannot be built until you have a level 2 Mine (or two level 1 Mines) and have finished the research in the University."
+			]
+			dependencies: ["1AFDAA3909136444"]
+			id: "2B10D2581C1C4ABD"
+			tasks: [{
+				id: "337C142DEFF2E8C5"
+				type: "advancement"
+				icon: "minecolonies:blockhutsmeltery"
+				advancement: "minecolonies:production/build_smeltery"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1C98D173E9885E39"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "32E91487CDB8DC35"
+					type: "item"
+					item: "minecraft:gold_ore"
+					count: 16
+				}
+				{
+					id: "0E444C96F88D6358"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 16
+				}
+				{
+					id: "10E07339C398EB57"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Stone Smeltery"
+			x: 4.5d
+			y: -7.5d
+			subtitle: "The Stone Smeltery is where the Stone Smelter will smelt cobblestone into stone, stone bricks into cracked stone bricks, clay balls into bricks, clay blocks into terracotta, terracotta into glazed terracotta, all types of stone into all types of smooth stone, and logs into charcoal"
+			description: [
+				"They can also pop chorus fruits! The Stone Smelter will only work when they have been taught the recipe, receive a request from another worker, and have the needed materials."
+				""
+				"&lNote:&r The Stone Smeltery cannot be built until you have a level 3 Smeltery (or three level 1 Smelteries, or another equivalent) and have finished the research in the University."
+			]
+			dependencies: ["1AFDAA3909136444"]
+			id: "3817F83F1C62CDE7"
+			tasks: [{
+				id: "34526FFC19F6A674"
+				type: "advancement"
+				icon: "minecolonies:blockhutstonesmeltery"
+				advancement: "minecolonies:production/build_stone_smeltery"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3162729598E7D8C7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "033A29463C8036C7"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "1AF5E5B94F96F973"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 64
+				}
+				{
+					id: "25F2D38E5BC61911"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Stonemason’s Hut"
+			x: 5.392857142857132d
+			y: -9.089285714285715d
+			subtitle: "The Stonemason’s Hut is where the Stonemason will craft 3x3 recipes made entirely out of cobblestone, stone, andesite, diorite, granite, quartz, purpur, nether bricks, prismarine, sandstones, blackstone, basalt, and/or ores (no ingots or redstone items)"
+			description: [
+				"They can also craft end stone from cobblestone and an ender pearl, but only if you have completed the Know the End research in the University. The Stonemason will only work when they receive a request from another worker and have the needed materials. You will also need to teach the Stonemason’s Hut the recipes you want the Stonemason to craft."
+				""
+				"&lNote:&r The Stonemason’s Hut cannot be built until you have a level 1 Blacksmith’s Hut and have finished the research in the University."
+			]
+			dependencies: ["60247F70F86D4E33"]
+			id: "1975972CC169BF29"
+			tasks: [{
+				id: "25FED4F6D64E4D75"
+				type: "advancement"
+				icon: "minecolonies:blockhutstonemason"
+				advancement: "minecolonies:production/build_stonemason"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "799F6E6A831BB021"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "44CB798033C986E7"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6240F6EBD7B38312"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Guard Tower"
+			x: -4.0d
+			y: -5.5d
+			subtitle: "The Guard Tower will employ and house 1 Guard to protect your colony"
+			description: [
+				" The new Guard will need a bed in a house in order to spawn. However, once they are hired at the Guard Tower, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit)."
+				""
+				"The Guard will patrol a set distance around their tower, which is based on their tower’s level."
+			]
+			dependencies: ["59C805F0C3A3E7E0"]
+			id: "5AAE0B90988577A3"
+			tasks: [{
+				id: "168905A0417A71C9"
+				type: "advancement"
+				icon: "minecolonies:blockhutguardtower"
+				advancement: "minecolonies:minecolonies/build_guard_tower"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7F2B80C565627B79"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "666118E0EA971592"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C9D9EA561744C88"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "79BFDEBE4E5F21A9"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F1FD028DE9F2C9E"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F2F996D315681EE"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58E5F67B2867DE34"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "&a&lThe Military"
+			x: -0.5d
+			y: -5.0d
+			subtitle: "Step 5: Guards are the protecting force for your colony"
+			description: [
+				"The Barracks is the ultimate protection for your colony. The Barracks will hold 4 Barracks Towers within its structure. The Barracks Towers (unlike the normal Guard Towers) will employ and house 1 Guard for every level built! Each new Guard will need a bed in a house in order to spawn. However, once they are hired at the Barracks Tower, that becomes their new residence and the bed in the house will open up for another new citizen. Each Barracks Tower can house and employ 5 Guards for a total of 20 Guards for your colony."
+				""
+				"&lNote:&r The Barracks cannot be built until you have a level 3 Guard Tower (or three level 1 Guard Towers, or another equivalent) and have finished the research in the University."
+			]
+			dependencies: ["1AFDAA3909136444"]
+			id: "774730F99DCFB203"
+			tasks: [{
+				id: "33F574192C6C48DE"
+				type: "advancement"
+				icon: "minecolonies:blockhutbarracks"
+				advancement: "minecolonies:military/build_barracks"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "48F2A7874E79E598"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1390A2359F49A61A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "5AFD558C931F0C72"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Build all 4 Barracks Towers"
+			x: 1.0d
+			y: -3.5d
+			subtitle: "The Barracks Towers will employ and house 1 Guard for every level built (unlike the normal Guard Towers, which can only have 1 Guard at a time)"
+			description: [
+				"Each new Guard will need a bed in a house in order to spawn. However, once they are hired at the Barracks Tower, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit)."
+				""
+				"The Barracks Tower locations are predetermined by the Barracks that you choose. They are placed in specific locations to fit within the Barracks."
+				""
+				"Guard(s) will patrol a set distance around their tower, which is based on their tower’s level."
+				""
+				"&lNote:&r If you place Barracks/Barracks Towers near your colony border and level them up, your border will expand."
+			]
+			dependencies: ["774730F99DCFB203"]
+			id: "733931C5D0F16985"
+			tasks: [{
+				id: "1CF307C748232CC4"
+				type: "advancement"
+				icon: "minecolonies:blockhutbarrackstower"
+				advancement: "minecolonies:military/build_all_barracks_towers"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2AC7A1C3E2CB4B48"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1ED7D5BF92CA334E"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "28F2693E17DB62FA"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Archery"
+			x: -0.5d
+			y: -3.5d
+			subtitle: "The Archery is where your Archers in Training will train to become Archer Guards"
+			description: [
+				"This also allows them to level up without a risk of dying to mobs. A new Archer in Training will need a bed in a house in order to spawn. However, once they are hired at the Archery, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit)."
+				""
+				"The number of students that can be trained at a time depends on the level of the Archery."
+				""
+				"&lNote:&r The Archery cannot be built until you have a level 3 Barracks (or three level 1 Barracks, or another equivalent) and have finished the research in the University."
+			]
+			dependencies: ["774730F99DCFB203"]
+			id: "48C80615EA9AB99B"
+			tasks: [{
+				id: "7AD0497E30F4CD72"
+				type: "advancement"
+				icon: "minecolonies:blockhutarchery"
+				advancement: "minecolonies:military/build_archery"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "55209D79383F954D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2B429D8EA36998E7"
+					type: "item"
+					item: {
+						id: "minecraft:bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "463E36932E3ACE1C"
+					type: "random"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "55D3D362711140A7"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Combat Academy"
+			x: -2.0d
+			y: -3.5d
+			subtitle: "The Combat Academy is where your Knights in Training will train to become Knight Guards"
+			description: [
+				"This also allows them to level up without a risk of dying to mobs. A new Knight in Training will need a bed in a house in order to spawn. However, once they are hired at the Combat Academy, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit)."
+				""
+				"The number of students that can be trained at a time depends on the level of the Academy."
+				""
+				"The Knights in Training require a sword and shield to practice. They will attack the practice dummies, a pumpkin on top of a bale of hay.The Knights in Training are not actual Guards even though they will be dressed as Knight Guards. They will not help defend the colony."
+				""
+				"&lNote:&r The Combat Academy cannot be built until you have a level 3 Barracks (or three level 1 Barracks, or another equivalent) and have finished the research in the University ."
+			]
+			dependencies: ["774730F99DCFB203"]
+			id: "56D88CF6B3413703"
+			tasks: [{
+				id: "417DD44AB8E1C120"
+				type: "advancement"
+				icon: "minecolonies:blockhutcombatacademy"
+				advancement: "minecolonies:military/build_combat_academy"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "294DFE4AC580804D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4B647ED791326213"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "4867E669AE8629C1"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "44B7834C7E4FF5B1"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Mystical Site"
+			x: 5.5d
+			y: -4.5d
+			subtitle: "The Mystical Site is a simple building to increase a colony’s overall happiness level"
+			description: [
+				"It has no worker, and increases colonists’ happiness just by existing.The Undertaker will visit the Mystical Site when there are no colonists to bury. Doing so will increase their Mana skill, and as such, their chance of resurrecting a killed citizen."
+				""
+				"&lNote:&r The Mystical Site cannot be built until you have finished the research in the University."
+			]
+			dependencies: ["7BA609263896CABC"]
+			id: "7E7E7C776B35E3F8"
+			tasks: [{
+				id: "7455CD71F15626F2"
+				type: "advancement"
+				icon: "minecolonies:blockhutmysticalsite"
+				advancement: "minecolonies:minecolonies/build_mysticalsite"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6F5DDC7696CFF3D1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3C063D4DE2362F99"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "0C29E3EB52CC2067"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -9.5d
+			subtitle: "The Apiary is where the Beekeeper works"
+			description: [
+				"he Beekeeper breeds bees and harvests honeycombs or honey bottles (you can choose which on the second page of the Apiary’s GUI).The level of the Apiary determines the max number of hives the Beekeeper can take care of."
+				""
+				"&lNote:&r If the Beekeeper is asking for hives but there are some nearby, make sure you’ve set the hives for them to take care of with the hive tool. This tool is accessed from the second page of the Apiary GUI"
+			]
+			dependencies: ["0E86F1602C93A043"]
+			id: "17BFF813E6FCC0E3"
+			tasks: [{
+				id: "026AC0A53DB9521C"
+				type: "item"
+				item: "minecolonies:blockhutbeekeeper"
+			}]
+			rewards: [
+				{
+					id: "4828D300A8D6153D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "457A06DD5A1CD104"
+					type: "item"
+					item: "minecraft:honey_bottle"
+					count: 16
+				}
+				{
+					id: "085EEDA162661DCB"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "243FBC533B4BE092"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -8.0d
+			subtitle: "The Concrete Mixer will craft all types of concrete powder and place them in flowing water (built in to their hut), then mine the resulting concrete"
+			description: [
+				"The Concrete Mixer will only make concrete and concrete powder when they receive a request for a block and have the needed materials. (All their recipes are pretaught)."
+				""
+				"&lNote:&r The Concrete Mixer’s Hut cannot be built until you have a level 1 Crusher’s Hut and have finished the research in the University."
+			]
+			dependencies: ["3817F83F1C62CDE7"]
+			id: "7A0C2FFA2D60BC8E"
+			tasks: [{
+				id: "4986616A0A345ED3"
+				type: "item"
+				item: "minecolonies:blockhutconcretemixer"
+			}]
+			rewards: [
+				{
+					id: "69F8B52D1D5AC242"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1C40170697748649"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 32
+				}
+				{
+					id: "31A21CE3A5636872"
+					type: "item"
+					item: "minecraft:sand"
+					count: 32
+				}
+				{
+					id: "6434CBF74E51CDAB"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 6.571428571428562d
+			y: -8.160714285714292d
+			subtitle: "The Dyer’s Hut is where the Dyer will craft dyes and dye other items, including red nether bricks and dark prismarine"
+			description: [
+				"They won’t dye concrete or concrete powder, though. The Dyer will only do this if they receive a request from another worker and have the necessary materials. The Dyer’s Hut automatically knows how to make green dye and red sand, but you must teach it the recipes for the other dyes and the dyed items."
+				""
+				"&lNote:&r The Dyer cannot be built until you have a level 3 Flower Shop (or three level 1 Flower Shops, or another equivalent) and have finished the research in the University."
+			]
+			dependencies: ["7A0C2FFA2D60BC8E"]
+			id: "4A902A3B87897627"
+			tasks: [{
+				id: "2AF81FDA1A566D3A"
+				type: "item"
+				item: "minecolonies:blockhutdyer"
+			}]
+			rewards: [
+				{
+					id: "0591B02653B53D52"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7B15E8579CAB1856"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7A97BD6D03CCF39C"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Enchanter’s Tower"
+			x: -4.928571428571438d
+			y: -4.803571428571431d
+			subtitle: "The Enchanter’s Tower is where the Enchanter will create enchanted books, as long as they have Ancient Tomes"
+			description: [
+				"The Enchanter will collect XP from other workers to create the enchanted books. The higher their Mana level, the more XP they will collect per trip. They will not apply the enchanted books to tools and armor, you must do that yourself."
+				""
+				"The higher the level of the Enchanter’s Tower, the higher the level of the enchanted books the Enchanter will produce (the Enchanter’s Knowledge level also contributes to this)."
+				""
+				"The Enchanter can also craft some magical scrolls upon request:"
+				"- The Ultrasafe Colony Teleport Scroll, crafted with 3 paper, a compass, and the build tool. (Outputs 3 scrolls)."
+				"- The Ultrasafe Colony Group Teleport Scroll, crafted with 3 Ultrasafe Colony Teleport Scrolls. The Enchanter’s Tower must be at least level 2 for the Enchanter to craft this scroll."
+				"- The Spatial Guard Reinforcements Scroll, crafted with 1 Ultrasafe Colony Teleport Scroll, 5 lapis lazuli, 1 ender pearl, and 1 paper. (Outputs 2 scrolls). The More Scrolls research in the University must be completed for the Enchanter to craft this scroll."
+				"- The Worker-Where-Are-You Scroll, crafted with 1 Ultrasafe Colony Teleport Scroll, 6 glowstone dust, and 2 paper. (Outputs 5 scrolls.) The More Scrolls research in the University must be completed for the Enchanter to craft this scroll."
+			]
+			dependencies: ["5AAE0B90988577A3"]
+			id: "29F9218058834A42"
+			tasks: [{
+				id: "49E34CAE749CD6BE"
+				type: "advancement"
+				icon: "minecolonies:blockhutenchanter"
+				advancement: "minecolonies:production/build_enchanter"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "30BBBB406EA179B6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6524FCBBAAD2648E"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "4290A34F8261FAAC"
+					type: "item"
+					item: "cyclic:disenchanter"
+				}
+				{
+					id: "498872E8D87EAD8C"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 8.035714285714278d
+			y: -6.339285714285722d
+			subtitle: "The Fletcher’s Hut is where the Fletcher will craft arrows and items that use string or wool, such as bows, fishing poles, and paintings"
+			description: [
+				"For the Fletcher to work, they must receive a request from another worker and have the necessary materials. The Fletcher’s Hut must also have been taught the crafting recipes for all the items you want the Fletcher to be able to craft."
+				""
+				"&lNote:&r The Fletcher’s Hut cannot be built until you have a level 1 Sawmill and have finished the research in the University."
+			]
+			dependencies: ["4A81B022AAEF4B12"]
+			id: "3336D55229F6F291"
+			tasks: [{
+				id: "2D13311545CC0E68"
+				type: "item"
+				item: "minecolonies:blockhutfletcher"
+			}]
+			rewards: [
+				{
+					id: "5300DF6F444C1321"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3C70BFD0A3F2B515"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 32
+				}
+				{
+					id: "4E5F56ED54E4C2F3"
+					type: "item"
+					item: "minecraft:string"
+					count: 32
+				}
+				{
+					id: "4380E00AFDE94225"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 4.214285714285708d
+			y: -9.732142857142858d
+			subtitle: "The Glassblower’s Hut is where the Glassblower will smelt sand into glass and make glass panes from glass blocks"
+			description: [
+				"For the Glassblower to work, they must receive a request from another worker and have the necessary materials, including fuel if they’re smelting sand into glass. The Glassblower’s Hut must also have been taught the crafting recipe for glass panes."
+				""
+				"&lNote:&r The Glassblower’s Hut cannot be built until you have a level 3 Smeltery (or three level 1 Smelteries, or another equivalent) and have finished the research in the University."
+			]
+			dependencies: ["2B10D2581C1C4ABD"]
+			id: "2366B14A748E7116"
+			tasks: [{
+				id: "3EBCD07E7A718A9E"
+				type: "item"
+				item: "minecolonies:blockhutglassblower"
+			}]
+			rewards: [
+				{
+					id: "44C911A036D069DC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "342E9E249557A680"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1FF3544CEAF81D23"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 4.4285714285714235d
+			y: -3.6964285714285694d
+			subtitle: "The Graveyard is where the Undertaker will bury your deceased citizens"
+			description: [
+				"The recommended maximum grave count per Graveyard level is below. This is not mandatory, and the actual amount will vary between styles."
+				""
+				"&lNote:&r The Graveyard cannot be built until you have finished the research in the University."
+			]
+			dependencies: ["607E70E027A50834"]
+			id: "638182A810BDACB7"
+			tasks: [{
+				id: "6B5B7395705E1FA1"
+				type: "item"
+				item: "minecolonies:blockhutgraveyard"
+			}]
+			rewards: [
+				{
+					id: "1F54B7DDB38F9D9C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7E7DCD43270C93A7"
+					type: "item"
+					item: {
+						id: "tombstone:decorative_grave_cross"
+						Count: 1b
+						tag: {
+							model_texture: 0
+						}
+					}
+				}
+				{
+					id: "5C1ADE55FD75694D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "42A43F89AD495A9D"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 5.499999999999986d
+			y: -3.1964285714285765d
+			subtitle: "The Hospital is where injured or sick citizens go"
+			description: [
+				"The Healer will heal them with various items."
+				""
+				"&lNote:&r The Hospital cannot be built until you have finished the research in the University."
+			]
+			dependencies: ["638182A810BDACB7"]
+			id: "59CDAF55C55D8CEA"
+			tasks: [{
+				id: "5C0E259D767B2020"
+				type: "item"
+				item: "minecolonies:blockhuthospital"
+			}]
+			rewards: [
+				{
+					id: "12AF66958F2C6F98"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1EDBC1B7DF0768AB"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "7BB012B3DD40A9D7"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "75051EFD5E9201F3"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "House"
+			x: -2.5d
+			y: -5.5d
+			subtitle: "Citizens will go to the House they are assigned to at night to sleep"
+			description: [
+				"The House is also a way to get more citizens for your colony.Each level of the House will house one citizen."
+				""
+				"For additional citizens to spawn, you first have to have enough space in your House(s) to house your first four citizens. After you have created enough space for your initial four citizens, you have two options for your colony to grow. The first way is to have at least one House at least level 2 that houses a male and a female citizen, which will allow a child to be born in the colony when there is room. You can also make space for a new citizen, go to the Tavern, wait for a traveler to show up, and then give them the items they request to recruit them."
+				""
+				"&lNote:&r To have over 25 citizens, you must first complete the research in the University."
+			]
+			dependencies: ["59C805F0C3A3E7E0"]
+			id: "0DD2F97CCD2B06D3"
+			tasks: [{
+				id: "36D889058892FE7C"
+				type: "advancement"
+				icon: "minecolonies:blockhutcitizen"
+				advancement: "minecolonies:minecolonies/build_citizen"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1BB3B46D1487D91F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "52F6905446E18E24"
+					type: "item"
+					item: "minecolonies:blockhutcitizen"
+				}
+				{
+					id: "72DBF825EC63514A"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "58946C9DB303CD29"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -10.0d
+			subtitle: "The Rabbit Hutch is where the Rabbit Herder will raise and butcher rabbits"
+			description: [
+				"You will have to capture and bring in two rabbits to the Rabbit Hutch, as the Rabbit Herder will not catch and bring in any rabbits."
+				""
+				"&lNote:&r The Rabbit Herder will only keep two rabbits alive per hut level, so at level 5 they will have ten rabbits in their holding pens to breed and butcher. This means they will be faster at producing and collecting meat and other drops."
+			]
+			dependencies: ["527567CD8C852ED6"]
+			id: "69246A49A21C1818"
+			tasks: [{
+				id: "665D9A2330FEFEFA"
+				type: "item"
+				item: "minecolonies:blockhutrabbithutch"
+			}]
+			rewards: [
+				{
+					id: "7144D7D534EC2640"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5ED61D53535B0820"
+					type: "item"
+					item: "minecraft:rabbit"
+					count: 16
+				}
+				{
+					id: "1292001ED456904E"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 6.392857142857132d
+			y: -9.446428571428573d
+			subtitle: "The Mechanic is part of the supply production of your colony"
+			description: [
+				"The Mechanic’s Hut is where the Mechanic will craft redstone items, rails, minecarts, clocks, compasses, sea lanterns, torches, lanterns, jack-o-lanterns, storage blocks (like blocks of iron, coal, quartz, etc), dried kelp blocks, blue ice, packed ice, enchantment tables, ender chests, tripwire hooks, sticky pistons, gates, multi-pistons, glowstone blocks, anything made with blaze rods, and many other items that no other crafter can make. For the Mechanic to work, they must receive a request from another worker and have the necessary materials. The Mechanic’s Hut must also have been taught the crafting recipes for all the items you want the Mechanic to be able to craft."
+				""
+				"&lNote:&r The Mechanic’s Hut cannot be built until you have a level 3 Blacksmith’s Hut (or three level 1 Blacksmith’s Huts, or another equivalent) and have finished the research in the University."
+			]
+			dependencies: ["1975972CC169BF29"]
+			id: "136DFA76D880E5CF"
+			tasks: [{
+				id: "2AF2A67B1EAE89EC"
+				type: "item"
+				item: "minecolonies:blockhutmechanic"
+			}]
+			rewards: [
+				{
+					id: "252EE224C861EAF4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2FDC624DCC8D74BB"
+					type: "item"
+					item: "minecraft:redstone_ore"
+					count: 16
+				}
+				{
+					id: "5346BFCEEACED81D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "04FAEA587F7BCB73"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -2.3571428571428683d
+			y: -10.053571428571434d
+			subtitle: "The Plantation is where the Planter will grow either sugar cane, bamboo, or cactus"
+			description: [
+				"The Plantation’s level determines how many crops the Planter can plant at a time."
+				""
+				"The Planter can also craft paper, books, sugar, and anything made with bamboo. The Planter will only make these items when they have been taught the recipes, receive a request for an item, and have the needed materials."
+				""
+				"&lNote:&r The Plantation cannot be built until you have a level 3 Farm (or three level 1 Farms, or another equivalent) and have finished the research in the University."
+			]
+			dependencies: ["0E86F1602C93A043"]
+			id: "702CD866C68E99FA"
+			tasks: [{
+				id: "088566B6F1B10128"
+				type: "item"
+				item: "minecolonies:blockhutplantation"
+			}]
+			rewards: [
+				{
+					id: "32230017778DD2ED"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F715737F010CC8D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2178FE65ADC4DFB0"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 3.464285714285701d
+			y: -4.375d
+			subtitle: "The School is where the Teacher will level up the Pupils’ (children) skills"
+			description: [
+				"Paper will increase the leveling speed of the Pupils.The level of the School determines how many Pupils can be taught at a time."
+				""
+				"&lNote:&r The School cannot be built until you finish the research in the University."
+			]
+			dependencies: ["1AFDAA3909136444"]
+			id: "607E70E027A50834"
+			tasks: [{
+				id: "61F9BEA1867DF4E9"
+				type: "item"
+				item: "minecolonies:blockhutschool"
+			}]
+			rewards: [
+				{
+					id: "211AAA0498755BE5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0E84FD645525D204"
+					type: "item"
+					item: "minecraft:book"
+					count: 16
+				}
+				{
+					id: "71922A601C8DDE86"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "22B27E09C760EC8B"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "Reach colony population of 25 citizens"
+			x: -7.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["36D889058892FE7C"]
+			id: "2FF5CFDBAFDBFF0B"
+			tasks: [{
+				id: "6399393EDB782A7F"
+				type: "advancement"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/pop25.png"
+					}
+				}
+				advancement: "minecolonies:minecolonies/colony_population_25"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5920224463AA2666"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7BC968C932FE535A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "5FCF504DD5C7C452"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "Reach colony population of 50 citizens"
+			x: -6.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["36D889058892FE7C"]
+			id: "207D687B1E77E835"
+			tasks: [{
+				id: "2F83838B5D706132"
+				type: "advancement"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/pop50.png"
+					}
+				}
+				advancement: "minecolonies:minecolonies/colony_population_50"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3775AC6F36A8AA4A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3EA670F188E73834"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "73B4AD3BB4589375"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "Reach colony population of 75 citizens"
+			x: -5.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["36D889058892FE7C"]
+			id: "3EA5F79662A298C1"
+			tasks: [{
+				id: "6C55223113AE1625"
+				type: "advancement"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/pop75.png"
+					}
+				}
+				advancement: "minecolonies:minecolonies/colony_population_75"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0839D2245E0CB41C"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7BC2DE4D2F0B7520"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "47927C35AE13247F"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			title: "Reach army of 30 soldiers"
+			x: 4.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["33F574192C6C48DE"]
+			id: "1C99F96B2CEAF51B"
+			tasks: [{
+				id: "0FECA4B3032816FC"
+				type: "advancement"
+				icon: {
+					id: "iceandfire:dread_knight_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecolonies:military/army_30"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5981ABF98CA8B5E2"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "191F282177ACCFD3"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "083D2E709C16813C"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "Reach army of 80 soldiers"
+			x: 5.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["33F574192C6C48DE"]
+			id: "14794213C3F0A58D"
+			tasks: [{
+				id: "6C7987F32948D441"
+				type: "advancement"
+				icon: {
+					id: "spartanweaponry:battleaxe_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecolonies:military/army_80"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "07C635F062A46478"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1DEA7A8DD4252578"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "3C585144919BE3A3"
+					type: "ftbmoney:money"
+					ftb_money: 10000L
+				}
+			]
+		}
+		{
+			title: "Build Town Hall to level 5"
+			x: -1.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["607EDC7794E2FC97"]
+			id: "32B211F646F52380"
+			tasks: [{
+				id: "33D740A6346D0AA3"
+				type: "advancement"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/thl5.png"
+					}
+				}
+				advancement: "minecolonies:minecolonies/build_town_hall_5"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2AE8050FADF38E94"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6BC941983493E0BF"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "3021519DFE2BEAAA"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "040872B5B293C257"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "1416509CC2EB5BC6"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			title: "Build Smeltery to level 5"
+			x: -0.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["337C142DEFF2E8C5"]
+			id: "559A68258E59A60D"
+			tasks: [{
+				id: "630199BF300D5A8F"
+				type: "advancement"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/sl5.png"
+					}
+				}
+				advancement: "minecolonies:production/build_smeltery_5"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "323873BB12908ED0"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "54E2DFC822A47DF8"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "4EC2921976F9C09B"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3BED99C46C9EE8C2"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "4027F191F09E75E6"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			title: "Build Mystical Site to level 5"
+			x: 0.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["7455CD71F15626F2"]
+			id: "2E9E68F8BBC93C2C"
+			tasks: [{
+				id: "1A02C322A18EDFE8"
+				type: "advancement"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/msl5.png"
+					}
+				}
+				advancement: "minecolonies:minecolonies/build_mysticalsite_5"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0EF3FCA2906A9D94"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "52FBE637DB2AAFF4"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "6AB3F321A042D241"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "299EACF55F712E7E"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "03EAF3E993F09083"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			title: "Reach army of 8 soldiers"
+			x: 3.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["33F574192C6C48DE"]
+			id: "3E8C00C8D81421F4"
+			tasks: [{
+				id: "1F2D04AC8514F4A1"
+				type: "advancement"
+				icon: {
+					id: "iceandfire:dragonbone_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecolonies:military/army_8"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "446449B7D19866DC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7B99B7EB67D77E8A"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "1F3FBF1139EA736A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Have a Miner mine to bedrock"
+			x: -6.375000000000007d
+			y: -8.098214285714285d
+			dependencies: ["3B3160E21CBAD118"]
+			id: "4FBC0947A746EC91"
+			tasks: [{
+				id: "130A99A1327FC79D"
+				type: "advancement"
+				advancement: "minecolonies:production/deep_mine"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "68F4835C15576B3C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0445EBC6C65F17AF"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "4BE9BD4356BEEB84"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+	]
+}

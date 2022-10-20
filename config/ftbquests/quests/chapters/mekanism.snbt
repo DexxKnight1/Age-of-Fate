@@ -1,0 +1,3092 @@
+{
+	id: "6EA731A90FB3F61A"
+	group: "66971E0EF19CA037"
+	order_index: 7
+	filename: "mekanism"
+	title: "&dMekanism"
+	icon: "mekanism:robit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -13.142857142857139d
+		y: -14.232142857142861d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&e&lWelcome to Mekanism"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/meka.png"
+				}
+			}
+			x: -13.92857142857143d
+			y: -13.517857142857142d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oAdvanced Machine Frame&r quest*"
+			description: [
+				"Mekanism is an independent tech mod that brings low, mid, and high tier machinery to Minecraft."
+				""
+				"The mod doesn't have an actual goal, and you'll understand this when you see all the random content Mekanism contains, from jetpacks to balloons. However, I can assure you that you'll notice all the content blend together as you get to know the mod better!"
+			]
+			dependencies: ["5C2CBC6B89014BEC"]
+			size: 1.5d
+			id: "551A7D24C7C39B5A"
+			tasks: [{
+				id: "11ABFC10C1242E9C"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "2E2CB747F077FD0F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6BD98F815B003035"
+					type: "item"
+					item: "mekanismadditions:pink_balloon"
+					count: 3
+				}
+				{
+					id: "1F269D026B106BF0"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -11.0d
+			dependencies: ["551A7D24C7C39B5A"]
+			id: "779A5BD8C49E1BC4"
+			tasks: [{
+				id: "59855FE78A1BF661"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [
+				{
+					id: "6F72FE1E14118526"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4A579B694EF33047"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 12
+				}
+				{
+					id: "309DE09D4AF58829"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -14.0d
+			dependencies: ["551A7D24C7C39B5A"]
+			id: "319DF9D81C62B893"
+			tasks: [{
+				id: "53E1E75B9242D590"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+			rewards: [
+				{
+					id: "28CB5897A1078DD4"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "41FFD2BD838507F6"
+					type: "item"
+					item: "mekanism:cardboard_box"
+					count: 4
+				}
+				{
+					id: "67277EA685DD8A47"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -12.0d
+			dependencies: ["685159786B4BCA0A"]
+			id: "47FC035412D4A1A1"
+			tasks: [{
+				id: "7C49904868CE5CFA"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+			rewards: [
+				{
+					id: "402FCB1416E3D5B2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6ABD2FC01E40FE0F"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "6C00540A9C9F1362"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -11.0d
+			dependencies: ["685159786B4BCA0A"]
+			id: "1781ACD3642CCFF4"
+			tasks: [{
+				id: "1A60271F4AF219B5"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [
+				{
+					id: "5A5AE1E54F3F2CA8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "262A24B992843B5B"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "137E1EA37834CCC8"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -10.0d
+			dependencies: ["685159786B4BCA0A"]
+			id: "22076719FBCECFDA"
+			tasks: [{
+				id: "05C795EB1D8A5833"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [
+				{
+					id: "174422ED1EF1A68F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1E0B6E0E54706234"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "76F31DA1DD543E6F"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -12.0d
+			dependencies: [
+				"779A5BD8C49E1BC4"
+				"36BA848F9574C655"
+			]
+			id: "1B8A68F249B837B2"
+			tasks: [{
+				id: "2DF8EA9F4B8A3C61"
+				type: "item"
+				item: "mekanism:upgrade_speed"
+			}]
+			rewards: [
+				{
+					id: "5B94B221FD2AD2DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "26C3B6631DC3813C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "239902CDC8A901AE"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: -12.5d
+			dependencies: ["1B8A68F249B837B2"]
+			id: "20E093D7376688FB"
+			tasks: [{
+				id: "0C2D81005D63DC7A"
+				type: "item"
+				item: "mekanism:upgrade_energy"
+			}]
+			rewards: [
+				{
+					id: "37EFC7E99839EAA8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "53EAE01A87A8DD9C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7AA312A4691EDA13"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: -13.0d
+			dependencies: ["20E093D7376688FB"]
+			id: "20BBCA475E9CE761"
+			tasks: [{
+				id: "03FE75A466E3EFFC"
+				type: "item"
+				item: "mekanism:upgrade_muffling"
+			}]
+			rewards: [
+				{
+					id: "41774822D4D44CC0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3150BDC9B3B34B73"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "71E8CAD726C75B19"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			title: "&e&lThe Fusion Reactor"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/fusion_reactor.png"
+				}
+			}
+			x: -0.4642857142857153d
+			y: -4.553571428571431d
+			shape: "pentagon"
+			subtitle: "The Fusion Reactor is a multiblock structure"
+			description: [
+				"The Fusion Reactor allows for variable input rates of 3 types of fuel: Deuterium, Tritium, and D-T Fuel. By water cooling the structure, steam can be produced alongside power, which is useful for powering an Industrial Turbine."
+				""
+				"Let's build it:"
+				"1) Build a diamond shape out of Reactor Frame."
+				"2) A square without corners, also made out of Frame. The centers of the sides can be Reactor Ports."
+				"3) A complete square of Reactor Frame but withReactor Ports for input/output and a Laser Focus Matrix for the laser. The corners cannot be ports."
+				"4) Same as step 2."
+				"5) Same as Level 1 but with oneReactor Controller in the middle."
+				""
+				"You access the GUI of the Fusion Reactor by right-clicking the reactor's Reactor Controller."
+				""
+				"The Fusion Reactor will not start on its own. It requires an outside burst of energy from a charged Laser Amplifier and a small amount of D-T Fuel to begin the fusion process. Once the reaction is jump started, it will begin consuming supplied Deuterium and Tritium, creating plasma and generating power."
+				""
+				"&b&lInitial Fuel:&r The Hohlraum stores 10 units of D-T Fuel required for the initial reaction. To fill it up, place it into a Chemical Infuser which is combining Deuterium and Tritium. Place the Hohlraum into the Reactor Controller when it contains the required D-T Fuel."
+				""
+				"&b&lIgnition:&rThe statistics tab details the required ignition temperature for the reaction to begin. To reach this temperature, a Laser Amplifier must be charged with energy from several Lasers feeding into it, and fired into the Laser Focus Matrix. The energy required to start the reaction can range from 600M RF - 800M RF. It must be injected in one big burst to prevent temperature from dissipating, so adding Redstone sensitivity or increasing the minimum energy required by the Amplifier will prevent it from firing prematurely."
+				""
+				"With the Hohlraum in the Reactor Controller and enough energy stored in the Amplifier, fire the laser to begin the fusion reaction. If a high enough temperature was achieved, you should immediately see and hear the reactor running. To sustain the reaction, the temperature must not drop below the ignition temperature. Make sure the injection rate is high enough and fuel is constantly being supplied."
+			]
+			dependencies: [
+				"3BBB4DFBD93703C3"
+				"23F574AE5ECFF5CD"
+			]
+			size: 1.4d
+			id: "0634EE6F87B6B013"
+			tasks: [{
+				id: "350E4BBDC78C342B"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "185D8ED81CA4F8F3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1AE6A0B5F9C3E035"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "69CDD35EEA068F48"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "36C5819F416D9CA1"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -9.0d
+			dependencies: ["22076719FBCECFDA"]
+			id: "2EE4A691FB043B1D"
+			tasks: [{
+				id: "7B051100771D6FC3"
+				type: "item"
+				item: "mekanism:enriched_redstone"
+			}]
+			rewards: [
+				{
+					id: "124658969706D707"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6F31C381BB7E4B21"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "238C4B82FEA04A17"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6AF74C69633D2B0A"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -8.0d
+			dependencies: ["2EE4A691FB043B1D"]
+			id: "745904D1CC1BC8A5"
+			tasks: [{
+				id: "195E2A79C5958D6A"
+				type: "item"
+				item: "mekanism:enriched_diamond"
+			}]
+			rewards: [
+				{
+					id: "644AB02125658A87"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "06EE797205CFFA2D"
+					type: "item"
+					item: "mekanism:dust_diamond"
+				}
+				{
+					id: "46C4267804AFC915"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1DF7705D22A99F32"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -7.0d
+			dependencies: ["745904D1CC1BC8A5"]
+			id: "2562A7B1BA0A8190"
+			tasks: [{
+				id: "3AEAE09273596536"
+				type: "item"
+				item: "mekanism:enriched_refined_obsidian"
+			}]
+			rewards: [
+				{
+					id: "605210A0D436EFFE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "415674CF76F1C3DD"
+					type: "item"
+					item: "mekanism:dust_refined_obsidian"
+				}
+				{
+					id: "0B11610769612645"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "11375EE134E82298"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: -10.0d
+			dependencies: ["779A5BD8C49E1BC4"]
+			id: "36BA848F9574C655"
+			tasks: [{
+				id: "41D11404938FEB0A"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+			rewards: [
+				{
+					id: "03D0DA12C133D876"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6FAC44603FEBEF1D"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "003E3835F48FBE32"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: -9.5d
+			dependencies: ["36BA848F9574C655"]
+			id: "7650CC791B02C718"
+			tasks: [{
+				id: "72C81D7D17C34BCB"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [
+				{
+					id: "43315B34D50F6C03"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3F6EF93931473B91"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "44BC242862746D72"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -9.0d
+			dependencies: ["7650CC791B02C718"]
+			id: "25417592CDC8E266"
+			tasks: [{
+				id: "1D79B423A1C85A58"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+			rewards: [
+				{
+					id: "7B7ECFB38EF938E3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "074251184EFC5943"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "07AAA8BA3028EF02"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -9.0d
+			dependencies: ["779A5BD8C49E1BC4"]
+			id: "029AA45EB5AF2A95"
+			tasks: [{
+				id: "2E159337E23F1587"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "30CB5AC9504C9E45"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "65AB9AE9C52F6DED"
+					type: "item"
+					item: "mekanism:crafting_formula"
+				}
+				{
+					id: "0061AC380B8EB89F"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "290AFA906FF6746A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -8.0d
+			dependencies: ["029AA45EB5AF2A95"]
+			id: "761C1BD4D9BC5ED8"
+			tasks: [{
+				id: "112B3920D424BEFB"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "44034F07682DC1AF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "520345D4E51FA80D"
+					type: "item"
+					item: "mekanism:ingot_steel"
+					count: 4
+				}
+				{
+					id: "32C3EAAB3167AD51"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "313C66818D7B0F6B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -7.0d
+			dependencies: ["761C1BD4D9BC5ED8"]
+			id: "22529D8D71BB588C"
+			tasks: [{
+				id: "3345DAA348151F17"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "5E5E942C6700DD66"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3AE2BC6E19A0A8CA"
+					type: "item"
+					item: "mekanism:ingot_refined_obsidian"
+					count: 4
+				}
+				{
+					id: "59716851C9FF4CCB"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "290235EF1FCFF471"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -6.0d
+			dependencies: ["22529D8D71BB588C"]
+			id: "6B5F8D59B985A3B8"
+			tasks: [{
+				id: "3272F625BE3CEF93"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "7714809B2C0BC473"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "27B3387EF0A695CE"
+					type: "item"
+					item: "mekanism:ingot_uranium"
+					count: 4
+				}
+				{
+					id: "535A452185CDF81E"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "5F479CD44D9C162F"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -9.0d
+			dependencies: ["029AA45EB5AF2A95"]
+			id: "2B8756D936E82966"
+			tasks: [{
+				id: "3B4695DFB314BDFE"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+			rewards: [
+				{
+					id: "7CE759A38838DA29"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "105B03F0198E89ED"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7555B6BA4DD41F3E"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -8.0d
+			dependencies: ["2B8756D936E82966"]
+			id: "7CC27F35218C023E"
+			tasks: [{
+				id: "7CAAD77AEE7B9731"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+			rewards: [
+				{
+					id: "72E7390CCFBF081D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4BD605FA41D482BE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "411B1B1094E5E857"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -7.0d
+			dependencies: ["7CC27F35218C023E"]
+			id: "741A5BA1048391C1"
+			tasks: [{
+				id: "65B5499A344FDB88"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+			rewards: [
+				{
+					id: "65974F426DF3D0A9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2BECC4234A8C65EB"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "56824EF9597EF85A"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -6.0d
+			dependencies: ["741A5BA1048391C1"]
+			id: "021CC5D8F87E5095"
+			tasks: [{
+				id: "17E0D692D37C54D5"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+			rewards: [
+				{
+					id: "6BF3BB3792FECC13"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "579E0EAB5519BF2D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5FE00B0C4BE34167"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: -8.0d
+			dependencies: ["029AA45EB5AF2A95"]
+			id: "6E95E958201D50BE"
+			tasks: [{
+				id: "39FC2ACB1E15C42E"
+				type: "item"
+				item: "mekanism:personal_chest"
+			}]
+			rewards: [
+				{
+					id: "27FA3B3CC4B7E31E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40538844ADB2EEB8"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+				{
+					id: "02A6281B7F178E50"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "1F658E3F5DB4905B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: -6.5d
+			dependencies: [
+				"25417592CDC8E266"
+				"6E95E958201D50BE"
+			]
+			id: "3A2100BE2AA3D0D3"
+			tasks: [{
+				id: "708196E8747C7798"
+				type: "item"
+				item: "mekanism:robit"
+			}]
+			rewards: [
+				{
+					id: "21F9D3EA621BF941"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F1FD8CB391AE028"
+					type: "item"
+					item: "mekanism:electrolytic_core"
+					count: 2
+				}
+				{
+					id: "48503B1E9407472D"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4C138F14E2747238"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -6.5d
+			dependencies: ["029AA45EB5AF2A95"]
+			id: "2EC19E00FB9C3C81"
+			tasks: [{
+				id: "3A02FB9BCEBCE59A"
+				type: "item"
+				item: "mekanism:logistical_sorter"
+			}]
+			rewards: [
+				{
+					id: "3787CDFE45D56C25"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "743BD0FA4D1FCEED"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					count: 6
+				}
+				{
+					id: "15BC2713BDCFE585"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "4CD4E1E241A90FC4"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "&e&lThe Digital Miner"
+			x: -16.8d
+			y: -4.8999999999999995d
+			shape: "pentagon"
+			subtitle: "Digital Miner is the scale mining machine of Mekanism"
+			description: ["The Digital Miner can be configured to mine ores only within a certain area. The Digital Miner can also be set to silk touch ores, but this results in higher power consumption. Like all other Mekanism machines, the Digital Miner can automatically remove ores from its inventory for automated processing by other machines."]
+			dependencies: [
+				"2EC19E00FB9C3C81"
+				"3A2100BE2AA3D0D3"
+			]
+			size: 1.4d
+			id: "358746391EF1FDD4"
+			tasks: [{
+				id: "588F97A2C1CC8CEE"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [
+				{
+					id: "262B49C1A5DF4879"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "41F31ADA2A592948"
+					type: "item"
+					item: "mekanism:advanced_bin"
+				}
+				{
+					id: "6B47DC979E0AFD6F"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "7D638B7A0416686B"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -11.0d
+			dependencies: ["319DF9D81C62B893"]
+			id: "6E51894858FF614B"
+			tasks: [{
+				id: "21AA0763056FA5A7"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [
+				{
+					id: "5C9BDFEFC7BAB51E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "77785950DB99F737"
+					type: "item"
+					item: "mekanism:basic_control_circuit"
+					count: 8
+				}
+				{
+					id: "4E5D92762017B181"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "3DFED8D575C5AD35"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -11.0d
+			dependencies: ["6E51894858FF614B"]
+			id: "3A24675CA7B4FEB3"
+			tasks: [{
+				id: "1B022FC0D7EF9F5B"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+			rewards: [
+				{
+					id: "503F683C684E343E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "57A7CAC6853DF3DD"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					count: 8
+				}
+				{
+					id: "415507304DCD62CA"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "7C20ACAC19B92E05"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -11.0d
+			dependencies: ["3A24675CA7B4FEB3"]
+			id: "22D41E291065A105"
+			tasks: [{
+				id: "1D50EB44B5C0FDAF"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+			rewards: [
+				{
+					id: "5477C7E55F0815CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "42A3D92F7140A461"
+					type: "item"
+					item: "mekanismgenerators:solar_generator"
+				}
+				{
+					id: "31B00F78B3B28508"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "7AADCF7B42418425"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -9.5d
+			dependencies: ["6E51894858FF614B"]
+			id: "218757EE532CA931"
+			tasks: [{
+				id: "39C8B4CD76ECD995"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "00F2F78F1AD7510C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "15EA86853DEE819E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "643F99576DF53DB7"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -8.5d
+			dependencies: ["218757EE532CA931"]
+			id: "4EE674E8AAEC365C"
+			tasks: [{
+				id: "799166C34AC83B00"
+				type: "item"
+				item: "mekanism:advanced_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "4E41B6BFE62C2923"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "50F86CB29A351BB5"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "708F40D7F43AFF84"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -7.5d
+			dependencies: ["4EE674E8AAEC365C"]
+			id: "1FEC3A6BAFC455B4"
+			tasks: [{
+				id: "19F9F84358407077"
+				type: "item"
+				item: "mekanism:elite_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "19C77F0C14B6006A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "72AD3A7F44669F3D"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "14B707707CCBAD1F"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -6.5d
+			dependencies: ["1FEC3A6BAFC455B4"]
+			id: "47E2EED72EB687C6"
+			tasks: [{
+				id: "645096E4E1096058"
+				type: "item"
+				item: "mekanism:ultimate_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "7ACCEF49D44E8995"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1D8A1F158CC206D7"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "6ABA92F4985E42AA"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&e&lElectric Pump"
+			icon: "mekanism:electric_pump"
+			x: -2.0d
+			y: -14.5d
+			subtitle: "The Electric Pump is a powered pump with an internal buffer of 10000mB worth of fluids"
+			description: [
+				"It can pump any fluid that is covered in the forge fluid dictionary and can be placed on a shoreline and will pump the fluid under it and anything fluid under it."
+				""
+				"Place the pump 1 block above or adjacent to a source block of any fluid you desire. From then on the pump will collect any source block of the fluid it can find, checking any block it can reach going along all flowing blocks of the liquid. In the end, the pump collects all source blocks originally connected to the block it was placed near. It collects 2000mb/s (100mb/t) of water and 20mb/s (1mb/t) of heavy water for a cost of 100 Jouls per operation (10 Jouls/t)."
+				""
+				"To collect heavy water, a Filter Upgrade must be installed into the pump."
+			]
+			dependencies: ["319DF9D81C62B893"]
+			id: "57034CF1B3969290"
+			tasks: [
+				{
+					id: "312340B727D9750E"
+					type: "item"
+					item: "mekanism:electric_pump"
+				}
+				{
+					id: "16810C2DE7F92FDB"
+					type: "item"
+					item: "mekanism:upgrade_filter"
+				}
+			]
+			rewards: [
+				{
+					id: "703248BEEB750277"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6A16CF613BDBBEB2"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6E26DE45FBE34751"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&e&lThermal Evaporation Plant"
+			icon: "mekanism:thermal_evaporation_controller"
+			x: -6.5d
+			y: -13.0d
+			subtitle: "The Thermal Evaporation Plant is a multiblock structure"
+			description: [
+				"The Thermal Evaporation Plant has purpose of converting Water to Brine, which can be further converted to Lithium by the use of a second Thermal Evaporation Plant."
+				""
+				"The structure has a 4 by 4 block base with a height of 3 blocks to a maximum height of 18, where the base is made with only Thermal Evaporation Blocks, and the walls contains a Thermal Evaporation Controller, and at least 2 Thermal Evaporation Valves. The structure has no solid roof, and instead can be capped by removing the 4 top corners of the multiblock with Advanced Solar Generators."
+				""
+				"The simple version only runs on ambient temperature. For example, if the plant is standing in a desert, the internal temperature and the resulting production is higher compared to if the plant is standing in a snow biome."
+				""
+				"The advanced version works independently from the ambient temperature, and achieves much higher temperatures and production rates thanks to the energy of the solar modules. Either version, however, may have heat imported to the structure via Thermodynamic Conductors connected to the Thermal Evaporation Valves. The power from the solar modules of the advanced version is still available when they form part of the structure. If the power from the four solar modules is used in a resistive heater, the heat generated is more than enough to reach the maximum possible evaporation rate (of 1080mB/t) if imported to the structure."
+				""
+				"The structure requires no further external energy source. To start the production of Brine, input Water into the Plant via Basic Mechanical Pipes and Electric Pumps."
+				""
+				"The produced Brine can be extracted via Basic Mechanical Pipes and the second Thermal Evaporation Valve. To start the extraction the connection between valve and pipe must be configured with a Configurator."
+			]
+			dependencies: [
+				"319DF9D81C62B893"
+				"57034CF1B3969290"
+			]
+			id: "180116314772951C"
+			tasks: [
+				{
+					id: "20BABE6FE2517D3A"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "544DA7D86B6F7614"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+					count: 33L
+				}
+				{
+					id: "0672B3F8E3833683"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "&e&lBrine"
+			icon: {
+				id: "mekanism:creative_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "mekanism:brine"
+								Amount: 2147483647
+							}
+						}]
+					}
+				}
+			}
+			x: -4.0d
+			y: -13.0d
+			subtitle: "Brine is used in the ore refining process and to create various chemicals"
+			description: [
+				"Liquid Lithium is used in the creation of Tritium, which is used with Deuterium as the Fuel in a Mekanism Fusion Reactor."
+				""
+				"The Thermal Evaporation Plant can store up to 10,000 mB of brine and the amount of water storage available is height x 64,000mB."
+			]
+			dependencies: ["180116314772951C"]
+			id: "4986EC5A25C043A2"
+			tasks: [{
+				id: "777C8BE34B6870B8"
+				type: "item"
+				item: "mekanism:brine_bucket"
+			}]
+			rewards: [
+				{
+					id: "2E5507735277D879"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3EB38DE17560B080"
+					type: "item"
+					item: "mekanismadditions:green_balloon"
+					count: 3
+				}
+				{
+					id: "6864A69EFEE6E721"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "082F141E394D643B"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&e&lLiquid Lithium"
+			icon: {
+				id: "mekanism:creative_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "mekanism:lithium"
+								Amount: 2147483647
+							}
+						}]
+					}
+				}
+			}
+			x: -5.0d
+			y: -12.0d
+			subtitle: "Liquid Lithium can be obtained by a Thermal Evaporation Plant using Brine"
+			description: [
+				"It is fed into a Rotary Condensentrator to make Lithium which can later be crystallized into Lithium Dust or fed into a Solar Neutron Activator to make Tritium."
+				""
+				"Tritium is used in the Fusion Reactor. You need 10mb of Brine to create 1mb of Liquid Lithium."
+			]
+			dependencies: ["180116314772951C"]
+			id: "528AA547FE521AFA"
+			tasks: [{
+				id: "4FDE8862FE84544A"
+				type: "item"
+				item: "mekanism:lithium_bucket"
+			}]
+			rewards: [
+				{
+					id: "3FB6D3002310F15B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C291F4C7C4718F8"
+					type: "item"
+					item: "mekanismadditions:red_balloon"
+					count: 3
+				}
+				{
+					id: "075DD13CD6B031FE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0F5E0004738ADEC1"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&e&lFissile Fuel"
+			icon: {
+				id: "mekanism:creative_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "tconstruct:molten_netherite"
+								Amount: 2147483647
+							}
+						}]
+					}
+				}
+			}
+			x: -7.0d
+			y: -11.0d
+			subtitle: "Fissile Fuel is \"burned\" in a Fission Reactor to produce Nuclear Waste and heated coolant"
+			description: [
+				"Fissile Fuel Production Chain:"
+				""
+				"1) Refine Uranium Ore into Uranium Ingots, preferably by the Tier 4 ore quintupling process."
+				""
+				"2) Process the Uranium Ingots in an Enrichment Chamber to produce Yellow Cake Uranium."
+				""
+				"3) Process the Yellow Cake Uranium in a Chemical Oxidizer to produce Uranium Oxide."
+				""
+				"4) Process Fluorite with Sulfuric Acid (such as from the Tier 4 ore process) in a Chemical Dissolution Chamber to produce Hydrofluoric Acid."
+				""
+				"5) Combine the Hydrofluoric Acid and Uranium Oxide in a Chemical Infuser to produce Uranium Hexafluoride."
+				""
+				"6) Process the Uranium Hexafluoride in an Isotopic Centrifuge to get Fissile Fuel."
+			]
+			dependencies: ["180116314772951C"]
+			id: "07457A7420FDEC18"
+			tasks: [
+				{
+					id: "58931633103D66F8"
+					type: "item"
+					item: "mekanism:chemical_injection_chamber"
+				}
+				{
+					id: "629F25780ECE0069"
+					type: "item"
+					item: "mekanism:reprocessed_fissile_fragment"
+				}
+				{
+					id: "11A7F9E3048110E1"
+					type: "item"
+					item: "mekanism:chemical_oxidizer"
+				}
+			]
+			rewards: [
+				{
+					id: "391E85094246F5A2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "622FF175028AB681"
+					type: "item"
+					item: "mekanismadditions:black_balloon"
+					count: 3
+				}
+				{
+					id: "59238D4928CE24DF"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "0798C7284E9B91A0"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&e&lRotary Condensentrator"
+			x: -3.7142857142857153d
+			y: -11.732142857142861d
+			subtitle: "The Rotary Condensentrator (pronounced \"con-DEN-sen-traitor\") is used for converting substances between liquid and gaseous forms at a rate of 1:1"
+			description: ["It has two modes: Decondensentrating, which turns Liquids into Gases, and Condensentrating, which turns Gases into Liquids."]
+			dependencies: ["528AA547FE521AFA"]
+			id: "238542AF838DFDBA"
+			tasks: [{
+				id: "1BDAB442135C1ECB"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			rewards: [
+				{
+					id: "7894309DB12FCD5C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "456F247A7784C0B0"
+					type: "item"
+					item: "mekanism:energy_tablet"
+				}
+				{
+					id: "6CD0D527794F8C7B"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "779D5CCF5FDDBAAC"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&e&lLithium"
+			icon: {
+				id: "mekanism:creative_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "mekanism:lithium"
+								Amount: 2147483647
+							}
+						}]
+					}
+				}
+			}
+			x: -2.5d
+			y: -11.5d
+			subtitle: "Lithium is made by putting Liquid Lithium into a Rotary Condensentrator"
+			description: ["Lithium can be used in a Solar Neutron Activator to create Tritium (fuel for the Fusion Reactor) or put into a Chemical Crystallizer to produce Lithium Dust (a crafting material used for components of the Induction Matrix energy storage multiblock structure)."]
+			dependencies: ["238542AF838DFDBA"]
+			id: "69CD2CFFAF6F6BCA"
+			tasks: [{
+				id: "3FA73652F7590FB6"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "3DCB3C5A37248503"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "37E208A0280E53CE"
+					type: "item"
+					item: "mekanismadditions:gray_balloon"
+					count: 3
+				}
+				{
+					id: "68D0BA0D2B1E2133"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&e&lHeavy Water"
+			icon: {
+				id: "mekanism:creative_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "mekanism:heavy_water"
+								Amount: 2147483647
+							}
+						}]
+					}
+				}
+			}
+			x: 0.5d
+			y: -11.0d
+			subtitle: "Heavy water is produced by an Electric Pump with Filter Upgrade"
+			description: [
+				"Heavy Water (Deuteriumoxide, D2O) is an intermediate step in the production of Deuterium (a fuel for the Fusion Reactor)."
+				""
+				"4 Electric Pumps are required to keep an Electrolytic Separator running."
+			]
+			dependencies: ["57034CF1B3969290"]
+			id: "389304A59F264EB9"
+			tasks: [{
+				id: "75E5CE47BEA4BBFF"
+				type: "item"
+				item: "mekanism:heavy_water_bucket"
+			}]
+			rewards: [
+				{
+					id: "4561FCC123C6842C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1074BAB9097A211D"
+					type: "item"
+					item: "mekanismadditions:blue_balloon"
+					count: 3
+				}
+				{
+					id: "291D9CA6684ADB67"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "02D97057CBD49D9E"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&e&lSolar Neutron Activator"
+			x: -1.5d
+			y: -10.5d
+			subtitle: "The Solar Neutron Activator is a machine that directs the neutron radiation of the sun into its internal reservoir, allowing for the slow creation of various isotopes"
+			description: ["The input is at the bottom, the output is at the front. It does not need energy except for direct sunlight which can be intercepted by transparent blocks such as glass, cables, pipes, etc."]
+			dependencies: [
+				"69CD2CFFAF6F6BCA"
+				"00F834ADBD1F7FD5"
+			]
+			id: "6387911683A6CD6B"
+			tasks: [{
+				id: "17A52ADB9ADA8636"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+			rewards: [
+				{
+					id: "5FA8E138D5ECAEF5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B91D1BF41B9A811"
+					type: "item"
+					item: "mekanism:upgrade_speed"
+					count: 4
+				}
+				{
+					id: "0C74EC22BE019503"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "0692CED9C931D74A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&e&lElectrolytic Separator"
+			x: 0.5d
+			y: -10.0d
+			subtitle: "The Electrolytic Separator sends controlled amounts of direct current into a fluid"
+			description: ["The Electrolytic Separator requires a constant supply of power and must have a source of a suitable liquid in order to produce the gases. As the liquid is electrolyzed, the component gases will be stored in its internal tanks. Should either tank fill completely, the Separator will turn off. Connecting a Pressurized Tube or other compatible pipe to both tanks will remove the gas. If you are only using a single gas, selecting \"dump\" for the unused gas will vent it to the environment, preventing that internal tank from filling completely and stopping the Separator."]
+			dependencies: ["389304A59F264EB9"]
+			id: "1B2A99E67D6B59C3"
+			tasks: [{
+				id: "60E707B2EF83C075"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [
+				{
+					id: "1AF7568BC0A1A11B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1350AE7F965BEF91"
+					type: "item"
+					item: "mekanism:advanced_control_circuit"
+					count: 4
+				}
+				{
+					id: "728D9F3960B45679"
+					type: "item"
+					item: "mekanism:advanced_bin"
+				}
+				{
+					id: "265AB9963601871E"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&e&lIgnition Parts"
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["400555C4C33E03D6"]
+			id: "3BBB4DFBD93703C3"
+			tasks: [
+				{
+					id: "565F5B0C215EBC4C"
+					type: "item"
+					item: "mekanismgenerators:hohlraum"
+				}
+				{
+					id: "3B0121A8AB8CE9F4"
+					type: "item"
+					item: "mekanism:laser"
+				}
+				{
+					id: "49FFBC6288981F95"
+					type: "item"
+					item: "mekanism:laser_amplifier"
+				}
+			]
+			rewards: [
+				{
+					id: "7412270CE7763D48"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "69EEA81C8324E99B"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+					count: 4
+				}
+				{
+					id: "536C85670433F0DE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "666794A8C9000C5F"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			title: "&e&lD-T Fuel"
+			icon: {
+				id: "mekanism:creative_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "mekanismgenerators:fusion_fuel"
+								Amount: 2147483647
+							}
+						}]
+					}
+				}
+			}
+			x: -0.5d
+			y: -7.0d
+			subtitle: "It can be used as fuel in a Fusion Reactor"
+			description: ["D-T Fuel is created by infusing Tritium and Deuterium in a Chemical Infuser."]
+			dependencies: ["7540AFEB575D9986"]
+			id: "400555C4C33E03D6"
+			tasks: [{
+				id: "5BCD6AD4AF215DC4"
+				type: "item"
+				item: "mekanismgenerators:fusion_fuel_bucket"
+			}]
+			rewards: [
+				{
+					id: "11F661D71F7C3A7A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6A715585C53B1250"
+					type: "item"
+					item: "mekanismadditions:white_balloon"
+					count: 3
+				}
+				{
+					id: "7575CB03DBEA52E4"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7A8325BB4CB108A9"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&e&lChemical Infuser"
+			x: -0.5d
+			y: -8.0d
+			subtitle: "The Chemical Infuser combines or reacts two gases to create another gas"
+			description: ["The gas gauges on the left and right side of its GUI are the input tanks, and correspond to correspond with the left and right sides of the machine. The gauge in the middle is for the resulting gas, which likewise is output through the front of the machine."]
+			dependencies: [
+				"04B3B99637C7E275"
+				"6FD4E18D1136F684"
+			]
+			id: "7540AFEB575D9986"
+			tasks: [{
+				id: "4E1D1226E8609240"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [
+				{
+					id: "69D9E75317730679"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7186A24F1B4004E5"
+					type: "item"
+					item: "mekanism:upgrade_energy"
+					count: 4
+				}
+				{
+					id: "5296B96166A86B96"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3E2E0CDBAB2433E6"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&e&lDeuterium"
+			icon: {
+				id: "mekanism:creative_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "mekanismgenerators:deuterium"
+								Amount: 2147483647
+							}
+						}]
+					}
+				}
+			}
+			x: 0.5d
+			y: -9.0d
+			subtitle: "A gas obtained from Heavy Water using Electrolytic Separator"
+			description: ["Can be used directly as fuel in a Fusion Reactor or combined with Tritium in a Chemical Infuser to make D-T Fuel."]
+			dependencies: ["1B2A99E67D6B59C3"]
+			id: "6FD4E18D1136F684"
+			tasks: [{
+				id: "4B4F4354DB3FB21B"
+				type: "item"
+				item: "mekanismgenerators:deuterium_bucket"
+			}]
+			rewards: [
+				{
+					id: "12CF409EB0D0BC13"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20FD800CE590596B"
+					type: "item"
+					item: "mekanismadditions:purple_balloon"
+					count: 3
+				}
+				{
+					id: "2E31407EC88E51EC"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6EA75F6A91AEF3B3"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&e&lTritium"
+			icon: {
+				id: "mekanism:creative_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "mekanismgenerators:tritium"
+								Amount: 2147483647
+							}
+						}]
+					}
+				}
+			}
+			x: -1.5d
+			y: -9.0d
+			subtitle: "Tritium is created by putting Lithium into a Solar Neutron Activator"
+			description: ["It can be put directly into a Fusion Reactor or combined with Deuterium in a Chemical Infuser to make D-T Fuel."]
+			dependencies: ["6387911683A6CD6B"]
+			id: "04B3B99637C7E275"
+			tasks: [{
+				id: "1402F3ACDEA3D5CA"
+				type: "item"
+				item: "mekanismgenerators:tritium_bucket"
+			}]
+			rewards: [
+				{
+					id: "398FA39D33B53E3B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "032A30A0EBDA8660"
+					type: "item"
+					item: "mekanismadditions:yellow_balloon"
+					count: 3
+				}
+				{
+					id: "2ECEE6FA6FE0CDA8"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "71D5F807721D582B"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&e&lFusion Reactor Parts"
+			x: -2.0d
+			y: -6.0d
+			description: [
+				"Prepare those materials:"
+				""
+				"- Reactor Frame 75x (Build + other reactorparts)"
+				"- Reactor Port 2x"
+				"- Reactor Controller 1x"
+				"- Reactor Glass 8x"
+				"- Laser Focus Matrix 1x"
+			]
+			dependencies: ["400555C4C33E03D6"]
+			id: "23F574AE5ECFF5CD"
+			tasks: [
+				{
+					id: "0884BFCF0F632F22"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					count: 75L
+				}
+				{
+					id: "5E75E605370B763A"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+					count: 2L
+				}
+				{
+					id: "718A9698C6AE5478"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "6134569ED3C40EE6"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 8L
+				}
+				{
+					id: "24E43CD11A2BEB46"
+					type: "item"
+					item: "mekanismgenerators:laser_focus_matrix"
+				}
+			]
+			rewards: [
+				{
+					id: "15204F9D05FA8310"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7AAD1144C65A4CE5"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "76CCF70C2BB757C5"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "0B7BB9CB1B7677E4"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "&e&lThe Fission Reactor"
+			x: -5.642857142857146d
+			y: -9.767857142857146d
+			subtitle: "A Fission Reactor is a multiblock structure that generates massive amounts of heat but does not produce power on its own"
+			description: [
+				"How much heat is generated depends on the rate at which it burns Fissile Fuel. The only way to transform this heat into power is to inject \"fresh\" coolant into the reactor and use the heated coolant that comes out to generate power. With water cooled reactors, power is generated by directly piping steam into an Industrial Turbine. Sodium cooled reactors use a Thermoelectric Boiler as a heat-exchanger to cool down the Superheated sodium and heat up water into Steam that is in turn sent to an Industrial Turbine."
+				""
+				"- The structure must be a cuboid of minimum size 3x4x3 (along X, Y and Z), up to 18x18x18."
+				""
+				"-The edges of the outer shell must be made of Fission Reactor Casing."
+				""
+				"- The faces of the outer shell can be either Fission Reactor Casing, Reactor Glass, Fission Reactor Port or Fission Reactor Logic Adapter."
+				""
+				"- The interior of the cube can be either air or fission control rods:"
+				"      - A control rod is formed by a 1x1 block wide column made of 1 to 15 Fission Fuel Assembly and a single Control Assembly at the top."
+				"      - Control rods must not touch each other. Maximum control rod density can be achieved by placing them in a checkerboard pattern."
+				""
+				"Output ports must be configured to the proper output type by crouching and right-clicking them with a Configurator."
+			]
+			dependencies: ["07457A7420FDEC18"]
+			id: "449C695F80174249"
+			tasks: [
+				{
+					id: "532A3760B618184F"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+					count: 69L
+				}
+				{
+					id: "5F76FAB2EC125429"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+					count: 4L
+				}
+				{
+					id: "7E9087CA7805C27F"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 85L
+				}
+				{
+					id: "1462C06FC0875383"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					count: 30L
+				}
+				{
+					id: "5D1DBAF794C06DDD"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "71B264620E099AE4"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "5A0C4182D85A2F65"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "442128D6DF721DFA"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "13366EED76AB1196"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "&e&lSafety First!"
+			x: -5.035714285714285d
+			y: -10.80357142857143d
+			description: [
+				"The worst thing that can happen is a core meltdown, which in Mekanism results in a big explosion. Big. Really big. Followed by lethal radiations over a 5 chunks radius (that's 80 blocks) that will last for several in-game weeks."
+				""
+				"Every reactor should have a circuit breaker that will, in many cases, prevent accidental meltdown. This can be done with redstone circuits like RS-latches or edge-detectors."
+				""
+				"More information on linke below:"
+				"&9&o&nhttps://wiki.aidancbrady.com/wiki/Fission_Reactor"
+			]
+			dependencies: ["449C695F80174249"]
+			id: "0E5028C7B6A12FFA"
+			tasks: [{
+				id: "06B79DE36E59BEE0"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "6F8AC0B30E337087"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "41787DF19161229F"
+					type: "item"
+					item: "minecraft:comparator"
+					count: 2
+				}
+				{
+					id: "61F6E4A2B78DDDD8"
+					type: "item"
+					item: "minecraft:repeater"
+					count: 2
+				}
+				{
+					id: "50D57E4201AE6E40"
+					type: "item"
+					item: "minecraft:observer"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -9.0d
+			dependencies: ["218757EE532CA931"]
+			id: "16C440763D2275FA"
+			tasks: [
+				{
+					id: "13E5860A5C3C9874"
+					type: "item"
+					item: "mekanism:basic_universal_cable"
+				}
+				{
+					id: "1F58B7CC346ED6E0"
+					type: "item"
+					item: "mekanism:basic_mechanical_pipe"
+				}
+				{
+					id: "003A7BBF5334807D"
+					type: "item"
+					item: "mekanism:basic_pressurized_tube"
+				}
+				{
+					id: "3A9D52904CA49F28"
+					type: "item"
+					item: "mekanism:basic_logistical_transporter"
+				}
+				{
+					id: "347EEE438A0D5D9B"
+					type: "item"
+					item: "mekanism:basic_thermodynamic_conductor"
+				}
+			]
+			rewards: [
+				{
+					id: "1D7A24C8C559E0F3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "59F90ECB7A37DBC1"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "7E947CF1021EA1C1"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -8.0d
+			dependencies: ["4EE674E8AAEC365C"]
+			id: "21E6A5C13E6974B9"
+			tasks: [
+				{
+					id: "609531B9FEA44370"
+					type: "item"
+					item: "mekanism:advanced_universal_cable"
+				}
+				{
+					id: "3FFF6F6E8E4A8595"
+					type: "item"
+					item: "mekanism:advanced_mechanical_pipe"
+				}
+				{
+					id: "1573CC54401D3F62"
+					type: "item"
+					item: "mekanism:advanced_pressurized_tube"
+				}
+				{
+					id: "2F713B5A2750607F"
+					type: "item"
+					item: "mekanism:advanced_logistical_transporter"
+				}
+				{
+					id: "3A2063558157DD2B"
+					type: "item"
+					item: "mekanism:advanced_thermodynamic_conductor"
+				}
+			]
+			rewards: [
+				{
+					id: "13DA8F15ADF4BE27"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "63CA8E1ABADA7231"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "5E2C47BA8BB46DEE"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -7.0d
+			dependencies: ["1FEC3A6BAFC455B4"]
+			id: "4866D5407D29E75A"
+			tasks: [
+				{
+					id: "1C9FF7184A34770C"
+					type: "item"
+					item: "mekanism:elite_universal_cable"
+				}
+				{
+					id: "0E3013E62CC68B3F"
+					type: "item"
+					item: "mekanism:elite_mechanical_pipe"
+				}
+				{
+					id: "560A10BC8FF335F3"
+					type: "item"
+					item: "mekanism:elite_pressurized_tube"
+				}
+				{
+					id: "28943717C44D519F"
+					type: "item"
+					item: "mekanism:elite_logistical_transporter"
+				}
+				{
+					id: "3EEEFF4C7F3B92C9"
+					type: "item"
+					item: "mekanism:elite_thermodynamic_conductor"
+				}
+			]
+			rewards: [
+				{
+					id: "798105FDAA088E53"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6EF0FD4561E4E16B"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "33112ECF3A985DF2"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -6.0d
+			dependencies: ["47E2EED72EB687C6"]
+			id: "6C229EBF54A5385F"
+			tasks: [
+				{
+					id: "2BC324C93F8F437F"
+					type: "item"
+					item: "mekanism:ultimate_universal_cable"
+				}
+				{
+					id: "1DBF7D6632785C0F"
+					type: "item"
+					item: "mekanism:ultimate_mechanical_pipe"
+				}
+				{
+					id: "79EFA98011C2A549"
+					type: "item"
+					item: "mekanism:ultimate_pressurized_tube"
+				}
+				{
+					id: "67C5B152FCAFE169"
+					type: "item"
+					item: "mekanism:ultimate_logistical_transporter"
+				}
+				{
+					id: "36EE006A557FAAED"
+					type: "item"
+					item: "mekanism:ultimate_thermodynamic_conductor"
+				}
+			]
+			rewards: [
+				{
+					id: "7A67BD3EF203395A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D78D9DE667CD6AB"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "0111034F835004D5"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&e&lNuclear Waste"
+			x: -3.8214285714285694d
+			y: -10.089285714285715d
+			subtitle: "Radioactive Waste Barrels are used to store (or as buffer for) radioactive materials"
+			description: [
+				"The player can check the storage status of Radioactive Waste Barrels by crouching and right-clicking it with an empty hand. Green radiation particles start to appear as a barrel fills up (these are just a rough visual indicator of a barrel's fill ratio, not actual radiations)."
+				""
+				"Radioactive Waste barrels cannot be moved by any means (pistons, cardboard box, etc.). Also because barrels containing any radioactive waste cannot be broken safely, the only way to safely move a non empty barrel is to transfer its contents to another barrel before breaking it. This can be done by connecting a Pressurized Tube to its top or bottom side in pull mode."
+				""
+				"Even if Radioactive Waste Barrels are somewhat blast resistant, pressurized tubes carrying waste to them are not. As a rule of thumb, do not allow creepers wandering around a fission reactor or waste transformation or disposal units."
+			]
+			dependencies: ["449C695F80174249"]
+			id: "00F834ADBD1F7FD5"
+			tasks: [{
+				id: "0B045D301FA09919"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "080F2D7A2E6FFD0B"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_mask"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "201AD1619486FF6C"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_gown"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "645B59EE0A0788A2"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "23BF881D4DDE8210"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "2207A35A29505FAF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "02CAB44AEE6F2C9E"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&e&lThe Industrial Turbine"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/industrial_turbine.png"
+				}
+			}
+			x: -6.892857142857146d
+			y: -8.767857142857146d
+			shape: "pentagon"
+			subtitle: "Industrial Turbine is a multiblock generator used to produce energy if supplied with big quantity of Steam"
+			description: [
+				"Because of the enormous quantity of Steam consumed, the Fusion Reactor is an excellent way to produce it."
+				"Fusion Reactor alone producing Steam by itself, with a Water supply. The Steam production rate depends on the fuel input rate of the Fusion Reactor, making it extremely hard to reach height production."
+				""
+				"Moreover, an enormous quantity of Water is needed as well to fill the Fusion Reactor or the Boiler. The easiest way to get enough Water is to recover the Steam from the Industrial Turbine as Water. Each Turbine Vent will push water to an adjacent tank or pipe.Fluid transport rate is a major difficulty. One of the 2 fluids (Water or Steam) can be directly send to the other machine by placing the valve expulsing the fluid directly against the valve receiving it. The other one will need to be transport with pipes that have limited capacities. This problem can be avoid by using Mekanism pipes properties : their transport rate is cumulative."
+				""
+				"Example : to transport 3,000,000 mB/t of Water, at least 47 Ultimate Mechanical Pipes (64,000 mB/t each) must be connected together, even if the pipes are making loops."
+			]
+			dependencies: ["449C695F80174249"]
+			size: 1.4d
+			id: "22051C73193FDB09"
+			tasks: [
+				{
+					id: "690F5796A8C6ECB5"
+					type: "item"
+					item: "mekanismgenerators:turbine_blade"
+					count: 10L
+				}
+				{
+					id: "71AE35A70AB19673"
+					type: "item"
+					item: "mekanismgenerators:electromagnetic_coil"
+					count: 3L
+				}
+				{
+					id: "7E25EAC9FE6CDD67"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+					count: 8L
+				}
+				{
+					id: "251FB18F05C5A93A"
+					type: "item"
+					item: "mekanismgenerators:rotational_complex"
+				}
+				{
+					id: "7E57B8CF47139CD8"
+					type: "item"
+					item: "mekanismgenerators:saturating_condenser"
+					count: 6L
+				}
+				{
+					id: "34AAFD39AA3F1B90"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 58L
+				}
+				{
+					id: "786F6B1538370D68"
+					type: "item"
+					item: "mekanismgenerators:turbine_casing"
+					count: 69L
+				}
+				{
+					id: "1F061508BFB61AEE"
+					type: "item"
+					item: "mekanismgenerators:turbine_rotor"
+					count: 5L
+				}
+				{
+					id: "48AA51D4405728F0"
+					type: "item"
+					item: "mekanismgenerators:turbine_valve"
+					count: 2L
+				}
+				{
+					id: "6C3980F9A969328C"
+					type: "item"
+					item: "mekanismgenerators:turbine_vent"
+					count: 33L
+				}
+			]
+			rewards: [
+				{
+					id: "6C7B207C9955A821"
+					type: "xp"
+					xp: 700
+				}
+				{
+					id: "0514B2A68295D929"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "578823229A352621"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "18720DB85C4CB4E4"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "&e&lPoloniaum"
+			icon: {
+				id: "mekanism:creative_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "allthemodium:vapor_vibranium"
+								Amount: 2147483647
+							}
+						}]
+					}
+				}
+			}
+			x: -2.892857142857146d
+			y: -8.982142857142861d
+			dependencies: ["6387911683A6CD6B"]
+			id: "51B1407C970567DD"
+			tasks: [{
+				id: "2409AC6C8D3DCCA3"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "13B5052B3AB537BA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "41ABC3AA4CD9ADEF"
+					type: "item"
+					item: "mekanismadditions:orange_balloon"
+					count: 3
+				}
+				{
+					id: "43F5E613380EC1D7"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&e&lPressurized Reaction Chamber"
+			x: -3.6785714285714306d
+			y: -7.696428571428569d
+			subtitle: "The Pressurized Reaction Chamber (PRC) is used primarily to create Substrate (to create HDPE Pellets), HDPE Pellets (to create HDPE Sheets), and Ethylene (an efficient source of fuel used in the Gas-Burning Generator)"
+			description: ["The Pressurized Reaction Chamber accepts a liquid, a gas, and a material(s); it uses these three substances to create another material(s) and some leftover gas. Like many other Mekanism machines, it has configurable sides; by default, it accepts gas from the left, accepts liquid from the back, and outputs gas on the right."]
+			dependencies: [
+				"51B1407C970567DD"
+				"00F834ADBD1F7FD5"
+			]
+			id: "679B324D35CE21F7"
+			tasks: [{
+				id: "108C3820E8DA2271"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [
+				{
+					id: "1077DBBDD461F6C3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2CC582254C916E30"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "616C819B50172E2E"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&e&lRadiation ! ! !"
+			x: -4.785714285714278d
+			y: -8.619642857142857d
+			dependencies: ["00F834ADBD1F7FD5"]
+			id: "187318CBD67A9E8D"
+			tasks: [
+				{
+					id: "2C0E6EBFB0943A4A"
+					type: "item"
+					item: "mekanism:geiger_counter"
+				}
+				{
+					id: "00DED97A3D3392E9"
+					type: "item"
+					item: "mekanism:dosimeter"
+				}
+			]
+			rewards: [
+				{
+					id: "1690E2A33B4F7F91"
+					type: "item"
+					item: "engineersdecor:sign_radioactive"
+					count: 8
+				}
+				{
+					id: "23FF85A902927320"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -3.7142857142857153d
+			y: -6.446428571428569d
+			description: ["Created in Pressurized Reaction Chamber (PRC) from 1 x Fluorite Dust, 1000mB Water and 1000mB Polonium (also 1000mB Spent Nuclear Waste created as side-product)"]
+			dependencies: ["679B324D35CE21F7"]
+			id: "28B08FB4C2824F0E"
+			tasks: [{
+				id: "1376DD76D14A7836"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+			rewards: [
+				{
+					id: "157A1F4375007323"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3EC7E7897A5A6BBF"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+				}
+				{
+					id: "78C9E675F084D214"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+			]
+		}
+		{
+			title: "&e&lModification Station"
+			x: -3.7142857142857153d
+			y: -4.839285714285715d
+			shape: "pentagon"
+			subtitle: "The Modification Station is used for applying modular upgrades to the Meka-Suit in exchange for energy"
+			description: [
+				"A part of the Meka-Suit (which the upgrade is compatible with) is inserted into the station along with the upgrade, resulting in the upgrade being applied to the Meka-Suit."
+				""
+				"It functions similarly to an Anvil or a Power Armor Tinker Table from the Modular Powersuits mod."
+			]
+			dependencies: ["28B08FB4C2824F0E"]
+			size: 1.3d
+			id: "22C5D2CD84E6E9EF"
+			tasks: [{
+				id: "49F6EB53E31342B9"
+				type: "item"
+				item: "mekanism:modification_station"
+			}]
+			rewards: [
+				{
+					id: "28AB0F88BDCF4BBB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7658D7006649B93F"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "351D16F58D6F797D"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "6BE25424BF665F73"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["22C5D2CD84E6E9EF"]
+			id: "45E620FB875ECF2C"
+			tasks: [{
+				id: "1E89F0E9379C5F20"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_helmet"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "64688A8E32BC6CD2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1A11450CC5544C95"
+					type: "item"
+					item: "mekanism:ultimate_bin"
+				}
+				{
+					id: "79456120E917A8F8"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "01283E6C25FB1DC2"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "2D7795681ED3B082"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "55AAB2F4F2008AF5"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -6.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["22C5D2CD84E6E9EF"]
+			id: "3689EC7CBE5BAB3E"
+			tasks: [{
+				id: "7926D23809C01A68"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_bodyarmor"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "58B5CE66BD0D87B9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2CEFB87D56EDB180"
+					type: "item"
+					item: "mekanism:ultimate_tier_installer"
+					count: 8
+				}
+				{
+					id: "74F883D091674344"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "5DB6789E53E5583F"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "5E5851292C876136"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "7162E55B9FA22C72"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["22C5D2CD84E6E9EF"]
+			id: "20C75B79797BAB0E"
+			tasks: [{
+				id: "657DE54C9F55B0D9"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_pants"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1EFA6106E68BBD92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5D5580974EB16B38"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+					count: 12
+				}
+				{
+					id: "4C9689B0BA489523"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "03015AEF65EE372D"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "31CEF0DBC9CCCE8E"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "04C24AECD99FB7F3"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["22C5D2CD84E6E9EF"]
+			id: "723D7C971EAE1821"
+			tasks: [{
+				id: "79929637B217D01C"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_boots"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2288DA7E042C59DF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1BCE68E064A71849"
+					type: "item"
+					item: "mekanism:ultimate_energy_cube"
+				}
+				{
+					id: "41FC5F155DCF718F"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "379C8199464D9E94"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "7B9506765DBD0E1B"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "0099C41107B35C7D"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["22C5D2CD84E6E9EF"]
+			id: "738FF04BEE2342A0"
+			tasks: [{
+				id: "7C8248C053A33578"
+				type: "item"
+				item: {
+					id: "mekanism:meka_tool"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "655FF3EB3D3AD034"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "79F9342E78327229"
+					type: "item"
+					item: "mekanism:portable_teleporter"
+				}
+				{
+					id: "6D99088EBABB990D"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 4
+				}
+				{
+					id: "3119B3F71D811726"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "38A796047135A9EE"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "&e&lModul Units"
+			x: -5.5d
+			y: -6.0d
+			shape: "diamond"
+			description: [
+				"Modules (or units, as they're called in-game) are upgrades that can be applied to the MekaSuit and the Meka-Tool at a Modification Station."
+				""
+				"Each module's effects can be tuned by pressing \"\\\" (backslash)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["22C5D2CD84E6E9EF"]
+			id: "211A9C36670654CC"
+			tasks: [
+				{
+					id: "050828C5A46773C9"
+					type: "item"
+					item: "mekanism:module_nutritional_injection_unit"
+				}
+				{
+					id: "7B291DD4EBC8F02A"
+					type: "item"
+					item: "mekanism:module_vision_enhancement_unit"
+				}
+				{
+					id: "0ED9EA84819362C1"
+					type: "item"
+					item: "mekanism:module_attack_amplification_unit"
+				}
+				{
+					id: "4801627ED810C89B"
+					type: "item"
+					item: "mekanism:module_hydraulic_propulsion_unit"
+				}
+				{
+					id: "18CE6CBF493FB324"
+					type: "item"
+					item: "mekanism:module_excavation_escalation_unit"
+				}
+				{
+					id: "2B935C9D39781273"
+					type: "item"
+					item: "mekanism:module_vein_mining_unit"
+				}
+				{
+					id: "01F98F9DCE77B455"
+					type: "item"
+					item: "mekanism:module_teleportation_unit"
+				}
+				{
+					id: "601F8CF36BBCEF09"
+					type: "item"
+					item: "mekanism:module_energy_unit"
+				}
+				{
+					id: "0AF0778C931F323F"
+					type: "item"
+					item: "mekanism:module_magnetic_attraction_unit"
+				}
+				{
+					id: "36DA901BAFF8711A"
+					type: "item"
+					item: "mekanism:module_silk_touch_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "3EC15D74B7F01A24"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4DCA8DA35084A79F"
+					type: "item"
+					item: "mekanism:upgrade_speed"
+					count: 8
+				}
+				{
+					id: "6D42373299402825"
+					type: "item"
+					item: "mekanism:upgrade_energy"
+					count: 8
+				}
+				{
+					id: "56AA1888646E4860"
+					type: "item"
+					item: "mekanism:upgrade_muffling"
+					count: 4
+				}
+				{
+					id: "2065E06BBCECE293"
+					type: "item"
+					item: "mekanism:upgrade_gas"
+					count: 8
+				}
+				{
+					id: "2C0271FC744D577C"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "10EAE71A49A2EB64"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -11.0d
+			dependencies: ["779A5BD8C49E1BC4"]
+			id: "685159786B4BCA0A"
+			tasks: [{
+				id: "72EED8EA9FD836D8"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+			rewards: [
+				{
+					id: "7777388370BBBBF5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "44306502D9DA9D65"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "080CFC8C17719BDD"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -4.8214285714285765d
+			y: -7.330357142857139d
+			description: ["Antimatter pellets are used in a number of endgame recipes."]
+			dependencies: ["679B324D35CE21F7"]
+			id: "2CD0A5F8E6C7AFF3"
+			tasks: [{
+				id: "4378C701AD4CB80F"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [
+				{
+					id: "3D8741AB33EB0BAF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "58A8E0789F3F066F"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "48D6AF4668FD2963"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -10.0d
+			dependencies: [
+				"685159786B4BCA0A"
+				"029AA45EB5AF2A95"
+			]
+			id: "3E66217129354B1E"
+			tasks: [{
+				id: "34557561BA22B9AF"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+			rewards: [
+				{
+					id: "1250A849A586D762"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "452944C56EF89B07"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "4B7F16D360CE6314"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+	]
+}

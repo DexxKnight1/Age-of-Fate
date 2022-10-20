@@ -1,0 +1,6 @@
+
+[General]
+	#The delay in ms after walking in a spiderweb until it breaks.
+	#Range: 0 ~ 10000
+	breakSpiderwebDelay = 500
+

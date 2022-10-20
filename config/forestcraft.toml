@@ -1,0 +1,362 @@
+
+["ForestCraft Configuration"]
+
+	["ForestCraft Configuration".config]
+
+		["ForestCraft Configuration".config.forestcraft]
+			#No comment
+			beehive = true
+			#No comment
+			deep_rock = true
+			#No comment
+			crystal_biome = true
+			#No comment
+			dogs = true
+			#No comment
+			blueberry = true
+			#No comment
+			sharp_leaves = true
+			#No comment
+			spore_mush = true
+			#No comment
+			ancient_temples = true
+			#No comment
+			snowberry = true
+			#No comment
+			fossil = true
+			#No comment
+			bones = true
+			#No comment
+			light_bulbs = true
+			#No comment
+			dandelion_hills = true
+			#No comment
+			dandelions = true
+			#No comment
+			dandelion_fields = true
+			#No comment
+			iguana_king_nests = true
+			#No comment
+			crocus_flowers = true
+			#No comment
+			sea_sponges = true
+			#No comment
+			niter_ores = true
+			#No comment
+			sulfur_ores = true
+			#No comment
+			sky_fragments = true
+			#No comment
+			dirt_piles = true
+			#No comment
+			mesa_piles = true
+			#No comment
+			gem_golems = true
+			#No comment
+			cicadas = true
+			#No comment
+			thunder_birds = true
+			#No comment
+			terror_birds = true
+			#No comment
+			spore_zombie = true
+			#No comment
+			krocks = true
+			#No comment
+			bakudans = true
+			#No comment
+			air_suckers = true
+			#No comment
+			deers = true
+			#No comment
+			soul_blazes = true
+			#No comment
+			eaters_of_the_depths = true
+			#No comment
+			wood_abominations = true
+			#No comment
+			night_watchers = true
+			#No comment
+			squid_bucket = true
+			#No comment
+			bossbars = true
+			#No comment
+			flint_and_steel = true
+			#No comment
+			default_fishing = true
+			#No comment
+			need_bait = true
+			#No comment
+			mob_griefing = true
+			#No comment
+			villager_new_trades = true
+			#No comment
+			#Range: 1 ~ 100
+			desert_bones_rarity = 50
+			#No comment
+			#Range: 1 ~ 100
+			fossil_rarity = 50
+			#No comment
+			#Range: 1 ~ 16
+			dogs_lair_min = 4
+			#No comment
+			#Range: 1 ~ 16
+			dogs_lair_max = 8
+			#No comment
+			#Range: 1 ~ 100
+			crystal_biome_rarity = 30
+			#No comment
+			#Range: 1 ~ 100
+			cicadas_rarity = 10
+			#No comment
+			#Range: 1 ~ 100
+			sky_fragment_rarity = 5
+			#No comment
+			#Range: 1 ~ 16
+			spore_mush_rarity = 4
+			#No comment
+			#Range: 1 ~ 100
+			night_watchers_rarity = 5
+			#No comment
+			#Range: 1 ~ 1000
+			ancient_temple_rarity = 800
+			#No comment
+			#Range: 1 ~ 255
+			crystal_biome_height = 18
+			#No comment
+			#Range: 1 ~ 100
+			eater_of_the_depths_rarity = 20
+			#No comment
+			#Range: 1 ~ 100
+			crocus_flower_spawn_weight = 10
+			#No comment
+			#Range: 1 ~ 100
+			crocus_flower_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			crocus_flower_spawn_max_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			terror_bringer_spawn_weight = 2
+			#No comment
+			#Range: 1 ~ 100
+			terror_bringer_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			terror_bringer_spawn_max_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			krock_spawn_weight = 10
+			#No comment
+			#Range: 1 ~ 100
+			krock_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			krock_spawn_max_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			bakudan_spawn_weight = 10
+			#No comment
+			#Range: 1 ~ 100
+			bakudan_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			bakudan_spawn_max_count = 3
+			#No comment
+			#Range: 1 ~ 100
+			air_sucker_spawn_weight = 1
+			#No comment
+			#Range: 1 ~ 100
+			air_sucker_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			air_sucker_spawn_max_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			eater_of_the_depths_spawn_weight = 1
+			#No comment
+			#Range: 1 ~ 100
+			eater_of_the_depths_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			eater_of_the_depths_spawn_max_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			infected_zombie_spawn_weight = 30
+			#No comment
+			#Range: 1 ~ 100
+			infected_zombie_spawn_min_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			infected_zombie_spawn_max_count = 6
+			#No comment
+			#Range: 1 ~ 100
+			thunder_screamer_spawn_weight = 5
+			#No comment
+			#Range: 1 ~ 100
+			thunder_screamer_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			thunder_screamer_spawn_max_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			deer_spawn_weight = 10
+			#No comment
+			#Range: 1 ~ 100
+			deer_spawn_min_count = 3
+			#No comment
+			#Range: 1 ~ 100
+			deer_spawn_max_count = 4
+			#No comment
+			#Range: 1 ~ 100
+			wood_abomination_spawn_weight = 10
+			#No comment
+			#Range: 1 ~ 100
+			wood_abomination_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			wood_abomination_spawn_max_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			gem_golem_spawn_weight = 40
+			#No comment
+			#Range: 1 ~ 100
+			gem_golem_spawn_min_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			gem_golem_spawn_max_count = 4
+			#No comment
+			#Range: 1 ~ 100
+			dandelioneer_spawn_weight = 5
+			#No comment
+			#Range: 1 ~ 100
+			dandelioneer_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			dandelioneer_spawn_max_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			insane_dog_spawn_weight = 60
+			#No comment
+			#Range: 1 ~ 100
+			insane_dog_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			insane_dog_spawn_max_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			alpha_insane_dog_spawn_weight = 5
+			#No comment
+			#Range: 1 ~ 100
+			alpha_insane_dog_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			alpha_insane_dog_spawn_max_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			night_bat_spawn_weight = 2
+			#No comment
+			#Range: 1 ~ 100
+			night_bat_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			night_bat_spawn_max_count = 3
+			#No comment
+			#Range: 1 ~ 100
+			nether_bat_spawn_weight = 2
+			#No comment
+			#Range: 1 ~ 100
+			nether_bat_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			nether_bat_spawn_max_count = 3
+			#No comment
+			#Range: 1 ~ 100
+			kelpy_spawn_weight = 5
+			#No comment
+			#Range: 1 ~ 100
+			kelpy_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			kelpy_spawn_max_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			desecrated_soul_spawn_weight = 10
+			#No comment
+			#Range: 1 ~ 100
+			desecrated_soul_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			desecrated_soul_spawn_max_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			jungle_wasp_spawn_weight = 80
+			#No comment
+			#Range: 1 ~ 100
+			jungle_wasp_spawn_min_count = 4
+			#No comment
+			#Range: 1 ~ 100
+			jungle_wasp_spawn_max_count = 8
+			#No comment
+			#Range: 1 ~ 100
+			iguana_spawn_weight = 60
+			#No comment
+			#Range: 1 ~ 100
+			iguana_spawn_min_count = 4
+			#No comment
+			#Range: 1 ~ 100
+			iguana_spawn_max_count = 4
+			#No comment
+			cosmic_fiend_fog = true
+			#No comment
+			screen_shake = true
+			#No comment
+			#Range: 1 ~ 100
+			cloud_ray_spawn_weight = 5
+			#No comment
+			#Range: 1 ~ 100
+			cloud_ray_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			cloud_ray_spawn_max_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			worm_spawn_weight = 2
+			#No comment
+			#Range: 1 ~ 100
+			worm_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			worm_spawn_max_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			changeling_spawn_weight = 1
+			#No comment
+			#Range: 1 ~ 100
+			changeling_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			changeling_spawn_max_count = 3
+			#No comment
+			changeling_random = true
+			#No comment
+			difficulty_scale = true
+			#No comment
+			#Range: 1 ~ 100
+			sea_devil_spawn_weight = 1
+			#No comment
+			#Range: 1 ~ 100
+			sea_devil_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			sea_devil_spawn_max_count = 2
+			#No comment
+			#Range: 1 ~ 100
+			water_bug_spawn_weight = 1
+			#No comment
+			#Range: 1 ~ 100
+			water_bug_spawn_min_count = 1
+			#No comment
+			#Range: 1 ~ 100
+			water_bug_spawn_max_count = 2
+

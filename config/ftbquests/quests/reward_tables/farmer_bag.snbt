@@ -1,0 +1,100 @@
+{
+	id: "766CE8A395C390D2"
+	order_index: 8
+	title: "Farmer's Bag"
+	icon: {
+		id: "blue_skies:loot_bag"
+		Count: 1b
+		tag: {
+			Rarity: 0
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "atum:flax_seeds", count: 16 }
+		{ item: "atum:emmer_seeds", count: 16 }
+		{ item: "thermal:barley_seeds", count: 16 }
+		{ item: "thermal:corn_seeds", count: 16 }
+		{ item: "thermal:onion_seeds", count: 16 }
+		{ item: "thermal:radish_seeds", count: 16 }
+		{ item: "thermal:rice_seeds", count: 16 }
+		{ item: "thermal:sadiroot_seeds", count: 16 }
+		{ item: "thermal:spinach_seeds", count: 16 }
+		{ item: "thermal:bell_pepper_seeds", count: 16 }
+		{ item: "thermal:eggplant_seeds", count: 16 }
+		{ item: "thermal:green_bean_seeds", count: 16 }
+		{ item: "thermal:peanut_seeds", count: 16 }
+		{ item: "thermal:strawberry_seeds", count: 16 }
+		{ item: "thermal:tomato_seeds", count: 16 }
+		{ item: "thermal:hops_seeds", count: 16 }
+		{ item: "thermal:tea_seeds", count: 16 }
+		{ item: "thermal:frost_melon_seeds", count: 16 }
+		{ item: "druidcraft:hemp_seeds", count: 16 }
+		{ item: "immersiveengineering:seed", count: 16 }
+		{ item: "supplementaries:flax_seeds", count: 16 }
+		{ item: "minecraft:beetroot_seeds", count: 16 }
+		{ item: "minecraft:melon_seeds", count: 16 }
+		{ item: "minecraft:pumpkin_seeds", count: 16 }
+		{ item: "minecraft:wheat_seeds", count: 16 }
+		{ item: "tconstruct:earth_slime_grass_seeds", count: 16 }
+		{ item: "tconstruct:sky_slime_grass_seeds", count: 16 }
+		{ item: "tconstruct:ender_slime_grass_seeds", count: 16 }
+		{ item: "tconstruct:blood_slime_grass_seeds", count: 16 }
+		{ item: "minecraft:oak_sapling", count: 16 }
+		{ item: "minecraft:spruce_sapling", count: 16 }
+		{ item: "minecraft:birch_sapling", count: 16 }
+		{ item: "minecraft:jungle_sapling", count: 16 }
+		{ item: "minecraft:acacia_sapling", count: 16 }
+		{ item: "minecraft:dark_oak_sapling", count: 16 }
+		{ item: "upgrade_aquatic:river_sapling", count: 16 }
+		{ item: "biomesoplenty:origin_sapling", count: 16 }
+		{ item: "biomesoplenty:flowering_oak_sapling", count: 16 }
+		{ item: "biomesoplenty:rainbow_birch_sapling", count: 16 }
+		{ item: "biomesoplenty:yellow_autumn_sapling", count: 16 }
+		{ item: "biomesoplenty:orange_autumn_sapling", count: 16 }
+		{ item: "biomesoplenty:maple_sapling", count: 16 }
+		{ item: "biomesoplenty:fir_sapling", count: 16 }
+		{ item: "biomesoplenty:redwood_sapling", count: 16 }
+		{ item: "biomesoplenty:white_cherry_sapling", count: 16 }
+		{ item: "biomesoplenty:pink_cherry_sapling", count: 16 }
+		{ item: "biomesoplenty:mahogany_sapling", count: 16 }
+		{ item: "biomesoplenty:jacaranda_sapling", count: 16 }
+		{ item: "biomesoplenty:palm_sapling", count: 16 }
+		{ item: "biomesoplenty:willow_sapling", count: 16 }
+		{ item: "biomesoplenty:dead_sapling", count: 16 }
+		{ item: "biomesoplenty:magic_sapling", count: 16 }
+		{ item: "biomesoplenty:umbran_sapling", count: 16 }
+		{ item: "biomesoplenty:hellbark_sapling", count: 16 }
+		{ item: "evilcraft:undead_sapling", count: 16 }
+		{ item: "naturesaura:ancient_sapling", count: 16 }
+		{ item: "terraqueous:apple_sapling", count: 16 }
+		{ item: "terraqueous:cherry_sapling", count: 16 }
+		{ item: "terraqueous:orange_sapling", count: 16 }
+		{ item: "terraqueous:pear_sapling", count: 16 }
+		{ item: "terraqueous:peach_sapling", count: 16 }
+		{ item: "terraqueous:mango_sapling", count: 16 }
+		{ item: "terraqueous:lemon_sapling", count: 16 }
+		{ item: "terraqueous:plum_sapling", count: 16 }
+		{ item: "terraqueous:coconut_sapling", count: 16 }
+		{ item: "terraqueous:banana_sapling", count: 16 }
+		{ item: "terraqueous:mulberry_sapling", count: 16 }
+		{ item: "vampirism:bloody_spruce_sapling", count: 16 }
+		{ item: "atum:palm_sapling", count: 16 }
+		{ item: "atum:palm_sapling", count: 16 }
+		{ item: "twilightforest:rainboak_sapling", count: 16 }
+		{ item: "twilightforest:twilight_oak_sapling", count: 16 }
+		{ item: "twilightforest:canopy_sapling", count: 16 }
+		{ item: "twilightforest:mangrove_sapling", count: 16 }
+		{ item: "twilightforest:darkwood_sapling", count: 16 }
+		{ item: "twilightforest:hollow_oak_sapling", count: 16 }
+		{ item: "twilightforest:transformation_sapling", count: 16 }
+		{ item: "twilightforest:time_sapling", count: 16 }
+		{ item: "twilightforest:mining_sapling", count: 16 }
+		{ item: "twilightforest:sorting_sapling", count: 16 }
+		{ item: "tconstruct:earth_slime_sapling", count: 16 }
+		{ item: "tconstruct:sky_slime_sapling", count: 16 }
+		{ item: "tconstruct:ender_slime_sapling", count: 16 }
+	]
+}

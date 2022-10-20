@@ -1,0 +1,9 @@
+
+[common_server]
+	#Range: > 1
+	werewolfHeavenWeight = 6
+	#Disable werewolf heaven generation
+	disableWerewolfHeaven = false
+	#Disable the ore generation
+	disableOreGen = true
+

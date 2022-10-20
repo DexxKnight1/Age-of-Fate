@@ -1,0 +1,15 @@
+{
+  "name": "Allthemodium",
+  "type": "resource",
+  "tier": "mysticalcustomization:magical",
+  "ingredient": {
+    "tag": "forge:storage_blocks/allthemodium"
+  },
+  "color": "FCFC3D",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "glint": true,
+  "crux": "kubejs:magical_soil"
+}

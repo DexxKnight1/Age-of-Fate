@@ -1,0 +1,580 @@
+
+[Glowshroom]
+	#Set the spawn rate of Glowshroom [0-100]
+	#Range: 0 ~ 100
+	"glowshroom spawn rate" = 1
+	#Set the spread rate of Glowshroom [0-100]
+	#Range: 0 ~ 100
+	"glowshroom spread rate" = 100
+
+[Moogma]
+	#Maximum Moogma health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"moogma health" = 10.0
+
+[Foglet]
+	#Set the spawn rate of Foglet [0-10000]
+	#Range: 0 ~ 10000
+	"foglet spawn rate" = 20
+	#Maximum Foglet health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"foglet health" = 16.0
+	#Foglet strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"foglet attack" = 2.0
+
+[Parasite]
+	#Set the spawn rate of Parasite [0-100]
+	#Range: 0 ~ 100
+	"parasite spawn rate" = 10
+	#Maximum Parasite health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"parasite health" = 6.0
+	#Parasite strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"parasite attack" = 1.0
+	#Rate of spawning Parasite when destroying sand blocks in the desert [0-100]
+	#Range: 0 ~ 100
+	"parasite from sand blocks" = 2
+	#Parasite will attack their target by attaching on them [false/true]
+	"parasite attacks by attaching onto target" = true
+	#Allow Parasite to spawn from listed mob. Ex. \"minecraft:zombie\" or \"mod_lavacow:frigid\"
+	"available host for parasite" = ["minecraft:zombie", "minecraft:husk", "mod_lavacow:frigid", "mod_lavacow:mycosis", "mod_lavacow:unburied", "mod_lavacow:mummy"]
+
+["Undead Swine"]
+	#Set the spawn rate of Undead swine [0-10000]
+	#Range: 0 ~ 10000
+	"undeadswine spawn rate" = 15
+	#Maximum Undead Swine health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"undeadswine health" = 50.0
+	#Undead Swine strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"undeadswine attack" = 4.0
+
+[Mycosis]
+	#Set the spawn rate of Mycosis [0-10000]
+	#Range: 0 ~ 10000
+	"mycosis spawn rate" = 40
+	#Maximum Mycosis health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"mycosis health" = 20.0
+	#Mycosis strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"mycosis attack" = 3.0
+
+[Frigid]
+	#Set the spawn rate of Frigid [0-10000]
+	#Range: 0 ~ 10000
+	"frigid spawn rate" = 20
+	#Maximum Frigid health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"frigid health" = 30.0
+	#Frigid strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"frigid attack" = 3.0
+
+[Salamander]
+	#Set the spawn rate of Salamander [0-10000]
+	#Range: 0 ~ 10000
+	"salamander spawn rate" = 30
+	#Maximum Salamander health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"salamander health" = 60.0
+	#Salamander strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"salamander attack" = 4.0
+
+[Wendigo]
+	#Set the spawn rate of Wendigo [0-10000]
+	#Range: 0 ~ 10000
+	"wendigo spawn rate" = 15
+	#Should Wendigo attack innocent animals [false/true]
+	"wendigo attacks animals" = true
+	#Maximum Wendigo health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"wendigo health" = 60.0
+	#Wendigo strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"wendigo attack" = 8.0
+
+[Mimicrab]
+	#Set the spawn rate of Mimicrab [0-10000]
+	#Range: 0 ~ 10000
+	"mimicrab spawn rate" = 20
+	#Maximum Mimicrab health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"mimicrab health" = 10.0
+	#Mimicrab strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"mimicrab attack" = 8.0
+	#Set the spawn rate of Mimicrab near player death [0-1000]
+	#Range: 0 ~ 1000
+	"mimicrab spawn rate near player death" = 250
+
+["Sludge Lord"]
+	#Set the spawn rate of Sludge Lord [0-10000]
+	#Range: 0 ~ 10000
+	"sludge lord spawn rate" = 15
+	#Maximum Sludge Lord health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"sludge lord health" = 70.0
+	#Sludge Lord strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"sludge lord attack" = 5.0
+	#Set the number of Lil'Sludge summoned per cast [0-100]
+	#Range: 0 ~ 100
+	"sludge lord summon number" = 3
+	#Set the max number of Lil'Sludge summoned [0-100]
+	#Range: 0 ~ 100
+	"sludge lord summon max" = 8
+	#Set the cooldown of summoning Lil'Sludge [0-100]
+	#Range: 0 ~ 100
+	"sludge lord summon cooldown" = 17
+
+["Lil'Sludge"]
+	#Lil'Sludge lifespan [1-10000]
+	#Range: 0 ~ 10000
+	"lil'sludge lifespan" = 60
+	#Maximum Lil'Sludge health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"lil'sludge health" = 20.0
+	#Lil'Sludge strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"lil'sludge attack" = 3.0
+
+[Raven]
+	#Set the spawn rate of Raven [0-10000]
+	#Range: 0 ~ 10000
+	"raven spawn rate" = 8
+	#Set the spawn rate of Seagull [0-10000]
+	#Range: 0 ~ 10000
+	"seagull spawn rate" = 8
+	#Maximum Raven health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"raven health" = 6.0
+	#Should tamed Raven perch on owner's head [false/true]
+	"raven perching" = true
+	#Should perching Raven slow down owner's falling speed [false/true]
+	"raven slow down falling" = true
+	#Customize drop rates of the items which ravens can find. Ex. \"minecraft:tropical_fish,0.4,2\" or \"mod_lavacow:sharptooth,0.1\"
+	"loot table for ravens" = ["minecraft:beetroot_seeds,0.15", "minecraft:wheat_seeds,0.15,2", "minecraft:melon_seeds,0.15", "minecraft:pumpkin_seeds,0.15", "minecraft:gold_nugget,0.1,2", "minecraft:iron_nugget,0.1,2"]
+	#Customize drop rates of the items which seagulls can find. Ex. \"minecraft:tropical_fish,0.4,2\" or \"mod_lavacow:sharptooth,0.1\"
+	"loot table for seagulls" = ["minecraft:cod,0.15", "minecraft:tropical_fish,0.15"]
+	#Customize drop rates of the items which spectral ravens can find. Ex. \"minecraft:tropical_fish,0.4,2\" or \"mod_lavacow:sharptooth,0.1\"
+	"loot table for spectral ravens" = ["minecraft:gold_nugget,0.15,3", "minecraft:iron_nugget,0.15,3"]
+
+[Ptera]
+	#Set the spawn rate of Ptera [0-10000]
+	#Range: 0 ~ 10000
+	"ptera spawn rate" = 20
+	#Maximum Ptera health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"ptera health" = 10.0
+	#Ptera strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"ptera attack" = 3.0
+	#Chance of Ptera to carry a passenger when spawned [0-100]
+	#Range: 0 ~ 100
+	"ptera carries passenger chance" = 10
+	#Customize the passenger list for the Ptera. Ex. \"mod_lavacow:foglet,40\" or \"minecraft:spider,20\"
+	"passenger list for ptera" = ["mod_lavacow:foglet,40", "minecraft:zombie,40", "minecraft:creeper,20"]
+
+[Vespa]
+	#Set the spawn rate of Vespa [0-100]
+	#Range: 0 ~ 100
+	"vespa spawn rate" = 20
+	#Maximum Vespa health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"vespa health" = 20.0
+	#Vespa strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"vespa attack" = 5.0
+
+[Scarecrow]
+	#Set the spawn rate of Scarecrow [0-10000]
+	#Range: 0 ~ 10000
+	"scarecrow spawn rate" = 15
+	#Maximum Scarecrow health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"scarecrow health" = 40.0
+	#Scarecrow strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"scarecrow attack" = 8.0
+	#Set the spawn rate of Plague Doctor Scarecrow when a Raven was killed. [0-100]
+	#Range: 0 ~ 100
+	"plague doctor scarecrow spawn rate" = 30
+
+[Swarmer]
+	#Set the spawn rate of Swarmer [0-10000]
+	#Range: 0 ~ 10000
+	"swarmer spawn rate" = 5
+	#Maximum Swarmer health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"swarmer health" = 8.0
+	#Swarmer strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"swarmer attack" = 1.0
+	#Should Piranha and Swarmer attack innocent animals [false/true]
+	"piranha attacks animals" = true
+
+[Piranha]
+	#Set the spawn rate of Piranha [0-10000]
+	#Range: 0 ~ 10000
+	"piranha spawn rate" = 5
+	#Maximum Piranha health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"piranha health" = 3.0
+	#Piranha strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"piranha attack" = 1.0
+
+[Osvermis]
+	#Set the spawn rate of OsVermis [0-10000]
+	#Range: 0 ~ 10000
+	"boneworm spawn rate" = 20
+	#Maximum OsVermis health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"boneworm health" = 32.0
+	#OsVermis strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"boneworm attack" = 6.0
+
+[Penghoul]
+	#Set the spawn rate of Penghoul [0-10000]
+	#Range: 0 ~ 10000
+	"penghoul spawn rate" = 20
+	#Maximum Penghoul health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"penghoul health" = 10.0
+	#Penghoul strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"penghoul attack" = 3.0
+
+[Undertaker]
+	#Set the spawn rate of Undertaker [0-10000]
+	#Range: 0 ~ 10000
+	"undertaker spawn rate" = 8
+	#Maximum Undertaker health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"undertaker health" = 40.0
+	#Undertaker strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"undertaker attack" = 6.0
+	#Set the number of Unburied summoned per cast [0-100]
+	#Range: 0 ~ 100
+	"undertaker summon number" = 4
+	#Set the max number of Unburied summoned [0-100]
+	#Range: 0 ~ 100
+	"undertaker summon max" = 4
+	#Set the cooldown of summoning Unburied [0-100]
+	#Range: 0 ~ 100
+	"undertaker summon cooldown" = 15
+
+[Unburied]
+	#Unburied lifespan [1-10000]
+	#Range: 0 ~ 10000
+	"unburied lifespan" = 20
+	#Maximum Unburied health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"unburied health" = 20.0
+	#Unburied strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"unburied attack" = 3.0
+
+["Ghost Ray"]
+	#Set the spawn rate of Ghost Ray [0-10000]
+	#Range: 0 ~ 10000
+	"ghost ray spawn rate" = 10
+	#Maximum Ghost Ray health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"ghost ray health" = 20.0
+
+[Banshee]
+	#Set the spawn rate of Banshee [0-10000]
+	#Range: 0 ~ 10000
+	"banshee spawn rate" = 20
+	#Maximum Banshee health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"banshee health" = 34.0
+	#Banshee strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"banshee attack" = 7.0
+	#Set the effect radius of Banshee scream [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"banshee scream radius" = 3.0
+
+[Weta]
+	#Set the spawn rate of Weta [0-10000]
+	#Range: 0 ~ 10000
+	"weta spawn rate" = 30
+	#Maximum Weta health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"weta health" = 12.0
+	#Weta strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"weta attack" = 1.0
+
+[Avaton]
+	#Set the spawn rate of Avaton [0-10000]
+	#Range: 0 ~ 10000
+	"avaton spawn rate" = 20
+	#Maximum Avaton health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"avaton health" = 30.0
+	#Avaton strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"avaton attack" = 5.0
+	#Set the number of Weta summoned per cast [0-100]
+	#Range: 0 ~ 100
+	"avaton summon number" = 2
+	#Set the max number of Weta summoned [0-100]
+	#Range: 0 ~ 100
+	"avaton summon max" = 16
+	#Set the cooldown of summoning Weta [0-100]
+	#Range: 0 ~ 100
+	"avaton summon cooldown" = 8
+
+[Forsaken]
+	#Set the spawn rate of Forsaken [0-10000]
+	#Range: 0 ~ 10000
+	"forsaken spawn rate" = 10
+	#Maximum Forsaken health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"forsaken health" = 30.0
+	#Forsaken strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"forsaken attack" = 4.0
+
+["Skeleton King"]
+	#Maximum Skeleton King health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"skeleton king health" = 360.0
+	#Skeleton King strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"skeleton king attack" = 16.0
+	#Should Skeleton King be summoned with the crown [false/true]
+	"skeleton king summon" = true
+	#Set the cooldown of Sand Tomb [0-100]
+	#Range: 0 ~ 100
+	"skeleton king sand tomb cooldown" = 10
+	#Set the cooldown of Sand Wraith [0-100]
+	#Range: 0 ~ 100
+	"skeleton king sand wraith cooldown" = 16
+	#Set the cooldown of Death Coil [0-100]
+	#Range: 0 ~ 100
+	"skeleton king death coil cooldown" = 6
+	#Should Skeleton King drop its loots inside a chest [false/true]
+	"skeleton king loot in chest" = true
+
+[Mummy]
+	#Set the spawn rate of Mummy [0-10000]
+	#Range: 0 ~ 10000
+	"mummy spawn rate" = 40
+	#Maximum Mummy health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"mummy health" = 24.0
+	#Mummy strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"mummy attack" = 4.0
+
+[Item]
+	#Allow Molten Hammer active effect to hit players [false/true]
+	"allow molten hammer pvp" = false
+	#Allow Potion of Fission to be used on entites from other mods [false/true]
+	"fission potion works on entities from other mods" = false
+	#Set the drop rate of Intestine [0-100]
+	#Range: 0 ~ 100
+	"entity drop intestine" = 4
+	#Customize Items and their drop rates for the Intestine. Ex. \"minecraft:slime_ball,0.4\" or \"mod_lavacow:sharptooth,0.1\"
+	"loot table for intestine" = ["minecraft:slime_ball,0.4", "minecraft:bone_meal,0.4", "mod_lavacow:sharptooth,0.1", "minecraft:beetroot_seeds,0.1", "minecraft:wheat_seeds,0.1", "minecraft:melon_seeds,0.1", "minecraft:pumpkin_seeds,0.1", "minecraft:clay_ball,0.1", "mod_lavacow:chitin,0.1", "minecraft:gold_nugget,0.05", "minecraft:iron_nugget,0.05", "minecraft:diamond,0.01"]
+	#Customize the banlist for which mobs that intestines shouldn't drop from. Ex. \"minecraft:slime\" or \"mod_lavacow:vespa\"
+	"mobs that intestine should not drop from" = ["minecraft:chicken", "minecraft:squid", "minecraft:snowman", "minecraft:villager_golem", "minecraft:skeleton_horse", "minecraft:enderman", "minecraft:silverfish", "minecraft:endermite", "minecraft:shulker", "minecraft:blaze", "minecraft:slime", "minecraft:magma_cube", "minecraft:ender_dragon", "minecraft:wither", "minecraft:ghast", "minecraft:skeleton", "minecraft:wither_skeleton", "minecraft:stray", "mod_lavacow:avaton", "mod_lavacow:banshee", "mod_lavacow:sludgelord", "mod_lavacow:lilsludge", "mod_lavacow:scarecrow", "mod_lavacow:ghostray", "mod_lavacow:skeletonking", "mod_lavacow:forsaken"]
+	#Set the chances of Golden Heart to drop 1 duribility per tick , 0 = Infinite [0-100]
+	#Range: 0 ~ 100
+	"golden heart duribility" = 100
+	#BlackBanlist for items that Golden Heart are unable to mend. Ex. \"minecraft:shears\" or \"mod_lavacow:moltenhammer\"
+	"banlisted items from golden heart" = []
+	#Enables the Regeneration effect of the Golden Heart. [false/true]
+	"golden heart grants regeneration" = true
+	#Allow the Golden Heart to repair worn equipment. [false/true]
+	"golden heart repairs equipment" = true
+	#Set the bonus damage of Bone Sword to X% [0-100]
+	#Range: 0 ~ 100
+	"bonesword bonus damage" = 5
+	#Customize the Spawn list for the Dreamcatcher. Ex. \"mod_lavacow:foglet,40,1,2\" or \"mod_lavacow:vespa,20,1,1\"
+	"spawn list for dreamcatcher" = ["mod_lavacow:foglet,40,1,2", "mod_lavacow:undeadswine,20,1,1", "mod_lavacow:ithaqua,20,1,1", "mod_lavacow:sludgelord,20,1,1", "mod_lavacow:vespa,20,1,1", "mod_lavacow:scarecrow,20,1,1", "mod_lavacow:boneworm,20,1,1", "mod_lavacow:pingu,40,4,8", "mod_lavacow:undertaker,20,1,1", "mod_lavacow:banshee,20,1,1", "mod_lavacow:avaton,20,1,1"]
+	#Set the duribility of Dreamcatcher, 0 = Infinite [0-10000]
+	#Range: 0 ~ 10000
+	"dreamcatcher duribility" = 80
+	#Ability cooldown of \"Pestilence\" [1-10000]
+	#Range: 0 ~ 10000
+	"pestilence cooldown" = 60
+	#Ability cooldown of Midnight Mourne [1-10000]
+	#Range: 0 ~ 10000
+	"midnight mourne cooldown" = 60
+	#Set the bonus damage cap of Bone Sword [0-10000]
+	#Range: 0 ~ 10000
+	"bonesword bonus damage cap" = 10000
+	#Set the fire damage reduction of Molten Heart to X% [0-10000]
+	#Range: 0 ~ 10000
+	"molten heart damage reduction" = 20
+	#Set the drop rate of Illager Nose [0-100]
+	#Range: 0 ~ 100
+	"illager nose drop rate" = 2
+
+[Structure]
+	#Generate Cemetery in the Overworld. [false/true]
+	"generate cemetery" = true
+	#Spawn rate of Cemetery [1-10000]
+	#Range: 0 ~ 10000
+	"cemetery spawn rate" = 500
+	#Cemetery are only allowed to spawn in these dimensions' IDs
+	"cemetery spawn allow dimensions" = ["minecraft:overworld"]
+	#Cemetery spawns Unburied occasionally. [0-100]
+	#Range: 0 ~ 100
+	"cemetery spawns unburied" = 40
+	#Generate Desert Tomb in the Overworld. [false/true]
+	"generate desert tomb" = true
+	#Spawn rate of Desert Tomb [1-1000]
+	#Range: 0 ~ 1000
+	"desert tomb spawn rate" = 500
+
+[General]
+	#Set the height limit to X blocks above the ground for flyers, 0 = Infinite [0-100]
+	#Range: 0 ~ 100
+	"flying height limit" = 16
+	#Adding new brewing recipe (existing property will be preserved). [false/true]
+	"enable brewing recipe" = true
+	#Adding new enchantment (existing property will be preserved). [false/true]
+	"enable enchantment" = true
+	#Add additional content that works with Quark. [false/true]
+	"quark compatibility" = false
+	#Mobs in this mod will not burn under daylight. [false/true]
+	"sunscreen mode" = false
+	#All mobs are only allowed to spawn in these dimensions' IDs
+	"mob spawn allow dimensions" = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+	#Entities summoned by other mobs die when their summoner dies. [false/true]
+	suicidal = true
+	#Offers bonus Villager trades. [false/true]
+	"bonus villager trades" = true
+	#Offers bonus Wandering Trader trades. [false/true]
+	"bonus wandering trader trades" = true
+
+[Cactyrant]
+	#Set the spawn rate of Cactyrant [0-10000]
+	#Range: 0 ~ 10000
+	"cactyrant spawn rate" = 8
+	#Maximum Cactyrant health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"cactyrant health" = 60.0
+	#Cactyrant strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"cactyrant attack" = 8.0
+	#Set the cooldown of thorn barrage [0-100]
+	#Range: 0 ~ 100
+	"cactyrant summon cooldown" = 3
+
+[Cactoid]
+	#Set the spawn rate of Cactoid [0-10000]
+	#Range: 0 ~ 10000
+	"cactoid spawn rate" = 10
+	#Maximum Cactoid health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"cactoid health" = 20.0
+	#Cactoid strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"cactoid attack" = 3.0
+
+["Warped Firefly"]
+	#Set the spawn rate of Warped Firefly [0-10000]
+	#Range: 0 ~ 10000
+	"warped firefly spawn rate" = 2
+	#Maximum Warped Firefly health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"warped firefly health" = 10.0
+
+[Imp]
+	#Set the spawn rate of Imp [0-10000]
+	#Range: 0 ~ 10000
+	"imp spawn rate" = 3
+	#Maximum Imp health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"imp health" = 16.0
+	#Imp strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"imp attack" = 2.0
+
+["Sea Hag"]
+	#Set the spawn rate of Sea Hag [0-10000]
+	#Range: 0 ~ 10000
+	"sea hag spawn rate" = 20
+	#Maximum Sea Hag health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"sea hag health" = 30.0
+	#Sea Hag strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"sea hag attack" = 5.0
+	#Set the number of Pufferfish summoned per cast [0-100]
+	#Range: 0 ~ 100
+	"sea hag summon number" = 4
+	#Set the max number of Pufferfish summoned [0-100]
+	#Range: 0 ~ 100
+	"sea hag summon max" = 8
+	#Set the cooldown of summoning Pufferfish [0-100]
+	#Range: 0 ~ 100
+	"sea hag summon cooldown" = 12
+
+[Wisp]
+	#Set the spawn rate of Wisp [0-10000]
+	#Range: 0 ~ 10000
+	"wisp spawn rate" = 10
+	#Maximum Wisp health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"wisp health" = 8.0
+	#Wisp strength [1-1000]
+	#Range: 0.0 ~ 10.0
+	"wisp attack" = 3.0
+
+["Grave Robber"]
+	#Set the spawn rate of Grave Robber [0-10000]
+	#Range: 0 ~ 10000
+	"grave robber spawn rate" = 15
+	#Maximum Grave Robber health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"grave robber health" = 20.0
+	#Grave Robber strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"grave robber attack" = 5.0
+	#Set the spawn rate of Ghost of Grave Robber [0-100]
+	#Range: 0 ~ 100
+	"grave robber ghost spawn rate" = 40
+	#Maximum Ghost of Grave Robber health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"grave robber ghost health" = 8.0
+	#Ghost of Grave Robber strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"grave robber ghost attack" = 5.0
+
+[Wraith]
+	#Set the spawn rate of Wraith [0-10000]
+	#Range: 0 ~ 10000
+	"wraith spawn rate" = 20
+	#Maximum Wraith health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"wraith health" = 20.0
+	#Wraith strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"wraith attack" = 5.0
+
+["Ghost Swarmer"]
+	#Set the spawn rate of Ghost Swarmer [0-100]
+	#Range: 0 ~ 100
+	"ghost swarmer spawn rate" = 40
+	#Maximum Ghost Swarmer health [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"ghost swarmer health" = 8.0
+	#Ghost Swarmer strength [1-1000]
+	#Range: 1.0 ~ 1000.0
+	"ghost swarmer attack" = 1.0
+

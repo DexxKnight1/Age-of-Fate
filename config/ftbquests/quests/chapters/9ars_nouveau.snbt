@@ -1,0 +1,933 @@
+{
+	id: "78E6F7C6BE58E3FE"
+	group: "15F5BAC0BCC22DEF"
+	order_index: 7
+	filename: "9ars_nouveau"
+	title: "&9Ars Nouveau"
+	icon: "ars_nouveau:mana_condenser"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.7857142857142847d
+		y: -10.089285714285715d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&6&lWelcome to Ars Nouveau"
+			icon: "ars_nouveau:creative_spell_book"
+			x: 0.0d
+			y: -9.5d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oPity Machine Frame&r quest*"
+			description: [
+				"Ars Nouveau is a magic mod that allows players to craft their own spells, create magical artifacts, perform rituals, and much more."
+				""
+				"With Ars Nouveau you will learn to harness the mana infused in all things to cast powerful spells, drive arcane machinery, and even to empower some cute friends along the way."
+			]
+			dependencies: ["55C0841BBDCA69F4"]
+			size: 1.5d
+			id: "0FF49F7DD4D172CF"
+			tasks: [{
+				id: "69842ED24C694005"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "31CDEC9443F99EC2"
+					type: "item"
+					item: "ars_nouveau:novice_spell_book"
+				}
+				{
+					id: "56CE7B45BFEF5D91"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "&6&lMana"
+			icon: "ars_nouveau:mana_gem"
+			x: -5.5d
+			y: -8.0d
+			subtitle: "Mana is the driving energy behind every spell and arcane device in Ars Nouveau"
+			description: [
+				"Craft a Mana Condenser and a Mana Jar to begin. The Mana Gems required can be found while mining at any depth. Keep an eye out for purple Arcane Ore."
+				""
+				"To begin condensing Mana, place the Mana Jar and then place the Mana Condenser on top of it. Mana is drawn from three primary sources:"
+				""
+				"● Crops advancing a growth stage"
+				"● Breeding animals"
+				"● Killing mobs"
+				""
+				"Consider setting up a jar and condenser nearby such places. It can detect such events in a roughly 10-15 block radius, depending on the type of event. A large crop farm or a basic mob farm can produce mana relatively quickly if automated."
+			]
+			dependencies: ["0FF49F7DD4D172CF"]
+			id: "1D6991C18F49B0C6"
+			tasks: [
+				{
+					id: "236FB55A22B7576E"
+					type: "item"
+					item: "ars_nouveau:mana_condenser"
+				}
+				{
+					id: "7E7B2BECC4DEA3C0"
+					type: "item"
+					item: "ars_nouveau:mana_jar"
+				}
+			]
+			rewards: [
+				{
+					id: "270F6DF231317C9C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "76230C6F458856C4"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "31DA5B5A1AEC55C9"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "51022158747C91D5"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			description: ["Not every practitioner is born with a green-thumb. Thankfully, mana naturally trickles out of molten lava, escaping into the air. This device assists in collecting these trace amounts of mana so they may be put to use."]
+			dependencies: ["1D6991C18F49B0C6"]
+			id: "048E545ED70D577F"
+			tasks: [{
+				id: "04B82A87FD6221E9"
+				type: "item"
+				item: "ars_nouveau:volcanic_accumulator"
+			}]
+			rewards: [
+				{
+					id: "3CFD17E87C9EAA05"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7DF35141BAB044A7"
+					type: "item"
+					item: "ars_nouveau:mana_gem"
+					count: 2
+				}
+				{
+					id: "7E03F598998164D2"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -7.0d
+			description: [
+				"Arcane Crystals can be crystallized directly from the surrounding mana."
+				""
+				"Build a Crystallizer early on to help obtain more of these very useful gems."
+			]
+			dependencies: ["1D6991C18F49B0C6"]
+			id: "2B3A2599A6534702"
+			tasks: [{
+				id: "59A3E5F56953D4AE"
+				type: "item"
+				item: "ars_nouveau:crystallizer"
+			}]
+			rewards: [
+				{
+					id: "71BA9E72BA7F3681"
+					type: "item"
+					item: "ars_nouveau:glyph_light"
+				}
+				{
+					id: "300AA98A63FF7D8C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "04EA58DE1D39D6DE"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&6&lGlyph Press"
+			x: -6.0d
+			y: -5.5d
+			subtitle: "The Glyph Press will accept up to two items; a type of clay and a reagent"
+			description: [
+				"Both are consumed along with a fair amount of mana from a nearby Mana Jar to create new Glyphs."
+				""
+				"Glyphs can be learned by right clicking them. They'll then appear within your spellbook for use in crafting new spells."
+			]
+			dependencies: ["1D6991C18F49B0C6"]
+			id: "7964CF97B0747B36"
+			tasks: [{
+				id: "7617262DAD6B61DD"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+			rewards: [
+				{
+					id: "31C7646480785D0D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "722D39FB7B43EF26"
+					type: "item"
+					item: "ars_nouveau:arcane_stone"
+					count: 16
+				}
+				{
+					id: "5E250CC2F5C5FB52"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&6&lMagic Clay"
+			x: -5.5d
+			y: -4.0d
+			description: [
+				"By working Mana Gems into Clay a focus can be formed which will aid an aspiring magician in harnessing greater powers."
+				""
+				"In order to learn new spells, this Magic Clay and its variants may be pressed in a Glyph Press along with some other reagent to form a focus."
+			]
+			dependencies: ["7964CF97B0747B36"]
+			id: "188E924CB58CE328"
+			tasks: [{
+				id: "7DDCAE2ED5BE3DA7"
+				type: "item"
+				item: "ars_nouveau:magic_clay"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "7E1E1A1FFF001BB1"
+					type: "item"
+					item: "ars_nouveau:glyph_craft"
+				}
+				{
+					id: "5C6DC96A17F0E777"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4154A77E74FAE43C"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			description: [
+				"A simple early form of flight can be crafted using the following spell:"
+				""
+				"● Self > Leap > Slowfall"
+				""
+				"Casting this propels the user in the direction they're facing, while also providing some cushioning for the eventual landing."
+			]
+			dependencies: ["188E924CB58CE328"]
+			id: "51BDFF152D166497"
+			tasks: [
+				{
+					id: "3C64DBD243824D54"
+					type: "item"
+					item: "ars_nouveau:glyph_leap"
+				}
+				{
+					id: "7C505B0113F30EFA"
+					type: "item"
+					item: "ars_nouveau:glyph_slowfall"
+				}
+			]
+			rewards: [
+				{
+					id: "4A8067F3789E3D8C"
+					type: "item"
+					item: "ars_nouveau:glyph_launch"
+				}
+				{
+					id: "40237E2B1E8CA73A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7350D65040D22583"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			title: "&6&lMarvelous Clay"
+			icon: "ars_nouveau:marvelous_clay"
+			x: -4.5d
+			y: -3.5d
+			description: ["Marvelous Clay unlocks the creation of Tier 2 spells. These also require an Apprentice's Spellbook to cast."]
+			dependencies: ["188E924CB58CE328"]
+			id: "32823968A80EDB34"
+			tasks: [
+				{
+					id: "6BFC9660B49C6CA2"
+					type: "item"
+					item: "ars_nouveau:marvelous_clay"
+					count: 8L
+				}
+				{
+					id: "5D3E0B9679459220"
+					type: "item"
+					item: "ars_nouveau:apprentice_spell_book"
+				}
+			]
+			rewards: [
+				{
+					id: "55191405EDD4F2A8"
+					type: "item"
+					item: "ars_nouveau:glyph_grow"
+				}
+				{
+					id: "6DEC5318DBED6920"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4296CF4BA038F704"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			description: [
+				"For example, a spell can be made that will smelt a ranged block, break it, and bring it to your inventory."
+				""
+				"● Projectile > Smelt > Break > Item Pickup"
+				""
+				"Adding an Extract augment after the Break will apply Silk Touch, allowing the above spell to create Glass from Sand."
+				""
+				"● Projectile > Smelt > Break > Extract > Item Pickup"
+				""
+				"Similarly, the following will apply Fortune to the broken block and transport the result to your inventory. Great for those hard to reach diamonds."
+				""
+				"● Projectile > Break > Fortune > Item Pickup"
+			]
+			dependencies: ["32823968A80EDB34"]
+			id: "3A54E2DB6F778F32"
+			tasks: [
+				{
+					id: "78C29DB00120ECAE"
+					type: "item"
+					item: "ars_nouveau:glyph_smelt"
+				}
+				{
+					id: "0C943B2F4DEDAADF"
+					type: "item"
+					item: "ars_nouveau:glyph_pickup"
+				}
+			]
+			rewards: [
+				{
+					id: "3F250F0F42341701"
+					type: "item"
+					item: "ars_nouveau:glyph_fortune"
+				}
+				{
+					id: "22C4A596E5D69083"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "002DC621F9BC7364"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&6&lMythical Clay"
+			icon: "ars_nouveau:mythical_clay"
+			x: -3.5d
+			y: -4.0d
+			description: ["Mythical Clay unlocks the creation of Tier 3 spells. These also require an Archmage's Spellbook to cast."]
+			dependencies: ["32823968A80EDB34"]
+			id: "5990D655A47AC1ED"
+			tasks: [
+				{
+					id: "69473FF1B9DB59EB"
+					type: "item"
+					item: "ars_nouveau:mythical_clay"
+					count: 2L
+				}
+				{
+					id: "059B8B0DF16EEB20"
+					type: "item"
+					item: "ars_nouveau:archmage_spell_book"
+				}
+			]
+			rewards: [
+				{
+					id: "659D8A8FECBF3EC7"
+					type: "item"
+					item: "ars_nouveau:glyph_split"
+				}
+				{
+					id: "43D165BEC6BEC33D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "41745856B1014B81"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["5990D655A47AC1ED"]
+			id: "3349E1C52CE9983B"
+			tasks: [{
+				id: "4977ECE99402633D"
+				type: "item"
+				item: "ars_nouveau:glyph_lightning"
+			}]
+			rewards: [
+				{
+					id: "56B88966A1C7E1E3"
+					type: "item"
+					item: "ars_nouveau:glyph_fangs"
+				}
+				{
+					id: "45FE0E7022C97754"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "565660A05264B2F5"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "&6&lEnchanting Apparatus"
+			icon: "ars_nouveau:enchanting_apparatus"
+			x: 0.0d
+			y: -7.5d
+			description: [
+				"To construct the Enchanting Apparatus, place down the Arcane Core with the Enchanting Apparatus on top of it. The Pedestals can be placed anywhere in an 11x11 area centered on the Core. A Mana Jar with mana must also be present nearby."
+				""
+				"To work with it, place the reagents in the pedestals and the focus in the Enchanting Apparatus itself, then Sneak Right Click the Apparatus with an empty hand."
+			]
+			dependencies: ["0FF49F7DD4D172CF"]
+			id: "79CBF8A2400A345E"
+			tasks: [
+				{
+					id: "11E392803BA20D38"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "4BAE1687158DA97B"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "0BBE0C25EB366119"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "0D5576644C233CDF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "099830069F9F6CF4"
+					type: "item"
+					item: "ars_nouveau:potion_flask"
+				}
+				{
+					id: "6E10790ED30E2132"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "1FDA4EC999911A89"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Curious Charms"
+			x: -1.0d
+			y: -7.0d
+			dependencies: ["79CBF8A2400A345E"]
+			id: "234EA8AC16A4ED70"
+			tasks: [
+				{
+					id: "51D3E0F976777929"
+					type: "item"
+					item: "ars_nouveau:amulet_of_mana_regen"
+				}
+				{
+					id: "52253F8B4B771C82"
+					type: "item"
+					item: "ars_nouveau:ring_of_lesser_discount"
+				}
+			]
+			rewards: [
+				{
+					id: "1E655BFFC4200120"
+					type: "item"
+					item: "ars_nouveau:void_jar"
+				}
+				{
+					id: "5756BB4E869E235C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "539694DFCDE15541"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			subtitle: "The Mana Bloom sits at the border between the mundane and the magical"
+			description: ["It grows as any other plant, but its roots reach through the veil, soaking in more of the mana that infuses the earth. Growing these will serve two purposes to a budding practitioner."]
+			dependencies: ["79CBF8A2400A345E"]
+			id: "28597C28BC8F0FE7"
+			tasks: [{
+				id: "60C8EA418A3D0B61"
+				type: "item"
+				item: "ars_nouveau:mana_bloom_crop"
+			}]
+			rewards: [
+				{
+					id: "59726E9ADF501170"
+					type: "item"
+					item: "ars_nouveau:glyph_harvest"
+				}
+				{
+					id: "3A1063D5DD74CCAF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "68C3D7A2B6BB7611"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			description: ["Mana Relays serve this purpose. They provide a controlled channel for mana to flow through without dissipating back into the world. Mana Relays may be linked to other relays as well as jars to provide safe transit from one place to another."]
+			dependencies: ["79CBF8A2400A345E"]
+			id: "74FB93DBD3DCFC41"
+			tasks: [{
+				id: "495F0195314F6D69"
+				type: "item"
+				item: "ars_nouveau:arcane_relay"
+			}]
+			rewards: [
+				{
+					id: "63134B2AE4CCBDF9"
+					type: "item"
+					item: "ars_nouveau:dominion_wand"
+				}
+				{
+					id: "5C0310A59FB73D1B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1DE59F85C86694F8"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			description: ["To prepare a Parchment with a spell, design the spell within your spellbook, then place a parchment on the Scribe's Table. Sneak Right Click the table with your spell book to transfer the selected spell over to the parchment."]
+			dependencies: ["28597C28BC8F0FE7"]
+			id: "7F0ECA7AB9551CA1"
+			tasks: [{
+				id: "1D5860D4E1D3322A"
+				type: "item"
+				item: "ars_nouveau:spell_parchment"
+			}]
+			rewards: [
+				{
+					id: "21858C64A8E8C895"
+					type: "item"
+					item: "ars_nouveau:scribes_table"
+				}
+				{
+					id: "17857E98C26DD61B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "34E3A93B3832F4FA"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: [
+				"To use Runic Chalk, begin by drawing a circle on the ground. Now right click the circle with a prepared Spell Parchment. Valid Spell Parchments must begin with the Touch Form."
+				""
+				"Any creature that walks over the rune will receive the effect of the spell."
+			]
+			dependencies: ["7F0ECA7AB9551CA1"]
+			id: "63902C16EF882BE6"
+			tasks: [{
+				id: "70A16B7418AC9985"
+				type: "item"
+				item: {
+					id: "ars_nouveau:runic_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29627A0AA1E1C007"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1E3417E5B7828BE9"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2ADE90CD30EAAE8B"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			description: ["A more advanced Mana Relay capable of pulling from and sending to multiple locations."]
+			dependencies: ["74FB93DBD3DCFC41"]
+			id: "497A879543460123"
+			tasks: [{
+				id: "04B5F333E4859F3C"
+				type: "item"
+				item: "ars_nouveau:arcane_relay_splitter"
+			}]
+			rewards: [
+				{
+					id: "7A105D05690CE292"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2988B7625FFD9329"
+					type: "item"
+					item: "ars_nouveau:magic_clay"
+					count: 16
+				}
+				{
+					id: "02D35D9A6E608711"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			title: "Auto Magically"
+			icon: "ars_nouveau:glyph_summon_decoy"
+			x: 5.5d
+			y: -8.0d
+			description: ["What good is magic if it cannot be made to work for us without constant intervention?"]
+			dependencies: ["0FF49F7DD4D172CF"]
+			id: "6D5469C731475902"
+			tasks: [{
+				id: "471E7823E90365EA"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4A861D27FC8919E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3D5038E5D346BEE0"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -7.0d
+			subtitle: "The Spell Turret is an enhanced apparatus used to cast spells on demand with a redstone pulse"
+			description: ["Like the simpler runes created by Runic Chalk, it can be provided with a prepared Spell Parchment by right clicking the device with the parchment. Unlike runes, it can use both Touch and Projectile Forms."]
+			dependencies: ["6D5469C731475902"]
+			id: "36F83B08BC8FABEA"
+			tasks: [{
+				id: "1E31E6F4EAD05F46"
+				type: "item"
+				item: "ars_nouveau:spell_turret"
+			}]
+			rewards: [
+				{
+					id: "6D6C71F32D3B6A67"
+					type: "item"
+					item: "ars_nouveau:glyph_aoe"
+				}
+				{
+					id: "7B3D8947EDCC003B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "13651E540A95C033"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			description: [
+				"Carbuncles are curious forest critters with a love for all things shiny. Gold, in particular. They may be befriended by tossing them a small amount of gold. Once befriended, they will assist by collecting items and moving them to inventories."
+				""
+				"These critters can be an uncommon sight even in ancient forests. If none can be found, consider summoning them with the Altar of Birthing."
+			]
+			dependencies: ["6D5469C731475902"]
+			id: "22199FDCEBB5ADEF"
+			tasks: [{
+				id: "45C4E443C2E34125"
+				type: "item"
+				item: "ars_nouveau:carbuncle_charm"
+			}]
+			rewards: [
+				{
+					id: "41AD32B9E3BE229E"
+					type: "item"
+					item: "ars_nouveau:allow_scroll"
+				}
+				{
+					id: "3A8FF29439DCA136"
+					type: "item"
+					item: "ars_nouveau:deny_scroll"
+				}
+				{
+					id: "5A272D80F59C2F27"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "732C21333548FADD"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "5B0114FFD849B69B"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			description: ["The Summoning Crystal is crafted with the Enchanting Apparatus, as are all Charms."]
+			dependencies: ["6D5469C731475902"]
+			id: "10F0D6359B706DDF"
+			tasks: [{
+				id: "64B40BA36685E2EA"
+				type: "item"
+				item: "ars_nouveau:summoning_crystal"
+			}]
+			rewards: [
+				{
+					id: "46B0589D3C22EB17"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1365471989357ABF"
+					type: "item"
+					item: "ars_nouveau:jar_of_light"
+				}
+				{
+					id: "6C5EA5F4A1361A06"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			dependencies: ["36F83B08BC8FABEA"]
+			id: "0AD2AE9A2BAB2ECA"
+			tasks: [{
+				id: "0035C233631790FD"
+				type: "item"
+				item: "ars_nouveau:glyph_redstone_signal"
+			}]
+			rewards: [
+				{
+					id: "2E1064D7CCB0313D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "057494B62C99A931"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "51A74BEC0072FCEF"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			description: ["A simple and compact crop farm can be made with a spell turret: &9Touch > Grow > Harvest&r."]
+			dependencies: ["36F83B08BC8FABEA"]
+			id: "02B2C0C3D22D6670"
+			tasks: [
+				{
+					id: "34F66C53F6A57778"
+					type: "item"
+					item: "ars_nouveau:glyph_grow"
+				}
+				{
+					id: "601B0241734F3D3B"
+					type: "item"
+					item: "ars_nouveau:glyph_harvest"
+				}
+			]
+			rewards: [
+				{
+					id: "2101294366F1A659"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20EDB7C0BDFE19FB"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "6641A45EF0F2ED85"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			dependencies: ["10F0D6359B706DDF"]
+			id: "23DAE012485934C7"
+			tasks: [{
+				id: "1BA1C17C53E201E7"
+				type: "item"
+				item: "ars_nouveau:whelp_charm"
+			}]
+			rewards: [
+				{
+					id: "7300030DCC2505D4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "547137BE3B649D65"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "08B2E505FC035E20"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["10F0D6359B706DDF"]
+			id: "08F0C350D56FEC63"
+			tasks: [{
+				id: "3E051CF07AFB2D8B"
+				type: "item"
+				item: "ars_nouveau:sylph_charm"
+			}]
+			rewards: [
+				{
+					id: "004982CEC97E13E2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3E65E93D56E065D4"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "5B922E8254F0D6AF"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+	]
+}

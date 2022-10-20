@@ -1,0 +1,626 @@
+{
+	id: "65411B7D9B158DC8"
+	group: "3B357E74DE0882BE"
+	order_index: 1
+	filename: "7cooking_for_blockheads"
+	title: "&7Cooking for Blockheads"
+	icon: "cookingforblockheads:cooking_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -0.2142857142857153d
+		y: -8.446428571428573d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&9&lWelcome to Cooking for Blockheads"
+			icon: "cookingforblockheads:oven"
+			x: -0.5d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oThe Food&r quest*"
+			description: [
+				"This mod adds a cooking book along with a functional kitchen to Minecraft."
+				""
+				"Use the book or the Cooking Table to find out what you can cook with what ingredients you currently have available, and start cooking immediately through a single click."
+				""
+				"The kitchen is modular and can be upgraded through additional blocks, allowing for expanded storage, infinite water for crafting provided by the sink, or efficient and delicious cooking with the oven. Some people even went as far as capturing a cow in a jar to provide them with infinite milk!"
+			]
+			dependencies: ["3A7FC41CC5B51F5F"]
+			size: 1.3d
+			id: "3AEAEDFF7736CBAB"
+			tasks: [{
+				id: "12FAD3A5E7BC2B50"
+				type: "item"
+				item: "minecraft:book"
+			}]
+			rewards: [
+				{
+					id: "6D0A17470A4F96FF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "48279FA16B26AE9C"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "78611B4D5561A5B9"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			dependencies: ["3AEAEDFF7736CBAB"]
+			id: "317FC74309007901"
+			tasks: [{
+				id: "441E9160E68C3269"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+			rewards: [
+				{
+					id: "606AF84C44754B86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "396F6FC4A7D7DFB5"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3C2C1D251465FDEF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			dependencies: ["3AEAEDFF7736CBAB"]
+			id: "634C562A134AD95E"
+			tasks: [{
+				id: "32CC866847254FEF"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+			rewards: [
+				{
+					id: "20942B05A8D7D09F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1A85E84F5F46D770"
+					type: "item"
+					item: "cookingforblockheads:recipe_book"
+				}
+				{
+					id: "12886B6E796A8AB6"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			shape: "square"
+			dependencies: [
+				"317FC74309007901"
+				"634C562A134AD95E"
+			]
+			id: "5CCB7D81CCE1FAA5"
+			tasks: [{
+				id: "4FFDE4ACC1633B37"
+				type: "item"
+				item: "cookingforblockheads:no_filter_edition"
+			}]
+			rewards: [
+				{
+					id: "3CFF0C82A36AD791"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "1C289843D40AF84D"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "055F0EE90861FF98"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["5CCB7D81CCE1FAA5"]
+			id: "7886A7F2FFC72A07"
+			tasks: [{
+				id: "18CB1678A6CA4BC6"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [
+				{
+					id: "32B6CD0BB588EC0C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "74D8F4CFAF98B191"
+					type: "item"
+					item: "minecraft:beef"
+					count: 2
+				}
+				{
+					id: "3099D9193FBCC22A"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "328915C24BC04B02"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["5CCB7D81CCE1FAA5"]
+			id: "7CDDE1CDE8831926"
+			tasks: [{
+				id: "0A6117CF4CCA8EA6"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [
+				{
+					id: "4EFF2205874454AD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "269D7ACB5820B109"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 8
+				}
+				{
+					id: "5522B25EA459A981"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "66B6062459BB7B61"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["5CCB7D81CCE1FAA5"]
+			id: "1E9718F6A93F923A"
+			tasks: [{
+				id: "2AC95DD00068BA1F"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [
+				{
+					id: "79155DC163B48139"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5E3C61F89F01AD7F"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "531D273E9E151571"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "468470C5B5A13DB9"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["5CCB7D81CCE1FAA5"]
+			id: "4CB372786E2CE73C"
+			tasks: [{
+				id: "307BFCA83B795011"
+				type: "item"
+				item: "cookingforblockheads:counter"
+			}]
+			rewards: [
+				{
+					id: "199D8D3FC29B5EA3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5C5422DF2BF3A813"
+					type: "item"
+					item: "minecraft:apple"
+					count: 16
+				}
+				{
+					id: "57DEAD1302648FB0"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4E346F69C141DC14"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["5CCB7D81CCE1FAA5"]
+			id: "51060F9E1CE9A846"
+			tasks: [{
+				id: "49A9482D67F239CC"
+				type: "item"
+				item: "cookingforblockheads:corner"
+			}]
+			rewards: [
+				{
+					id: "01C3CB2A1B161C83"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3CA1697C1B6F450A"
+					type: "item"
+					item: "minecraft:porkchop"
+					count: 2
+				}
+				{
+					id: "2E7549CA287515EF"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			dependencies: ["5CCB7D81CCE1FAA5"]
+			id: "7E41FAD258C50933"
+			tasks: [{
+				id: "18B7AA69ECA45805"
+				type: "item"
+				item: "cookingforblockheads:cabinet"
+			}]
+			rewards: [
+				{
+					id: "0E51A1C6396CE3DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "440DDEB7B81D4A32"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+				{
+					id: "6C65C32244922994"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["5CCB7D81CCE1FAA5"]
+			id: "6293391B6259941B"
+			tasks: [{
+				id: "6854FA8BA9442B16"
+				type: "item"
+				item: "cookingforblockheads:hanging_corner"
+			}]
+			rewards: [
+				{
+					id: "3C26F5019045DD49"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1DC4F774F66C6565"
+					type: "item"
+					item: "minecraft:chicken"
+					count: 2
+				}
+				{
+					id: "134A90800B24F2A5"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["7886A7F2FFC72A07"]
+			id: "04F8A6ECC915BFE3"
+			tasks: [{
+				id: "79B88714F2FA2F31"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "12FC0D14624F01E3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "74A921E8295EFD92"
+					type: "item"
+					item: "minecraft:cod"
+					count: 4
+				}
+				{
+					id: "27B4AC7C4770AA5F"
+					type: "item"
+					item: "minecraft:salmon"
+					count: 4
+				}
+				{
+					id: "08B3C6A45CF29D05"
+					type: "item"
+					item: "minecraft:rabbit"
+					count: 2
+				}
+				{
+					id: "6AB069FB0FC4E18C"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["04F8A6ECC915BFE3"]
+			id: "56A9F79955C27C37"
+			tasks: [{
+				id: "0727A729C8BEDA27"
+				type: "item"
+				item: "cookingforblockheads:ice_unit"
+			}]
+			rewards: [
+				{
+					id: "0E2B3B250C5C6BD5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "698EB967B901AFF0"
+					type: "item"
+					item: "minecraft:packed_ice"
+					count: 8
+				}
+				{
+					id: "1FDB5C488A2BF878"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["04F8A6ECC915BFE3"]
+			id: "4B447176B8F1A39E"
+			tasks: [{
+				id: "5AD2363BA8A83A6F"
+				type: "item"
+				item: "cookingforblockheads:preservation_chamber"
+			}]
+			rewards: [
+				{
+					id: "4EAEBF59802B23B8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0A84ACD0F0D2416B"
+					type: "item"
+					item: "pamhc2foodcore:icecreamitem"
+					count: 4
+				}
+				{
+					id: "3ED8CF8463C21B75"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["1E9718F6A93F923A"]
+			id: "042D8188C074BF7F"
+			tasks: [{
+				id: "4468AA7E0941F1A0"
+				type: "item"
+				item: "cookingforblockheads:heating_unit"
+			}]
+			rewards: [
+				{
+					id: "19E69C8F7040E59D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E2DD4FBFB76D19B"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 8
+				}
+				{
+					id: "7C9573E589274414"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			title: "Kitchen Accessories"
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["4CB372786E2CE73C"]
+			id: "2C0367BFD72742DC"
+			tasks: [
+				{
+					id: "4C6A9FFE1ABE1D42"
+					type: "item"
+					item: "cookingforblockheads:fruit_basket"
+				}
+				{
+					id: "395A1036EA845036"
+					type: "item"
+					item: "cookingforblockheads:tool_rack"
+				}
+				{
+					id: "0910C911EEC15158"
+					type: "item"
+					item: "cookingforblockheads:spice_rack"
+				}
+				{
+					id: "438A7C2E1D72E8EA"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+			]
+			rewards: [
+				{
+					id: "0791672B84DD9ED9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6BE1CC26F1956ECA"
+					type: "item"
+					item: "thermal:strawberry"
+					count: 8
+				}
+				{
+					id: "18C43E4EFB08A8FF"
+					type: "item"
+					item: "terraqueous:pear"
+					count: 8
+				}
+				{
+					id: "5ED7851ED5664D19"
+					type: "item"
+					item: "terraqueous:mango"
+					count: 8
+				}
+				{
+					id: "739EC8D1BAA4407A"
+					type: "item"
+					item: "terraqueous:cherry"
+					count: 8
+				}
+				{
+					id: "6FF17A3A0AE43C28"
+					type: "item"
+					item: "terraqueous:lemon"
+					count: 8
+				}
+				{
+					id: "2441C399B40FB347"
+					type: "item"
+					item: "terraqueous:plum"
+					count: 8
+				}
+				{
+					id: "2D5C0CCBA7C45024"
+					type: "item"
+					item: "terraqueous:grapes"
+					count: 8
+				}
+				{
+					id: "7BDB4E00322159F7"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			title: "&9&lInfinite Milk"
+			x: 4.5d
+			y: 0.0d
+			shape: "pentagon"
+			dependencies: ["2C0367BFD72742DC"]
+			size: 1.3d
+			id: "45BBF83F2604566F"
+			tasks: [{
+				id: "5652240D4AC9EA49"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [
+				{
+					id: "7F525F9B12C8B79D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "75D69DD760E298A9"
+					type: "item"
+					item: "pamhc2foodextended:chocolatemilkitem"
+					count: 8
+				}
+				{
+					id: "7FC73ED47E37E7B1"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5DAFDF462B550CAC"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+	]
+}

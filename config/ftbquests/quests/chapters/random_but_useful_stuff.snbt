@@ -1,0 +1,1082 @@
+{
+	id: "10697D13F04674A6"
+	group: ""
+	order_index: 3
+	filename: "random_but_useful_stuff"
+	title: "&b&l&oRandom But Useful Stuff"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -2.5d
+			y: -3.0d
+			width: 3.0d
+			height: 2.7d
+			rotation: 0.0d
+			image: "kubejs:textures/item/frie.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "kubejs:textures/item/star.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "kubejs:textures/item/star.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 2.5d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["Click Machine is a standalone auto-clicker."]
+			id: "632D01D11D4E63EF"
+			tasks: [{
+				id: "7371E0A14D9DCC5F"
+				type: "item"
+				item: "clickmachine:auto_clicker"
+			}]
+			rewards: [
+				{
+					id: "07088DAE9BD0ED77"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "23F6F60C41333DC8"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "60CA43409FB6FB4A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			shape: "hexagon"
+			description: ["Ranged Pumps just pumps liquids in a range."]
+			id: "2DC280B70ED56153"
+			tasks: [{
+				id: "5715ECADB2A2DAF8"
+				type: "item"
+				item: "rangedpumps:pump"
+			}]
+			rewards: [
+				{
+					id: "043CC22CC9F19497"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "102AAFF1617B4C10"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7B25E56DBF8073A1"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			shape: "hexagon"
+			description: [
+				"Scanner is a small addition to the smart explorer's tool."
+				"Scan results are visualized for a short while in a clean and readable manner, either as in-world highlights or appropriately positioned overlays."
+				"What results are shown depends on the modules in the scanner. Up to three modules may be installed at the same time."
+				""
+				"Default modules include:"
+				"- Animal detection"
+				"- Monster detection"
+				"- Entity detection"
+				"- Common ore detection"
+				"- Rare ore detection"
+				"- Fluid detection"
+				"- Block detection"
+				"- Range booster"
+			]
+			id: "518C2FD1BE0377C1"
+			tasks: [{
+				id: "58AAE6310531F6C3"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+			rewards: [
+				{
+					id: "46CB49A6E7CA761B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "501463FC34EE6E5F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "48EB0D00BBC5A21A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			shape: "hexagon"
+			description: [
+				"Lighting Wand can place invisible light source."
+				"Only if you have the wand in hand can you see the block bound."
+				"Tto repair wand use glowstone dust or Forge energy. You can shot a light blob by right clicking (really far)."
+			]
+			id: "549DF44E895CC2F5"
+			tasks: [{
+				id: "6F18767C8BFA20CB"
+				type: "item"
+				item: {
+					id: "lightingwand:wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "42F7E5AB3BF94712"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "56E41E2B680B66C2"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "44D373C93A7EEF76"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Faint Amaranth"
+			icon: "astralsorcery:glow_flower"
+			x: 3.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: ["The Faint Amaranth is a flower added by Astral Sorcery. It can be found at higher altitudes, particularly in Extreme Hills biomes. Breaking it drops Glowstone Dust."]
+			id: "012F87E08A9C8492"
+			tasks: [{
+				id: "262680D79501F847"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+			rewards: [
+				{
+					id: "10BE243063B26BA1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5732B0B611222EB8"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "42D53035E2E8C229"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Small Stones"
+			icon: "terraqueous:doodad_stone"
+			x: -0.5d
+			y: 0.5d
+			shape: "hexagon"
+			description: ["Sticks and Stones may break your bones, but breaking these give resources."]
+			id: "5B8AC3510D403552"
+			tasks: [{
+				id: "5809FBD01F78DD9B"
+				type: "item"
+				title: "Any type of dusts"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:dusts"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "288D0A274361BA99"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "437790D25DD11377"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0BBC6A44BAFBC366"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Invisible Cloaks"
+			x: 1.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: [
+				"The Twilight Cloak makes you invisible only in darkness."
+				"The Invisibility Cloak makes you completely invinsible"
+			]
+			id: "2ABCBE1EE15D8FDC"
+			tasks: [
+				{
+					id: "123E16B16C0E0B00"
+					type: "item"
+					item: "xreliquary:twilight_cloak"
+				}
+				{
+					id: "4DF22FF1638A3644"
+					type: "item"
+					item: {
+						id: "botania:invisibility_cloak"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "38F841A015775ABE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1657F5C2086D9C28"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "33779B81B7E2284B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			shape: "hexagon"
+			description: [
+				"This block makes it easier to build in midair as it can be placed anywhere without requiring a backing block."
+				"The block can be broken instantly without any tools and will attempt to go into the player's inventory."
+			]
+			id: "74A4059A6C5386D3"
+			tasks: [{
+				id: "3BF533504FAC8417"
+				type: "item"
+				item: "angelblock:angel_block"
+			}]
+			rewards: [
+				{
+					id: "5C64DE419A5A5D72"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F21B19DF8578535"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "058950FCFF8A23CB"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "The Compasses"
+			x: -7.0d
+			y: -4.5d
+			shape: "hexagon"
+			description: [
+				"Nature's Compass is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."
+				""
+				"Explorer's Compass is an item that allows you to locate structures anywhere in the world."
+				""
+				"Right-clicking with Compass in hand will open the selection GUI, from which you can search for a biome/structure or view information about it."
+				"Shift-right-clicking will reset the compass's state."
+			]
+			id: "47136B410C44DACE"
+			tasks: [
+				{
+					id: "021AF825ECDBF527"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4DA609BC87D96121"
+					type: "item"
+					item: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7D81BEF7F1BEB225"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "55B3DA7D2C444369"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1D099A009C875D84"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Extended Bone Meal"
+			icon: "minecraft:bone_meal"
+			x: 1.5d
+			y: -4.5d
+			shape: "hexagon"
+			description: [
+				"Extended Bone Meal is a minimalistic mod which extends bone meal behaviour."
+				"Grow netherwart, cactus, vines and sugarcane."
+				"Instant grow crops while holding the sneak butto"
+			]
+			id: "47675E08438252EA"
+			tasks: [{
+				id: "428BD981DCC2F2E8"
+				type: "item"
+				item: "minecraft:bone_meal"
+			}]
+			rewards: [
+				{
+					id: "4A4DF2931D7C4F47"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "40FEFF45DEBB621C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "32BD7D11CF442612"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Item Collectors"
+			x: -6.0d
+			y: -4.5d
+			shape: "hexagon"
+			description: [
+				"Item Collectors adds Collectors which collect items in a specified range! Item Collectors range can be changed and items can be whitelisted or blacklisted!"
+				""
+				"&lBasic Item Collector"
+				"- The Basic Item Collector has a range of up to 5 blocks!"
+				"- Right-click a Basic Item Collector to open its GUI."
+				""
+				"&lAdvanced Item Collector"
+				"- The Advanced Item Collector has a range of up to 7 blocks!"
+				"- Right-click an Advanced Item Collector to open its GUI."
+				"- The Advanced Item Collector can filter items"
+			]
+			id: "472909F6DD13B586"
+			tasks: [
+				{
+					id: "2D8AFC57E693F9BA"
+					type: "item"
+					item: "itemcollectors:basic_collector"
+				}
+				{
+					id: "7F3050D6702C4026"
+					type: "item"
+					item: "itemcollectors:advanced_collector"
+				}
+			]
+			rewards: [
+				{
+					id: "0156F542DCC4A258"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "21AA5E9649040230"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "116F4FA5FC9F6AEE"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"The Morphing Tool can mimic any wrench, screwdriver, hammer or wand made of twigs and petals you throw at it, making it the perfect \"omni-wrench\" style item."
+				""
+				"- To add a wrench style item to it, craft the Morph-o-Tool alongside the item."
+				"-Whenever you look at a block from the mod that adds that item, the Morphing Tool will turn into the item you added."
+			]
+			id: "2AB23D8411416410"
+			tasks: [{
+				id: "17BBDA96D724DB33"
+				type: "item"
+				item: "morphtool:tool"
+			}]
+			rewards: [
+				{
+					id: "5857F392CB2A0644"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "15C89B7BC6783611"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6AB6CC4DB1CB6D51"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Notes"
+			x: 2.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: [
+				"Notes provides a fully functional in-game notepad."
+				""
+				"- Open the Notes GUI by pressing Alt+N"
+				"- View all notes relevant to your current world or server"
+				"- Create and edit notes through a simple in-game GUI"
+				"- Save notes per-world, per-server, or globally"
+				"- Pin important notes to the HUD"
+			]
+			id: "59DAD81445AA2E94"
+			tasks: [{
+				id: "19534E8F6375D8E4"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+			rewards: [
+				{
+					id: "7A3F7941BB4438D9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "60BFE7117412523F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "694055493EF924DF"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			shape: "hexagon"
+			description: [
+				"Shrink allows players to change their player's size."
+				"Shrinking to a smaller size allows the player to access places that they could normally not access without breaking blocks."
+				"By Shift-right clicking this item will cause your player to shrink down to about the size of a quarter of a block."
+			]
+			id: "766E571211A8E65A"
+			tasks: [{
+				id: "0C7751C5F273D7F6"
+				type: "item"
+				item: {
+					id: "shrink:shrinking_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "796AE398540D42B3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "52C693F805B8499B"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "550363FEBBF09518"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			shape: "hexagon"
+			id: "071459552DA42063"
+			tasks: [{
+				id: "0036DF0522F6D6FE"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4E9A4516D17215DA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "612EED98003B41EC"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "22D2A15D0F393A7A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			shape: "hexagon"
+			description: [
+				"The dummy can be placed in the world, where it'll stand silently, judging your every action. It'll wiggle funny if you hit it, screaming large numbers of damage at you. It can be dressed up to look even more awesome. This will please the dummy, making the numbers smaller."
+				""
+				"You can start dressing the little dude with all kind of armors and equipment. Just right click him with the desired item. To unequip a certain armor piece just click on his corresponding body part."
+				""
+				"You can remove the dummy just by shift left clicking him with an empty hand!"
+			]
+			id: "634B47FFF306FBCB"
+			tasks: [{
+				id: "27983ACF60B57CF0"
+				type: "item"
+				item: "dummmmmmy:target_dummy_placer"
+			}]
+			rewards: [
+				{
+					id: "12DADB6956DE0180"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0619DD68B7255F6E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4612697C918267DA"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "The Gadgets"
+			x: -2.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"The Building Gadget allows you to build structures using a set of different Building Modes."
+				""
+				"The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."
+				""
+				"The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."
+				""
+				"The Destruction Gadget allows you to void a large area."
+			]
+			id: "3B93DD9F68EE82CD"
+			tasks: [
+				{
+					id: "0BF5E3D6B63C3543"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_building"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "232514A7C2FEB25E"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_exchanging"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "402766AAED8FEEAD"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_copy_paste"
+						Count: 1b
+						tag: {
+							mode: 0b
+							template_id: [I;
+								120383154
+								-440448739
+								-1452461045
+								-1485671215
+							]
+						}
+					}
+				}
+				{
+					id: "160BAA19E77AD07D"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_destruction"
+						Count: 1b
+						tag: {
+							overlay: 1b
+							fuzzy: 1b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "445A729EE3A6C408"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7F380399A1B963E8"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "51C561ED5D63D206"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			shape: "hexagon"
+			description: ["Hero's Medallion stores experience. When turned on it drains it from player. When turned off player can take one level out of it per right click."]
+			id: "1BF0E871C718F5CA"
+			tasks: [{
+				id: "4C228448ABCA646C"
+				type: "item"
+				item: "xreliquary:hero_medallion"
+			}]
+			rewards: [
+				{
+					id: "3EA995E47C6CFF67"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3D08D335A8F4F9FE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1D4ED1282AE28559"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Framed Blocks"
+			x: -6.5d
+			y: -3.5d
+			shape: "hexagon"
+			description: [
+				"FramedBlocks adds blocks of various shapes that can be made to look like almost any other block in the game."
+				""
+				"Usage:"
+				"Right click the block with almost any solid block to make it look alike."
+				"Right click the block with Glowstone Dust to make it produce light."
+				"Right click the block with a Framed Hammer to remove the camo."
+				"Framed Prism, Inner Prism and Double Prism Corners automatically activate a texture offset depending on their position when placed. This fixes the issue of prism corners not fitting together properly when building a larger surface out of these blocks. If this behaviour is not desired, you can toggle the offset state by left clicking the block with the Framed Hammer."
+				"The Framed Wrench can be used to cycle through different states of the camo block."
+				"The Framed Blueprint allows copying Framed Blocks including their camo and glowing state. The rotation of the Framed Block itself is not copied."
+				"The Framed Collapsible Block can be modified to create arbitrary slopes by changing the height of the four corners of a single block face with the Framed Hammer. Left click the corner on the face you want to change to move the face inward and left click the corner while sneaking to move the face outward."
+			]
+			id: "10EF7F6A09C3E6F9"
+			tasks: [
+				{
+					id: "35A6AD7C04092F24"
+					type: "item"
+					item: "framedblocks:framed_hammer"
+				}
+				{
+					id: "3AA752A517D08A93"
+					type: "item"
+					item: "framedblocks:framed_wrench"
+				}
+				{
+					id: "74935AB1A7097F9D"
+					type: "item"
+					item: {
+						id: "framedblocks:framed_blueprint"
+						Count: 1b
+						tag: {
+							blueprint_data: { }
+						}
+					}
+				}
+				{
+					id: "1ED870EBEF1AB71C"
+					type: "item"
+					item: "framedblocks:framed_cube"
+				}
+			]
+			rewards: [
+				{
+					id: "29853E8B25256224"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3E61EE23E5A898D5"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2A0EC47E0AC29AE0"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			shape: "hexagon"
+			description: [
+				"Tesseract allows you to transport &b&lItems&r, &b&lFluid&r and &b&lEnergy&r. Tesseracts work at &b&lany distance&r and even &b&lacross dimensions&r! Use multiple channels to have &b&ldifferent groups&r of Tesseracts!"
+				""
+				"&lAdding a channel:"
+				"1. Right-Click a Tesseract to open its gui"
+				"2. Click on the desired category tab at the top of the gui"
+				"3. Click the 'Create' button to open a new gui"
+				"4. Select the text field and enter the channel name"
+				"5. Set the lock button to the desired state, locked means private, unlocked means public"
+				"6. Click the 'Create' button to confirm"
+				"&lRemoving a channel:"
+				"1. Right-Click a Tesseract to open its gui"
+				"2. Click on the category tab corresponding to the channel at the top of the gui"
+				"3. Click on the channel in the list"
+				"4. Click the REMOVE button"
+				"&lSetting the channel on a Tesseract:"
+				"1. Right-Click a Tesseract to open its gui"
+				"2. Click on the desired category tab at the top of the gui"
+				"3. Click on the desired channel in the list"
+				"4. Click the SET button"
+			]
+			id: "6E207413F76A2FA7"
+			tasks: [{
+				id: "60B5565073F4BE50"
+				type: "item"
+				item: "tesseract:tesseract"
+			}]
+			rewards: [
+				{
+					id: "55EF679B231B889E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3BC98AC2851509BA"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "00C0E9D97BD13656"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			shape: "hexagon"
+			description: [
+				"The &b&lTravel Anchor&r is a Block that allows for teleportation over greater distances when you stand on it, even throughobstacles as long as the anchor can be selected."
+				"You can rightclick the Travel Anchor with any block in you offhand to change it's appearance and model."
+				"You can also name the Travel Anchor whatever you want."
+				""
+				"The &b&lTravel Staff&r allows the Player to teleport by using \"Shift+Rightclick\" and aiming at the desired location."
+				"Aim the Stuff at the Travel Anchor to teleport onto it."
+			]
+			id: "6367F02028EDFADE"
+			tasks: [
+				{
+					id: "38DC63544EB7139E"
+					type: "item"
+					item: "travel_anchors:travel_anchor"
+				}
+				{
+					id: "4AA17B49CDD5A3EC"
+					type: "item"
+					item: "travel_anchors:travel_staff"
+				}
+			]
+			rewards: [
+				{
+					id: "10A2D8AAD0EFAFFC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1C149E7FBCD71DC3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7ED8947569CF353A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: ["Entangled gives you the materials needed to bind two blocks together, allowing you to interact with either one as if they were the same block! This will allow you to transfer items, energy, fluids or whatever you want instantly, you can have more than six sides to work with or you could just hide your messy cables, the possibilities are endless!"]
+			id: "4C10B1843C1F735C"
+			tasks: [
+				{
+					id: "2D26880A01060B4D"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4A0985E8D7A45732"
+					type: "item"
+					item: {
+						id: "entangled:item"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7250E6202C1FB01B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "57399261010A3871"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "52C778C13F3B7B38"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"Large amount of decorative blocks. Covering architectural components and decorations of ancient civilizations such as East Asian civilizations, Western civilizations, and Mayan civilizations."
+				"There are also common decorations as well as sci-fi punk decorations."
+			]
+			id: "6B692F502B4149A1"
+			tasks: [
+				{
+					id: "7E0EE1EECDB1FF1D"
+					type: "item"
+					item: "xkdeco:fish_tank"
+				}
+				{
+					id: "2EAA6BE2462DD351"
+					type: "item"
+					item: "xkdeco:tech_console"
+				}
+				{
+					id: "787478303D1B5A44"
+					type: "item"
+					item: "xkdeco:solar_system_model_big"
+				}
+			]
+			rewards: [
+				{
+					id: "7D78AE6AA62BD81C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0802EC69A0AF617F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "20002B1C19BC8D4A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"The Experience Obelisk  allows you to conveniently store and retrieve XP, as well as passively collect experience orbs from the environment. This is a standalone version of EnderIO's experience obelisk (with the XP vacuum functionality)."
+				""
+				"As the block stores XP as Raw Experience fluid, you should be able to extract it via any mod that has fluid handling options with an extraction function and store it similarly using general fluid tanks."
+			]
+			id: "5A70126E1D82E605"
+			tasks: [{
+				id: "762DD5F28C112C98"
+				type: "item"
+				item: "experienceobelisk:xp_obelisk"
+			}]
+			rewards: [
+				{
+					id: "00DD744759E40AB0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2EC4AA5908F9EC77"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "732261B81684D030"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"You can use it for measuring energy transfer rates."
+				""
+				"The screen always displaying the current rate in order to keep you up-to-date."
+			]
+			id: "662F8EC1F2726A1C"
+			tasks: [{
+				id: "6723E88DC9409ABE"
+				type: "item"
+				item: "energymeter:meter"
+			}]
+			rewards: [
+				{
+					id: "0506900EC5DB6B8E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7A90AA2C650464F9"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1438D27D7072A752"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+	]
+}

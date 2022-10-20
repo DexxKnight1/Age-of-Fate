@@ -1,0 +1,506 @@
+{
+	id: "5164395CDB9E390D"
+	group: "4DBFE87F78D6054E"
+	order_index: 1
+	filename: "esimple_storage_network"
+	title: "&eSimple Storage Network"
+	icon: "storagenetwork:request"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.25d
+		y: -8.910714285714285d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&f&lWelcome to Simple Storage Network"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ssn.png"
+				}
+			}
+			x: -0.4285714285714235d
+			y: -8.339285714285715d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oDiamond Chest&r quest*"
+			dependencies: ["560D03B4986C4F6B"]
+			size: 1.5d
+			id: "15F6FC38CA52AAAB"
+			tasks: [{
+				id: "4A794C87F762B29A"
+				type: "item"
+				item: "storagenetwork:kabel"
+			}]
+			rewards: [
+				{
+					id: "70B21002B0D96887"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "28736D33584A8490"
+					type: "item"
+					item: "storagenetwork:kabel"
+					count: 12
+				}
+				{
+					id: "0A6EFD0BE186804E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			shape: "square"
+			dependencies: ["15F6FC38CA52AAAB"]
+			id: "2A4325EE4954C6F5"
+			tasks: [{
+				id: "694B558820178D61"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+			rewards: [
+				{
+					id: "6DBF23D94BBF9F87"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0D2567CF36458EF8"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "498A39A9C06C0BAA"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			shape: "square"
+			dependencies: ["15F6FC38CA52AAAB"]
+			id: "78FD41373672413C"
+			tasks: [{
+				id: "2530E2AD636198B6"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+			rewards: [
+				{
+					id: "50C1799346CBCFE2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2F7856E019B1AC6E"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "7058B557B4211310"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			shape: "square"
+			dependencies: ["15F6FC38CA52AAAB"]
+			id: "26FBC6FA4A9A4BC8"
+			tasks: [{
+				id: "51317CFFA1F0A0E0"
+				type: "item"
+				item: "storagenetwork:inventory"
+			}]
+			rewards: [
+				{
+					id: "70E11168CE7B9746"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "45B26D27E9E04443"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "7A42B4579DD52F0E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -7.0d
+			shape: "octagon"
+			dependencies: ["15F6FC38CA52AAAB"]
+			id: "0BDC439F3B151A0C"
+			tasks: [{
+				id: "4934B465DD309AE9"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+			rewards: [
+				{
+					id: "1C0883BB57F2DDFC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "289D614D53DC76AF"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 8
+				}
+				{
+					id: "26B580C903A58101"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			dependencies: ["15F6FC38CA52AAAB"]
+			id: "0CC022144397547A"
+			tasks: [{
+				id: "628E24358F88C52E"
+				type: "item"
+				item: "storagenetwork:exchange"
+			}]
+			rewards: [
+				{
+					id: "1BDB23B43889D5D8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C4B2841E9F3AE57"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6AC19E39B1DE94A1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			dependencies: ["15F6FC38CA52AAAB"]
+			id: "35D47BE0BF13D32B"
+			tasks: [{
+				id: "6B5854EA9D57D264"
+				type: "item"
+				item: "storagenetwork:collector"
+			}]
+			rewards: [
+				{
+					id: "6293BAECFBE21E50"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "263A729CC8C0C608"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "4CE172256FBC656A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -6.5d
+			shape: "octagon"
+			dependencies: ["15F6FC38CA52AAAB"]
+			id: "589D7AFBB805B692"
+			tasks: [{
+				id: "31370D20C5CC30D7"
+				type: "item"
+				item: "storagenetwork:import_kabel"
+			}]
+			rewards: [
+				{
+					id: "77FFEE2220CC8EDC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FAA578C8DBE9A02"
+					type: "item"
+					item: "minecraft:barrel"
+				}
+				{
+					id: "6B3C19C35815070D"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			shape: "octagon"
+			dependencies: ["589D7AFBB805B692"]
+			id: "420DEAD0C5B1BFE1"
+			tasks: [{
+				id: "021FB8549E38E1E8"
+				type: "item"
+				item: "storagenetwork:import_filter_kabel"
+			}]
+			rewards: [
+				{
+					id: "40AB5517526BE685"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "389FC3971ED17368"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "3652035B7FDB893C"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -6.5d
+			shape: "octagon"
+			dependencies: ["0BDC439F3B151A0C"]
+			id: "41EC85953EA15121"
+			tasks: [{
+				id: "75A4B65B0F9CC43B"
+				type: "item"
+				item: "storagenetwork:filter_kabel"
+			}]
+			rewards: [
+				{
+					id: "74F2B12E12CDF09B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0875D54B1B255C2A"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "02275D12C2C8C6AC"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			shape: "octagon"
+			dependencies: ["589D7AFBB805B692"]
+			id: "2520FDFDE976DBA0"
+			tasks: [{
+				id: "42737289FB6B9B49"
+				type: "item"
+				item: "storagenetwork:export_kabel"
+			}]
+			rewards: [
+				{
+					id: "2C5A6B40F3E1D8A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B0F075A2E649DAA"
+					type: "item"
+					item: "minecraft:observer"
+				}
+				{
+					id: "707D0A95349141AC"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -7.0d
+			shape: "hexagon"
+			dependencies: ["15F6FC38CA52AAAB"]
+			id: "1E855199C9EBFEFF"
+			tasks: [{
+				id: "2BD8345E4F5A0FF2"
+				type: "item"
+				item: "storagenetwork:stack_upgrade"
+			}]
+			rewards: [
+				{
+					id: "7003727671578359"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "167D90A6F5B3729E"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "7EBD535885A78FA3"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: ["1E855199C9EBFEFF"]
+			id: "2E3320935758BDDA"
+			tasks: [{
+				id: "1A6D60078ED0A5AB"
+				type: "item"
+				item: "storagenetwork:speed_upgrade"
+			}]
+			rewards: [
+				{
+					id: "3EA4A7AC5B69CA40"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6AC902BCA0ACEF11"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "7DC4B78716571876"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: [
+				"26FBC6FA4A9A4BC8"
+				"78FD41373672413C"
+				"2A4325EE4954C6F5"
+			]
+			id: "555BCDBB0ECF3ADD"
+			tasks: [{
+				id: "7E2C2656B756EBD6"
+				type: "item"
+				item: "storagenetwork:inventory_remote"
+			}]
+			rewards: [
+				{
+					id: "6A35DC1121C872EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3704177A78F1E025"
+					type: "item"
+					item: "storagenetwork:request"
+					count: 2
+				}
+				{
+					id: "612FC11191DC22FD"
+					type: "item"
+					item: "minecraft:sea_lantern"
+					count: 2
+				}
+				{
+					id: "4C42FC86512EBF28"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["555BCDBB0ECF3ADD"]
+			id: "490B909C901DE092"
+			tasks: [{
+				id: "21C4493F95B74725"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+			rewards: [
+				{
+					id: "6848C375EACE39DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "65E2342A664E7440"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "7BB9BBAEA7FE50AC"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["555BCDBB0ECF3ADD"]
+			id: "04065B7B9F95462C"
+			tasks: [{
+				id: "2BAB5E02567D3C70"
+				type: "item"
+				item: "storagenetwork:builder_remote"
+			}]
+			rewards: [
+				{
+					id: "14DD92DBC5C0C636"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "540AD289AE50B0CD"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "4CE9F5FE44D05DAA"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+			]
+		}
+	]
+}

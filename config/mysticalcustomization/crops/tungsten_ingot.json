@@ -1,0 +1,14 @@
+{
+    "name": "Tungsten Ingot",
+    "type": "resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "stalwart_dungeons:tungsten_ingot"
+    },
+    "color": "57E964",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    }
+}
+ 

@@ -1,0 +1,3415 @@
+{
+	id: "695FBD34B746B8CD"
+	group: "3B357E74DE0882BE"
+	order_index: 2
+	filename: "8pams_harvest_craft"
+	title: "&7Pam's HarvestCraft"
+	icon: "pamhc2crops:brusselsproutseeditem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 2.535714285714292d
+			y: -4.982142857142854d
+			width: 0.3d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -11.0d
+			y: -5.5d
+			width: 0.3d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			width: 0.3d
+			height: 1.0d
+			rotation: -5.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5357142857142776d
+			y: -2.9107142857142847d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/bread.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -10.0d
+			y: -2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 15.0d
+			image: "kubejs:textures/item/pommes.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: -7.0d
+			image: "kubejs:textures/item/kfc.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -11.5d
+			y: 0.4464285714285765d
+			width: 1.0d
+			height: 1.0d
+			rotation: 10.0d
+			image: "kubejs:textures/item/wheat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -11.892857142857139d
+			y: 0.3392857142857153d
+			width: 1.0d
+			height: 1.0d
+			rotation: -40.0d
+			image: "kubejs:textures/item/wheat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -12.321428571428562d
+			y: 0.4464285714285765d
+			width: 1.0d
+			height: 1.0d
+			rotation: -98.0d
+			image: "kubejs:textures/item/wheat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.7857142857142918d
+			y: 0.8035714285714306d
+			width: 1.0d
+			height: 3.0d
+			rotation: 90.0d
+			image: "kubejs:textures/item/firef.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.0714285714285765d
+			y: 0.9107142857142847d
+			width: 1.0d
+			height: 3.0d
+			rotation: -90.0d
+			image: "kubejs:textures/item/fire.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/spark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -8.0d
+			y: 2.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "7BD7D9B928A85D81"
+			tasks: [{
+				id: "26CB9AB60BA0EF9F"
+				type: "item"
+				item: "pamhc2crops:barleyseeditem"
+			}]
+			rewards: [
+				{
+					id: "049DBB451CECA3C4"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4D72434DE5D2E30E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "3B2ABB1C9A90A1E7"
+			tasks: [{
+				id: "3E211BEE8383846F"
+				type: "item"
+				item: "pamhc2crops:beanseeditem"
+			}]
+			rewards: [
+				{
+					id: "585270006DA8B7D3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2C5995130C02314C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "4CAB492EA25CADF9"
+			tasks: [{
+				id: "1BD00F9F2A0AA81F"
+				type: "item"
+				item: "pamhc2crops:bellpepperseeditem"
+			}]
+			rewards: [
+				{
+					id: "48AE196BD8269EE2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2E549B5695361E1F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "6A156E29D3C06B36"
+			tasks: [{
+				id: "4CC8A2BE67F833ED"
+				type: "item"
+				item: "pamhc2crops:broccoliseeditem"
+			}]
+			rewards: [
+				{
+					id: "681BF729F336CC64"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "54B1016FD02555DC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "511F74A70765D25F"
+			tasks: [{
+				id: "7D9DBD81AFC10E64"
+				type: "item"
+				item: "pamhc2crops:cornseeditem"
+			}]
+			rewards: [
+				{
+					id: "3A5570DCECB44F5E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7B1DA9394B2B54B4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "3F9895D9CF096307"
+			tasks: [{
+				id: "2611AB42834B550F"
+				type: "item"
+				item: "pamhc2crops:chilipepperseeditem"
+			}]
+			rewards: [
+				{
+					id: "14F436B193FCCBF9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "55399811D713CE9D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "2177506DA434F824"
+			tasks: [{
+				id: "0F38127E599B914B"
+				type: "item"
+				item: "pamhc2crops:celeryseeditem"
+			}]
+			rewards: [
+				{
+					id: "1A21DA151A1D3AB7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "60944A9697EC48DC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "0F23DDEE5F5573B7"
+			tasks: [{
+				id: "4A3B370F295C0E9B"
+				type: "item"
+				item: "pamhc2crops:garlicseeditem"
+			}]
+			rewards: [
+				{
+					id: "0749A8CAAC459533"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7BBE3527D33CDB2D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "42AB8B1FD2ED3C9B"
+			tasks: [{
+				id: "157A2119A246C553"
+				type: "item"
+				item: "pamhc2crops:eggplantseeditem"
+			}]
+			rewards: [
+				{
+					id: "0ABBD4656CD2A15D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "538BFA378BA99D95"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "6C366A9CE63A0FCD"
+			tasks: [{
+				id: "403CFCC3A1BDD55D"
+				type: "item"
+				item: "pamhc2crops:cucumberseeditem"
+			}]
+			rewards: [
+				{
+					id: "6D83EBEC6D88F05E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5DDB088EA97D415C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "1B5FA58475B2A0C5"
+			tasks: [{
+				id: "75BA1868CB802043"
+				type: "item"
+				item: "pamhc2crops:kohlrabiseeditem"
+			}]
+			rewards: [
+				{
+					id: "5CAF4EF2B29EEB55"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "662431330B3D9077"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "3C5EA60DE934668F"
+			tasks: [{
+				id: "3BD8CFB2615A2FD2"
+				type: "item"
+				item: "pamhc2crops:tealeafseeditem"
+			}]
+			rewards: [
+				{
+					id: "5F9E33713FEE7C98"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "710A92B75E1449AD"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "1B6BF4CC32B7F86C"
+			tasks: [{
+				id: "395424A30B00EDA7"
+				type: "item"
+				item: "pamhc2crops:lettuceseeditem"
+			}]
+			rewards: [
+				{
+					id: "43CF8D891873639D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "234A94484011B4DD"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "5E7B4C70F2D62C0B"
+			tasks: [{
+				id: "155FB7C176313D7C"
+				type: "item"
+				item: "pamhc2crops:coffeebeanseeditem"
+			}]
+			rewards: [
+				{
+					id: "1F4267C05D13B547"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "070DD40ED9B9E22E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "1DD3AA3443CD7C52"
+			tasks: [{
+				id: "36894542DC7872FC"
+				type: "item"
+				item: "pamhc2crops:onionseeditem"
+			}]
+			rewards: [
+				{
+					id: "52E782103B4BCD9F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "61021A952AB4FA70"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "64739FEB071B0D4F"
+			tasks: [{
+				id: "42A2896787E2A6D3"
+				type: "item"
+				item: "pamhc2crops:rutabagaseeditem"
+			}]
+			rewards: [
+				{
+					id: "508BB159984D1BBF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7AF0CB34EEDFD705"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "04827691B45BE611"
+			tasks: [{
+				id: "45A1A6B9C24445BF"
+				type: "item"
+				item: "pamhc2crops:riceseeditem"
+			}]
+			rewards: [
+				{
+					id: "7968066E936A1F26"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1310DD6840E5CD42"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "5850F20D7D73AE66"
+			tasks: [{
+				id: "56C51AD679CEEAD0"
+				type: "item"
+				item: "pamhc2crops:radishseeditem"
+			}]
+			rewards: [
+				{
+					id: "0E38CF656717A46D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7D710BA3E301672B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "04489EC0C6F3AC1B"
+			tasks: [{
+				id: "2A241E14D3521598"
+				type: "item"
+				item: "pamhc2crops:peasseeditem"
+			}]
+			rewards: [
+				{
+					id: "4A5A85CD671DC677"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5E596D58B62F9735"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "6A574950B62610FD"
+			tasks: [{
+				id: "4D306C0C2ED81277"
+				type: "item"
+				item: "pamhc2crops:scallionseeditem"
+			}]
+			rewards: [
+				{
+					id: "5431C3EC59ED43BF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "61DCEFACC9066CD2"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "2B85541852C75DAD"
+			tasks: [{
+				id: "43F17F6C3AD7D6A3"
+				type: "item"
+				item: "pamhc2crops:soybeanseeditem"
+			}]
+			rewards: [
+				{
+					id: "5DB5B6B8B6B42753"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3869A5ADC2C28C24"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "711C55E8F598152B"
+			tasks: [{
+				id: "1E2FA7AE75965AFB"
+				type: "item"
+				item: "pamhc2crops:spinachseeditem"
+			}]
+			rewards: [
+				{
+					id: "2509D77ED4AD584B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0D02F4BB0631ACE0"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "752EB814B12E8FAE"
+			tasks: [{
+				id: "08E7D300387FF5C6"
+				type: "item"
+				item: "pamhc2crops:sweetpotatoseeditem"
+			}]
+			rewards: [
+				{
+					id: "2BC2B8B8494E4DCC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5BDB83817963DC7E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "204E3B5AC85EA6E5"
+			tasks: [{
+				id: "5B2C01CA9E813EFB"
+				type: "item"
+				item: "pamhc2crops:tomatoseeditem"
+			}]
+			rewards: [
+				{
+					id: "402665C7C299481F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7945DA05979F6B80"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "36182F076FD63D5D"
+			tasks: [{
+				id: "2ACA24C68B3F86C2"
+				type: "item"
+				item: "pamhc2crops:turnipseeditem"
+			}]
+			rewards: [
+				{
+					id: "38BC60FD37CC745A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5B4C30730BF309AD"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "205B408536F6E374"
+			tasks: [{
+				id: "48792BBC03D2B421"
+				type: "item"
+				item: "pamhc2crops:zucchiniseeditem"
+			}]
+			rewards: [
+				{
+					id: "1D152523878D130E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1531822AAC87E2E7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["12638CDF16A10B50"]
+			id: "3CF0CAC91967D08F"
+			tasks: [{
+				id: "1C42B51FE3AD571A"
+				type: "item"
+				item: "pamhc2crops:wintersquashseeditem"
+			}]
+			rewards: [
+				{
+					id: "7642F291231B8EBF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "606FA082D06F2D1A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "&c&lDelicious Cakes"
+			x: 2.857142857142847d
+			y: -3.9999999999999964d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: ["4D34B7FD0EEF2A9D"]
+			size: 1.3d
+			id: "128A17001B384232"
+			tasks: [{
+				id: "1A260A0D6627E8FD"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+			rewards: [
+				{
+					id: "307A1A290FAB8196"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2B1F0B48CC4D6629"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "680DEDB84B6F98B0"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 2.7857142857142847d
+			y: -6.017857142857142d
+			dependencies: ["128A17001B384232"]
+			id: "59B660C460541FFB"
+			tasks: [{
+				id: "45B908E3A64F1BBF"
+				type: "item"
+				item: "thermal:spice_cake"
+			}]
+			rewards: [
+				{
+					id: "2F7A636A5AB67738"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "355933EA636D6992"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2C306FFEE51CA089"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 5.785714285714285d
+			y: -4.017857142857142d
+			dependencies: ["128A17001B384232"]
+			id: "477DF6A0E1494A00"
+			tasks: [{
+				id: "43C29781B2679CA5"
+				type: "item"
+				item: "pamhc2foodcore:chocolatecakeitem"
+			}]
+			rewards: [
+				{
+					id: "617B64F8B24B0CD7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "69168C9AFE47A4CD"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "22F354B503CD277A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 5.178571428571416d
+			y: -5.0d
+			dependencies: ["128A17001B384232"]
+			id: "1352E5EE585BE4B4"
+			tasks: [{
+				id: "5E6835A987481F9E"
+				type: "item"
+				item: "pamhc2foodcore:pumpkincheesecakeitem"
+			}]
+			rewards: [
+				{
+					id: "450533AC85108AB8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "33C6D4044F7462F0"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "00C1603F957073BF"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 2.7857142857142847d
+			y: -2.0178571428571423d
+			dependencies: ["128A17001B384232"]
+			id: "332D5708E09A8931"
+			tasks: [{
+				id: "7F339A6BF7FD8C0D"
+				type: "item"
+				item: "pamhc2foodcore:carrotcakeitem"
+			}]
+			rewards: [
+				{
+					id: "2D00F358D1C386BC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1A6316A88F0838A0"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2210658DDEF3618E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 4.0357142857142705d
+			y: -2.4642857142857117d
+			dependencies: ["128A17001B384232"]
+			id: "44106A758E650D21"
+			tasks: [{
+				id: "67957693F7AF6E6F"
+				type: "item"
+				item: "thermal:chocolate_cake"
+			}]
+			rewards: [
+				{
+					id: "0E8E6111461E4CEE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "64EBAE526CB68000"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "57888A3432D75804"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 5.178571428571416d
+			y: -3.035714285714281d
+			dependencies: ["128A17001B384232"]
+			id: "42DE84D0BB6A4F1A"
+			tasks: [{
+				id: "5A18FAF0B7899749"
+				type: "item"
+				item: "pamhc2foodcore:cheesecakeitem"
+			}]
+			rewards: [
+				{
+					id: "64F16B286F567D25"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "740D5E8B0E2A81E6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "346CAF04910DFA8E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 4.0357142857142705d
+			y: -5.607142857142858d
+			dependencies: ["128A17001B384232"]
+			id: "6337391711E1D015"
+			tasks: [{
+				id: "00F4AD3F3CE77A55"
+				type: "item"
+				item: "pamhc2foodextended:maplesyruppancakesitem"
+			}]
+			rewards: [
+				{
+					id: "2811293B477A7BE9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2F4293497E4DC6E2"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "465D60A733F51690"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&a&lWelcome to Pam's HarvestCraft"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/pam.png"
+				}
+			}
+			x: -11.821428571428577d
+			y: -5.066964285714285d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oOven&r quest*"
+			description: [
+				"Pam's HarvestCraft 2 is a Minecraft mod pack adding food items, their ingredients, and recipes to the game."
+				""
+				"It is the successor to HarvestCraft. It consists of the Food Core mod with the optional additions of Crops, Trees, and Food Extended."
+				""
+				"While the Food Core mod adds recipes to the vanilla Minecraft food items, the other mods add new items. Many of these are identical to those of HarvestCraft 1, but some also differ in appearance or crafting recipe, and some are new altogether, such as the new utensil Roller. Not all items of HarvestCraft 1 have been added to HarvestCraft 2, but more are expected to be added."
+			]
+			dependencies: ["1E9718F6A93F923A"]
+			size: 1.5d
+			id: "4097A648021E5698"
+			tasks: [{
+				id: "4D34B7FD0EEF2A9D"
+				type: "checkmark"
+				title: "Pam's Food"
+				icon: "pamhc2foodcore:fishandchipsitem"
+			}]
+			rewards: [
+				{
+					id: "14B20F0D8298258A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4BC45352AA15D495"
+					type: "item"
+					item: "minecraft:egg"
+					count: 12
+				}
+				{
+					id: "5441B0E7032803B4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -11.857142857142861d
+			y: -3.245535714285719d
+			dependencies: ["4097A648021E5698"]
+			id: "6A5A9AFA3885D6D4"
+			tasks: [{
+				id: "3F9020134DD16363"
+				type: "item"
+				item: {
+					id: "thermal:watering_can"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "581E71F92218FCD5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "442D88374D010049"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 8
+				}
+				{
+					id: "0C7BD8B4EB0B88F5"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -11.857142857142861d
+			y: -2.245535714285719d
+			dependencies: ["6A5A9AFA3885D6D4"]
+			id: "7220B4910D00DE34"
+			tasks: [{
+				id: "4B393FB59FEF5D91"
+				type: "item"
+				item: "mysticalagriculture:mystical_fertilizer"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "66EFC6598027C6FF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50570F0C056D3C31"
+					type: "item"
+					item: "mysticalagriculture:mystical_fertilizer"
+					count: 4
+				}
+				{
+					id: "2449DE3045F847A7"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5B17519328716524"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: -11.857142857142861d
+			y: -1.2455357142857189d
+			dependencies: ["7220B4910D00DE34"]
+			id: "65F8DD769A7B2650"
+			tasks: [{
+				id: "24BA273C2BAEA7BF"
+				type: "item"
+				item: "minecraft:composter"
+			}]
+			rewards: [
+				{
+					id: "56CE7085A91ADA02"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30C7E4E4C5C08E74"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "703D7E0D86AC00F1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["2886EB64960F7844"]
+			id: "50EF1D5E863E2EF2"
+			tasks: [{
+				id: "6191A5060B7D1286"
+				type: "item"
+				item: "pamhc2foodextended:cherrysodaitem"
+			}]
+			rewards: [
+				{
+					id: "1528513C25BA2936"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2A9FFF653FF5223D"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["2886EB64960F7844"]
+			id: "2E37B7805DEEB8AD"
+			tasks: [{
+				id: "45CDFFF1D9CFCA25"
+				type: "item"
+				item: "pamhc2foodextended:colasodaitem"
+			}]
+			rewards: [
+				{
+					id: "5660B0DE0CA68A03"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3E5CCD4619FFF5AD"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["2886EB64960F7844"]
+			id: "2FCF5E6302CA31C5"
+			tasks: [{
+				id: "05950C248FC9E8B8"
+				type: "item"
+				item: "pamhc2foodextended:gingersodaitem"
+			}]
+			rewards: [
+				{
+					id: "47EE13C26805D5F8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1F4ABCDF481B2AF1"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["2886EB64960F7844"]
+			id: "6A6155A4DA63DE80"
+			tasks: [{
+				id: "73DBCC77E45F8814"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitsodaitem"
+			}]
+			rewards: [
+				{
+					id: "69E16F87854D3BA9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5C9AE6776F9063A9"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["2886EB64960F7844"]
+			id: "0C7B230CCC39E494"
+			tasks: [{
+				id: "336C6FBCED091A9B"
+				type: "item"
+				item: "pamhc2foodextended:grapesodaitem"
+			}]
+			rewards: [
+				{
+					id: "6276A00C1DEFF42A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2A8B053230CA917F"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["2886EB64960F7844"]
+			id: "0C52714415FBBD2C"
+			tasks: [{
+				id: "4C98BCB2C529D8EE"
+				type: "item"
+				item: "pamhc2foodextended:lemonlimesodaitem"
+			}]
+			rewards: [
+				{
+					id: "6AC8045221C6E2B1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7C7BFF28B85A3202"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["2886EB64960F7844"]
+			id: "7D5CE253B69A3BBC"
+			tasks: [{
+				id: "3D0E5E9DA59C1767"
+				type: "item"
+				item: "pamhc2foodextended:orangesodaitem"
+			}]
+			rewards: [
+				{
+					id: "443A5461BFC1381E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "34749CC137C13D2E"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["2886EB64960F7844"]
+			id: "67D10DE27BEDB585"
+			tasks: [{
+				id: "07A9D19F96143BBE"
+				type: "item"
+				item: "pamhc2foodextended:rootbeersodaitem"
+			}]
+			rewards: [
+				{
+					id: "14ED075004CED088"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "10A29BB680EA3737"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["2886EB64960F7844"]
+			id: "732058D48C846A19"
+			tasks: [{
+				id: "3D9839E174FE638E"
+				type: "item"
+				item: "pamhc2foodextended:strawberrysodaitem"
+			}]
+			rewards: [
+				{
+					id: "3941118B542FC68F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "10B19785C6623447"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -2.0d
+			dependencies: ["421681DA3B369FF4"]
+			id: "4EE786BF8AAD6B6A"
+			tasks: [{
+				id: "13702B24ED8C59B2"
+				type: "item"
+				item: "pamhc2foodcore:applejuiceitem"
+			}]
+			rewards: [
+				{
+					id: "0E9946E3C7D3A709"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2EF9B80C39038E80"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			dependencies: ["421681DA3B369FF4"]
+			id: "7CD714017260398A"
+			tasks: [{
+				id: "5FC14DF82979D227"
+				type: "item"
+				item: "pamhc2foodcore:melonjuiceitem"
+			}]
+			rewards: [
+				{
+					id: "30AF0A4B51B507AC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7EF65D77CDD9BDCC"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			dependencies: ["421681DA3B369FF4"]
+			id: "40E6B5A5322C64BA"
+			tasks: [{
+				id: "44598109EF461F72"
+				type: "item"
+				item: "pamhc2foodcore:sweetberryjuiceitem"
+			}]
+			rewards: [
+				{
+					id: "17E40268D6E9B0B7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "222CB40BD89C4ECA"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["421681DA3B369FF4"]
+			id: "6D6BA9BEED92FD99"
+			tasks: [{
+				id: "0EED54C1B1721B8B"
+				type: "item"
+				item: "pamhc2foodextended:blueberryjuiceitem"
+			}]
+			rewards: [
+				{
+					id: "155F222B7F47BD57"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5F6BCAB8EC4BEBCF"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["421681DA3B369FF4"]
+			id: "70DC7A14F2C3E06F"
+			tasks: [{
+				id: "20E26AFB031FD0CD"
+				type: "item"
+				item: "pamhc2foodextended:kiwijuiceitem"
+			}]
+			rewards: [
+				{
+					id: "0A4F12B98E74D6C8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0293C08E8F80A343"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["421681DA3B369FF4"]
+			id: "1A5609D159723F0A"
+			tasks: [{
+				id: "7565482546405834"
+				type: "item"
+				item: "pamhc2foodextended:cherryjuiceitem"
+			}]
+			rewards: [
+				{
+					id: "35F2EC02CAF10616"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "07587A9F0FA61B80"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["421681DA3B369FF4"]
+			id: "37283F19AF30D9B3"
+			tasks: [{
+				id: "797BC947384E6CA0"
+				type: "item"
+				item: "pamhc2foodextended:grapejuiceitem"
+			}]
+			rewards: [
+				{
+					id: "3F1BFD2B6DC3EB59"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "24543C2110C6BBF7"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["421681DA3B369FF4"]
+			id: "477EF36C6EDD41B2"
+			tasks: [{
+				id: "05570379B000824C"
+				type: "item"
+				item: "pamhc2foodextended:lemonjuiceitem"
+			}]
+			rewards: [
+				{
+					id: "14752726ED991410"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7310B206C182DE2E"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["421681DA3B369FF4"]
+			id: "01A197846ED46974"
+			tasks: [{
+				id: "7778EA23EB5A93DD"
+				type: "item"
+				item: "pamhc2foodextended:pomegranatejuiceitem"
+			}]
+			rewards: [
+				{
+					id: "1207405CDF5650CD"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3761A92AA0AD5D76"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "3ED041EA300F0CD8"
+			tasks: [{
+				id: "137B2C1827E577AE"
+				type: "item"
+				item: "pamhc2foodextended:garlicchickenitem"
+			}]
+			rewards: [
+				{
+					id: "198415ABE3576718"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7E5398C941975FE2"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "26A665BE645DE45C"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "45EF4B1A7E28A5E7"
+			tasks: [{
+				id: "266E1DD7C4DCC7F6"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofishitem"
+			}]
+			rewards: [
+				{
+					id: "595ADD5CF004E903"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1CB475CB9B6F5233"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "31D92F31FD8A25D6"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "6C96B9D2AF451D68"
+			tasks: [{
+				id: "6FF4988B8A37B5F9"
+				type: "item"
+				item: "pamhc2foodextended:sausageitem"
+			}]
+			rewards: [
+				{
+					id: "5812391AC8637F20"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4A1EF77044B99B2D"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "657767DFE0AAF726"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "6531FC16531B61FA"
+			tasks: [{
+				id: "002874D0811799BF"
+				type: "item"
+				item: "pamhc2foodextended:chilidogitem"
+			}]
+			rewards: [
+				{
+					id: "7D67912698B8239C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "29CA62CFBE81FE8E"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "78CFD9A3BF83C8E6"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "387BEDCB521D3FB3"
+			tasks: [{
+				id: "6A53CD00141A052A"
+				type: "item"
+				item: "pamhc2foodcore:hotdogitem"
+			}]
+			rewards: [
+				{
+					id: "60E323E2939B3C25"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "788871857A83C735"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "787E4F3054432334"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "2E18564EBFD6D21D"
+			tasks: [{
+				id: "69118CFF1E42972C"
+				type: "item"
+				item: "pamhc2foodextended:bananasplititem"
+			}]
+			rewards: [
+				{
+					id: "44216CA3B80CAF25"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "66C36810FF6DCF1C"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "6E0F7F6DBD7196DA"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "43138ED2A7C7BD00"
+			tasks: [{
+				id: "4E4B0E3584EF94A8"
+				type: "item"
+				item: "pamhc2foodcore:gummybearsitem"
+			}]
+			rewards: [
+				{
+					id: "6AB776902920E4D9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "31AF232A8C88D5B9"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "7D71907576BB0AC3"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "4A4B86944BE53B96"
+			tasks: [{
+				id: "4F1ABA8B37FEB570"
+				type: "item"
+				item: "pamhc2foodcore:friesitem"
+			}]
+			rewards: [
+				{
+					id: "081F914FA8D66D88"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3FE81630426DB335"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "2F2DC6AB614CF4A7"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "1562E7A8C4E87C7A"
+			tasks: [{
+				id: "18786B14594CFD2F"
+				type: "item"
+				item: "pamhc2foodcore:fishsticksitem"
+			}]
+			rewards: [
+				{
+					id: "5AB1DDDC0D5912F5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0A369F432AED5B34"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4C5E0EEDE39E5FEA"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -5.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "036D539C6FEA7BBB"
+			tasks: [{
+				id: "2E17815B407EF8C3"
+				type: "item"
+				item: "pamhc2foodcore:fishandchipsitem"
+			}]
+			rewards: [
+				{
+					id: "6F4335208C5048C0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3BEEEB764D5AF5E8"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "53D52F5665D0EEC1"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "5C2CF20B0EC68000"
+			tasks: [{
+				id: "6660A2DC794B68B2"
+				type: "item"
+				item: "pamhc2foodextended:delightedmealitem"
+			}]
+			rewards: [
+				{
+					id: "0887A55665AF9769"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2DC2A47CCBD56FDC"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "1A830FD4BCD5B0A0"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "220AA5F7F6FE08E4"
+			tasks: [{
+				id: "3FA4EB40EFAFB053"
+				type: "item"
+				item: "pamhc2foodcore:basichamburgeritem"
+			}]
+			rewards: [
+				{
+					id: "53576C26FF069736"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "30AC6A1D19ED9976"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "40A5586A6FC13396"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "2FEA56492D0DC2A4"
+			tasks: [{
+				id: "7E45F914A91721E9"
+				type: "item"
+				item: "pamhc2foodcore:basiccheeseburgeritem"
+			}]
+			rewards: [
+				{
+					id: "3DECC9B3FDCD19C5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "530B9DBA58A3D387"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "24E49D8528780ED1"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "1E0CD828B5B9C3B5"
+			tasks: [{
+				id: "7D117D0F67C7F4CC"
+				type: "item"
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}]
+			rewards: [
+				{
+					id: "6ABC7E1E405FCB25"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "647B80F6D0E50076"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "73F2CC41A462A438"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "2E1794E1E85E0D2D"
+			tasks: [{
+				id: "6D97AF385852B8B7"
+				type: "item"
+				item: "pamhc2foodcore:bakedvegetablemedlyitem"
+			}]
+			rewards: [
+				{
+					id: "1186B642C647737C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "412578618C076F79"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "74C9D8ADEC22D503"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "22A69246F1388B5F"
+			tasks: [{
+				id: "77C9299FC7DE63B3"
+				type: "item"
+				item: "pamhc2foodcore:fruitsaladitem"
+			}]
+			rewards: [
+				{
+					id: "19D67FAC700734C4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "504FBB5B3E29CC14"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4812C3BD6BE934FB"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "1A2BBC827904BE95"
+			tasks: [{
+				id: "2CAF9C03292A1AC5"
+				type: "item"
+				item: "pamhc2foodextended:cornonthecobitem"
+			}]
+			rewards: [
+				{
+					id: "3351D5D1A1FAEF19"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1FF7E2BBA4C7B22E"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "50C24E92846BA75B"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "421D9B977BA2261A"
+			tasks: [{
+				id: "040C542B73C71C85"
+				type: "item"
+				item: "pamhc2foodextended:epicbltitem"
+			}]
+			rewards: [
+				{
+					id: "1DD33115A69DD49D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4B9824110A2F5BBE"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "0C62D6D53199B8E9"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -6.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "465A55120B412175"
+			tasks: [{
+				id: "75AC6892126E40F1"
+				type: "item"
+				item: "pamhc2foodcore:applepieitem"
+			}]
+			rewards: [
+				{
+					id: "41222832B91AEFC2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1D497C71D783695F"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "19A7D0B98ACB20B6"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "11221D310C47C37C"
+			tasks: [{
+				id: "74026949F58D227E"
+				type: "item"
+				item: "pamhc2foodcore:sweetberrypieitem"
+			}]
+			rewards: [
+				{
+					id: "4DE98DBCEDF07FBE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2082C7837B790FE3"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "47E52688DD296EF0"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "3604FA90DDB3000F"
+			tasks: [{
+				id: "03D044DF73ABBB90"
+				type: "item"
+				item: "pamhc2foodextended:gooseberrypieitem"
+			}]
+			rewards: [
+				{
+					id: "30F4DC4DAC7800FE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "55A7138E219E8F89"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "6265058554263D17"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "254FCB3438DB7431"
+			tasks: [{
+				id: "7A59FEFFCEAF3596"
+				type: "item"
+				item: "pamhc2foodextended:plumpieitem"
+			}]
+			rewards: [
+				{
+					id: "56CC5AC324BA85AE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "44C08AE78F60DEBF"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "3E27FDD9FBFE6E1A"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "1770255237DDF35F"
+			tasks: [{
+				id: "14D4C86D3ACE6AB8"
+				type: "item"
+				item: "pamhc2foodextended:blackberrypieitem"
+			}]
+			rewards: [
+				{
+					id: "6C1075EF77B2522C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2017E0EAFE3C2D92"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "10281A2AD7066BF2"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "64A447C694448DC0"
+			tasks: [{
+				id: "6691672D9C00D92C"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitpieitem"
+			}]
+			rewards: [
+				{
+					id: "73342FD7DF42B105"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0C512A24D979A7DD"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "169C9932BA3D85E6"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "39511467F82D499E"
+			tasks: [{
+				id: "021D0FEDB41880D6"
+				type: "item"
+				item: "pamhc2foodextended:apricotpieitem"
+			}]
+			rewards: [
+				{
+					id: "1CBADB1443DCC147"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6264F5A1B649425F"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "32B4B65B47F8A2BF"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "235896C489903A5C"
+			tasks: [{
+				id: "74A3B41F2BA8F239"
+				type: "item"
+				item: "pamhc2foodextended:strawberrypieitem"
+			}]
+			rewards: [
+				{
+					id: "153499155563B391"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "00A7C3372EED6494"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "2567EC8FD3F1AE49"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["6A556AADBB9C908A"]
+			id: "389D9986C2FFA62F"
+			tasks: [{
+				id: "5A1E24DCA70F084A"
+				type: "item"
+				item: "pamhc2foodextended:starfruitpieitem"
+			}]
+			rewards: [
+				{
+					id: "05A6D1B566334418"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0349CBE2688B3E9A"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3CDF561E09594CF5"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -4.5d
+			shape: "hexagon"
+			dependencies: ["6A556AADBB9C908A"]
+			id: "3F25ED25EDE0213D"
+			tasks: [{
+				id: "57FF8B037F50A9E6"
+				type: "item"
+				item: "pamhc2foodcore:epicbaconitem"
+			}]
+			rewards: [
+				{
+					id: "1A98C82E5C672AA4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1D837468338C7FBB"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "4CD6CBDDC29A5E80"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: ["6A556AADBB9C908A"]
+			id: "367A550658E6E1C2"
+			tasks: [{
+				id: "3A9C49D2D825F8D9"
+				type: "item"
+				item: "pamhc2foodcore:baconandeggsitem"
+			}]
+			rewards: [
+				{
+					id: "2C5620E9E6883274"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "786BC00C93ADA61E"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "0A43120D611CFD07"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: ["6A556AADBB9C908A"]
+			id: "7014EDE04EF8EADA"
+			tasks: [{
+				id: "1ED41BA767640F12"
+				type: "item"
+				item: "pamhc2foodcore:chocolatebaconitem"
+			}]
+			rewards: [
+				{
+					id: "03A9B09C988D4271"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0D65F155CC47230A"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "4F4920555F57DBDD"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			shape: "hexagon"
+			dependencies: ["6A556AADBB9C908A"]
+			id: "400712BA9A880341"
+			tasks: [{
+				id: "51E95CB04869563C"
+				type: "item"
+				item: "pamhc2foodextended:cookedtofaconitem"
+			}]
+			rewards: [
+				{
+					id: "0C153ACB1F4DB1F8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5A44B951C2358DE9"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "7A59AB0F129FFFA6"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			dependencies: ["23BD6FBC491C8709"]
+			id: "1722155C8309861A"
+			tasks: [{
+				id: "2C45B2A71442B8E5"
+				type: "item"
+				item: "pamhc2foodcore:melonsmoothieitem"
+			}]
+			rewards: [
+				{
+					id: "05EAA317B14CF010"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2AB03158A0A59963"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			dependencies: ["23BD6FBC491C8709"]
+			id: "22F6B4DCA1A31E40"
+			tasks: [{
+				id: "53A23BDCEE9C33CD"
+				type: "item"
+				item: "pamhc2foodextended:bananasmoothieitem"
+			}]
+			rewards: [
+				{
+					id: "344D1C57460E217B"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7A89C429F66FF692"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["23BD6FBC491C8709"]
+			id: "50ED0B239F9D2627"
+			tasks: [{
+				id: "68A45EBEBC6B5CC6"
+				type: "item"
+				item: "pamhc2foodextended:strawberrysmoothieitem"
+			}]
+			rewards: [
+				{
+					id: "42B9169E161316CF"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "49B02042B39AF854"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["23BD6FBC491C8709"]
+			id: "10A5E685E8EBF815"
+			tasks: [{
+				id: "47DCA00D036016C2"
+				type: "item"
+				item: "pamhc2foodextended:kiwismoothieitem"
+			}]
+			rewards: [
+				{
+					id: "7C9456250FB5753C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "12F429E0F8987B70"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["23BD6FBC491C8709"]
+			id: "3FD74C4BDDAA5499"
+			tasks: [{
+				id: "55ACE1A186AFBD96"
+				type: "item"
+				item: "pamhc2foodextended:mangosmoothieitem"
+			}]
+			rewards: [
+				{
+					id: "6721B07E6AA8AFA2"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "0F2D8099961F62DA"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["23BD6FBC491C8709"]
+			id: "708D22D6C32F863E"
+			tasks: [{
+				id: "17AAB13F98565876"
+				type: "item"
+				item: "pamhc2foodextended:apricotsmoothieitem"
+			}]
+			rewards: [
+				{
+					id: "322E69193A3D33DA"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "528F9FA6E3B75C53"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["23BD6FBC491C8709"]
+			id: "505AF5AF62DDB97E"
+			tasks: [{
+				id: "193456A3628ED53E"
+				type: "item"
+				item: "pamhc2foodextended:grapesmoothieitem"
+			}]
+			rewards: [
+				{
+					id: "21F386735F5C4334"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "63C01B505E4D306A"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["23BD6FBC491C8709"]
+			id: "4CE6447CDF791B8B"
+			tasks: [{
+				id: "1D019275F6084991"
+				type: "item"
+				item: "pamhc2foodextended:pineapplesmoothieitem"
+			}]
+			rewards: [
+				{
+					id: "57437A8DC5191F9C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7496BFE277FBAE41"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["23BD6FBC491C8709"]
+			id: "6552879197F40A2A"
+			tasks: [{
+				id: "07CAA491E66324C5"
+				type: "item"
+				item: "pamhc2foodextended:peachsmoothieitem"
+			}]
+			rewards: [
+				{
+					id: "6302F6D543B2A15B"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "6EBADF9A6B710C2C"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "*Unlocked by completing the &b&l&oFurnace&r quest*"
+			dependencies: ["27C2B59611A27ABE"]
+			id: "6DF3BF857AB480DE"
+			tasks: [{
+				id: "6D9847297C2473F1"
+				type: "item"
+				item: "pamhc2crops:hotcoffeeitem"
+			}]
+			rewards: [
+				{
+					id: "1992619384129B80"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5F4144C47B2A9D5E"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "*Unlocked by completing the &b&l&oFurnace&r quest*"
+			dependencies: ["27C2B59611A27ABE"]
+			id: "1D545E6AF9144E16"
+			tasks: [{
+				id: "79EA75944848D314"
+				type: "item"
+				item: "pamhc2crops:hotteaitem"
+			}]
+			rewards: [
+				{
+					id: "34E891217DB6743C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "75B1FCB3FADFCB02"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["60B1DC1E9796B14B"]
+			id: "2957A2B57023A964"
+			tasks: [{
+				id: "22578C2C674369BF"
+				type: "item"
+				item: "pamhc2foodcore:cuttingboarditem"
+			}]
+			rewards: [
+				{
+					id: "49B64209110FA97F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0774071D0919E80A"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 4.0d
+			shape: "hexagon"
+			dependencies: ["60B1DC1E9796B14B"]
+			id: "6921E1336281DB5A"
+			tasks: [{
+				id: "59D62FF4E05B5355"
+				type: "item"
+				item: "pamhc2foodcore:grinderitem"
+			}]
+			rewards: [
+				{
+					id: "7DAF4B9A96E4F7B5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6FA76EE2B98B09B4"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["60B1DC1E9796B14B"]
+			id: "66CEFD7FE7A4BB9D"
+			tasks: [{
+				id: "2886EB64960F7844"
+				type: "item"
+				item: "pamhc2foodcore:potitem"
+			}]
+			rewards: [
+				{
+					id: "40A1018E368B30F0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6C017BCB28184F73"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["60B1DC1E9796B14B"]
+			id: "748E9D2C4F95E658"
+			tasks: [{
+				id: "7DB3B6F1AFFD63E7"
+				type: "item"
+				item: "pamhc2foodcore:saucepanitem"
+			}]
+			rewards: [
+				{
+					id: "0C6B7952710327F2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "369CB704E41ACFE7"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["60B1DC1E9796B14B"]
+			id: "72DDE74E0AC704E3"
+			tasks: [{
+				id: "0C23B9780A2052B5"
+				type: "item"
+				item: "pamhc2foodcore:skilletitem"
+			}]
+			rewards: [
+				{
+					id: "0EC9986658634532"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2C59B203CFFC2AF1"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["60B1DC1E9796B14B"]
+			id: "655AA7C830E7B215"
+			tasks: [{
+				id: "13C0BC1C66A6C9FA"
+				type: "item"
+				item: "pamhc2foodcore:rolleritem"
+			}]
+			rewards: [
+				{
+					id: "6BB37C1A53F0F531"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "27EEBA82BA5C0E77"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			shape: "hexagon"
+			dependencies: ["60B1DC1E9796B14B"]
+			id: "3EB9C4A938D5FBE6"
+			tasks: [{
+				id: "421681DA3B369FF4"
+				type: "item"
+				item: "pamhc2foodcore:juiceritem"
+			}]
+			rewards: [
+				{
+					id: "3461A84D38CABB92"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3CC132F97EE74969"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 4.0d
+			shape: "hexagon"
+			dependencies: ["60B1DC1E9796B14B"]
+			id: "7AB41D266B1FBCBA"
+			tasks: [{
+				id: "60283F3F54ADD2AB"
+				type: "item"
+				item: "pamhc2foodcore:bakewareitem"
+			}]
+			rewards: [
+				{
+					id: "59BC851E97852B11"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "18FF5065301BCC5C"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			title: "&e&lYogurt Mania"
+			x: 3.5d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["4D34B7FD0EEF2A9D"]
+			size: 1.3d
+			id: "4B2F23A5D6334291"
+			tasks: [{
+				id: "00FAA7B57957F73D"
+				type: "item"
+				item: "pamhc2foodcore:yogurtitem"
+			}]
+			rewards: [
+				{
+					id: "527FCAE7D167D37A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4BEE7CA7C8392EAC"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "1BAF0DC5168AEE34"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "5CD8BBBD257D6C25"
+			tasks: [{
+				id: "712F779D1481047D"
+				type: "item"
+				item: "pamhc2foodextended:blueberryyogurtitem"
+			}]
+			rewards: [
+				{
+					id: "4D23F1B32CB525AF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "54FA6471159ACA1B"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "285242DCA66CA98A"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "76868E9B76A54C30"
+			tasks: [{
+				id: "15DC65D874219118"
+				type: "item"
+				item: "pamhc2foodextended:bananayogurtitem"
+			}]
+			rewards: [
+				{
+					id: "0B5E09E55BDF0F27"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1C9FE81282F12FB6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "18D52A73C6B28D5F"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "715846000710407E"
+			tasks: [{
+				id: "2931AF1F91719CC3"
+				type: "item"
+				item: "pamhc2foodextended:cherryyogurtitem"
+			}]
+			rewards: [
+				{
+					id: "31A5D7247F0FDF6D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5BC26031A0944177"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "280D3F46AAAA1426"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "46468E8C92D33C69"
+			tasks: [{
+				id: "524AAE1FD5AE7364"
+				type: "item"
+				item: "pamhc2foodextended:passionfruityogurtitem"
+			}]
+			rewards: [
+				{
+					id: "0770EA7278F9686D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1EA1FAF768CBC539"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5D70F40788110BD1"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "72C57A218DF3AE44"
+			tasks: [{
+				id: "2B05BE0DF7AE3219"
+				type: "item"
+				item: "pamhc2foodextended:grapeyogurtitem"
+			}]
+			rewards: [
+				{
+					id: "3CDDAA511D30EC1E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "73CCA03C00187249"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "50082208303B36D1"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "53DAC1CE6E5C7D25"
+			tasks: [{
+				id: "06D19E044AE35D6B"
+				type: "item"
+				item: "pamhc2foodextended:plumyogurtitem"
+			}]
+			rewards: [
+				{
+					id: "3AD7996B93D4A566"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "43057E787A2D7FB1"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "379CC3EA7DD5E16D"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "766DBFBEB8DF02E1"
+			tasks: [{
+				id: "4B4C4CAEAA5F0912"
+				type: "item"
+				item: "pamhc2foodextended:mangoyogurtitem"
+			}]
+			rewards: [
+				{
+					id: "23EE9A927EB5841C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "660FC254A9A9B308"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "063002C9C3ED5997"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "45F9382059EC9604"
+			tasks: [{
+				id: "5241D618076C0964"
+				type: "item"
+				item: "pamhc2foodextended:kiwiyogurtitem"
+			}]
+			rewards: [
+				{
+					id: "0891503FC1A95F71"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "061B3C2E8F98E6D6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "54C610465FFCDD09"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "612B18917CE7C2B5"
+			tasks: [{
+				id: "583F84F71ACFE006"
+				type: "item"
+				item: "pamhc2foodextended:figyogurtitem"
+			}]
+			rewards: [
+				{
+					id: "5246EE46A78C1107"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "327B4324858DE21C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "40CF72526C6D9CE2"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "39C227B8EA9AFA71"
+			tasks: [{
+				id: "3144BE72F370E210"
+				type: "item"
+				item: "pamhc2foodextended:apricotyogurtitem"
+			}]
+			rewards: [
+				{
+					id: "6C3FFA5FB13AA528"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "57778B5A8397908F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "13367BFA5AE360FA"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "65C06431044152D7"
+			tasks: [{
+				id: "4C16AF4D44D4E508"
+				type: "item"
+				item: "pamhc2foodextended:strawberryyogurtitem"
+			}]
+			rewards: [
+				{
+					id: "5FD51CFE903D3D35"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "633AE80BC96504A6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2C5B08AC3E64D636"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["4B2F23A5D6334291"]
+			id: "084BBE08974C8F14"
+			tasks: [{
+				id: "1886B252AB013062"
+				type: "item"
+				item: "pamhc2foodextended:pearyogurtitem"
+			}]
+			rewards: [
+				{
+					id: "275A43944DBC3B5A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7D99547D22DC5608"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "524875EF4D69AE4B"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			title: "&f&lCooking Utensils"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ku.png"
+				}
+			}
+			x: -9.5d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oCooking Table&r quest*"
+			description: [
+				"HarvestCraft adds multiple Cooking Utensils for use in making recipes."
+				""
+				"Use these items in a crafting grid with the proper foods to create delicious meals and snacks. These items are reusable."
+			]
+			dependencies: ["7886A7F2FFC72A07"]
+			id: "1AACEEA2A80195CC"
+			tasks: [{
+				id: "60B1DC1E9796B14B"
+				type: "checkmark"
+				title: "Cooking Utensils"
+			}]
+			rewards: [
+				{
+					id: "772BAEA23973AD42"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "19F66837D5061C74"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1AF246AE42FE744D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "&f&lSeeds"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/se.png"
+				}
+			}
+			x: -9.5d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oIron Hoe&r quest*"
+			dependencies: ["35F2B56AF72FBDCB"]
+			id: "7BDE5E314639F0CA"
+			tasks: [{
+				id: "12638CDF16A10B50"
+				type: "checkmark"
+				title: "Seeds"
+			}]
+			rewards: [
+				{
+					id: "39D5CBD5C28D01F9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5971E7F109A605BE"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "434A641F98EC485D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["60B1DC1E9796B14B"]
+			id: "1554EF2CF2D1A2E5"
+			tasks: [{
+				id: "23BD6FBC491C8709"
+				type: "item"
+				item: "pamhc2foodcore:mixingbowlitem"
+			}]
+			rewards: [
+				{
+					id: "7A5434B76A2309A5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "06F1CFCE5F4CD8EE"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			title: "&f&lLet's Cook"
+			x: -9.5d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "*Will be unlocked after crafting all 9 &b&l&oCooking Utensils&r*"
+			dependencies: [
+				"13C0BC1C66A6C9FA"
+				"23BD6FBC491C8709"
+				"22578C2C674369BF"
+				"0C23B9780A2052B5"
+				"7DB3B6F1AFFD63E7"
+				"2886EB64960F7844"
+				"60283F3F54ADD2AB"
+				"421681DA3B369FF4"
+				"59D62FF4E05B5355"
+			]
+			id: "1F1BBB29AF96E104"
+			tasks: [{
+				id: "6A556AADBB9C908A"
+				type: "checkmark"
+				title: "Let's Cook"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/food.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1909A978C543CBA1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E4B38AD7CFC0033"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "3B78DB074B71FDE4"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+	]
+}

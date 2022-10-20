@@ -1,0 +1,4011 @@
+{
+	id: "059EE974D686567D"
+	group: "66971E0EF19CA037"
+	order_index: 8
+	filename: "dextended_crafting"
+	title: "&dExtended Crafting"
+	icon: "extendedcrafting:ultimate_singularity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 4.142857142857139d
+		y: -15.589285714285722d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -5.0d
+			y: -12.367857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "3AC9CDB30455CFC7"
+			tasks: [{
+				id: "6FD3E92C40DF4BF0"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:gold"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1DC575F246CBCC99"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0F0AA9B69FCCF771"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "21611D253155C010"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1271EFFD73EF2B36"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["183E47DFBC340187"]
+			id: "00BF1724D4F902C9"
+			tasks: [{
+				id: "083864D1D5521A55"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+			rewards: [
+				{
+					id: "722D11DB429E2BCE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "22DA3537CF259665"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "7507B3C0814E4F8C"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "13CB608C6715F437"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -13.5d
+			dependencies: ["5530C0D8BF092FCA"]
+			id: "6C8754CBAA4B7D90"
+			tasks: [{
+				id: "1F8F90D381CFBC0B"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+			rewards: [
+				{
+					id: "4644A399C7D36B24"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "33140B5E07D69BC1"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7591981C18370A50"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -13.0d
+			dependencies: ["6C8754CBAA4B7D90"]
+			id: "7E21D8137624442D"
+			tasks: [{
+				id: "0B90F5DB00927532"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
+			rewards: [
+				{
+					id: "5059C78C5CC3E223"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "3AD877149729C5C6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0C291EFF32751EF5"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			id: "183E47DFBC340187"
+			tasks: [{
+				id: "6FCDDC1725F9112D"
+				type: "item"
+				item: "extendedcrafting:basic_component"
+			}]
+			rewards: [
+				{
+					id: "5AE6BCB303392DE1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "65783EC24F8C9E59"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "44FA8C30E3312488"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			id: "47D23E9CB93DE790"
+			tasks: [{
+				id: "1B37ED02929B9A9D"
+				type: "item"
+				item: "extendedcrafting:advanced_component"
+			}]
+			rewards: [
+				{
+					id: "7977D77292549C43"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E29681E3E49B855"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "7B77124D9C4DC376"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -14.5d
+			dependencies: ["6C8754CBAA4B7D90"]
+			id: "5974F712DA017C94"
+			tasks: [{
+				id: "65888C9373BDE859"
+				type: "item"
+				item: "extendedcrafting:black_iron_slate"
+			}]
+			rewards: [
+				{
+					id: "67112CE18B7B1588"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "4DB039D78E25494F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "11EFC2B73716A42E"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			id: "790B36479144770F"
+			tasks: [{
+				id: "655EE2C39F3D4A3B"
+				type: "item"
+				item: "extendedcrafting:elite_component"
+			}]
+			rewards: [
+				{
+					id: "00EAD3A92FB95802"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7F9BCD6D22B44FFC"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "7CEC8E31849AB419"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "3913AD3112AC3516"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			id: "74C4FD5EF14EDB3A"
+			tasks: [{
+				id: "5ED6E0A246579FCC"
+				type: "item"
+				item: "extendedcrafting:ultimate_component"
+			}]
+			rewards: [
+				{
+					id: "1D6560348F266270"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1AD6ED97055D8286"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "266F3B687B571712"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "61A06DCA62CEEB63"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"22698729A224CCBC"
+			]
+			id: "058BAA533EFE63EB"
+			tasks: [{
+				id: "2043A39906AD2C1E"
+				type: "item"
+				item: "extendedcrafting:redstone_component"
+			}]
+			rewards: [
+				{
+					id: "222906277E8EB209"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7BB7D5C2724C4C15"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "221D63495D9321C6"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"0C43E0D8C4C8743F"
+			]
+			id: "33565398C0DA7135"
+			tasks: [{
+				id: "6143CD2016F44AE8"
+				type: "item"
+				item: "extendedcrafting:ender_component"
+			}]
+			rewards: [
+				{
+					id: "66FE88B7CA746354"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7E442E2A3D2FD491"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0AD85B1F07950F39"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"386E842C193E1B4F"
+			]
+			id: "501A8D68AA146608"
+			tasks: [{
+				id: "2781E8CD4FE980FC"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_component"
+			}]
+			rewards: [
+				{
+					id: "697D04B41793D84A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F49648E57582E7E"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3A3737C3A1269B0B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"0A6FFA0295BE1616"
+			]
+			id: "7C3C6EE0AF2DF234"
+			tasks: [{
+				id: "453DD53D65CA3456"
+				type: "item"
+				item: "extendedcrafting:crystaltine_component"
+			}]
+			rewards: [
+				{
+					id: "4480E77D89994B82"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4EB18FA01F99E29E"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "463C09A32EB7CF9C"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "2EA99A5722CAB307"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"65FCFDB9AABCE966"
+			]
+			id: "3CB10BBE42C7A96C"
+			tasks: [{
+				id: "6496DE982C9FFD9A"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_component"
+			}]
+			rewards: [
+				{
+					id: "6958A5C39F92A222"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1A46300213664B77"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "4003657097608010"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -13.5d
+			dependencies: ["5530C0D8BF092FCA"]
+			id: "22698729A224CCBC"
+			tasks: [{
+				id: "144F4E5A99402EA8"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+			}]
+			rewards: [
+				{
+					id: "07ABB495030849F5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "26C8F1C0690C23A5"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "23AEB5FDD065801E"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -13.5d
+			dependencies: ["5530C0D8BF092FCA"]
+			id: "0C43E0D8C4C8743F"
+			tasks: [{
+				id: "2580DAA4B175FE13"
+				type: "item"
+				item: "extendedcrafting:ender_ingot"
+			}]
+			rewards: [
+				{
+					id: "19425D72CDE62497"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5F5A343F8CD0E676"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "52D328EE0997FAAD"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -13.5d
+			dependencies: ["0C43E0D8C4C8743F"]
+			id: "11E16D072634AAF5"
+			tasks: [{
+				id: "63C7DA2D36D1B2D9"
+				type: "item"
+				item: "extendedcrafting:ender_crafter"
+			}]
+			rewards: [
+				{
+					id: "6193FE00966B025D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "37AEE64BCA837D13"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "3E9ED60638672049"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "6A56F438925E0EBA"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -13.5d
+			dependencies: ["11E16D072634AAF5"]
+			id: "2EC1D0576E0D417C"
+			tasks: [{
+				id: "5C2D2D8EA44EC9A3"
+				type: "item"
+				item: "extendedcrafting:ender_star"
+			}]
+			rewards: [
+				{
+					id: "3656BEABEC65A314"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "612DE2E29D71E1A0"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3416B5F01A2A19FD"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "1FD69E93A011401B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -14.5d
+			dependencies: ["2EC1D0576E0D417C"]
+			id: "386E842C193E1B4F"
+			tasks: [{
+				id: "76B078734C493219"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+			}]
+			rewards: [
+				{
+					id: "327524BF39FDFA77"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "25D9FBCD4E45D107"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "5D1CEA0D550C7DFC"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "4AAA9145E4A1E067"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "511D91E1FE250460"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -10.5d
+			shape: "octagon"
+			dependencies: ["183E47DFBC340187"]
+			id: "7BA12D4416DFE365"
+			tasks: [{
+				id: "6B74D9EF98EC52C1"
+				type: "item"
+				item: "extendedcrafting:basic_catalyst"
+			}]
+			rewards: [
+				{
+					id: "69749952C22D7CED"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "4F5A76BC030373C0"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "46D3E6C8704E814F"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "7E147BD38E2DC5D1"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -10.5d
+			shape: "octagon"
+			dependencies: ["47D23E9CB93DE790"]
+			id: "36EC2AF9842DE616"
+			tasks: [{
+				id: "09949A29031EE658"
+				type: "item"
+				item: "extendedcrafting:advanced_catalyst"
+			}]
+			rewards: [
+				{
+					id: "3FA064B88256B550"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "4618F19A190602C3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "01D7D3538E4656BF"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "15C7C7DE99DE5A8E"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -10.5d
+			shape: "octagon"
+			dependencies: ["74C4FD5EF14EDB3A"]
+			id: "63CAB90493C64AF3"
+			tasks: [{
+				id: "438378079B871F9D"
+				type: "item"
+				item: "extendedcrafting:ultimate_catalyst"
+			}]
+			rewards: [
+				{
+					id: "26DB8781D370B25F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "711E308A04D4DF23"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "237C5FD38FE6BE91"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "24E7350CC4185B36"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -10.5d
+			shape: "octagon"
+			dependencies: ["790B36479144770F"]
+			id: "4FDC471CEB587D21"
+			tasks: [{
+				id: "475B340444DF0D55"
+				type: "item"
+				item: "extendedcrafting:elite_catalyst"
+			}]
+			rewards: [
+				{
+					id: "0FDE2B1009618F81"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "01976E5F77955464"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3B7694E2B41BF671"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "72B77A4CEC6765C9"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -10.5d
+			shape: "octagon"
+			dependencies: ["058BAA533EFE63EB"]
+			id: "73B42C0D21A49E3E"
+			tasks: [{
+				id: "5CC6BB956250E287"
+				type: "item"
+				item: "extendedcrafting:redstone_catalyst"
+			}]
+			rewards: [
+				{
+					id: "334AF57B71D79DF5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "55DFC3DABB067073"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "05D59479C6D1FCA6"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "1CD57DC4CFDD1DDA"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -10.5d
+			shape: "octagon"
+			dependencies: ["33565398C0DA7135"]
+			id: "618B0D093FBA3493"
+			tasks: [{
+				id: "0200140B45388556"
+				type: "item"
+				item: "extendedcrafting:ender_catalyst"
+			}]
+			rewards: [
+				{
+					id: "0E248C02CFAC25F1"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0FCD827667418840"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "085285894CE50128"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "76358F4A186AC1BB"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -10.5d
+			shape: "octagon"
+			dependencies: ["501A8D68AA146608"]
+			id: "771A061136A9EB5B"
+			tasks: [{
+				id: "2DC3117CFB460CE7"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_catalyst"
+			}]
+			rewards: [
+				{
+					id: "4985E9F52411D6D1"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "398E55055671139B"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "387EA46AF64403F3"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "61FF5187ECFF8B3A"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["47D23E9CB93DE790"]
+			id: "6735CD1B161A8AB2"
+			tasks: [{
+				id: "47B0E733F050B3F0"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			rewards: [
+				{
+					id: "6BEC7F8A6C23193B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7D73721F59B6DC7D"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "14DA177D1B8EB993"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "1709BBB6E34908AB"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["790B36479144770F"]
+			id: "083AABDD7093C1E4"
+			tasks: [{
+				id: "608257B6E9FBF326"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+			rewards: [
+				{
+					id: "2283BE09431CCDA5"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0A2C870E80CE70DA"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "3137ADD497B121E7"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "1747454B2007C179"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["74C4FD5EF14EDB3A"]
+			id: "588BD1C2DEC4DEE6"
+			tasks: [{
+				id: "10E081FC887016AF"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+			rewards: [
+				{
+					id: "6AE9F30BAEE326D6"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "76C2554AE2AF631A"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "58909D957878F373"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6343DB884C211579"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			shape: "rsquare"
+			dependencies: ["00BF1724D4F902C9"]
+			id: "6AC18A3442FCA08B"
+			tasks: [{
+				id: "3ECD222894F2B49F"
+				type: "item"
+				item: "extendedcrafting:basic_auto_table"
+			}]
+			rewards: [
+				{
+					id: "7390177F31F0D404"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "48287DC972811EF2"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "0BB09BE5174ED5E5"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			shape: "rsquare"
+			dependencies: ["6735CD1B161A8AB2"]
+			id: "6C791BA6842F1E47"
+			tasks: [{
+				id: "2EA9CDF7A9BE6839"
+				type: "item"
+				item: "extendedcrafting:advanced_auto_table"
+			}]
+			rewards: [
+				{
+					id: "01E6446624ADBBF0"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "5F2850DDF5B7F948"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "291A4EE06D00371C"
+					type: "ftbmoney:money"
+					ftb_money: 2000L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			shape: "rsquare"
+			dependencies: ["083AABDD7093C1E4"]
+			id: "4C230E52619BEC30"
+			tasks: [{
+				id: "76E2264331A94361"
+				type: "item"
+				item: "extendedcrafting:elite_auto_table"
+			}]
+			rewards: [
+				{
+					id: "768E83787A35082A"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					id: "76C9C3228F3FCBBD"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "53F9D2AA047686DC"
+					type: "ftbmoney:money"
+					ftb_money: 3000L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -6.5d
+			shape: "rsquare"
+			dependencies: ["588BD1C2DEC4DEE6"]
+			id: "14D8F70EEA0CE1E7"
+			tasks: [{
+				id: "54A37B5DF233FB38"
+				type: "item"
+				item: "extendedcrafting:ultimate_auto_table"
+			}]
+			rewards: [
+				{
+					id: "17E7AB03E5A71DA7"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "7299FDABA811FED5"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "20D695DE54499EAF"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			dependencies: ["66958504698EE334"]
+			id: "23BBDF8CF20438C6"
+			tasks: [{
+				id: "5026A8F813F0C05B"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+			rewards: [
+				{
+					id: "499B07522170A347"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3FB93F7DD7DC72A2"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "340C63831A4E98C0"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "2E2E96A503889624"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "41CDDF6DD2C87593"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "339DF448E3EF2679"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -11.66785714285714d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "2C78B234BDE90453"
+			tasks: [{
+				id: "3DAD49D3D12ACF57"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E75525B4CF2E25B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6CBDA4684B162F42"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "0DC24B6C517509D3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3C9108A009B3A9DE"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -10.967857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "05DB564891E2E33C"
+			tasks: [{
+				id: "034AEFB6250386CD"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:invar"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7F21708B23681E5B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "521A3E5DF32D34C6"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "28BABB496716795D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1EA5DF55FF79A4B4"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -10.267857142857139d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "1CEC64D4467F1A5C"
+			tasks: [{
+				id: "21A818255B0BBDBA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4C09EFBC58BE0204"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "659F8291C2ED2A18"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "36D4823D6E21D043"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6E5BFCF000500E4D"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -9.567857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "1EEE587EF5E7CD1E"
+			tasks: [{
+				id: "06DF6E2B71FA3369"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6251965447D6D29F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1DE122791D6B7240"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "39A03E6846213EFD"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "45311538C5A77059"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -8.867857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "2E8312DD29BA623A"
+			tasks: [{
+				id: "14AA29F5943777DA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:uranium"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7CCB66939FE77FB0"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7656A0646803B8A1"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "60022B738FA6A091"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "279F80CA929E7ED9"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -8.167857142857137d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "60840821A91FDAA1"
+			tasks: [{
+				id: "22B8BD43BE3F7562"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "381A975FA9C63AC7"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7FC0E8F1597A79BA"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "2F8CB23BA2E580CF"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "10D18358F103ECDC"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -7.467857142857139d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "5F296C7E554A68C7"
+			tasks: [{
+				id: "269F86DB88EFC2BA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:redstone"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1DAB2A445C6372FA"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "49BDF61421CF40AE"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "563E4680F2C82B3F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7EB99F3ECD64BC88"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -4.300000000000001d
+			y: -12.367857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "4C1D05B5771632E8"
+			tasks: [{
+				id: "7B939909B7115FD6"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:enderium"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29AEE90BD81F3D8E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "242ADB1A5998A476"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "41A060629B1270BE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "187CBABC7B8ABC14"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -4.300000000000001d
+			y: -11.66785714285714d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "5DF6072B55A2B707"
+			tasks: [{
+				id: "602864CCDCFA298D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:platinum"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5224091698B20682"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "494EE07CCB1F701C"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "5BC86B8EF747E36F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2AE7374DE76DBB5F"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -4.300000000000001d
+			y: -10.967857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "48B957900CC486CC"
+			tasks: [{
+				id: "23EE1A2E95EDE011"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "478343E8ECE424A4"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "600D9A48ADF7B54C"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "7CED1E6ED806F0E0"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "138D587F208DF31F"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.9000000000000004d
+			y: -8.867857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "663791C451321230"
+			tasks: [{
+				id: "01F17419821D7FF6"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:iron"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4FBD8744807F20FE"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "27906ADF88161055"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "1695494488EC4175"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6CEE97F4DFB2959D"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -4.300000000000001d
+			y: -9.567857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "4CF45F0ADC0C6803"
+			tasks: [{
+				id: "3A62381D3CBD2C82"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nickel"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57B6EC48A1AC0F4B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6C2239CD17D7BC49"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "72FF9D3DAE1D8D28"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6E55485A2ED330A8"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -4.300000000000001d
+			y: -8.867857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "6D18D5ED3E935602"
+			tasks: [{
+				id: "7815A9A03931EE15"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:electrotine"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B130A2CCBCA3365"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6F5F50A4E555C7B8"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "552D6F87B10CF6C9"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1D8C7B15398CDFD7"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -4.300000000000001d
+			y: -8.167857142857137d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "0D792E9A006F7D94"
+			tasks: [{
+				id: "4AB92253C15419D9"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:dimensionalshard"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "77443448441CCF08"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5CB4CB336ADBB0DB"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "0C57EB328AB071FC"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "66E8A6D82B44A941"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -4.300000000000001d
+			y: -7.467857142857139d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "634C61375BD3032F"
+			tasks: [{
+				id: "16B94949C1428A09"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:glowstone"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6905D3637A36A704"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0C6FDFB33EFE28A8"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "352D49BCEA3674E3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4B1BC1416629E075"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.6000000000000005d
+			y: -12.367857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "419AD0C0E6CF132C"
+			tasks: [{
+				id: "4DF3BE5AAAA1C770"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:plastic"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "24A7337C1C669EA4"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6481805A94EAC318"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "62D2F402CEB1B7C4"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3A29AF2846DB9586"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.6000000000000005d
+			y: -11.66785714285714d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "2376132F1D8CF6B4"
+			tasks: [{
+				id: "781C6F6E996DA011"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:refined_obsidian"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53ABB2AA8A56A5B2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6398E6792514193A"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "05621D2186269F35"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6F8717BD8FE4BC3F"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.6000000000000005d
+			y: -10.967857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "338BCDC639CFC66A"
+			tasks: [{
+				id: "123E118C8D7CB99D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7D9233582B6AFB4C"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1F32B49FDBB817AE"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "10A8CF3E531BA5BA"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "172A98420174DF99"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.6000000000000005d
+			y: -10.267857142857139d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "12B5B22C0C4A7C1A"
+			tasks: [{
+				id: "03807760DA3C1746"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:phytogro"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "545B9E985351680C"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6B6220B87643E8C8"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "5CF01F8325226FCD"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "56409F899582ABC2"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.6000000000000005d
+			y: -9.567857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "2EB941533398A59E"
+			tasks: [{
+				id: "3F6E112B8769914B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:osmium"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "30F029864400096A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0A5A1A5633E37EDF"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "1CA88110D4A61A57"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7B198C869243AE35"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.6000000000000005d
+			y: -8.867857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "3649703EF74144E6"
+			tasks: [{
+				id: "1A8A0A9C481C7B72"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:emerald"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4DDDE6BF83746D8F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0272E68D7EC7F799"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "030FF62EE74ACDE0"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1A2E11B40EFA381C"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.6000000000000005d
+			y: -8.167857142857137d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "68360C6D7895AC95"
+			tasks: [{
+				id: "16D9F91320D0DB0C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:starmetal"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7239E9D5026FC991"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "73B4A3839346C5B1"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "68DB9585E34C6863"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "195B9ECE0C3934F4"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.6000000000000005d
+			y: -7.467857142857139d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "6E7E294C3D0D7EF7"
+			tasks: [{
+				id: "2B1296950F55943C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:supremium_coal"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3C34D60AE487772D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "49F22C020A468FE9"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "24184D2C5369AC2D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "69880CB6344D9D46"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.9000000000000004d
+			y: -8.167857142857137d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "1A5CCF827009AF30"
+			tasks: [{
+				id: "4F10062F1A9DD392"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:clay"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5AD1D388E4439C02"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7AD222BC1FF922CD"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "0713B6CE6E314059"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "33FFEA1714D957CC"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.9000000000000004d
+			y: -12.367857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "58018BA9973870A1"
+			tasks: [{
+				id: "4A79A19601EC4E51"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:aluminum"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5AC3BB8EE2762657"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "05BC6BDEE960B56F"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "0F09896C276CE8AF"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4E204A752B405956"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.9000000000000004d
+			y: -11.66785714285714d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "6DD6687069F5A1D7"
+			tasks: [{
+				id: "01C38BA5C365906A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:silver"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0D30589310AE4E75"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "3864FE0C0ECFCD00"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "3DBA8F296E1D62F0"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "547C12CBED141A1A"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.9000000000000004d
+			y: -10.267857142857139d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "526C345CDAE5B62E"
+			tasks: [{
+				id: "1255B65A5E42B3BE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tin"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2711018107BDFFDF"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5DE24EF6E2409F89"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "649A351B8B41CEE5"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3F6453D1EC113ECE"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.9000000000000004d
+			y: -7.467857142857139d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "0AD078BFEE076984"
+			tasks: [{
+				id: "645A0686595529F7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:oak"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A22840B667507D2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7E7750AFF0DA67B1"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "58849084EB88E0A7"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "47B410AC485A3A0A"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.9000000000000004d
+			y: -9.567857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "6BD5C13BDF7ABE2E"
+			tasks: [{
+				id: "03DCFE928B70B47A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "585B3CB340963C24"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "3AA9E5EA44E77CBA"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "64CD8BD3DD032E30"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1E50C6C5B86275D8"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.9000000000000004d
+			y: -10.967857142857138d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "01B700C0220211D5"
+			tasks: [{
+				id: "05E69A54D3B8F1FE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lead"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6E6ADD43BC3CB7E5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7E6D1BA866FC2602"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "7928828BB132E01C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2D11A9A829F1FBA9"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -4.300000000000001d
+			y: -10.267857142857139d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["23BBDF8CF20438C6"]
+			size: 0.7d
+			id: "2323688BB7BAB20D"
+			tasks: [{
+				id: "24D6AD64FFBD7EDD"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:pink_slime"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "622071D56FDE238E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "362D930FDAD20E73"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "14B718830ED287F9"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3BEE56DA90E88D09"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&5&l&oOne to rule them all"
+			x: -3.9535714285714354d
+			y: -13.5d
+			shape: "hexagon"
+			subtitle: "The Ultimate Singularity"
+			hide_dependency_lines: true
+			dependencies: [
+				"58018BA9973870A1"
+				"2C78B234BDE90453"
+				"1A5CCF827009AF30"
+				"60840821A91FDAA1"
+				"6BD5C13BDF7ABE2E"
+				"48B957900CC486CC"
+				"0D792E9A006F7D94"
+				"6D18D5ED3E935602"
+				"1CEC64D4467F1A5C"
+				"3649703EF74144E6"
+				"4C1D05B5771632E8"
+				"634C61375BD3032F"
+				"3AC9CDB30455CFC7"
+				"05DB564891E2E33C"
+				"663791C451321230"
+				"1EEE587EF5E7CD1E"
+				"01B700C0220211D5"
+				"4CF45F0ADC0C6803"
+				"0AD078BFEE076984"
+				"2EB941533398A59E"
+				"12B5B22C0C4A7C1A"
+				"2323688BB7BAB20D"
+				"419AD0C0E6CF132C"
+				"5DF6072B55A2B707"
+				"5F296C7E554A68C7"
+				"5F296C7E554A68C7"
+				"2376132F1D8CF6B4"
+				"6DD6687069F5A1D7"
+				"68360C6D7895AC95"
+				"338BCDC639CFC66A"
+				"6E7E294C3D0D7EF7"
+				"526C345CDAE5B62E"
+				"2E8312DD29BA623A"
+			]
+			size: 1.2d
+			id: "3D9A982B63582765"
+			tasks: [{
+				id: "187735BA60615F3A"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [
+				{
+					id: "7E0F5B7C474FFCFB"
+					type: "xp"
+					xp: 100000
+				}
+				{
+					id: "5A7B705345CBB783"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "30E9B56E8A1AAB62"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "1DE246D3A15DB480"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "41641390AF061650"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "3CAF233D3EEB3DE9"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "48F7109B8675F13F"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "17149662D342F049"
+					type: "ftbmoney:money"
+					ftb_money: 1000000L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: ["083AABDD7093C1E4"]
+			id: "0A6FFA0295BE1616"
+			tasks: [{
+				id: "105F39E89EBB6821"
+				type: "item"
+				item: "extendedcrafting:crystaltine_ingot"
+			}]
+			rewards: [
+				{
+					id: "7803C1895D37AC1D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2A3333A67734BEE1"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "0780CFFB6ADB97DA"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "34B404E3CC102471"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "3DCD9AF64AAF1925"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "093C1B84D7E92630"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -10.5d
+			shape: "octagon"
+			dependencies: ["7C3C6EE0AF2DF234"]
+			id: "096B6FA766A45B4B"
+			tasks: [{
+				id: "618F0A545977BD6F"
+				type: "item"
+				item: "extendedcrafting:crystaltine_catalyst"
+			}]
+			rewards: [
+				{
+					id: "27EC0D1FDB054C25"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0C215B79A923CDE9"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5689CE511B182EBA"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "180C4EB00D042119"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -10.5d
+			shape: "octagon"
+			dependencies: ["3CB10BBE42C7A96C"]
+			id: "0556703DAFD956F0"
+			tasks: [{
+				id: "0AF69654B5379B18"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_catalyst"
+			}]
+			rewards: [
+				{
+					id: "7C11DF0C689E2722"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "1BAB81BA33BE5090"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6CDF42EF8DB1976D"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "4C8CA3F3D58BB568"
+					type: "ftbmoney:money"
+					ftb_money: 2500L
+				}
+			]
+		}
+		{
+			title: "&5&l&oThe one and only"
+			x: 7.5d
+			y: -7.875000000000007d
+			shape: "diamond"
+			subtitle: "The Ultimate Ingot"
+			hide_dependency_lines: true
+			dependencies: [
+				"5C0A4C069A734BBA"
+				"2BB44DAD789D9B55"
+				"5221B42012F4F654"
+				"0376670CB817A736"
+				"519722416D2CFD2E"
+				"1E51DC175423A50E"
+				"2E9E445E64CEE3A5"
+				"31326FBB22AC6ED5"
+				"19D43A57F7DDFEFD"
+				"066E6AEECFC91987"
+				"171C4F31855DDD61"
+				"0673F4D4729B66C7"
+				"1AA921D0E4991FAF"
+				"06227706D23AFDE1"
+				"72E3DFFE15517D1D"
+				"182AF9C98F217B26"
+				"15CA115E396C9A08"
+				"5F535153F1D1645D"
+				"0927A55DAE8D021E"
+				"3B5583B4E8E86ADE"
+				"1D1B1782CB6FB0FE"
+				"4655C16B3399289A"
+				"69E67FE52D8122D8"
+				"4B9B4A78100569FF"
+				"0BF667282F9555CF"
+				"05C7A1A82E485E0D"
+				"22C0A3DE9089FC74"
+				"03AC279BC14A7D2B"
+				"2F87FA571962AEDE"
+				"11F64AFF50EA732F"
+				"135A28D4F002E10A"
+				"72A0889E558D1BE0"
+				"46E72DABBA448B8B"
+				"0FAF2215CF83C8BC"
+				"1E4888F773B66ED1"
+				"110272A10A3A98B6"
+				"5E291F1C950AAD36"
+				"54CE3F818E8B2C37"
+				"1E41333D7379CBC3"
+				"5C0B43C6C5CFB0CC"
+				"5751C713438E0B43"
+				"4DD5501E4384F23F"
+				"4A7E6C0A48B57B86"
+				"2521274BEA57E8EE"
+				"3A44544F9742678E"
+				"3B405DE3A628BC0D"
+				"239FB312537E723A"
+				"3274D9E240B0BFD2"
+				"5BC5FE1028EF0348"
+			]
+			size: 1.2d
+			id: "65FCFDB9AABCE966"
+			tasks: [{
+				id: "4DA07334BF25E287"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+			rewards: [
+				{
+					id: "3EBE040098263475"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "7CEFD4C9DF164F6A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "5CC6D063F1D22B55"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "7804607AD9F82209"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "0C06708DCADAC385"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "45B1EE6BBC6F5B19"
+					type: "ftbmoney:money"
+					ftb_money: 5000L
+				}
+			]
+		}
+		{
+			x: 8.778571428571425d
+			y: -9.0d
+			shape: "diamond"
+			size: 0.7d
+			id: "3B5583B4E8E86ADE"
+			tasks: [{
+				id: "1ED9D4D2A40AEE4B"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [
+				{
+					id: "5997EAB3EA0B9324"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7EC2A17BA6FDF120"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 9.478571428571424d
+			y: -9.0d
+			shape: "diamond"
+			size: 0.7d
+			id: "06227706D23AFDE1"
+			tasks: [{
+				id: "359D3FBDA100D43D"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "6DD41C01364D8912"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6FD8319DFA693CFC"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 12.946428571428566d
+			y: -8.232142857142861d
+			shape: "diamond"
+			size: 0.7d
+			id: "05C7A1A82E485E0D"
+			tasks: [{
+				id: "4D3D40622C944B71"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "4E9EC2EF391C8E4A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "246606431F6632D6"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 10.178571428571425d
+			y: -9.0d
+			shape: "diamond"
+			size: 0.7d
+			id: "2BB44DAD789D9B55"
+			tasks: [{
+				id: "6321056F84546D90"
+				type: "item"
+				item: "alltheores:aluminum_ingot"
+			}]
+			rewards: [
+				{
+					id: "207904C2B6E7387C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "726928FD96C38BA4"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 10.878571428571426d
+			y: -9.0d
+			shape: "diamond"
+			size: 0.7d
+			id: "2E9E445E64CEE3A5"
+			tasks: [{
+				id: "0C00B932F1F557E8"
+				type: "item"
+				item: "alltheores:copper_ingot"
+			}]
+			rewards: [
+				{
+					id: "3508A4B6AE64FE44"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7752E74CD2DF83B9"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 11.578571428571426d
+			y: -9.0d
+			shape: "diamond"
+			size: 0.7d
+			id: "1D1B1782CB6FB0FE"
+			tasks: [{
+				id: "180EDB6D99BA75A5"
+				type: "item"
+				item: "alltheores:lead_ingot"
+			}]
+			rewards: [
+				{
+					id: "01C179BBBD839216"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "16150D90C5337E9C"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 12.278571428571425d
+			y: -9.0d
+			shape: "diamond"
+			size: 0.7d
+			id: "22C0A3DE9089FC74"
+			tasks: [{
+				id: "59BAC20259F561B6"
+				type: "item"
+				item: "alltheores:nickel_ingot"
+			}]
+			rewards: [
+				{
+					id: "75390B017E563752"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "09C6C74EDDC51505"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 12.978571428571424d
+			y: -9.0d
+			shape: "diamond"
+			size: 0.7d
+			id: "2F87FA571962AEDE"
+			tasks: [{
+				id: "37B82B2E0D5BB836"
+				type: "item"
+				item: "alltheores:osmium_ingot"
+			}]
+			rewards: [
+				{
+					id: "36AC42F630BE3601"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4089A0F0538FCF7C"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 8.746428571428567d
+			y: -8.232142857142861d
+			shape: "diamond"
+			size: 0.7d
+			id: "135A28D4F002E10A"
+			tasks: [{
+				id: "4F36D5EE23011056"
+				type: "item"
+				item: "alltheores:platinum_ingot"
+			}]
+			rewards: [
+				{
+					id: "43A63DA05C2EE9F3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2FD8C9EDF348EB0B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 9.839285714285712d
+			y: -8.625000000000007d
+			shape: "diamond"
+			size: 0.7d
+			id: "54CE3F818E8B2C37"
+			tasks: [{
+				id: "1CC76AFF21A52EA8"
+				type: "item"
+				item: "alltheores:silver_ingot"
+			}]
+			rewards: [
+				{
+					id: "0FE5FC15F987B884"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3D2651F69F1F1718"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 10.539285714285713d
+			y: -8.625000000000007d
+			shape: "diamond"
+			size: 0.7d
+			id: "3A44544F9742678E"
+			tasks: [{
+				id: "272B89CC0004A07E"
+				type: "item"
+				item: "alltheores:tin_ingot"
+			}]
+			rewards: [
+				{
+					id: "50115C7DCAA9AF32"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "76355B81999EB2FF"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 11.239285714285714d
+			y: -8.625000000000007d
+			shape: "diamond"
+			size: 0.7d
+			id: "239FB312537E723A"
+			tasks: [{
+				id: "29B65E76A2BC349B"
+				type: "item"
+				item: "alltheores:uranium_ingot"
+			}]
+			rewards: [
+				{
+					id: "7CD56071E16E69EC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2A9647BF02623186"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 9.139285714285712d
+			y: -8.625000000000007d
+			shape: "diamond"
+			size: 0.7d
+			id: "5BC5FE1028EF0348"
+			tasks: [{
+				id: "3BFB731B8C9FAC2D"
+				type: "item"
+				item: "alltheores:zinc_ingot"
+			}]
+			rewards: [
+				{
+					id: "1E286D7D210A0AFF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4E5F3135F5B42E75"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 11.939285714285713d
+			y: -8.625000000000007d
+			shape: "diamond"
+			size: 0.7d
+			id: "69E67FE52D8122D8"
+			tasks: [{
+				id: "61E518CD1B8ACA03"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "567197AA56076369"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2F1111337C6C0806"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 12.639285714285712d
+			y: -8.625000000000007d
+			shape: "diamond"
+			size: 0.7d
+			id: "19D43A57F7DDFEFD"
+			tasks: [{
+				id: "1E8E53F8A6EF376C"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [
+				{
+					id: "5FF2FFA9285CCB2D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "596156CD35DD0EC5"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 8.357142857142854d
+			y: -8.625000000000007d
+			shape: "diamond"
+			size: 0.7d
+			id: "4A7E6C0A48B57B86"
+			tasks: [{
+				id: "093D5B733B14E0E1"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "115BAD11A1B9E882"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E1C032571B877B6"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 9.446428571428566d
+			y: -8.232142857142861d
+			shape: "diamond"
+			size: 0.7d
+			id: "519722416D2CFD2E"
+			tasks: [{
+				id: "3B7F88E881B48EE2"
+				type: "item"
+				item: "tconstruct:cobalt_ingot"
+			}]
+			rewards: [
+				{
+					id: "69C1F630CC51ABC8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "53BB7A7C50ECC73B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 10.146428571428567d
+			y: -8.232142857142861d
+			shape: "diamond"
+			size: 0.7d
+			id: "1E41333D7379CBC3"
+			tasks: [{
+				id: "1AA15BF12EC94037"
+				type: "item"
+				item: "tconstruct:slimesteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "0364F6FDAF724120"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1A5A547721FB437A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 10.846428571428568d
+			y: -8.232142857142861d
+			shape: "diamond"
+			size: 0.7d
+			id: "46E72DABBA448B8B"
+			tasks: [{
+				id: "3AA7AF4C3591D77A"
+				type: "item"
+				item: "tconstruct:queens_slime_ingot"
+			}]
+			rewards: [
+				{
+					id: "1C7D1722FF44D36D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3AF381565F49189E"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 11.546428571428567d
+			y: -8.232142857142861d
+			shape: "diamond"
+			size: 0.7d
+			id: "4B9B4A78100569FF"
+			tasks: [{
+				id: "2C4257B93046587E"
+				type: "item"
+				item: "tconstruct:manyullyn_ingot"
+			}]
+			rewards: [
+				{
+					id: "73B083857B2B066F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7E913DAB995BE129"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 12.246428571428567d
+			y: -8.232142857142861d
+			shape: "diamond"
+			size: 0.7d
+			id: "72E3DFFE15517D1D"
+			tasks: [{
+				id: "34F0BFBB3AF99429"
+				type: "item"
+				item: "tconstruct:hepatizon_ingot"
+			}]
+			rewards: [
+				{
+					id: "17E7636599E902FA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4122279D9CA828B2"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 9.067857142857143d
+			y: -7.839285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "15CA115E396C9A08"
+			tasks: [{
+				id: "6C7C1E69EFB323E3"
+				type: "item"
+				item: "mysticalagriculture:inferium_ingot"
+			}]
+			rewards: [
+				{
+					id: "4D8CE8BF01D538A8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0E793CA9EE837D56"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 9.767857142857142d
+			y: -7.839285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "72A0889E558D1BE0"
+			tasks: [{
+				id: "5339A8F54130E83A"
+				type: "item"
+				item: "mysticalagriculture:prudentium_ingot"
+			}]
+			rewards: [
+				{
+					id: "5C418F83A9E411C1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "484BAE9128744E42"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 10.467857142857143d
+			y: -7.839285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "2521274BEA57E8EE"
+			tasks: [{
+				id: "2F4C2AE5C435070E"
+				type: "item"
+				item: "mysticalagriculture:tertium_ingot"
+			}]
+			rewards: [
+				{
+					id: "4D172054BAD7707C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5FE7D3BE558FFB97"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 11.167857142857144d
+			y: -7.839285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "182AF9C98F217B26"
+			tasks: [{
+				id: "655D5694B3C8CFAC"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+			}]
+			rewards: [
+				{
+					id: "2088BD8736DFD21D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7ABB849F930FEB70"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 11.867857142857144d
+			y: -7.839285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "4DD5501E4384F23F"
+			tasks: [{
+				id: "00DBC4498C5628E7"
+				type: "item"
+				item: "mysticalagriculture:supremium_ingot"
+			}]
+			rewards: [
+				{
+					id: "7D1A3A3B5C567A97"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7A99EE4ED12DBF27"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 12.567857142857143d
+			y: -7.839285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "5F535153F1D1645D"
+			tasks: [{
+				id: "31620B88F18CDB13"
+				type: "item"
+				item: "mysticalagradditions:insanium_ingot"
+			}]
+			rewards: [
+				{
+					id: "5BCE97B7D3224134"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F7BB002164BDFBD"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 8.710714285714282d
+			y: -7.446428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "110272A10A3A98B6"
+			tasks: [{
+				id: "09F6610FB05C8739"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+			}]
+			rewards: [
+				{
+					id: "58B9D05C199CB2BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "32FFE9C11C7781F5"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 9.410714285714281d
+			y: -7.446428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "1E4888F773B66ED1"
+			tasks: [{
+				id: "4BEC75BBAF962F5D"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+			}]
+			rewards: [
+				{
+					id: "7E536442165F643F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "08B23E57E559E583"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 10.110714285714282d
+			y: -7.446428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "5751C713438E0B43"
+			tasks: [{
+				id: "4891C8CAD806E40F"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
+			rewards: [
+				{
+					id: "4EFDC0BF4A047F9D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "097A223FE8AA3E7F"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 10.810714285714283d
+			y: -7.446428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "5C0B43C6C5CFB0CC"
+			tasks: [{
+				id: "4967B6F94C5169B2"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+			rewards: [
+				{
+					id: "3FAB2B0231DD1446"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "661B98B1E999E02C"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 11.510714285714283d
+			y: -7.446428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "11F64AFF50EA732F"
+			tasks: [{
+				id: "50589120B450F145"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+			rewards: [
+				{
+					id: "0AF067530FBA061B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "71E092E5B9B05327"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 9.032142857142858d
+			y: -7.089285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "5C0A4C069A734BBA"
+			tasks: [{
+				id: "405A326F796D88A7"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+			}]
+			rewards: [
+				{
+					id: "36FA63A74772A4ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E5EB00606C09D6C"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 9.732142857142858d
+			y: -7.089285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "3B405DE3A628BC0D"
+			tasks: [{
+				id: "10E8449D7C102784"
+				type: "item"
+				item: "allthemodium:unobtainium_ingot"
+			}]
+			rewards: [
+				{
+					id: "6BF8ECB3682566E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7B6E2D1B01DDCD83"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 10.432142857142859d
+			y: -7.089285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "3274D9E240B0BFD2"
+			tasks: [{
+				id: "4A31B9B05D01D569"
+				type: "item"
+				item: "allthemodium:vibranium_ingot"
+			}]
+			rewards: [
+				{
+					id: "42F98C740083E762"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "11511D787C54DD21"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 12.910714285714281d
+			y: -7.446428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "5221B42012F4F654"
+			tasks: [{
+				id: "60E443561F53196F"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "52D7B6DF42778571"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BADE29D519EE32A"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 12.210714285714282d
+			y: -7.446428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "03AC279BC14A7D2B"
+			tasks: [{
+				id: "54CB751674B6EABC"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_ingot"
+			}]
+			rewards: [
+				{
+					id: "5E786331E0AAC3EE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "00DF0894292067AF"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 11.13214285714286d
+			y: -7.089285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "1AA921D0E4991FAF"
+			tasks: [{
+				id: "6A34F2E4C0C42C80"
+				type: "item"
+				item: "lazierae2:fluix_steel_ingot"
+			}]
+			rewards: [
+				{
+					id: "5D9EDF910812E017"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C4D79BED480D46E"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 11.832142857142859d
+			y: -7.089285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "0FAF2215CF83C8BC"
+			tasks: [{
+				id: "577175EB3547C72B"
+				type: "item"
+				item: "projectred-core:red_ingot"
+			}]
+			rewards: [
+				{
+					id: "20AE529F3A0E52D0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5F583C51CA294383"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 12.532142857142858d
+			y: -7.089285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "31326FBB22AC6ED5"
+			tasks: [{
+				id: "0B2D31D002E69C70"
+				type: "item"
+				item: "projectred-core:electrotine_ingot"
+			}]
+			rewards: [
+				{
+					id: "092C15C6BA124BAA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "17E3E347B4475E2D"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 8.32142857142857d
+			y: -7.125000000000007d
+			shape: "diamond"
+			size: 0.7d
+			id: "066E6AEECFC91987"
+			tasks: [{
+				id: "19070CDD214B8C5D"
+				type: "item"
+				item: "endrem:end_crystal_ingot"
+			}]
+			rewards: [
+				{
+					id: "1BAC22D7921960EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "22CE43BFD7460777"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 8.639285714285705d
+			y: -6.696428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "0376670CB817A736"
+			tasks: [{
+				id: "7C81B97851D1AD40"
+				type: "item"
+				item: "thermal:bronze_ingot"
+			}]
+			rewards: [
+				{
+					id: "09E8E9092FC2556A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1EC276CEB88AD323"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 9.339285714285705d
+			y: -6.696428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "0927A55DAE8D021E"
+			tasks: [{
+				id: "34210EBC26052DBC"
+				type: "item"
+				item: "thermal:invar_ingot"
+			}]
+			rewards: [
+				{
+					id: "7892D493E9457EE7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "71F11B971E2BE093"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 10.039285714285706d
+			y: -6.696428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "1E51DC175423A50E"
+			tasks: [{
+				id: "3526C022DB30DA71"
+				type: "item"
+				item: "thermal:constantan_ingot"
+			}]
+			rewards: [
+				{
+					id: "41D41578B9D9C597"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07A0D7BB430A73CC"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 10.739285714285707d
+			y: -6.696428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "5E291F1C950AAD36"
+			tasks: [{
+				id: "4BECABEFE320098C"
+				type: "item"
+				item: "thermal:signalum_ingot"
+			}]
+			rewards: [
+				{
+					id: "37A3F718A30D9117"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "66323F66BBF8DAAB"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 11.439285714285706d
+			y: -6.696428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "4655C16B3399289A"
+			tasks: [{
+				id: "4B340BD4EA1FEFE0"
+				type: "item"
+				item: "thermal:lumium_ingot"
+			}]
+			rewards: [
+				{
+					id: "1C12D144F00FB1AD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4A8C7DEF15924F52"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 12.139285714285705d
+			y: -6.696428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "0673F4D4729B66C7"
+			tasks: [{
+				id: "3E9C36447BA25F07"
+				type: "item"
+				item: "thermal:enderium_ingot"
+			}]
+			rewards: [
+				{
+					id: "2A42DFDA7BF15C6B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7BF38015ED91F9DF"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 12.839285714285705d
+			y: -6.696428571428584d
+			shape: "diamond"
+			size: 0.7d
+			id: "0BF667282F9555CF"
+			tasks: [{
+				id: "321A511740F88F84"
+				type: "item"
+				item: "forestcraft:molten_ingot"
+			}]
+			rewards: [
+				{
+					id: "0DECB26A2DB91B03"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E987E0927242ACD"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 13.25d
+			y: -7.839285714285722d
+			shape: "diamond"
+			size: 0.7d
+			id: "171C4F31855DDD61"
+			tasks: [{
+				id: "3077FDA63128B610"
+				type: "item"
+				item: "forestcraft:enderite_ingot"
+			}]
+			rewards: [
+				{
+					id: "427F07122A2DDE26"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "585CED47D658A81F"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "extendedcrafting:guide"
+				}
+			}
+			x: 3.5d
+			y: -15.017857142857142d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oBasic Tools&r quest*"
+			dependencies: ["6D37151EC650DF0D"]
+			size: 1.5d
+			id: "5530C0D8BF092FCA"
+			tasks: [{
+				id: "5A2B1BC3223E3031"
+				type: "checkmark"
+				title: "&5&l&oWelcome to Extended Crafting"
+			}]
+			rewards: [
+				{
+					id: "0AF715B461260280"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5B86CE14C59C8FDD"
+					type: "item"
+					item: "minecraft:black_dye"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"6C8754CBAA4B7D90"
+				"5974F712DA017C94"
+			]
+			id: "66958504698EE334"
+			tasks: [{
+				id: "771DD1F4D2F1DABD"
+				type: "item"
+				item: "extendedcrafting:frame"
+			}]
+			rewards: [
+				{
+					id: "7687EF507152BD97"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "6D99D5808E9F98FD"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "6D1AC316472A100B"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "0D51DDE899840538"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+	]
+}

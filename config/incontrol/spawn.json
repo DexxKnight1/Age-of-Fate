@@ -1,0 +1,45 @@
+[  
+  {
+    "dimension": "twilightforest:twilightforest",
+    "mob": [
+      "iceandfire:siren",
+      "iceandfire:sea_serpent",
+      "iceandfire:hippocampus"
+    ],
+    "mincount": {
+      "amount": 10,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "allthemodium:the_other",
+    "mob": [
+      "iceandfire:hydra",
+      "iceandfire:ghost",
+      "iceandfire:dread_scuttler",
+      "iceandfire:dread_beast",
+      "iceandfire:dread_horse",
+      "iceandfire:dread_thrall",
+      "iceandfire:dread_ghoul",
+      "iceandfire:dread_knight"
+    ],
+    "mincount": {
+      "amount": 10,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "twilightforest:twilightforest",
+    "mod": [
+      "ars_nouveau"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "allthemodium:mining",
+    "mod": "ars_nouveau",
+    "result": "deny"
+  }
+ ]

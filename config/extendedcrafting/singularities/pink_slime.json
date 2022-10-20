@@ -1,0 +1,7 @@
+{
+    "name": "Pink Slime",
+    "colors": ["DC24AF", "575757"],
+    "ingredient": {
+        "item": "industrialforegoing:pink_slime"
+    }
+}

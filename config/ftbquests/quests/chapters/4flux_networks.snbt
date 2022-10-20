@@ -1,0 +1,398 @@
+{
+	id: "42510D445257E239"
+	group: "02206CCEC528E0AB"
+	order_index: 0
+	filename: "4flux_networks"
+	title: "&cFlux Networks"
+	icon: "fluxnetworks:flux_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -1.3214285714285694d
+		y: -7.125d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&f&lFlux"
+			x: -0.5d
+			y: -5.0d
+			subtitle: "The key crafting ingredient of the mod"
+			description: [
+				"Here is the default method of converting Redstone Dust into Flux."
+				""
+				"&lStep 1:&r Find some Bedrock."
+				""
+				"&lStep 2:&r Place some Obsidian above it, leaving one block space in between."
+				""
+				"&lStep 3:&r Throw some Redstone Dust in the gap left by the Bedrock and Obsidian."
+				""
+				"&lStep 4:&r Left-click the Obsidian. The Obsidian will crush the Redstone Dust against the Bedrock and create Flux!"
+				""
+				"&lThere is no limit to the amount of Redstone Dust you can use each time."
+			]
+			dependencies: ["7AD0A09E83F4D09C"]
+			id: "439C6C61A5263D31"
+			tasks: [{
+				id: "02B777D641194D80"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+			rewards: [
+				{
+					id: "6901960B7CA1E444"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 12
+				}
+				{
+					id: "3D0FE3395F62D743"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "&f&lFlux Configurator"
+			x: -3.0d
+			y: -1.0d
+			subtitle: "The Flux Configurator can also be connected to a network"
+			description: [
+				"● It can be used to access, edit, delete networks on the go. And shares the same GUI as connectors."
+				""
+				"● It can also be used to copy / paste settings between connectors."
+				""
+				"&lCopying Settings:&r Shift-Right Click on a connector to copy it's settings and then Right Click on a connector you wish to paste the settings to. If you right click something which isn't a connector you'll bring up the Network GUI and also you'll be able to edit the settings which the Configurator will paste. The configurator can also be renamed here, with the name field."
+			]
+			dependencies: ["486457F40D2A1D29"]
+			id: "1651E315517369BD"
+			tasks: [{
+				id: "7EBA08CBDBF4EEC5"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+			rewards: [
+				{
+					id: "3E912FE6F9283B4D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3F50251B27E52F54"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "0BB312E1A909887F"
+					type: "ftbmoney:money"
+					ftb_money: 120L
+				}
+			]
+		}
+		{
+			title: "&f&lFlux Block"
+			x: -0.5d
+			y: -3.5d
+			subtitle: "Other key crafting ingredients of the mod!"
+			dependencies: ["439C6C61A5263D31"]
+			id: "7AA18B409FB698D2"
+			tasks: [{
+				id: "2A6AAD2D1CD9E259"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+			}]
+			rewards: [
+				{
+					id: "06B75A37A97B5589"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2676F841A385222F"
+					type: "item"
+					item: "fluxnetworks:flux_block"
+				}
+				{
+					id: "66409D45A85E0CD5"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&f&lFlux Storage"
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Used to Store Energy in the network"
+			description: [
+				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy."
+				""
+				"This energy can only be accessed by removing energy with a Flux Point."
+				""
+				"&7&lThis energy can only be accessed by removing energy with a Flux Point."
+				""
+				"&bEnergy Capacity: 1,000,000 FE"
+			]
+			dependencies: ["486457F40D2A1D29"]
+			id: "1B60491EDE73447B"
+			tasks: [{
+				id: "000430BA08919240"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "72CB63173D302083"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "26C752F3264E52C8"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "61AE5DE6A7695002"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			title: "&f&lFlux Plug"
+			x: -4.0d
+			y: 0.5d
+			subtitle: "Used for Adding Energy to the network"
+			description: ["You can add energy from all sides simultaneously."]
+			dependencies: ["1651E315517369BD"]
+			id: "7AEAF2E101B5D652"
+			tasks: [{
+				id: "1F02234419CA3CD9"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+			rewards: [
+				{
+					id: "22B0C0F4595E68E8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7726B56CF890D892"
+					type: "item"
+					item: "fluxnetworks:flux_core"
+					count: 2
+				}
+				{
+					id: "7A95F876844EA109"
+					type: "ftbmoney:money"
+					ftb_money: 120L
+				}
+			]
+		}
+		{
+			title: "&f&lFlux Point"
+			x: -2.0d
+			y: 0.5d
+			subtitle: "Used to Remove Energy from the network"
+			description: ["You can remove energy from all sides simultaneously."]
+			dependencies: ["1651E315517369BD"]
+			id: "6E9B60CCAE55E387"
+			tasks: [{
+				id: "7F8B33C6790AE7CC"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [
+				{
+					id: "7FC400880CBA8F1B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "70CD1DED02C154BE"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+				{
+					id: "719BAEF3311229E1"
+					type: "ftbmoney:money"
+					ftb_money: 120L
+				}
+			]
+		}
+		{
+			title: "&f&lFlux Controller"
+			x: -0.5d
+			y: 2.5d
+			shape: "pentagon"
+			subtitle: "Required to activate &lCross-dimensional inventory charging"
+			description: [
+				"● Inventory charging can be configured in the Wireless Charging Tab."
+				""
+				"● Only one controller can be connected to a network at one time."
+				"● The controller's 'Output' refers to energy outputted from the network via Wireless Charging."
+				""
+				"● &3&lNetwork's do not require a Flux Controller to operate."
+			]
+			dependencies: [
+				"6E9B60CCAE55E387"
+				"7AEAF2E101B5D652"
+				"486457F40D2A1D29"
+			]
+			size: 1.4d
+			id: "1C214DD51C58BE4D"
+			tasks: [{
+				id: "0120A13DAF9C15AF"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [
+				{
+					id: "189C3B794E9F6565"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "71E21A49F92B785D"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "028D77130270D765"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "Tier 2"
+			description: ["&bEnergy Capacity: 8,000,000 FE"]
+			dependencies: ["1B60491EDE73447B"]
+			id: "4CC229C23E5AC155"
+			tasks: [{
+				id: "28F65D4F11F6AA7B"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "04B53CCA9C85763E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "39666560C96634B7"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "36874EF72F9D7823"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			subtitle: "Tier 3"
+			description: ["&bEnergy Capacity: 128,000,000 FE"]
+			dependencies: ["4CC229C23E5AC155"]
+			id: "6886DFF567919753"
+			tasks: [{
+				id: "0E8AC367918AD54F"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "62581571F3835125"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "09F306B65A243344"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "69A6A8D0E8977E74"
+					type: "ftbmoney:money"
+					ftb_money: 1500L
+				}
+			]
+		}
+		{
+			title: "&f&lFlux Networks"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/fn.png"
+				}
+			}
+			x: -2.0d
+			y: -6.5d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oDiamond Pickaxe&r quest*"
+			description: [
+				"Flux Networks gives you the ability to build Wireless Energy Networks. It allows you to customise these networks and manage the flow of energy across your world."
+				""
+				"Removing the need to have cables going everywhere, hence decreasing lag and saving you time. Energy can also be transferred across dimensions making energy management simple."
+			]
+			dependencies: ["2F4CA025B9981242"]
+			size: 1.5d
+			id: "7AD0A09E83F4D09C"
+			tasks: [{
+				id: "0A5DAF2F42E5BEB5"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "642145516D853F55"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "&f&lFlux Core"
+			x: -0.5d
+			y: -2.0d
+			subtitle: "Other key crafting ingredients of the mod!"
+			dependencies: ["7AA18B409FB698D2"]
+			id: "486457F40D2A1D29"
+			tasks: [{
+				id: "2E3C48AB30023865"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+			rewards: [
+				{
+					id: "45E3B05D0201E028"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "28AAC867DFFA5626"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 8
+				}
+				{
+					id: "5A29A8AD2B01D292"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+	]
+}

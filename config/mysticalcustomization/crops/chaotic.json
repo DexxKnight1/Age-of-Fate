@@ -1,0 +1,15 @@
+{
+  "name": "Chaotic",
+  "type": "resource",
+  "tier": "mysticalcustomization:magical",
+  "ingredient": {
+    "item": "draconicevolution:chaos_shard"
+  },
+  "color": "171717",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_face",
+    "essence": "mysticalagriculture:item/chaotic_essence"
+  },
+  "glint": true,
+  "crux": "kubejs:magical_soil"
+}

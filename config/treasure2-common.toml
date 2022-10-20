@@ -1,0 +1,917 @@
+
+###############################
+# Mod properties
+###############################
+[01-mod]
+	#Enables/Disables mod.
+	enabled = true
+	# The directory where mods are located
+	#This is relative to the Minecraft install path.
+	modFolder = "mods"
+	# The directory where configs are located.
+	#Resource files will be located here as well.
+	# This is relative to the Minecraft install path.
+	configFolder = "config"
+	#Enables/Disables version checking.
+	enableVersionChecker = true
+	# Remind the user of the latest version update.
+	enableLatestVersionReminder = true
+
+###############################
+# Logging properties
+###############################
+[02-logging]
+	# The logging level. Set to 'off' to disable logging.
+	# Values = [trace|debug|info|warn|error|off]
+	level = "info"
+	# The size a log file can be before rolling over to a new file.
+	size = "1000K"
+	# The directory where the logs should be stored.
+	# This is relative to the Minecraft install path.
+	folder = "logs"
+	# The base filename of the  log file.
+	filename = "log"
+
+###############################
+# General properties for Treasure mod.
+###############################
+[general]
+	# Enable/Disable a check to ensure the default loot tables exist on the file system.
+	#If enabled, then you will not be able to remove any default loot tables (but they can be edited).
+	#This option should be enabled at least for the first run of the mod to create the default settings.
+	#Only disable if you know what you're doing.
+	"Enable default loot tables check:" = true
+	# Enable/Disable a check to ensure the default templates exist on the file system.
+	# If enabled, then you will not be able to remove any default templates.
+	# Only disable if you know what you're doing.
+	"Enable default templates check:" = true
+	# Enable/Disable a check to ensure the default decay rulesets exist on the file system.
+	# If enabled, then you will not be able to remove any default decay rulesets (but they can be edited).
+	# Only disable if you know what you're doing.
+	"Enable default decay rulesets check:" = true
+	#The probability that a surface structure will generate.
+	#Range: 0 ~ 100
+	"Probability of surface structure spawn:" = 25
+	# Allowed Dimensions for generation.
+	# Treasure2 was designed for 'normal' overworld-type dimensions.
+	# This setting does not use any wildcards (*). You must explicitly set the dimensions that are allowed.
+	# ex. minecraft:overworld
+	"Dimension White List:" = ["minecraft:overworld"]
+
+###############################
+# Chest properties
+###############################
+[chests]
+	#The probability that a chest will contain a treasure map to another chest.
+	#Range: 20.0 ~ 100.0
+	"Treasure Chest Probability:" = 20.0
+
+	###############################
+	# Chests that generate on land.
+	#------------------------------
+	# Note: There is a build-in check against ocean biomes for surface chests. Adding ocean biomes to the white lists will not change this functionality.
+	###############################
+	[chests."surface chests"]
+		# The probability chest will appear on the surface, instead of in a pit.
+		#Range: 0 ~ 100
+		"Probability of chest spawn on the surface:" = 15
+
+		###############################
+		# Common chest properties
+		###############################
+		[chests."surface chests".common]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 6
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 15
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 20.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 100
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."surface chests".common.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = []
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = []
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = []
+
+		###############################
+		# Uncommon chest properties
+		###############################
+		[chests."surface chests".uncommon]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 10
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 25
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 17.5
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 70
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."surface chests".uncommon.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = []
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = []
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = []
+
+		###############################
+		# Scarce chest properties
+		###############################
+		[chests."surface chests".scarce]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 20
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 35
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 15.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 40
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."surface chests".scarce.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = []
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = []
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = []
+
+		###############################
+		# Rare chest properties
+		###############################
+		[chests."surface chests".rare]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 30
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 45
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 0.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 20
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."surface chests".rare.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = []
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = ["minecraft:plains", "minecraft:sunflower_plains"]
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = ["minecraft:plains"]
+
+		###############################
+		# Epic chest properties
+		###############################
+		[chests."surface chests".epic]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 40
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 55
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 0.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 10
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."surface chests".epic.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = []
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = ["minecraft:plains", "minecraft:sunflower_plains"]
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = ["minecraft:plains"]
+
+		###############################
+		# Legendary chest properties
+		###############################
+		[chests."surface chests".legendary]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 5
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 50
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 65
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 0.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."surface chests".legendary.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = []
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = ["plains", "sunflower_plains"]
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = ["plains"]
+
+		###############################
+		# Mythical chest properties
+		###############################
+		[chests."surface chests".mythical]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 2
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 60
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 75
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 0.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."surface chests".mythical.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = []
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = ["plains", "sunflower_plains"]
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = ["plains"]
+
+	###############################
+	# Chests that generate underwater (in ocean biomes).
+	#------------------------------
+	# Note: There is a build-in check to only allow ocean biomes for submerged chests. Adding other biomes to the white lists will not change this functionality.
+	###############################
+	[chests."submerged chests"]
+		# The probability chest will appear on the surface, instead of in a pit.
+		#Range: 0 ~ 100
+		"Probability of chest spawn on the surface:" = 15
+
+		###############################
+		# Common chest properties
+		###############################
+		[chests."submerged chests".common]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = false
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 5
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 5
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 0.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 76
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."submerged chests".common.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = []
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = []
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = []
+
+		###############################
+		# Uncommon chest properties
+		###############################
+		[chests."submerged chests".uncommon]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = false
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 5
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 5
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 0.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 56
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."submerged chests".uncommon.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = []
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = []
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = []
+
+		###############################
+		# Scarce chest properties
+		###############################
+		[chests."submerged chests".scarce]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 5
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 5
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 0.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 36
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."submerged chests".scarce.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean"]
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = []
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = []
+
+		###############################
+		# Rare chest properties
+		###############################
+		[chests."submerged chests".rare]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 5
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 5
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 0.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 16
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."submerged chests".rare.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean"]
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = []
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = []
+
+		###############################
+		# Epic chest properties
+		###############################
+		[chests."submerged chests".epic]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 5
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 5
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 0.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 9
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."submerged chests".epic.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean"]
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = []
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = []
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = []
+
+		###############################
+		# Legendary chest properties
+		###############################
+		[chests."submerged chests".legendary]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 5
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 5
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 5
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 0.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."submerged chests".legendary.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = ["ocean", "deep_ocean", "deep_frozen_ocean", "cold_ocean", "deep_cold_ocean", "lukewarm_ocean", "warm_ocean"]
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = []
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = ["ocean", "deep_ocean"]
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = []
+
+		###############################
+		# Mythical chest properties
+		###############################
+		[chests."submerged chests".mythical]
+			# Enable/Disable generating chests associated with this rarity.
+			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 2
+			#The minimum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Minimum depth for spawn location:" = 5
+			#The maximum blocks deep from the surface that a chest can generate at.
+			#Range: 5 ~ 250
+			"Maximum depth for spawn location:" = 5
+			#The probability that a chest will be a mimic.
+			#Range: 0.0 ~ 100.0
+			"Mimic probability:" = 0.0
+			#No comment
+			"Enable surface spawn:" = true
+			#No comment
+			"Enable subterranean spawn:" = true
+
+			###############################
+			# Biome white and black list properties
+			###############################
+			[chests."submerged chests".mythical.biomes]
+				# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"White list by biome name:" = ["ocean", "deep_ocean", "deep_frozen_ocean", "cold_ocean", "deep_cold_ocean", "lukewarm_ocean", "warm_ocean"]
+				# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+				"Black list by biome name:" = []
+				# Allowabled Biome Types for generation. Must match the Type identifer(s).
+				"White list by biome type:" = ["ocean", "deep_ocean"]
+				# Disallowed Biome Types for generation. Must match the Type identifer(s).
+				"Black list by biome type:" = []
+
+	###############################
+	# Chest Generation properties
+	###############################
+	[chests."surface chest Gen"]
+		# The number of chests that are monitored. Most recent additions replace least recent when the registry is full.
+		# This is the set of chests used to measure distance between newly generated chests.
+		# A high count is better than a low count, especially in a multiplayer world.
+		#Range: 50 ~ 5000
+		"Maximum size of chest registry:" = 1000
+		# The probability that a chest will generate at selected spawn location.
+		# Including a non-100 value increases the randomization of chest placement.
+		#Range: 0.0 ~ 100.0
+		"Probability:" = 80.0
+		# The minimum distance, measured in blocks, that two chests can be in proximity (ie radius).
+		# Note: Only chests in the chest registry are checked against this property.
+		# Default = 256 blocks, or 16 chunks.
+		#Range: 80 ~ 32768
+		"Minimum distance per chest spawn:" = 192
+		# The number of chunks that are generated in a new world before a chests start to spawn.
+		#Range: 10 ~ 32000
+		"Wait for first chunks:" = 25
+
+	###############################
+	# Chest Generation properties
+	###############################
+	[chests."submerged chest gen"]
+		# The number of chests that are monitored. Most recent additions replace least recent when the registry is full.
+		# This is the set of chests used to measure distance between newly generated chests.
+		# A high count is better than a low count, especially in a multiplayer world.
+		#Range: 50 ~ 5000
+		"Maximum size of chest registry:" = 500
+		# The probability that a chest will generate at selected spawn location.
+		# Including a non-100 value increases the randomization of chest placement.
+		#Range: 0.0 ~ 100.0
+		"Probability:" = 70.0
+		# The minimum distance, measured in blocks, that two chests can be in proximity (ie radius).
+		# Note: Only chests in the chest registry are checked against this property.
+		# Default = 256 blocks, or 16 chunks.
+		#Range: 80 ~ 32768
+		"Minimum distance per chest spawn:" = 560
+		# The number of chunks that are generated in a new world before a chests start to spawn.
+		#Range: 10 ~ 32000
+		"Wait for first chunks:" = 100
+
+###############################
+# Pit properties
+###############################
+[pits]
+	#The probability that a pit will contain a structure (treasure room(s), cavern etc.)
+	#Range: 0 ~ 100
+	"Probability of pit structure spawn:" = 25
+
+###############################
+# Gravestones and Markers properties
+###############################
+[markers]
+	# Enable/disable whether chest markers (gravestones, bones)  are generated when generating treasure chests.
+	"Enable markers:" = true
+	# Enable/disable whether structures (buildings) are generated when generating  treasure chests.
+	"Enable structure markers:" = true
+	# The minimum number of markers (gravestones, bones) per chest.
+	#Range: 1 ~ 5
+	"Minimum markers per chest:" = 2
+	# The maximum number of markers (gravestones, bones) per chest.
+	#Range: 1 ~ 10
+	"Maximum markers per chest:" = 5
+	# The probability that a marker will be a structure.
+	#Range: 1 ~ 100
+	"Probability that marker will be a structure:" = 15
+	# Enable/disable whether gravestone markers can spawn mobs (ex. Bound Soul).
+	"Enable gravestone markers to spawn mobs:" = true
+	# The probability that a gravestone will spawn a mob.
+	# Currently gravestones can spawn Bound Souls.
+	#Range: 1 ~ 100
+	"Probability that grave marker will spawn a mob:" = 25
+
+###############################
+# Well properties
+###############################
+[wells]
+	#Enable/disable whether wells will spawn.
+	"Enable wells:" = true
+	# The minimum distance, measured in blocks, that two wells can be in proximity.
+	# Note: Only wells in the wells registry are checked against this property.
+	# Used in conjunction with the chunks per well and spawn probability.
+	# Ex. TODO
+	#Range: 100 ~ 32000
+	"Minimum block distance per well spawn:" = 400
+	#The probability that a well will generate.
+	#Range: 0.0 ~ 100.0
+	"Generation probability:" = 80.0
+	#The number of wells that are monitored. Most recent additions replace oldest when the registry is full.
+	#This is the set of wells used to measure distance between newly generated wells.
+	#Range: 5 ~ 1000
+	"Maximum size of chest registry:" = 25
+	# The number of chunks that are generated in a new world before wells start to spawn.
+	#Range: 10 ~ 32000
+	"Wait for first chunks:" = 100
+
+	###############################
+	# Biome white and black list properties
+	###############################
+	[wells.biomes]
+		# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+		"White list by biome name:" = []
+		# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+		"Black list by biome name:" = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:warm_ocean"]
+		# Allowabled Biome Types for generation. Must match the Type identifer(s).
+		"White list by biome type:" = []
+		# Disallowed Biome Types for generation. Must match the Type identifer(s).
+		"Black list by biome type:" = ["minecraft:ocean", "minecraft:deep_ocean"]
+
+###############################
+# Keys and Locks properties
+###############################
+["keys and locks"]
+	# Enable/Disable whether a Key can break when attempting to unlock a Lock.
+	"Enable key breaks:" = true
+	#Enable/Disable whether a Lock item is dropped when unlocked by Key item.
+	"Enable lock drops:" = true
+	# The maximum uses for a given pilferers lock pick.
+	#Range: 1 ~ 32000
+	"Pilferer's lockpick max uses:" = 10
+	# The maximum uses for a given thiefs lock pick.
+	#Range: 1 ~ 32000
+	"Thief's lockpick max uses:" = 10
+	# The maximum uses for a given wooden key.
+	#Range: 1 ~ 32000
+	"Wood key max uses:" = 20
+	# The maximum uses for a given lightning key.
+	#Range: 1 ~ 32000
+	"Stone key max uses:" = 10
+	# The maximum uses for a given iron key.
+	#Range: 1 ~ 32000
+	"Iron key max uses:" = 10
+	# The maximum uses for a given gold key.
+	#Range: 1 ~ 32000
+	"Gold key max uses:" = 15
+	# The maximum uses for a given diamond key.
+	#Range: 1 ~ 32000
+	"Diamond key max uses:" = 20
+	# The maximum uses for a given emerald key.
+	#Range: 1 ~ 32000
+	"Emerald key max uses:" = 10
+	# The maximum uses for a given ruby key.
+	#Range: 1 ~ 32000
+	"Ruby key max uses:" = 5
+	# The maximum uses for a given sapphire key.
+	#Range: 1 ~ 32000
+	"Sapphire key max uses:" = 5
+	# The maximum uses for a given metallurgists key.
+	#Range: 1 ~ 32000
+	"Metallurgists key max uses:" = 25
+	# The maximum uses for a given skeleton key.
+	#Range: 1 ~ 32000
+	"Skeleton key max uses:" = 5
+	# The maximum uses for a given jewelled key.
+	#Range: 1 ~ 32000
+	"Jewelled Key max uses:" = 5
+	# The maximum uses for a given spider key.
+	#Range: 1 ~ 32000
+	"Spider key max uses:" = 5
+	# The maximum uses for a given wither key.
+	#Range: 1 ~ 32000
+	"Wither key max uses:" = 5
+
+###############################
+# Treasure Loot and Valuables properties
+###############################
+[booty]
+	# The maximum size of a wealth item stacks. ex. Coins, Gems, Pearls
+	#Range: 1 ~ 64
+	"Maximum Stack Size:" = 8
+
+###############################
+# Coins and Valuables properties
+###############################
+[coins]
+	# The maximum size of a coin item stack.
+	#Range: 1 ~ 64
+	"Maximum Stack Size:" = 8
+
+###############################
+# Gems and Ores properties
+###############################
+["gems and ores"]
+	# Enable/disable whether a gem ore will spawn.
+	"Enable gem ore spawn:" = true
+	# The probability that a ruby ore will spawn.
+	#Range: 0.0 ~ 100.0
+	"Probability of ruby ore spawn:" = 65.0
+	# The minimum y-value where a ruby ore can spawn.
+	#Range: 1 ~ 255
+	"Minimum y-value for ruby ore spawn location:" = 6
+	# The maximum y-value where a ruby ore can spawn.
+	#Range: 1 ~ 255
+	"Maximum y-value for ruby ore spawn location:" = 17
+	# The number of ruby ore blocks in a vein.
+	#Range: 3 ~ 20
+	"Ruby ore vein size:" = 3
+	# The number of ruby ore veins in a chunk.
+	#Range: 1 ~ 20
+	"Ruby ore veins per chunk:" = 1
+	# The probability that a sapphire ore will spawn.
+	#Range: 0.0 ~ 100.0
+	"Probability of sapphire ore spawn:" = 65.0
+	# The minimum y-value where a sapphire ore can spawn.
+	#Range: 1 ~ 255
+	"Minimum y-value for sapphire ore spawn location:" = 6
+	# The maximum y-value where a sapphire ore can spawn.
+	#Range: 1 ~ 255
+	"Maximum y-value for sapphire ore spawn location:" = 17
+	# The number of sapphire ore blocks in a vein.
+	#Range: 3 ~ 20
+	"Sapphire ore vein size:" = 3
+	# The number of sapphire ore veins in a chunk.
+	#Range: 3 ~ 20
+	"Sapphire ore veins per chunk:" = 3
+	# The probability that a topaz ore will spawn.
+	#Range: 0.0 ~ 100.0
+	"Probability of topaz ore spawn:" = 75.0
+	# The minimum y-value where a topaz ore can spawn.
+	#Range: 1 ~ 255
+	"Minimum y-value for topaz ore spawn location:" = 9
+	# The maximum y-value where a topaz ore can spawn.
+	#Range: 1 ~ 255
+	"Maximum y-value for topaz ore spawn location:" = 25
+	# The number of topaz ore blocks in a vein.
+	#Range: 3 ~ 20
+	"Topaz ore vein size:" = 3
+	# The number of topaz ore veins in a chunk.
+	#Range: 1 ~ 20
+	"Topaz ore veins per chunk:" = 1
+	# The probability that a onyx ore will spawn.
+	#Range: 0.0 ~ 100.0
+	"Probability of onyx ore spawn:" = 70.0
+	# The minimum y-value where a onyx ore can spawn.
+	#Range: 1 ~ 255
+	"Minimum y-value for onyx ore spawn location:" = 9
+	# The maximum y-value where a onyx ore can spawn.
+	#Range: 1 ~ 255
+	"Maximum y-value for onyx ore spawn location:" = 24
+	# The number of onyx ore blocks in a vein.
+	#Range: 3 ~ 20
+	"Onyx ore vein size:" = 3
+	# The number of onyx ore veins in a chunk.
+	#Range: 1 ~ 20
+	"Onyx ore veins per chunk:" = 1
+
+###############################
+# Fog properties
+###############################
+[fog]
+	# Enable/disable white fog.
+	"Enable fog:" = true
+
+###############################
+# Wither Tree properties
+###############################
+["wither tree"]
+	# Enable/disable whether wither trees will spawn.
+	"Enable wither trees:" = true
+	# The minimum distance, measured in blocks, that two wither trees can be in proximity.
+	# Note: Only wither trees in the wither tree registry are checked against this property.
+	# Used in conjunction with the chunks per wither tree and spawn probability.
+	# Ex. TODO
+	#Range: 100 ~ 32000
+	"Minimum block distance per wither tree spawn:" = 800
+	# The probability that a wither tree will spawn.
+	#Range: 0.0 ~ 100.0
+	"Probability of wither tree spawn:" = 90.0
+	# The maximum height a wither tree can reach.
+	# This is the high end of a calculated range. ex. size is randomized between minTrunkSize and maxTrunkSize.
+	# (The minimum is predefined.)
+	#Range: 7 ~ 20
+	"Maximum trunk height (in blocks):" = 13
+	# The minimum number of supporting wither trees that surround the main tree in the grove.
+	#Range: 0 ~ 30
+	"Minimum number of supporting trees:" = 5
+	# The maximum number of supporting wither trees that surround the main tree in the grove.
+	#Range: 0 ~ 30
+	"Maximum number of supporting trees:" = 15
+	#The number of wither trees that are monitored. Most recent additions replace oldest when the registry is full.
+	#This is the set of wither trees used to measure distance between newly generated wither trees.
+	#Range: 5 ~ 1000
+	"Maximum size of chest registry:" = 25
+	# The number of chunks that are generated in a new world before wither trees start to spawn.
+	#Range: 10 ~ 32000
+	"Wait for first chunks:" = 608
+
+	###############################
+	# Biome white and black list properties
+	###############################
+	["wither tree".biomes]
+		# Allowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+		"White list by biome name:" = []
+		# Disallowed Biomes for generation. Must match the Biome Registry Name(s). ex. minecraft:plains
+		"Black list by biome name:" = ["minecraft:desert", "minecraft:ice_spikes", "minecraft:snowy_tundra", "minecraft:ocean", "minecraft:deep_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:warm_ocean"]
+		# Allowabled Biome Types for generation. Must match the Type identifer(s).
+		"White list by biome type:" = []
+		# Disallowed Biome Types for generation. Must match the Type identifer(s).
+		"Black list by biome type:" = ["minecraft:ocean", "minecraft:deep_ocean"]
+
+###############################
+# Integration properties
+###############################
+[integration]
+	#Enable/Disable Curios integration.
+	#Enabled by default, but Curios must be installed as well.
+	"Enable Curios Integration:" = true
+

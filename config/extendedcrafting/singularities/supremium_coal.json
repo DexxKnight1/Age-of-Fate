@@ -1,0 +1,7 @@
+{
+    "name": "Supremium Coal",
+    "colors": ["BA1E19", "BA1E19"],
+    "ingredient": {
+        "item": "mysticalagradditions:supremium_coal"
+    }
+}

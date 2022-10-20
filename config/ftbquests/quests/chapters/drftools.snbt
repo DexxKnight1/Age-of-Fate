@@ -1,0 +1,942 @@
+{
+	id: "79702386FC1072FA"
+	group: "66971E0EF19CA037"
+	order_index: 3
+	filename: "drftools"
+	title: "&dRFTools"
+	icon: "rftoolsutility:crafter3"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -0.75d
+		y: -13.589285714285712d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&c&lWelcome to RFTools"
+			icon: "rftoolsbase:manual"
+			x: -1.5d
+			y: -13.0d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oFlux Controller&r quest*"
+			description: [
+				"RFTools is a technological mod which main feature is the ability to create and maintain dimensions using RF energy."
+				""
+				"This includes:"
+				"- RFTools Utility"
+				"- RFTools Power"
+				"- RFTools Builder"
+				"- XNet"
+			]
+			dependencies: ["1C214DD51C58BE4D"]
+			size: 1.5d
+			id: "6C41E2026808192B"
+			tasks: [{
+				id: "322920B144ECD8CB"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "747E1E90493413C6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "41377BC99BF7DE90"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -11.0d
+			dependencies: ["6C41E2026808192B"]
+			id: "60FAF6D4F7C0045F"
+			tasks: [{
+				id: "56F9A2549A76DD88"
+				type: "item"
+				item: "rftoolsbase:smartwrench"
+			}]
+			rewards: [{
+				id: "57CBAB436C6E9F73"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "&c&lMachine Frame"
+			x: -1.5d
+			y: -8.5d
+			subtitle: "The Machine Frame is a basic ingredient added by RFTools mod"
+			description: ["It is used to craft various machines in this mod"]
+			dependencies: ["60FAF6D4F7C0045F"]
+			id: "7DF063A7E5F71A24"
+			tasks: [{
+				id: "6E6214A804561D5B"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+			rewards: [
+				{
+					id: "1E4547DF19967E0B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "043540E6109AAFF3"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -9.5d
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "2A7DBB02C3F24F3C"
+			tasks: [{
+				id: "0C7241699DA66967"
+				type: "item"
+				title: "Crafters"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "rftools:crafter"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6CE6B3D6B565C92B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "26A873F65AFF668D"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "703D960AA55A39DF"
+					type: "item"
+					item: {
+						id: "rftoolsbase:filter_module"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "393D0DAB53E99257"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "682086057646D4A9"
+			tasks: [{
+				id: "0DF35EA9DA7E7454"
+				type: "item"
+				item: "rftoolsbuilder:builder"
+			}]
+			rewards: [
+				{
+					id: "7BE8A03DE324A2AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C2CA98736898517"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "17990F011E8B05C6"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			dependencies: ["682086057646D4A9"]
+			id: "285F5229F9886964"
+			tasks: [{
+				id: "4D232005308C6653"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_def"
+			}]
+			rewards: [{
+				id: "088A276A8A9C6E97"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.5d
+			dependencies: ["285F5229F9886964"]
+			id: "1577F5904F74CAC2"
+			tasks: [{
+				id: "10D0F13092D018DE"
+				type: "item"
+				title: "Fluid Cards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "rftools:fluidcard"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "24B5640FDC82D1F7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B7FFC980BD67A36"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5FBD8B2D7E4C151E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.5d
+			dependencies: ["285F5229F9886964"]
+			id: "0BEF5569A44508CC"
+			tasks: [{
+				id: "04A6DEF1E226A3F1"
+				type: "item"
+				title: "Quarry Cards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "rftools:quarrycard"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "165B88DDF95F332F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "185C0461F381B5B9"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3420796042456C46"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -6.5d
+			dependencies: ["285F5229F9886964"]
+			id: "5D55CF2A574853CF"
+			tasks: [{
+				id: "1A3E24855E306C7D"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_void"
+			}]
+			rewards: [
+				{
+					id: "4D949A05DE7EA062"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B507A121CCB3160"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "10D2976C8070BC78"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -8.5d
+			shape: "square"
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "5AF02F4038D42793"
+			tasks: [{
+				id: "097530CA252C35ED"
+				type: "item"
+				item: "rftoolsbase:machine_base"
+			}]
+			rewards: [
+				{
+					id: "6E32B039FF0D0CC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "737D4A08E042AEA2"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "35213633AF2C4C0E"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -7.0d
+			dependencies: ["5AF02F4038D42793"]
+			id: "5BCE68F5A09D41F5"
+			tasks: [{
+				id: "7428E84402337000"
+				type: "item"
+				item: "rftoolsutility:timer"
+			}]
+			rewards: [
+				{
+					id: "547602EF690FCB7C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "781A77D2F93E480A"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "01B78F61B26A1A4B"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -7.0d
+			dependencies: ["5AF02F4038D42793"]
+			id: "6D7333BF4080FD46"
+			tasks: [{
+				id: "1893EFDE81DB4E39"
+				type: "item"
+				item: "rftoolsutility:invchecker"
+			}]
+			rewards: [
+				{
+					id: "5CFCA5F53CFC78FD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4115DFBAD6061DCA"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "0B7FE20A6A80A923"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -8.5d
+			dependencies: ["5AF02F4038D42793"]
+			id: "4ABAA892B2FF4921"
+			tasks: [
+				{
+					id: "1B2832B3BFFE885C"
+					type: "item"
+					item: "rftoolsutility:redstone_transmitter"
+				}
+				{
+					id: "297E600E242A0D5A"
+					type: "item"
+					item: "rftoolsutility:redstone_receiver"
+				}
+			]
+			rewards: [
+				{
+					id: "4367BDCEDEF31251"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45094A8BF77C89ED"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "00C57B136AEB1E22"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -10.0d
+			dependencies: ["5AF02F4038D42793"]
+			id: "5C7EC68C8BF7AFE8"
+			tasks: [{
+				id: "6217DB5FB29F70FE"
+				type: "item"
+				item: "rftoolsutility:sensor"
+			}]
+			rewards: [
+				{
+					id: "27E216BAC0021B59"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "42E4D9F42B91CEB7"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "6EAB17D6CEA397FA"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -10.0d
+			dependencies: ["5AF02F4038D42793"]
+			id: "20ACD98053928296"
+			tasks: [{
+				id: "2417810F96A040E0"
+				type: "item"
+				item: "rftoolsutility:logic"
+			}]
+			rewards: [
+				{
+					id: "1FD4842570ADA2AD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5F85058346164B75"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "253264FC0CD156EC"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -11.5d
+			dependencies: ["20ACD98053928296"]
+			id: "6C052AB11C771F27"
+			tasks: [{
+				id: "43DF5DE3750E6674"
+				type: "item"
+				item: "rftoolsutility:analog"
+			}]
+			rewards: [
+				{
+					id: "4996A88A46A69F4D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30D9F5E97F916790"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "1CA84174955653AA"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -11.5d
+			dependencies: ["6C052AB11C771F27"]
+			id: "1AFE50D6BF0DB19A"
+			tasks: [{
+				id: "29D76E3E788E29A2"
+				type: "item"
+				item: "rftoolsutility:sequencer"
+			}]
+			rewards: [
+				{
+					id: "57EB848554C17029"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "336FA2B6F01CF4DF"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "5018519DE6558E70"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			title: "&c&lxNet"
+			x: -1.5d
+			y: -6.0d
+			subtitle: "XNet is an item, fluid, energy, and information transportation mod that is all about efficiency"
+			description: [
+				"The cable system is designed in such way that you should be able to make huge cable systems without any overhead. Cables (for example) are not tile entities and have very simply models. This makes transporting items accross a cable of 12000 blocks long just as efficient as doing it on a 5 block long cable."
+				""
+				"At the core of this mod is a network. A network is basically a single section of connected cables connected (via connectors) to various blocks (chests, machines, ...) and one controller. The controller is the block that does the actual work for that network."
+				""
+				"Every network can have 8 channels maximum. Every channel has a type (energy, item, fluid, logic, ...) that you can configure in the controller. Depending on the type of a channel and the machines that are connected to that channel various things can happen."
+				""
+				""
+			]
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "6DEF153CC59F8027"
+			tasks: [{
+				id: "616450752E51E49F"
+				type: "item"
+				item: "xnet:controller"
+			}]
+			rewards: [
+				{
+					id: "739359FB0F5B52F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B2994A65750A83A"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "2AC0AD87B6B094B7"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "28F1D07CE295EA12"
+					type: "item"
+					item: {
+						id: "rftoolsbase:filter_module"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "2B848CAA7E17E16A"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			dependencies: ["6DEF153CC59F8027"]
+			id: "365A6D42421BE3FD"
+			tasks: [{
+				id: "33A2B9FB5D605328"
+				type: "item"
+				item: "xnet:connector_upgrade"
+			}]
+			rewards: [
+				{
+					id: "434B3A69528FD915"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2929B450697776C9"
+					type: "item"
+					item: "xnet:connector_upgrade"
+				}
+				{
+					id: "6E64341BF751DF7D"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			description: ["If you want to go beyond the 8 channel limit or you want to connect multiple distinct networks you can make a 'routing network' using routers. A single router is already sufficient to connect up to six (six sides of the router) channels but using routing cables and routing connectors you can also make a routing network out of routers. Note that on a single routing network you can only have 32 published channels."]
+			dependencies: ["6DEF153CC59F8027"]
+			id: "03E0E9E4FF65A1D0"
+			tasks: [
+				{
+					id: "61BF09383666D7EE"
+					type: "item"
+					item: "xnet:router"
+				}
+				{
+					id: "6A83AF02E3C02A1E"
+					type: "item"
+					item: "xnet:wireless_router"
+				}
+			]
+			rewards: [
+				{
+					id: "1206388F0BFB6EC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1DD082763EC411D7"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "099B528E4F1F5672"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["03E0E9E4FF65A1D0"]
+			id: "5816B362FAC90FD2"
+			tasks: [
+				{
+					id: "71FCEB01BA7B06FE"
+					type: "item"
+					item: "xnet:antenna"
+				}
+				{
+					id: "0119D232828253CB"
+					type: "item"
+					item: "xnet:antenna_base"
+				}
+				{
+					id: "623CC846A508A5C3"
+					type: "item"
+					item: "xnet:antenna_dish"
+				}
+			]
+			rewards: [
+				{
+					id: "45391F4D107EA132"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "159ED8E687A2FCB3"
+					type: "item"
+					item: "rftoolsbase:dimensionalshard"
+					count: 12
+				}
+				{
+					id: "250923A1C85F72E6"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["6DEF153CC59F8027"]
+			id: "6F55900506DA5023"
+			tasks: [
+				{
+					id: "3D39D681526F2047"
+					type: "item"
+					item: "xnet:redstone_proxy"
+				}
+				{
+					id: "76AF1DC32A3A9068"
+					type: "item"
+					item: "xnet:redstone_proxy_upd"
+				}
+			]
+			rewards: [
+				{
+					id: "36337CA9D5387055"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2A080F06998E0999"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "036C7BB971E948C0"
+					type: "loot"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "7CB9185F110F93C4"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "5B8997EA5EC2D7BB"
+			tasks: [
+				{
+					id: "3A6F6D0412C6A287"
+					type: "item"
+					item: "rftoolsutility:matter_transmitter"
+				}
+				{
+					id: "116D82288F3E9FD4"
+					type: "item"
+					item: "rftoolsutility:matter_receiver"
+				}
+				{
+					id: "0E8561CDB7DF67F9"
+					type: "item"
+					item: "rftoolsutility:dialing_device"
+				}
+			]
+			rewards: [
+				{
+					id: "21E04307CBC7DA65"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "55889DFDD560E11A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "0CBBDE71B79B608C"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "71405CB3BB7606C1"
+			tasks: [{
+				id: "4AE45060837F5F5B"
+				type: "item"
+				item: "rftoolsbase:machine_infuser"
+			}]
+			rewards: [
+				{
+					id: "76E4A8CA24CC19AC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "57EBFF93EB4E32AC"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "63FFB7DEE0DBCCC2"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["5B8997EA5EC2D7BB"]
+			id: "389FA0ADD01A73AC"
+			tasks: [{
+				id: "2D19A5CE1761834F"
+				type: "item"
+				item: {
+					id: "rftoolsutility:advanced_charged_porter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00E5933ECD3105EE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6FE107CB1B131A37"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "038D34F7446C7804"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -7.5d
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "1FE11C4B88FBDC4E"
+			tasks: [{
+				id: "5CA7C461254A2C76"
+				type: "item"
+				title: "Power Cells"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "rftools:powercell"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "78A053F4680CE213"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "452C58B0B9C07853"
+					type: "item"
+					item: "rftoolsbase:infused_diamond"
+					count: 8
+				}
+				{
+					id: "78507A59EB181F56"
+					type: "item"
+					item: "rftoolsbase:information_screen"
+				}
+				{
+					id: "64779FE4DC1FBA44"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "334490B3E50DF447"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -9.5d
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "0609473B4EF78B7D"
+			tasks: [
+				{
+					id: "391C47D5D0A249A8"
+					type: "item"
+					title: "Dimensional Cells"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "rftools:dimensionalcell"
+						}
+					}
+				}
+				{
+					id: "273093C32FEB3671"
+					type: "item"
+					item: "rftoolspower:powercell_card"
+				}
+			]
+			rewards: [
+				{
+					id: "7912E250AFB76701"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "13462EF81ED901AF"
+					type: "item"
+					item: "rftoolspower:powercell_card"
+					count: 4
+				}
+				{
+					id: "77921060751BD6E1"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "48400E078195CF48"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			dependencies: ["71405CB3BB7606C1"]
+			id: "7277E270DAF637A6"
+			tasks: [{
+				id: "367807983732D1B9"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+			}]
+			rewards: [
+				{
+					id: "4567629E9BE05CB5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6125CD0A938D602E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3A33402DFF952CAA"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+	]
+}

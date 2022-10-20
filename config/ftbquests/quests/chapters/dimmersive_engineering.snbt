@@ -1,0 +1,2016 @@
+{
+	id: "7AA8FE0CAD271D8B"
+	group: "66971E0EF19CA037"
+	order_index: 4
+	filename: "dimmersive_engineering"
+	title: "&dImmersive Engineering"
+	icon: "immersiveengineering:workbench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -3.25d
+		y: -9.589285714285712d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -1.5d
+			y: -8.0d
+			dependencies: ["2F8B1B5084313565"]
+			id: "774B1D4152A0B4ED"
+			tasks: [{
+				id: "20C035B018336E50"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3F56B2A71BE040D3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "69C8BC2D8E6F2970"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "513705857B058771"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			dependencies: ["774B1D4152A0B4ED"]
+			id: "7AEE26C5734D4C0D"
+			tasks: [{
+				id: "500C93B20B6FAAEB"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "068C43C39E1F6A87"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "709DAD32DD8EAF79"
+					type: "item"
+					item: {
+						id: "immersiveengineering:wirecutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "441DD3D1FACB0460"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -9.0d
+			dependencies: ["7AEE26C5734D4C0D"]
+			id: "3EC13E3F2F7804B4"
+			tasks: [{
+				id: "2BBF16745D8590FA"
+				type: "item"
+				item: "immersiveengineering:screwdriver"
+			}]
+			rewards: [
+				{
+					id: "657EE272C13D5D93"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "01642F79882328A1"
+					type: "item"
+					item: "immersiveengineering:wire_copper"
+					count: 2
+				}
+				{
+					id: "64255653ACE168A0"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "&a&lWelcome to Immersive Engineering"
+			x: -4.0d
+			y: -9.0d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oRedstone Contact&r quest*"
+			description: [
+				"Immersive Engineering is a tech mod."
+				""
+				"Overall, it's about realism-inspired technology. It adds a number of structures that create a more realistic setting for power generation using the RF system.Immersive Engineering is a tech mod"
+				""
+				"It is best known for its multiblock machines, characterized by their industrial look. Both single and multiblock machines operate on three tiers of power, low voltage being 256 RF/t, medium being 1024 RF/t and high corresponding to 4096 RF/t."
+			]
+			dependencies: ["7FFE461E4E8F59F1"]
+			size: 1.5d
+			id: "2F8B1B5084313565"
+			tasks: [{
+				id: "5C318DBAF7CF4826"
+				type: "checkmark"
+				icon: "immersiveengineering:manual"
+			}]
+			rewards: [
+				{
+					id: "037CBC5F409A741D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2321886EEC705882"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+				}
+				{
+					id: "095D421EBEA2BA38"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.3214285714285694d
+			y: -5.237499999999997d
+			dependencies: ["316399F0B5F729CA"]
+			id: "39C8CD6102B26BFE"
+			tasks: [{
+				id: "5D57E16F56AE2326"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [
+				{
+					id: "2F5E514747A3ECBA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "31D1D0A4FABBD381"
+					type: "item"
+					item: "immersiveengineering:crate"
+				}
+				{
+					id: "088060CDCA48F8D6"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "2205055BAD5A2053"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			dependencies: ["174228D87BAF69B2"]
+			id: "6CDC36440B2D017E"
+			tasks: [{
+				id: "3AF957724ABA0601"
+				type: "item"
+				item: {
+					id: "immersiveengineering:toolbox"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 23
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7CCDF3CDC369E9B7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3DB9011FD52E703A"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "electrode"
+						}
+					}
+				}
+				{
+					id: "77E9B4B8AFB45DA1"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "molds"
+						}
+					}
+				}
+				{
+					id: "12988FCD831B4152"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "783D4FC8E39BA4D2"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 0.6785714285714306d
+			y: -6.237499999999997d
+			dependencies: ["39C8CD6102B26BFE"]
+			id: "6FD4E416A535319D"
+			tasks: [{
+				id: "000F975F6BFEC689"
+				type: "item"
+				item: "immersiveengineering:electron_tube"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "197644A89E9635CB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79C0D5021DA20585"
+					type: "item"
+					item: "immersiveengineering:electron_tube"
+				}
+			]
+		}
+		{
+			x: 2.035714285714292d
+			y: -5.692857142857136d
+			dependencies: ["6FD4E416A535319D"]
+			id: "0884D6C10B1047A2"
+			tasks: [{
+				id: "7BF3E3F14FFD73F3"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [
+				{
+					id: "38B147FE475AB444"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7B3C92B98DECCECF"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+					count: 8
+				}
+				{
+					id: "7C0CD0C367A70B05"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "549D37C1B4773CC9"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&a&lCoke Oven"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ie_coke_oven.png"
+				}
+			}
+			x: -5.5d
+			y: -7.0d
+			subtitle: "Coke Oven is a 3x3x3 multi-block machine"
+			description: ["Click on a middle block with the Engineer's Hammer to create the Coke Oven."]
+			dependencies: ["774B1D4152A0B4ED"]
+			id: "0DA972D85BB3C86C"
+			tasks: [
+				{
+					id: "7BDC06A5B2C203AA"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "167E91F920DBD257"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "27356318F6045B33"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5E91E0CAD8990EC6"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+				{
+					id: "1C27275970D3CA66"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "4C3A6E1D8D02C4D6"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "&a&lBlast Furnace"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ie_blast_furnace.png"
+				}
+			}
+			x: -5.5d
+			y: -5.5d
+			subtitle: "The Blast Furnace is a 3x3x3 multi-block machine"
+			description: ["Once completed, hit the side middle with an Engineers Hammer to activate. A small black doorway shape will show, the opening for the blast furnace, if successful. If this does not happen then check all the bricks are placed. It should be a solid 3x3x3 block with no gap in the middle layer. The Blast Furnace takes coal coke and charcoal only (not regular coal)."]
+			dependencies: ["0DA972D85BB3C86C"]
+			id: "449C41A3AFBBE8E9"
+			tasks: [{
+				id: "4C382E60831988A1"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [
+				{
+					id: "62691BD4DB43E932"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5C3473516F7D5077"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+					count: 8
+				}
+				{
+					id: "4F307969644185E8"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "1466BAA033E4AABF"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&a&lAlloy Kiln"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ie_alloyt_kiln.png"
+				}
+			}
+			x: -5.5d
+			y: -4.0d
+			subtitle: "The Alloy Kiln is a 2x2x2 multi-block machine"
+			description: ["Yeah, it produces alloys from two different materials."]
+			dependencies: ["449C41A3AFBBE8E9"]
+			id: "5921FE935A2D7325"
+			tasks: [{
+				id: "5755A435D3A62F9C"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "3E2B29A5B74F56D4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "029DAC00F000442A"
+					type: "item"
+					item: "thermal:electrum_ingot"
+					count: 8
+				}
+				{
+					id: "5657A1307B1264A7"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "&a&lImproved Blast Furnace"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ie_impruved_blast_furnace.png"
+				}
+			}
+			x: -7.0d
+			y: -5.5d
+			subtitle: "The Improved Blast Furnace is a 3x4x3 multi-block machine"
+			description: ["It uses Iron and Coal Coke to generate Steel Ingots and Slag. Unlike with the Blast Furnace, items are able to be piped in and out. Slag is removed from the back, items are loaded into the top and Blast Furnace Preheaters may be placed on either side to speed up manufacture."]
+			dependencies: ["449C41A3AFBBE8E9"]
+			id: "0A0D08D0032BAF5B"
+			tasks: [
+				{
+					id: "6357A4BD83AD9BC6"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "626FA6F700BF5698"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+			rewards: [
+				{
+					id: "1F742728DF902CD1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "002254AB672AE159"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "45CE6A5339724AF9"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.250000000000007d
+			y: -6.666071428571428d
+			dependencies: ["62EB37B4A020EF65"]
+			id: "316399F0B5F729CA"
+			tasks: [{
+				id: "67F741F4CF386668"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
+			}]
+			rewards: [
+				{
+					id: "2597EB791F6B0308"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "74FF59BA83FDD286"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "71F0D1DB777773B1"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -8.0d
+			dependencies: ["774B1D4152A0B4ED"]
+			id: "45A6D0EB9BD00422"
+			tasks: [{
+				id: "2C80FF7983314472"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+			rewards: [
+				{
+					id: "0D884C09CEBE182A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4AC78DE5AE0E0F4E"
+					type: "item"
+					item: "immersiveengineering:watermill"
+					count: 2
+				}
+				{
+					id: "5FDDA825C6BFA6C7"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -7.5d
+			dependencies: ["45A6D0EB9BD00422"]
+			id: "34A02E18A7E09F28"
+			tasks: [{
+				id: "201A9374BCAD69B9"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+			rewards: [
+				{
+					id: "3EFAC120B06682DE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "78BA7EDE7D8C99CF"
+					type: "item"
+					item: "immersiveengineering:hemp_fabric"
+					count: 6
+				}
+				{
+					id: "0D920106F8AE6B41"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -6.0d
+			dependencies: ["45A6D0EB9BD00422"]
+			id: "68136624609D6D1A"
+			tasks: [{
+				id: "0B8E4182FD7DC609"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [
+				{
+					id: "6B331366F23F8381"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "688EDC587D366AB3"
+					type: "item"
+					item: "immersiveengineering:coil_lv"
+				}
+				{
+					id: "3FF6C528DC25764F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "15D8467E663D68E9"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -4.5d
+			dependencies: ["68136624609D6D1A"]
+			id: "612BB1D116F3B1A9"
+			tasks: [
+				{
+					id: "59D765C3543EA0D2"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+					count: 4L
+				}
+				{
+					id: "79457F98DFB88BC1"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "40FC69E4FDE83D91"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0AFC4700B60DE071"
+					type: "item"
+					item: "minecraft:terracotta"
+					count: 4
+				}
+				{
+					id: "6B6B8D76981C8922"
+					type: "choice"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "3AF569D5734ACB76"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -4.5d
+			dependencies: ["68136624609D6D1A"]
+			id: "4FC7D81A4EB93629"
+			tasks: [
+				{
+					id: "07E4052EB15447C1"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+					count: 4L
+				}
+				{
+					id: "1D8AE0629E9972F3"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "548ED6A8831BABC9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0BEF21291E4602EB"
+					type: "item"
+					item: "minecraft:terracotta"
+					count: 4
+				}
+				{
+					id: "754787CF28830C3B"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "02FC83BE249078CB"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -4.5d
+			dependencies: ["68136624609D6D1A"]
+			id: "61E95FF8935D144C"
+			tasks: [
+				{
+					id: "3190D14AEFD0B098"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+					count: 4L
+				}
+				{
+					id: "0B73AA64D50A2EF1"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "153A388621DF7B70"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0259BED2FC631AA6"
+					type: "item"
+					item: "minecraft:terracotta"
+					count: 4
+				}
+				{
+					id: "177FB7A43A33B6FE"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "5A71D6EDE3321BE8"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -8.5d
+			dependencies: ["34A02E18A7E09F28"]
+			id: "56B290A06D1D8F08"
+			tasks: [{
+				id: "7C89909C5F4EC994"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
+			rewards: [
+				{
+					id: "049BBEAF97DDFDF9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40FE2B85DB64114A"
+					type: "item"
+					item: "immersiveengineering:windmill_sail"
+				}
+				{
+					id: "3B9735EDB320632A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			dependencies: ["612BB1D116F3B1A9"]
+			id: "7C5BD576678F93F2"
+			tasks: [{
+				id: "08BFBB5DD192623A"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+			rewards: [
+				{
+					id: "048402C5F83DBFA2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "56D88C42C76A3BA6"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "7F39298C8146FA4C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -3.0d
+			dependencies: ["4FC7D81A4EB93629"]
+			id: "408666D28CDAC1C0"
+			tasks: [{
+				id: "3C26F27F226ECD96"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+			rewards: [
+				{
+					id: "7FC7A5E67B8DC0D3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "12A5BB7079904354"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "014D599973A1798A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -3.0d
+			dependencies: ["61E95FF8935D144C"]
+			id: "2881CCC6BC14F7F8"
+			tasks: [{
+				id: "0DF9FA066EB0FE53"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+			rewards: [
+				{
+					id: "0B076067FE0ABE5B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2CAF173916B4194B"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "46A9D0650265A01A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			dependencies: ["7C5BD576678F93F2"]
+			id: "126E307DC35BF444"
+			tasks: [
+				{
+					id: "351489AA5A24AC49"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+					count: 4L
+				}
+				{
+					id: "2C62B8481B8DD35A"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper_ins"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "72AE53779D2B138F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7C98188331928B08"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "0488FA8F5A70EE55"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -1.5d
+			dependencies: ["408666D28CDAC1C0"]
+			id: "25244CCCCE484427"
+			tasks: [
+				{
+					id: "10E222B8E28D0EF2"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+					count: 4L
+				}
+				{
+					id: "7E496C83F901F190"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "1F6A478300E97114"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "202AD5FEA7C500E6"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "7309DC190F98E18C"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -1.5d
+			dependencies: ["2881CCC6BC14F7F8"]
+			id: "5FA0C99BF80AA097"
+			tasks: [
+				{
+					id: "57D74B29F01D6B55"
+					type: "item"
+					item: "immersiveengineering:wirecoil_steel"
+					count: 4L
+				}
+				{
+					id: "1D7DE08764D44592"
+					type: "item"
+					item: "immersiveengineering:wirecoil_redstone"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "79FFC0A080F8354B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C530CEF503486CC"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "03D293A30C0DCD3E"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			dependencies: ["126E307DC35BF444"]
+			id: "05926A9C5859717D"
+			tasks: [
+				{
+					id: "7448BFFC67E75C97"
+					type: "item"
+					item: "immersiveengineering:wirecoil_structure_rope"
+					count: 4L
+				}
+				{
+					id: "4B9DDA15D97544AF"
+					type: "item"
+					item: "immersiveengineering:wirecoil_structure_steel"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "431D976FA5337BAC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "01B4DEC5E9AB8DE9"
+					type: "item"
+					item: "immersiveengineering:hemp_fiber"
+					count: 12
+				}
+				{
+					id: "07DABB811D5317D0"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 12
+				}
+				{
+					id: "421A7F0D6A0ACF07"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -6.0d
+			dependencies: ["0A0D08D0032BAF5B"]
+			id: "47709C807D643108"
+			tasks: [{
+				id: "686223212991043C"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "517E4A6FE3C252F5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "75BD07AC6D985E50"
+					type: "item"
+					item: "pamhc2foodcore:chocolaterollitem"
+					count: 8
+				}
+				{
+					id: "47C91DB6FAB16EDB"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "2A8B108EEAA1708E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -7.0d
+			shape: "diamond"
+			dependencies: ["774B1D4152A0B4ED"]
+			id: "010775AE2C4FFF0F"
+			tasks: [{
+				id: "6E77D88CF5B2ACBB"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "550BE8DA45D11FF4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "022BFA9F7CBDF307"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "169775038B31B4AD"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			shape: "diamond"
+			dependencies: ["010775AE2C4FFF0F"]
+			id: "2C02528FF8BDF5AC"
+			tasks: [{
+				id: "4944FAB8A78EE0FB"
+				type: "item"
+				item: "immersiveengineering:conveyor_dropper"
+			}]
+			rewards: [
+				{
+					id: "29782B078201B163"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1B8BEE9B1629BE81"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "406DE74EB3C0C0A0"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["2C02528FF8BDF5AC"]
+			id: "7FF68EAFD478A4DA"
+			tasks: [{
+				id: "4B55DC110060CE35"
+				type: "item"
+				item: "immersiveengineering:conveyor_splitter"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "419692F81A1182A1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A40237E29BD2D56"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "059925EAFDB1FB9C"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["7FF68EAFD478A4DA"]
+			id: "3A6650812CFEE8E3"
+			tasks: [{
+				id: "41C149D6E3DF9F81"
+				type: "item"
+				item: "immersiveengineering:conveyor_vertical"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "15CBE80D89D5AAB7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "021BAE0439423FFA"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "10327F2E320456CE"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["3A6650812CFEE8E3"]
+			id: "5DBF51806B6682AF"
+			tasks: [{
+				id: "069FFD25AC53348B"
+				type: "item"
+				item: "immersiveengineering:conveyor_redstone"
+			}]
+			rewards: [
+				{
+					id: "7FBBB734E4B458CD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5CCAE8DF5CC514F3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "64EE5378DE4AAF95"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["5DBF51806B6682AF"]
+			id: "17A81B79712C25FD"
+			tasks: [{
+				id: "296467CC7D4EF07A"
+				type: "item"
+				item: "immersiveengineering:conveyor_extract"
+			}]
+			rewards: [
+				{
+					id: "7CBCA8094377AF83"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "102A839AD038828F"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "726ACF040414B82B"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 2.035714285714292d
+			y: -3.692857142857136d
+			dependencies: ["7F00E38513D06DF9"]
+			id: "63768F7BC7BD0188"
+			tasks: [{
+				id: "3319B3D746C5AE5F"
+				type: "item"
+				item: "immersiveengineering:fluid_pump"
+			}]
+			rewards: [
+				{
+					id: "18C3B6BCFAFE5AE4"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "65BD68C2E7E809E9"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "34BC3985D367C4BB"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: 2.035714285714292d
+			y: -4.692857142857136d
+			dependencies: ["0884D6C10B1047A2"]
+			id: "7F00E38513D06DF9"
+			tasks: [{
+				id: "70343EB62D023CCA"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "68D1185FE877AEFC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1586E05E38D2A548"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2
+				}
+				{
+					id: "1E6D10B2A3373F2F"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 0.4642857142857224d
+			y: -5.121428571428567d
+			dependencies: ["39C8CD6102B26BFE"]
+			id: "1AFBE29BB6CC2C0D"
+			tasks: [
+				{
+					id: "27B4C42FC8A60009"
+					type: "item"
+					item: "immersiveengineering:component_iron"
+				}
+				{
+					id: "63D2991D4E23BCC7"
+					type: "item"
+					item: "immersiveengineering:component_steel"
+				}
+			]
+			rewards: [
+				{
+					id: "1ACFD38F936117F6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6F498FCA2D70A3BB"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3C7DAF1D6FFE9610"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -9.0d
+			dependencies: ["3EC13E3F2F7804B4"]
+			id: "174228D87BAF69B2"
+			tasks: [{
+				id: "3BEDA424DCC8EB6F"
+				type: "item"
+				item: "immersiveengineering:voltmeter"
+			}]
+			rewards: [
+				{
+					id: "38533C2E9133517C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "34AAD6F9BC77A5E3"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "components"
+						}
+					}
+				}
+				{
+					id: "571F2222CF428D28"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -2.3214285714285694d
+			y: -4.237499999999997d
+			dependencies: ["39C8CD6102B26BFE"]
+			id: "40DAC53EDC8E99ED"
+			tasks: [
+				{
+					id: "140FD8135B050589"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "3D91009F483E0672"
+					type: "item"
+					item: "immersiveengineering:mold_gear"
+				}
+				{
+					id: "2EC9B016A9034B68"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
+				}
+			]
+			rewards: [
+				{
+					id: "4D20726F0D0E043D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "00461BC81CDE1F74"
+					type: "item"
+					item: "immersiveengineering:circuit_board"
+				}
+				{
+					id: "5EE6E03C1D0B9A0D"
+					type: "item"
+					item: "immersiveengineering:mold_rod"
+				}
+				{
+					id: "6CC7D39D348129A0"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: -0.3214285714285694d
+			y: -3.737499999999997d
+			dependencies: ["39C8CD6102B26BFE"]
+			id: "0DB786DDE5B01845"
+			tasks: [{
+				id: "453E862D69DC4CD2"
+				type: "item"
+				item: "immersiveengineering:charging_station"
+			}]
+			rewards: [
+				{
+					id: "3A03ECF7FF5E2648"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "42AB5FA571B1307E"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "73CFC86F5B1D235C"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 0.6785714285714306d
+			y: -3.237499999999997d
+			dependencies: ["0DB786DDE5B01845"]
+			id: "494269546D4E54AC"
+			tasks: [{
+				id: "43D24B7AB8693A52"
+				type: "item"
+				item: "immersiveengineering:electric_lantern"
+			}]
+			rewards: [
+				{
+					id: "27D468553EFB5C18"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "589CB79BF1F9B039"
+					type: "item"
+					item: "immersiveengineering:plate_copper"
+					count: 4
+				}
+				{
+					id: "5A7FE6BF37E90135"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: -1.3214285714285694d
+			y: -3.237499999999997d
+			dependencies: ["0DB786DDE5B01845"]
+			id: "0EB15268A3577974"
+			tasks: [{
+				id: "46B4F115F2767D06"
+				type: "item"
+				item: "immersiveengineering:breaker_switch"
+			}]
+			rewards: [
+				{
+					id: "7A0A7910085F4176"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7AEB0EA2B05B966C"
+					type: "item"
+					item: "immersiveengineering:plate_iron"
+					count: 4
+				}
+				{
+					id: "7F141EE387C206E9"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: -0.3214285714285694d
+			y: -2.737499999999997d
+			dependencies: ["0DB786DDE5B01845"]
+			id: "128A39BB4A423C00"
+			tasks: [{
+				id: "308ADA1E55A23064"
+				type: "item"
+				item: "immersiveengineering:lantern"
+			}]
+			rewards: [
+				{
+					id: "4145F978EFED37A0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "603CD285AC9F362C"
+					type: "item"
+					item: "immersiveengineering:plate_aluminum"
+					count: 4
+				}
+				{
+					id: "37151DDCB7BEA1D1"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["0DA972D85BB3C86C"]
+			id: "62EB37B4A020EF65"
+			tasks: [{
+				id: "614AE07607D504FC"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			rewards: [
+				{
+					id: "393BE558D34023A1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DB640DCA77617EB"
+					type: "item"
+					item: "immersiveengineering:creosote_bucket"
+				}
+				{
+					id: "70D979A06EAC6A25"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "&a&lMetal Press"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ie_metal_press.png"
+				}
+			}
+			x: -4.5d
+			y: -2.0d
+			subtitle: "The Metal Press is a 3x1x3 multi-block"
+			description: ["After it is fully arranged, shift right-click the left or right side of the Piston with an Engineer's Hammer to complete the multiblock."]
+			dependencies: ["03DBAC047E439AC4"]
+			id: "2774D37126FE6785"
+			tasks: [
+				{
+					id: "236B9F42E0351902"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "4335796AE6BCA8CD"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "3E689D69A5B9BA62"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "626D394EC9364504"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0A71774E0DB9BCA3"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "3C309FFE3FC1B362"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3F56CDF124752F46"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "56522E801B76F596"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&a&lDiesel Generator"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ie_diesel_generator.png"
+				}
+			}
+			x: -2.0d
+			y: -0.5d
+			subtitle: "The Diesel Generator is a 3x5x3 multi-block"
+			description: ["After it is fully arranged, the player must right-click the top-center block of the front side (which should be a Generator Block) with an Engineer's Hammer, then the multi-block is complete."]
+			dependencies: ["47ACCCE2F34C5B99"]
+			id: "18A75E664BAC6425"
+			tasks: [
+				{
+					id: "2BCB1479405676BE"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+				{
+					id: "2FE072415255F25C"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "2861D7C9D50903B3"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "62A89BC9363C275C"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "332193AD8263C2A6"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "25408BD850BBFFB6"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+			]
+			rewards: [
+				{
+					id: "2A393B4551115BBE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3B60539D841C832A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "1D614354625FDDBF"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			title: "&a&lArc Furnace"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ie_arc_furnance.png"
+				}
+			}
+			x: 0.0d
+			y: -0.5d
+			shape: "pentagon"
+			subtitle: "The Arc Furnace is a 5x5x5 Multiblock machine"
+			description: ["After building the structure, right-click the Cauldron with an Engineer's Hammer to complete it."]
+			dependencies: ["18A75E664BAC6425"]
+			size: 1.3d
+			id: "7B7585BC5EAECAC7"
+			tasks: [
+				{
+					id: "175F704A991ADCDE"
+					type: "item"
+					item: {
+						id: "immersiveengineering:graphite_electrode"
+						Count: 1b
+						tag: {
+							graphDmg: 0
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "44E948774E27956B"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "6B9C965372EF2FE0"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 6L
+				}
+				{
+					id: "4ACA2B384E45BE54"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "3E0AA8A437DCFA84"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "15781EC4B7875E56"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "3D445F6BFD571047"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0F72373CF9611103"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "291BC35A40CC4C8F"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "19BF1236C0B3D07B"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+			]
+			rewards: [
+				{
+					id: "752CCC29AEB048FD"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "5B2F97F0FC9CAE40"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5CF13A4D1B469AA2"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "33DE72BB9DAF60FC"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "2D1D6B3B4E8572EE"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "&a&lCrusher"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ie_crusher.png"
+				}
+			}
+			x: -4.0d
+			y: -0.5d
+			subtitle: "The Crusher is a 3x5x3 multi-block"
+			description: ["After it is fully arranged, the player must right-click the center of the front of the longer side (which should be a Steel Fence with a Hopper above it) with an Engineer's Hammer, then the multi-block is complete."]
+			dependencies: ["2774D37126FE6785"]
+			id: "47ACCCE2F34C5B99"
+			tasks: [
+				{
+					id: "1EFA66DBABC31C03"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "69EE28DD743D7EE6"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "2686404CCFC1FE9D"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "135607605983DE1A"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "0F7389CCD75D3994"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+			rewards: [
+				{
+					id: "74F0B8FCE66EAC21"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "633E6009E3CF1545"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "52A30381CB402BA0"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "294BA698FB013AC0"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			title: "&a&lExcavator"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ie_excavator.png"
+				}
+			}
+			x: 2.0d
+			y: -0.5d
+			shape: "pentagon"
+			subtitle: "The Excavator is a 8x3x7 multi-block"
+			description: [
+				"It is used to extract Mineral Deposits from chunks."
+				""
+				"It requires a minimum of 175 Steel Ingots, making this a late-game machine."
+				""
+				"The Excavator is made of two parts. The \"Wheel\" is the center part, and is formed by right-clicking with an Engineers Hammer on the the hidden Block of Steel. The \"Engine\" is the other part, and is formed by right-clicking the Engineers Hammer on the Heavy Engineering Block in the center of the back side."
+			]
+			dependencies: [
+				"7B7585BC5EAECAC7"
+				"78B6A586B9B0458C"
+			]
+			size: 1.3d
+			id: "3AD4622409437713"
+			tasks: [
+				{
+					id: "1A62C725C298A89F"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "563A14DD29167D63"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 9L
+				}
+				{
+					id: "084F1DD8FFFCC65C"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "6A276E00FC998336"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 3L
+				}
+				{
+					id: "6663ED14B8AF53B8"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 16L
+				}
+				{
+					id: "1A0164E7AA48A574"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 26L
+				}
+				{
+					id: "291BC297F060D699"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 9L
+				}
+			]
+			rewards: [
+				{
+					id: "40042CDD710CFD51"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "25B99C5956A5FE62"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "4EE1FCF491603D33"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "47224D212DAEDA41"
+					type: "ftbmoney:money"
+					ftb_money: 700L
+				}
+			]
+		}
+		{
+			title: "&a&lCore Sample Drill"
+			x: 1.5d
+			y: -2.0d
+			subtitle: "It is used to detect and analyze Mineral Deposits that can be extracted by an Excavator"
+			description: ["The Core Sample Drill is placed as a single block but stands three blocks tall. The bottom block accepts Redstone Flux (RF) energy. The Core Sample Drill has no GUI. The Core Sample Drill takes 10 seconds by default to do its work (200 ticks, 8000 RF per use), which can be changed via the configuration file. When complete, it can be right-clicked to receive a Core Sample. The sample shows that how much water, lava or oil does this chunk have in mB, and what type of deposit the chunk has. It is possible that the chunk does not have any of the liquids or minerals."]
+			dependencies: ["3AD4622409437713"]
+			id: "78B6A586B9B0458C"
+			tasks: [{
+				id: "7D5EE172CD3E35BD"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+			rewards: [
+				{
+					id: "4861798778D64394"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "685440AB5330EC1B"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "662420F864FD7950"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "1B0BA0E85EB6A99A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["5921FE935A2D7325"]
+			id: "03DBAC047E439AC4"
+			tasks: [{
+				id: "12D16EA1971994E5"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+			}]
+			rewards: [
+				{
+					id: "745539058AC08942"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6F2A989ADB55FC12"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1027DF26FA057777"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+	]
+}

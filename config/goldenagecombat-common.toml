@@ -1,0 +1,47 @@
+
+[general]
+	#Reintroduces sword blocking exactly like it used to be.
+	#Additional swords can be included using the "goldenagecombat:sword_blocking_inclusions" item tag.
+	#Swords which already have a right-clicking ability can be excluded using the "goldenagecombat:sword_blocking_exclusions" item tag.
+	"Sword Blocking" = true
+	#Small tweaks to make classic combat integrate more smoothly into modern Minecraft gameplay.
+	"Combat Adjustments" = true
+	#Restores basic pre-Combat Update combat mechanics, achieved mainly by removing the cooldown mechanic.
+	"Classic Combat" = true
+
+[classic_combat]
+	#Completely remove the attack cooldown as if it never even existed in the first place.
+	"Remove Attack Cooldown" = true
+	#Revert weapon and tool attack damage to legacy values.
+	#Items which are not handled as expected can be blacklisted using the "goldenagecombat:attack_damage_blacklist" item tag.
+	"Legacy Attack Damage" = false
+	#Surplus saturation is no longer used for quick health regeneration, resulting in health only being regenerated from food every 4 seconds.
+	"Disable Health Regen Boost" = true
+	#Player is knocked back by attacks which do not cause any damage, such as when hit by a throwable item.
+	"Weak Attacks Knock Back Player" = true
+	#Sprinting and attacking no longer interfere with each other, making critical hits possible at all times.
+	"Critical Sprint Hits" = true
+	#Fishing rod deals knockback upon hitting an entity.
+	"Rod Causes Knockback" = true
+	#Entities reeled in using a fishing rod are slightly launched upwards.
+	"Rod Launches Entities" = true
+	#Boost sharpness enchantment to 1.25 damage points per level instead of just 0.5.
+	"Boost Sharpness" = false
+	#Give Regeneration V and Absorption I instead of Regeneration II and Absorption IV after consuming a notch apple.
+	"Notch Apple Effects" = true
+	#A notch apple can be crafted from a single apple and eight gold blocks.
+	"Notch Apple Recipe" = true
+	#The player's body turns sideways when walking backwards instead of remaining straight.
+	"Backwards Walking" = true
+
+[combat_adjustments]
+	#Is the sweeping edge enchantment required to perform a sweep attack.
+	"Require Sweeping Edge" = true
+	#Prioritize shield blocking over sword blocking in case both items are held at the same time.
+	"Prioritize Shield" = true
+	#Prevent various attack sounds added for the cooldown mechanic from playing.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Canceled Attack Sounds" = ["minecraft:entity.player.attack.crit", "minecraft:entity.player.attack.knockback", "minecraft:entity.player.attack.nodamage", "minecraft:entity.player.attack.strong", "minecraft:entity.player.attack.sweep", "minecraft:entity.player.attack.weak"]
+	#Stop heart particles spawned when the player attacks an entity from appearing.
+	"Hide Damage Indicators" = false
+

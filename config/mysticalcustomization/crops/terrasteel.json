@@ -1,0 +1,13 @@
+{
+  "name": "Terrasteel",
+  "type": "resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "botania:terrasteel_ingot"
+  },
+  "color": "DAEE01",
+  "textures": {
+    "flower": "mysticalagriculture:block/terrasteel_flower",
+    "essence": "mysticalagriculture:item/terrasteel_essence"
+  }
+}

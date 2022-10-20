@@ -1,0 +1,13 @@
+{
+    "name": "Electrotine",
+    "type": "resource",
+    "tier": "mysticalagriculture:2",
+    "ingredient": {
+        "item": "projectred-core:electrotine_dust"
+    },
+    "color": "357EC7",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_dust",
+        "essence": "mysticalagriculture:item/essence_dust"
+    }
+}

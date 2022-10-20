@@ -1,0 +1,15 @@
+{
+  "name": "Alfsteel",
+  "type": "resource",
+  "tier": "mysticalcustomization:magical",
+  "ingredient": {      
+    "item": "mythicbotany:alfsteel_ingot"
+  },
+  "color": "fcbc00",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "glint": true,
+  "crux": "kubejs:magical_soil"
+}

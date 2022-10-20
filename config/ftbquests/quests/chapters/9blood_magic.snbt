@@ -1,0 +1,2334 @@
+{
+	id: "76AF1165F0C0D583"
+	group: "15F5BAC0BCC22DEF"
+	order_index: 5
+	filename: "9blood_magic"
+	title: "&9Blood Magic"
+	icon: {
+		id: "bloodmagic:basemonstersoul"
+		Count: 1b
+		tag: {
+			souls: 5.0d
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -7.785714285714292d
+		y: -17.589285714285715d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			x: -8.5d
+			y: -17.0d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oLivingrock&r quest*"
+			description: [
+				"It adds an expansive life-based magic system which spans rituals, sacrifices, summoning, alchemy and spell creation. In Blood Magic, the player collects Life Essence by sacrificing their own health or the health of mobs to power their Blood Magic creations on their quest to become an Archmage."
+				""
+				"&4&lWhat do I need to get started?"
+				"Well, you can really get your first start as soon as you have some Redstone, Iron, Gold, Lapis Lazuli, and a couple of Diamonds. But delving deeper into the mod can get quite... expensive."
+			]
+			dependencies: ["7D46CE06435339F7"]
+			size: 1.5d
+			id: "0BE6A1E27945355D"
+			tasks: [{
+				id: "557E43F31224FC23"
+				type: "checkmark"
+				title: "&4&lWelcome to Blood Magic"
+			}]
+			rewards: [
+				{
+					id: "3AD255DF0CBEED59"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "505DD3125B840D61"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "Blood Altar Tier: I"
+			x: -7.5d
+			y: -13.5d
+			subtitle: "The Blood Altar is used to transmute various items using Life Essence (LP)"
+			description: ["The Blood Altar has an internal storage buffer of 1,000 LP that must be filled before crafting can occur. The altar can be expanded into a multiblock structure in order to access more powerful tiers of transmutation. Currently there are six tiers of Blood Altars, although only 5 of them can be made in survival mode since there is no way (by default) to craft the Crystal Clusters needed for the last tier. Some packs allow Crystal Clusters to be crafted using custom recipes with a config option enabling the recipes."]
+			dependencies: ["1396075A817751B1"]
+			id: "296959D7CE4A2116"
+			tasks: [{
+				id: "4D936652A0C0E0B0"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [
+				{
+					id: "2E69B9D72D4BFD8A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "61BA8566276EE6D3"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4B19B11922FFC25E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			icon: "bloodmagic:incensealtar"
+			x: -4.0d
+			y: -14.5d
+			subtitle: "The Incense Altar is used to gain a bonus to the LP gained when self-sacrificing"
+			description: [
+				"The Sacrificial Knife transforms into the Sacrificial Dagger when the player is within 6 blocks from the Incense Altar. The Dagger cannot be used unless it is within 2 blocks of a Blood Altar. It drains 90% of current health and applies bonus LP depending on the bonus given by the Incense Altar; use a Divination Sigil on the Incense Altar to see its Current Tranquility and Current Bonus."
+				""
+				"For the Altar's tiers described below, intercardinal directions are used for tranquility blocks and each tier requires extra area. The path blocks can be placed within a vertical difference of 1 block from the previous level, but all cardinal directions require the same pattern. Tranquility spaces can be placed at most two blocks higher than their respective path blocks. "
+			]
+			dependencies: ["5F0744310207644A"]
+			id: "55D072C8944A52D8"
+			tasks: [
+				{
+					id: "3E4BA87D696A928B"
+					type: "item"
+					item: "bloodmagic:incensealtar"
+				}
+				{
+					id: "1E415FE642014580"
+					type: "item"
+					item: "bloodmagic:woodbrickpath"
+					count: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "7BBBA6A3FFB1A25F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3F18CF32526AE85A"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "309FF94BDAD1ADC7"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "24A4123A430E2AAA"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -15.0d
+			subtitle: "The Sacrificial Knife is one of two ways to generate LP in the Blood Altar"
+			description: [
+				"The Sacrificial Knife is used as a self-sacrifice method, allowing the user to convert their health points into usable Life Essence. To take health from other creatures in return for LP, sacrifice methods such as the Dagger of Sacrifice must be used."
+				""
+				"By right clicking the Sacrificial Knife next to a Blood Altar, the user will lose a full heart and place 200 LP into the altar. This amount can be further increased by placing Runes of Self-sacrifice around the altar."
+				""
+				"If the user of the knife is a Vampire, their blood will be drained rather than their health."
+			]
+			dependencies: ["0BE6A1E27945355D"]
+			id: "1396075A817751B1"
+			tasks: [{
+				id: "71F7D27D407FBE8A"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2DA83C796EE86744"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B4C6308C9088C91"
+					type: "item"
+					item: "bloodmagic:life_essence_bucket"
+				}
+				{
+					id: "0F38A4CAC44AF989"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -15.0d
+			subtitle: "The Rudimentary Snare is a tool to collect Demonic Will"
+			description: ["Right-click to throw it at a mob. If the Snare connects, it is bewitched for a few seconds (displayed by white particles). Killing the mob under this condition causes the mob to drop Demonic Will."]
+			dependencies: ["0BE6A1E27945355D"]
+			id: "594B87D2944A272E"
+			tasks: [{
+				id: "3CFC40225CD35A07"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+			rewards: [
+				{
+					id: "208F00DF40402FA9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "665764004B2F4203"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+					count: 4
+				}
+				{
+					id: "1A0997FE712C0C88"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -14.0d
+			subtitle: "Where there's a Will, there's a way​"
+			description: ["The Demonic Will is an item, which can be gathered with the Rudimentary Snare or Sentient Sword from monsters. Every monster can only drop one demonic will with a randomly generated amount of willpower, which is displayed in the inventory. The Demonic Will is required for some recipes in the Hellfire Forge. The player can also store the willpower into the gems for an easier transport, because the Demonic Will are not stackable and can not be recharged."]
+			dependencies: ["594B87D2944A272E"]
+			id: "7D39E4297B320E93"
+			tasks: [{
+				id: "1BD40CC46BCB58AC"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A18E3C21C293906"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7C1573E6E72E5918"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3ADB5672CA3CB8A7"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -14.0d
+			subtitle: "Blank Slates are a crafting ingredient that are primarily used in rune and sigil creation"
+			description: ["Blank slates are used in the creation of Sigils."]
+			dependencies: ["296959D7CE4A2116"]
+			id: "00EB0057303D8E81"
+			tasks: [{
+				id: "54BBABF8C7F7B0C6"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [
+				{
+					id: "05B442AA21174939"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1AA0FC8000F053D3"
+					type: "item"
+					item: "bloodmagic:doubt_bucket"
+				}
+				{
+					id: "0B30D77D48DED9C3"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			title: "Blood Altar Tier: II"
+			icon: "bloodmagic:altar"
+			x: -7.5d
+			y: -12.0d
+			dependencies: ["296959D7CE4A2116"]
+			id: "5A5A1B0DB0034D93"
+			tasks: [{
+				id: "414A43E5250821D1"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "6C72A20A3BF85D86"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "79921A0E1673B735"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "1547BBC81C11DDE1"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Blood Altar Tier: III"
+			icon: "bloodmagic:altar"
+			x: -7.5d
+			y: -10.5d
+			dependencies: ["5A5A1B0DB0034D93"]
+			id: "76242AD890FC311C"
+			tasks: [
+				{
+					id: "65805C7979D0F432"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 16L
+				}
+				{
+					id: "11FD65ED4777186C"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "76B8C59D65472084"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "344E695D667CB008"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "41073AE4F0A7C77E"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			title: "Blood Altar Tier: IV"
+			icon: "bloodmagic:altar"
+			x: -7.5d
+			y: -9.0d
+			dependencies: ["76242AD890FC311C"]
+			id: "7C20B789A07D4161"
+			tasks: [
+				{
+					id: "34C10A5176A3F7DE"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 28L
+				}
+				{
+					id: "016BEC357195155F"
+					type: "item"
+					item: "bloodmagic:bloodstonebrick"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "54AA087F779AD10C"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "0B686494C87535C7"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "224298BFC105C5A7"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -13.5d
+			subtitle: "The Weak Blood Orb is a Life Essence (LP) storage method within Blood Magic"
+			description: [
+				"The Weak Blood Orb converts the Life Essence contained within an altar into a stored form of energy for items such as the Lava Crystal and the various rituals. This stored Essence cannot be turned back into a physical liquid, and will be stored to the owner's network. This tier of orb is capable of storing up to 5,000 LP. This number can only be raised by using higher tier orbs, or by placing the Rune of the Orb around the Blood Altar."
+				""
+				"To use the Weak Blood Orb, it must first be bound to the owner. To do so, right click while holding the orb. Once bound, it will raise the owner's network storage to a total of 5,000 LP. It will also allow the user to right click while holding it, consuming a full heart and adding 200 LP to the owner's network. If the player is a Vampire, their blood will be drained rather than their health."
+			]
+			dependencies: ["296959D7CE4A2116"]
+			id: "5F0744310207644A"
+			tasks: [{
+				id: "12E296D21218FBAD"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [
+				{
+					id: "0670B1C47D7F055C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "67678EF6E1BCB608"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+					count: 4
+				}
+				{
+					id: "7B093714D227F73A"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2E08E7C43670CE55"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -12.5d
+			dependencies: ["00EB0057303D8E81"]
+			id: "0E8D50B473A2FD14"
+			tasks: [{
+				id: "01EDC805BEEFD33A"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [
+				{
+					id: "72DCE267D0A4C919"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2A4C9027C39F6747"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "338441BB98DD0D2B"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -12.0d
+			subtitle: "The Apprentice Blood Orb is the second level of blood orbs within Blood Magic"
+			description: ["This tier of blood orb allows the owner to store up to 25,000 LP in their network."]
+			dependencies: [
+				"5A5A1B0DB0034D93"
+				"5F0744310207644A"
+			]
+			id: "769C06623C168FF6"
+			tasks: [{
+				id: "286AD6A45747AEC9"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+			rewards: [
+				{
+					id: "4CF3B0B3283D54E3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4312048F02A60CD9"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 4
+				}
+				{
+					id: "500BDB57160ABBEA"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "01CEEA91623BC08D"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -10.5d
+			subtitle: "The Magician's Blood Orb is the third level of blood orbs within Blood Magic"
+			description: ["This tier of blood orb allows the owner to store up to 150,000 LP in their network."]
+			dependencies: [
+				"76242AD890FC311C"
+				"769C06623C168FF6"
+			]
+			id: "7418119CAEDC7A3C"
+			tasks: [{
+				id: "23953E8C1D3FC141"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+			rewards: [
+				{
+					id: "03A782C6775656A2"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "7ABF55B50AA1F501"
+					type: "item"
+					item: "bloodmagic:lightritualstone"
+					count: 4
+				}
+				{
+					id: "114C5F126AD03ED2"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "011149AC1792861F"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			subtitle: "The Master Blood Orb is the fourth level of blood orbs within Blood Magic"
+			description: ["This tier of blood orb allows the owner to store up to 1,000,000 LP in their network."]
+			dependencies: [
+				"7C20B789A07D4161"
+				"7418119CAEDC7A3C"
+			]
+			id: "2C8C331EED6235F5"
+			tasks: [{
+				id: "6CDCE7B367BCEAC2"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+			rewards: [
+				{
+					id: "2F658969998679D5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "68703AAE50F54351"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 4
+				}
+				{
+					id: "5B88DBDCDA97FF3C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2E933959934BDFD5"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -10.0d
+			dependencies: ["1C08DE988497D799"]
+			id: "281B3FB3D0FAF9FF"
+			tasks: [
+				{
+					id: "0731ABA5D03ECCEE"
+					type: "item"
+					item: {
+						id: "bloodmagic:growthsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0A1EE6B1A627B25B"
+					type: "item"
+					item: {
+						id: "bloodmagic:miningsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "17F7E7467772301D"
+					type: "item"
+					item: {
+						id: "bloodmagic:sigilofmagnetism"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1881EE88D96B46F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4374C81B0790ABED"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "1CAAD5B5C33BC37E"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -11.0d
+			subtitle: "The Arcane Ashes is used to create the Alchemy Array, which is needed for the new way to create the sigils"
+			description: ["The Arcane Ashes are crafted in the Hellfire Forge with one Redstone, Bone Meal, Gunpowder and Coal. To perform the process, a Demonic Will or one of the gems are needed."]
+			dependencies: ["0E8D50B473A2FD14"]
+			id: "1C08DE988497D799"
+			tasks: [{
+				id: "53B8C228A1E0ECEE"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "35D90E09E5143310"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5BBC51449FB3C547"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "2C53D52561675007"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -9.5d
+			dependencies: ["1C08DE988497D799"]
+			id: "4EE1AEAC56B86487"
+			tasks: [
+				{
+					id: "0D196A96413A1C23"
+					type: "item"
+					item: "bloodmagic:divinationsigil"
+				}
+				{
+					id: "0328E8215B0FA0CC"
+					type: "item"
+					item: "bloodmagic:seersigil"
+				}
+				{
+					id: "11A731B566E70DC7"
+					type: "item"
+					item: "bloodmagic:watersigil"
+				}
+				{
+					id: "6B51162308B1182A"
+					type: "item"
+					item: "bloodmagic:voidsigil"
+				}
+			]
+			rewards: [
+				{
+					id: "230E21DFDFD16C5F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0365B1B570C5752C"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "1B74100A80E9C6A5"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -10.0d
+			dependencies: ["1C08DE988497D799"]
+			id: "1AD0AD71F30423E3"
+			tasks: [
+				{
+					id: "729F46BACF3C597A"
+					type: "item"
+					item: "bloodmagic:lavasigil"
+				}
+				{
+					id: "307141D9CEC8C241"
+					type: "item"
+					item: "bloodmagic:airsigil"
+				}
+				{
+					id: "341B0CE5278B079A"
+					type: "item"
+					item: "bloodmagic:bloodlightsigil"
+				}
+				{
+					id: "35B8330542F3B567"
+					type: "item"
+					item: "bloodmagic:sigilofholding"
+				}
+			]
+			rewards: [
+				{
+					id: "55EA95C5AE51E4E1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3CAE9E38D8A62ACE"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "64D1BEE34B86CFD6"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -15.5d
+			subtitle: "The Dagger of Sacrifice is a weapon used to sacrifice creatures for Life Essence"
+			description: [
+				"The amount varies per creature, and can be further increased through the use of Runes of Sacrifice."
+				""
+				"The Dagger of Sacrifice must be used within about three blocks of the Blood Altar. When used on a valid target, the target will instantly be killed and its Life Essence will be drained into the altar. Creatures that are considered children cannot be sacrificed. The amount of essence varies per creature:"
+				"- Animals (Cows, sheep, etc.) = 250 LP"
+				"- Hostile Mobs (Creepers, Zombies, etc.) = 500 LP"
+				"- Villagers = 2,000 LP"
+				""
+				"Do note, however, that the Dagger only acts as a weapon when in range of the altar. Otherwise, it will be no more effective in killing mobs, and their Life Essence will not be transferred to an altar."
+			]
+			dependencies: ["1396075A817751B1"]
+			id: "4F921B3CB7738522"
+			tasks: [{
+				id: "5ED1823775C37D46"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [
+				{
+					id: "09C2D68D47F08419"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1A5DC12385B25D5D"
+					type: "item"
+					item: "bloodmagic:altarcapacityrune"
+					count: 8
+				}
+				{
+					id: "50D75AF747221A17"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: -14.0d
+			subtitle: "It is needed to craft recipes requiring Will"
+			description: [
+				"The Hellfire Forge is a device, which requires Demonic Will or a Tartaric Gem in the right slot that has enough default will to meet the required minimum will. All recipes are shapeless, and ingredients can be in any slot."
+				""
+				"The drain amount will be subtracted from the stored will. The Demonic Will/Tartaric Gem will not be lost. Both minimum and drain will amounts can be seen in JEI when hovering over the arrow."
+				""
+				"A second use for the Hellfire Forge is filling Tartaric Gems. A Tartaric Gem in the right slot will drain from the aura in it's chunk. For example, melting Corrosive Will Crystal inside a Demon Crucible will fill the chunk with corrosive will, which will then fill the Corrosive Tartaric Gem inside the forge."
+			]
+			dependencies: ["7D39E4297B320E93"]
+			id: "0C0C337EB929FCEE"
+			tasks: [{
+				id: "57E3AE9E3234D011"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [
+				{
+					id: "56CE4F23A2F0E971"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0FE6CFD27693201A"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "4F72C0C999D7E97C"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -12.5d
+			subtitle: "The Petty Tartaric Gem is a storage for Demonic Will up to an amount of 64"
+			description: ["This demonic will can be gathered with the Rudimentary Snare or Sentient Sword and is automatically stored into the gem, when the player picks up a Demonic Will. The Petty Tartaric Gem is required for some recipes in the Hellfire Forge and can also be used as source for demonic will for the special attack of the Sentient Sword."]
+			dependencies: ["0C0C337EB929FCEE"]
+			id: "048A5CCAFBC80966"
+			tasks: [{
+				id: "1C34AA7BF7007104"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "58B5B6FA5E4C3438"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "571C33692D7AF705"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7E1669FF1DC860EA"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: -12.5d
+			shape: "hexagon"
+			subtitle: "The Sentient Sword is a weapon used to collect Raw Will"
+			description: ["This Raw Will is automatically added to the top left most Raw Will Tartaric Gem in the player's inventory. If all available Raw Will Gems are full, mobs will drop Demonic Will. It is capable of being enchanted. It can also be repaired by using a Demon Will Crystal in the Anvil."]
+			dependencies: [
+				"0C0C337EB929FCEE"
+				"048A5CCAFBC80966"
+			]
+			id: "07458507E1AC9EE8"
+			tasks: [{
+				id: "21D31422E4FE7DBA"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6B70EFCDA99E21D8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0B0BDF056E672B28"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "51C93D097216D0C1"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "7F02188B4603A3C7"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: -11.5d
+			shape: "hexagon"
+			dependencies: ["07458507E1AC9EE8"]
+			id: "3F36CD6EDB0D1D57"
+			tasks: [{
+				id: "4E1348D7D05ED6F3"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulpickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60C809B1DB376D5A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "718B7F8F3338F442"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "1E4647BF14093A85"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "227F77B399317E28"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: -10.5d
+			shape: "hexagon"
+			dependencies: ["3F36CD6EDB0D1D57"]
+			id: "6329EE112F76194E"
+			tasks: [{
+				id: "4233ECDD08205ED2"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "783F2C2D465D4188"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "127DBAB0AA90C1BD"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "4B8091582CDACE36"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "35AFA2ADA0D4216B"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: -9.5d
+			shape: "hexagon"
+			dependencies: ["6329EE112F76194E"]
+			id: "42F95A584751AE57"
+			tasks: [{
+				id: "609043B12716726B"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulshovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "214DD6131CA36FF7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "016E9B1D0CE6FCF5"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "634FEBA7E2BE8D26"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "1790337DB634B792"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: -8.5d
+			shape: "hexagon"
+			dependencies: ["42F95A584751AE57"]
+			id: "4F53154479D89E73"
+			tasks: [{
+				id: "1DF9AFF40A8F0FEF"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulscythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "537F4E4DD8364132"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "737E4DABFF790CD2"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "5806755CEFE6A9AB"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "3276FF67E9C3D62F"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -11.0d
+			subtitle: "The Demon Crucible is a device used to create chunk's Aura"
+			description: [
+				"Right clicking with a Tartaric Gem or Demonic Will Crystal will insert it into the Demon Crucible and transfer the will of the source into aura stored inside the chunk. Each chunk can hold 100 Will at a time and will type is preserved."
+				""
+				"The will in the aura can be used to grow Will Crystals inside a Demon Crystallizer or Will Crystal Clusters. Using Raw Will, there is a 90% chance of growing a new Demonic Will Crystal, and a 10% chance a new Crystal inside a Demon Crystallizer will be different. Using Specific Will types will only grow new clusters of that type. Crystals clusters grow additional crystals, which can be harvested by right clicking on the Crystal Cluster with Tartaric Gems holding over 1024 Raw Will total across gems, receiving a Will Crystal of the appropriate type."
+			]
+			dependencies: ["048A5CCAFBC80966"]
+			id: "7F4BDC56E9B9569F"
+			tasks: [{
+				id: "35128867B9D529A4"
+				type: "item"
+				item: "bloodmagic:demoncrucible"
+			}]
+			rewards: [
+				{
+					id: "422C9B99FCC8145C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50EEA6E7E90F02BB"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "15E26B8E74B31A92"
+					type: "ftbmoney:money"
+					ftb_money: 95L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -9.5d
+			subtitle: "The Demon Crystallizer is a device used for growing Will Crystals Clusters by draining the chunk's Aura, created in a Demon Crucible"
+			description: [
+				"Each Crystal Cluster can have 7 crystals maximum. A default Raw Will Aura has a 90% chance of Demon Will Crystal Cluster and 2.5% each for Corrosive Will Crystal Cluster, Destructive Will Crystal Cluster, Steadfast Will Crystal Cluster, or Vengeful Will Crystal Cluster. All other Aura types will only grow new Clusters of its own type. Once formed into a Crystal Cluster, only Raw Will or the Aura of its type can be used to grow additional crystals. Raw Aura is significantly slower at growing clusters of different types."
+				""
+				"A Will Crystal Cluster can be broken with a pickaxe, yielding one Will Crystal per crystal. A single crystal can also be harvested by right clicking with an empty hand while holding a Tartaric Gem with over 1024 Raw Will total across gems. Right clicking will not remove the last crystal in the cluster."
+			]
+			dependencies: ["7F4BDC56E9B9569F"]
+			id: "2F31AF352F116419"
+			tasks: [{
+				id: "3E8A2670A27847FC"
+				type: "item"
+				item: "bloodmagic:demoncrystallizer"
+			}]
+			rewards: [
+				{
+					id: "6A3FC2D4F48EBDE5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "70E03DC3DE3ECDDA"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "37A02C37E79E9CD6"
+					type: "ftbmoney:money"
+					ftb_money: 95L
+				}
+			]
+		}
+		{
+			title: "Resonance of the Faceted Crystal"
+			icon: "bloodmagic:rawdemoncrystal"
+			x: -14.5d
+			y: -8.0d
+			description: [
+				"With Demonic Will Crystals in hand, the careful process of separating out their base essences may begin."
+				""
+				"Prepare another Demon Crystallizer and construct the Resonance of the Faceted Crystal ritual. Place the Crystallizer atop the Master Ritual Stone and begin pouring Will into the chunk by way of a Crucible."
+				""
+				"Eventually, another crystal will form here within the bounds of the ritual. Once it has fully grown, the ritual will fragment it into its elemental essences, growing four new crystal types around it which may be harvested in the same way as the previous Demonic Will Crystals."
+			]
+			dependencies: ["2F31AF352F116419"]
+			id: "2733979D7CF25C46"
+			tasks: [
+				{
+					id: "00F01D293B956B42"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "17FC790622217649"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 20L
+				}
+				{
+					id: "65DA313EAC533C10"
+					type: "item"
+					item: "bloodmagic:defaultcrystal"
+				}
+			]
+			rewards: [
+				{
+					id: "1C71F4BE2B3DA0E1"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0EC3F2FC5E2CCD98"
+					type: "item"
+					item: "bloodmagic:defaultcrystal"
+					count: 12
+				}
+				{
+					id: "4589068CD34AF8F4"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4A6C2F2E305637AA"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			title: "Will Crystals"
+			icon: "bloodmagic:defaultcrystal"
+			x: -12.5d
+			y: -7.5d
+			dependencies: ["2733979D7CF25C46"]
+			id: "00FDA5883BEB80FF"
+			tasks: [
+				{
+					id: "23ACCFEAB63E52F8"
+					type: "item"
+					item: "bloodmagic:corrosivecrystal"
+				}
+				{
+					id: "1CFC757D903BE260"
+					type: "item"
+					item: "bloodmagic:vengefulcrystal"
+				}
+				{
+					id: "5B6A04DD0AB99496"
+					type: "item"
+					item: "bloodmagic:destructivecrystal"
+				}
+				{
+					id: "5BB50C42692167EA"
+					type: "item"
+					item: "bloodmagic:steadfastcrystal"
+				}
+			]
+			rewards: [
+				{
+					id: "712693B3C40895D8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5CDAA1CFB45E83CF"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "700FF557B3373AF5"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1FDD4E24ABD1A65F"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "659EC190ED65003B"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -7.5d
+			dependencies: ["00FDA5883BEB80FF"]
+			id: "224C0DD37C9E05C4"
+			tasks: [{
+				id: "7B449D2D8DFDFE72"
+				type: "item"
+				item: "bloodmagic:ritualtinkerer"
+			}]
+			rewards: [
+				{
+					id: "2FBB9E9C37955BC5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "66FBEF574F335841"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "7A3F10FE3EA9259A"
+					type: "ftbmoney:money"
+					ftb_money: 666L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -15.0d
+			dependencies: ["55D072C8944A52D8"]
+			dependency_requirement: "one_completed"
+			id: "6B94F782E431F80E"
+			tasks: [{
+				id: "2C6B8417E71EA774"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+			rewards: [
+				{
+					id: "424FFB30D1115443"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4154F7DA662E2989"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "653B65BD28B4CB7E"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -13.5d
+			dependencies: ["6B94F782E431F80E"]
+			id: "29F304F563554621"
+			tasks: [{
+				id: "69D6F233C11535D5"
+				type: "item"
+				item: "bloodmagic:weakbloodshard"
+			}]
+			rewards: [
+				{
+					id: "5AC30883CAFEA2E9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "58C1B0D55D3B78C7"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "151041CD20216405"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7EDF03D04C3AA9FF"
+					type: "ftbmoney:money"
+					ftb_money: 101L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -13.0d
+			dependencies: ["0E8D50B473A2FD14"]
+			id: "6EE19E46103B3B89"
+			tasks: [{
+				id: "3DC2A90A7FD39848"
+				type: "item"
+				item: "bloodmagic:reagentbinding"
+			}]
+			rewards: [
+				{
+					id: "4E508665AC8A5A69"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "24B9642EA7718101"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "0D62889E16ED7BDF"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "0AEC2C2E4AAA7755"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -12.0d
+			dependencies: ["6EE19E46103B3B89"]
+			id: "503A4AC98F41B835"
+			tasks: [
+				{
+					id: "581362D4410BC9E0"
+					type: "item"
+					item: "bloodmagic:reagentwater"
+				}
+				{
+					id: "4AD7695B951BE41B"
+					type: "item"
+					item: "bloodmagic:reagentlava"
+				}
+				{
+					id: "6908B6771B0D9549"
+					type: "item"
+					item: "bloodmagic:reagentgrowth"
+				}
+				{
+					id: "6F613626BAC9FC50"
+					type: "item"
+					item: "bloodmagic:reagentvoid"
+				}
+				{
+					id: "56E6F693F5E2D5DA"
+					type: "item"
+					item: "bloodmagic:reagentfastminer"
+				}
+			]
+			rewards: [
+				{
+					id: "2948D5A8E4E7D82F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "01D5033881962C3A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "0247BC07150DF55E"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -11.5d
+			dependencies: ["6EE19E46103B3B89"]
+			id: "35BA82F074EB9218"
+			tasks: [
+				{
+					id: "19F736F5F1626D3F"
+					type: "item"
+					item: "bloodmagic:reagentmagnetism"
+				}
+				{
+					id: "638A2EBEC1F8886E"
+					type: "item"
+					item: "bloodmagic:reagentair"
+				}
+				{
+					id: "300BCD417B6FE681"
+					type: "item"
+					item: "bloodmagic:reagentbloodlight"
+				}
+				{
+					id: "750DC81A64CC9B85"
+					type: "item"
+					item: "bloodmagic:reagentsight"
+				}
+				{
+					id: "3CCE1BA003C7CB97"
+					type: "item"
+					item: "bloodmagic:reagentholding"
+				}
+			]
+			rewards: [
+				{
+					id: "6FFBC969A033196C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1BBD2EC059E7CED4"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4B574DB3AA7CA62A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -12.0d
+			dependencies: ["5A5A1B0DB0034D93"]
+			id: "62616CA04E8831B7"
+			tasks: [{
+				id: "3EB38EE4B07A9381"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+			rewards: [
+				{
+					id: "0AD43929778D901B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3DB6E499BFFDC144"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "0DEAFAB3B5235890"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "21FC1602B987D992"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -10.5d
+			dependencies: ["76242AD890FC311C"]
+			id: "5E1E3AD2A3662486"
+			tasks: [{
+				id: "36CFC467125DCB1B"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+			rewards: [
+				{
+					id: "58B69D4525F704B7"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "293687627EC25DF9"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "7998DFA31D1F78DE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0D0153480C36437D"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -9.0d
+			dependencies: ["7C20B789A07D4161"]
+			id: "060C27B32E686601"
+			tasks: [{
+				id: "738206A6DB0013FB"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+			rewards: [
+				{
+					id: "0535A95945E337ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "33F0307BF0BB8F11"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "27F5A8FFE2B4ADDE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "36D776258A249AE2"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -12.0d
+			dependencies: ["29F304F563554621"]
+			id: "443E852D63E4134F"
+			tasks: [{
+				id: "04B1555ABB76107A"
+				type: "item"
+				item: "bloodmagic:lavacrystal"
+			}]
+			rewards: [
+				{
+					id: "72AEBB7D6AF5D180"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2E6694AB6EEC46B9"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "478E2B206C7A1601"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "740D6013DA8C3CAD"
+					type: "ftbmoney:money"
+					ftb_money: 102L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -10.5d
+			dependencies: ["443E852D63E4134F"]
+			dependency_requirement: "one_completed"
+			id: "5E01C8C19600EAB6"
+			tasks: [{
+				id: "1CB36BB2314CAF22"
+				type: "item"
+				item: "bloodmagic:experiencebook"
+			}]
+			rewards: [
+				{
+					id: "4E9D6BE545C19131"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "605CF9A108334BD5"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "47B3497A260C104A"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6006F05A27DB93C1"
+					type: "ftbmoney:money"
+					ftb_money: 103L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -12.5d
+			dependencies: ["55D072C8944A52D8"]
+			id: "6563A2CE12D862D2"
+			tasks: [{
+				id: "53D66F31622EB0A8"
+				type: "item"
+				item: {
+					id: "bloodmagic:livinghelmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "23B540A5E737969A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "04F02C562AF853FD"
+					type: "item"
+					item: {
+						id: "bloodmagic:upgradetome"
+						Count: 1b
+						tag: {
+							livingStats: {
+								maxPoints: 0
+								upgrades: [{
+									exp: 1000.0d
+									key: "bloodmagic:experienced"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "6DFC647445E15C19"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -11.5d
+			dependencies: ["6563A2CE12D862D2"]
+			id: "6E142163522E4B40"
+			tasks: [{
+				id: "4A6F8F4A40115766"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						livingStats: {
+							maxPoints: 100
+							upgrades: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57923F1B70E9A3C1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "52D35D7A4149F004"
+					type: "item"
+					item: {
+						id: "bloodmagic:upgradetome"
+						Count: 1b
+						tag: {
+							livingStats: {
+								maxPoints: 0
+								upgrades: [{
+									exp: 1024.0d
+									key: "bloodmagic:digging"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "16CBFAF3A8DBDB65"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -10.5d
+			dependencies: ["6E142163522E4B40"]
+			id: "68D9C880BB988413"
+			tasks: [{
+				id: "182E821D898E3BC9"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingleggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "166FD8E26B8DB5E9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "67879C7FC266292E"
+					type: "item"
+					item: {
+						id: "bloodmagic:upgradetome"
+						Count: 1b
+						tag: {
+							livingStats: {
+								maxPoints: 0
+								upgrades: [{
+									exp: 400.0d
+									key: "bloodmagic:jump"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "0FA093BCB9F86603"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -9.5d
+			dependencies: ["68D9C880BB988413"]
+			id: "020F9AA178E378BB"
+			tasks: [{
+				id: "157E71C1BBDE2850"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingboots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "42B5327C4B3EA959"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "70381D821A102F92"
+					type: "item"
+					item: {
+						id: "bloodmagic:upgradetome"
+						Count: 1b
+						tag: {
+							livingStats: {
+								maxPoints: 0
+								upgrades: [{
+									exp: 400.0d
+									key: "bloodmagic:fall_protect"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "10A86201F5CA3F3B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -7.5d
+			subtitle: "The Ritual Diviner is a tool"
+			description: [
+				"When right-clicking a Master Ritual Stone, the Ritual Diviner will place any Ritual Stones in the inventory to form the ritual that is currently selected. Shift right-clicking will change the current ritual schematic."
+				""
+				"The Ritual Diviner comes in two forms: One that can place Dusk Runes and one that cannot."
+			]
+			dependencies: ["7C20B789A07D4161"]
+			id: "6FA36B62183E8203"
+			tasks: [{
+				id: "1C7D910626742601"
+				type: "item"
+				item: "bloodmagic:ritualdiviner"
+			}]
+			rewards: [
+				{
+					id: "61F7AA40F9A99E26"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1392199979559444"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "584B894CC006FE90"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -7.0d
+			subtitle: "Dusk is an itemt hat is used with Ritual Stones to create some of the standard rituals"
+			description: [
+				"When used on a Ritual Stone, the Inscription Tool will paint it, turning it into a Dusk Stone."
+				""
+				"To use the Elemental Inscription Tool: Dusk, it must first be bound to the player by a single right click. Once bound, it can be right clicked on any Ritual Stones, turning them into Dusk Stones at the cost of a single point of durability. Once the durability is depleted, right clicking will add another point of durability at the cost of 10 LP"
+			]
+			dependencies: ["6FA36B62183E8203"]
+			id: "7EAB8AB0264992C0"
+			tasks: [{
+				id: "0083497BA02FD8D7"
+				type: "item"
+				item: "bloodmagic:ritualdivinerdusk"
+			}]
+			rewards: [
+				{
+					id: "78C5C36C03C1EF50"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "55C8C5AF58FD0336"
+					type: "item"
+					item: "bloodmagic:ritualdiviner"
+				}
+				{
+					id: "327A68FF68A0995D"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "7AA4FA79A02042FE"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: ["76242AD890FC311C"]
+			id: "24DE5373A61B693E"
+			tasks: [{
+				id: "4733014769B3C44D"
+				type: "item"
+				item: {
+					id: "bloodmagic:airscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "65033E3C482400DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7C553F8D22AFE817"
+					type: "item"
+					item: {
+						id: "bloodmagic:airscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0621D232968CDB1B"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -5.75d
+			y: -15.285714285714285d
+			dependencies: ["24DE5373A61B693E"]
+			id: "58538978E0C994E1"
+			tasks: [{
+				id: "67680DD6504F228F"
+				type: "item"
+				item: {
+					id: "bloodmagic:firescribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66DE0125A3B09CEA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "249DAF5D210566F5"
+					type: "item"
+					item: {
+						id: "bloodmagic:firescribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "240A8E51E4C6E90B"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -16.0d
+			dependencies: ["58538978E0C994E1"]
+			id: "3250BBE11D339455"
+			tasks: [{
+				id: "41E2240C72E69C4B"
+				type: "item"
+				item: {
+					id: "bloodmagic:waterscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "217DD0721E75D62C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1336F7DAB160B5BC"
+					type: "item"
+					item: {
+						id: "bloodmagic:waterscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A60E855DA3AF867"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -16.5d
+			dependencies: ["3250BBE11D339455"]
+			id: "66445A82FB66D981"
+			tasks: [{
+				id: "702A97B408A694AB"
+				type: "item"
+				item: {
+					id: "bloodmagic:earthscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7EDCC0E7A6287901"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "0D286F58E612E310"
+					type: "item"
+					item: {
+						id: "bloodmagic:earthscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "233CF2411BD1BFFC"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"66445A82FB66D981"
+				"7C20B789A07D4161"
+			]
+			hide: true
+			id: "1BDA175E658FB26F"
+			tasks: [{
+				id: "6654D7C7DE15553C"
+				type: "item"
+				item: {
+					id: "bloodmagic:duskscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "42D2D059344F1A16"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "34BFBD79A059C1E8"
+					type: "item"
+					item: {
+						id: "bloodmagic:duskscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "693D47920833DFD4"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -11.5d
+			dependencies: ["6B5D1536C4ED9C16"]
+			id: "3ED56B0BDE8849F0"
+			tasks: [{
+				id: "16FD7B191A178439"
+				type: "item"
+				item: {
+					id: "bloodmagic:sanguinereverter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "44FFA38F494DDA5A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "20A7D1ED78B9A451"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "30E7FADF3334CD7A"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -10.0d
+			dependencies: ["3ED56B0BDE8849F0"]
+			id: "35E935F179B2D9EE"
+			tasks: [{
+				id: "27F924A3F79A1A40"
+				type: "item"
+				item: {
+					id: "bloodmagic:primitive_crystalline_resonator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "649CF85AE1BE117D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4F11ADBCF6AA3E77"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "3F862588D91E0C36"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -14.5d
+			dependencies: ["6B94F782E431F80E"]
+			id: "0E0D800309F3CE35"
+			tasks: [{
+				id: "78DBFCF646489959"
+				type: "item"
+				item: {
+					id: "bloodmagic:primitive_hydration_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1381FB4427FB8222"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3600CC1BB9327690"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "60C4AA8672D0FA4E"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -13.0d
+			dependencies: ["0E0D800309F3CE35"]
+			id: "6B5D1536C4ED9C16"
+			tasks: [{
+				id: "03601DE2E673921F"
+				type: "item"
+				item: {
+					id: "bloodmagic:furnacecell_primitive"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "50103EDAEC1A83F8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "69D6263B6CF708FE"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "48922B98DAEDD49F"
+					type: "ftbmoney:money"
+					ftb_money: 69L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -9.0d
+			shape: "diamond"
+			dependencies: ["35E935F179B2D9EE"]
+			id: "05B5737A226A6745"
+			tasks: [{
+				id: "399E7C46369B82C9"
+				type: "item"
+				item: "bloodmagic:ironfragment"
+			}]
+			rewards: [
+				{
+					id: "1B7D63D886FC934B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "19E10FF415269BC2"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "11BFD0CF2BCD5541"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.7142857142857153d
+			y: -8.285714285714285d
+			shape: "diamond"
+			dependencies: ["05B5737A226A6745"]
+			id: "008D19CB3859F3B8"
+			tasks: [{
+				id: "073EB2648BBC1DD9"
+				type: "item"
+				item: "bloodmagic:goldfragment"
+			}]
+			rewards: [
+				{
+					id: "5B49E9D88E26825D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50CD934A8CCC6156"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "02551867E61CA819"
+					type: "ftbmoney:money"
+					ftb_money: 102L
+				}
+			]
+		}
+		{
+			x: -3.4642857142857153d
+			y: -7.535714285714292d
+			shape: "diamond"
+			dependencies: ["008D19CB3859F3B8"]
+			id: "4B92CC264E158E7C"
+			tasks: [{
+				id: "6BF7D9F252835D5A"
+				type: "item"
+				item: "bloodmagic:fragment_netherite_scrap"
+			}]
+			rewards: [
+				{
+					id: "6846D46D6354945A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1CD331D80E84EA8E"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "414FF1B5DCFB463F"
+					type: "ftbmoney:money"
+					ftb_money: 103L
+				}
+			]
+		}
+	]
+}

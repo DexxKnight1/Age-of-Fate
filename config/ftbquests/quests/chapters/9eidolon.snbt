@@ -1,0 +1,1500 @@
+{
+	id: "72FB31237B2C4821"
+	group: "15F5BAC0BCC22DEF"
+	order_index: 3
+	filename: "9eidolon"
+	title: "&9Eidolon"
+	icon: "eidolon:goblet"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -6.750000000000007d
+		y: -11.803571428571427d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: "eidolon:codex"
+			x: -7.5d
+			y: -11.25d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oSign the contract&r quest*"
+			description: ["Eidolon is a magic mod that draws on a lot of different inspirations, with aspects of alchemy and theurgy. It takes a bit of a dark perspective, also featuring mechanics themed around necromancy and soul manipulation."]
+			dependencies: ["071125FC42EBEAB9"]
+			size: 1.5d
+			id: "65C922C81EA9C369"
+			tasks: [{
+				id: "0DECDD2ED9D9A583"
+				type: "checkmark"
+				title: "&c&lWelcome to Eidolon"
+			}]
+			rewards: [
+				{
+					id: "39BDDE82E52BFE9F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5981DBD30EEFA698"
+					type: "item"
+					item: "eidolon:smooth_stone_bricks"
+					count: 16
+				}
+				{
+					id: "08E9C13093AC88B2"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -9.5d
+			dependencies: ["65C922C81EA9C369"]
+			id: "336709E4DA06F957"
+			tasks: [{
+				id: "10F509F15FB7C2B3"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+			rewards: [
+				{
+					id: "1124CD606589D1A6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "32BB20A76BF9FF83"
+					type: "item"
+					item: "eidolon:pewter_blend"
+					count: 6
+				}
+				{
+					id: "2D6531AED704A17A"
+					type: "ftbmoney:money"
+					ftb_money: 11L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -7.5d
+			dependencies: ["336709E4DA06F957"]
+			id: "1F59C800DAFC0A53"
+			tasks: [{
+				id: "447E3FCBA7DC1C7A"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+			rewards: [
+				{
+					id: "03EBBF6A45910A11"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1FC06095CE7EF747"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "4029813DAF2FBFF7"
+					type: "ftbmoney:money"
+					ftb_money: 33L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -9.0d
+			dependencies: ["336709E4DA06F957"]
+			id: "167F762303933468"
+			tasks: [{
+				id: "4DD54A6BB431B226"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+			rewards: [
+				{
+					id: "67A52163976B2F38"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3DDED1BAB3D368D2"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "216C37EDB9EFEB49"
+					type: "ftbmoney:money"
+					ftb_money: 47L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -8.0d
+			dependencies: ["336709E4DA06F957"]
+			id: "7BC5D8A270C8F63B"
+			tasks: [{
+				id: "62EF378073053883"
+				type: "item"
+				item: "eidolon:brazier"
+			}]
+			rewards: [
+				{
+					id: "051B2162F0CA6C69"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7CC35B1880E23D19"
+					type: "item"
+					item: "eidolon:tallow"
+					count: 8
+				}
+				{
+					id: "7346B8C7DEFBF207"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "30A7B2F4D0940CD0"
+					type: "ftbmoney:money"
+					ftb_money: 66L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -8.0d
+			dependencies: [
+				"167F762303933468"
+				"1F59C800DAFC0A53"
+			]
+			id: "701E2E8807D8B464"
+			tasks: [{
+				id: "5A83A2B31EBE988D"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+			rewards: [
+				{
+					id: "3DEBC5C6B972E14A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1C0EB1E15308FA89"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "3FF883DDFF3AC20B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -7.0d
+			dependencies: ["701E2E8807D8B464"]
+			id: "01C8EEECD545903A"
+			tasks: [{
+				id: "218B64B15CFFB64D"
+				type: "item"
+				item: "eidolon:wicked_weave"
+			}]
+			rewards: [
+				{
+					id: "318D3CBF391D7B30"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C739655234EFB3B"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0E9FD07588D57009"
+					type: "ftbmoney:money"
+					ftb_money: 120L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			dependencies: ["01C8EEECD545903A"]
+			id: "234980695B18FFE4"
+			tasks: [{
+				id: "081AC95A62BCE7C3"
+				type: "item"
+				item: {
+					id: "eidolon:warlock_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "22D39051E6BE1964"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1C84846BE9FBEAE6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1920447EC0DE3D59"
+					type: "ftbmoney:money"
+					ftb_money: 130L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			dependencies: ["234980695B18FFE4"]
+			id: "5812B84E536D41D7"
+			tasks: [{
+				id: "4AD5A9AE6BD4B983"
+				type: "item"
+				item: {
+					id: "eidolon:warlock_cloak"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1B691E86F569187E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "42DA5EE986B534CE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3B41A1774C0B3675"
+					type: "ftbmoney:money"
+					ftb_money: 140L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["5812B84E536D41D7"]
+			id: "38671A0923059336"
+			tasks: [{
+				id: "0CA9EE451EACFEFB"
+				type: "item"
+				item: {
+					id: "eidolon:warlock_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00A651ED2A2FBAF0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "117AD0DFDA6AB1A8"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "533EDA2782EBEE6A"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			icon: "eidolon:wooden_altar"
+			x: -8.5d
+			y: -7.5d
+			dependencies: ["336709E4DA06F957"]
+			id: "26C4A2DBB131BB6A"
+			tasks: [
+				{
+					id: "0A10A305B53A463A"
+					type: "item"
+					item: "eidolon:wooden_altar"
+				}
+				{
+					id: "7D43887A5D1C4C31"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+			]
+			rewards: [
+				{
+					id: "02A7F3E853EB1BC9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "35D0DFC0FD87CAC6"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "1A1391514BFF47B8"
+					type: "ftbmoney:money"
+					ftb_money: 22L
+				}
+			]
+		}
+		{
+			icon: "eidolon:stone_altar"
+			x: -8.5d
+			y: -6.0d
+			dependencies: ["26C4A2DBB131BB6A"]
+			id: "1CFA7CB6A32D41ED"
+			tasks: [
+				{
+					id: "59F6C0CE41860F78"
+					type: "item"
+					item: "eidolon:stone_altar"
+				}
+				{
+					id: "6730FEB4C166A5B0"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+			]
+			rewards: [
+				{
+					id: "4EF97249D04F370D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A6A5845153C7362"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "63677B4B14EC2BFA"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "43E2F3202B0307DE"
+					type: "ftbmoney:money"
+					ftb_money: 33L
+				}
+			]
+		}
+		{
+			title: "Full Upgraded Altar"
+			icon: "eidolon:goblet"
+			x: -8.0d
+			y: -5.0d
+			dependencies: ["1CFA7CB6A32D41ED"]
+			id: "030879006717EA0B"
+			tasks: [
+				{
+					id: "109B950CA43AF0B2"
+					type: "item"
+					item: "eidolon:goblet"
+				}
+				{
+					id: "77584853DDE9AABC"
+					type: "item"
+					item: "eidolon:candlestick"
+					count: 2L
+				}
+				{
+					id: "23D320B5C111281B"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "0623273FB89E0562"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "107330AB421BA273"
+					type: "item"
+					item: "minecraft:flower_pot"
+				}
+			]
+			rewards: [
+				{
+					id: "24FED704E5E2E2BC"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "49BF4D5985BD6D03"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "62EBDB87CDA5DA31"
+					type: "ftbmoney:money"
+					ftb_money: 111L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -9.0d
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "32099161845730C7"
+			tasks: [{
+				id: "77BEA619A87EE80A"
+				type: "item"
+				item: "eidolon:stone_hand"
+			}]
+			rewards: [
+				{
+					id: "68D79EA9DC27775D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "783CC55ACB5FCB49"
+					type: "item"
+					item: "eidolon:tattered_cloth"
+					count: 2
+				}
+				{
+					id: "7CFA637F472704E5"
+					type: "ftbmoney:money"
+					ftb_money: 22L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -9.0d
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "52160854B4FCF7D7"
+			tasks: [{
+				id: "581ECEB40E671168"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+			rewards: [
+				{
+					id: "0FBC7713D9FE2B24"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "317516E9B5E40274"
+					type: "item"
+					item: "eidolon:polished_planks"
+					count: 16
+				}
+				{
+					id: "706656BE32B65641"
+					type: "ftbmoney:money"
+					ftb_money: 33L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -8.5d
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "4186E2B3EA47F3EC"
+			tasks: [{
+				id: "5689F433AE019185"
+				type: "kill"
+				entity: "eidolon:wraith"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "37D89C06F8280F71"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "38BEED713A533DE3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6AD471EE48628B22"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -9.0d
+			dependencies: ["4186E2B3EA47F3EC"]
+			id: "7FEE3DEBDE62BBB2"
+			tasks: [{
+				id: "56F9DA716005CEB3"
+				type: "item"
+				item: "eidolon:wraith_heart"
+			}]
+			rewards: [
+				{
+					id: "48EE2192DD37C20E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6CE7AA5DB8711D79"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "1264DA08C7FD66D8"
+					type: "ftbmoney:money"
+					ftb_money: 66L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -7.0d
+			dependencies: ["5FB7ACC1F11DF1E6"]
+			id: "4E616B94BD42B7AD"
+			tasks: [{
+				id: "3193CBD6EEFD37D2"
+				type: "item"
+				item: "eidolon:zombie_heart"
+			}]
+			rewards: [
+				{
+					id: "5EEE55D94575627B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5C7128CA1FF1DDDB"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "6BDDF562AA930B2C"
+					type: "ftbmoney:money"
+					ftb_money: 66L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -7.5d
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "5FB7ACC1F11DF1E6"
+			tasks: [{
+				id: "1F3DC11E1EC2479F"
+				type: "kill"
+				entity: "eidolon:zombie_brute"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7061906227F20DB8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62543D934EE3D368"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4197740231A6F28C"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -6.5d
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "4E825B0D6E910F7D"
+			tasks: [{
+				id: "430EF74CB0A14EDE"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+			rewards: [
+				{
+					id: "79EEE1C9238720A7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0AC9861DF3590CD5"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 8
+				}
+				{
+					id: "2AD7BB6787ABB9D5"
+					type: "ftbmoney:money"
+					ftb_money: 66L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -7.5d
+			dependencies: ["167F762303933468"]
+			id: "4ABBD771E0F358DC"
+			tasks: [{
+				id: "2E866DE41C77B515"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "6CF2A7DCD305F3AF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6FC0F3FBE97F0AB8"
+					type: "item"
+					item: "eidolon:arcane_gold_ingot"
+				}
+				{
+					id: "013D24F322A414A6"
+					type: "ftbmoney:money"
+					ftb_money: 55L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -10.5d
+			dependencies: ["336709E4DA06F957"]
+			id: "720E35C24AAC7601"
+			tasks: [{
+				id: "058B9BCBF91D090E"
+				type: "item"
+				item: "eidolon:enchanted_ash"
+			}]
+			rewards: [
+				{
+					id: "0120F6A14162150B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "502AB033AD56E745"
+					type: "item"
+					item: "eidolon:enchanted_ash"
+				}
+				{
+					id: "76A99C6AB1BE73B7"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "3752AE018C78D6AA"
+					type: "ftbmoney:money"
+					ftb_money: 11L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -10.0d
+			dependencies: ["336709E4DA06F957"]
+			id: "2AA6DF1853B5C83C"
+			tasks: [{
+				id: "0DD1F9009E34E2F6"
+				type: "item"
+				item: "eidolon:pewter_inlay"
+			}]
+			rewards: [
+				{
+					id: "288B7AE4E7DFDE36"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "53EF6E0CFB88943E"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "25A05E7629678EF5"
+					type: "ftbmoney:money"
+					ftb_money: 22L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			dependencies: ["4ABBD771E0F358DC"]
+			id: "4650D777AFC5B5A9"
+			tasks: [{
+				id: "0CC8D508ED2DD53B"
+				type: "item"
+				item: "eidolon:gold_inlay"
+			}]
+			rewards: [
+				{
+					id: "5D8F5726B4735EDD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "33DD8882F462DBC3"
+					type: "item"
+					item: "eidolon:arcane_gold_ingot"
+					count: 4
+				}
+				{
+					id: "41D7882608931B7C"
+					type: "ftbmoney:money"
+					ftb_money: 111L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			dependencies: ["4650D777AFC5B5A9"]
+			id: "5400D058CB0BD6BA"
+			tasks: [{
+				id: "7913262881C644D3"
+				type: "item"
+				item: {
+					id: "eidolon:soulfire_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A7115C4A3679347"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4A44E8B604B10F0D"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "622773B4B06AB36C"
+					type: "ftbmoney:money"
+					ftb_money: 222L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -6.5d
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "125DAF2BDF612E2E"
+			tasks: [{
+				id: "4B99045C18BECDE2"
+				type: "item"
+				item: {
+					id: "eidolon:sapping_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "13BC1742F8990F6D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1CD1984A6DB666BF"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "7FEBA05009029220"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "08A71223DB1DC2BF"
+					type: "ftbmoney:money"
+					ftb_money: 111L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -5.5d
+			dependencies: ["125DAF2BDF612E2E"]
+			id: "7DA3EA0FDEA6332C"
+			tasks: [{
+				id: "1C4E948234AB7C6D"
+				type: "item"
+				item: "eidolon:sanguine_amulet"
+			}]
+			rewards: [
+				{
+					id: "653D6CF5CF8773B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "47E2C47EED135959"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "2A2A3777DA9E33BE"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3BE3D38E8242A314"
+					type: "ftbmoney:money"
+					ftb_money: 222L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -5.0d
+			dependencies: ["1CFA7CB6A32D41ED"]
+			id: "61DD1F3FDD7085A9"
+			tasks: [{
+				id: "6F4E390B7DF3EABF"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [
+				{
+					id: "664C9152C71A6736"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "415190049614BE0F"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "6773D661CFA5C668"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "69AED112CAD04C90"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "75CC2476AE1A5AF5"
+					type: "ftbmoney:money"
+					ftb_money: 666L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -6.0d
+			dependencies: ["1F59C800DAFC0A53"]
+			id: "5A4AD033E44AFAF4"
+			tasks: [{
+				id: "65052F3E0E896A73"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+			rewards: [
+				{
+					id: "0BA0CBC484A0D2E9"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "4FB5441B0203E5F5"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "016DE3803A7EBAB5"
+					type: "ftbmoney:money"
+					ftb_money: 77L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -4.5d
+			dependencies: ["5A4AD033E44AFAF4"]
+			id: "65862E742955D2ED"
+			tasks: [{
+				id: "632352AA326FD038"
+				type: "item"
+				item: "eidolon:wooden_brewing_stand"
+			}]
+			rewards: [
+				{
+					id: "24D4D644D9059918"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B0F9DD88D0B4A5D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "084F5B984DC6AF3E"
+					type: "ftbmoney:money"
+					ftb_money: 33L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -4.0d
+			dependencies: ["61DD1F3FDD7085A9"]
+			id: "5AD333AED3872309"
+			tasks: [{
+				id: "2FE07A06B819F8DE"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1EB766C2BBE5EDE6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "390F8548B7C045AA"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "36FFF6197D1BEA05"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "51EA9DB44E36EB72"
+					type: "ftbmoney:money"
+					ftb_money: 101L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -3.0d
+			dependencies: ["5AD333AED3872309"]
+			id: "119FA9A434F01332"
+			tasks: [{
+				id: "73C779CC5CCF0E1A"
+				type: "item"
+				item: {
+					id: "eidolon:cleaving_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "111A9C237B7F5F55"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6E564CD61240B885"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1496ABD8C0B3F07B"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "307EB518D1C06831"
+					type: "ftbmoney:money"
+					ftb_money: 102L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -8.5d
+			dependencies: ["7FEE3DEBDE62BBB2"]
+			id: "59E7BBECC62ECAD0"
+			tasks: [{
+				id: "7E165E34F4FA67E4"
+				type: "item"
+				item: {
+					id: "eidolon:bonechill_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1ED8519BA202B08C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "493AAAD25D8B606E"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "370A95E9C4507069"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "1651061BD99C21DA"
+					type: "ftbmoney:money"
+					ftb_money: 111L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -7.5d
+			dependencies: ["4E616B94BD42B7AD"]
+			id: "0A9E010F7FEB12E3"
+			tasks: [{
+				id: "67DB6298854FA1B5"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+			rewards: [
+				{
+					id: "3B0DF477B7C0B507"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2CE2FFC5739394FE"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "0E2606EE1D4AF7D8"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "4FD5B77052DE0226"
+					type: "ftbmoney:money"
+					ftb_money: 111L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -10.0d
+			dependencies: ["167F762303933468"]
+			id: "4C0077BE12EA821D"
+			tasks: [{
+				id: "2A034D86D2AB9DC2"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+			rewards: [
+				{
+					id: "12C4454657FBE81C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "015C596874F3F42B"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 8
+				}
+				{
+					id: "4ED115D564F97A47"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 4
+				}
+				{
+					id: "469B004C6F3805E1"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "678B1D2171343216"
+					type: "ftbmoney:money"
+					ftb_money: 66L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -10.0d
+			dependencies: ["4C0077BE12EA821D"]
+			id: "24A88800114C4EA9"
+			tasks: [{
+				id: "345A6742D8396B2B"
+				type: "item"
+				item: {
+					id: "eidolon:reversal_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "776E8B39C6CEEB7D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5A801DDA843ACEDC"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "7E617ED97AAD508C"
+					type: "ftbmoney:money"
+					ftb_money: 55L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			dependencies: ["167F762303933468"]
+			id: "211D76B0496DD2C9"
+			tasks: [{
+				id: "613B480E6C672AE0"
+				type: "item"
+				item: "eidolon:ender_calx"
+			}]
+			rewards: [
+				{
+					id: "27807710D5180A17"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2618880DE1A023E2"
+					type: "item"
+					item: "eidolon:enchanted_ash"
+					count: 8
+				}
+				{
+					id: "3F8A4F79F06DF1AA"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -8.5d
+			dependencies: ["211D76B0496DD2C9"]
+			id: "07BB6BCF6DDDAD02"
+			tasks: [{
+				id: "79C3313308CE743F"
+				type: "item"
+				item: "eidolon:prestigious_palm"
+			}]
+			rewards: [
+				{
+					id: "6B42F3786FD8B5A8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "108A26431ABE3DCC"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "65054D2C28D220ED"
+					type: "ftbmoney:money"
+					ftb_money: 77L
+				}
+			]
+		}
+		{
+			x: -4.142857142857146d
+			y: -10.13392857142857d
+			dependencies: ["167F762303933468"]
+			id: "4EE402E8CADB1BAF"
+			tasks: [{
+				id: "292D8DD53B593BDD"
+				type: "item"
+				item: "hexblades:hexium_ingot"
+			}]
+			rewards: [
+				{
+					id: "55A6796FB9949B61"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4A043AF7F7CA0C32"
+					type: "item"
+					item: "hexblades:hexium_ingot"
+				}
+				{
+					id: "3AF1B6A4DA710CFC"
+					type: "ftbmoney:money"
+					ftb_money: 55L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -11.0d
+			dependencies: ["4EE402E8CADB1BAF"]
+			id: "04200CDAC1FB05A5"
+			tasks: [{
+				id: "4571D265E51ACC07"
+				type: "item"
+				item: "hexblades:hexed_ingot"
+			}]
+			rewards: [
+				{
+					id: "1FBC47D7AB67B4DF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7DBF429A7D254965"
+					type: "item"
+					item: "hexblades:hexed_ingot"
+				}
+				{
+					id: "535F3AF496E3C292"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -11.5d
+			dependencies: ["04200CDAC1FB05A5"]
+			id: "78CB60C2BE155237"
+			tasks: [{
+				id: "05F0BF173B212250"
+				type: "item"
+				item: {
+					id: "hexblades:hex_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2B38293691DACDC9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07F1EF4F66920F8A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "7665ACBCB03C4330"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "19D86871CA83B5B2"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "2BD3BB31E35C2039"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -11.5d
+			dependencies: ["78CB60C2BE155237"]
+			id: "458DCDD9A04A61A9"
+			tasks: [{
+				id: "57BBC0B54816F717"
+				type: "item"
+				item: {
+					id: "hexblades:hex_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0285B30D5D083554"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7069BE1FE7606E37"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3F232C5F2155E323"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4853415C7FF50FE3"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "31BE032578560954"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -11.5d
+			dependencies: ["458DCDD9A04A61A9"]
+			id: "6460F8CFA0183773"
+			tasks: [{
+				id: "624AAF0AA2A77B64"
+				type: "item"
+				item: {
+					id: "hexblades:hex_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6E20530FF9E0385C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18D4F92DDB77069A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "29A25B5EE34211AA"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1BB00E7B4A7726E6"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "61C8B14C7804AD83"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -11.5d
+			dependencies: ["6460F8CFA0183773"]
+			id: "741B7064EFD44F9F"
+			tasks: [{
+				id: "00390FDFF7BD4822"
+				type: "item"
+				item: {
+					id: "hexblades:hex_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1950AFA60AEC6016"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5391C3323E1369A4"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4E3F56907103A91D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "367DCCF3F14D65C2"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "2D4CB7A7FC939823"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+	]
+}

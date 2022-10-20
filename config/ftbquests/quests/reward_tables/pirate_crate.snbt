@@ -1,0 +1,182 @@
+{
+	id: "6A12F01DB889BA00"
+	order_index: 5
+	title: "Pirate Crate"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "xreliquary:mob_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					entity: "piratesandlootersreborn:hgt"
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_magicdefense"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "xreliquary:witherless_rose" }
+		{ item: "mekanism:personal_chest" }
+		{
+			item: {
+				id: "terraqueous:ender_monocle"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "aquaculture:neptunes_bounty" }
+		{ item: "vampirism:hunter_intel_2" }
+		{ item: "twilightforest:magic_map_focus" }
+		{ item: "vampirism:pure_blood_4" }
+		{ item: "vampirism:vampire_blood_bottle" }
+		{ item: "bloodmagic:bloodlightsigil" }
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_netherite"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "solarflux:sp_6", count: 2 }
+		{ item: "ars_nouveau:mythical_clay", count: 4 }
+		{
+			item: {
+				id: "spartanweaponry:quiver_arrow_large"
+				Count: 1b
+				tag: {
+					ClientInventory: [ ]
+				}
+				ForgeCaps: {
+					Parent: {
+						Size: 9
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{ item: "quark:gold_bars", count: 16 }
+		{ item: "minecraft:gold_block", count: 8 }
+		{ item: "thermal:gold_coin", count: 100 }
+		{ item: "apotheosis:lucky_foot" }
+		{ item: "xreliquary:witch_hat" }
+		{
+			item: {
+				id: "usefulbackpacks:backpack_large"
+				Count: 1b
+				tag: {
+					display: {
+						color: 4673362
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:unholy_cloak"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "druidcraft:travel_pack"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "relics:shadow_glaive"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "botanicalmachinery:mechanical_apothecary" }
+		{ item: "torchmaster:dreadlamp" }
+		{
+			item: {
+				id: "evilcraft:blood_infuser"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "botania:terrasteel_ingot", count: 3 }
+		{ item: "mowziesmobs:wrought_helmet" }
+		{
+			item: {
+				id: "xreliquary:mob_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					entity: "minecraft:slime"
+				}
+			}
+		}
+		{ item: "supplementaries:key" }
+		{ item: "botania:endoflame", count: 3 }
+		{ item: "iceandfire:ghost_chest" }
+		{
+			item: {
+				id: "iceandfire:silver_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "forbidden_arcanus:mystical_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:electron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "stalwart_dungeons:diamond_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mod_lavacow:acidicheart" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 0
+		glow: 1b
+		string_id: "pirate_crate"
+	}
+}

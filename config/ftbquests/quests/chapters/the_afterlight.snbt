@@ -1,0 +1,1228 @@
+{
+	id: "196FCC91F9826B5C"
+	group: "5FA6CDF6F0D49B30"
+	order_index: 7
+	filename: "the_afterlight"
+	title: "&3The Afterlight"
+	icon: "the_afterlight:moonflower"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 2.5d
+			y: -8.0d
+			width: 7.0d
+			height: 1.2d
+			rotation: 0.0d
+			image: "kubejs:textures/item/aftlig.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/afltini.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/spark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/afltini.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/spark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.3928571428571388d
+			y: -6.946428571428573d
+			width: 0.3d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Visit Dimension: &2The Afterlight"
+			x: -1.0d
+			y: -6.5d
+			shape: "rsquare"
+			id: "743A2964AFE70027"
+			tasks: [{
+				id: "3638F3EB8E152136"
+				type: "dimension"
+				title: "Visit Dimension: &2The Afterlight"
+				dimension: "the_afterlight:the_afterlight"
+			}]
+			rewards: [
+				{
+					id: "0A4F2D12186678A6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "28EEC7C1C04696FA"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "28BEB78A61591D6C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["3638F3EB8E152136"]
+			id: "675415E75423B7A3"
+			tasks: [{
+				id: "17EB094ECB25B219"
+				type: "item"
+				item: "the_afterlight:moonsteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "67DBCE847F5A3795"
+					type: "item"
+					item: "the_afterlight:moonsteel_ingot"
+				}
+				{
+					id: "3B5CF7BF4D6372AE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "459B8A89F2928159"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "3D5606618CC78CD1"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			dependencies: ["3638F3EB8E152136"]
+			id: "59F9E1C4F041E095"
+			tasks: [{
+				id: "0C7025442872A8BC"
+				type: "item"
+				item: "the_afterlight:crystillium_ingot"
+			}]
+			rewards: [
+				{
+					id: "17354298FE89F03A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6CC457FB3D43E17E"
+					type: "item"
+					item: "the_afterlight:crystillium_ingot"
+				}
+				{
+					id: "7AFC09032F596252"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "33A7DD74980C8530"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			dependencies: ["3638F3EB8E152136"]
+			id: "172C3DB685677138"
+			tasks: [{
+				id: "38DB1E4D97AF4A0C"
+				type: "item"
+				item: "the_afterlight:lunariteingot"
+			}]
+			rewards: [
+				{
+					id: "1E70AD257DB1518A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "06CC0E4AC138C280"
+					type: "item"
+					item: "the_afterlight:lunariteingot"
+				}
+				{
+					id: "2A46417EEC695EB9"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "5D1994EA90D82AFD"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "47CF80B154A5BA3D"
+			tasks: [{
+				id: "19F99121B5E5A01A"
+				type: "item"
+				item: "the_afterlight:moon_shard"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "3D0AF6E01759DED9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5F6A4E0F983C898D"
+					type: "item"
+					item: "minecraft:soul_torch"
+					count: 32
+				}
+				{
+					id: "6EE0E8A15668A0FF"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "4E65CC59A241E34A"
+			tasks: [{
+				id: "087E538D35F23E03"
+				type: "item"
+				item: "the_afterlight:ecliptic_rock"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "27F6921019833A92"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "77175CBA725BE4D8"
+					type: "item"
+					item: "the_afterlight:ecliptic_rock"
+					count: 16
+				}
+				{
+					id: "5C4E94779FED67E3"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "35D23EA676938E5D"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "7A2B9AE8639F7020"
+			tasks: [{
+				id: "09538FC91D3E57FB"
+				type: "item"
+				item: "the_afterlight:radiant_crystal_block"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "6EE0F3AE25BC32F5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2CBCE10390D3F79A"
+					type: "item"
+					item: "the_afterlight:radiant_crystal_block"
+					count: 16
+				}
+				{
+					id: "42A993F0ED034E5D"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "2D8939CF7B7A5AF5"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "6B1BEE642151D562"
+			tasks: [{
+				id: "20F25725CAD5BC95"
+				type: "item"
+				item: "the_afterlight:living_essence"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "612367C6D6D93AC5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0D6F442F59F0AA10"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 2
+				}
+				{
+					id: "365122691E79FB89"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "44C21FA85A119F12"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "4CB8042813AAEFF8"
+			tasks: [{
+				id: "284DF7AF347E4A48"
+				type: "item"
+				item: "the_afterlight:pearl_shards"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "5F800828319ED4A2"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "08570DF3BFC60C0F"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 6
+				}
+				{
+					id: "128ADA8926FE1C91"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2EAFB5E820BA595F"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "27E51D17C54A5E2F"
+			tasks: [{
+				id: "0EBA3E9C1701C556"
+				type: "item"
+				item: "the_afterlight:moonflower"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "628E4867BF04BBBA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4D61A3FADE7E341A"
+					type: "item"
+					item: "the_afterlight:hanging_bloodweed"
+					count: 8
+				}
+				{
+					id: "021D90D29B86C0DE"
+					type: "item"
+					item: "the_afterlight:verdant_vine_1"
+					count: 8
+				}
+				{
+					id: "1E10FA09E39FBD18"
+					type: "item"
+					item: "the_afterlight:gloomy_leaves"
+					count: 8
+				}
+				{
+					id: "77AEE737D762E010"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "6C0985259C7C50DF"
+			tasks: [{
+				id: "411221F235025BA2"
+				type: "item"
+				item: "the_afterlight:moon_crystal_block"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "4AE9E1C3CC1236EA"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "2A201983EDD46A92"
+					type: "item"
+					item: "the_afterlight:moon_crystal_block"
+					count: 16
+				}
+				{
+					id: "6633B54CDBED6EE8"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "6D7FE91111214714"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "36F3A09B5F0EC20D"
+			tasks: [{
+				id: "31F3BC71743EF236"
+				type: "item"
+				item: "the_afterlight:eclipse_shard"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "4465F253AA3D1428"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "79D0834EC826C9ED"
+					type: "item"
+					item: "the_afterlight:corrupted_skeleton_spawn_egg"
+					count: 2
+				}
+				{
+					id: "19213B8FCE9F19F0"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "69A26FA1FC8D9916"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "10D44DA64796194C"
+			tasks: [{
+				id: "5AEE87799F22AE83"
+				type: "item"
+				item: "the_afterlight:block_of_radiance_shards"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "0DCB4C276D57BF93"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3292D516E3700A04"
+					type: "item"
+					item: "the_afterlight:block_of_radiance_shards"
+					count: 16
+				}
+				{
+					id: "6BDF2D3830F2EFA1"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "22ABCCDB1AAB659A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "76A906F56832C17B"
+			tasks: [{
+				id: "40F3D07060F6DB77"
+				type: "item"
+				item: "the_afterlight:bloodstone_shard"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "5D32F17CC66D7A46"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1962DB037732757E"
+					type: "item"
+					item: "the_afterlight:old_pot"
+					count: 8
+				}
+				{
+					id: "1F23DA60F5192E0C"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "48411018D71FDA9D"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "3220076ED5AB83E7"
+			tasks: [{
+				id: "03170138E06B89DD"
+				type: "item"
+				item: "the_afterlight:aqua_crystal"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "1AD13B0579FB544A"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "445EFA56ABD08086"
+					type: "item"
+					item: "the_afterlight:blank_glyph"
+					count: 4
+				}
+				{
+					id: "1FFB77DBB808F022"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5C2288C02C429A42"
+					type: "ftbmoney:money"
+					ftb_money: 55L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["3638F3EB8E152136"]
+			id: "220DF12E626544E4"
+			tasks: [{
+				id: "0FEAF9A6078594DD"
+				type: "item"
+				item: "the_afterlight:verdant_quartz"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "6E7FA568E4516D4D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "192D77DAF075727A"
+					type: "item"
+					item: "the_afterlight:book_of_runes"
+				}
+				{
+					id: "79C1AC3ED4976E8C"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "1E3D3F3A76C09E75"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["3638F3EB8E152136"]
+			id: "1ED15BA485231644"
+			tasks: [{
+				id: "4B3C8928A4DD31FE"
+				type: "item"
+				item: "the_afterlight:moonberry_soup"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "6315A31D9DE34836"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3409121B3E15E3B9"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "5833071F5EA7018C"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "31741810371631EB"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["3638F3EB8E152136"]
+			id: "5F903DA50BCBAEFA"
+			tasks: [{
+				id: "7E5490CFC91A3FAD"
+				type: "item"
+				item: "the_afterlight:bramble_fruit"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "3BF47D08F618F32C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "36A929640E5CC410"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "1D839842EBEB3F2D"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "355BDAF23E5F5E04"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			dependencies: ["3638F3EB8E152136"]
+			id: "5A430A8ABCD7BCCD"
+			tasks: [{
+				id: "4F3A7AB9DEDC219B"
+				type: "item"
+				item: "the_afterlight:bloodberry"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "2A5258919186452C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "61AE3CB399869768"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "03629117B392A07A"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "08E0477F7E2B8768"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: [
+				"3ED72B14C1814BE7"
+				"7849168F7F95A8B6"
+				"097C1F7237553663"
+			]
+			id: "10F46EBF4AF05B80"
+			tasks: [{
+				id: "4312D8EBE8A60175"
+				type: "item"
+				item: {
+					id: "the_afterlight:geode_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4669E89CA5AB3602"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5AC56A82BB0B8042"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "5FBC7DE90B7FDA5E"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: [
+				"3ED72B14C1814BE7"
+				"7849168F7F95A8B6"
+				"097C1F7237553663"
+			]
+			id: "67B2E7EBC5B84D4C"
+			tasks: [{
+				id: "77DF5B03AC1BFE98"
+				type: "item"
+				item: {
+					id: "the_afterlight:moon_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7C60491005077804"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "3225874B8F9742C6"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "6D75724247F4A8D3"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["17EB094ECB25B219"]
+			id: "64E494C5DE8505EA"
+			tasks: [{
+				id: "3ED72B14C1814BE7"
+				type: "item"
+				item: {
+					id: "the_afterlight:moonsteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4B82F01912C0599D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "2D0E85248F7E5A1E"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "20966526B7506417"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["31F3BC71743EF236"]
+			id: "6A38A439E94647EB"
+			tasks: [{
+				id: "097C1F7237553663"
+				type: "item"
+				item: {
+					id: "the_afterlight:eclipse_crystal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4F940C3E93972795"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7F15FD5BC6CB991F"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "0A427DEB94AAA7D2"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["38DB1E4D97AF4A0C"]
+			id: "0C61351F9D000652"
+			tasks: [{
+				id: "7849168F7F95A8B6"
+				type: "item"
+				item: {
+					id: "the_afterlight:lunarite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "417B8A94AD9C7D4D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "30E0C1C4E44298D9"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "5243645B7BFD2DCC"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: [
+				"7849168F7F95A8B6"
+				"3ED72B14C1814BE7"
+				"097C1F7237553663"
+			]
+			id: "2ECA7B5F2F6F15E0"
+			tasks: [{
+				id: "3966621A71058768"
+				type: "item"
+				item: {
+					id: "the_afterlight:elemental_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E8F141DA43A10B0"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "289C3FAF8B971ED7"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "367AC39AC6025CB2"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			dependencies: ["17EB094ECB25B219"]
+			id: "557FA0B79F7174A3"
+			tasks: [{
+				id: "46876CE922458487"
+				type: "item"
+				item: {
+					id: "the_afterlight:moonsteel_armor_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0CA9FA7A3789C06F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1035605CFB89154A"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "779176046F5A994B"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			shape: "square"
+			dependencies: ["17EB094ECB25B219"]
+			id: "63AD3D6EA9DD2638"
+			tasks: [{
+				id: "434E3D2D21A505DB"
+				type: "item"
+				item: {
+					id: "the_afterlight:moonsteel_armor_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "11C204372F9D970A"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "4D73BCEACF146463"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "0059188A85DC41F4"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["17EB094ECB25B219"]
+			id: "6B8B319484FE26DA"
+			tasks: [{
+				id: "4B98167A39941E99"
+				type: "item"
+				item: {
+					id: "the_afterlight:moonsteel_armor_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "34BE9BE76D0C06F3"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "21E1F828B54AB91E"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "18C8CD9203AC2561"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["17EB094ECB25B219"]
+			id: "096F03C7F4376B93"
+			tasks: [{
+				id: "6C27250ADEC793B2"
+				type: "item"
+				item: {
+					id: "the_afterlight:moonsteel_armor_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0024BFDEE03DD1B5"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6B933E0CA508DE9B"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "5F83A736E4705A9B"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["38DB1E4D97AF4A0C"]
+			id: "274F4B390C1CF046"
+			tasks: [{
+				id: "7E69DEEC9FB90FD8"
+				type: "item"
+				item: {
+					id: "the_afterlight:lunarite_armor_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "51E38F80F025A74D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "02E7FD40F2E5B55A"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "39DABB8EFD2A0E26"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			shape: "square"
+			dependencies: ["38DB1E4D97AF4A0C"]
+			id: "11829D245E1AE32C"
+			tasks: [{
+				id: "78A969DDFBBF8348"
+				type: "item"
+				item: {
+					id: "the_afterlight:lunarite_armor_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66A5E9038F204F9A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2DBB197B09832FDA"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "7E8CB3FF841D13DC"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["38DB1E4D97AF4A0C"]
+			id: "61838BC1D6AC0E4A"
+			tasks: [{
+				id: "135F2861AD88BE08"
+				type: "item"
+				item: {
+					id: "the_afterlight:lunarite_armor_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "246C9B2DA0A50484"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "62E5207D64C6C940"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "7550558C39122912"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["38DB1E4D97AF4A0C"]
+			id: "518AA6C9A95D3936"
+			tasks: [{
+				id: "58266E9200C99152"
+				type: "item"
+				item: {
+					id: "the_afterlight:lunarite_armor_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1EF435DEF902DABB"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "75426ECAF447E35D"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "60BAF5D14384B70B"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+	]
+}

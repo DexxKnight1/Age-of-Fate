@@ -1,0 +1,45 @@
+{
+	id: "4438FFDF47614965"
+	order_index: 9
+	title: "Record's Bag"
+	icon: {
+		id: "blue_skies:loot_bag_summoner"
+		Count: 1b
+		tag: {
+			LootTable: "blue_skies:loot_bags/summoner/common"
+			Rarity: 0
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:music_disc_13" }
+		{ item: "minecraft:music_disc_cat" }
+		{ item: "minecraft:music_disc_blocks" }
+		{ item: "minecraft:music_disc_chirp" }
+		{ item: "minecraft:music_disc_far" }
+		{ item: "minecraft:music_disc_mall" }
+		{ item: "minecraft:music_disc_mellohi" }
+		{ item: "minecraft:music_disc_stal" }
+		{ item: "minecraft:music_disc_strad" }
+		{ item: "minecraft:music_disc_ward" }
+		{ item: "minecraft:music_disc_11" }
+		{ item: "minecraft:music_disc_wait" }
+		{ item: "minecraft:music_disc_pigstep" }
+		{ item: "endergetic:music_disc_kilobyte" }
+		{ item: "biomesoplenty:music_disc_wanderer" }
+		{ item: "botania:record_gaia_1" }
+		{ item: "botania:record_gaia_2" }
+		{ item: "eidolon:music_disc_parousia" }
+		{ item: "alexsmobs:music_disc_thime" }
+		{ item: "rats:music_disc_mice_on_venus" }
+		{ item: "rats:music_disc_living_mice" }
+		{ item: "undergarden:music_disc_mammoth" }
+		{ item: "undergarden:music_disc_limax_maximus" }
+		{ item: "undergarden:music_disc_relict" }
+		{ item: "undergarden:music_disc_gloomper_anthem" }
+		{ item: "forestcraft:music_disc_latina" }
+		{ item: "forestcraft:music_disc_i_say_yes" }
+	]
+}

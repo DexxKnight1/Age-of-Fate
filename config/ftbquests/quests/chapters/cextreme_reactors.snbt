@@ -1,0 +1,971 @@
+{
+	id: "61E3C6C1B39CA97B"
+	group: "02206CCEC528E0AB"
+	order_index: 2
+	filename: "cextreme_reactors"
+	title: "&cExtreme Reactors"
+	icon: "bigreactors:reinforced_reactorchargingportfe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.1785714285714235d
+			y: -9.05357142857143d
+			width: 0.3d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/rgui.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/rrgui.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/spark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "&2&lExtreme Reactors"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "bigreactors:erguide"
+				}
+			}
+			x: -0.5d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oFlux Controller&r quest*"
+			dependencies: ["1C214DD51C58BE4D"]
+			size: 1.5d
+			id: "246B1E98DD8C4512"
+			tasks: [{
+				id: "61763926809F968C"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "7E458A8973BB27B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "78E5158AFD4F1C2C"
+					type: "item"
+					item: "bigreactors:graphite_ingot"
+					count: 16
+				}
+				{
+					id: "02EC483882F8D1CF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			dependencies: ["3061F3AEB02A98C8"]
+			id: "4049674E55682786"
+			tasks: [
+				{
+					id: "37C79941D78379D9"
+					type: "item"
+					item: "bigreactors:basic_reactorcasing"
+				}
+				{
+					id: "251054085605DA0D"
+					type: "item"
+					item: "bigreactors:basic_reactorglass"
+				}
+			]
+			rewards: [
+				{
+					id: "572EA7DDD830520C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7F01363BC117D14B"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "398D74815C6BA5CD"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			shape: "pentagon"
+			dependencies: ["41168D662C809812"]
+			size: 1.3d
+			id: "09A7100480C85DBD"
+			tasks: [{
+				id: "58F52058672E7C78"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcontroller"
+			}]
+			rewards: [
+				{
+					id: "6A0D7599F871696E"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "637F4F0659BAE046"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "5F88C8D98307EA1F"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "6E584407F05BC5D0"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "47FE784D8F585F6E"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "3D6A9DF2635BE0E4"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["4049674E55682786"]
+			id: "18F52AD17587517A"
+			tasks: [
+				{
+					id: "2F6EB3FE2839E9CC"
+					type: "item"
+					item: "bigreactors:basic_reactorfuelrod"
+				}
+				{
+					id: "70621D237144EEEC"
+					type: "item"
+					item: "bigreactors:basic_reactorcontrolrod"
+				}
+			]
+			rewards: [
+				{
+					id: "791D654FBA35C81D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34445AC12AF05946"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5EFD4186856AD272"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["18F52AD17587517A"]
+			id: "5914B8AE3F9DC3E4"
+			tasks: [
+				{
+					id: "0DD46A2265F8E8B9"
+					type: "item"
+					item: "bigreactors:basic_reactorsolidaccessport"
+				}
+				{
+					id: "7FD18F7765447DED"
+					type: "item"
+					item: "bigreactors:basic_reactorpowertapfe_active"
+				}
+			]
+			rewards: [
+				{
+					id: "0D63C5A11E82F129"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1B13E46496F72AD3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "30B737B8565F5998"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			dependencies: ["4049674E55682786"]
+			id: "489004FB5789A573"
+			tasks: [
+				{
+					id: "39A8F0229197E2B8"
+					type: "item"
+					item: "bigreactors:reinforced_reactorcasing"
+				}
+				{
+					id: "17647E5D539E8AAC"
+					type: "item"
+					item: "bigreactors:reinforced_reactorglass"
+				}
+			]
+			rewards: [
+				{
+					id: "24C0F492619C376B"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "54BE887CFF9010D1"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3EA83BE290136931"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "1768530AD7A61A83"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "5A5A9FE2CBD994F2"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "0471E383E1395DBD"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			dependencies: ["18F52AD17587517A"]
+			id: "03A08508DFF1E4A3"
+			tasks: [
+				{
+					id: "20AB63A11FCFB666"
+					type: "item"
+					item: "bigreactors:reinforced_reactorfuelrod"
+				}
+				{
+					id: "704CA66A3CFE066B"
+					type: "item"
+					item: "bigreactors:reinforced_reactorcontrolrod"
+				}
+			]
+			rewards: [
+				{
+					id: "773AE9F995D02805"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "36AC96B3CE50F41F"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "12B9866F1BDEA784"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "540615C60468029E"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "339F6C5284E81998"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "1B1999606B02FC92"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			dependencies: ["5914B8AE3F9DC3E4"]
+			id: "22FE664EB9FD4DB4"
+			tasks: [
+				{
+					id: "505E7FEA7487866F"
+					type: "item"
+					item: "bigreactors:reinforced_reactorsolidaccessport"
+				}
+				{
+					id: "5FBA8BED13261E69"
+					type: "item"
+					item: "bigreactors:reinforced_reactorpowertapfe_active"
+				}
+			]
+			rewards: [
+				{
+					id: "672EDCD22E83C1FC"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "36F89883B4101104"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "30F8B9DA50A1B9A5"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "4E632E6AB319BD87"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "07414DC6B905CE6F"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "2B0FD0EF75DD4D06"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			shape: "pentagon"
+			dependencies: ["1C664CC3395B8956"]
+			size: 1.3d
+			id: "41168D662C809812"
+			tasks: [{
+				id: "5A7F5C138C67AE2E"
+				type: "item"
+				item: "bigreactors:basic_reactorcontroller"
+			}]
+			rewards: [
+				{
+					id: "46B85D682A15D916"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2F135910E2066EA8"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "30A5A21648C6B61B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["3061F3AEB02A98C8"]
+			id: "13F2A1D1FA656A2D"
+			tasks: [
+				{
+					id: "181C5BC51C08D571"
+					type: "item"
+					item: "bigreactors:basic_turbinecasing"
+				}
+				{
+					id: "35B8D330B28614BA"
+					type: "item"
+					item: "bigreactors:basic_turbineglass"
+				}
+			]
+			rewards: [
+				{
+					id: "4CC45F038DD60ABF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0BF814A775C49333"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0F98805BC4167A84"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["13F2A1D1FA656A2D"]
+			id: "76AB0D0F9922A37D"
+			tasks: [
+				{
+					id: "678A58949B8B7010"
+					type: "item"
+					item: "bigreactors:basic_turbinerotorbearing"
+				}
+				{
+					id: "24002A5B90DE145E"
+					type: "item"
+					item: "bigreactors:basic_turbinerotorshaft"
+				}
+				{
+					id: "27BE0A045CB7E9EA"
+					type: "item"
+					item: "bigreactors:basic_turbinerotorblade"
+				}
+			]
+			rewards: [
+				{
+					id: "0CCE29615E5CE69D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C0001E7769C5A5D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "49BD8DFAB8A41013"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["76AB0D0F9922A37D"]
+			id: "1892509251DF8555"
+			tasks: [
+				{
+					id: "4B38A4D19229D6FD"
+					type: "item"
+					item: "bigreactors:basic_turbinefluidport_forge_active"
+				}
+				{
+					id: "6F12D25B132E4BF3"
+					type: "item"
+					item: "bigreactors:basic_turbinepowertapfe_active"
+				}
+			]
+			rewards: [
+				{
+					id: "756619E0976B4BD0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "66483F36A8DB2A3C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "06889773644B7EE9"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			shape: "pentagon"
+			dependencies: ["7D76061CBECB690C"]
+			size: 1.3d
+			id: "6A7A0EF6A9517059"
+			tasks: [{
+				id: "0EE2D5C0441D3085"
+				type: "item"
+				item: "bigreactors:basic_turbinecontroller"
+			}]
+			rewards: [
+				{
+					id: "77E96788DD7700CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "76CADF9A5EB6EBF6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "013463DE07F44223"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			dependencies: ["13F2A1D1FA656A2D"]
+			id: "583B78D413D9F740"
+			tasks: [
+				{
+					id: "7DCC5E913B52417D"
+					type: "item"
+					item: "bigreactors:reinforced_turbinecasing"
+				}
+				{
+					id: "6AA632DD271865A3"
+					type: "item"
+					item: "bigreactors:reinforced_turbineglass"
+				}
+			]
+			rewards: [
+				{
+					id: "13B2D897314696BB"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "559AAB06DFFA911A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "6D364F0FB3B5B487"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "3A7166EDB431163C"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "513916567AE2502E"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "1664BFA0EBA9F301"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["76AB0D0F9922A37D"]
+			id: "20B0F1B76A6183E2"
+			tasks: [
+				{
+					id: "1781CF78F80AB5B4"
+					type: "item"
+					item: "bigreactors:reinforced_turbinerotorbearing"
+				}
+				{
+					id: "42E1951FA7612B75"
+					type: "item"
+					item: "bigreactors:reinforced_turbinerotorshaft"
+				}
+				{
+					id: "680C49A018D25A6D"
+					type: "item"
+					item: "bigreactors:reinforced_turbinerotorblade"
+				}
+			]
+			rewards: [
+				{
+					id: "5FCEF830BB43EE44"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7EA2D5F6B0E34AB3"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "138FF6CF4A231D81"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "5179002D2B67FC06"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "497EEB08546EBE3A"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "453D5F4A1DD5D0C0"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["1892509251DF8555"]
+			id: "7FF1AE77E3F5771A"
+			tasks: [
+				{
+					id: "58CE3F5758DD1545"
+					type: "item"
+					item: "bigreactors:reinforced_turbinefluidport_forge_active"
+				}
+				{
+					id: "4E8F727D88107B03"
+					type: "item"
+					item: "bigreactors:reinforced_turbinepowertapfe_active"
+				}
+			]
+			rewards: [
+				{
+					id: "3A33EA114ED55471"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "61E4ED030103248C"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "37D7BBAFC236BC1C"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "5E78E9DD3FB1838E"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "148ED9194550D3C4"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "573758B837EBA738"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			shape: "pentagon"
+			dependencies: ["6A7A0EF6A9517059"]
+			size: 1.3d
+			id: "3CCCA3CFA421D061"
+			tasks: [{
+				id: "56CDAB9BFD00230C"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecontroller"
+			}]
+			rewards: [
+				{
+					id: "02FD55FEB7684EFC"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "07AF193AA4C5A948"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "05D08BF9651AB1B9"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "3901F8EAFDDB7A7E"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "3D386471D3C9EE14"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "7F4909BE115DE0BA"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			dependencies: ["246B1E98DD8C4512"]
+			id: "3061F3AEB02A98C8"
+			tasks: [{
+				id: "78059156E5A52972"
+				type: "item"
+				item: "bigreactors:wrench"
+			}]
+			rewards: [
+				{
+					id: "0DEF2694F5CE463A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2BBA500CEA321D92"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5F9736665C99561C"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["5914B8AE3F9DC3E4"]
+			id: "1C664CC3395B8956"
+			tasks: [
+				{
+					id: "2B29942310663214"
+					type: "item"
+					item: "bigreactors:basic_reactorredstoneport"
+				}
+				{
+					id: "384BC3F4C855B257"
+					type: "item"
+					item: "bigreactors:basic_reactorchargingportfe"
+				}
+			]
+			rewards: [
+				{
+					id: "380E472EC4B3EAC8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43F67F2A94D18D2C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3A568EBF45E43452"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["1C664CC3395B8956"]
+			id: "30F0F09B05C7955E"
+			tasks: [
+				{
+					id: "6E88B8F89DFD5F84"
+					type: "item"
+					item: "bigreactors:reinforced_reactorredstoneport"
+				}
+				{
+					id: "1B5E31266E56CAFD"
+					type: "item"
+					item: "bigreactors:reinforced_reactorchargingportfe"
+				}
+			]
+			rewards: [
+				{
+					id: "7FDA19A8AD18F830"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "4E0A00B1112F5E9A"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "6121EFE2811D705F"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "728C62A9D0123D56"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "310B7557E8B5F487"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "7BF342235A7143D6"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["1892509251DF8555"]
+			id: "7D76061CBECB690C"
+			tasks: [
+				{
+					id: "0F776F49D308C0B0"
+					type: "item"
+					item: "bigreactors:basic_turbineredstoneport"
+				}
+				{
+					id: "64417B6C53B57B8C"
+					type: "item"
+					item: "bigreactors:basic_turbinechargingportfe"
+				}
+			]
+			rewards: [
+				{
+					id: "10D271506472A438"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6683A5AE068DDE30"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4EB2EF647050AE35"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["7D76061CBECB690C"]
+			id: "33264F8205868C70"
+			tasks: [
+				{
+					id: "104D506F5BD79508"
+					type: "item"
+					item: "bigreactors:reinforced_turbineredstoneport"
+				}
+				{
+					id: "428D948A8D6D443D"
+					type: "item"
+					item: "bigreactors:reinforced_turbinechargingportfe"
+				}
+			]
+			rewards: [
+				{
+					id: "64D250AAD39ED979"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "5C86BA7DDD3B201D"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4F0AEA27DDE354C1"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "0EC89941CF76D60D"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "7BB58CCBF3E8F7BA"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "5603B121E90C6746"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+	]
+}

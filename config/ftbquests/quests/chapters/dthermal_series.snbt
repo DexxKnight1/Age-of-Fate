@@ -1,0 +1,1104 @@
+{
+	id: "23D1C8B375310D6F"
+	group: "66971E0EF19CA037"
+	order_index: 6
+	filename: "dthermal_series"
+	title: "&dThermal Series"
+	icon: "thermal:machine_smelter"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.2857142857142847d
+		y: -10.13392857142857d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&9&lWelcome to Thermal Series"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "thermal:guidebook"
+				}
+			}
+			x: 0.5357142857142847d
+			y: -9.446428571428573d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oPity Machine Frame&r quest*"
+			dependencies: ["55C0841BBDCA69F4"]
+			size: 1.5d
+			id: "34E6071AFEF22783"
+			tasks: [{
+				id: "3FD5DEE198375814"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+			rewards: [{
+				id: "5335B3F23CBFBD44"
+				type: "item"
+				item: "thermal:redprint"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.0d
+			dependencies: ["34E6071AFEF22783"]
+			id: "312F95AAB1491DA0"
+			tasks: [{
+				id: "2E71D79EC1B0A0E8"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [
+				{
+					id: "063C958056DA865A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "600B4AC82DAABF82"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -8.0d
+			dependencies: ["34E6071AFEF22783"]
+			id: "7EE63B2EB0562DFC"
+			tasks: [{
+				id: "0A553DA152D03195"
+				type: "item"
+				item: "thermal:energy_cell_frame"
+			}]
+			rewards: [
+				{
+					id: "2085977E476FFC8C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "64D43404143DD180"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -9.0d
+			dependencies: ["34E6071AFEF22783"]
+			id: "04ABE36AFEA859F8"
+			tasks: [{
+				id: "3886292A8A93BE11"
+				type: "item"
+				item: "thermal:fluid_cell_frame"
+			}]
+			rewards: [
+				{
+					id: "59619C3A37726068"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5436C5FB56D3F197"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -6.5d
+			dependencies: ["312F95AAB1491DA0"]
+			id: "5B9EE9E57931D3F7"
+			tasks: [{
+				id: "5EA2B58CB977FB98"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [
+				{
+					id: "29F57D16812143CD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5464E3E368A96617"
+					type: "item"
+					item: "thermal:redstone_servo"
+				}
+				{
+					id: "68863FB974725362"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			dependencies: ["312F95AAB1491DA0"]
+			id: "46F4F5E48985FAF7"
+			tasks: [{
+				id: "2ABCC22A2D9CCDB1"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [
+				{
+					id: "077B5BAAE1E468E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3547BB905718A1BB"
+					type: "item"
+					item: "thermal:niter_dust"
+					count: 6
+				}
+				{
+					id: "488B5D96D921F003"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			dependencies: ["312F95AAB1491DA0"]
+			id: "2B8E8DCB6297AE9C"
+			tasks: [{
+				id: "2A0F432B8827DD01"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [
+				{
+					id: "6009966E2B76E7A4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F5908A6791F179C"
+					type: "item"
+					item: "thermal:lightning_charge"
+				}
+				{
+					id: "64F381E36CD6CFC9"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			dependencies: ["5B9EE9E57931D3F7"]
+			id: "74E8A2BC29BB20AD"
+			tasks: [{
+				id: "0557B422243B5639"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [
+				{
+					id: "538BB9C19A7D6C48"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "134639E175DA6177"
+					type: "item"
+					item: "thermal:press_gear_die"
+				}
+				{
+					id: "3431CD38B7B99D63"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -5.5d
+			dependencies: ["43888C85062C0A7E"]
+			id: "38927231CC75A693"
+			tasks: [{
+				id: "369080242A149963"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+			rewards: [
+				{
+					id: "77117FDCFB806174"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B6D5EABAC8DEE49"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "790B2E654A0253A7"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			dependencies: [
+				"74E8A2BC29BB20AD"
+				"6916318D8812430A"
+			]
+			id: "4FE99376342ADFF6"
+			tasks: [{
+				id: "16D8B7C59A69F581"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [
+				{
+					id: "038AE6C51E84E524"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "028A22137C241E29"
+					type: "item"
+					item: "thermal:rf_coil"
+					count: 2
+				}
+				{
+					id: "71A29F05B58EC7BA"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["4FE99376342ADFF6"]
+			id: "7268CF67620F9DF3"
+			tasks: [{
+				id: "69195402B0BB28B2"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			rewards: [
+				{
+					id: "6A01295EE1DE025A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D1C7F36432FE34D"
+					type: "item"
+					item: "thermal:bronze_ingot"
+					count: 6
+				}
+				{
+					id: "3449DF97340DD72F"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			dependencies: ["34E6071AFEF22783"]
+			id: "4DA9ACD33EC2B458"
+			tasks: [{
+				id: "12DE8780A2033994"
+				type: "item"
+				item: "thermal:tinker_bench"
+			}]
+			rewards: [
+				{
+					id: "0E503204A3F75ECC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "097AF11BB5F5DEF2"
+					type: "item"
+					item: "thermal:obsidian_glass"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			dependencies: ["34E6071AFEF22783"]
+			id: "27173F39706C7206"
+			tasks: [{
+				id: "16276167112963A4"
+				type: "item"
+				item: "thermal:charge_bench"
+			}]
+			rewards: [
+				{
+					id: "4E2A4A80577CBA35"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "598A1D1C6622E4DC"
+					type: "item"
+					item: "thermal:lumium_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -4.5d
+			dependencies: ["38927231CC75A693"]
+			id: "1614F88098B6C392"
+			tasks: [{
+				id: "31C7A94C3C2BD7E2"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+			rewards: [
+				{
+					id: "079E1F68F3578664"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1F8D0DC9428BE30C"
+					type: "item"
+					item: "thermal:tin_ingot"
+					count: 12
+				}
+				{
+					id: "7ACF2E172AE3081A"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			dependencies: ["1614F88098B6C392"]
+			id: "6349795EB7EEA91D"
+			tasks: [{
+				id: "6666ED336EDA3949"
+				type: "item"
+				item: "thermal:device_nullifier"
+			}]
+			rewards: [
+				{
+					id: "4747818D1A444521"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "55D71A0A45092BED"
+					type: "item"
+					item: "thermal:lead_ingot"
+					count: 12
+				}
+				{
+					id: "50681FCB4D6C8AD5"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			dependencies: ["7A9FCF5E7C79680F"]
+			id: "478D30FD3445BA25"
+			tasks: [{
+				id: "1DB1AE5931A771C7"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+			rewards: [
+				{
+					id: "5730D960DB99720F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7482EE64AFDAFE30"
+					type: "item"
+					item: "thermal:bronze_ingot"
+					count: 8
+				}
+				{
+					id: "028D6694F90AC440"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["6AFE908A570DEF25"]
+			id: "4983C24398332029"
+			tasks: [{
+				id: "585519516655F811"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [
+				{
+					id: "7DA2525F009A48B2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1D1512466D428037"
+					type: "item"
+					item: "thermal:dynamo_compression"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			dependencies: ["478D30FD3445BA25"]
+			id: "6AFE908A570DEF25"
+			tasks: [{
+				id: "0C89D770DA37877F"
+				type: "item"
+				item: "thermal:tree_oil_bucket"
+			}]
+			rewards: [
+				{
+					id: "7AAEC86F7CAEBAF8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "444FA25AAAE5F741"
+					type: "item"
+					item: "thermal:tree_oil_bucket"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			dependencies: ["2B8E8DCB6297AE9C"]
+			id: "6916318D8812430A"
+			tasks: [{
+				id: "2B54D8907E264555"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			rewards: [
+				{
+					id: "5C79C42415044E17"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6EB90BF9B27D4603"
+					type: "item"
+					item: "thermal:machine_frame"
+				}
+				{
+					id: "18562BC92CA4035D"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			dependencies: ["4DA9ACD33EC2B458"]
+			id: "7EC6FE3537E7B171"
+			tasks: [{
+				id: "06D301C595A76F87"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [
+				{
+					id: "2A2E33123D8AAC79"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "78181A3753AA8948"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -7.0d
+			dependencies: ["7EE63B2EB0562DFC"]
+			id: "7A9FCF5E7C79680F"
+			tasks: [{
+				id: "328F2D76F84B944B"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "325CB4A7F9C02E99"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "60524C5ECC245BAD"
+					type: "item"
+					item: "thermal:signalum_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -8.0d
+			dependencies: ["04ABE36AFEA859F8"]
+			id: "43888C85062C0A7E"
+			tasks: [{
+				id: "39E20C94A892CABD"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								FluidName: "minecraft:empty"
+								Capacity: 32000
+								Tank: 0b
+								Amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4D0C3F27C3F024EA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D64C1771FB80AEB"
+					type: "item"
+					item: "thermal:enderium_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			dependencies: ["7EC6FE3537E7B171"]
+			id: "0F94542AE5589187"
+			tasks: [{
+				id: "7C94EAA6CFC007B1"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [
+				{
+					id: "496FA447767AFDF5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40C8148F5D320733"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["0F94542AE5589187"]
+			id: "372D3A38C2470ACD"
+			tasks: [{
+				id: "389F3A8A7E7711A7"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [
+				{
+					id: "02C051D351F86C4B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4372BA7D9A2A0318"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			shape: "hexagon"
+			dependencies: ["4DA9ACD33EC2B458"]
+			id: "3D0577CD6127CD65"
+			tasks: [{
+				id: "0B3222B688A3D9AF"
+				type: "item"
+				item: "thermal:rf_coil_augment"
+			}]
+			rewards: [
+				{
+					id: "46240C34A70E9510"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "21AA78F56B340D46"
+					type: "item"
+					item: "thermal:frost_melon_slice"
+					count: 8
+				}
+				{
+					id: "048EB31B324F8119"
+					type: "random"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: ["3D0577CD6127CD65"]
+			id: "335CA424B5B773DD"
+			tasks: [{
+				id: "71B02EC19C8DB466"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+			}]
+			rewards: [
+				{
+					id: "05F027DBEADFCD59"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "350F865648E5DAB3"
+					type: "item"
+					item: "thermal:corn"
+					count: 8
+				}
+				{
+					id: "02406C06D4870DFB"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			shape: "hexagon"
+			dependencies: ["335CA424B5B773DD"]
+			id: "7903959140640B7B"
+			tasks: [{
+				id: "0936B888DD1F5EB6"
+				type: "item"
+				item: "thermal:machine_output_augment"
+			}]
+			rewards: [
+				{
+					id: "62A8D7B36559CE83"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "77F1DDFF2672B803"
+					type: "item"
+					item: "thermal:eggplant"
+					count: 8
+				}
+				{
+					id: "549BD6CDFB69C89D"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			shape: "hexagon"
+			dependencies: ["7903959140640B7B"]
+			id: "6AC800A1B0AEFC60"
+			tasks: [{
+				id: "583050F48C266382"
+				type: "item"
+				item: "thermal:dynamo_fuel_augment"
+			}]
+			rewards: [
+				{
+					id: "2F72AA259DE221EB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DE63219A7B599BA"
+					type: "item"
+					item: "thermal:tomato"
+					count: 8
+				}
+				{
+					id: "7DA8353705E2D9DF"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["775100B36355D634"]
+			id: "6D691F281AD63BBA"
+			tasks: [{
+				id: "242323EF509F0111"
+				type: "item"
+				item: "thermal:explosive_grenade"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "2FC33589C9AB17ED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71DA549523BC0305"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["775100B36355D634"]
+			id: "337AE10599BA4F58"
+			tasks: [{
+				id: "78CE7AB5CD977073"
+				type: "item"
+				item: "thermal:phyto_grenade"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "293CA52709EA74C9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "01CEFA2DAD874FEC"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["775100B36355D634"]
+			id: "466419BE13B2FD6B"
+			tasks: [{
+				id: "2953A293E8A3799B"
+				type: "item"
+				item: "thermal:fire_grenade"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "06C87FA217150FB4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "51A326D84E568731"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["775100B36355D634"]
+			id: "6698698FF0D6C88C"
+			tasks: [{
+				id: "23BD05C6456097DF"
+				type: "item"
+				item: "thermal:earth_grenade"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "71A86918DB996A6B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6994D9AB88D0624D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["775100B36355D634"]
+			id: "68E4C006C253F895"
+			tasks: [{
+				id: "05E69378D60D2B8F"
+				type: "item"
+				item: "thermal:ice_grenade"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "25A71A4C87718969"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2D8F3FB824DBDEE8"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["775100B36355D634"]
+			id: "5CB392505E3A8A73"
+			tasks: [{
+				id: "734CA448FCD5F0FA"
+				type: "item"
+				item: "thermal:lightning_grenade"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "6BCF5E66395DB6F8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "734973088734F9DE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			shape: "square"
+			dependencies: ["27173F39706C7206"]
+			id: "3E9E451AA51A09E5"
+			tasks: [{
+				id: "0681270E67EBA964"
+				type: "item"
+				item: {
+					id: "thermal:flux_capacitor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1229809B22BF9F54"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "75084F275021F6A5"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["3E9E451AA51A09E5"]
+			id: "6331A66594E2EE7B"
+			tasks: [{
+				id: "3DAA6B1E19EFDFB0"
+				type: "item"
+				item: {
+					id: "thermal:flux_drill"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "507FD95E3AF910A0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3EB80E9117B8F690"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["6331A66594E2EE7B"]
+			id: "47C80C7C796517DE"
+			tasks: [{
+				id: "400654F628D7268B"
+				type: "item"
+				item: {
+					id: "thermal:flux_saw"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7E5DD9D0A76DE94C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1593A0562C457E39"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["47C80C7C796517DE"]
+			id: "2D4EE8D7053BB226"
+			tasks: [{
+				id: "50408E0802FE3F73"
+				type: "item"
+				item: {
+					id: "thermal:flux_magnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "687B4073C6E36DE1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7BD16D76D20CD175"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			title: "&9&lThe Main Ingredients"
+			x: 0.5d
+			y: -1.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["34E6071AFEF22783"]
+			id: "775100B36355D634"
+			tasks: [
+				{
+					id: "34CE3510345D9E97"
+					type: "item"
+					item: "thermal:basalz_powder"
+				}
+				{
+					id: "0E4D8CCCAC565FB9"
+					type: "item"
+					item: "thermal:blitz_powder"
+				}
+				{
+					id: "2EE4AA085957D382"
+					type: "item"
+					item: "thermal:blizz_powder"
+				}
+				{
+					id: "1CC6B9C89BEA9262"
+					type: "item"
+					item: "thermal:phytogro"
+				}
+				{
+					id: "091F08A2069DDDB8"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "647109D05CD26770"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+			]
+			rewards: [
+				{
+					id: "2191FE2A8CB18F57"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2999E77B8DE47A1D"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+	]
+}

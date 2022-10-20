@@ -1,0 +1,2497 @@
+{
+	id: "2ED5FF4A7C518741"
+	group: "5FA6CDF6F0D49B30"
+	order_index: 2
+	filename: "the_twilight_forest"
+	title: "&3The Twilight Forest"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.1071428571428541d
+			y: -0.8392857142857117d
+			width: 0.3d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.4285714285714306d
+			y: -1.0892857142857189d
+			width: 7.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/tfore.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.178571428571431d
+			y: 1.2321428571428577d
+			width: 2.2d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/lich.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.250000000000007d
+			y: 8.589285714285712d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/ur-gh.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.035714285714292d
+			y: 7.839285714285712d
+			width: 2.5d
+			height: 3.5d
+			rotation: 0.0d
+			image: "kubejs:textures/item/minoshroom.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			shape: "rsquare"
+			description: [
+				"The Twilight Forest realm is an endless world like any other Minecraft dimension, except this dimension is densely forested. It has more of an enchanted, fairy tale, and mythological theme and feel than the Overworld. The skies are perpetually dim and always twilight, giving a darker, somewhat gloomy cast to the world below. An over-story of larger Trees further shades most of the world below, creating a canopy covering most of the world (so thick that you can actually walk on it most places)."
+				""
+				"The canopy is pierced only occasionally by massive trees that rise to the ceiling of the world. The terrain is flatter, or at least less mountainous than regular Minecraft, but you will occasionally encounter Hills, sometimes rising far above the canopy level. These hills are hollow too, containing Caves filled with valuable ores, treasure and dangerous monsters."
+				""
+				"You may also run across many different dungeons, bosses, structures, trees, and a numerous amount of unique items throughout your travels through the Twilight Forest realm. There is much to explore."
+			]
+			id: "4D7941CA6D1FDC14"
+			tasks: [{
+				id: "6BEFB71875673A1A"
+				type: "dimension"
+				title: "Visit Dimension: &2The Twilight Forest"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [
+				{
+					id: "78BD42AC0D88FC11"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "65BBDF04F7A4FA29"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "43A11541F957CCD9"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["4D7941CA6D1FDC14"]
+			id: "1D39595A7EDFB122"
+			tasks: [{
+				id: "46A6CC833404C39D"
+				type: "item"
+				item: "twilightforest:raven_feather"
+			}]
+			rewards: [
+				{
+					id: "086F012A37ED851C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7DB3E238118174EA"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["4D7941CA6D1FDC14"]
+			id: "40335B19A9A4ABC6"
+			tasks: [{
+				id: "2F61B96723B74A53"
+				type: "item"
+				item: "twilightforest:torchberries"
+			}]
+			rewards: [
+				{
+					id: "6232CE41B33A4942"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2453E8452DD55727"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+				}
+				{
+					id: "24EE62C69DC9992F"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: [
+				"40335B19A9A4ABC6"
+				"1D39595A7EDFB122"
+			]
+			id: "68033BC44B8D5F98"
+			tasks: [{
+				id: "22F69BC2B31EF6D8"
+				type: "item"
+				item: "twilightforest:magic_map_focus"
+			}]
+			rewards: [
+				{
+					id: "1946D76130C7B1B0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0AC9B1DCC1F48639"
+					type: "item"
+					item: "minecraft:paper"
+					count: 8
+				}
+				{
+					id: "6089833B35B0A71A"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "The Magic Map"
+			icon: "twilightforest:magic_map"
+			x: -0.9285714285714306d
+			y: 3.125d
+			dependencies: ["68033BC44B8D5F98"]
+			id: "66F31134DFC73B0C"
+			tasks: [{
+				id: "0360A6E754A6B10E"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+			rewards: [
+				{
+					id: "2F40054160575C2C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "71B1ED6CB4705640"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "23B2CACEDAA0C24B"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:naga_trophy"
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["66F31134DFC73B0C"]
+			id: "4E70E59453A4EB80"
+			tasks: [{
+				id: "0AB1B14AAA8331E0"
+				type: "kill"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "389EB987C8BBD748"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "71537740CEA8DE3E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "53E35EEB97193B2A"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:lich_trophy"
+			x: -5.0d
+			y: 4.5d
+			dependencies: ["4E70E59453A4EB80"]
+			id: "73BE906D919617A4"
+			tasks: [{
+				id: "202582FE2821D487"
+				type: "kill"
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4D5CCF61C4F57D7A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12A29758DDB49179"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "32B6CED2D50C73DD"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:minoshroom_trophy"
+			x: -4.0d
+			y: 6.0d
+			dependencies: ["73BE906D919617A4"]
+			id: "2862009B6A3627C7"
+			tasks: [{
+				id: "0EA13365C7F8B7A4"
+				type: "kill"
+				entity: "twilightforest:minoshroom"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "73C47A94AC3024A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "20F6724FDFAE3093"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "58C957094EE11803"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:hydra_trophy"
+			x: -2.0d
+			y: 6.5d
+			dependencies: ["2862009B6A3627C7"]
+			id: "6903BF83ACBB676B"
+			tasks: [{
+				id: "715028024E2B9147"
+				type: "kill"
+				entity: "twilightforest:hydra"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4A49E3731892BFA2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "651DBF7CF8EAD486"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "2E6A63D62FFEE1BF"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:knight_phantom_trophy"
+			x: 2.0d
+			y: 7.0d
+			dependencies: ["6903BF83ACBB676B"]
+			id: "728CC3FF9A23D30F"
+			tasks: [{
+				id: "1A931440F8030F01"
+				type: "kill"
+				entity: "twilightforest:knight_phantom"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "24943E185FDCC2B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "406F1F880AA28E7D"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "29F909BCD9B37BBE"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:ur_ghast_trophy"
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["728CC3FF9A23D30F"]
+			id: "7E4E3392CAD99C79"
+			tasks: [{
+				id: "4B7C14437571693A"
+				type: "kill"
+				entity: "twilightforest:ur_ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "56FA0B3BB6EA9EB9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5FC9FB1019F8B044"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "11CD482CF7D84B59"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:yeti_trophy"
+			x: 6.5d
+			y: 4.0d
+			dependencies: ["7E4E3392CAD99C79"]
+			id: "589D26882C96E3ED"
+			tasks: [{
+				id: "04986A6416F41720"
+				type: "kill"
+				entity: "twilightforest:yeti_alpha"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6947CFB3E09A1205"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "018A17BC0853B024"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "577F2D644E641CDC"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:snow_queen_trophy"
+			x: 7.0d
+			y: 6.5d
+			dependencies: ["589D26882C96E3ED"]
+			id: "3232B88DD64C9534"
+			tasks: [{
+				id: "541A19436A32823F"
+				type: "kill"
+				entity: "twilightforest:snow_queen"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "77996D01F39357CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C1EF71115A57FD4"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "374C08C865438D47"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:quest_ram_trophy"
+			x: 5.5d
+			y: 7.5d
+			dependencies: ["3232B88DD64C9534"]
+			id: "344941089BB146FC"
+			tasks: [{
+				id: "7DDA31D01509E7DD"
+				type: "kill"
+				entity: "twilightforest:quest_ram"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "36F452B67F06ACC9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3BEE5F4C941B3C26"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "26D9F3758EFE1A9F"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["4E70E59453A4EB80"]
+			id: "01A3CFA02787B924"
+			tasks: [{
+				id: "6D60841F3F9C32BD"
+				type: "item"
+				item: "twilightforest:naga_scale"
+			}]
+			rewards: [
+				{
+					id: "4680A0B237161D63"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "521A6D3B058F057D"
+					type: "item"
+					item: "twilightforest:naga_scale"
+					count: 8
+				}
+				{
+					id: "41D630105F19CB93"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["01A3CFA02787B924"]
+			id: "4D8F2FC43E695909"
+			tasks: [{
+				id: "73A78E237B199131"
+				type: "item"
+				item: {
+					id: "twilightforest:naga_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:fire_protection"
+						}]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6BFC2A37207B8AB3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3DB768FAB7CCCB1F"
+					type: "item"
+					item: "twilightforest:naga_courtyard_miniature_structure"
+				}
+				{
+					id: "322C7BA2C61A10DA"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["01A3CFA02787B924"]
+			id: "1D2D23E270829133"
+			tasks: [{
+				id: "23E57B731866CF7A"
+				type: "item"
+				item: {
+					id: "twilightforest:naga_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "42FC0CC7E5DE599D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "10B13A3CBADFB4B9"
+					type: "item"
+					item: "twilightforest:stone_twist_thin"
+					count: 16
+				}
+				{
+					id: "5FA117CABF84CA62"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			dependencies: ["73BE906D919617A4"]
+			id: "7F9BC61AC62DF669"
+			tasks: [{
+				id: "053BDBA3BB04F2B9"
+				type: "item"
+				item: {
+					id: "twilightforest:twilight_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6DF4D5029A8A40AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1B2134715145FBB5"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 16
+				}
+				{
+					id: "59D6E74B5A47439D"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "619D807AB70D1845"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 4.5d
+			dependencies: ["7F9BC61AC62DF669"]
+			id: "7F8BDB36C7601293"
+			tasks: [{
+				id: "0AE779CCA62DCF04"
+				type: "item"
+				item: {
+					id: "twilightforest:lifedrain_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "64335488E4F3A590"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "12F45C40B017BB57"
+					type: "item"
+					item: "minecraft:fermented_spider_eye"
+					count: 16
+				}
+				{
+					id: "40887AB25CC66A2F"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "14757C11CF12379D"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -7.142857142857139d
+			y: 3.4107142857142847d
+			dependencies: ["7F8BDB36C7601293"]
+			id: "5A39A0BFE41D5504"
+			tasks: [{
+				id: "29A01203337A10DF"
+				type: "item"
+				item: {
+					id: "twilightforest:shield_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A7B36D1AF237265"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20F28A1B635AA4F9"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 3
+				}
+				{
+					id: "743C1C9E09CFD0CB"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "43FC02F3CDCFB298"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -7.25d
+			y: 5.553571428571431d
+			dependencies: ["7F8BDB36C7601293"]
+			id: "1BABA585A112FEDC"
+			tasks: [{
+				id: "0C420AD1C85FF8EB"
+				type: "item"
+				item: {
+					id: "twilightforest:zombie_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "308E25E21F9A2AA5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5003F2D5DC86F815"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+					count: 16
+				}
+				{
+					id: "4AA8A221567C1E5D"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "75545D6D2455B124"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["2862009B6A3627C7"]
+			id: "1F2EF7D085D343A7"
+			tasks: [{
+				id: "516A191C291E36EB"
+				type: "item"
+				item: "twilightforest:meef_stroganoff"
+			}]
+			rewards: [
+				{
+					id: "3055F2E18E8C2FF3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "72F4867AF853FFD0"
+					type: "item"
+					item: "twilightforest:cooked_meef"
+					count: 16
+				}
+				{
+					id: "70110DCBE7AF87FD"
+					type: "item"
+					item: "twilightforest:maze_wafer"
+					count: 16
+				}
+				{
+					id: "25234E77D93529EA"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			dependencies: ["2862009B6A3627C7"]
+			id: "0420E1C56CF9FF59"
+			tasks: [{
+				id: "30D3FCF626C3617F"
+				type: "item"
+				item: {
+					id: "twilightforest:mazebreaker_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "10EFDB586BE0F5D2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7930C96FE0BE8DF7"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "045732FC88AC499A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -4.357142857142861d
+			y: 8.125d
+			dependencies: ["0420E1C56CF9FF59"]
+			id: "3CF22D6A3BCE809A"
+			tasks: [{
+				id: "0969F471997122A5"
+				type: "item"
+				item: {
+					id: "twilightforest:minotaur_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4122EF21CFFCCE06"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "12BAE7D036E0D3EE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "081F02C60DF5B171"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -6.357142857142861d
+			y: 7.625000000000007d
+			dependencies: ["0420E1C56CF9FF59"]
+			id: "100AB610D9817B34"
+			tasks: [{
+				id: "6E51E38C6FD57CE6"
+				type: "item"
+				item: {
+					id: "twilightforest:minotaur_axe_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5087960F6710E4DE"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4761653CDB2896F8"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "1C60759C5355D61A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -1.5357142857142847d
+			y: 5.232142857142861d
+			dependencies: ["6903BF83ACBB676B"]
+			id: "3225E2204A9CB2D4"
+			tasks: [{
+				id: "517CDFDD85A794A3"
+				type: "item"
+				item: "twilightforest:fiery_blood"
+			}]
+			rewards: [
+				{
+					id: "5488377EDF7F2459"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C00FD8DB40B0447"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -0.3928571428571459d
+			y: 5.767857142857146d
+			dependencies: ["3225E2204A9CB2D4"]
+			id: "7F6E21582FD78957"
+			tasks: [{
+				id: "4A9B4B133EF71257"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6EFD8ADEEB06CB00"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5CB484D27355FD71"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "05B6E5BA0FBDCBA5"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["3225E2204A9CB2D4"]
+			id: "0E76D007D59C899E"
+			tasks: [{
+				id: "100E331D99F135F5"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "10EBE8ED2F5DDAA1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7254F601FFBDD0AC"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "4CF357965F54C5B4"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -1.607142857142854d
+			y: 7.625d
+			dependencies: ["6903BF83ACBB676B"]
+			id: "3ADA7C53428A336F"
+			tasks: [{
+				id: "721299E42E60E52F"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+			}]
+			rewards: [
+				{
+					id: "0B511107B8038ACD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "19424B293A82609F"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "7B61E3DD2B604D3E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			dependencies: ["3ADA7C53428A336F"]
+			id: "436AF350DCE3EFF3"
+			tasks: [{
+				id: "36A44F2428B1615A"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "320B03099B8DC3B4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2D68D959F7E617AE"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -0.3214285714285694d
+			y: 7.732142857142854d
+			dependencies: ["3ADA7C53428A336F"]
+			id: "34D0E974E9C419D7"
+			tasks: [{
+				id: "537B40BDD3A9AFBF"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6477E0959CC44035"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "23165D6CC5F16BFF"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -1.607142857142854d
+			y: 9.05357142857143d
+			dependencies: ["3ADA7C53428A336F"]
+			id: "4AA2835F633C257E"
+			tasks: [{
+				id: "6786C3113A654F20"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3FA3BB209B09EF86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30D96C902F2E0F05"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -0.6071428571428612d
+			y: 8.767857142857139d
+			dependencies: ["3ADA7C53428A336F"]
+			id: "58F71C553D23F411"
+			tasks: [{
+				id: "64EF9E2DDE3F0977"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1F14F985FF25A636"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3F06939454D2275E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -3.035714285714299d
+			y: 7.160714285714292d
+			dependencies: ["6903BF83ACBB676B"]
+			id: "086E36E3822A642B"
+			tasks: [{
+				id: "089EDFAF2EBE6D3F"
+				type: "item"
+				item: "twilightforest:hydra_chop"
+			}]
+			rewards: [
+				{
+					id: "3D243477CAE0EF22"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2977F61047ACAA9C"
+					type: "item"
+					item: "twilightforest:hydra_chop"
+					count: 8
+				}
+				{
+					id: "4EF48CF33B75E136"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["728CC3FF9A23D30F"]
+			id: "49C17844BC8B2964"
+			tasks: [{
+				id: "3F2A403A74A7F0BC"
+				type: "item"
+				item: "twilightforest:knightmetal_ingot"
+			}]
+			rewards: [
+				{
+					id: "570DE9C550BED0CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3BAD921984A2E923"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "3109DE2532E1D0E2"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 1.1785714285714093d
+			y: 7.875d
+			dependencies: ["728CC3FF9A23D30F"]
+			id: "7D6C2783879A637E"
+			tasks: [{
+				id: "5D8D4B8752416010"
+				type: "item"
+				item: {
+					id: "twilightforest:phantom_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "58C7F35045CED141"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4B2A8F9FE813EBF6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0470E2D185F97200"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 2.321428571428555d
+			y: 8.232142857142854d
+			dependencies: ["728CC3FF9A23D30F"]
+			id: "2DD1D2ABD218B037"
+			tasks: [{
+				id: "138E9ED075AEE03D"
+				type: "item"
+				item: {
+					id: "twilightforest:phantom_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5EA35EA0B2DE9FFD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "158554A8930974E8"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6EB48FF7CD9C2D3E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 0.8571428571428328d
+			y: 3.625d
+			dependencies: ["25934830F432ED0D"]
+			id: "1A3DC7E76630A4CB"
+			tasks: [{
+				id: "532EBC800F09EDBE"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1A2467AAB1C1721B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "32B2912137FA12B9"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "338ED490850ADE93"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 1.2499999999999858d
+			y: 2.625d
+			dependencies: ["1A3DC7E76630A4CB"]
+			id: "3F97566BDED714A4"
+			tasks: [{
+				id: "235DF0899B8C29EE"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5D3838145EB50500"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B900776503A6D7B"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "6B9784D04EDBF23F"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 1.8928571428571317d
+			y: 1.767857142857146d
+			dependencies: ["3F97566BDED714A4"]
+			id: "61E768A128FBBD98"
+			tasks: [{
+				id: "7F3FA25F50F3D2B8"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1BEC6D05CE5B394E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "57D9A4E5DCF2B4E3"
+					type: "item"
+					item: "twilightforest:knightmetal_block"
+				}
+				{
+					id: "6E9A86C0C62A329B"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 1.0714285714285552d
+			y: 4.6964285714285765d
+			dependencies: ["49C17844BC8B2964"]
+			id: "25934830F432ED0D"
+			tasks: [{
+				id: "76775CD12258D544"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6486427DC4405E27"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0F9E62A361B719F3"
+					type: "item"
+					item: "twilightforest:knightmetal_ingot"
+					count: 4
+				}
+				{
+					id: "66FC03C67953992E"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 2.249999999999986d
+			y: 4.6964285714285765d
+			dependencies: ["49C17844BC8B2964"]
+			id: "6FDBC1615C039BB9"
+			tasks: [{
+				id: "0C952D286494B27D"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A94A563999D44AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "46502B7FFC88FE3D"
+					type: "item"
+					item: "twilightforest:ore_meter"
+				}
+				{
+					id: "394CA6AA52C2B8FD"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5F6FAC33FB3B729D"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 2.3928571428571246d
+			y: 3.625d
+			dependencies: ["6FDBC1615C039BB9"]
+			id: "6CA4D7585CBA24F6"
+			tasks: [{
+				id: "02DA31DEFD92E8BC"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4BAB70A3466922AD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "48429A0F280BF8D2"
+					type: "item"
+					item: {
+						id: "twilightforest:ore_magnet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5232D2AB92E8B59C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7C22CA5739C07BE6"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 2.749999999999986d
+			y: 2.6964285714285694d
+			dependencies: ["6CA4D7585CBA24F6"]
+			id: "4B42FE2988EC5F80"
+			tasks: [{
+				id: "65E8D336807573CA"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7048EAA6CF473F79"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1370624E8BDB4856"
+					type: "item"
+					item: {
+						id: "twilightforest:block_and_chain"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00A4A301E237F13E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7E242331B2C4762A"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 3.3928571428571317d
+			y: 1.875d
+			dependencies: ["4B42FE2988EC5F80"]
+			id: "5D4A72B6E1DBD873"
+			tasks: [{
+				id: "7D499EC0857CED71"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "349BFBDD738E9327"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0F545BF760F76C18"
+					type: "item"
+					item: "twilightforest:knightmetal_ring"
+				}
+				{
+					id: "69BFFE4A5AA2B184"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "34AA10076E3F823A"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["7E4E3392CAD99C79"]
+			id: "0DF45E4CAFDF7E47"
+			tasks: [{
+				id: "1B73E23800CDFC7D"
+				type: "item"
+				item: "twilightforest:experiment_115"
+			}]
+			rewards: [
+				{
+					id: "02C0A9BA3BA1F474"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30731DE09DD3BF57"
+					type: "item"
+					item: "twilightforest:cooked_venison"
+					count: 16
+				}
+				{
+					id: "6572AC598F5CB690"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			dependencies: ["5398B6EDFB976DD0"]
+			id: "75A0651EFA643023"
+			tasks: [{
+				id: "444BE5A88CAC5295"
+				type: "item"
+				item: "twilightforest:fiery_tears"
+			}]
+			rewards: [
+				{
+					id: "56C5E0057EB67B42"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0E2EF61DE639E44D"
+					type: "item"
+					item: "twilightforest:charm_of_keeping_2"
+				}
+				{
+					id: "47C633FEBA921B46"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			dependencies: ["7E4E3392CAD99C79"]
+			id: "098438A24614CCB4"
+			tasks: [{
+				id: "77BA0F6F7BA7A2B9"
+				type: "item"
+				item: "twilightforest:tower_key"
+			}]
+			rewards: [
+				{
+					id: "2F7F511CED542609"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0FF2EAE2721DD3FA"
+					type: "item"
+					item: "twilightforest:reappearing_block"
+					count: 8
+				}
+				{
+					id: "4AE3FA7426E988E0"
+					type: "item"
+					item: "twilightforest:locked_vanishing_block"
+				}
+				{
+					id: "19EEB0B13205F9C9"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 4.392857142857125d
+			y: 6.482142857142854d
+			dependencies: ["098438A24614CCB4"]
+			id: "5398B6EDFB976DD0"
+			tasks: [{
+				id: "2810131198BDD39A"
+				type: "item"
+				item: "twilightforest:vanishing_block"
+			}]
+			rewards: [
+				{
+					id: "5DE6EC4285011A7B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E94E4FF8D520AC9"
+					type: "item"
+					item: "twilightforest:ironwood_ingot"
+					count: 16
+				}
+				{
+					id: "314D0D1B37B30AF0"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3D5D199499191696"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 5.499999999999979d
+			y: 3.3392857142857153d
+			dependencies: ["589D26882C96E3ED"]
+			id: "3A18EF8901E1D8FE"
+			tasks: [{
+				id: "1272739EEAC2C028"
+				type: "item"
+				item: "twilightforest:alpha_fur"
+			}]
+			rewards: [
+				{
+					id: "56E05DC04C42E90A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "062185087472584C"
+					type: "item"
+					item: "twilightforest:alpha_fur"
+					count: 4
+				}
+				{
+					id: "28DCFDC7CFB434EF"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 5.178571428571416d
+			y: 2.267857142857139d
+			dependencies: ["3A18EF8901E1D8FE"]
+			id: "4C1B1D98E7A214B7"
+			tasks: [{
+				id: "319C06C130F5C2F9"
+				type: "item"
+				item: {
+					id: "twilightforest:yeti_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "09E0228716891A2E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7388229897B6CED2"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5201BA8E26200B17"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 5.178571428571416d
+			y: 1.1964285714285765d
+			dependencies: ["4C1B1D98E7A214B7"]
+			id: "56E6D14BA6139E70"
+			tasks: [{
+				id: "089F9E25B89E81B8"
+				type: "item"
+				item: {
+					id: "twilightforest:yeti_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A18F25197AFC7D4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3CB4BC6029F1A14C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5C889BDA5334B2F1"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 4.35714285714284d
+			y: 0.41071428571428825d
+			dependencies: ["56E6D14BA6139E70"]
+			id: "15D24CE1A55257C7"
+			tasks: [{
+				id: "69D38166AD73C486"
+				type: "item"
+				item: {
+					id: "twilightforest:yeti_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "04906ECA4C8166DE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "161C3E19FEF45D79"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6699BBF59860788E"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 3.2857142857142634d
+			y: -0.01785714285714235d
+			dependencies: ["15D24CE1A55257C7"]
+			id: "1C598E496AAFF2B0"
+			tasks: [{
+				id: "4F9B655280840201"
+				type: "item"
+				item: {
+					id: "twilightforest:yeti_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 2s
+								id: "minecraft:protection"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:feather_falling"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A83278B726FA581"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2247B0E9E447B9D6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "509ABEC56579F55D"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 6.499999999999986d
+			y: 2.5892857142857153d
+			dependencies: ["589D26882C96E3ED"]
+			id: "726ABDA427CE9603"
+			tasks: [{
+				id: "03C72A2F9DAD2DA2"
+				type: "item"
+				item: "twilightforest:ice_bomb"
+			}]
+			rewards: [
+				{
+					id: "5180E9C17F911F8C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "427EB5B59F0CBBE9"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 7.642857142857125d
+			y: 3.3392857142857153d
+			dependencies: ["589D26882C96E3ED"]
+			id: "21B42FDABFAFF6AF"
+			tasks: [{
+				id: "1A31CC39F9D725BC"
+				type: "item"
+				item: "twilightforest:arctic_fur"
+			}]
+			rewards: [
+				{
+					id: "5092CF2E899F9A1F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0D020C1768E9BC14"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6940CE834E419E85"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 8.071428571428555d
+			y: 2.232142857142861d
+			dependencies: ["21B42FDABFAFF6AF"]
+			id: "190ED62E60208DFE"
+			tasks: [{
+				id: "4E13C803C415B90B"
+				type: "item"
+				item: {
+					id: "twilightforest:arctic_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "51C103C816CF2E7E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1E4AFE63530ABC66"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3E01E4C2AC7A9FC0"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 7.857142857142847d
+			y: 1.125d
+			dependencies: ["190ED62E60208DFE"]
+			id: "54ACBBDA7D29B42A"
+			tasks: [{
+				id: "27FDFCAF739F5D5B"
+				type: "item"
+				item: {
+					id: "twilightforest:arctic_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "23BE55E4123C8259"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "218BE60F706B9719"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3A0F0687DFBC26C5"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 7.178571428571416d
+			y: 0.3035714285714306d
+			dependencies: ["54ACBBDA7D29B42A"]
+			id: "6F715741679FD001"
+			tasks: [{
+				id: "732E620BDEA4851D"
+				type: "item"
+				item: {
+					id: "twilightforest:arctic_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "220E40988BCFFA7D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "308A9F6ADE424CF7"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "67CA6C6D1ABC4327"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -0.0892857142857153d
+			dependencies: ["6F715741679FD001"]
+			id: "4B7737E8CB0014D5"
+			tasks: [{
+				id: "463E23B4C6A6398B"
+				type: "item"
+				item: {
+					id: "twilightforest:arctic_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1ED0C872D860CD5C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "68E8764D7E00D50D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "24F2EE4AAB39021D"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 7.749999999999979d
+			y: 5.553571428571431d
+			dependencies: ["3232B88DD64C9534"]
+			id: "20AB6E2ED37F0B3F"
+			tasks: [{
+				id: "16AC7E3B81A0D394"
+				type: "item"
+				item: {
+					id: "twilightforest:seeker_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "48310A6B8FD7644E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5F7171069D446699"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "1607C846EF9B6292"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			dependencies: ["3232B88DD64C9534"]
+			id: "01E8FDE21EAE0F87"
+			tasks: [{
+				id: "0B13F12656B3394F"
+				type: "item"
+				item: {
+					id: "twilightforest:triple_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6E16B3444101CCA9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71C03F49612E7C9E"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "510044A7189B4763"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			dependencies: ["75A0651EFA643023"]
+			id: "696CD62637078076"
+			tasks: [{
+				id: "20BB8E6223FB6E86"
+				type: "item"
+				item: "twilightforest:carminite"
+			}]
+			rewards: [
+				{
+					id: "7581F3A7E346E2B5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "34ED63838C77624A"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "35E5DAE85A6A88AA"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 4.785714285714263d
+			y: 8.69642857142857d
+			dependencies: ["344941089BB146FC"]
+			id: "50318D865286765F"
+			tasks: [{
+				id: "447D09489F3811A8"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "756C495BDEE4B826"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7C6E418FA9646E84"
+					type: "item"
+					item: "twilightforest:fake_diamond"
+					count: 16
+				}
+				{
+					id: "229D9B04C83A459D"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 5.999999999999972d
+			y: 9.517857142857139d
+			dependencies: ["50318D865286765F"]
+			id: "24D759D9E93816B6"
+			tasks: [{
+				id: "3B36BC8BCA89B6F8"
+				type: "item"
+				item: "twilightforest:transformation_powder"
+			}]
+			rewards: [
+				{
+					id: "70BC67F29BA4C848"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0A9C8F1EBE9AB21C"
+					type: "item"
+					item: "twilightforest:huge_waterlily"
+					count: 16
+				}
+				{
+					id: "39203196D4262ED7"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 7.357142857142826d
+			y: 9.19642857142857d
+			dependencies: ["24D759D9E93816B6"]
+			id: "2AC26E35E1874C5F"
+			tasks: [{
+				id: "510CAD500B26D7AD"
+				type: "item"
+				item: {
+					id: "twilightforest:crumble_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1D5D849332B7AA3D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79A6CACA3C87EBDD"
+					type: "item"
+					item: "twilightforest:charm_of_life_1"
+				}
+				{
+					id: "5B11FB39DF92FE0E"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 8.60714285714284d
+			y: 8.410714285714285d
+			dependencies: ["2AC26E35E1874C5F"]
+			id: "5A4312842D783A27"
+			tasks: [{
+				id: "2FBFBAFF64178163"
+				type: "item"
+				item: {
+					id: "twilightforest:peacock_fan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3834C304366BF94E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2F9265AFB14D2420"
+					type: "item"
+					item: "twilightforest:lich_tower_miniature_structure"
+				}
+				{
+					id: "79FF02A387628417"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 9.321428571428548d
+			y: 7.339285714285708d
+			dependencies: ["5A4312842D783A27"]
+			id: "04349C90D4C9D879"
+			tasks: [{
+				id: "51CF199DE156AA97"
+				type: "item"
+				item: {
+					id: "twilightforest:moonworm_queen"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4369DF81D394EA42"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "130014D9D8EB051A"
+					type: "item"
+					item: "twilightforest:twilight_portal_miniature_structure"
+				}
+				{
+					id: "66E170B216CB5D05"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 9.571428571428555d
+			y: 6.0535714285714235d
+			dependencies: ["04349C90D4C9D879"]
+			id: "680909E7F1B2184C"
+			tasks: [{
+				id: "7022174B7A658B4D"
+				type: "item"
+				item: "twilightforest:magic_beans"
+			}]
+			rewards: [
+				{
+					id: "48408242B6399153"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F5BF192872A3689"
+					type: "item"
+					item: "twilightforest:iron_ladder"
+					count: 16
+				}
+				{
+					id: "12E666A03FD4DF08"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 9.71428571428568d
+			y: 4.625d
+			dependencies: ["680909E7F1B2184C"]
+			id: "6330234912B543EB"
+			tasks: [{
+				id: "57D2342BB162990A"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "23AA0CB4EE71C749"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "346FF98A150CF53D"
+					type: "item"
+					item: "twilightforest:thorn_rose"
+					count: 16
+				}
+				{
+					id: "2283AE5A0119A60F"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 9.821428571428541d
+			y: 3.3035714285714377d
+			dependencies: ["6330234912B543EB"]
+			id: "0FA86CAD486B45DE"
+			tasks: [{
+				id: "5DC8A627E88B53DB"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "14F14B7C46797E8E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7CA94926ED435080"
+					type: "item"
+					item: "twilightforest:armor_shard_cluster"
+					count: 12
+				}
+				{
+					id: "7B1C46157BA9A582"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 9.785714285714256d
+			y: 2.0892857142857224d
+			dependencies: ["0FA86CAD486B45DE"]
+			id: "5B9E8CDA7A7FD29E"
+			tasks: [{
+				id: "4077F722014B44DA"
+				type: "item"
+				item: "twilightforest:trophy_pedestal"
+			}]
+			rewards: [
+				{
+					id: "79EF470A0C03C926"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30C4C8E7F0637906"
+					type: "item"
+					item: "twilightforest:trophy_pedestal"
+					count: 8
+				}
+				{
+					id: "476178EA6AF47CFB"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+		{
+			x: 9.535714285714256d
+			y: 0.8750000000000071d
+			dependencies: ["5B9E8CDA7A7FD29E"]
+			id: "6A208ACE5A3948AE"
+			tasks: [{
+				id: "03EC30CCBCA742B8"
+				type: "item"
+				item: "twilightforest:uncrafting_table"
+			}]
+			rewards: [
+				{
+					id: "53CF57A18F4042B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "39480B268BEBD11D"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "2FD8C35FBB723344"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "7D50E8A33CA6D473"
+					type: "ftbmoney:money"
+					ftb_money: 99L
+				}
+			]
+		}
+	]
+}

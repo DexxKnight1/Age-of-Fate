@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "6F99F7CF29120AA9", title: "&b&l&oTools" }
+		{ id: "3B357E74DE0882BE", title: "&b&l&oAgriculture and Food" }
+		{ id: "4DBFE87F78D6054E", title: "&b&l&oStorage" }
+		{ id: "02206CCEC528E0AB", title: "&b&l&oEnergy" }
+		{ id: "66971E0EF19CA037", title: "&b&l&oTechnology" }
+		{ id: "15F5BAC0BCC22DEF", title: "&b&l&oMagic" }
+		{ id: "5FA6CDF6F0D49B30", title: "&b&l&oJourney Through Dimensions" }
+		{ id: "11F74EE62D2AB5DF", title: "&b&l&oChallenges" }
+	]
+}

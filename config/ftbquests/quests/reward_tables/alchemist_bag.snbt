@@ -1,0 +1,316 @@
+{
+	id: "59C611EFA5A47279"
+	order_index: 7
+	title: "Alchemist's Bag"
+	icon: "blue_skies:bag_of_spoils"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:swiftness"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_strength"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "dungeons_gear:shadow_brew"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_fire_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "apotheosis:strong_absorption"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_swiftness"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "goblintraders:extended_slow_falling"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "apotheosis:strong_knowledge"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "apotheosis:strong_haste"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "vampirism:long_strong_health_boost"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "alexsmobs:lava_vision"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "alexsmobs:long_poison_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "upgrade_aquatic:vibing"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "upgrade_aquatic:repellence_strong"
+				}
+			}
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:ultimate_potion"
+				Count: 1b
+				tag: {
+					EnigmaticPotion: "ultimate_water_breathing"
+				}
+			}
+		}
+		{ item: "enigmaticlegacy:antiforbidden_potion" }
+		{
+			item: {
+				id: "enigmaticlegacy:ultimate_potion"
+				Count: 1b
+				tag: {
+					EnigmaticPotion: "ultimate_haste"
+				}
+			}
+		}
+		{ item: "ars_nouveau:potion_flask_amplify" }
+		{
+			item: {
+				id: "enigmaticlegacy:ultimate_potion"
+				Count: 1b
+				tag: {
+					EnigmaticPotion: "ultimate_invisibility"
+				}
+			}
+		}
+		{
+			item: {
+				id: "xreliquary:potion_essence"
+				Count: 1b
+				tag: {
+					effects: [{
+						duration: 1750
+						name: "minecraft:night_vision"
+						potency: 0
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "xreliquary:potion_essence"
+				Count: 1b
+				tag: {
+					effects: [{
+						duration: 7500
+						name: "minecraft:absorption"
+						potency: 2
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "xreliquary:potion_essence"
+				Count: 1b
+				tag: {
+					effects: [{
+						duration: 500
+						name: "xreliquary:cure"
+						potency: 3
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "xreliquary:potion_essence"
+				Count: 1b
+				tag: {
+					effects: [{
+						duration: 1
+						name: "minecraft:instant_damage"
+						potency: 2
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "xreliquary:lingering_potion"
+				Count: 1b
+				tag: {
+					effects: [{
+						duration: 500
+						name: "xreliquary:cure"
+						potency: 3
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "xreliquary:lingering_potion"
+				Count: 1b
+				tag: {
+					effects: [{
+						duration: 750
+						name: "minecraft:blindness"
+						potency: 0
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "vampirism:very_long_blindness"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "oddwatermobs:potion_of_mudskipping_plus"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_regeneration"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "apotheosis:strong_sundering"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "vampirism:long_strong_thirst"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "vampirism:very_long_nausea"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "elenaidodge2:strong_feathers"
+				}
+			}
+		}
+	]
+}

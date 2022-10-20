@@ -1,0 +1,1509 @@
+{
+	id: "4200282CEA994E89"
+	group: "15F5BAC0BCC22DEF"
+	order_index: 6
+	filename: "9evilcraft"
+	title: "&9EvilCraft"
+	icon: "evilcraft:vengeance_essence"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.2142857142857082d
+		y: -10.053571428571427d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&1&lWelcome to EvilCraft"
+			icon: "evilcraft:origins_of_darkness"
+			x: -0.5d
+			y: -9.5d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oIron Chest&r quest*"
+			dependencies: ["5738A85AEC12D175"]
+			size: 1.5d
+			id: "14B352C4DDA5B235"
+			tasks: [{
+				id: "7031E9EDC4308830"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "5CDDE972AFBF5B14"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1DD04913AB53D580"
+					type: "item"
+					item: "evilcraft:werewolf_bone"
+				}
+				{
+					id: "31D86ED4C0121F9B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -8.0d
+			dependencies: ["14B352C4DDA5B235"]
+			id: "48EAE61AB495FB97"
+			tasks: [{
+				id: "7377D70483FD8B97"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+			rewards: [
+				{
+					id: "08097E228AC2EC8C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "50289B7F20082DC4"
+					type: "item"
+					item: "evilcraft:darkened_apple"
+				}
+				{
+					id: "56229F6599674867"
+					type: "item"
+					item: "evilcraft:condensed_blood"
+				}
+				{
+					id: "294E0CAD2DBB9FDF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			dependencies: ["48EAE61AB495FB97"]
+			id: "77FC2686F87B8296"
+			tasks: [{
+				id: "0AE0521C76871A20"
+				type: "item"
+				item: "evilcraft:hardened_blood_shard"
+			}]
+			rewards: [
+				{
+					id: "58F5EF60671864CC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "61454147AE3172F2"
+					type: "item"
+					item: "evilcraft:hardened_blood_shard"
+					count: 4
+				}
+				{
+					id: "3B436504AD4DAF58"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			dependencies: [
+				"5D02ADDC5407E08E"
+				"77FC2686F87B8296"
+			]
+			id: "29B6B1BFAE194F08"
+			tasks: [{
+				id: "08DA080FBB98B1D4"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6E19A33C9F436455"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "764E6B267EC0B956"
+					type: "item"
+					item: "evilcraft:blood_waxed_coal"
+					count: 4
+				}
+				{
+					id: "7F10722ED67CF687"
+					type: "random"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "37A27607EDB79716"
+					type: "ftbmoney:money"
+					ftb_money: 55L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["48EAE61AB495FB97"]
+			id: "5D02ADDC5407E08E"
+			tasks: [{
+				id: "7744896D16CD44A9"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+			}]
+			rewards: [
+				{
+					id: "07FA47AB62ADD29E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "18BBE76E48A41FB4"
+					type: "random"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "4E37AC5CB8525CDF"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			dependencies: ["48EAE61AB495FB97"]
+			id: "5FF33E12976D1275"
+			tasks: [{
+				id: "3F8D72AB84AD8A6C"
+				type: "item"
+				item: "evilcraft:dark_gem_crushed"
+			}]
+			rewards: [
+				{
+					id: "259449B0C071BA67"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3C3AA8C24D6328D2"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "7D2A6CCD6CA2BC4D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["29B6B1BFAE194F08"]
+			id: "07CBDB4283EBC013"
+			tasks: [{
+				id: "2497D11A4D58690C"
+				type: "item"
+				item: "evilcraft:dark_power_gem"
+			}]
+			rewards: [
+				{
+					id: "465EDCF68732777F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "39E95C22B9D676C2"
+					type: "item"
+					item: "evilcraft:dark_gem"
+					count: 6
+				}
+				{
+					id: "3A9D3A1DA5BF42B3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "366F42E84AD056AC"
+					type: "ftbmoney:money"
+					ftb_money: 45L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["07CBDB4283EBC013"]
+			id: "09688EE45B366289"
+			tasks: [{
+				id: "6D05C58AF1045210"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_empty"
+			}]
+			rewards: [
+				{
+					id: "0F8B3546078E2A3C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3BA072E98DCB41AA"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "14E6A3088BB5E24A"
+					type: "ftbmoney:money"
+					ftb_money: 11L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -7.0d
+			dependencies: ["5FF33E12976D1275"]
+			id: "53C65633E3414F6B"
+			tasks: [{
+				id: "1C6C279524228178"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_dusted"
+			}]
+			rewards: [
+				{
+					id: "2651405DDD78A957"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "317F6F9C71486534"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "23F6CE416F016D1A"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			dependencies: [
+				"53C65633E3414F6B"
+				"09688EE45B366289"
+			]
+			id: "006FDB9C2D1F9509"
+			tasks: [{
+				id: "4609DB01AF0D1A23"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_tier0"
+			}]
+			rewards: [
+				{
+					id: "499F60953F6F83C9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6C9DAC80F4369CF0"
+					type: "item"
+					item: "evilcraft:dark_gem_crushed"
+					count: 8
+				}
+				{
+					id: "6B5647E95D0F9882"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "7616ED9A99858B6B"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 5.714285714285708d
+			y: -5.767857142857146d
+			dependencies: ["006FDB9C2D1F9509"]
+			id: "19ED51C44FD93C0F"
+			tasks: [{
+				id: "01975AD9345C0838"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_tier1"
+			}]
+			rewards: [
+				{
+					id: "2D650F85EC1DE549"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5E188C816550A059"
+					type: "item"
+					item: "evilcraft:bucket_poison"
+				}
+				{
+					id: "752E04C06612FA39"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "4CFA67299B7E5FAD"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 6.357142857142861d
+			y: -5.089285714285715d
+			dependencies: ["19ED51C44FD93C0F"]
+			id: "297346A8A27AF928"
+			tasks: [{
+				id: "06FC15D3FCA7AE7C"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_tier2"
+			}]
+			rewards: [
+				{
+					id: "52E09E0E5110E9A1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29193000B52C24CE"
+					type: "item"
+					item: "evilcraft:blook"
+				}
+				{
+					id: "66CC3B2E22F523ED"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "18440A5DDE6FAF9A"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+			]
+		}
+		{
+			x: 7.035714285714285d
+			y: -4.375000000000007d
+			dependencies: ["297346A8A27AF928"]
+			id: "18E33434894D2C88"
+			tasks: [{
+				id: "4DAF6F343B50F2C2"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_tier3"
+			}]
+			rewards: [
+				{
+					id: "7E024A74636B410E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1817EF9D350D74ED"
+					type: "item"
+					item: {
+						id: "evilcraft:broom"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6BC4CBA6253B36C5"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "0D5F5F2C32D95BDA"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["29B6B1BFAE194F08"]
+			id: "1B82CD9727EE4BC8"
+			tasks: [{
+				id: "557B18B89BECB897"
+				type: "item"
+				item: "evilcraft:promise_tier_1"
+			}]
+			rewards: [
+				{
+					id: "517964497EFB8EDA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "304350BCF493EE83"
+					type: "item"
+					item: "evilcraft:redstone_grenade"
+					count: 6
+				}
+				{
+					id: "4EB7313E8D8766BA"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0E249DFB8C349774"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			dependencies: ["29B6B1BFAE194F08"]
+			id: "45AF499E746EFE6D"
+			tasks: [{
+				id: "69904044B27C7868"
+				type: "item"
+				item: "evilcraft:promise_acceptor_iron"
+			}]
+			rewards: [
+				{
+					id: "2829AF9E80BE3724"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "53D552D322A2C3FB"
+					type: "item"
+					item: {
+						id: "evilcraft:weather_container"
+						Count: 1b
+						tag: {
+							weather: "CLEAR"
+						}
+					}
+				}
+				{
+					id: "403B1FFF5DC063E5"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["45AF499E746EFE6D"]
+			id: "31C4B055E5CF4590"
+			tasks: [{
+				id: "04367BCC4BE39E29"
+				type: "item"
+				item: "evilcraft:promise_acceptor_gold"
+			}]
+			rewards: [
+				{
+					id: "6B6CFFB5CB2D457B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7D4291B3ADD5EE67"
+					type: "item"
+					item: {
+						id: "evilcraft:weather_container"
+						Count: 1b
+						tag: {
+							weather: "RAIN"
+						}
+					}
+				}
+				{
+					id: "6461067DF0A10BB4"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["1B82CD9727EE4BC8"]
+			id: "35EDF2B305EB6A30"
+			tasks: [{
+				id: "721EA3268B156497"
+				type: "item"
+				item: "evilcraft:promise_tier_2"
+			}]
+			rewards: [
+				{
+					id: "619528F72ABAC60B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6AC7FB3212C3020B"
+					type: "item"
+					item: "evilcraft:lightning_bomb"
+					count: 4
+				}
+				{
+					id: "72ACEA5FA5C4F44D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "017477F130E4A52E"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["31C4B055E5CF4590"]
+			id: "76DB18A0F146D667"
+			tasks: [{
+				id: "70513F0531085BD5"
+				type: "item"
+				item: "evilcraft:promise_acceptor_diamond"
+			}]
+			rewards: [
+				{
+					id: "720ADEA0E1182C50"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5357DC9358E304E4"
+					type: "item"
+					item: {
+						id: "evilcraft:weather_container"
+						Count: 1b
+						tag: {
+							weather: "LIGHTNING"
+						}
+					}
+				}
+				{
+					id: "43A129AA99F9F8BF"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["35EDF2B305EB6A30"]
+			id: "774A06CC0B4B0B95"
+			tasks: [{
+				id: "26678045156374BE"
+				type: "item"
+				item: "evilcraft:promise_tier_3"
+			}]
+			rewards: [
+				{
+					id: "2434999DEF96971B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "25A4EA7405B8E7B5"
+					type: "item"
+					item: {
+						id: "evilcraft:purifier"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "13958B95DC4D13E7"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "20FB63C0F763E381"
+					type: "ftbmoney:money"
+					ftb_money: 350L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -8.0d
+			dependencies: ["48EAE61AB495FB97"]
+			id: "12D7B98CABA042C2"
+			tasks: [{
+				id: "76780C45635D8594"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_extractor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "43F42F6C2C5B46F9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C6E7D0CCAFFB67F"
+					type: "item"
+					item: "evilcraft:blood_stain"
+				}
+				{
+					id: "5B69972592E3DE9A"
+					type: "item"
+					item: "evilcraft:blood_orb_empty"
+				}
+				{
+					id: "3D66156CEE4CB9AB"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -8.0d
+			dependencies: ["00DAC1F0B2DC7EDE"]
+			id: "760A8EF2913AA166"
+			tasks: [{
+				id: "34A6D12D5F1C02F0"
+				type: "item"
+				item: {
+					id: "evilcraft:dark_tank"
+					Count: 1b
+					tag: {
+						capacity: 16000
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57D5B4D4C9A480A0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "38F1A7EF103B558E"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "7E0A52BB69B67A98"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["5D02ADDC5407E08E"]
+			id: "357E848CD006A49F"
+			tasks: [{
+				id: "5308F3E0575E1796"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3785A5511FC6A15D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "21CD459C07D7F196"
+					type: "item"
+					item: "evilcraft:bloody_cobblestone"
+					count: 16
+				}
+				{
+					id: "38D9AC6338340345"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -8.0d
+			dependencies: ["12D7B98CABA042C2"]
+			id: "00DAC1F0B2DC7EDE"
+			tasks: [{
+				id: "5653000C38244DC1"
+				type: "item"
+				item: {
+					id: "evilcraft:vein_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C47AEBEF86DA8B7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7592E969D02ECCD4"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "0C072A97BA01A1DC"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -6.5d
+			dependencies: ["00DAC1F0B2DC7EDE"]
+			id: "6A96CCBB62E2D596"
+			tasks: [{
+				id: "018B9AC169AD8378"
+				type: "item"
+				item: {
+					id: "evilcraft:vengeance_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "evilcraft:vengeance"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2E1E784644C6F8DD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "42F1A060C050F004"
+					type: "item"
+					item: "evilcraft:dark_stick"
+					count: 12
+				}
+				{
+					id: "5A366294862DDA05"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "75AC345DBBF902F5"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.5d
+			dependencies: ["6A96CCBB62E2D596"]
+			id: "271078D4F073262F"
+			tasks: [{
+				id: "148655325331481A"
+				type: "item"
+				item: "evilcraft:vengeance_focus"
+			}]
+			rewards: [
+				{
+					id: "0BCF3A699363FA37"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "576A255F3F09F027"
+					type: "item"
+					item: "evilcraft:dark_gem"
+					count: 16
+				}
+				{
+					id: "3E8C471239BE1E8E"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "2A88B912E4BE0D31"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			dependencies: ["271078D4F073262F"]
+			id: "48DA18F871AB0640"
+			tasks: [{
+				id: "69037DF83616AE17"
+				type: "item"
+				item: "evilcraft:box_of_eternal_closure"
+			}]
+			rewards: [
+				{
+					id: "68223C7E65E700E3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "31C63C8B8FF7077F"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							capacity: 16000
+						}
+					}
+				}
+				{
+					id: "1741E72CAC69BBA6"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "11843AE9E6502BC9"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			dependencies: ["07CBDB4283EBC013"]
+			id: "07634C8CDA2B4D03"
+			tasks: [{
+				id: "499DFE4A633D0625"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_pearl_of_teleportation"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0AC08116E86C3C25"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "38FCB4034916062B"
+					type: "item"
+					item: "torchmaster:frozen_pearl"
+					count: 6
+				}
+				{
+					id: "419F40D28A0605FC"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "621662B7191592E6"
+					type: "ftbmoney:money"
+					ftb_money: 77L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			dependencies: ["48DA18F871AB0640"]
+			id: "359DC0D4CF7B5C12"
+			tasks: [{
+				id: "7A15EC44564593C1"
+				type: "item"
+				item: "evilcraft:vengeance_essence"
+			}]
+			rewards: [
+				{
+					id: "3E9BDE65292B16D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "32E8430C6AF9B7C8"
+					type: "item"
+					item: "evilcraft:dull_dust"
+					count: 16
+				}
+				{
+					id: "358230D4B3AC09C5"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "6C90CF01FE29DB04"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			dependencies: ["359DC0D4CF7B5C12"]
+			id: "4CD82CE1E2F114E2"
+			tasks: [{
+				id: "596061C4120F8BAA"
+				type: "item"
+				item: "evilcraft:vengeance_essence_materialized"
+			}]
+			rewards: [
+				{
+					id: "0F76DD1E081826F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "786BE9C6BA92C7B7"
+					type: "item"
+					item: "evilcraft:dark_gem_crushed"
+					count: 16
+				}
+				{
+					id: "738675223F1E10C5"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "6EF4D446C8A6F0DF"
+					type: "ftbmoney:money"
+					ftb_money: 95L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["60665BE36DD44912"]
+			id: "715AC0BB38E3BB22"
+			tasks: [{
+				id: "4582207E068E96A5"
+				type: "item"
+				item: "evilcraft:piercing_vengeance_focus"
+			}]
+			rewards: [
+				{
+					id: "0D8EC8E9FC62ACBA"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "1A33196417F625EE"
+					type: "item"
+					item: "evilcraft:effortless_ring"
+				}
+				{
+					id: "5E18F422AA53EC57"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "6BF29EABBB92609E"
+					type: "ftbmoney:money"
+					ftb_money: 222L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["29B6B1BFAE194F08"]
+			id: "60665BE36DD44912"
+			tasks: [{
+				id: "28B2F81968F9E5A3"
+				type: "item"
+				item: "evilcraft:blood_orb_filled"
+			}]
+			rewards: [
+				{
+					id: "19C1B29F69E059AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6CADDF0383309D18"
+					type: "item"
+					item: "evilcraft:lightning_grenade"
+					count: 8
+				}
+				{
+					id: "054F4B4EDCC1D2F6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5427FE526CA8185C"
+					type: "ftbmoney:money"
+					ftb_money: 88L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			dependencies: [
+				"4CD82CE1E2F114E2"
+				"29B6B1BFAE194F08"
+			]
+			id: "4776D02E4FE6A328"
+			tasks: [{
+				id: "5B53D4FFF9D9EFB1"
+				type: "item"
+				item: "evilcraft:garmonbozia"
+			}]
+			rewards: [
+				{
+					id: "2F91713770B1D1B1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4912D3E814A930EE"
+					type: "item"
+					item: {
+						id: "evilcraft:kineticator"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5EA8086DD99E20F8"
+					type: "item"
+					item: {
+						id: "evilcraft:kineticator_repelling"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "503FDB1F1C93E13E"
+					type: "loot"
+					table_id: 7842739214414806319L
+				}
+				{
+					id: "39167F784AD6EF7D"
+					type: "ftbmoney:money"
+					ftb_money: 115L
+				}
+			]
+		}
+		{
+			x: -2.7142857142857153d
+			y: -5.785714285714285d
+			dependencies: ["4776D02E4FE6A328"]
+			id: "3B53487873438CD3"
+			tasks: [{
+				id: "3937780D1AE56FC9"
+				type: "item"
+				item: {
+					id: "evilcraft:spectral_glasses"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2FD7C029C8EB9D16"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "65EEA4B5E49FC669"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3C4933E1D519564A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["29B6B1BFAE194F08"]
+			id: "399B2508AC44807C"
+			tasks: [{
+				id: "534743D04048068B"
+				type: "item"
+				item: "evilcraft:undead_sapling"
+			}]
+			rewards: [
+				{
+					id: "48E4D0DF3A76ED2F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "11623B8988E23D6C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "647B66758563AD2D"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			dependencies: ["4776D02E4FE6A328"]
+			id: "5F9E851D8291526C"
+			tasks: [{
+				id: "1845BD7F634AB2A9"
+				type: "item"
+				item: "evilcraft:golden_string"
+			}]
+			rewards: [
+				{
+					id: "0EE46CE2E9CCE294"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "72A6F4D5C5B21515"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "03F8512DC1A3D3F5"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			dependencies: ["5F9E851D8291526C"]
+			id: "063663EB2DE56178"
+			tasks: [{
+				id: "039FEACD9E3000DF"
+				type: "item"
+				item: {
+					id: "evilcraft:primed_pendant"
+					Count: 1b
+					tag: {
+						inventoryItem: [ ]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7235873110533710"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "322BBAA2EF09BA4B"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "1BB51EA19C0CB560"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["5F9E851D8291526C"]
+			id: "652F3A0B9AF29C33"
+			tasks: [{
+				id: "65CE530C5086E43C"
+				type: "item"
+				item: {
+					id: "evilcraft:invigorating_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5A2ED7CD5F4C7C1A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2A0E30A8370246B3"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "44F7C92A3FB3FD6E"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["29B6B1BFAE194F08"]
+			id: "30F71E7A178258F5"
+			tasks: [{
+				id: "37C4B299F97DF44A"
+				type: "item"
+				item: "evilcraft:corrupted_tear"
+			}]
+			rewards: [
+				{
+					id: "6224EFC997E60294"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2E64042B1F92130D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "229DBCF92564C8C9"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["4776D02E4FE6A328"]
+			id: "3A594DC3BF4E20FE"
+			tasks: [{
+				id: "3D14FE17A34FF26E"
+				type: "item"
+				item: {
+					id: "evilcraft:mace_of_distortion"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "230160A908678418"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2BABB46F512833CD"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "4A81AA7EA4BB4E98"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["4776D02E4FE6A328"]
+			id: "7AE792E944500DFE"
+			tasks: [{
+				id: "28AF2EB734FCC1BA"
+				type: "item"
+				item: {
+					id: "evilcraft:flesh_rejuvenated"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "555F66F762984D31"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C793B78E35FBB70"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "45C5233E9B133563"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			dependencies: ["5FF33E12976D1275"]
+			id: "6744F61E86978BBB"
+			tasks: [{
+				id: "40A458E759ED4785"
+				type: "item"
+				item: "evilcraft:exalted_crafter"
+			}]
+			rewards: [
+				{
+					id: "6794301FA380A4E3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "394121ABD46B5408"
+					type: "item"
+					item: {
+						id: "evilcraft:spikey_claws"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5840A222E40463FB"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "442BCE3B6F4190C2"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -8.0d
+			dependencies: ["6744F61E86978BBB"]
+			id: "6954711675E9649A"
+			tasks: [{
+				id: "1DC5A23AFD858809"
+				type: "item"
+				item: "evilcraft:exalted_crafter_empowered"
+			}]
+			rewards: [
+				{
+					id: "662B33048B229C28"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1F32AA5539CA194D"
+					type: "item"
+					item: "evilcraft:potentia_sphere"
+					count: 3
+				}
+				{
+					id: "75DCCCB839293B88"
+					type: "item"
+					item: "evilcraft:blood_infusion_core"
+					count: 3
+				}
+				{
+					id: "39FF102271857347"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5868EA048DA858D0"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -8.0d
+			dependencies: ["6954711675E9649A"]
+			id: "6E25CD54128D3279"
+			tasks: [{
+				id: "29DC3CA1829E7760"
+				type: "item"
+				item: {
+					id: "evilcraft:necromancer_staff"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "545326D98EF38B2D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6E283CD59B5207AC"
+					type: "item"
+					item: "evilcraft:burning_gem_stone"
+				}
+				{
+					id: "270005CE009433D5"
+					type: "item"
+					item: "evilcraft:poison_sac"
+					count: 6
+				}
+				{
+					id: "74C82961E8386FAA"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "6D597AAB972539C2"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+	]
+}

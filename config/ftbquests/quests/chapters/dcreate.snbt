@@ -1,0 +1,2057 @@
+{
+	id: "3EC558459579A392"
+	group: "66971E0EF19CA037"
+	order_index: 0
+	filename: "dcreate"
+	title: "&dCreate"
+	icon: "create:handheld_worldshaper"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 2.7142857142857153d
+		y: -8.625d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&b&lWelcome to the Create"
+			x: 2.0d
+			y: -8.0d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oSign the contract&r quest*"
+			description: [
+				"The Wrench is a tool used to rotate, dismantle and configure components."
+				""
+				""
+				"Right clicking a component with the Wrench will rotate the component toward or away the face with which you interacted."
+				""
+				"Right clicking a component while sneaking with the Wrench will dismantle the component and place it in your inventory."
+				""
+				"Hovering over certain configurable components will allow configuration by scrolling."
+				""
+				"For certain components such as the Linear Chassis, ctrl can be held to configure all connected components at once."
+			]
+			dependencies: ["071125FC42EBEAB9"]
+			size: 1.5d
+			id: "37188F03818AF4E0"
+			tasks: [{
+				id: "2924790FD8CE2A98"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [
+				{
+					id: "7394A04C46D0DC31"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "46991F916A178442"
+					type: "item"
+					item: "create:cuckoo_clock"
+				}
+			]
+		}
+		{
+			title: "&b&lSaving a Schematic"
+			x: 0.0d
+			y: -9.0d
+			subtitle: "Used for saving a Structure in your world"
+			description: [
+				"Craft yourself a Schematic and Quill and equip it in your main hand."
+				""
+				"1. Use [Right-Click] to select two corner points in the world that roughly contain your structure.To select corner points in the air, hold down [Ctrl] and Scroll to adjust the distance of the selected position.[Right-Click] while sneaking to reset the selection at any point."
+				""
+				"2. The Selection will now stick around for further adjustments.Point at a side and hold [Ctrl] while Scrolling to move the face in the corresponding direction.This way you can bring in the faces as close to the structure as possible while keeping it fully contained."
+				""
+				"3. Once you're happy with the selection, [Right-Click] again to confirm and save the file.Schematic Files are found in your instance folder under  &oschematics/"
+				""
+				"For other information visit the GitHub page from The Create mod:"
+				"&9&n&ohttps://github.com/Creators-of-Create/Create/wiki/Saving-a-Schematic"
+			]
+			dependencies: ["37188F03818AF4E0"]
+			id: "7E715C95CDC287BA"
+			tasks: [{
+				id: "705CC6FD53C0FC84"
+				type: "item"
+				item: "create:schematic_and_quill"
+			}]
+			rewards: [
+				{
+					id: "225698B558E75AFC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2EDE493E8707B446"
+					type: "item"
+					item: "create:empty_schematic"
+				}
+			]
+		}
+		{
+			title: "&b&lLoading a Schematic"
+			x: -1.5d
+			y: -9.0d
+			subtitle: "Using the Schematic module you can load Structures and bring them into the world"
+			description: [
+				"Craft yourself a Schematic Table and place it in your workshop. Open it up and place the Empty Schematic in the input slot on the left. The checkered area shows the schematic file to be loaded onto the item."
+				"You can change it to any of the files available in the &b&o/schematics&r folder:"
+				""
+				"● Scroll on the text to select the Schematic you would like to load."
+				""
+				"● Press the check-mark Button to confirm your choice. The Table will now start to write the schematic onto the item."
+				""
+				"The processing time of this table depends on the size of the schematic you chose.On the technical side - the schematic is being uploaded onto the server in order to be place-able by server side actors.If your structure is very large, you can leave the Table interface while the upload is happening, and come back later."
+				"Once it finished, take the Schematic from the output slot and hold it in your main hand. For initial positioning, you have two options: Using the Deploy Mode, or to input coordinates directly."
+				"- For positioning the Schematic without coordinates, Right-click with the Schematic when the bounding-box is near the desired location. (Can be moved later)"
+				""
+				"-For positioning in the Air, Hold Ctrl to lock the selected position at a fixed distance.Modify the distance by Scrolling while Ctrl is being held. Right-click to confirm."
+				""
+				"Also for more informations:"
+				"&9&n&ohttps://github.com/Creators-of-Create/Create/wiki/Loading-a-Schematic"
+			]
+			dependencies: ["7E715C95CDC287BA"]
+			id: "657CF67E4C5212EF"
+			tasks: [{
+				id: "78B27EEBAF22C110"
+				type: "item"
+				item: "create:schematic_table"
+			}]
+			rewards: [
+				{
+					id: "15F1A16222A0FEBC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "248EDA5C8B59E215"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+			]
+		}
+		{
+			title: "&b&lPrinting a Schematic"
+			x: -3.0d
+			y: -9.0d
+			subtitle: "The Schematicannon is required for building a loaded and positioned Schematic"
+			description: [
+				"It will use materials from adjacent inventories unless a Schematicannon Creatifier Crate has been placed next to it."
+				""
+				"Having prepared a Schematic for placement, you are now ready to consult the Schematicannon for the construction.For this Workflow you will need:"
+				"- A deployed Schematic x1"
+				"- Schematicannon x1"
+				"- Chests or other Inventories x1-4"
+				"- Gunpowder (x1 for every 400 Blocks in the Schematic)"
+				"- Book x1 (Optional)"
+				""
+				"Place the Schematicannon near but outside of the boundaries of your Schematic. It is important that the target area is loaded and not too far away from the cannon."
+				""
+				"As usual for more informations:"
+				"&9&n&ohttps://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic"
+			]
+			dependencies: ["657CF67E4C5212EF"]
+			id: "41D900070A21855E"
+			tasks: [{
+				id: "7725782DA7D94824"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+			rewards: [
+				{
+					id: "62A6199FF4D27B6D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5E525FF9FD5BE100"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Windmill"
+			icon: "create:propeller"
+			x: -0.5d
+			y: -5.0d
+			subtitle: "It is composed of a Windmill Bearing and Sails"
+			description: [
+				"Any block can be attached to the front of the Windmill Bearing but only Wool and Sails will produce power. The wool or sail can be placed in any configuration and shape does not matter."
+				""
+				"Super Glue is needed to attach blocks together. Sails will connect to each other and blocks that have already been attached without needing to use Super Glue the windmill bearing with an empty hand to start the windmill."
+				""
+				"If you want to stop it to change the attached blocks, simply right-click on the block with an empty hand again. A Wrench can be used to change the spin direction of the windmill"
+			]
+			dependencies: ["45AF5EFC3C051D1A"]
+			id: "18D03F942E03807F"
+			tasks: [
+				{
+					id: "072518138448D131"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "4258AF4D50427338"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+				{
+					id: "1E68823A5FE9CA8E"
+					type: "item"
+					item: "create:white_sail"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "74A1B5F7FF81462F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4DA69B1693F59210"
+					type: "item"
+					item: "create:honeyed_apple"
+				}
+				{
+					id: "1DD692087A57413C"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&b&lEngineer's Goggles"
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Engineer's Goggles are a wearable item that allow the user to see more details about placed machines"
+			description: ["The Engineer's Goggles will show the stress impact of the viewed machine while it is running. They will also give numbers and highlight the current rotation when looking at a Stressometer or Speedometer,. Additionally, they show how much fluid is in a tank along with the total storage capacity of the tank."]
+			dependencies: ["37188F03818AF4E0"]
+			id: "45AF5EFC3C051D1A"
+			tasks: [{
+				id: "6CE8A3FB7D477EDF"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [
+				{
+					id: "0BA944CCFB04D9E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4931D7BC98458F89"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:blazing_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&b&lThe Water Wheel"
+			x: 1.0d
+			y: -5.5d
+			subtitle: "Water Wheel is a source of rotational power"
+			description: [
+				"It generates rotational force when water flows over it. Due to the fact that the materials required to craft it are easily accessible in the early-game, the Water Wheel serves as the earliest generator that can be made. Total stress capacity can be increased by adding more wheels in sequence."
+				""
+				"When water flows over a Water Wheel, it will begin to rotate. This rotational power can be conveyed to other components from the Water Wheels' axis."
+				""
+				"The more sides of the wheel the water covers, the faster the wheel will rotate and the more stress capacity it will provide. Only flowing water or source blocks with bubble columns counts toward the power generation."
+				""
+				"To maximize the output from a Water Wheel, have water flowing in the right direction around as much of the wheel as possible."
+			]
+			dependencies: ["18D03F942E03807F"]
+			id: "178499225C1FEFD3"
+			tasks: [{
+				id: "22E0E9626E50CB00"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [
+				{
+					id: "2BE1C27262BDC439"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "61D8546C902E0873"
+					type: "item"
+					item: "immersiveengineering:plate_copper"
+					count: 2
+				}
+				{
+					id: "312C77F3DFA7CA89"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			title: "&b&lEncased Fan"
+			x: 1.0d
+			y: -4.0d
+			subtitle: "The Encased Fan is a mechanical component that can create air streams and generate power."
+			description: [
+				"Its air streams are used for moving entities or for Bulk Washing, Bulk Blasting, and Bulk Smoking."
+				""
+				"When an Encased Fan is placed facedown directly over a heat source (Fire, Lava, Magma Block, active Blaze Burner, or a Campfire) and powered by Redstone, it will provide 64 units of Kinetic Stress at 4 RPM."
+				""
+				"When powered by rotational force, an Encased Fan creates an air stream that extends several blocks in front of it. This air stream pushes entities away from the fan or pulls entities towards it depending on the direction of the rotation that the fan receives. Powering an Encased Fan with faster rotational force will cause its air stream to be stronger and faster."
+				""
+				"This setup is tied with a Windmill Bearing attached to a single block of Wool as the most compact power source available in Survival mode."
+			]
+			dependencies: ["18D03F942E03807F"]
+			id: "3113E091CAF37D3B"
+			tasks: [{
+				id: "715F40E62197C899"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [
+				{
+					id: "4F01024A6B7AD4E8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1DDF2B9602D65F08"
+					type: "item"
+					item: "create:propeller"
+				}
+			]
+		}
+		{
+			title: "&b&lThe Furnace Engine"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Furnace Engine can be used to generate Rotational Force when a furnace burns"
+			description: [
+				"In order to generate power, it must be connected to a Furnace, Smoker, or Blast Furnace, as well as a Flywheel."
+				""
+				"To generate power with a Furnace Engine, place it adjacent a Furnace block, then place the Flywheel one block away from the Furnace Engine (there must be air between the two)."
+				""
+				"They should be in a line, spanning 4 blocks in total. A Furnace/Smoker will generate 16384 SU at 16 RPM. Using a Blast Furnace will generate twice as much SU and RPM as the furnace and smoker at 32768 SU at 32 RPM. "
+				""
+				"The Furnace Engine will generate power so long as it is burning. When whatever fuel inside it stops burning, the generator will come to a halt."
+			]
+			dependencies: ["18D03F942E03807F"]
+			id: "420F42DF72EBF3D3"
+			tasks: [
+				{
+					id: "2366239192B187A3"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+				{
+					id: "14A95DDE31D1F221"
+					type: "item"
+					item: "create:flywheel"
+				}
+			]
+			rewards: [
+				{
+					id: "4E0F53377099925F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "29B1C029980EC88C"
+					type: "item"
+					item: "minecraft:blast_furnace"
+				}
+				{
+					id: "52B11E787BF8A060"
+					type: "item"
+					item: "create:rose_quartz"
+				}
+			]
+		}
+		{
+			title: "&b&lThe Shaft"
+			x: -2.5d
+			y: -5.0d
+			subtitle: "The shaft is a basic mechanical component in Create"
+			description: [
+				"A shaft can be used to connect two mechanical components such that the rotation of one rotates the other, and shafts serve as the only blocks upon which Mechanical Belts can be placed."
+				""
+				"When two mechanical components are connected by a shaft, any rotational force provided to either component will also be provided to the other component at the same speed. As such, if both components provide stress, this can cause the machine to become overstressed."
+			]
+			dependencies: ["18D03F942E03807F"]
+			id: "0DFD086DE8B22565"
+			tasks: [{
+				id: "699F351F450669CB"
+				type: "item"
+				item: "create:shaft"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "343D2FB65E4DC335"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "62C5F2C78EEC12F0"
+					type: "item"
+					item: "create:shaft"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "&b&lMechanical Belt"
+			x: -2.5d
+			y: -3.5d
+			subtitle: "A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities"
+			description: [
+				"Placing a Belt requires two Shafts. Place the Belt by right-clicking on the first shaft and then right clicking the second. Both shafts must face the same direction. A mechanical belt can be up to 20 blocks long."
+				""
+				"A Mechanical Belt can be placed over any number of Shafts arranged horizontally, vertically, or diagonally (45° towards the y axis) in a single line, provided that no obstructions are present and that the total length is no longer than twenty blocks. Andesite Casing and Brass Casing can be placed over any segment of a Belt."
+				""
+				"Mechanical Belts can be dyed be right clicking on them with a Dye. This will add colored stripes along the edges of the belt. To remove the dye, right click on the belt with a Water Bucket or Water Bottle."
+			]
+			dependencies: ["0DFD086DE8B22565"]
+			id: "6A85EFF65D461020"
+			tasks: [{
+				id: "22B31A2343E78E13"
+				type: "item"
+				item: "create:belt_connector"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "24A7A9C58173B024"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "479034FF9E8F134B"
+					type: "item"
+					item: "create:belt_connector"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "&b&lEncased Chain Drive"
+			x: -3.5d
+			y: -4.0d
+			subtitle: "The Encased Chain Drive is a block that can transfer rotation much like the Mechanical Belt"
+			description: [
+				"The Encased Chain Drive can connect to other drives either vertically or horizontally. If a connected chain drive is facing a different way, rotation will be relayed in that direction."
+				""
+				"Encased Chain Drives can also be connected to Adjustable Chain Gearshifts, which can change the speed based on the redstone power input."
+			]
+			dependencies: ["6A85EFF65D461020"]
+			id: "2A397AED9CBFB3A1"
+			tasks: [{
+				id: "30811F99DFAC0870"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+			rewards: [
+				{
+					id: "357DC3064B7BF285"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30EF09F0065EC144"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			title: "&b&lAndesite Tunnel"
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["6A85EFF65D461020"]
+			id: "0DFB605B4FD970F0"
+			tasks: [{
+				id: "081EF416032F463B"
+				type: "item"
+				item: "create:andesite_tunnel"
+			}]
+			rewards: [
+				{
+					id: "433E856C1B7AF421"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3EE78BF3CDFFC9A2"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+			]
+		}
+		{
+			title: "&b&lBrass Tunnel"
+			x: -1.5d
+			y: -1.0d
+			subtitle: "The Brass Tunnel is a machine that can only be placed on Mechanical Belts. It can sort items that pass through"
+			description: [
+				"Sides of the Brass Tunnel can be filtered to only allow certain items to pass. If multiple outputs are available, items will be split."
+				""
+				"Items can be split by having multiple sides of the Tunnel connected to an outgoing belt, or through multiple adjacent tunnels with outgoing belts."
+				""
+				"Using the Wrench, adjacent Tunnels can be set to output all at once, stalling when items are missing. Synchronized tunnels may not draw from adjacent tunnels, so it may be necessary to have splitting tunnels placed before them."
+			]
+			dependencies: ["0DFB605B4FD970F0"]
+			id: "34D4E3E1E995A6B5"
+			tasks: [{
+				id: "6BD4D6A5A4F03E1C"
+				type: "item"
+				item: "create:brass_tunnel"
+			}]
+			rewards: [
+				{
+					id: "5D37A038DD9A6492"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5A782A04A64BC8FE"
+					type: "item"
+					item: "create:brass_ingot"
+					count: 4
+				}
+				{
+					id: "58206F73A51BA86B"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+			]
+		}
+		{
+			title: "&b&lChutes"
+			x: -2.5d
+			y: -2.5d
+			subtitle: "Chutes transport items vertically, similarly to Mechanical Belts"
+			description: [
+				"Chutes can insert or extract from inventories above or below them."
+				""
+				"Connected chutes will pass items along, similarly to a Mechanical Belt. Chutes can be connected to other chutes diagonally."
+				""
+				"To pull items up, an appropriately powered Encased Fan is needed on top of the chutes."
+				""
+				"Chutes can be right clicked with a Wrench to be given windows."
+				""
+				"Smart Chutes behave similarly to Brass Funnels. They can be filtered to only extract certain items, and be stopped with a redstone signal. Unlike funnels, they can insert and extract at the same time, but can only function vertically."
+			]
+			dependencies: ["6A85EFF65D461020"]
+			id: "07DEA314CA78639B"
+			tasks: [{
+				id: "652FEA2E6FDA88DB"
+				type: "item"
+				item: "create:chute"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "2A0CB50980F82BF8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "360224B8555257E1"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+			]
+		}
+		{
+			title: "&b&lDepot"
+			x: -2.5d
+			y: -1.5d
+			subtitle: "The Depot is used as an interaction point for machines such as the Mechanical Arm"
+			description: [
+				"Items can be right clicked or inserted onto the depot. Machines such as Mechanical Presses will interact with the items the same way they would on a Mechanical Belt."
+				""
+				"Items will stay on a depot until a they are extracted by a player or another machine."
+				""
+				"Mechanical Arms are best used with Depots, as they are not usually fast enough to grab items directly off Mechanical Belts at low speeds."
+			]
+			dependencies: ["07DEA314CA78639B"]
+			id: "2BD81BF0B04A6FA7"
+			tasks: [{
+				id: "568EE6021F047D61"
+				type: "item"
+				item: "create:depot"
+			}]
+			rewards: [
+				{
+					id: "01CFFC04368E97DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1FB087F0AF71D61E"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "&b&lThe Mechanical Arm"
+			x: -2.5d
+			y: -0.5d
+			subtitle: "The Mechanical Arm is a block used to transfer items"
+			description: [
+				"With the Mechanical Arm in hand, right clicking valid inventories will select them to be taken from, or deposited to if the inventory cannot be taken from."
+				"From there, further right clicking will toggle between taking from and depositing to."
+				"The Mechanical Arm can then be placed by right clicking on a block, and powered."
+				""
+				"The Mechanical Arm has three different behaviors which can be switched between with the Wrench:"
+				""
+				"● Round Robin - The Mechanical Arm will take from and deposit to available inventories in the order of placement."
+				""
+				"● Forced Round Robin - The same function as Round Robin, but the Mechanical Arm will not move items until the next inventory in order of placement is available."
+				""
+				"● Prefer First - The Mechanical Arm will always take from and deposit to the first available inventory in order of placement."
+			]
+			dependencies: ["2BD81BF0B04A6FA7"]
+			id: "5C01C03BBE00ACCD"
+			tasks: [{
+				id: "009A60ED8972E22E"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [
+				{
+					id: "0D087CD63A3E4092"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0FB17948FD037DEF"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Cogwheels"
+			x: -5.0d
+			y: -5.0d
+			subtitle: "The Cogwheels are a basic mechanical component in Create that relays rotation"
+			description: [
+				"Cogwheels have three main methods of interlocking:"
+				""
+				"● Two Cogwheels interlock when placed next to each other (not diagonally) and facing the same direction. When rotational force is provided to one of the cogwheels, the force will be provided to the other Cogwheel at the same speed but in the opposite direction."
+				""
+				"● Two Large Cogwheels interlock when placed perpendicular to each other, effectively changing its axis and direction, but not its speed."
+				""
+				"● A Cogwheel and a Large Cogwheel interlock when placed diagonally to each other and facing the same direction. The Large Cogwheel will rotate at half the speed of the Cogwheel."
+				""
+				"A cogwheel can also be used like a Shaft, conveying rotation from the ends of its axis. Mechanical components can be connected to each end, and several Cogwheels connected end-to-end function the same as multiple shafts would."
+			]
+			dependencies: ["0DFD086DE8B22565"]
+			id: "5127B662C23FC812"
+			tasks: [
+				{
+					id: "4121F182B16F338F"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 4L
+				}
+				{
+					id: "2F4BCA72D23A896E"
+					type: "item"
+					item: "create:cogwheel"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "5070826EE8D2E596"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6DB408DBEC15787B"
+					type: "item"
+					item: "create:cogwheel"
+					count: 2
+				}
+				{
+					id: "517734193BD5B6E7"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 2
+				}
+				{
+					id: "5B5BD846671DFA76"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+			]
+		}
+		{
+			title: "&b&lGearshift"
+			x: -4.5d
+			y: -6.0d
+			subtitle: "The Gearshift reverses outgoing Rotational Force when a Redstone signal is applied"
+			dependencies: ["5127B662C23FC812"]
+			id: "764790A4ABD9DB56"
+			tasks: [{
+				id: "1A527041909604AD"
+				type: "item"
+				item: "create:gearshift"
+			}]
+			rewards: [
+				{
+					id: "4D03B50162C22459"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3E7746D66867FFC7"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&b&lClutch"
+			x: -5.0d
+			y: -7.0d
+			subtitle: "The Clutch stops outgoing rotation when a redstone signal is applied"
+			dependencies: ["5127B662C23FC812"]
+			id: "7CB7C7E0A0BA9A33"
+			tasks: [{
+				id: "32C2339CBE24745F"
+				type: "item"
+				item: "create:clutch"
+			}]
+			rewards: [
+				{
+					id: "47A9DF15369D988D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5E6C3611A6781806"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&b&lGearbox"
+			x: -5.5d
+			y: -6.0d
+			subtitle: "The Gearbox is a block used to transfer Rotational power"
+			description: [
+				"The Gearbox can relay Rotational power in four horizontal directions."
+				""
+				"When used in a straight line, the Gearbox will reverse rotation."
+			]
+			dependencies: ["5127B662C23FC812"]
+			id: "5482DC02A149B6F8"
+			tasks: [{
+				id: "7E328A626F39C1DD"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [
+				{
+					id: "711F13A3E4E8711A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3EF8637137CDE192"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Bratchets"
+			x: -2.0d
+			y: -6.0d
+			subtitle: "Brackets are decorative items used on Shafts, Cogwheels, and Fluid Pipes"
+			description: ["Brackets can be used as one way to keep adjacent pipes separate from each other."]
+			dependencies: ["0DFD086DE8B22565"]
+			id: "4DB38D4B758A861D"
+			tasks: [
+				{
+					id: "63D6182AC89A37AF"
+					type: "item"
+					item: "create:wooden_bracket"
+					count: 4L
+				}
+				{
+					id: "3D0DD34C814A66E3"
+					type: "item"
+					item: "create:metal_bracket"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "24C0AC3E8A631291"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "609B01EA614BBA62"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "&b&lThe Casings"
+			x: -3.0d
+			y: -6.0d
+			subtitle: "Casings are blocks used for crafting, and for aesthetic purposes"
+			dependencies: ["0DFD086DE8B22565"]
+			id: "6CDCF5CAF844400E"
+			tasks: [{
+				id: "5594F0DF11C7459A"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [
+				{
+					id: "560E9AA6A4D653AE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1171E93EBFA73AAF"
+					type: "item"
+					item: "create:black_seat"
+				}
+			]
+		}
+		{
+			title: "&b&lThe Mechanical Pump"
+			x: -5.5d
+			y: -3.5d
+			subtitle: "Mechanical Pump can be used as a actual pump"
+			description: ["The faster rotational speed it have inputted (using a small/large cogwheel), it can pump faster."]
+			dependencies: ["5127B662C23FC812"]
+			id: "7116C160D7D6EC46"
+			tasks: [{
+				id: "2289895A07439135"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+			rewards: [
+				{
+					id: "6A6078B9F4AB13DF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "36E8D73CB0236CF7"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Fluid Valve"
+			x: -5.5d
+			y: -2.5d
+			subtitle: "Fluid Vavles may be opened and closed"
+			description: ["The best way to do this is to using a Valve Handle."]
+			dependencies: ["7116C160D7D6EC46"]
+			id: "769B1316F09FAA26"
+			tasks: [
+				{
+					id: "3600D2E58BC8C55E"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+				{
+					id: "53700B883060C9CA"
+					type: "item"
+					item: "create:copper_valve_handle"
+				}
+			]
+			rewards: [
+				{
+					id: "063C4F84F7C02E6C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "16F27F9E388F920F"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Smart Fluid Pipe"
+			x: -5.5d
+			y: -1.5d
+			subtitle: "Smart Pipes can allow only a certain liquid to pass through them"
+			dependencies: ["769B1316F09FAA26"]
+			id: "5F9F7D6D1FAF26FF"
+			tasks: [{
+				id: "2DE2165EEFCDBA19"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+			rewards: [
+				{
+					id: "18072864473B61A2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "017732600D0F51B1"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Fluid Pipes"
+			x: -7.0d
+			y: -3.5d
+			subtitle: "Fluid Pipes are blocks used to transport and deal with fluids"
+			description: [
+				"Fluid Pipes require Fluid Pumps to move liquid. Fluid Pumps have a maximum range of 16 blocks around them."
+				""
+				"Fluid Pipes can only move one liquid at a time; if different liquids intersect, the pipe will clog."
+				""
+				"Fluid Pipes can be adjacent without connecting if they have been made transparent with a Wrench or have a Wooden or Metal Bracket."
+				""
+				"Fluid Valves can be given Rotational power to toggle a flow."
+			]
+			dependencies: ["7116C160D7D6EC46"]
+			id: "1961EEC3ABCD3A68"
+			tasks: [{
+				id: "58E831BE626F458A"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "2490F8F8C42AD34D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C71DEC9A3BB92C1"
+					type: "item"
+					item: "create:fluid_pipe"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "&b&lSpout"
+			x: -7.0d
+			y: -2.5d
+			subtitle: "The Spout is a block used for filling liquid containers such as bottles or buckets, or crafting with liquids"
+			description: [
+				"The Spout can be filled with up to 1 bucket of any one liquid via Fluid Pipes. It will then spout the fluid at appropriate items that pass under it via a Conveyor Belt or Depot."
+				""
+				"The Spout has eight unique crafting recipes."
+			]
+			dependencies: ["1961EEC3ABCD3A68"]
+			id: "7084F5E20E6B5089"
+			tasks: [{
+				id: "191B964B037A15A8"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [
+				{
+					id: "634E15638357CD94"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "101800550125E37F"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+			]
+		}
+		{
+			title: "&b&lHose Pulley"
+			x: -7.0d
+			y: -1.5d
+			subtitle: "The Hose Pulley lets down a hose that can drain bodies of liquids"
+			description: [
+				"When Rotational Force is given to the Hose Pully, it can extend the hose infinitely. A Fluid Pump is required for the hose to drain liquids. It will drain a body of liquid down to the level of the hose."
+				""
+				"If a liquid source is at least 10,000 blocks, the Hose Pulley considers it to be infinite, drawing the liquid from it without actually draining the source."
+			]
+			dependencies: ["7084F5E20E6B5089"]
+			id: "1F321ABE6D37A013"
+			tasks: [{
+				id: "22B86F5B7C5B967F"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+			rewards: [
+				{
+					id: "384F4DF1212AD149"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4CFF72A6829DCF26"
+					type: "item"
+					item: "create:copper_casing"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "&b&lThe Fluid Tank"
+			x: -8.5d
+			y: -3.5d
+			subtitle: "The Fluid Tank is a fluid storage mechanism"
+			description: [
+				"The Fluid Tank can store up to 8 buckets of fluid per block. Fluid tanks will also merge with adjacent tanks, up to 3x32x3, allowing to store up to 2,304 buckets of any fluid."
+				""
+				"Fluids can be stored and extracted from fluid tanks via Fluid Pipe. The fluid pipes can be placed on any face of the fluid tank: top, bottom, or sides."
+				""
+				"The direction of flow in the fluid pipe indicates whether fluids will be put into the tank or extracted from the tank; if fluid is flowing towards the tank, the fluid will be stored in the tank. Likewise, if a fluid pipe is flowing away from the tank (via Mechanical Pump), then fluid from the tank will be extracted into that pipe."
+				""
+				"The placement of fluid pipe connections to the tank is not important for functionality. For instance, an extracting pipe can be placed at the top of a tank and still remove fluid from the tank, even if the fluid tank is not completely full."
+			]
+			dependencies: ["1961EEC3ABCD3A68"]
+			id: "6D3D1BF15F9819AA"
+			tasks: [{
+				id: "48389C0D86FDFB65"
+				type: "item"
+				item: "create:fluid_tank"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "5951C26C96B1C3E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76B1DC631BD71FE7"
+					type: "item"
+					item: "create:chocolate_glazed_berries"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "&b&lAdjustable Chain Gearshift"
+			x: -7.5d
+			y: -5.0d
+			subtitle: "The Adjustable Chain Gearshift functions similarly to Encased Chain Drive, but can change the speed of the output with a redstone input"
+			description: ["With a redstone signal on the input, adjacent Gearshifts will change speed output depending on the strength of the signal, maxing out at double. With a redstone signal on an output, the speed of said output will be decreased, being halved at most."]
+			dependencies: ["5127B662C23FC812"]
+			id: "50E045B67532E6FF"
+			tasks: [{
+				id: "0C64786C032A2CD5"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
+			}]
+			rewards: [
+				{
+					id: "362AEFECF852F8C8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "04F3194C7B3C6C5B"
+					type: "item"
+					item: "create:brass_sheet"
+					count: 2
+				}
+				{
+					id: "23813D3A3C4C3498"
+					type: "item"
+					item: "create:golden_sheet"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "&b&lRotation Speed Controller"
+			x: -9.0d
+			y: -5.0d
+			subtitle: "The Rotation Speed Controller is a mechanical component that allows the player to precisely control rotational speed"
+			description: [
+				"For the Rotation Speed Controller to work, it must be paired with a Large Cogwheel. The Rotation Speed Controller, when powered by the Large Cogwheel, outputs any desired speed of rotational force from its sides. It also does the opposite; when powered from its sides, it controls the speed of the Large Cogwheel."
+				""
+				"The rotation speed can be set by looking at the front or the back of the machine and scrolling up or down. Shifting while scrolling allows the player to have more precise control over the speed. The speed can be set to any integer from -256 to 256."
+			]
+			dependencies: ["50E045B67532E6FF"]
+			id: "25CC0FF81BDED8B6"
+			tasks: [{
+				id: "7ACA5C82B0DCA746"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [
+				{
+					id: "109AC819CAD71DF7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E80F5441B65BD43"
+					type: "item"
+					item: "create:brass_sheet"
+					count: 12
+				}
+				{
+					id: "58E969BECCBD15D7"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Whisk"
+			x: 2.5d
+			y: -5.5d
+			subtitle: "Whisk can be used to craft Mechanical Mixer"
+			dependencies: ["37188F03818AF4E0"]
+			id: "115EAD87BC7C8A9F"
+			tasks: [{
+				id: "57C8711C8AB013B3"
+				type: "item"
+				item: "create:whisk"
+			}]
+			rewards: [
+				{
+					id: "1D598A7AA1F2E97B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2AF9281F0EF75A27"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			title: "&b&lElectron Tube"
+			x: 3.5d
+			y: -3.5d
+			subtitle: "The Electron Tube is an item that is only used in crafting recipes"
+			dependencies: ["61678EAF0A15235A"]
+			id: "2FF0BADC06E9B1C2"
+			tasks: [{
+				id: "7117D910BF598713"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [
+				{
+					id: "1CCC1B4D9EE50F1C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "67EA5873DA14CCF5"
+					type: "item"
+					item: "minecraft:redstone_torch"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "&b&lThe Millstone"
+			x: 2.5d
+			y: -4.0d
+			subtitle: "The Millstone is a more basic equivalent of the Crushing Wheels, capable of applying milling recipes to any items inserted from above."
+			description: [
+				"A Millstone can be powered by a shaft from below or by a cogwheel from the side."
+				""
+				"There are two ways to insert items into a Millstone:"
+				""
+				"● Dropping items on top of it: anything that can be processed will be picked up if the input buffer is empty."
+				""
+				"● Hoppers, Funnels, Transposers, and other inserters can directly feed it items from any side."
+				""
+				"A Millstone will take some time to process inserted ingredients and will show particles while it is working. Once finished, the Millstone will not drop or output the result by itself, but there are two ways to remove processed items:"
+				""
+				"● Right-clicking the Millstone with an empty hand: this will manually pick up everything in the output buffer."
+				""
+				"● Hoppers, Extractors, Transposers, and other exporters can pull items out of the output buffer from any side."
+			]
+			dependencies: ["115EAD87BC7C8A9F"]
+			id: "78149C89452FBF2E"
+			tasks: [{
+				id: "57CC5D1AC5ECF108"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [
+				{
+					id: "4370E6A8ED584AF6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4A3F5D60F27E5236"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Deployer"
+			icon: "create:brass_hand"
+			x: 3.5d
+			y: -2.5d
+			subtitle: "The Deployer simulates player actions on blocks up 2 to blocks away from it"
+			description: [
+				"The Deployer simulates right clicks by default. It can be adjusted to left click instead with a Wrench."
+				""
+				"Sand Paper is a tool used solely to create Polished Rose Quartz"
+				""
+				"To use Sand Paper, hold it in the offhand, and Rose Quartz in the main hand. The quartz will get polished, and drop on the ground. One durability will be used off the paper."
+				""
+				"This process can be automated by putting the sand paper into a Deployer, powering it, and dropping the Rose Quartz in front of it."
+				""
+				"The Deployer has 2 inventory slots; the held item and one extra internal slot. As well as unusable items, items harvested by the Deployer will be transferred to the extra slot to be removed by machines, during which time the Deployer will stall. Items cannot be extracted from the extra slot directly by the player."
+			]
+			dependencies: ["2FF0BADC06E9B1C2"]
+			id: "372BC980FF166382"
+			tasks: [{
+				id: "0945371731CA617C"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [
+				{
+					id: "01CB810E9CB3A40A"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "60E29468869926D5"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Polished Rose Quartz Factory"
+			icon: "create:polished_rose_quartz"
+			x: 3.5d
+			y: -1.0d
+			shape: "pentagon"
+			subtitle: "Can you do that?"
+			description: [
+				"Now you have all you need. Can you put them togethr? All right then, create your first fully automatic Polished Rose Quatz factory."
+				""
+			]
+			dependencies: ["372BC980FF166382"]
+			size: 1.3d
+			id: "642CFD0DE5BF3F38"
+			tasks: [{
+				id: "47BCBB2FA310A1C1"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3C95C9FEA5B0E95F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "&b&lThe Mechanical Press"
+			x: 2.5d
+			y: -3.0d
+			subtitle: "The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it"
+			description: [
+				"It is an important early-game item, as it is used to press Ingots into Sheets, which are important ingredients for higher-level components."
+				""
+				"The Mechanical Press is powered by an internal Shaft, accessed from two opposite sides. Much like Shafts, Presses will relay rotation along their axis. It processes items faster when it receives faster rotational power."
+				""
+				"By default, the Mechanical Press will apply Pressing recipes to items underneath it. This can be set up in two ways:"
+				""
+				"● When placed one space above any block, it will process all stacks of valid items on the block when given a rotational power and a redstone signal(like a lever). Items with no pressing recipe are unaffected."
+				""
+				"● When placed one space above a Mechanical Belt, it will automatically press stacks of incoming items, stalling the belt until each operation is done. Items with no pressing recipe are ignored."
+			]
+			dependencies: ["78149C89452FBF2E"]
+			id: "66AA0C89E078CBB4"
+			tasks: [{
+				id: "73F69BD9461BC941"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [
+				{
+					id: "3E5378AB97E71FE5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A940D7E9FBF4CDE"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Mechanical Mixer"
+			icon: "create:mechanical_mixer"
+			x: 2.5d
+			y: -2.0d
+			subtitle: "The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."
+			description: [
+				"The Mechanical Mixer is powered by an internal cogwheel, and will behave as one to any adjacent components, relaying and reversing rotation sideways."
+				""
+				"The Mixer requires a minimum rotational speed of 32 RPM from its power source to work. Mixers will process ingredients faster the more speed it is given."
+				""
+				"To work, a Mixer must be placed directly above a Basin, with a 1 block gap. When a valid recipe is inserted by throwing the ingredients in the Mixer, the Mixer will automatically combine the ingredients."
+				""
+				"The Mechanical Mixer may be used to perform mixing recipes, which are not possible to make anywhere else."
+			]
+			dependencies: ["66AA0C89E078CBB4"]
+			id: "672C231C32B4B6F0"
+			tasks: [
+				{
+					id: "129C2831B833E9DD"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "048032EF9DCA36A4"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [
+				{
+					id: "03F47DD3FB5150FF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7CB4935E456EF8DE"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "0EAF65FEB12CECA6"
+					type: "item"
+					item: "minecraft:cooked_cod"
+					count: 12
+				}
+			]
+		}
+		{
+			title: "&b&lThe Blaze Burner"
+			x: 1.5d
+			y: -1.0d
+			subtitle: "A Blaze Burner is a heating component that is required for certain Mixing recipes"
+			description: [
+				"Blaze Burners must have Blazes in them to function. To put a Blaze in an Empty Blaze Burner, right-click on a Blaze to capture it. Alternatively, Empty Blaze Burner can be filled by clicking on a Blaze Spawner."
+				""
+			]
+			dependencies: ["672C231C32B4B6F0"]
+			id: "3726B3D349A33CA5"
+			tasks: [{
+				id: "63CD3AFFA0B0F449"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [
+				{
+					id: "4AC32BF2EF689F2C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "57F53B73E18AEBD5"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Builder's Tea"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "A potion that restores half a hunger point and grants the drinker haste for 3 minutes"
+			description: [
+				"Put any Leaves, 250mb Water, and 250mb Milk in a heated Mechanical Mixer. Then, put the liquid in a bottle with a Spout."
+				""
+				"Gives haste for 3 minutes when drank and restores half a hunger point."
+			]
+			dependencies: ["3726B3D349A33CA5"]
+			id: "1750E0D71EA9CC5A"
+			tasks: [{
+				id: "4FF256ED7A452462"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+			rewards: [
+				{
+					id: "65E41838125C255A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1F5AB7781F526315"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "&b&lThe Blaze Cake"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Blaze Cake is an item that can be fed to a Blaze Burner in order to make it Super-Heated"
+			description: [
+				"Blaze Cake can be used to feed the Blaze Burner, making it Super-Heated. The Blaze becomes Super-Heated for 50 seconds. It then turns into standard blaze, lasting for 205 seconds."
+				""
+				"Then, it turns into the fading phase, lasting for 50 seconds. During this phase the Blaze still provides enough heat to make the Heated recipes."
+				""
+				"Finally, the Blaze becomes smouldering, and does not provide any heat to the basin."
+			]
+			dependencies: ["3726B3D349A33CA5"]
+			id: "6A76860BBDEBFD54"
+			tasks: [{
+				id: "2D2FCEE794A890B6"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [
+				{
+					id: "44CF3533533202D2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1BD24ED47C3727FB"
+					type: "item"
+					item: "create:blaze_cake_base"
+				}
+			]
+		}
+		{
+			title: "&b&lThe Mechanical Crafter"
+			icon: "create:mechanical_crafter"
+			x: 4.5d
+			y: -3.0d
+			subtitle: "Mechanical Crafters are machines that can automatically craft items"
+			description: [
+				"Right click the front of a Mechanical Crafter with a Wrench to change the direction it sends items during crafting. The Mechanical Crafters are only connected by this path."
+				"Mechanical Crafters can be automatically filled by Funnels or Hoppers."
+				"On the back and sides of Mechanical Crafters, a Wrench can be used to connect or disconnect the inventory of two adjacent crafters. Crafters can share inventories while not participating in the same crafting recipe."
+				"Items can also be inserted or removed by hand."
+				""
+				"Each Mechanical Crafter has an internal gear that can only be powered by adjacent Mechanical Crafters or any size Cogwheel."
+				""
+				"When powered by rotational force, Mechanical Crafters will send their items to adjacent crafters."
+				"Mechanical Crafters will start crafting once every Mechanical Crafter has been filled, or when they receive a redstone signal."
+				"Mechanical Crafters are able to assemble invalid crafting recipes, but will eject the items once they are together instead of turning them into the crafting product."
+				""
+			]
+			dependencies: ["2FF0BADC06E9B1C2"]
+			id: "5BACA82D1436C781"
+			tasks: [
+				{
+					id: "749921C4423895F9"
+					type: "item"
+					item: "create:mechanical_crafter"
+					count: 3L
+				}
+				{
+					id: "6CE32BF18E2AD6EB"
+					type: "item"
+					item: "create:crafter_slot_cover"
+				}
+			]
+			rewards: [
+				{
+					id: "6423BFFF0A14C4A2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1E46C0291661577C"
+					type: "item"
+					item: "create:mechanical_crafter"
+					count: 3
+				}
+				{
+					id: "61C23EC29E45EE3C"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Crushing Wheels"
+			x: 4.5d
+			y: -2.0d
+			subtitle: "Crushing Wheels are the more advanced version of the Millstone"
+			description: [
+				"It applies Crushing recipes to any items inserted from the direction they are spinning away from. At 16 RPM, 1 wheel uses 128 Stress units."
+				""
+				"Two Crushing Wheels must be placed next to each other horizontally one block apart. Both wheels must be given equal and opposite rotational force, with the left wheel rotating clockwise and the right wheel rotating counterclockwise. Any items to be crushed must be inserted at the 'top' of the wheels."
+				""
+				"When crafting Crushing Wheels you can use any kind of stone. This includes Andesite, Diorite and Granite but does not include Cobblestone."
+			]
+			dependencies: ["5BACA82D1436C781"]
+			id: "1C31403D8041E654"
+			tasks: [{
+				id: "0E2ED810F6F0C1F5"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "0FDBC1ACA75E36F2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "563919808E596FCF"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&b&lAndesite Funnel"
+			x: -3.5d
+			y: -2.0d
+			description: ["The Andesite Funnel is used to extract or insert materials into inventories, similar in nature to the Brass Funnel."]
+			dependencies: ["6A85EFF65D461020"]
+			id: "37B0DFD5F4BD2AC1"
+			tasks: [{
+				id: "5A80D0F1B99C0704"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+			rewards: [
+				{
+					id: "0FDA0E465295DF9B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "23A57ACFFEF38886"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+			]
+		}
+		{
+			title: "&b&lBrass Funnel"
+			x: -3.5d
+			y: -1.0d
+			subtitle: "The Brass Funnel is a block that can extract or insert items into inventories, much like the Andesite Funnel"
+			description: [
+				"Like other Brass machines, the Brass Funnel can be set to filter items. It can also output a set amount of items, as well as only input items stacked to the set amount."
+				""
+				"It can be set to insert or extract with a Wrench."
+				""
+				"It can be turned off with redstone."
+			]
+			dependencies: ["37B0DFD5F4BD2AC1"]
+			id: "46786830FE1CED6C"
+			tasks: [{
+				id: "0077C2AC77F0735D"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+			rewards: [
+				{
+					id: "765B6B481C575544"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "32F1324DB7FDFDB9"
+					type: "item"
+					item: "create:brass_sheet"
+					count: 4
+				}
+				{
+					id: "668EC2357E1F3CC5"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Mechanical Piston"
+			x: 6.5d
+			y: -5.0d
+			subtitle: "Mechanical Piston is a piston that can extend multiple blocks when powered with Rotational power"
+			description: [
+				"To extend, the Piston must have Piston Extension Poles at the end as well as Rotational power. The maximum extension pole length is 64 blocks."
+				""
+				"When the rotation is reversed, the piston will retract. The end must be made sticky with a Slimeball to bring the pushed blocks back with it."
+				""
+				"Multiple blocks can be pushed with the use of Linear Chassis, Radial Chassis, or Super Glue. Such structures function similarly to rotating structures and minecart contraptions."
+			]
+			dependencies: ["014687B2B904513C"]
+			id: "6CC4C78C9AB5EA1A"
+			tasks: [{
+				id: "2298BE03FF8E7AE3"
+				type: "item"
+				item: "create:mechanical_piston"
+			}]
+			rewards: [
+				{
+					id: "36E3FB492B9232E4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FE2D09B526A58C6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Cart Assembler"
+			x: 6.0d
+			y: -4.0d
+			subtitle: "Cart Assembler can attach a structure to carts that pass through it when supplied with a redstone signal"
+			description: ["Using a Wrench, the Cart Assembler can be configured to set the movement of cart contraptions to \"Always face toward motion (default,)\" \"Pause actors while rotating,\" and \"Lock Rotation.\" On the second setting, actors such as a Deployer will not work while the cart rotates. On the third setting, the contraption will not change alignment along with the cart, and will retain the same rotation from when it was built, much like the effect of a Mechanical Bearing on a cart contraption."]
+			dependencies: ["6CC4C78C9AB5EA1A"]
+			id: "64FFC1E8083428E0"
+			tasks: [{
+				id: "74DEA7A64D67668E"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [
+				{
+					id: "76F8DF916D52DC2D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "75B5BFF087E745E6"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Mechanical Bearing"
+			x: 6.0d
+			y: -3.0d
+			subtitle: "Mechanical Bearing is meant to create and rotate moving structures"
+			description: [
+				"The structure will rotate. If another Mechanical Bearing is used within a Contraption, facing the same way as the original, the blocks attached to that bearing will keep their alignment as the rest of the structure moves."
+				""
+				"In older versions, the Mechanical Bearing also had the functionality of Windmill Bearings which could be scrolled through with a Wrench."
+				""
+				"The structure's behavior when ceasing movement can be adjusted with a Wrench. It can be told to place the blocks: always, only near the initial angle, or never."
+			]
+			dependencies: ["64FFC1E8083428E0"]
+			id: "6B98E20F753C41E3"
+			tasks: [{
+				id: "7C56910CE6A00F05"
+				type: "item"
+				item: "create:mechanical_bearing"
+			}]
+			rewards: [
+				{
+					id: "27ADE50755E64073"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7BE11BDAE523A254"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&b&lRope Pulley"
+			x: 6.5d
+			y: -2.0d
+			subtitle: "The Rope Pulley functions much like a Mechanical Piston, but in only one direction and without the need for Piston Extension Poles"
+			description: [
+				"The Rope Pulley can extend downwards 130 blocks before stopping. It is most commonly used for excavating or elevators."
+				""
+				"Use Linear Chassis, Radial Chassis, or Super Glue to push more blocks."
+			]
+			dependencies: ["6B98E20F753C41E3"]
+			id: "01D7969415F08817"
+			tasks: [{
+				id: "493C230106013D5D"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [
+				{
+					id: "0E0DBA6B01D28AAF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "51D53582FDE32B82"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&b&lChassis"
+			x: 8.0d
+			y: -3.5d
+			shape: "hexagon"
+			description: [
+				"The Radial Chassis is a block used to connect moving structures."
+				""
+				"Radial Chassis are used to rotate a cylinder of blocks around them when powered by a Bearing. You can right click on the sides while holding a Slimeball to make them sticky. The radius of affected blocks can be changed per chassis with a Wrench."
+				""
+				"The Linear Chassis is one method of connecting up moving structures or minecart contraptions."
+				""
+				"Linear Chassis will automatically connect to adjacent and equally aligned chassis. Slime is needed to connect a column of other blocks to their piston-like surface. A Wrench can be used to adjust the size of the column. Hold ctrl with a Wrench to adjust all connected Chassis at once. Secondary Linear Chassis can be used to have adjacent chassis that don't connect to each other."
+			]
+			dependencies: [
+				"64FFC1E8083428E0"
+				"6B98E20F753C41E3"
+				"01D7969415F08817"
+				"6CC4C78C9AB5EA1A"
+			]
+			hide: false
+			size: 1.2d
+			id: "6D0D6417B3EC82C9"
+			tasks: [
+				{
+					id: "27DB02CB71BFBD1E"
+					type: "item"
+					item: "create:radial_chassis"
+					count: 3L
+				}
+				{
+					id: "64659684798A7C75"
+					type: "item"
+					item: "create:linear_chassis"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "46D8BE5A560E44EB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "16747448B774BB3C"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "21EA8BE96A94DD1B"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+			]
+		}
+		{
+			title: "&b&lThe Portable Interfaces"
+			x: 9.5d
+			y: -5.0d
+			description: [
+				"The Portable Fluid Interface is the fluid version of the Portable Storage Interface. It is used to insert or extract from the fluid inventory of a moving structure made by a Cart Assembler, Mechanical Piston, Gantry Carriage, or Bearing."
+				""
+				"The Interfaces must be placed facing each other at 1-2 blocks apart, one on a moving structure with a Fluid Tank and one stationary. A Fluid Pump is required to insert or extract liquid from the moving structure. Moving structures will automatically stall for an Interface. A Redstone signal can be applied to break off the connection early."
+				""
+				"The Portable Storage Interface is a block that allows stationary contraptions to directly interact with onboard inventories."
+				""
+				"Portable Storage Interfaces are used on moving contraptions including Mechanical Pistons, Bearings, or Cart Contraptions. For Portable Storage Interfaces to interact they must face each other at 1-2 blocks apart. The moving interface must have an onboard inventory while the stationary interface has something inserting or extracting directly from it, such as a Mechanical Belt or Funnel. Inventory will then be exchanged at the rate of the inserting or extracting component."
+				""
+				"Moving structures will stall when interfaces meet. A redstone signal can be applied to break off the connection."
+				""
+				"Shift-right-clicking on a Portable Storage Interface with a Wrench will destroy the Portable Storage Interface and place it in your inventory."
+			]
+			dependencies: ["6D0D6417B3EC82C9"]
+			id: "7A601D674E893EB3"
+			tasks: [
+				{
+					id: "6F8FABD3E7BC8F54"
+					type: "item"
+					item: "create:portable_fluid_interface"
+				}
+				{
+					id: "3BB18E46E6C4A731"
+					type: "item"
+					item: "create:portable_storage_interface"
+				}
+			]
+			rewards: [
+				{
+					id: "49AEE847ADAB1C6D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4FF29DF09A71B070"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			title: "&b&lMechanical Harvester"
+			x: 10.0d
+			y: -4.0d
+			subtitle: "The Mechanical Harvester is a component used to harvest crops"
+			description: [
+				"The Mechanical Harvester will harvest all mature crops it comes in contact with while moving. It will then either deposit the items to an inventory on the moving structure, or, if no inventories are available, it will drop the items on to the ground."
+				""
+				"Unlike most components, the Mechanical Harvester cannot be powered while stationary. This is likely due to the fact that in order for the Harvester to work, it must be within the same block as the mature crop to harvest, which could not happen with a stationary component."
+			]
+			dependencies: ["6D0D6417B3EC82C9"]
+			id: "43631D4C344DEF00"
+			tasks: [{
+				id: "057699A0162865B5"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [
+				{
+					id: "470709E4D6A87198"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D8F4B73C7F292D3"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			title: "&b&lMechanical Drill"
+			x: 10.0d
+			y: -3.0d
+			subtitle: "The Mechanical Drill is a block used to break blocks"
+			description: [
+				"A stationary Mechanical Drill will break blocks in the block in front of it with a time in seconds of (45 x Hardness)/RPM and will hurt entities in an area around it."
+				""
+				"A Mechanical Drill moved by components such as a Mechanical Bearing or Mechanical Piston will break blocks and damage entities with which it collides. Mechanical Drills moving as such, or those part of a larger contraption through the use of Chassis or Super Glue do not need to receive a rotational force to mine, and instead break blocks at a constant rate when in contact with said block. The entire construction the Mechanical Drill is placed on will freeze in place (and remain an entity) while the Mechanical Drill digs the block; for example, a Mechanical Drill will pause the extension of a Mechanical Piston when it drills a block, and the extension will resume once the block is broken. The time it takes for a Mechanical Drill to break a block is based on the block's Hardness value."
+				""
+				"Shift-right-clicking on a Mechanical Drill with a Wrench will destroy the Mechanical Drill and place it in your inventory."
+			]
+			dependencies: ["6D0D6417B3EC82C9"]
+			id: "66C5B278E97F70A1"
+			tasks: [{
+				id: "0AE46BB7CDAE9F12"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [
+				{
+					id: "3C20791BE8AAC5E6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "58E8CD5AB193174A"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			title: "&b&lMechanical Saw"
+			x: 9.5d
+			y: -2.0d
+			description: [
+				"Mechanical Saws are powered through rotational force, and when placed down facing to the side they will automatically chop down wood blocks in front of them. When chopping down a tree, it will automatically destroy the entire tree by only destroying the bottom-most block. This also works with 2x2 trees as long as at least the last block (horizontally) is mined using the saw."
+				""
+				"When mechanical saws are placed facing upwards, logs and woods can be dropped on top of them to make them into stripped logs and stripped woods respectively."
+				""
+				"Mechanical saws are automatically powered when on a create contraption (cart, piston, pulley, ext.). You can mine a saw with either an axe or a pickaxe."
+			]
+			dependencies: ["6D0D6417B3EC82C9"]
+			id: "7FED7217CADDE60D"
+			tasks: [{
+				id: "61103A1231DF56A5"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [
+				{
+					id: "39765CEC572A43E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1C2777D7F6F71552"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			title: "&b&lMechanical Plough"
+			x: 8.5d
+			y: -1.5d
+			subtitle: "The Mechanical Plough is a component used to break non-collidable blocks"
+			description: ["While attached to a moving structure, the Mechanical Plough will break non-collidable blocks it comes in contact with (ex. snow layers). The Mechanical Plough will also move entities and till soil blocks."]
+			dependencies: ["6D0D6417B3EC82C9"]
+			id: "7DDC0DEF59F712BE"
+			tasks: [{
+				id: "6229EFE7287940A2"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+			rewards: [
+				{
+					id: "4CF5981FFBF3E74B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "682ACD6589CF01A6"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			title: "&b&lMoving Contraptions"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "create:textures/item/minecart_contraption.png"
+				}
+			}
+			x: 5.5d
+			y: -6.5d
+			subtitle: "Create allows you to move and animate block structures of any shape or form"
+			description: ["This feature is extremely powerful as it proves useful in the field of automation, transportation and aesthetics."]
+			dependencies: ["37188F03818AF4E0"]
+			id: "014687B2B904513C"
+			tasks: [{
+				id: "32A2DC1569502312"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "15024EA2A7B299F0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "62200E9D28B56D68"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+			]
+		}
+		{
+			title: "&b&lRose Quartz"
+			icon: "create:rose_quartz"
+			x: 3.5d
+			y: -4.5d
+			subtitle: "Rose Quartz is a material used to create Polished Rose Quartz"
+			description: ["Rose Quartz may be used to make Polished Rose Quartz. To do this, the player must hold Sand Paper in their offhand, Rose Quartz in their main hand, and right click. The polished version will drop on the ground."]
+			dependencies: ["115EAD87BC7C8A9F"]
+			id: "61678EAF0A15235A"
+			tasks: [
+				{
+					id: "04CFEF1A9F72034E"
+					type: "item"
+					item: "create:rose_quartz"
+				}
+				{
+					id: "72C5041EEE1F7233"
+					type: "item"
+					item: {
+						id: "create:sand_paper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0641AD421C077B63"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "72C3C299828C5C45"
+					type: "item"
+					item: "create:rose_quartz"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			dependencies: ["0DFD086DE8B22565"]
+			id: "7FFE461E4E8F59F1"
+			tasks: [{
+				id: "24C3EEA4DB905151"
+				type: "item"
+				item: "create:redstone_contact"
+			}]
+			rewards: [
+				{
+					id: "136BA2AC915574B0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3EBCA853DD979883"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "42C49A5A86900A33"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,117 @@
+{
+	id: "098AAEC5028B8277"
+	order_index: 2
+	title: "Rare Crate"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "apotheosis:rare_tome", weight: 2 }
+		{ item: "immersiveengineering:shader_bag_rare", weight: 2 }
+		{ item: "minecraft:diamond", count: 16, weight: 2 }
+		{ item: "minecraft:netherite_block", weight: 2 }
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2
+		}
+		{ item: "refinedstorage:speed_upgrade", count: 4, weight: 2 }
+		{ item: "mekanism:upgrade_energy", count: 4, weight: 2 }
+		{ item: "mininggadgets:upgrade_magnet", weight: 2 }
+		{ item: "storagedrawers:emerald_storage_upgrade", count: 8, weight: 2 }
+		{
+			item: {
+				id: "appliedenergistics2:4k_storage_cell"
+				Count: 1b
+				tag: { }
+			}
+			weight: 2
+		}
+		{ item: "refinedstorage:4k_storage_disk", weight: 2 }
+		{ item: "mysticalagriculture:imperium_furnace", weight: 2 }
+		{ item: "allthemodium:allthemodium_ingot", weight: 2 }
+		{ item: "botania:mana_pearl", count: 4, weight: 2 }
+		{ item: "mekanismgenerators:advanced_solar_generator", weight: 2 }
+		{ item: "industrialforegoing:pink_slime", weight: 2 }
+		{
+			item: {
+				id: "botania:magnet_ring"
+				Count: 1b
+				tag: { }
+			}
+			weight: 2
+		}
+		{ item: "darkutils:charm_sleep", weight: 2 }
+		{
+			item: {
+				id: "cyclic:charm_void"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2
+		}
+		{ item: "angelblock:angel_block", weight: 2 }
+		{
+			item: {
+				id: "thermal:flux_drill"
+				Count: 1b
+				tag: { }
+			}
+			weight: 2
+		}
+		{ item: "enigmaticlegacy:ender_ring", weight: 2 }
+		{ item: "extrastorage:gold_crafter", weight: 2 }
+		{ item: "forestcraft:equinox_clock", weight: 2 }
+		{
+			item: {
+				id: "xreliquary:harvest_rod"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							filter: {
+								id: "minecraft:bone_meal"
+								Count: 1b
+							}
+							amount: 0
+						}]
+					}
+				}
+			}
+			weight: 2
+		}
+		{ item: "balancedflight:basic_flight_ring", weight: 2 }
+		{ item: "extrastorage:diamond_crafter" }
+		{ item: "evilcraft:bucket_eternal_water", weight: 2 }
+		{ item: "cyclic:disenchanter", weight: 2 }
+		{ item: "mysticalagriculture:witherproof_glass", count: 32, weight: 2 }
+		{ item: "notenoughwands:acceleration_wand", weight: 2 }
+		{
+			item: {
+				id: "notenoughwands:master_protection_wand"
+				Count: 1b
+				tag: { }
+			}
+			weight: 2
+		}
+		{ item: "notenoughwands:capturing_wand", weight: 2 }
+		{ item: "mod_lavacow:undyingheart" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 10682955
+		glow: 1b
+		string_id: "rare_crate"
+	}
+}

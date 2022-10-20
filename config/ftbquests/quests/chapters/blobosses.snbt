@@ -1,0 +1,1460 @@
+{
+	id: "56C30AAD66E38A2B"
+	group: "11F74EE62D2AB5DF"
+	order_index: 1
+	filename: "blobosses"
+	title: "&6Bosses"
+	icon: "artifacts:fire_gauntlet"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.1785714285714306d
+			y: -4.446428571428569d
+			width: 5.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/boss.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.1071428571428612d
+			y: -3.017857142857146d
+			width: 1.9d
+			height: 2.7d
+			rotation: 0.0d
+			image: "kubejs:textures/item/skull.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5357142857142847d
+			y: -1.5178571428571388d
+			width: 1.0d
+			height: 2.0d
+			rotation: 90.0d
+			image: "kubejs:textures/item/firef.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			width: 1.0d
+			height: 2.0d
+			rotation: -90.0d
+			image: "kubejs:textures/item/fire.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			width: 3.2d
+			height: 4.1d
+			rotation: 0.0d
+			image: "kubejs:textures/item/skeletonf.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.5d
+			y: 1.0d
+			width: 3.2d
+			height: 4.1d
+			rotation: 0.0d
+			image: "kubejs:textures/item/skeleton.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			width: 2.3d
+			height: 5.0d
+			rotation: -2.0d
+			image: "kubejs:textures/item/firswo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			icon: "minecraft:dragon_head"
+			x: 2.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "The Ender dragon is a gigantic flying hostile boss mob found when first entering the End. She is the largest naturally spawning mob in the game and is widely acknowledged as the final boss of &b&oMinecraft."
+			size: 1.3d
+			id: "045A7C6A2B0E8D9D"
+			tasks: [{
+				id: "4989CF445E225FF4"
+				type: "kill"
+				icon: "minecraft:dragon_egg"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6BBCC82D0F7AC9A4"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "4FF2FEAA873FE8DF"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "4E224BCC4CF30D26"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/undead_king.png"
+				}
+			}
+			x: -5.5d
+			y: 3.0d
+			description: ["Summon the Undead King by placing 4 &l&o&6Rotten Blocks&r in T shape and by placing a &l&o&6Zombie Head&r in the middle."]
+			id: "4A24ADBA201B3BCA"
+			tasks: [{
+				id: "750BD1B87B9604A4"
+				type: "kill"
+				icon: "zombiearmy:undeadking_spawn_egg"
+				entity: "zombiearmy:undeadking"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5778CE473471A560"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "340D305FC7CA0BD8"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "0CF067949786A38C"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "alexsmobs:mysterious_worm"
+			x: -6.5d
+			y: 3.0d
+			id: "76F050E836FA5A71"
+			tasks: [{
+				id: "40E6D68371EC8AFA"
+				type: "kill"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "29EABF32121D3270"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "406117454BC8C557"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "589C59E3F7C64ABB"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/cyclops.png"
+				}
+			}
+			x: -4.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Cyclopes are minibosses that tend to flocks of sheep inside large, stony coves."
+			id: "201801F247481FB8"
+			tasks: [{
+				id: "457FF445E3E93381"
+				type: "kill"
+				icon: "iceandfire:spawn_egg_cyclops"
+				entity: "iceandfire:cyclops"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "17C461228AA0A882"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "37367109D82A498B"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "17FD29498EC694E6"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "mowziesmobs:barako_mask"
+			x: -2.0d
+			y: -0.5d
+			shape: "pentagon"
+			subtitle: "Barako is the chief of the Barakoa tribe, residing in a stationary seat upon a throne in Barakoa villages. He draws his power from the sun, calling forth sunstrikes, solar flares, and massive solar beams."
+			description: ["Those strong enough to face and defeat him, however, are rewarded with his mask: the Sol Visage. This mask allows its wearers to breathe life into masks to create Barakoa followers."]
+			size: 1.1d
+			id: "24FD9711A8E9864E"
+			tasks: [{
+				id: "5622994E9B61538C"
+				type: "kill"
+				icon: "mowziesmobs:barako_spawn_egg"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7752C5EFAB52A5A8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7075A1EE80F8B41F"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 25
+				}
+				{
+					id: "1B5B3EC8DECEDEB0"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 16
+				}
+				{
+					id: "3E8B441C1D27EC1F"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "mowziesmobs:wrought_helmet"
+			x: -2.0d
+			y: 1.0d
+			shape: "pentagon"
+			subtitle: "Lost underground many years ago, these heavily armored knights are not men nor are they statues. Are they guarding something? Only the bravest of adventurers would dare to challenge a Ferrous Wroughtnaut."
+			description: ["Upon defeat, the Wroughtnaut will drop its Wrought Helm and its Axe of a Thousand Metals for the victor. Right clicking with the axe attacks in a large arc, and shift-right clicking will create a shockwave that brings targets closer to you."]
+			size: 1.1d
+			id: "342D61363208BECA"
+			tasks: [{
+				id: "2F63A50C53CB2031"
+				type: "kill"
+				icon: "mowziesmobs:wroughtnaut_spawn_egg"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3319AC075AB84AAB"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "68F80A4C89072004"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "5FB0B4AD4CC942FD"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/elder_guardian.png"
+				}
+			}
+			x: -2.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "An elder guardian is a stronger, larger variant of the guardian that can inflict Mining Fatigue. Three of them spawn inside an ocean monument; one in the penthouse room and one in each wing."
+			size: 1.3d
+			id: "32BDEB2C50FB1D9F"
+			tasks: [{
+				id: "08FA9CD1FCA05B6E"
+				type: "kill"
+				icon: "minecraft:elder_guardian_spawn_egg"
+				entity: "minecraft:elder_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "151745CF00069052"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "78B893FAA77BDBBD"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "450ED2138BE4E190"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "mowziesmobs:ice_crystal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.0d
+			y: 2.5d
+			shape: "pentagon"
+			subtitle: "Frostmaws are dangerous beasts found rarely in snowy areas. Their massive size, impressive speed, and powerful ice breath make them near-impossible opponents. If, on your travels, you encounter one sleeping in your path, it's likely best to take a different route and let it lay."
+			description: ["The beast guards a precious ice crystal that can unleash pure winter energy when wielded."]
+			size: 1.1d
+			id: "05C7DF310A6EB8F6"
+			tasks: [{
+				id: "158F056729EED689"
+				type: "kill"
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "475C18A838E7DA37"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2D0C2A5914510690"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4118ABAACE75004B"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "xreliquary:twilight_cloak"
+			x: 2.0d
+			y: 1.0d
+			shape: "pentagon"
+			subtitle: "Vampire barons can spawn from levels 1-5, however a level 6 baron can be created by using a vampire book on a level 5 baron. Pure blood, which is used for leveling up in both hunter and vampire paths can be obtained by killing Barons. The purity of the blood depends on the level of the Baron (level 1 Barons drop purity level 1/5, level 2 Barons drop purity level 2/5 etc.)."
+			description: ["**Only found in &b&lVampire Forests**"]
+			size: 1.1d
+			id: "47639DAAB95980B3"
+			tasks: [{
+				id: "4A8B4B1309D2C304"
+				type: "kill"
+				entity: "vampirism:vampire_baron"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5C2B225037226CA0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "168F393C8AD9DC18"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "550011B84F7B6ECD"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "1B476585C3C830AF"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "27DE4BD7316B24B1"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "botania:gaia_head"
+			x: 2.0d
+			y: 2.5d
+			shape: "pentagon"
+			subtitle: "The Gaia Guardian is a hostile boss in Botania. It takes on the appearance of the player, albeit being far darker in color."
+			description: [
+				"It has a base of about 200 health points and unknown damage; however, the health and damage get multiplied depending on the amount of players in the arena. With two, the health is 600. This is a dangerous boss that is very difficult to defeat; this is due to the Guardian's extremely frequent teleporting, almost always after you hit it, and release of Gaia Traps."
+				""
+				"**Must be summoned**"
+			]
+			size: 1.1d
+			id: "44CFA46C0F128BD9"
+			tasks: [{
+				id: "499443CB235423E7"
+				type: "kill"
+				icon: "botania:gaia_head"
+				entity: "botania:doppleganger"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "34562A784D23CE01"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "285D9E18170D3FFD"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "7D399986F8008335"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "7DFA5384434B77DA"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/sea_serpent.png"
+				}
+			}
+			x: -6.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "Sea Serpents are ferocious reptilian marine predators that terrorize the vast oceans and attack any smaller creatures they see."
+			id: "636C095182CE8FE5"
+			tasks: [{
+				id: "66BE95AD749F5F01"
+				type: "kill"
+				icon: "iceandfire:spawn_egg_sea_serpent"
+				entity: "iceandfire:sea_serpent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5FBC84DD0EB40B85"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "244B065767911D7E"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3C812A5DEFC8693D"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/gorgon.png"
+				}
+			}
+			x: -5.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "Gorgons are minibosses that lurk in coastal underground lairs and kill anything that looks at them with a petrifying gaze."
+			id: "4766EE685D8407AE"
+			tasks: [{
+				id: "39F892207DD104EC"
+				type: "kill"
+				icon: "iceandfire:spawn_egg_gorgon"
+				entity: "iceandfire:gorgon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4D004193EA56174D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "349E997F19A0F582"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "754ED4ACCFE9DCBA"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/myrmex.png"
+				}
+			}
+			x: -4.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "Myrmex are cantankerous arthropods that dwell in underground hives and maintain an elaborate caste system."
+			id: "077E8759B09E3490"
+			tasks: [{
+				id: "160461D2724A9456"
+				type: "kill"
+				icon: "iceandfire:spawn_egg_myrmex_queen"
+				entity: "iceandfire:myrmex_queen"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "37362B6B90517D49"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5200929724818311"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4E2B02B873A1B691"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/troll.png"
+				}
+			}
+			x: -5.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Trolls are grotesque beasts that hide in caves and relentlessly belabor any explorers looking to mine ores."
+			id: "178B83D6E6C33A06"
+			tasks: [{
+				id: "397B952C7AAA3C6E"
+				type: "kill"
+				icon: "iceandfire:spawn_egg_troll"
+				entity: "iceandfire:troll"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "681AFAC015F401BB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29562D04E8F89080"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "4B342651FD2BCA25"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/fire_dragon.png"
+				}
+			}
+			x: -7.0d
+			y: -0.5d
+			subtitle: "Fire Dragons are one of the three species of dragons that roam the Overworld. They are most famously known for their deadly fire and flight abilities, as well as their formidable reputation"
+			description: ["Fire dragons have nine natural attacks, all of which can dispatch a player with ease. As well as this, they progress through five stages of development, where they grow larger, stronger, and more terrifying."]
+			id: "274B0E0DC3E6BBCE"
+			tasks: [{
+				id: "382364AFF94B1B67"
+				type: "kill"
+				icon: "iceandfire:spawn_egg_fire_dragon"
+				entity: "iceandfire:fire_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5846943787A69562"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "227B6576EFA8F566"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "71B6AC19DEDAF195"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/ice_dragon.png"
+				}
+			}
+			x: -6.0d
+			y: -0.5d
+			subtitle: "Ice Dragons are one of the three dragon species that roam the Overworld. They are known for their ability to breathe an icy breath."
+			description: ["They are adept in land, air, and water. Like fire dragons, ice dragons have several formidable attacks that can end players in seconds. They also progress through five stages of development, where they grow larger, stronger, and more terrifying."]
+			id: "40290067C8657D68"
+			tasks: [{
+				id: "2A3037FF9421199C"
+				type: "kill"
+				icon: "iceandfire:spawn_egg_ice_dragon"
+				entity: "iceandfire:ice_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "173BCA704437B493"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1F197E6CDA38318A"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "2C731FA59B9A874C"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/lightning_dragon.png"
+				}
+			}
+			x: -5.0d
+			y: -0.5d
+			subtitle: "Lightning Dragons are one of the three dragon species that roam the Overworld. They are most famously known for their ability to breathe streams of lightning, as well as their flight abilities."
+			description: ["Like fire dragons and ice dragons, lightning dragons have nine natural attacks that can decimate players effortlessly. They also progress through five stages of development, where they grow larger, stronger, and more terrifying."]
+			id: "02345E03CFA88DB0"
+			tasks: [{
+				id: "6311A1F7FFE46980"
+				type: "kill"
+				icon: "iceandfire:spawn_egg_lightning_dragon"
+				entity: "iceandfire:lightning_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6136EB4241532F80"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "3ABD248131C10E5D"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "1F7704A9B5F15C89"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/hydra.png"
+				}
+			}
+			x: -4.0d
+			y: -0.5d
+			subtitle: "Hydras are minibosses that kill their prey with a deadly venom and regenerate any of their heads if they get severed."
+			id: "6972C23D79B5B721"
+			tasks: [{
+				id: "5FA37D78AD0265B7"
+				type: "kill"
+				icon: "iceandfire:spawn_egg_hydra"
+				entity: "iceandfire:hydra"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "45AC736E9AABFE93"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "596C3415FA9B095D"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "03630C2A4CF238D1"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/amphithere.png"
+				}
+			}
+			x: -6.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Amphitheres are mystical feathered serpents that soar through the dense jungle that can be tackled and cowed into fast flying mounts."
+			id: "723F961D01C956D0"
+			tasks: [{
+				id: "1FB7EA524BB0A95B"
+				type: "kill"
+				icon: "iceandfire:spawn_egg_amphithere"
+				entity: "iceandfire:amphithere"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1E6C2115B47CD8D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5C5707515BA5DF5C"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "5DBBA55FE78FAEC0"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:minoshroom_trophy"
+			x: 5.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "The Minoshroom is a mini-boss found lurking in a prison in the bottom of a Labyrinth. The Minoshroom is a bizarre hybrid of a Mooshroom and a Centaur."
+			id: "558ADEA5E26F17D2"
+			tasks: [{
+				id: "2802F6F501010818"
+				type: "kill"
+				icon: "twilightforest:minoshroom_spawn_egg"
+				entity: "twilightforest:minoshroom"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "08550B5E20016DBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "447DB46A4A6C0600"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "23EB77CFFDA5A09A"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "7782E042B681565E"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:knight_phantom_trophy"
+			x: 6.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "The Knight Phantoms reside in a brick-layered room in the Goblin Knight Stronghold. They appear as ghostly pieces of Phantom Armor, and appear to have a spooky, ghost-like look when attacking."
+			id: "73A3AEB690FDE4F1"
+			tasks: [{
+				id: "647C43DBAC44D8B6"
+				type: "kill"
+				icon: "twilightforest:knight_phantom_spawn_egg"
+				entity: "twilightforest:knight_phantom"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1020D524A23C8D2E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "48184019999CDF0B"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "2F7025D0A92AC60A"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "1FB4914FF03E6B93"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:snow_queen_trophy"
+			x: 5.0d
+			y: -0.5d
+			subtitle: "The Snow Queen is found in an ice-encrusted room near the top of the Aurora Palace. She is perhaps the most human-like creature encountered in the Twilight Forest, resembling a woman, but with large violet eyes and pale blue skin. She is immediately hostile towards any intruders in her vicinity, launching quickly into one of three main attack patterns."
+			id: "57836DD0A7A3D6C3"
+			tasks: [{
+				id: "704CE93F993B2DC6"
+				type: "kill"
+				icon: "twilightforest:snow_queen_spawn_egg"
+				entity: "twilightforest:snow_queen"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "54FA4F2A49286B3C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0E56A8D8E9C9F0FC"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+				{
+					id: "6590204C084DC820"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "2D004CD0C9F4EC90"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:ur_ghast_trophy"
+			x: 6.0d
+			y: -0.5d
+			subtitle: "The Ur-Ghast can be found flying around at the top of the gigantic Dark Tower. It appears as a large, supernatural creature with many large, waving tentacles. It is covered in what adventurers fear is blood, or could be Carminite. This creature resembles the Carminite Ghastguard, due to their ability to stalk players, as well as the Nether-exclusive Ghasts, but is much larger and much more dangerous."
+			id: "786087BA5C725188"
+			tasks: [{
+				id: "73FCFD4719D7F0F2"
+				type: "kill"
+				icon: "twilightforest:ur_ghast_spawn_egg"
+				entity: "twilightforest:ur_ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "21BBB1FA13DDE5E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "64FD44979A62122D"
+					type: "loot"
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "43CAFBE211E55D26"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "1E9269662E29D920"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:hydra_trophy"
+			x: 7.0d
+			y: -0.5d
+			subtitle: "The Hydra can be found in a unique, cracked-open Hydra Lair in a Fire Swamp. The Hydra appears as a massive creature, with two stumpy legs supporting a wide, scaly body. Multiple serpentine necks end in large fiery heads."
+			id: "09039B021F97E728"
+			tasks: [{
+				id: "71C0713B696A130E"
+				type: "kill"
+				icon: "twilightforest:hydra_spawn_egg"
+				entity: "twilightforest:hydra"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1B2BA45739CEF3F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "383FF2684A60FA78"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "23A2EDD8636AAD38"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "2E3A9F58689533FB"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:lich_trophy"
+			x: 4.0d
+			y: -0.5d
+			subtitle: "The Twilight Lich resides on the top of a Lich Tower. It appears as a tall humanoid skeleton wearing a purple cape, and a large golden crown. Surrounding itself is a wall of shields to protect itself from any damage, but maybe they can be broken."
+			id: "5F41CE55D1C492A0"
+			tasks: [{
+				id: "3F8D499D1AD1089D"
+				type: "kill"
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "24AEA87F77075CB4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00911BE820899F14"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "0F307E03A877C743"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "60E7DD868BD9DBD2"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:naga_trophy"
+			x: 4.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "The Naga is a serpent that lurks in a Naga Courtyard. It appears as an immense green snake-like creature with a human-like face. Its scales have subtle hints of all sorts of other colors."
+			id: "235998CFC8B3A476"
+			tasks: [{
+				id: "610D57F08FA28CC9"
+				type: "kill"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0B94571E8C4BEF71"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "42C17082157E8E24"
+					type: "loot"
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "52A41CFD68D0D965"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "6E2467776F1045F7"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:yeti_trophy"
+			x: 5.5d
+			y: 0.5d
+			shape: "diamond"
+			id: "04287692226241F9"
+			tasks: [{
+				id: "761D5339B305D59D"
+				type: "kill"
+				icon: "twilightforest:yeti_alpha_spawn_egg"
+				entity: "twilightforest:yeti_alpha"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7E9D951442B14DC6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62D64B87451241B7"
+					type: "loot"
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "1A8FD2FF88291CE9"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "5BD366D1F6736405"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "twilightforest:giant_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Giant Miners can be found in the Highlands biome, in the Cloud Cottage. Unlike a typical boss mob, Giant Miners will continue to respawn for as long as the house is not destroyed."
+			id: "2AF05F1B13F5F1E1"
+			tasks: [{
+				id: "613DA70F34D60AF3"
+				type: "kill"
+				icon: "twilightforest:giant_miner_spawn_egg"
+				entity: "twilightforest:giant_miner"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "77F46356D75DC01B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0E1F19538E146CE8"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "685EE492003F62A8"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "67C8FAF1FB2796D6"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "twilightforest:giant_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Giants live on solid cloudbanks above the Highlands biome. They take on the appearance of the player's skin, and therefore look different to every player, though reasons remain unknown. Although due to their size they appear to move slowly, they actually move fairly fast compared to most creatures. Giants are aggressive towards players they spot, although relative to their size, their sensory range is fairly small. They are difficult to fight with melee weapons, and are better engaged with ranged attacks."
+			id: "19FBBD6FF4DA8A08"
+			tasks: [{
+				id: "500F2E95AD1A7BD8"
+				type: "kill"
+				icon: "twilightforest:armored_giant_spawn_egg"
+				entity: "twilightforest:armored_giant"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7AEC6E5B62AE5681"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "51FB1F08B8E61C1D"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "122A92A5E69EEFC7"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "462B8F0C5CA75C62"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/pharaoh.png"
+				}
+			}
+			x: 5.5d
+			y: 3.0d
+			id: "2FE9AFC338329202"
+			tasks: [{
+				id: "06F90F6B8CF84024"
+				type: "kill"
+				entity: "atum:pharaoh"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3C49AFB9AD82D148"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6323FD0CDAD72096"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "57F8F63794A88A0B"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: "atum:relic_silver_idol"
+			x: 6.5d
+			y: 3.0d
+			id: "5643AA0510639079"
+			tasks: [{
+				id: "24B38F232AD16E83"
+				type: "kill"
+				entity: "atum:bandit_warlord"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3F94A6775F67E4CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "667D90FFFF6C138B"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "7FE8CD04B9BD02D5"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/sg.png"
+				}
+			}
+			x: 4.5d
+			y: 3.0d
+			id: "586984CDA7094888"
+			tasks: [{
+				id: "22B8188F3A00E07B"
+				type: "kill"
+				entity: "atum:stoneguard"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5E5E60416BD70305"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7864FB31EF0F03C1"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5B0CE91C0880FA36"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/sw.png"
+				}
+			}
+			x: -4.5d
+			y: 3.0d
+			id: "108CD35E863201C1"
+			tasks: [{
+				id: "5CA6A2779A32BE7D"
+				type: "kill"
+				entity: "atum:stonewarden"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5E18F6F0D5D1C6EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2F6A52066FFDE955"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1EFDA8D762BC73D5"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/wither.png"
+				}
+			}
+			x: 2.0d
+			y: -0.5d
+			shape: "pentagon"
+			subtitle: "The wither is an undead hostile boss mob that floats and shoots explosive skulls at players and mobs, that can only be purposely constructed by the player. It is the only source of nether stars, which are used to craft beacons"
+			size: 1.1d
+			id: "335EECE2A8A1DF81"
+			tasks: [{
+				id: "3B179A23F583E826"
+				type: "kill"
+				icon: {
+					id: "inventorypets:pet_wither"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6F13610A843146D5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7D24B80BC596F367"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "44F3646C5B90828F"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "632F73F901FFFC55"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			shape: "pentagon"
+			subtitle: "The Warped Mosco is an aggressive mini-boss version of a Crimson Mosquito that appears if a Crimson Mosquito sucks the blood of a Mungus that is covered in Warped Fungus"
+			size: 1.1d
+			id: "0DA86756ACBD3A5F"
+			tasks: [{
+				id: "1BF9E2696C0FB5F2"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/warpmos.png"
+					}
+				}
+				entity: "alexsmobs:warped_mosco"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7F96AA9151E3F7A9"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2429201E786571AC"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "4AD267C91B9E1AC5"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "34C38D7A5B8A7551"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/qubee.png"
+				}
+			}
+			x: 2.0d
+			y: 4.0d
+			shape: "pentagon"
+			subtitle: "The Queen Bee is a boss that does not spawn naturally. The only way to summon her is to find a huge hive in the flower biome and break it."
+			size: 1.2d
+			id: "371592CFC60C6C47"
+			tasks: [{
+				id: "09D8510BF63826D3"
+				type: "kill"
+				entity: "forestcraft:beequeen"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "43B66B3995C662C3"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1A915AB2736940CA"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "3F4B2B7D603C731A"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "174EA80193E6BABD"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+	]
+}

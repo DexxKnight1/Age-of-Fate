@@ -1,0 +1,974 @@
+{
+	id: "1B81BC0AFDB9D9EF"
+	group: "66971E0EF19CA037"
+	order_index: 10
+	filename: "doverloaded"
+	title: "&dOverloaded"
+	icon: {
+		id: "overloaded:multi_tool"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 3.714285714285708d
+		y: -9.089285714285715d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&b&lWelcome to Overloaded"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/over.png"
+				}
+			}
+			x: 3.0d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oSteel Casing&r quest*"
+			description: ["This mod is designed to be an endgame mod that has very expensive and powerful blocks and items."]
+			dependencies: ["685159786B4BCA0A"]
+			size: 1.5d
+			id: "38BAFBEDE0D2ED02"
+			tasks: [{
+				id: "2BBA00956B66199C"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "00D2EEDC2A369F5C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "553E434BA8A2B639"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["77EEC083D924F9F1"]
+			id: "4106451DF8B7FB96"
+			tasks: [{
+				id: "4F7CAD3BD2D26152"
+				type: "item"
+				item: {
+					id: "overloaded:multi_helmet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6DB0483167D9ABB7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2AEBA009CE2CFF82"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "0958FB3BBDE4AAA7"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "11F6AD35905910ED"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["4106451DF8B7FB96"]
+			id: "281878617D53967E"
+			tasks: [{
+				id: "4DD8F2B8DA6CB5A8"
+				type: "item"
+				item: {
+					id: "overloaded:multi_chestplate"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5E831BB2E91F83D8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7011C44EBFAAD7DF"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "2BA7D49E113EAF08"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "4A6665712EEED1E7"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["281878617D53967E"]
+			id: "209FCD786DA0B90C"
+			tasks: [{
+				id: "4304E87A241E2381"
+				type: "item"
+				item: {
+					id: "overloaded:multi_leggings"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2DCA18A82018D117"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "096FFE86A697A3F8"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "7BAAE7602FFB7FB4"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "7504ECEC4708C847"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["281878617D53967E"]
+			id: "11F36AFBAD780F16"
+			tasks: [{
+				id: "5682D85480BA96D8"
+				type: "item"
+				item: {
+					id: "overloaded:multi_boots"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2AB1447A38697BF5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1F03B10DB1BF6E02"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "3146106097325AD0"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "1CDC4EFA99C09A42"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["281878617D53967E"]
+			id: "7F84B2F058A3C7FA"
+			tasks: [{
+				id: "2871C8DC37CDA9BD"
+				type: "item"
+				item: "overloaded:settings_editor"
+			}]
+			rewards: [
+				{
+					id: "08C8591805AD242E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2731C086C9CB9D8F"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "0DE3325A32D09EEE"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&b&lHyper Linking Card"
+			x: -3.5d
+			y: -2.0d
+			subtitle: "Used to link Hyper Transfer Nodes"
+			description: ["Click on a receiver to store the location to the card. Then click on a sender to bind the pair."]
+			dependencies: ["7F84B2F058A3C7FA"]
+			id: "62FF5129ABD23F8F"
+			tasks: [{
+				id: "6D5D7F7425325181"
+				type: "item"
+				item: "overloaded:linking_card"
+			}]
+			rewards: [
+				{
+					id: "59CDEB65BF0CED71"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "596A7D6276CDDB18"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "349C10662C700598"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["77EEC083D924F9F1"]
+			id: "33BA316E51AB27CE"
+			tasks: [{
+				id: "1A7863B6AF1E1376"
+				type: "item"
+				item: "overloaded:energy_core"
+			}]
+			rewards: [
+				{
+					id: "4A32C285A0CCEB9D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "47F3D810C46D4E9E"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "2CE162B042F5D120"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			shape: "hexagon"
+			dependencies: ["38BAFBEDE0D2ED02"]
+			id: "77EEC083D924F9F1"
+			tasks: [{
+				id: "76A00575FFC87DEC"
+				type: "item"
+				item: "allthecompressed:nether_star_block"
+			}]
+			rewards: [
+				{
+					id: "2D6DC59A2BA46BE2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "44B36378D4ACD1DE"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "3C2E0BCB8000A22F"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&b&lMulti Tool"
+			x: 1.0d
+			y: -4.0d
+			description: ["The Multi Tool is designed as an end-game building tool. It is able to break blocks up to a range of 128 blocks (max distance is editable in the config). It can also place blocks at that distance also. While holding sneak and right clicking it will place blocks in a line in the side of the block you click until it reaches you. To select what block to place sneak left click."]
+			dependencies: ["281878617D53967E"]
+			id: "4F0855B66D8BC63E"
+			tasks: [{
+				id: "1A79D444B90CBC0D"
+				type: "item"
+				item: {
+					id: "overloaded:multi_tool"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7A09480316C817BC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "663B2F8FD77BA771"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "1086CD4E070FAFB8"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "425800A72E35FA1C"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -7.0d
+			subtitle: "Barrel stores Items"
+			dependencies: ["2320585F5550A3DB"]
+			id: "240A07504FB9EB99"
+			tasks: [{
+				id: "3331EF687742609E"
+				type: "item"
+				item: "overloaded:almost_infinite_barrel"
+			}]
+			rewards: [
+				{
+					id: "12ABA13DFB23687F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1354905FE3B3381B"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "1CA4D87811F0FBF6"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -7.5d
+			subtitle: "Barrel stores Items"
+			description: ["Stores 2^63-1 (9,223,372,036,854,775,807) of its given type. Unlike most Containers this one does not tick so it has almost no performance cost."]
+			dependencies: ["240A07504FB9EB99"]
+			id: "35E7A9D26ECD22A1"
+			tasks: [{
+				id: "50127643187BABFD"
+				type: "item"
+				item: "overloaded:true_infinite_barrel"
+			}]
+			rewards: [
+				{
+					id: "411EB7EA113621C6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "25E17B874161F77F"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "09C8197CA8F312BC"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -6.0d
+			subtitle: "Tank stores Liquids"
+			dependencies: ["64527F5EDC443852"]
+			id: "190C844E0205238A"
+			tasks: [{
+				id: "36F7F381BEF0B5D9"
+				type: "item"
+				item: "overloaded:almost_infinite_tank"
+			}]
+			rewards: [
+				{
+					id: "5EC3BA123762D7FC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0778A1C5985DE07D"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "76FF6C5051DA6015"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -6.5d
+			subtitle: "Tank stores Liquids"
+			description: ["Stores 2^63-1 (9,223,372,036,854,775,807) of its given type. Unlike most Containers this one does not tick so it has almost no performance cost."]
+			dependencies: ["190C844E0205238A"]
+			id: "31F93F267D6A2310"
+			tasks: [{
+				id: "1361CF0C4EE9F6B3"
+				type: "item"
+				item: "overloaded:true_infinite_tank"
+			}]
+			rewards: [
+				{
+					id: "013154CED9369163"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "085D3E6F0CE041FD"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "1A3AF83F7DC141BB"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			subtitle: "Capacitor stores Forge Energy / RF"
+			dependencies: ["33BA316E51AB27CE"]
+			id: "262019EC90B1FB1B"
+			tasks: [{
+				id: "069F8D57E65792E9"
+				type: "item"
+				item: "overloaded:almost_infinite_capacitor"
+			}]
+			rewards: [
+				{
+					id: "30088162B0B55595"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "24C396484F3F145F"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "469A306F6F9ED173"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			subtitle: "Capacitor stores Forge Energy / RF"
+			description: ["For the Capacitor when looking at it via The One Probe it reports its storage as a percent of capacity not its actual current storage."]
+			dependencies: ["262019EC90B1FB1B"]
+			id: "6FF9C0DB67462017"
+			tasks: [{
+				id: "38918D6CA6F15A9B"
+				type: "item"
+				item: "overloaded:true_infinite_capacitor"
+			}]
+			rewards: [
+				{
+					id: "0E7FA7D03AF81F5D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5B1A949B30D0F72F"
+					type: "loot"
+					table_id: 4683234648620558652L
+				}
+				{
+					id: "332AC0AFBA4F82EA"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			description: [
+				"There is no transport cost and it can go cross-dimensional (just need to chunkload it all)."
+				""
+				"There is no transport cost and it can go cross-dimensional (just need to chunkload it all)."
+				""
+				"To bind a receiver to a sender use an Hyper Linking Card. Click on the receiver then the sender. Multiple Senders can be linked to the same receiver."
+			]
+			dependencies: ["62FF5129ABD23F8F"]
+			id: "376A9F12DC2C471C"
+			tasks: [{
+				id: "4675A1EA91C75494"
+				type: "item"
+				item: "overloaded:hyper_item_receiver"
+			}]
+			rewards: [
+				{
+					id: "407A2DD23DDCD58E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "73FAF7D9A2B5DC1B"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "1C349F7C706C111C"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			dependencies: ["376A9F12DC2C471C"]
+			id: "7002C778EF054BA1"
+			tasks: [{
+				id: "0E8F34E4DDC5DB65"
+				type: "item"
+				item: "overloaded:hyper_item_sender"
+			}]
+			rewards: [
+				{
+					id: "296D75625A67129F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6B175033DF0497C0"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "217DAC6714A88770"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			description: [
+				"They move the entire contents of the Container but only every few seconds (will be in the config eventually)."
+				""
+				"There is no transport cost and it can go cross-dimensional (just need to chunkload it all)."
+				""
+				"To bind a receiver to a sender use an Hyper Linking Card. Click on the receiver then the sender. Multiple Senders can be linked to the same receiver."
+			]
+			dependencies: ["62FF5129ABD23F8F"]
+			id: "654304DB2886EC55"
+			tasks: [{
+				id: "66849BF81E2D4B3D"
+				type: "item"
+				item: "overloaded:hyper_fluid_receiver"
+			}]
+			rewards: [
+				{
+					id: "7D3BF9D85D711DD9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "111CAA699182CF9D"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "4DD9CF85F6CFAE6D"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["654304DB2886EC55"]
+			id: "7DC30802FA2BA301"
+			tasks: [{
+				id: "47A5FE3901B80397"
+				type: "item"
+				item: "overloaded:hyper_fluid_sender"
+			}]
+			rewards: [
+				{
+					id: "0FAB5AC4D23147C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "103B1E8A3E81BEAB"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "15D4A59CCE76CD66"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			description: [
+				"They move the entire contents of the Container but only every few seconds (will be in the config eventually)."
+				""
+				"There is no transport cost and it can go cross-dimensional (just need to chunkload it all)."
+				""
+				"To bind a receiver to a sender use an Hyper Linking Card. Click on the receiver then the sender. Multiple Senders can be linked to the same receiver."
+			]
+			dependencies: ["62FF5129ABD23F8F"]
+			id: "158F2E6E1DD8D2C4"
+			tasks: [{
+				id: "3B212D1B1302242B"
+				type: "item"
+				item: "overloaded:hyper_energy_receiver"
+			}]
+			rewards: [
+				{
+					id: "026F1684F6037940"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0800E3A5EB5C0B03"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "6F25D806EA7B4556"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			dependencies: ["158F2E6E1DD8D2C4"]
+			id: "05BE61A83539A69A"
+			tasks: [{
+				id: "499D9AD62E5DCBED"
+				type: "item"
+				item: "overloaded:hyper_energy_sender"
+			}]
+			rewards: [
+				{
+					id: "4AAF2F0196881A25"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "39601DC6F8369FAF"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "3E828FEC516106FB"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			dependencies: ["422517ED2FF2EC6C"]
+			id: "2006F0B6B1AD4B44"
+			tasks: [{
+				id: "420286E77D5966C8"
+				type: "item"
+				item: "overloaded:instant_furnace"
+			}]
+			rewards: [
+				{
+					id: "27AEA0A68654BE29"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1ACCAAE1440067AB"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "7E234DD47BCCB479"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&b&lInfinite Water Source"
+			x: -7.5d
+			y: -4.0d
+			subtitle: "This block is an endless tank of water"
+			description: ["You can get water as fast as you can pull it out. Good for those Big Reactors that need a lot of water and don't want to kill the server with pumps."]
+			dependencies: ["7F84B2F058A3C7FA"]
+			id: "422517ED2FF2EC6C"
+			tasks: [{
+				id: "1CE49B95DFC9D508"
+				type: "item"
+				item: "overloaded:infinite_water_source"
+			}]
+			rewards: [
+				{
+					id: "2BC7854624263422"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12A0E076468773E2"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "41CB5B07A0E4FF83"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&b&lEnergy Extractor"
+			x: -8.5d
+			y: -3.0d
+			description: [
+				"For the Infinite Capacitor it will not push energy into nearby conduits and machines. It must be pulled out of the Capacitor by some other block. For example Flux Network's Flux Nodes."
+				""
+				"For the Infinite Capacitor it will not push energy into nearby conduits and machines. It must be pulled out of the Capacitor by some other block. For example Flux Network's Flux Nodes."
+			]
+			dependencies: ["422517ED2FF2EC6C"]
+			id: "47A8A8C4DA2C128E"
+			tasks: [{
+				id: "6E0A3B623B95A914"
+				type: "item"
+				item: "overloaded:energy_extractor"
+			}]
+			rewards: [
+				{
+					id: "6DAD3B627CFA5ED7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "16170CE9A7857521"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "7AF94D12DF521806"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&b&lPlayer Interface"
+			x: 3.0d
+			y: -5.0d
+			subtitle: "Block that connects to the person who placed it"
+			description: ["Allows for pulling / pushing items to the player's inventory. It is also compatibly with any mods that add extra capabilities to a player."]
+			dependencies: ["4F0855B66D8BC63E"]
+			id: "548BF1E89928AF71"
+			tasks: [{
+				id: "51146F5E718F4A90"
+				type: "item"
+				item: "overloaded:player_interface"
+			}]
+			rewards: [
+				{
+					id: "32935B105918AEED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18AD99F055ECC15D"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "721E89F55A1ACD49"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			title: "&b&lItem Interface"
+			x: 3.0d
+			y: -3.0d
+			subtitle: "This block takes on any capabilities of the item that is inside of it"
+			description: ["So if your item is chargeable this block will accept power that the item is capable of taking."]
+			dependencies: ["4F0855B66D8BC63E"]
+			id: "17689D24A39F5E57"
+			tasks: [{
+				id: "0C15F22F0B910FCE"
+				type: "item"
+				item: "overloaded:item_interface"
+			}]
+			rewards: [
+				{
+					id: "67F1FE639005C027"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "52C061CDC3994B28"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "1E6CCF64FEEDDF87"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			dependencies: ["77EEC083D924F9F1"]
+			id: "64527F5EDC443852"
+			tasks: [{
+				id: "2F37D28313A76486"
+				type: "item"
+				item: "overloaded:fluid_core"
+			}]
+			rewards: [
+				{
+					id: "4FC2A02C498EAF3E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "209DD68233AB187B"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "475E37D0964736C6"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -8.5d
+			dependencies: ["77EEC083D924F9F1"]
+			id: "2320585F5550A3DB"
+			tasks: [{
+				id: "40FE4CEA5A719A7A"
+				type: "item"
+				item: "overloaded:item_core"
+			}]
+			rewards: [
+				{
+					id: "5A6C05DDDDADF0F9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "606D921615D9EED1"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "2F234D8498E0329E"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			dependencies: ["4F0855B66D8BC63E"]
+			id: "1903A04C3E1FA38E"
+			tasks: [{
+				id: "444C08981A08462A"
+				type: "item"
+				item: {
+					id: "overloaded:railgun"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "49DCE14808286C6B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6330755BD4565FFE"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "1AC74F2D2194A92F"
+					type: "ftbmoney:money"
+					ftb_money: 1000L
+				}
+			]
+		}
+	]
+}

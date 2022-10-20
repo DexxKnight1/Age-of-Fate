@@ -1,0 +1,14 @@
+{
+  "name": "Manasteel",
+  "type": "resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "botania:manasteel_ingot"
+  },
+  "color": "2B65EC",
+  "textures": {
+    "flower": "mysticalagriculture:block/manasteel_flower",
+    "essence": "mysticalagriculture:item/manasteel_essence",
+    "seeds": "mysticalagriculture:item/manasteel_seeds"
+  }
+}

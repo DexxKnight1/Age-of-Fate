@@ -1,0 +1,173 @@
+{
+	id: "5E8D58F457C49D53"
+	order_index: 1
+	title: "Uncommon Crate"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:iron_ore", count: 16 }
+		{ item: "minecraft:diamond_ore", count: 12 }
+		{ item: "botania:endoflame", count: 3 }
+		{
+			item: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "goblintraders:extended_fire_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tombstone:ankh_of_pray"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mekanism:upgrade_speed", count: 2 }
+		{ item: "industrialforegoing:plastic", count: 12 }
+		{ item: "naturesaura:gold_powder", count: 8 }
+		{ item: "bigreactors:yellorite_ore", count: 6 }
+		{ item: "immersiveengineering:watermill" }
+		{ item: "botania:yellow_mushroom", count: 6 }
+		{
+			item: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "iceandfire:lectern" }
+		{ item: "thermal:drill_head" }
+		{ item: "solarflux:sp_3", count: 2 }
+		{
+			item: {
+				id: "immersiveengineering:pickaxe_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mekanism:basic_universal_cable", count: 8 }
+		{ item: "allthemodium:allthemodium_nugget" }
+		{
+			item: {
+				id: "spartanweaponry:greatsword_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_tower_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:pickarang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "vampirism:obsidian_armor_head_ultimate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longbow_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "magistuarmory:iron_flamebladedsword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "immersiveengineering:coil_lv", count: 8 }
+		{
+			item: {
+				id: "chisel:diamond_chisel"
+				Count: 1b
+				tag: {
+					Damage: 0
+					chiseldata: { }
+				}
+			}
+		}
+		{ item: "mysticalagriculture:inferium_essence", count: 16 }
+		{ item: "usefulbackpacks:backpack_small" }
+		{ item: "iceandfire:shiny_scales", count: 8 }
+		{ item: "xreliquary:bat_wing", count: 2 }
+		{ item: "tconstruct:seared_bricks", count: 12 }
+		{
+			item: {
+				id: "explorerscompass:explorerscompass"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:alchemical_bag"
+				Count: 1b
+				ForgeCaps: {
+					Parent: [ ]
+				}
+			}
+		}
+		{ item: "minecraft:chicken_spawn_egg", count: 4 }
+		{ item: "minecraft:cow_spawn_egg", count: 4 }
+		{ item: "minecraft:pig_spawn_egg", count: 4 }
+		{ item: "minecraft:rabbit_spawn_egg", count: 4 }
+		{ item: "minecraft:sheep_spawn_egg", count: 4 }
+		{ item: "minecraft:llama_spawn_egg", count: 4 }
+		{ item: "minecraft:horse_spawn_egg", count: 4 }
+		{ item: "minecraft:parrot_spawn_egg", count: 4 }
+		{ item: "tombstone:scroll_of_purification" }
+		{ item: "notenoughwands:moving_wand" }
+		{ item: "notenoughwands:displacement_wand" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 38110
+		string_id: "uncommon_crate"
+	}
+}

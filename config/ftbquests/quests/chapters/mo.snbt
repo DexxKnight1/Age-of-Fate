@@ -1,0 +1,1751 @@
+{
+	id: "59365E12379E0C8A"
+	group: "66971E0EF19CA037"
+	order_index: 2
+	filename: "mo"
+	title: "&dModular Routers"
+	icon: "modularrouters:item_router"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.8607142857142875d
+		y: -12.589285714285722d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "&2&lWelcome to Modular Routers"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "modularrouters:book"
+				}
+			}
+			x: 0.0d
+			y: -12.0d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oSign the contract&r quest*"
+			dependencies: ["071125FC42EBEAB9"]
+			size: 1.5d
+			id: "25DA3FA3A3B192ED"
+			tasks: [{
+				id: "2B92EF926E2D692F"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "6F29589C14DA0C6C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6882C3A353272F87"
+					type: "item"
+					item: "pamhc2foodextended:chickencordonbleuitem"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			shape: "hexagon"
+			subtitle: "This is a flexible mod for moving items around in numerous ways"
+			description: [
+				"The Item Router is the centre of the system: it has a single buffer slot for items, nine module slots, and five upgrade slots. You can right-click an Item Router to open its GUI."
+				""
+				"The router is intended to move items around, not store them. However, if you want to use it as a 1-slot chest, you can; its inventory is fully accessible by vanilla hoppers and any other mods piping systems."
+				""
+				"But to properly use a router, you need &b&lModules&r."
+			]
+			dependencies: ["25DA3FA3A3B192ED"]
+			size: 1.5d
+			id: "507D73C94684FD42"
+			tasks: [{
+				id: "4736D4CEEC9B9093"
+				type: "item"
+				item: "modularrouters:item_router"
+			}]
+			rewards: [
+				{
+					id: "3214404164771CFF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "69030F4EA4D5C12E"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "07F8D7CD22D810F9"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			shape: "square"
+			description: [
+				"Modules specify what an Item Router does. A router can have up to nine modules installed, and every router tick (which is every 20 server ticks or 1 second by default), it executes every installed module once, from the leftmost module to the rightmost."
+				""
+				"There are many module types, each of which operate on the router's buffer in a specific way. All modules have a common configuration interface, which can be accessed by right-clicking with the module in hand, or by pressing the 'C' key (configurable) or middle-clicking while the mouse is over an installed module in the item router's GUI."
+			]
+			dependencies: ["507D73C94684FD42"]
+			id: "48931A7034A389BD"
+			tasks: [{
+				id: "4DCE2CDEA17B0A07"
+				type: "item"
+				item: "modularrouters:blank_module"
+			}]
+			rewards: [
+				{
+					id: "5423C04A8BD1B1CB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "47F6456BE13819D6"
+					type: "item"
+					item: "modularrouters:blank_module"
+				}
+				{
+					id: "0B90BDE721D4E630"
+					type: "ftbmoney:money"
+					ftb_money: 1L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -9.5d
+			shape: "square"
+			description: ["While modules define &owhat&r a router does, upgrades affect &ohow&r the router does it. There are 9 different upgrade types."]
+			dependencies: ["507D73C94684FD42"]
+			id: "6B1B5215D6D66520"
+			tasks: [{
+				id: "77F6A022DF7737F5"
+				type: "item"
+				item: "modularrouters:blank_upgrade"
+			}]
+			rewards: [
+				{
+					id: "1FD31614CEE5D201"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0CEF4A56C04BE5DF"
+					type: "item"
+					item: "modularrouters:blank_upgrade"
+				}
+				{
+					id: "2CA6585D3A5FC0D5"
+					type: "ftbmoney:money"
+					ftb_money: 1L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -9.5d
+			shape: "square"
+			description: ["Augments are craftable items which can be inserted into (and removed from) modules. Augments were introduced in v3.0.0 of the mod, and replace the older module enhancement system. Modules have slots for up to four augments (although some augments stack, and multiple augments can be placed in one slot)."]
+			dependencies: ["507D73C94684FD42"]
+			id: "47CB134CEB5405C6"
+			tasks: [{
+				id: "251CB019C411223C"
+				type: "item"
+				item: "modularrouters:augment_core"
+			}]
+			rewards: [
+				{
+					id: "23BF13D626A4A062"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1C9BCDCC3D9682A8"
+					type: "item"
+					item: "modularrouters:augment_core"
+				}
+				{
+					id: "095FB8D22DE30D98"
+					type: "ftbmoney:money"
+					ftb_money: 1L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -10.5d
+			description: [
+				"This augment can only be added to the Vacuum Module. It allows the Vacuum Module to ignore the normal pickup delay on dropped items - 40 ticks for items dropped by players, and 10 ticks for items dropped by other means (e.g. sheep shearing) - and pick up items as soon as it sees them."
+				""
+				"It is not useful to add more than one Fast Pickup augment."
+			]
+			hide_dependency_lines: true
+			dependencies: ["47CB134CEB5405C6"]
+			id: "1813EB0CADAD17FC"
+			tasks: [{
+				id: "15994CE30F7F0966"
+				type: "item"
+				item: "modularrouters:fast_pickup_augment"
+			}]
+			rewards: [
+				{
+					id: "56D148EB1EFC3516"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4AD74DD063480CB4"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7763F7FA8066A241"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -10.5d
+			hide_dependency_lines: true
+			dependencies: ["47CB134CEB5405C6"]
+			id: "3C743E4C1D0A6CA6"
+			tasks: [{
+				id: "5AAA377D70657A1D"
+				type: "item"
+				item: "modularrouters:filter_round_robin_augment"
+			}]
+			rewards: [
+				{
+					id: "1BEDF89E7018A33E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "62F9137F92D4EA69"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7C283FE800636F6E"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -10.5d
+			hide_dependency_lines: true
+			dependencies: ["47CB134CEB5405C6"]
+			id: "476F22257B560CFB"
+			tasks: [{
+				id: "03A1471C02A81B4A"
+				type: "item"
+				item: "modularrouters:mimic_augment"
+			}]
+			rewards: [
+				{
+					id: "0B00B1CCE49D80AD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "48756E0C23BE63B1"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "31EA6E1199B2AABF"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -10.0d
+			description: [
+				"This augment can only be added to the Dropper and Flinger modules."
+				""
+				"It can be stacked; each augment added will increase the pickup delay on dropped/flung items by 10 ticks (0.5 sec). This can be useful if you don't want players accidentally picking up nearby dropped items, for example."
+			]
+			hide_dependency_lines: true
+			dependencies: ["47CB134CEB5405C6"]
+			id: "13790DED40E7BB8F"
+			tasks: [{
+				id: "210B7BA7DAB05F7C"
+				type: "item"
+				item: "modularrouters:pickup_delay_augment"
+			}]
+			rewards: [
+				{
+					id: "58B3CFFA6F095248"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7218F52240E39BFE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7B22808ACDBB43C7"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: ["47CB134CEB5405C6"]
+			id: "627AEA7E9ABB0BF9"
+			tasks: [{
+				id: "770A5FF72C1A28F0"
+				type: "item"
+				item: "modularrouters:pushing_augment"
+			}]
+			rewards: [
+				{
+					id: "55BADCB855BC84EA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "019159FB0C1D557C"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "04BB27CF6311C13E"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -9.5d
+			description: [
+				"This augment can be added to any module which has a range (Sender Mk1/Mk2, Puller Mk1/Mk2, Extruder Mk1/Mk2, Vacuum)."
+				""
+				"It can be stacked; each augment will reduce the range of the module by one block. This is probably only useful in conjunction with the Vacuum Module, to control the range it scans for items."
+			]
+			hide_dependency_lines: true
+			dependencies: ["47CB134CEB5405C6"]
+			id: "3DB4947E245FFFEF"
+			tasks: [{
+				id: "00806D8F9F27F2FF"
+				type: "item"
+				item: "modularrouters:range_down_augment"
+			}]
+			rewards: [
+				{
+					id: "691A7818EC05D8CD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7C5663BCD6154E51"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6D9B29FBC33B7E33"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -9.5d
+			description: [
+				"This augment can be added to any module which has a range (Sender Mk1/Mk2, Puller Mk1/Mk2, Extruder Mk1/Mk2, Vacuum)."
+				""
+				"It can be stacked; each augment will increase the range of the module by one block."
+			]
+			hide_dependency_lines: true
+			dependencies: ["47CB134CEB5405C6"]
+			id: "1CEECE3FA318C183"
+			tasks: [{
+				id: "0EBB1A27D173784B"
+				type: "item"
+				item: "modularrouters:range_up_augment"
+			}]
+			rewards: [
+				{
+					id: "24E5049155906617"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "43CB86B5160775E3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "754B4889AF64A993"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -9.0d
+			description: [
+				"This augment can be added to any module. Normally, modules are run when the router runs, no questions asked. However, if this augment is added to a module, that module can define its own redstone behaviour; an extra button is added to the module's GUI to control this."
+				""
+				"It is not useful to add more than one Redstone Augment."
+			]
+			hide_dependency_lines: true
+			dependencies: ["47CB134CEB5405C6"]
+			id: "22CA1C4D76C0A8AD"
+			tasks: [{
+				id: "799856E13A710D59"
+				type: "item"
+				item: "modularrouters:redstone_augment"
+			}]
+			rewards: [
+				{
+					id: "57EDC26D042A31DF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "18EC965952862E30"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6DF229BB303A51D7"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.5d
+			description: [
+				"The Regulator Augment allows for precise control over how many items may be sent to or pulled from an inventory, or the router's buffer."
+				""
+				"When a module has the Regulator Augment activated, you will see an extra numeric textfield in its GUI where you can configure a limit. The module's tooltip text will also show the limit. This limit is interpreted differently depending on the particular module:"
+				""
+				"&l●&r  For the Sender Mk1/2/3 Modules and Player Module (in insert mode), the modules will only send an item to the inventory if there are fewer than the configured number of that item already in the inventory."
+				"&l●&r  For the Puller and Player Module (in extract mode), the modules will only pull an item from the inventory if there are more than the configured number of that item in the inventory."
+				"&l●&r  For the Dropper, Flinger, Placer \\& Void Modules, the modules will only run if there are more than the configured number of that item in the router's buffer."
+				"&l●&r  For the Breaker \\& Vacuum Modules, the modules will only run if there are fewer than the configured number of that item in the router's buffer."
+				"&l●&r  For the Fluid Module, the limit is a percentage of the target tank's capacity rather than a number of items. When pulling fluid from the target, the module will only run if there is more fluid than the configured percentage, and when pushing fluid to the target, the module will only run if there is less fluid than the configured percentage."
+				""
+				"It is not useful to add more than one Regulator Augment."
+			]
+			hide_dependency_lines: true
+			dependencies: ["47CB134CEB5405C6"]
+			id: "5981B4EFB794DEA2"
+			tasks: [{
+				id: "68269B4CDE0C9E71"
+				type: "item"
+				item: "modularrouters:regulator_augment"
+			}]
+			rewards: [
+				{
+					id: "3D75B276C51193D4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "677BB1D33CF28826"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "697F8354B5AB61F5"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -8.5d
+			description: [
+				"This module can be added to any module which handles items (as opposed to &oblocks&r or &ofluids&r)."
+				""
+				"Adding Stack Augments to a module increases the number of items it can process per tick; each Stack Augment doubles the number of items, up to a maximum of the item's natural stack size (64 for most items)."
+				""
+				"If the router also has Stack Upgrades installed, the module's Stack Augments will override that; e.g. if a router has 6 Stack Upgrades, and a module has 2 Stack Augments, the module will process 4 items per tick, not 64."
+			]
+			hide_dependency_lines: true
+			dependencies: ["47CB134CEB5405C6"]
+			id: "06B9DB6698C1D809"
+			tasks: [{
+				id: "07AD1B994887B1D7"
+				type: "item"
+				item: "modularrouters:stack_augment"
+			}]
+			rewards: [
+				{
+					id: "192ED07BED7D0650"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "03E8BE77924334B5"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0D0A252E555F9ED1"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -8.5d
+			description: [
+				"This augment can only added to a Vacuum Module."
+				""
+				"When this augment is added, the Vacuum Module will absorb experience orbs instead of items. The orbs will be converted into Bottles o' Enchanting at the rate of 7XP per bottle (which is the average amount of XP gained by breaking a Bottle o' Enchanting)."
+				""
+				"If XP Juice is available (as added by EnderIO), and the router holds a fluid-containing item, orbs will instead be converted to XP Juice at the rate of 20mB per 1XP and stored in the fluid container."
+			]
+			hide_dependency_lines: true
+			dependencies: ["47CB134CEB5405C6"]
+			id: "2B55C161A8EC6702"
+			tasks: [{
+				id: "06C36D5896E1DCB9"
+				type: "item"
+				item: "modularrouters:xp_vacuum_augment"
+			}]
+			rewards: [
+				{
+					id: "7C4095DE22E29ACB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7847E19E1BBC8569"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5CB6C78D791EC379"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -10.5d
+			description: ["This upgrade makes the router fully immune to explosion damage, and also to being destroyed by boss mobs."]
+			hide_dependency_lines: true
+			dependencies: ["6B1B5215D6D66520"]
+			id: "4B63DB3E7B4CB7F2"
+			tasks: [{
+				id: "5973CCABE1438048"
+				type: "item"
+				item: "modularrouters:blast_upgrade"
+			}]
+			rewards: [
+				{
+					id: "64E895A88ECD95FC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "50EDA62B0ED861DF"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7D37C8A37B3CE759"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -9.5d
+			description: [
+				"This upgrade allows you to disguise the router as another block. Sneak+Right-click the module against a block to record that block on the camouflage upgrade. When inserted into a router, that router will take on the appearance of the recorded block."
+				""
+				"&l●&r  Not all blocks can be used. In general, any block with a simple model (doesn't have to be a full cube) will work, but some more complex block models will either refuse to copy or render as a empty cube."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B1B5215D6D66520"]
+			id: "385C9CE6D5DCEDF1"
+			tasks: [{
+				id: "3A2B499E0E348809"
+				type: "item"
+				item: "modularrouters:camouflage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "6C521363BDC7CE37"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "52D699174EF5830D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "29F04D8F30700D2A"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -10.5d
+			hide_dependency_lines: true
+			dependencies: ["6B1B5215D6D66520"]
+			id: "3C8DCB148456A159"
+			tasks: [{
+				id: "4887A79488D9BE59"
+				type: "item"
+				item: "modularrouters:energy_upgrade"
+			}]
+			rewards: [
+				{
+					id: "3D6E8DB8DFD3427D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "48800DB431BE8B52"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "394087E349DA8D75"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -10.5d
+			description: ["This upgrade only affects the Fluid Module. It increases the overall fluid transfer rate of the Item Router (in each direction; to the router and from the router) from the base rate of 50mB/tick by 10mB/tick, up to a maximum of 400mB/tick (all configurable). Therefore the maximum useful number of Fluid Transfer Upgrades in a router is 35."]
+			hide_dependency_lines: true
+			dependencies: ["6B1B5215D6D66520"]
+			id: "554FDBB7BEF1C4F0"
+			tasks: [{
+				id: "7223443AD4AE9DC8"
+				type: "item"
+				item: "modularrouters:fluid_upgrade"
+			}]
+			rewards: [
+				{
+					id: "51AAD5AE809FB753"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "44E586BD623DF146"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "33CEAAB352BFD1ED"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -9.5d
+			description: [
+				"This upgrade, when inserted, will restrict the players who can open the router's GUI. By default, it only permits the player who crafted the upgrade."
+				""
+				"&l●&r  You can add extra players to a Security Upgrade by right-clicking the player with the upgrade in your main hand."
+				"&l●&r  You can remove players from a Security Upgrade by shift-right-clicking the player."
+				"&l●&r  There is a maximum of 6 additional players per Security Upgrade (so 7 in total, including the creator), but you can install more than one Security Upgrade in a router if necessary."
+				"&l●&r  The Security Upgrade does not prevent a router being broken by a player; but since upgrades and modules remain in a broken router, players can't break a router to steal modules/upgrades or reconfigure the router (when the router is placed back down, the Security Upgrade remains installed). If you want to prevent a router being broken, you may wish to explore other mods' block protection capabilities."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B1B5215D6D66520"]
+			id: "1FDD1D8397753895"
+			tasks: [{
+				id: "47647BAF6D2B36C5"
+				type: "item"
+				item: "modularrouters:security_upgrade"
+			}]
+			rewards: [
+				{
+					id: "274F3CC501C53F47"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5B2DA03AF4A2A2EF"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6424B024310F6984"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -9.5d
+			description: [
+				"By default, a router ticks every 20 server ticks, or once per second. On each tick, every installed module is executed in order, left to right."
+				""
+				"If you need a router to run faster than this, you can add Speed Upgrades; each Speed Upgrade reduces the tick interval by 2 server ticks, down to a minimum of every 2 server ticks (or 10 times per second)."
+				""
+				"&l●&r  &bFor performance reasons, Stack Upgrades should be preferred over Speed Upgrades where possible; use Speed Upgrades judiciously and only where absolutely required for maximum item transfer rate.&r &6Be Kind To Your Server (tm)&r."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B1B5215D6D66520"]
+			id: "15C5D13473EEDB33"
+			tasks: [{
+				id: "4FBE71AC7F402BE7"
+				type: "item"
+				item: "modularrouters:speed_upgrade"
+			}]
+			rewards: [
+				{
+					id: "129FCE4982968F22"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0CAF3B8D0031865E"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6CDB46F52D827788"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -8.5d
+			description: [
+				"Modules in a router operate on a single item at a time: e.g. a Sender module will send a single item from the router's buffer, regardless of how many items are in the buffer."
+				""
+				"By adding Stack Upgrades to a router, this can be increased. Each Stack Upgrade doubles the number of items that can be processed by each module, up to a maximum of 64, or the item's native stack size. It therefore follows that 6 is the maximum number of useful Stack Upgrades which can be installed in one router."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B1B5215D6D66520"]
+			id: "350AEB600145D18B"
+			tasks: [{
+				id: "052D3716585A6076"
+				type: "item"
+				item: "modularrouters:stack_upgrade"
+			}]
+			rewards: [
+				{
+					id: "72C4DC6AEFD386F2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4D914C6C5D546332"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "3F0FA5CC061C85E7"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -8.5d
+			description: [
+				"This upgrade is used to guarantee that two or more routers run at the same time. The Sync Upgrade has a tuning value of 0 .. 19 (i.e. 1 less than the base router tick rate of 20). This tuning value can be set by right-clicking the Sync Upgrade to open its GUI, or quickly set to a random value by sneak-right-clicking the upgrade."
+				""
+				"Any routers with this upgrade installed, with same the tuning value, and with the same number of Speed Upgrades installed, will &oalways&r run on the same tick. Note that the actual tuning value doesn't matter; it only matters that the value is consistent across the routers you want to synchronise."
+				""
+				"This is particularly useful if you have a group of routers with Extruder Modules installed, and want to ensure all modules extend/retract at the same time for a pleasing visual appearance."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B1B5215D6D66520"]
+			id: "44CD1E4893D1E21F"
+			tasks: [{
+				id: "27ECECC281B2E69E"
+				type: "item"
+				item: "modularrouters:sync_upgrade"
+			}]
+			rewards: [
+				{
+					id: "23B4A0FC77D83BDD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "314EBB84B03E8AA3"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "0D1C0D3EF8512AE8"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "7743FF3AB1A75529"
+			tasks: [{
+				id: "364A2EE58881EB45"
+				type: "item"
+				item: {
+					id: "modularrouters:activator_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B0256AD5BD86E30"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6773210F9BD6832B"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "10BF4EB043C535C6"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			description: [
+				"This module tries to break a block, adjacent to the router in the module's configured direction. Most blocks are breakable, although anything with an unbreakable hardness (e.g. vanilla Bedrock or End Portal) can not be broken, nor can any fluid blocks. If the block is broken, its primary drop(s) will be pulled into the item router's buffer."
+				""
+				"&l●&r  If there's already something else in the buffer, or the buffer is full, the block will not be broken."
+				"&l●&r  If breaking the block yields more than one type of drop (e.g. mature wheat drops both wheat and seeds), only the first drop will be pulled into the buffer and other items will be left as items on the ground. In this case, you might also want a Vacuum Module to pull in the extra drops. If there are multiple drops of the same type (e.g. redstone ore dropping several redstone dust), all stackable drops will be pulled into the buffer where possible."
+				"&l●&r  The Breaker Module may be crafted with either a Fortune or Silk Touch enchanted book to gain those enchantments' abilities."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "33C5F3C6F667F2D2"
+			tasks: [{
+				id: "70894C77A85FB577"
+				type: "item"
+				item: {
+					id: "modularrouters:breaker_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67A3C1EF369F89AF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "585685F6F688BEFB"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "40ED008DB7B041B6"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			description: ["This module doesn't actually manipulate items, but instead detects specific items in the router's buffer. If the buffer contents are matched by the module's filter, it will make the router emit a redstone signal in the configured direction, or all directions if the configured direction is None. The signal level (default: 15) and signal type (default: weak) can be adjust via the module GUI."]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "5B2ED0E25E3B56EB"
+			tasks: [{
+				id: "60C47076FFE846FC"
+				type: "item"
+				item: {
+					id: "modularrouters:detector_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							StrongSignal: 0b
+							SignalLevel: 15
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3DF76B4399745219"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "59FFCB00F1E669D8"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7B24499EB90CCA4A"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "4CCCE0B80308B771"
+			tasks: [{
+				id: "32097B9D4DE5B62C"
+				type: "item"
+				item: {
+					id: "modularrouters:distributor_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4BC70A8B535FDBCB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1C6537EC3C9AC151"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "4E4AB13CD7D85A91"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			description: [
+				"This module tries to drop an item from the router's buffer as an item entity in the world. The drop will be adjacent to the router in the module's configured direction. The item entity will be placed with a zero velocity, unlike the vanilla Dropper which adds an irritating random velocity to the item."
+				""
+				"&l●&r  This is one of the few ways I'm aware of in modded Minecraft to drop a stack of items at a time (think bulk in-world crafting for AE2 crystal seeds...) Most dropper devices drop only a single item at a time, but the Item Router can drop up to a stack of items at a time if you use Stack Upgrades."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "219A8F24431BA5A8"
+			tasks: [{
+				id: "4654861D4B94FA06"
+				type: "item"
+				item: {
+					id: "modularrouters:dropper_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "395B6C84CE69A249"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F003985F7362C50"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "018DDFAB5E9BF666"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "214C0CBF5DCEE45B"
+			tasks: [{
+				id: "2A96AABE4576FA99"
+				type: "item"
+				item: {
+					id: "modularrouters:energy_distributor_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5C960354866158BE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0E875277BF70A4EA"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "79912479B0C86E65"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "370E9C10F948B77C"
+			tasks: [{
+				id: "28051372E6EE2CD7"
+				type: "item"
+				item: {
+					id: "modularrouters:energy_output_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B716E50F0B6D7C4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5EBD627A8A03A77F"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "2D443BC89BCE460C"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			description: [
+				"This module extends and withdraws a row of blocks (from the router's buffer) in the module's configured direction. By default, the module extends blocks when the router has a redstone signal, and withdraws them when the router has no signal, but a Redstone Enhancement can be added to the module to customise this behaviour."
+				""
+				"&l●&r  See also the Camouflage Upgrade, which may be useful to hide the router."
+				"&l●&r  The default range (i.e. number of blocks which can be placed) is 12, but this can be increased up to 24 with Range Upgrades."
+				"&l●&r  If you change the module's direction while it has blocks extended, you may get the router a little confused. In this case, breaking and replacing the router will help."
+				"&l●&r  If you break the router while blocks are extended, it won't remember that, and you'll need to manually remove those blocks."
+				"&l●&r  If you have multiple routers together with Extruder Modules installed (e.g. for a wide door or bridge), you may find the Sync Upgrade useful to ensure they all run on the same tick."
+				"&l●&r  The Extruder (like the Placer) can also plant crop seeds on farmland, and cocoa beans on an adjacent jungle log."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "7820D810C490A47A"
+			tasks: [{
+				id: "77BF4D79582330B7"
+				type: "item"
+				item: {
+					id: "modularrouters:extruder_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0CAA5E5B89C0B9DA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1C4CF068BF6449C5"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "56A1CB99DC89BC90"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			description: [
+				"This module behaves rather like the Extruder Module Mk1, but with some important differences:"
+				""
+				"&l●&r  The Mk2 module doesn't place items from the router's buffer, but rather from a template defined within the module itself."
+				"&l●&r  This template appears on the right-hand side of the module's GUI, has 9 slots, and can have multiple items per slot. Items placed in the template are \"ghost\" items."
+				"&l●&r  Blocks extruded are \"virtual\" - effectively created out of nowhere, but drop nothing when broken and can't be crafted normally."
+				"&l●&r  Therefore, this module isn't suitable for farming like the Extruder Mk1, but can be used to place doors/bridges etc. with more complex patterns than the Mk1 could."
+				"&l●&r  The default range for the Extruder Mk2 is 24 blocks, which can be increased to 48 with Range Upgrades."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "45176E9D4C96158E"
+			tasks: [{
+				id: "3DFDFDD5F31B883B"
+				type: "item"
+				item: {
+					id: "modularrouters:extruder_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "412B5E4F8CB02BAB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "35347B6584AFD7F6"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6E63284B02B4FB1E"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			description: [
+				"This module behaves like the dropper module, except that it also imparts a configurable velocity to the dropped item, potentially throwing the item a considerable distance. You can adjust the item's speed, pitch and yaw via the module's GUI."
+				""
+				"&l●&r  Pitch and Yaw are in degrees, relative to a base pitch or yaw."
+				"&l●&r  If the module ejects Up or Down, the base pitch is +90° or -90°, respectively. Otherwise, the base pitch is 0°."
+				"&l●&r  If the module ejects Up or Down, the base yaw is the router's facing direction. Otherwise the base yaw is taken from the module's direction."
+				"&l●&r  Example: a speed of 1.0, pitch/yaw of 0°, and a horizontal module direction, will throw an item along the ground for a distance of about 7 blocks."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "0CF15DA52514AD7C"
+			tasks: [{
+				id: "1CFAA67341B07E5E"
+				type: "item"
+				item: {
+					id: "modularrouters:flinger_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							Pitch: 0.0f
+							Speed: 0.0f
+							ModuleFilter: { }
+							Direction: "NONE"
+							Yaw: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5EAF61AC54652F5C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "773A3D98AB021E0F"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "27864F9B015F848D"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: [
+				"While Item Routers can't handle fluids directly (they don't have an internal tank), they can manipulate fluids if there is a (single) fluid container item in the buffer. This includes buckets and any fluid containers added by other mods."
+				""
+				"The Fluid Module's GUI allows the transfer direction to be set:"
+				""
+				"&l●&r  Transfer To Router means the router will try to pull fluids from an adjacent block (either a fluid in the world or a fluid-holding block) into a fluid-holding item in the buffer."
+				"&l●&r  Transfer From Router means the router will try to push fluids from a fluid-holding item in the buffer to the world; either pouring fluid out, or putting fluid into an adjacent tank."
+				"The GUI also allows the maximum transfer rate to be set. Note this is the maximum that will be attempted, and is still limited by the router's overall transfer rate, which is 1 bucket per second, and the transfer rate of the external fluid or fluid container."
+				""
+				"The Fluid Module's filter slots will only accept fluid-containing items, and will filter by the contained fluid, not by the container item."
+				""
+				"&l●&r  Adding Speed Upgrades will not transfer fluids any faster, only more often. A router with 9 speed upgrades will still only transfer 1 bucket per second, just more often and in smaller quantities. To increase the overall transfer rate, add Fluid Transfer Upgrades."
+				"&l●&r  Be very careful tinkering with Fluid Module settings if the router holds any dangerous fluids, such as a lava bucket. The router will not hesitate to pour lava over you if you get it wrong..."
+				"&l●&r  Note that you can also connect fluid pipes from other mods to a router, if the buffer has a fluid container in it, and pump fluids in and out of the router. You don't need a Fluid Module installed to do this; Fluid Modules are only required if you want to actively push or pull fluids."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "127EAF5F289669DF"
+			tasks: [{
+				id: "3EF8C1BCE77AFBD0"
+				type: "item"
+				item: {
+					id: "modularrouters:fluid_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71D138D4549A42D6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "363012D7C6F40773"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5842F33CCAE18516"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "3618BE4936552678"
+			tasks: [{
+				id: "74F01B57F6A30E2B"
+				type: "item"
+				item: {
+					id: "modularrouters:fluid_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "472F20528DAA753F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "700449F1B91513E4"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "45C4A38D6892B197"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			description: [
+				"This module tries to place an item from the router's buffer as a block, adjacent to the router in the module's configured direction."
+				""
+				"&l●&r  If the item isn't a block or the destination block is obstructed, nothing will be done."
+				"&l●&r  Normal Minecraft placement rules are followed; e.g. sugar cane can only be placed next to water on sand/dirt."
+				"&l●&r  Fluid blocks will be replaced, as will replaceable blocks such as tall grass."
+				"&l●&r  The Placer module can plant seeds on farmland, and cocoa beans on an adjacent jungle log."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "25937073D6B084F5"
+			tasks: [{
+				id: "33DC6AF2464BA053"
+				type: "item"
+				item: {
+					id: "modularrouters:placer_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0CD097B2CD90D03C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "271FBB7CA5D65165"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "200453B45667D2C2"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			description: [
+				"This module tries to transfer items between the router and a player's own inventory. The player can be anywhere in any dimension, making this a rather powerful module."
+				""
+				"&l●&r  The module can transfer items either from or to the player; you can set this in the module's GUI. "
+				"&l●&r  The module can operate on either the player's main 36-slot inventory, their 4-slot armor inventory, their offhand slot, or their Ender inventory (as shown by vanilla Ender Chests). This can also be set in the module's GUI."
+				"&l●&r  Extracted/inserted items can, of course, be filtered by the module."
+				""
+				"A good use-case for this module would be to extract ores/cobblestone/dirt etc. from the player's inventory, and send it on to the player's main storage system in their base. With a little design, it should be possible to build a system to auto-swap your armor sets (maybe even in the field, with some wireless redstone from another mod...)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "7628AAFD8558ECDA"
+			tasks: [{
+				id: "0C3976E6E8B01AAA"
+				type: "item"
+				item: {
+					id: "modularrouters:player_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3B448BCA5DCD25E2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0A2014486968F53B"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "34227A9ACEEA90D2"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			description: ["This module tries to pull the first eligible item from the adjacent inventory in its configured direction into the router's buffer. If the buffer is full or contains something that stacks with nothing in the inventory, nothing will be pulled."]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "04838933FF2647B3"
+			tasks: [{
+				id: "74614526B7421E13"
+				type: "item"
+				item: {
+					id: "modularrouters:puller_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "61CC7F6B36860B13"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0582B4D5E87EA9C6"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "306402AC5255753C"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			description: [
+				"This behaves like the Puller Mk1, but can pull items from non-adjacent inventories:"
+				""
+				"&l●&r  The inventory can be up to 12 blocks away (up to 24 with Range Upgrades)."
+				"&l●&r  Clear line of sight is not required."
+				"&l●&r  To select the target inventory, Sneak-Right-click the target with the Puller Mk2 module in hand. You will get a confirmation message."
+				"&l●&r  If you need to check where a Puller Mk2 is configured to, Left-click with the module in hand, and a particle effect will stream toward the target inventory (the co-ordinates of the target are also shown in the module item's tooltip)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "1CCAC658D40B2C5A"
+			tasks: [{
+				id: "35FAAF2F0A425F05"
+				type: "item"
+				item: {
+					id: "modularrouters:puller_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4ABEF989D7445884"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "65AF9DF979AB81B4"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "30B7DED80D830285"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: [
+				"This more powerful sender module tries to send an item from the router's buffer to a nearby inventory:"
+				""
+				"&l●&r  The target inventory can be up to 24 blocks away (up to 48 with Range Upgrades )"
+				"&l●&r  Clear line of sight is &onot&r required"
+				"&l●&r  To select the target inventory, Sneak-Right-click the target with the Sender Mk2 module in hand. You will get a confirmation message."
+				"&l●&r  If you need to check where a Sender Mk2 is configured to, Left-click with the module in hand, and a particle effect will stream toward the target inventory (the co-ordinates of the target are also shown in the module item's tooltip)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "08B325E67E607888"
+			tasks: [{
+				id: "0B0AB4652AB6D74E"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "093D2867990B7654"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "61B9D22F55DF36A1"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "45D4551DF7914FD2"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			description: [
+				"This module tries to send an item from the router's buffer to an inventory in the module's configured direction:"
+				""
+				"&l●&r  The target inventory can be up to 8 blocks away (up to 16 with Range Upgrades )"
+				"&l●&r  The target inventory must be directly along the X, Y, or Z axis."
+				"&l●&r  The router must have clear line of sight to the target inventory; no opaque blocks, but blocks such as glass, fences, iron bars etc. are OK."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "253B5325A0B6D723"
+			tasks: [{
+				id: "2DCA7A1A05CFEF10"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "425525ADE8C723DA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "39533F9694D4202A"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "48EA1C7A2922FECC"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: ["This top-end sender module operates very much like the Mk2 Sender, but can send to any inventory (in any dimension) with no restrictions! Note: the target inventory must be chunk-loaded; Modular Routers will not do this for you."]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "16245A08A35A6052"
+			tasks: [{
+				id: "3449F8EF87E2DFBD"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_3"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "77D1AE6B0428453F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6C2A7CC3AA9DDB7C"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "31C0F281117DC075"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: [
+				"This module scans for dropped items in a 13x13x13 cubic area around the router (i.e. up to 6 blocks in each direction), and absorbs them into the router's buffer, if possible."
+				""
+				"&l●&r  The range can be increased up to 25x25x25 (12 blocks in each direction) with Range Upgrades. Each Range Upgrade increases the distance by 1 block, so up to 6 Range Upgrades can be usefully installed."
+				"&l●&r  The scanned area is centered on the router if the module's direction is &lNone&r. If the module has an actual direction configured, the area is offset in that direction by 6 blocks (plus one for each Range Upgrade installed). E.g. with a direction of UP, the module will only scan an area directly above the router."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "0A66EFCD2F63B902"
+			tasks: [{
+				id: "360013130FCBDF35"
+				type: "item"
+				item: {
+					id: "modularrouters:vacuum_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3388C92E2D23552F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "42D68B46F680A8FA"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "230E9B18FC685DE9"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			description: ["This dangerous module permanently destroys items in the router's buffer! It is strongly recommended to configure this module with a Whitelist to prevent accidental deletion of valuable items..."]
+			hide_dependency_lines: true
+			dependencies: ["48931A7034A389BD"]
+			id: "3BBC94FBF6FF733E"
+			tasks: [{
+				id: "48734F4B7BE95E6D"
+				type: "item"
+				item: {
+					id: "modularrouters:void_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4EAC7634E6E58CFB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0555E3838D6095A2"
+					type: "loot"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7984D16FABDF4238"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -8.5d
+			description: [
+				"This upgrade can be used to suppress sounds and particle effects made by item routers, and can be useful if a noisy module is regularly running in a place where a player often is."
+				""
+				"&l●&r  One or more Muffler Upgrades in a router will disable all audible effects"
+				"&l●&r  Two or more will also disable all particle effects"
+				"&l●&r  Three or more will also disable the router's active animation; the rotating texture on the front face of the router block"
+				"&l●&r  Note that all sounds and particle effects can also be disabled in the mod config; this upgrade is only useful if sounds/effects have not been disabled."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B1B5215D6D66520"]
+			id: "30E3A2FF5537502D"
+			tasks: [{
+				id: "75E9049CA446D80C"
+				type: "item"
+				item: "modularrouters:muffler_upgrade"
+			}]
+		}
+	]
+}

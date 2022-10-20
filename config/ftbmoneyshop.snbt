@@ -1,0 +1,3552 @@
+{
+	tabs: [
+		{
+			title: "Rocks'n'Diamonds"
+			icon: "iceandfire:summoning_crystal_ice"
+			entries: [
+				{
+					item: {
+						id: "bloodmagic:miningsigil"
+						Count: 1b
+						tag: { }
+					}
+					buy: 7000L
+				}
+				{
+					item: "mekanism:digital_miner"
+					buy: 750000L
+				}
+				{
+					item: "minecraft:emerald"
+					buy: 500L
+				}
+				{
+					item: "minecraft:diamond"
+					buy: 450L
+				}
+				{
+					item: "alltheores:platinum_ingot"
+					buy: 200L
+				}
+				{
+					item: { id: "alltheores:osmium_ingot", Count: 3b }
+					buy: 400L
+				}
+				{
+					item: { id: "minecraft:iron_ingot", Count: 16b }
+					buy: 250L
+				}
+				{
+					item: { id: "minecraft:gold_ingot", Count: 16b }
+					buy: 300L
+				}
+				{
+					item: { id: "minecraft:lapis_lazuli", Count: 16b }
+					buy: 150L
+				}
+				{
+					item: { id: "minecraft:redstone", Count: 16b }
+					buy: 150L
+				}
+				{
+					item: { id: "minecraft:glowstone_dust", Count: 16b }
+					buy: 200L
+				}
+				{
+					item: { id: "minecraft:coal", Count: 16b }
+					buy: 120L
+				}
+				{
+					item: {
+						id: "mininggadgets:mininggadget_fancy"
+						Count: 1b
+						tag: { }
+					}
+					buy: 25000L
+				}
+				{
+					item: { id: "minecraft:stone", Count: 64b }
+					buy: 200L
+				}
+				{
+					item: { id: "minecraft:diorite", Count: 64b }
+					buy: 200L
+				}
+				{
+					item: { id: "minecraft:andesite", Count: 64b }
+					buy: 200L
+				}
+				{
+					item: "quark:deepslate_bricks"
+					buy: 200L
+				}
+				{
+					item: { id: "extcaves:lavastone", Count: 64b }
+					buy: 200L
+				}
+				{
+					item: { id: "minecraft:quartz", Count: 16b }
+					buy: 350L
+				}
+			]
+		}
+		{
+			title: "Knock on Wood"
+			icon: {
+				id: "eidolon:cleaving_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			entries: [
+				{
+					item: {
+						id: "allthemodium:alloy_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 1500000L
+				}
+				{
+					item: {
+						id: "minecraft:diamond_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: { id: "minecraft:oak_log", Count: 32b }
+					buy: 200L
+				}
+				{
+					item: { id: "minecraft:spruce_log", Count: 32b }
+					buy: 200L
+				}
+				{
+					item: { id: "minecraft:jungle_log", Count: 32b }
+					buy: 200L
+				}
+				{
+					item: { id: "minecraft:dark_oak_log", Count: 32b }
+					buy: 200L
+				}
+				{
+					item: { id: "minecraft:birch_log", Count: 32b }
+					buy: 200L
+				}
+				{
+					item: { id: "minecraft:acacia_log", Count: 32b }
+					buy: 200L
+				}
+				{
+					item: { id: "biomesoplenty:magic_log", Count: 32b }
+					buy: 250L
+				}
+				{
+					item: { id: "biomesoplenty:umbran_log", Count: 32b }
+					buy: 250L
+				}
+				{
+					item: { id: "biomesoplenty:hellbark_log", Count: 32b }
+					buy: 250L
+				}
+				{
+					item: { id: "biomesoplenty:dead_log", Count: 32b }
+					buy: 300L
+				}
+				{
+					item: { id: "iceandfire:dreadwood_log", Count: 32b }
+					buy: 350L
+				}
+				{
+					item: "charm:woodcutter"
+					buy: 450L
+				}
+				{
+					item: {
+						id: "thermal:flux_saw"
+						Count: 1b
+						tag: { }
+					}
+					buy: 15000L
+				}
+				{
+					item: { id: "druidcraft:darkwood_log", Count: 32b }
+					buy: 350L
+				}
+				{
+					item: { id: "treasure2:wither_log", Count: 32b }
+					buy: 400L
+				}
+				{
+					item: { id: "biomesoplenty:palm_log", Count: 32b }
+					buy: 150L
+				}
+				{
+					item: { id: "biomesoplenty:willow_log", Count: 32b }
+					buy: 150L
+				}
+				{
+					item: { id: "biomesoplenty:fir_log", Count: 32b }
+					buy: 150L
+				}
+				{
+					item: { id: "biomesoplenty:redwood_log", Count: 32b }
+					buy: 170L
+				}
+				{
+					item: { id: "biomesoplenty:mahogany_log", Count: 32b }
+					buy: 170L
+				}
+				{
+					item: { id: "biomesoplenty:jacaranda_log", Count: 32b }
+					buy: 120L
+				}
+				{
+					item: { id: "minecraft:crimson_stem", Count: 32b }
+					buy: 250L
+				}
+				{
+					item: { id: "minecraft:warped_stem", Count: 32b }
+					buy: 250L
+				}
+			]
+		}
+		{
+			title: "Tavern \"Bloody Moon\""
+			icon: {
+				id: "evilcraft:blood_pearl_of_teleportation"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "evilcraft:blood"
+						Amount: 1000
+					}
+				}
+			}
+			entries: [
+				{
+					item: { id: "pamhc2foodextended:delightedmealitem", Count: 5b }
+					buy: 450L
+				}
+				{
+					item: "pamhc2foodextended:rootbeerfloatitem"
+					buy: 180L
+				}
+				{
+					item: "pamhc2crops:hotcoffeeitem"
+					buy: 175L
+				}
+				{
+					item: { id: "pamhc2foodextended:cherrysodaitem", Count: 3b }
+					buy: 280L
+				}
+				{
+					item: "pamhc2foodextended:swedishmeatballsitem"
+					buy: 420L
+				}
+				{
+					item: "pamhc2foodextended:chimichangaitem"
+					buy: 400L
+				}
+				{
+					item: { id: "pamhc2foodcore:epicbaconitem", Count: 5b }
+					buy: 385L
+				}
+				{
+					item: { id: "pamhc2foodextended:deviledeggitem", Count: 64b }
+					buy: 666L
+				}
+				{
+					item: "pamhc2foodextended:roastedrootveggiemedleyitem"
+					buy: 245L
+				}
+				{
+					item: "pamhc2foodcore:fishandchipsitem"
+					buy: 255L
+				}
+				{
+					item: "pamhc2foodextended:enchiladaitem"
+					buy: 285L
+				}
+				{
+					item: { id: "minecraft:egg", Count: 16b }
+					buy: 80L
+				}
+				{
+					item: { id: "rats:cheese", Count: 32b }
+					buy: 290L
+				}
+				{
+					item: "pamhc2foodextended:bananapieitem"
+					buy: 240L
+				}
+				{
+					item: "pamhc2foodcore:freshmilkitem"
+					buy: 20L
+				}
+				{
+					item: "pamhc2foodextended:lambwithmintsauceitem"
+					buy: 280L
+				}
+				{
+					item: "undergarden:bloody_stew"
+					buy: 130L
+				}
+				{
+					item: "tconstruct:blood_cake"
+					buy: 165L
+				}
+				{
+					item: "pamhc2foodextended:kiwijuiceitem"
+					buy: 15L
+				}
+				{
+					item: "pamhc2foodcore:melonsmoothieitem"
+					buy: 15L
+				}
+				{
+					item: "forestcraft:monster_stew"
+					buy: 125L
+				}
+				{
+					item: { id: "forbidden_arcanus:cooked_tentacle", Count: 32b }
+					buy: 130L
+				}
+				{
+					item: "eidolon:zombie_heart"
+					buy: 1000L
+				}
+				{
+					item: { id: "forestcraft:endertrout", Count: 5b }
+					buy: 545L
+				}
+			]
+		}
+		{
+			title: "Magical Treatment"
+			icon: {
+				id: "eidolon:warlock_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			entries: [
+				{
+					item: {
+						id: "endrem:magical_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 2000L
+				}
+				{
+					item: {
+						id: "twilightforest:lamp_of_cinders"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 1200L
+				}
+				{
+					item: "naturesaura:shockwave_creator"
+					buy: 450L
+				}
+				{
+					item: "ars_nouveau:wand"
+					buy: 800L
+				}
+				{
+					item: {
+						id: "lightingwand:wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 250L
+				}
+				{
+					item: "ars_nouveau:archmage_spell_book"
+					buy: 25000L
+				}
+				{
+					item: {
+						id: "botania:monocle"
+						Count: 1b
+						tag: { }
+					}
+					buy: 350L
+				}
+				{
+					item: {
+						id: "botania:mana_bottle"
+						Count: 1b
+						tag: { }
+					}
+					buy: 200L
+				}
+				{
+					item: "botania:blacker_lotus"
+					buy: 450L
+				}
+				{
+					item: { id: "ars_nouveau:magic_clay", Count: 3b }
+					buy: 300L
+				}
+				{
+					item: "ars_nouveau:spell_parchment"
+					buy: 350L
+				}
+				{
+					item: "twilightforest:magic_map_focus"
+					buy: 100L
+				}
+				{
+					item: "twilightforest:ore_map"
+					buy: 500L
+				}
+				{
+					item: "villagertools:forget"
+					buy: 400L
+				}
+				{
+					item: {
+						id: "ars_nouveau:warp_scroll"
+						Count: 1b
+						tag: { }
+					}
+					buy: 500L
+				}
+				{
+					item: "tombstone:scroll_of_aquatic_life"
+					buy: 350L
+				}
+				{
+					item: "tombstone:scroll_of_lightning_resistance"
+					buy: 350L
+				}
+				{
+					item: "tombstone:scroll_of_purification"
+					buy: 350L
+				}
+				{
+					item: "tombstone:scroll_of_true_sight"
+					buy: 350L
+				}
+				{
+					item: "tombstone:essence_of_undeath"
+					buy: 600L
+				}
+				{
+					item: { id: "tombstone:grave_dust", Count: 16b }
+					buy: 100L
+				}
+				{
+					item: {
+						id: "tombstone:ankh_of_pray"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 450L
+				}
+				{
+					item: "tombstone:book_of_disenchantment"
+					buy: 350L
+				}
+				{
+					item: "tombstone:tablet_of_home"
+					buy: 250L
+				}
+				{
+					item: "eidolon:soul_enchanter"
+					buy: 700L
+				}
+				{
+					item: "rats:plague_tome"
+					buy: 13500L
+				}
+				{
+					item: "bloodmagic:experiencebook"
+					buy: 650L
+				}
+				{
+					item: "notenoughwands:acceleration_wand"
+					buy: 1200L
+				}
+				{
+					item: "notenoughwands:capturing_wand"
+					buy: 1200L
+				}
+				{
+					item: "notenoughwands:teleportation_wand"
+					buy: 1200L
+				}
+				{
+					item: { id: "minecraft:ender_pearl", Count: 16b }
+					buy: 350L
+				}
+				{
+					item: { id: "mana-and-artifice:vinteum_dust", Count: 4b }
+					buy: 250L
+				}
+			]
+		}
+		{
+			title: "Only the Best Sellers"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "enigmaticlegacy:torrent"
+					}]
+				}
+			}
+			entries: [
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+					buy: 10000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+					buy: 10000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+					buy: 10000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:blast_protection"
+							}]
+						}
+					}
+					buy: 1500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:respiration"
+							}]
+						}
+					}
+					buy: 8000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:aqua_affinity"
+							}]
+						}
+					}
+					buy: 5000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:thorns"
+							}]
+						}
+					}
+					buy: 1500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:depth_strider"
+							}]
+						}
+					}
+					buy: 3800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 6s
+								id: "minecraft:frost_walker"
+							}]
+						}
+					}
+					buy: 3800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:soul_speed"
+							}]
+						}
+					}
+					buy: 4800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+					buy: 12500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "minecraft:smite"
+							}]
+						}
+					}
+					buy: 9000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "minecraft:bane_of_arthropods"
+							}]
+						}
+					}
+					buy: 9000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:knockback"
+							}]
+						}
+					}
+					buy: 1500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:fire_aspect"
+							}]
+						}
+					}
+					buy: 2500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+					buy: 12500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:sweeping"
+							}]
+						}
+					}
+					buy: 10000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+					buy: 12500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:silk_touch"
+							}]
+						}
+					}
+					buy: 2800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+					buy: 4800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+					buy: 12500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "minecraft:power"
+							}]
+						}
+					}
+					buy: 8000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:punch"
+							}]
+						}
+					}
+					buy: 1500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:flame"
+							}]
+						}
+					}
+					buy: 2300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:infinity"
+							}]
+						}
+					}
+					buy: 7700L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:luck_of_the_sea"
+							}]
+						}
+					}
+					buy: 3400L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:lure"
+							}]
+						}
+					}
+					buy: 7400L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:loyalty"
+							}]
+						}
+					}
+					buy: 4600L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "minecraft:impaling"
+							}]
+						}
+					}
+					buy: 2600L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:riptide"
+							}]
+						}
+					}
+					buy: 2600L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:channeling"
+							}]
+						}
+					}
+					buy: 3000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:multishot"
+							}]
+						}
+					}
+					buy: 2300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:quick_charge"
+							}]
+						}
+					}
+					buy: 3500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:piercing"
+							}]
+						}
+					}
+					buy: 2500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+					buy: 12000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:vanishing_curse"
+							}]
+						}
+					}
+					buy: 1500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "stalwart_dungeons:thunder_strike"
+							}]
+						}
+					}
+					buy: 4450L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "evilcraft:unusing"
+							}]
+						}
+					}
+					buy: 1200L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "evilcraft:breaking"
+							}]
+						}
+					}
+					buy: 1000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 6s
+								id: "evilcraft:life_stealing"
+							}]
+						}
+					}
+					buy: 4500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "evilcraft:poison_tip"
+							}]
+						}
+					}
+					buy: 3200L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "evilcraft:vengeance"
+							}]
+						}
+					}
+					buy: 3000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "apotheosis:hell_infusion"
+							}]
+						}
+					}
+					buy: 6400L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "apotheosis:depth_miner"
+							}]
+						}
+					}
+					buy: 7500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "apotheosis:stable_footing"
+							}]
+						}
+					}
+					buy: 2500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "apotheosis:scavenger"
+							}]
+						}
+					}
+					buy: 7350L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "apotheosis:life_mending"
+							}]
+						}
+					}
+					buy: 8000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "apotheosis:icy_thorns"
+							}]
+						}
+					}
+					buy: 2000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "apotheosis:tempting"
+							}]
+						}
+					}
+					buy: 1000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "apotheosis:shield_bash"
+							}]
+						}
+					}
+					buy: 7350L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "apotheosis:reflective"
+							}]
+						}
+					}
+					buy: 4450L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "apotheosis:berserk"
+							}]
+						}
+					}
+					buy: 3450L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "apotheosis:knowledge"
+							}]
+						}
+					}
+					buy: 13000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "apotheosis:splitting"
+							}]
+						}
+					}
+					buy: 6450L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "apotheosis:natures_blessing"
+							}]
+						}
+					}
+					buy: 3000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 6s
+								id: "apotheosis:rebounding"
+							}]
+						}
+					}
+					buy: 6300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "apotheosis:magic_protection"
+							}]
+						}
+					}
+					buy: 7500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "apotheosis:sea_infusion"
+							}]
+						}
+					}
+					buy: 3350L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "apotheosis:bane_of_illagers"
+							}]
+						}
+					}
+					buy: 2350L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "apotheosis:obliteration"
+							}]
+						}
+					}
+					buy: 2350L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "apotheosis:crescendo"
+							}]
+						}
+					}
+					buy: 5350L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "apotheosis:capturing"
+							}]
+						}
+					}
+					buy: 11200L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "apotheosis:true_infinity"
+							}]
+						}
+					}
+					buy: 7800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "supplementaries:stasis"
+							}]
+						}
+					}
+					buy: 1000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "bloodletting:bloodletting"
+							}]
+						}
+					}
+					buy: 8000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "tombstone:shadow_step"
+							}]
+						}
+					}
+					buy: 1500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "tombstone:soulbound"
+							}]
+						}
+					}
+					buy: 2000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "tombstone:magic_siphon"
+							}]
+						}
+					}
+					buy: 1150L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "tombstone:plague_bringer"
+							}]
+						}
+					}
+					buy: 1250L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "tombstone:curse_of_bones"
+							}]
+						}
+					}
+					buy: 1250L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "tombstone:blessing"
+							}]
+						}
+					}
+					buy: 2300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "naturesaura:aura_mending"
+							}]
+						}
+					}
+					buy: 3800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "simplyjetpacks:fuel_efficiency"
+							}]
+						}
+					}
+					buy: 8800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "passablefoliage:leaf_walker"
+							}]
+						}
+					}
+					buy: 5800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "mythicbotany:hammer_mobility"
+							}]
+						}
+					}
+					buy: 4400L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "astralsorcery:night_vision"
+							}]
+						}
+					}
+					buy: 1600L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "astralsorcery:scorching_heat"
+							}]
+						}
+					}
+					buy: 4000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "vampirism:crossbowfrugality"
+							}]
+						}
+					}
+					buy: 2700L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "vampirism:vampireslayer"
+							}]
+						}
+					}
+					buy: 2700L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "alexsmobs:straddle_jump"
+							}]
+						}
+					}
+					buy: 3000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "alexsmobs:lavawax"
+							}]
+						}
+					}
+					buy: 5500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "alexsmobs:serpentfriend"
+							}]
+						}
+					}
+					buy: 2600L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "alexsmobs:board_return"
+							}]
+						}
+					}
+					buy: 2300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 11s
+								id: "cofh_core:holding"
+							}]
+						}
+					}
+					buy: 12000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "ars_nouveau:mana_regen"
+							}]
+						}
+					}
+					buy: 5600L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "ars_nouveau:mana_boost"
+							}]
+						}
+					}
+					buy: 7300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "ars_nouveau:reactive"
+							}]
+						}
+					}
+					buy: 3500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "enigmaticlegacy:sharpshooter"
+							}]
+						}
+					}
+					buy: 7450L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "enigmaticlegacy:ceaseless"
+							}]
+						}
+					}
+					buy: 5000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "enigmaticlegacy:nemesis_curse"
+							}]
+						}
+					}
+					buy: 1200L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "enigmaticlegacy:torrent"
+							}]
+						}
+					}
+					buy: 5700L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "enigmaticlegacy:wrath"
+							}]
+						}
+					}
+					buy: 9700L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "enigmaticlegacy:slayer"
+							}]
+						}
+					}
+					buy: 9700L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "spartanweaponry:throwing_range"
+							}]
+						}
+					}
+					buy: 2800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "spartanweaponry:throwing_damage"
+							}]
+						}
+					}
+					buy: 3800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "spartanweaponry:throwing_fire"
+							}]
+						}
+					}
+					buy: 3700L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "spartanweaponry:throwing_luck"
+							}]
+						}
+					}
+					buy: 6700L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "spartanweaponry:throwing_hydrodynamic"
+							}]
+						}
+					}
+					buy: 2600L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "cyclic:excavate"
+							}]
+						}
+					}
+					buy: 2300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "cyclic:experience_boost"
+							}]
+						}
+					}
+					buy: 12600L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "cyclic:beheading"
+							}]
+						}
+					}
+					buy: 4000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "cyclic:growth"
+							}]
+						}
+					}
+					buy: 3450L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 12s
+								id: "cyclic:launch"
+							}]
+						}
+					}
+					buy: 8500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 6s
+								id: "cyclic:life_leech"
+							}]
+						}
+					}
+					buy: 6800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "cyclic:magnet"
+							}]
+						}
+					}
+					buy: 4000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "cyclic:multishot"
+							}]
+						}
+					}
+					buy: 4100L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "cyclic:quickshot"
+							}]
+						}
+					}
+					buy: 8500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "cyclic:reach"
+							}]
+						}
+					}
+					buy: 1300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "cyclic:step"
+							}]
+						}
+					}
+					buy: 2100L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "cyclic:traveler"
+							}]
+						}
+					}
+					buy: 2300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 6s
+								id: "cyclic:venom"
+							}]
+						}
+					}
+					buy: 4000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "cyclic:auto_smelt"
+							}]
+						}
+					}
+					buy: 3500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "cyclic:disarm"
+							}]
+						}
+					}
+					buy: 13600L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "cyclic:curse"
+							}]
+						}
+					}
+					buy: 1000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "cyclic:ender"
+							}]
+						}
+					}
+					buy: 5500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 6s
+								id: "cyclic:beekeeper"
+							}]
+						}
+					}
+					buy: 3300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "allurement:alleviating"
+							}]
+						}
+					}
+					buy: 1500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "allurement:launch"
+							}]
+						}
+					}
+					buy: 9600L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "allurement:reeling"
+							}]
+						}
+					}
+					buy: 2000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "allurement:reforming"
+							}]
+						}
+					}
+					buy: 6600L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "allurement:shockwave"
+							}]
+						}
+					}
+					buy: 4000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "allurement:vengeance"
+							}]
+						}
+					}
+					buy: 3500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "vanillatweaks:blazing"
+							}]
+						}
+					}
+					buy: 3000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "vanillatweaks:siphon"
+							}]
+						}
+					}
+					buy: 1300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "vanillatweaks:veteran"
+							}]
+						}
+					}
+					buy: 4000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "vanillatweaks:nimble"
+							}]
+						}
+					}
+					buy: 6500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "vanillatweaks:vigor"
+							}]
+						}
+					}
+					buy: 16500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "vanillatweaks:hops"
+							}]
+						}
+					}
+					buy: 4500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "vanillatweaks:homing"
+							}]
+						}
+					}
+					buy: 4800L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "draconicevolution:reaper_enchantment"
+							}]
+						}
+					}
+					buy: 6666L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "forbidden_arcanus:permafrost"
+							}]
+						}
+					}
+					buy: 1450L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "forbidden_arcanus:indestructible"
+							}]
+						}
+					}
+					buy: 12500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "spartanshields:spikes"
+							}]
+						}
+					}
+					buy: 3300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "spartanshields:firebrand"
+							}]
+						}
+					}
+					buy: 4000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "spartanshields:payback"
+							}]
+						}
+					}
+					buy: 7000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "charm:acquisition"
+							}]
+						}
+					}
+					buy: 2500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "charm:aerial_affinity"
+							}]
+						}
+					}
+					buy: 2300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "charm:tinted"
+							}]
+						}
+					}
+					buy: 1000L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecolonies:raider_damage_enchant"
+							}]
+						}
+					}
+					buy: 1500L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "hunterillager:bounce"
+							}]
+						}
+					}
+					buy: 3100L
+				}
+			]
+		}
+		{
+			title: "Adventurer's Lodge"
+			icon: "kubejs:explorershat"
+			entries: [
+				{
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+					}
+					buy: 150L
+				}
+				{
+					item: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
+					buy: 150L
+				}
+				{
+					item: "minecraft:compass"
+					buy: 100L
+				}
+				{
+					item: "usefulbackpacks:backpack_large"
+					buy: 800L
+				}
+				{
+					item: { id: "druidcraft:fiery_torch", Count: 32b }
+					buy: 20L
+				}
+				{
+					item: { id: "minecraft:tnt", Count: 16b }
+					buy: 80L
+				}
+				{
+					item: {
+						id: "forestcraft:stinger_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 2500L
+				}
+				{
+					item: {
+						id: "enigmaticlegacy:forbidden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 1800L
+				}
+				{
+					item: {
+						id: "forbidden_arcanus:slimec_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:silk_touch"
+							}]
+						}
+					}
+					buy: 3800L
+				}
+				{
+					item: {
+						id: "endrem:guardian_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 2000L
+				}
+				{
+					item: {
+						id: "enigmaticlegacy:mining_charm"
+						Count: 1b
+						tag: { }
+					}
+					buy: 500L
+				}
+				{
+					item: "doggytalents:training_treat"
+					buy: 75L
+				}
+				{
+					item: "xreliquary:holy_hand_grenade"
+					buy: 100L
+				}
+				{
+					item: "vampirism:holy_water_bottle_ultimate"
+					buy: 200L
+				}
+				{
+					item: {
+						id: "treasure2:pocket_watch"
+						Count: 1b
+						tag: {
+							imbuing: 0b
+							maxInnateSize: 0
+							maxSocketSize: 2
+							innate: 0b
+							imbuable: 0b
+							source: 0b
+							executing: 1b
+							baseMaterial: "treasure2:gold"
+							socketable: 1b
+							bindable: 0b
+							sourceItem: "treasure2:topaz"
+							maxImbueSize: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								imbuing: 0b
+								maxInnateSize: 0
+								maxSocketSize: 2
+								innate: 0b
+								imbuable: 0b
+								namedByCharm: 0b
+								source: 0b
+								executing: 1b
+								namedByMaterial: 0b
+								baseMaterial: "treasure2:gold"
+								socketable: 1b
+								bindable: 0b
+								sourceItem: "treasure2:topaz"
+								maxImbueSize: 0
+							}
+						}
+					}
+					buy: 300L
+				}
+				{
+					item: "comforts:rope_and_nail"
+					buy: 180L
+				}
+				{
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "vampirism:long_strong_strength"
+						}
+					}
+					buy: 250L
+				}
+				{
+					item: {
+						id: "spartanshields:shield_basic_iron"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "vampirism:very_strong_healing"
+						}
+					}
+					buy: 150L
+				}
+				{
+					item: {
+						id: "tconstruct:earth_slime_sling"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 200L
+				}
+				{
+					item: {
+						id: "tconstruct:slime_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 546.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:bouncy"
+									level: 1s
+								}
+								{
+									name: "tconstruct:leaping"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					buy: 6200L
+				}
+				{
+					item: {
+						id: "treasure2:jewelled_key"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								durability: 5
+							}
+						}
+					}
+					buy: 650L
+				}
+				{
+					item: {
+						id: "cyclic:torch_launcher"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 400L
+				}
+				{
+					item: {
+						id: "mekanismtools:refined_obsidian_paxel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 500L
+				}
+				{
+					item: "enderstorage:ender_pouch"
+					buy: 3500L
+				}
+				{
+					item: "cyclic:spawner_seeker"
+					buy: 500L
+				}
+				{
+					item: {
+						id: "minecraft:bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 150L
+				}
+				{
+					item: { id: "minecraft:arrow", Count: 32b }
+					buy: 250L
+				}
+				{
+					item: { id: "thermal:earth_grenade", Count: 16b }
+					buy: 300L
+				}
+				{
+					item: { id: "thermal:explosive_grenade", Count: 16b }
+					buy: 300L
+				}
+				{
+					item: { id: "supplementaries:bomb", Count: 16b }
+					buy: 300L
+				}
+				{
+					item: "pamhc2foodextended:grilledcheesevegemitetoastitem"
+					buy: 100L
+				}
+				{
+					item: {
+						id: "cyclic:charm_void"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 200L
+				}
+				{
+					item: {
+						id: "cyclic:charm_antidote"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 200L
+				}
+				{
+					item: {
+						id: "cyclic:charm_fire"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 200L
+				}
+				{
+					item: "darkutils:charm_portal"
+					buy: 150L
+				}
+				{
+					item: "evilcraft:bucket_eternal_water"
+					buy: 2800L
+				}
+				{
+					item: {
+						id: "spartanweaponry:quiver_arrow_huge"
+						Count: 1b
+						tag: {
+							ClientInventory: [ ]
+						}
+						ForgeCaps: {
+							Parent: {
+								Size: 12
+								Items: [ ]
+							}
+						}
+					}
+					buy: 300L
+				}
+				{
+					item: {
+						id: "relics:magic_mirror"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 7200L
+				}
+				{
+					item: {
+						id: "iceandfire:dragonsteel_fire_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 300000L
+				}
+				{
+					item: {
+						id: "atum:desert_chest_diamond"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 4000L
+				}
+				{
+					item: {
+						id: "thermal:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: "tconstruct:quartz_shuriken"
+					buy: 200L
+				}
+				{
+					item: {
+						id: "endrem:nether_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 2000L
+				}
+				{
+					item: "blue_skies:blinding_key"
+					buy: 3900L
+				}
+				{
+					item: "blue_skies:nature_key"
+					buy: 3900L
+				}
+				{
+					item: "blue_skies:poison_key"
+					buy: 3900L
+				}
+			]
+		}
+		{
+			title: "The SoulTaker"
+			icon: {
+				id: "cyclic:charm_antipotion"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			entries: [
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 8.0d
+							Type: "mysticalagriculture:pig"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 8.0d
+							Type: "mysticalagriculture:chicken"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 8.0d
+							Type: "mysticalagriculture:cow"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 8.0d
+							Type: "mysticalagriculture:sheep"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 6.0d
+							Type: "mysticalagriculture:squid"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 6.0d
+							Type: "mysticalagriculture:fish"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 12.0d
+							Type: "mysticalagriculture:slime"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 6.0d
+							Type: "mysticalagriculture:turtle"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 10.0d
+							Type: "mysticalagriculture:zombie"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 10.0d
+							Type: "mysticalagriculture:skeleton"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 10.0d
+							Type: "mysticalagriculture:creeper"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 10.0d
+							Type: "mysticalagriculture:spider"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 6.0d
+							Type: "mysticalagriculture:rabbit"
+						}
+					}
+					buy: 800L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 10.0d
+							Type: "mysticalagriculture:blaze"
+						}
+					}
+					buy: 1000L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 4.0d
+							Type: "mysticalagriculture:ghast"
+						}
+					}
+					buy: 1000L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 8.0d
+							Type: "mysticalagriculture:enderman"
+						}
+					}
+					buy: 1000L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 8.0d
+							Type: "mysticalagriculture:wither_skeleton"
+						}
+					}
+					buy: 1000L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 6.0d
+							Type: "mysticalagriculture:blizz"
+						}
+					}
+					buy: 1200L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 6.0d
+							Type: "mysticalagriculture:blitz"
+						}
+					}
+					buy: 1200L
+				}
+				{
+					item: {
+						id: "mysticalagriculture:soul_jar"
+						Count: 1b
+						tag: {
+							Souls: 6.0d
+							Type: "mysticalagriculture:basalz"
+						}
+					}
+					buy: 1200L
+				}
+				{
+					item: {
+						id: "botania:ender_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 700L
+				}
+				{
+					item: "tombstone:soul_receptacle"
+					buy: 700L
+				}
+				{
+					item: "iceandfire:hydra_heart"
+					buy: 17500L
+				}
+				{
+					item: "blue_skies:soul_fragment"
+					buy: 900L
+				}
+				{
+					item: "vampirism:soul_orb_vampire"
+					buy: 450L
+				}
+				{
+					item: "quark:soul_compass"
+					buy: 350L
+				}
+				{
+					item: "forbidden_arcanus:dark_soul"
+					buy: 600L
+				}
+				{
+					item: {
+						id: "botania:brew_flask"
+						Count: 1b
+						tag: {
+							brewKey: "botania:soul_cross"
+						}
+					}
+					buy: 1000L
+				}
+				{
+					item: {
+						id: "forestcraft:soul_scythe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 1100L
+				}
+				{
+					item: {
+						id: "eidolon:soulfire_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 1500L
+				}
+			]
+		}
+		{
+			title: "The Pirate Bay"
+			icon: "treasure2:dread_pirate_chest"
+			entries: [
+				{
+					item: {
+						id: "endrem:black_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 2000L
+				}
+				{
+					item: {
+						id: "rats:pirat_cutlass"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 450L
+				}
+				{
+					item: {
+						id: "endrem:lost_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 2000L
+				}
+				{
+					item: "mysticalagradditions:creative_essence"
+					buy: 1500000000L
+				}
+				{
+					item: "simplyjetpacks:jetpack_creative"
+					buy: 1500000000L
+				}
+				{
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+					buy: 1250000L
+				}
+				{
+					item: "minecraft:beacon"
+					buy: 7000L
+				}
+				{
+					item: {
+						id: "inventorypets:pet_nether_portal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 1200L
+				}
+				{
+					item: "rats:chunky_cheese_token"
+					buy: 7500L
+				}
+				{
+					item: {
+						id: "rats:plague_scythe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 1200L
+				}
+				{
+					item: "minecraft:ghast_tear"
+					buy: 800L
+				}
+				{
+					item: {
+						id: "treasure2:skeleton_key"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								durability: 5
+							}
+						}
+					}
+					buy: 600L
+				}
+				{
+					item: {
+						id: "treasure2:wither_key"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								durability: 5
+							}
+						}
+					}
+					buy: 300L
+				}
+				{
+					item: "twilightforest:rainboak_sapling"
+					buy: 300L
+				}
+				{
+					item: "enigmaticlegacy:forbidden_fruit"
+					buy: 1000L
+				}
+				{
+					item: "tombstone:soul_receptacle"
+					buy: 800L
+				}
+				{
+					item: "mod_lavacow:undyingheart"
+					buy: 5500L
+				}
+				{
+					item: {
+						id: "forbidden_arcanus:soul_extractor"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 1800L
+				}
+				{
+					item: {
+						id: "mekanism:creative_energy_cube"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "18446744073709551615.9999"
+								}]
+							}
+						}
+					}
+					buy: 5000000000L
+				}
+				{
+					item: {
+						id: "thermal:hazmat_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 350L
+				}
+				{
+					item: "iceandfire:spawn_egg_cyclops"
+					buy: 400L
+				}
+				{
+					item: "minecraft:bee_nest"
+					buy: 200L
+				}
+				{
+					item: { id: "industrialforegoing:plastic", Count: 16b }
+					buy: 250L
+				}
+				{
+					item: "iceandfire:deathworm_egg_giant"
+					buy: 300L
+				}
+				{
+					item: "iceandfire:rotten_egg"
+					buy: 250L
+				}
+				{
+					item: "quark:weather_sensor"
+					buy: 250L
+				}
+				{
+					item: "iceandfire:myrmex_desert_swarm"
+					buy: 250L
+				}
+				{
+					item: "appliedenergistics2:calculation_processor_press"
+					buy: 150L
+				}
+				{
+					item: "appliedenergistics2:engineering_processor_press"
+					buy: 150L
+				}
+				{
+					item: "appliedenergistics2:logic_processor_press"
+					buy: 150L
+				}
+				{
+					item: "appliedenergistics2:silicon_press"
+					buy: 150L
+				}
+				{
+					item: {
+						id: "swiaf:hammer_ice_dragonsteel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 70000L
+				}
+				{
+					item: {
+						id: "iceandfire:dragonsteel_lightning_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 15000L
+				}
+				{
+					item: {
+						id: "swiaf:heavy_crossbow_fire_dragonbone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 15000L
+				}
+				{
+					item: "refinedstorage:creative_storage_disk"
+					buy: 4500000000L
+				}
+				{
+					item: {
+						id: "appliedenergistics2:creative_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+					buy: 4500000000L
+				}
+				{
+					item: "botanicalmachinery:mana_battery_creative"
+					buy: 3500000000L
+				}
+				{
+					item: "mysticalagriculture:creative_soulium_dagger"
+					buy: 15000L
+				}
+				{
+					item: "draconicevolution:small_chaos_frag"
+					buy: 1500L
+				}
+			]
+		}
+		{
+			title: "Weird and Beyond all Reason"
+			icon: {
+				id: "stalwart_dungeons:awful_gun"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			entries: [
+				{
+					item: "rats:rat_paw"
+					buy: 25L
+				}
+				{
+					item: { id: "forestcraft:weird_cucumber", Count: 3b }
+					buy: 10L
+				}
+				{
+					item: {
+						id: "iceandfire:dread_queen_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 1500000L
+				}
+				{
+					item: "forestcraft:alpha_insane_dog_eye"
+					buy: 70L
+				}
+				{
+					item: "forestcraft:molten_alloy"
+					buy: 95L
+				}
+				{
+					item: "forestcraft:prismatic_diamond"
+					buy: 700L
+				}
+				{
+					item: "forestcraft:synthesizer"
+					buy: 300L
+				}
+				{
+					item: {
+						id: "cyclic:glove_climb"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 750L
+				}
+				{
+					item: "quark:golden_frog_leg"
+					buy: 120L
+				}
+				{
+					item: "quark:bottled_cloud"
+					buy: 150L
+				}
+				{
+					item: {
+						id: "quark:forgotten_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 500L
+				}
+				{
+					item: "rats:rat_upgrade_combined_creative"
+					buy: 300000000L
+				}
+				{
+					item: {
+						id: "inventorypets:pet_meta"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 8500L
+				}
+				{
+					item: "rats:rat_upgrade_chef"
+					buy: 1000L
+				}
+				{
+					item: { id: "minecraft:wither_skeleton_spawn_egg", Count: 3b }
+					buy: 1000L
+				}
+				{
+					item: "mowziesmobs:foliaath_seed"
+					buy: 500L
+				}
+				{
+					item: {
+						id: "treasure2:wither_key"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								durability: 5
+							}
+						}
+					}
+					buy: 750L
+				}
+				{
+					item: {
+						id: "rats:santa_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 150L
+				}
+				{
+					item: {
+						id: "evilcraft:spectral_glasses"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 150L
+				}
+				{
+					item: "minecraft:sponge"
+					buy: 100L
+				}
+				{
+					item: "rats:rat_arrow"
+					buy: 95L
+				}
+				{
+					item: "minecraft:rabbit_foot"
+					buy: 50L
+				}
+				{
+					item: "thermal:slime_grenade"
+					buy: 150L
+				}
+				{
+					item: {
+						id: "relics:slime_heart"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 950L
+				}
+				{
+					item: "pamhc2foodextended:rivermudcakeitem"
+					buy: 45L
+				}
+				{
+					item: "evilcraft:burning_gem_stone"
+					buy: 300L
+				}
+				{
+					item: "quark:diamond_heart"
+					buy: 500L
+				}
+				{
+					item: "scannable:scanner"
+					buy: 1000L
+				}
+				{
+					item: {
+						id: "cyclic:spelunker"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 400L
+				}
+				{
+					item: "xreliquary:twilight_cloak"
+					buy: 800L
+				}
+				{
+					item: { id: "tconstruct:pig_iron_ingot", Count: 16b }
+					buy: 150L
+				}
+				{
+					item: "angelblock:angel_block"
+					buy: 300L
+				}
+				{
+					item: "enigmaticlegacy:cursed_ring"
+					buy: 500L
+				}
+				{
+					item: {
+						id: "forestcraft:terror_bringer_claw"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 200L
+				}
+				{
+					item: {
+						id: "forbidden_arcanus:eternal_stella"
+						Count: 1b
+						tag: { }
+					}
+					buy: 35000L
+				}
+				{
+					item: "morphtool:tool"
+					buy: 500L
+				}
+				{
+					item: {
+						id: "doubleslabs:vertical_slab"
+						Count: 1b
+						tag: {
+							item: {
+								id: "minecraft:soul_campfire"
+								Count: 1b
+							}
+						}
+					}
+					buy: 200L
+				}
+			]
+		}
+	]
+}

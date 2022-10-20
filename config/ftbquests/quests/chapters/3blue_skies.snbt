@@ -1,0 +1,2517 @@
+{
+	id: "74560EE6653E7696"
+	group: "5FA6CDF6F0D49B30"
+	order_index: 4
+	filename: "3blue_skies"
+	title: "&3Blue Skies"
+	icon: "blue_skies:star_flare"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -4.5d
+			width: 6.5d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/bluski.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.8571428571428541d
+			y: -3.232142857142861d
+			width: 0.3d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.8928571428571459d
+			y: -3.1964285714285694d
+			width: 0.3d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			width: 2.0d
+			height: 1.6d
+			rotation: 0.0d
+			image: "kubejs:textures/item/blskmo1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.857142857142854d
+			y: 1.7678571428571388d
+			width: 1.7d
+			height: 2.2d
+			rotation: 0.0d
+			image: "kubejs:textures/item/blskmo2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.250000000000007d
+			y: 2.125d
+			width: 1.7d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/item/blskmo3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/spark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/spark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.5d
+			y: 2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/spark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: 2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/spark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -1.5d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "❄ Everbright"
+			description: ["The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual. As you explore, you’ll encounter the Summoner’s Blinding Dungeon and the Nature Dungeon, home of the Starlit Crusher."]
+			id: "41ACBFB2805BFB3E"
+			tasks: [{
+				id: "194B3E848E0D1775"
+				type: "dimension"
+				title: "Visit Dimension: &2The Everbright"
+				dimension: "blue_skies:everbright"
+			}]
+			rewards: [
+				{
+					id: "42B078D865D77FBD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7248802BC49E6884"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "58562D396D371212"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "🌅 Everdawn"
+			description: ["The Everdawn has its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you. Venture across this diverse landscape to uncover the Alchemist’s Blinding Dungeon and then the Poison Dungeon, lair of the Arachnarch."]
+			id: "663C8A3A0D93AE0F"
+			tasks: [{
+				id: "7A41DDD1A82B7B5A"
+				type: "dimension"
+				title: "Visit Dimension: &2The Everdawn"
+				dimension: "blue_skies:everdawn"
+			}]
+			rewards: [
+				{
+					id: "0AC88851FD01C084"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "55A2DF1101117FC4"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "765C10BAC05ACE7D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "hexagon"
+			dependencies: [
+				"41ACBFB2805BFB3E"
+				"663C8A3A0D93AE0F"
+			]
+			dependency_requirement: "one_completed"
+			id: "2C084EC64C064C08"
+			tasks: [{
+				id: "2D6A73C9093EAA6D"
+				type: "item"
+				item: "blue_skies:moonstone_shard"
+			}]
+			rewards: [
+				{
+					id: "38518ED2BC238B48"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "38BFAA78F50DBD2C"
+					type: "item"
+					item: "blue_skies:cooked_carabeef"
+					count: 8
+				}
+				{
+					id: "0437189653D460A9"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6C496411B57068A9"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["2C084EC64C064C08"]
+			id: "7843EA1D75051743"
+			tasks: [{
+				id: "3773BF56F3FC773D"
+				type: "item"
+				item: "blue_skies:pyrope_gem"
+			}]
+			rewards: [
+				{
+					id: "0B2EA0ACBC8C9053"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "15C2D4C1DF52B8F7"
+					type: "item"
+					item: "blue_skies:bluebright_chest"
+					count: 4
+				}
+				{
+					id: "7FB99888E590D6F8"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "hexagon"
+			dependencies: ["7843EA1D75051743"]
+			id: "7C217A533C98933B"
+			tasks: [{
+				id: "333DA7623110E275"
+				type: "item"
+				item: "blue_skies:aquite_gem"
+			}]
+			rewards: [
+				{
+					id: "7EB08CEC6199C991"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "762F1501280B7250"
+					type: "item"
+					item: "blue_skies:azulfo_horn"
+					count: 16
+				}
+				{
+					id: "799AFCF6E6E1F3F6"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "19D2255CD3615F39"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["7C217A533C98933B"]
+			id: "294597E7511AF1C2"
+			tasks: [{
+				id: "0127D3AC3F128953"
+				type: "item"
+				item: "blue_skies:diopside_gem"
+			}]
+			rewards: [
+				{
+					id: "6444CBEF2966F46A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00859B424B90E294"
+					type: "item"
+					item: "blue_skies:bug_guts"
+					count: 24
+				}
+				{
+					id: "7A2C622CF86D36E4"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4A4E16278A9A6C92"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["294597E7511AF1C2"]
+			id: "0114DA1F84199E73"
+			tasks: [{
+				id: "03350457867F7771"
+				type: "item"
+				item: "blue_skies:charoite"
+			}]
+			rewards: [
+				{
+					id: "415E9D11DB72D4FC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "43ADBD45C4A900DF"
+					type: "item"
+					item: "blue_skies:astrolabe"
+				}
+				{
+					id: "1862F333D224E818"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "21F320658AB8A4DE"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			dependencies: ["5B2813DDE61E5F81"]
+			id: "4D9D49F45A79E00A"
+			tasks: [{
+				id: "1D6293C7093BE59A"
+				type: "item"
+				item: "blue_skies:falsite_ingot"
+			}]
+			rewards: [
+				{
+					id: "343FB19C0DE5E643"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3FD6E095831DD6E2"
+					type: "item"
+					item: {
+						id: "blue_skies:prepared_food"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5966F95B48D645C5"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "58B78956FAB4B03C"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			dependencies: ["4D9D49F45A79E00A"]
+			id: "4E3C85B95539C402"
+			tasks: [{
+				id: "48578570F50C86FA"
+				type: "item"
+				item: "blue_skies:warding_pearl"
+			}]
+			rewards: [
+				{
+					id: "3CD6C947112A213A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3F6C1CE8CEFE8E46"
+					type: "item"
+					item: "blue_skies:warding_pearl"
+				}
+				{
+					id: "67A8FE9EF614996E"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "734518D0A7CCE4EA"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["41ACBFB2805BFB3E"]
+			id: "5B2813DDE61E5F81"
+			tasks: [{
+				id: "6C03F9A5355F6218"
+				type: "item"
+				item: "blue_skies:soul_fragment"
+			}]
+			rewards: [
+				{
+					id: "01F97B1CD6C848D6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "53AA5BB267565614"
+					type: "item"
+					item: "blue_skies:pine_fruit"
+					count: 12
+				}
+				{
+					id: "01CF5E108EAF7706"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "69A6EC28FD9D4925"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&9&lThe Summoner's Blinding Dungeon"
+			x: -3.874999999999993d
+			y: 3.732142857142854d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["41ACBFB2805BFB3E"]
+			size: 1.5d
+			id: "3C7802679071506E"
+			tasks: [{
+				id: "2D39742BF94C46F2"
+				type: "structure"
+				title: "Find and enter the Summoner's dungeon"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/summdung.png"
+					}
+				}
+				structure: "blue_skies:everbright_blinding_dungeon"
+			}]
+			rewards: [
+				{
+					id: "60A9C2FB6149AEF8"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "30AC71E5E04C4678"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "0B81D7098753A44E"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: -3.374999999999993d
+			y: 4.982142857142854d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["3C7802679071506E"]
+			hide: true
+			id: "017789C6FBA28DEA"
+			tasks: [{
+				id: "6F07E0A32AB2406E"
+				type: "kill"
+				entity: "blue_skies:summoner"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "43D695F265AAFCEC"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1F900AB2A0EADF70"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "17FC44D51F94CF24"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "7737D1A31DC3F3C3"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			title: "&9&lThe Trident in the Blue Skies Dimension"
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["2C084EC64C064C08"]
+			id: "3189F82B3A0C0EE1"
+			tasks: [{
+				id: "04851780CA37E7AD"
+				type: "item"
+				title: "Make any kind of spear"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "blue_skies:spears"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3F466B61FD9F48AB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7D0D86041535E75C"
+					type: "item"
+					item: "blue_skies:cooked_monitor_tail"
+					count: 8
+				}
+				{
+					id: "39046F34D4FB1AF8"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "7D967BC073C0EE53"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			title: "&cPyrope Tool Set"
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["7843EA1D75051743"]
+			id: "0645E719B181BD61"
+			tasks: [
+				{
+					id: "099A3B1FB26FE688"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03A9D506302B758A"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0515E05D6D399510"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3D8773F478B8286B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2A8DD4210EDB81E9"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "09A13642D9E4CFC0"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "33DA1B85E2522AF4"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "&cPyrope Armor Set"
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["7843EA1D75051743"]
+			id: "6CFE636DAD494C51"
+			tasks: [
+				{
+					id: "4707F541794954E8"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41227CF7390B53CF"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "541AD915EE294725"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "55B09A4FC099D672"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "68488A4C78EF4CED"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "30962EE1D648B4E5"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6738661228DBD753"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5FF3AD44310F8396"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "&5Aquite Tool Set"
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["7C217A533C98933B"]
+			id: "374314B98907B290"
+			tasks: [
+				{
+					id: "54B667C259C1DA61"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "66572AB0D6FE7438"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "580863C976690A7E"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "163E292E44A9AAA8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "12FEEA8F2EE2456E"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15375CFBDC17BAE3"
+					type: "loot"
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "3D579D425F191658"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&2Diopside Tool Set"
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["294597E7511AF1C2"]
+			id: "478D91746DC7BE35"
+			tasks: [
+				{
+					id: "1431A2F5E38C7C6C"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "585908E25CFA5209"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BC42E005F3B0131"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "56C3472CB77C45EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "437BDDC411F17A31"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58CA0AE9D45497C9"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "08151E3967C011DC"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&9Charoite Tool Set"
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["0114DA1F84199E73"]
+			id: "5998D83CEAC8D229"
+			tasks: [
+				{
+					id: "1388F94EB90DF5A7"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C17E569FEAB6128"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2ACC0E0DCE0C3E7B"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "41F1034E3D4A9C66"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5314FE4A7A4A99D6"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B92252B544DB0EB"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "38E0C614ADCA9416"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			title: "&5Aquite Armor Set"
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["7C217A533C98933B"]
+			id: "6C661BC12504B5F6"
+			tasks: [
+				{
+					id: "7F01A955C5C06275"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58972A25C7B454F4"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "51B7C51DA0945C1F"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "25A270E149587F1A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "128BD0AF514FE94D"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "433B453C66F80761"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5909B58852287965"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "47BB9E9119336622"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "&2Diopside Armor Set"
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["294597E7511AF1C2"]
+			id: "330BEDEDF5174FD2"
+			tasks: [
+				{
+					id: "2D17B0D0030C63FA"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7BBBE0232A7DCEFA"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "436F909C5C00B91D"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "621E75DCBA4E4513"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "58E77EBD16348537"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "46B0CEE700CC4BFC"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73EE46AE1CFA5A39"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "5F4408A60D05EEBF"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&9Charoite Armor Set"
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["0114DA1F84199E73"]
+			id: "1C30C85D7D012914"
+			tasks: [
+				{
+					id: "31FBAC5D95831612"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17132AB86B901374"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12FADF751BC3D204"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5E4A447635DAC3B2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "31FE6E1D286D7540"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F1E002003C798F2"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62DEE761FF5B12FC"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "71DF71987D0BB577"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["2C084EC64C064C08"]
+			id: "030131F4F552E1FB"
+			tasks: [{
+				id: "0B629CEC83C1E91D"
+				type: "item"
+				item: "blue_skies:moonstone_lantern"
+			}]
+			rewards: [
+				{
+					id: "687C283A29750B7D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "227B7BD0397DC7D2"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "1210E31811419C4A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -4.374999999999993d
+			y: 4.982142857142854d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["3C7802679071506E"]
+			hide: true
+			id: "57C189D791ADCF49"
+			tasks: [{
+				id: "067D8BB289321535"
+				type: "item"
+				title: "Collect any of the Summoner's drops"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "blue_skies:summoner_drops"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "72215E595D0B8516"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6E49226655756B0B"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "1C9536ED6754436C"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&9&lThe Natur's Dungeon"
+			x: -6.482142857142854d
+			y: 3.7678571428571317d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["41ACBFB2805BFB3E"]
+			size: 1.5d
+			id: "3BB20A9B6C8E206F"
+			tasks: [{
+				id: "34DBBDE5D774CA1D"
+				type: "structure"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/natudung.png"
+					}
+				}
+				structure: "blue_skies:nature_dungeon"
+			}]
+			rewards: [
+				{
+					id: "308124AFB1E8E36E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "003696008C373BCD"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "3560572AD347AA6E"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: -5.982142857142854d
+			y: 5.017857142857132d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["3BB20A9B6C8E206F"]
+			hide: true
+			id: "6A76EABEB0655C25"
+			tasks: [{
+				id: "2BFE9D16723B4A52"
+				type: "kill"
+				entity: "blue_skies:starlit_crusher"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0804A11009ACD874"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1F076D3F8423AE72"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "424DF02B4D188BA0"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "48B124D3DCD99C30"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -6.982142857142854d
+			y: 5.017857142857132d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["3BB20A9B6C8E206F"]
+			hide: true
+			id: "35C4891A6E5BBE81"
+			tasks: [{
+				id: "4820A5BF5C340886"
+				type: "item"
+				title: "Collect any of the Starlit Crusher drops"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "blue_skies:starlit_crusher_drops"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6491CF54E1B64C00"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0104584097D31FFD"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "5F20B604979ED42C"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["20A5F775133EA736"]
+			id: "135213F1292A078E"
+			tasks: [{
+				id: "35F48ABECA642B21"
+				type: "item"
+				item: {
+					id: "blue_skies:moonstone_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "187A82C86EA64C15"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3848C03937547F51"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "7CF0859EAB359A25"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["456C960BCF327B58"]
+			id: "1154A75FF6AA6661"
+			tasks: [{
+				id: "547257A9868721C6"
+				type: "item"
+				item: "blue_skies:bag_of_spoils"
+			}]
+			rewards: [
+				{
+					id: "560A62181C175C7A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "58971DA5E0E8FB4D"
+					type: "item"
+					item: "blue_skies:cooked_venison"
+					count: 12
+				}
+				{
+					id: "4B980D3896C4D993"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "1848AFEEDDA9661A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["20A5F775133EA736"]
+			id: "456C960BCF327B58"
+			tasks: [{
+				id: "5B8AF352DB480FFE"
+				type: "item"
+				item: "blue_skies:fox_pelt"
+			}]
+			rewards: [
+				{
+					id: "4E664C5F96D3F8D2"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "705AE30FF21460BA"
+					type: "item"
+					item: "blue_skies:crescent_fruit"
+					count: 16
+				}
+				{
+					id: "234EA731A1FFCB2E"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "4BB840458A7C79B0"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["456C960BCF327B58"]
+			id: "2B62DC26BE1348BB"
+			tasks: [{
+				id: "38A2F806C62B2219"
+				type: "item"
+				item: "blue_skies:camel_saddle"
+			}]
+			rewards: [
+				{
+					id: "27CBA2E9BA0E434A"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "057A44744BB2594B"
+					type: "item"
+					item: "blue_skies:moonstone_crystal"
+					count: 16
+				}
+				{
+					id: "4081D330313EEA33"
+					type: "item"
+					item: "blue_skies:sunstone_crystal"
+					count: 16
+				}
+				{
+					id: "20084D5B99367836"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["663C8A3A0D93AE0F"]
+			id: "20A5F775133EA736"
+			tasks: [{
+				id: "451F24A8D4BD82C4"
+				type: "item"
+				item: "blue_skies:raw_moonstone"
+			}]
+			rewards: [
+				{
+					id: "5F8928EF73EE28C9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6351BE4A8E037BBF"
+					type: "item"
+					item: "blue_skies:polished_rimestone"
+					count: 64
+				}
+				{
+					id: "6A7DA9A12CEB2969"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "65C1E30BDE0CE6DC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["20A5F775133EA736"]
+			id: "161BF1763C114498"
+			tasks: [{
+				id: "56CEA6861F049BED"
+				type: "item"
+				item: "blue_skies:horizonite_ingot"
+			}]
+			rewards: [
+				{
+					id: "67C2BF2C77B4DA4C"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "3DEDEA1BCC2EF274"
+					type: "loot"
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "4E5C72B14105171B"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			dependencies: ["161BF1763C114498"]
+			id: "4DD7E4B904F1504C"
+			tasks: [
+				{
+					id: "714FD72A25C4148B"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55AAC42C04316878"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B08D086232F3309"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "78E12EA615F06879"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "75929C0565303099"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "384CF4DD9C6A1AFE"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "5DDD397C9EDDBD7F"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["161BF1763C114498"]
+			id: "72B4975C73DEBB6B"
+			tasks: [
+				{
+					id: "1A081C223EEA077B"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7993528A98A819C8"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BF15FF39632B3E9"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "75F8485960819C4B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6F5CFB52FB3463BD"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "070798B986AC2719"
+					type: "item"
+					item: {
+						id: "blue_skies:horizonite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5AFDB51531B4C0BB"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "2CD474BDECBFAF6B"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["4D9D49F45A79E00A"]
+			id: "75363036F9175784"
+			tasks: [{
+				id: "7E3416406801DD53"
+				type: "item"
+				item: "blue_skies:star_emitter"
+			}]
+			rewards: [
+				{
+					id: "27CB2AFB43152561"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "687805BA0B04EF03"
+					type: "item"
+					item: "blue_skies:star_emitter"
+				}
+				{
+					id: "4FEA93FA9EF4D1B6"
+					type: "loot"
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "124732A1B3C93750"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 7.508928571428562d
+			y: 0.5625000000000071d
+			dependencies: ["161BF1763C114498"]
+			id: "76DD3732F076A321"
+			tasks: [{
+				id: "71D3147A423894E0"
+				type: "item"
+				item: "blue_skies:horizonite_forge"
+			}]
+			rewards: [
+				{
+					id: "4AC3B522E7215309"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E6C3D225C9BE962"
+					type: "item"
+					item: "blue_skies:everbright_charoite_ore"
+					count: 4
+				}
+				{
+					id: "0BCF878EE048E9A7"
+					type: "item"
+					item: "blue_skies:everbright_emerald_ore"
+					count: 4
+				}
+				{
+					id: "438EF50D9B2214F1"
+					type: "item"
+					item: "blue_skies:ventium_ore"
+					count: 4
+				}
+				{
+					id: "4F74D21D7A286B52"
+					type: "item"
+					item: "blue_skies:horizonite_ore"
+					count: 4
+				}
+				{
+					id: "38AA5C1CDABCA47A"
+					type: "loot"
+					table_id: 7643435528041904640L
+				}
+				{
+					id: "3C7BDF0DC9948447"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&9&lThe Alchemist's Blinding Dungeon"
+			x: 3.75d
+			y: 3.75d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["663C8A3A0D93AE0F"]
+			size: 1.5d
+			id: "094607CA20877658"
+			tasks: [{
+				id: "747AF53CF9EDA8D7"
+				type: "structure"
+				title: "Find and enter the Alchemist's dungeon"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/alche.png"
+					}
+				}
+				structure: "blue_skies:everdawn_blinding_dungeon"
+			}]
+			rewards: [
+				{
+					id: "30C9D7B7CCDF2C42"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6BE61919E420498C"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "51CA8DECCB2BDDDD"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			title: "&9&lThe Poison Dungeon"
+			x: 6.75d
+			y: 3.75d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["663C8A3A0D93AE0F"]
+			size: 1.5d
+			id: "67AC4227929EC5F9"
+			tasks: [{
+				id: "291EB1597817026E"
+				type: "structure"
+				title: "Find and enter the Poison dungeon"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/poidung.png"
+					}
+				}
+				structure: "blue_skies:poison_dungeon"
+			}]
+			rewards: [
+				{
+					id: "68CE6513BE39F38A"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "5295998438253518"
+					type: "loot"
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "477A52821B28E5AA"
+					type: "ftbmoney:money"
+					ftb_money: 300L
+				}
+			]
+		}
+		{
+			x: -5.026785714285722d
+			y: 0.0625d
+			dependencies: ["4D9D49F45A79E00A"]
+			id: "0323B0B3D6905A80"
+			tasks: [{
+				id: "1DF18AD72C1D1C1E"
+				type: "item"
+				item: "blue_skies:ventium_ingot"
+			}]
+			rewards: [
+				{
+					id: "2D3EFD25648E9542"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "33FE5D0D37803B7B"
+					type: "item"
+					item: "blue_skies:cherry"
+					count: 16
+				}
+				{
+					id: "2CCECB8244B91A90"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "7AFF1531B7ED0126"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: -5.419642857142868d
+			y: 1.0982142857142847d
+			dependencies: ["0323B0B3D6905A80"]
+			id: "729762F02CF749E8"
+			tasks: [{
+				id: "02F285C333BEEBD9"
+				type: "item"
+				item: {
+					id: "blue_skies:ventium_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6F9C3E822AA9FCE0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "40BDD6A2978CE829"
+					type: "item"
+					item: "blue_skies:black_brewberry"
+					count: 8
+				}
+				{
+					id: "2F4EAB92BBDD2282"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -6.562500000000007d
+			y: 0.9553571428571388d
+			dependencies: ["0323B0B3D6905A80"]
+			id: "70CBD6D1E43DD08C"
+			tasks: [{
+				id: "777694D71918F380"
+				type: "item"
+				item: "blue_skies:ventium_bucket"
+			}]
+			rewards: [
+				{
+					id: "3B5F6D321DF1CF70"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "235AF159A41407BE"
+					type: "item"
+					item: "blue_skies:pink_brewberry"
+					count: 8
+				}
+				{
+					id: "7C21CA0F520B3A50"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 4.223214285714292d
+			y: 5.026785714285715d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["094607CA20877658"]
+			hide: true
+			id: "4051BAFC14B957F5"
+			tasks: [{
+				id: "7DC0E3DAB8C6A235"
+				type: "kill"
+				entity: "blue_skies:alchemist"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "521B73762ED16AA7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "27C54E790426B551"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "3EEF06C39C660EC2"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "59223C09DCDCC4F6"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: 3.223214285714292d
+			y: 5.026785714285715d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["094607CA20877658"]
+			hide: true
+			id: "6EB5FB43AF467429"
+			tasks: [{
+				id: "454FEA86647AD1B2"
+				type: "item"
+				title: "Collect any of the Alchemist's drops"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "blue_skies:alchemist_drops"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "44524C7AC43D6775"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "48D982392E15E8B8"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "63E097018B74468F"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 6.223214285714299d
+			y: 5.026785714285715d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67AC4227929EC5F9"]
+			hide: true
+			id: "0BBE7107955F0C37"
+			tasks: [{
+				id: "4634B9BDF8742327"
+				type: "item"
+				title: "Collect any of the Arachnarch's drops"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "blue_skies:arachnarch_drops"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "07820A27D257FCF8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3D6DAED4785C9659"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "51256021A24982DF"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 7.223214285714299d
+			y: 5.026785714285715d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67AC4227929EC5F9"]
+			hide: true
+			id: "14B4343601ACC676"
+			tasks: [{
+				id: "4603949C702D2CBD"
+				type: "kill"
+				entity: "blue_skies:arachnarch"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "584C0DE65C67B442"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "209CFFAE2CD15F6C"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "42E7259454EE9483"
+					type: "loot"
+					table_id: 6363515282471183984L
+				}
+				{
+					id: "607946DD59DC95A0"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -7.491071428571438d
+			y: 0.5624999999999929d
+			dependencies: ["70CBD6D1E43DD08C"]
+			id: "380D72E1EBCE6502"
+			tasks: [
+				{
+					id: "1B427DC3EE226F04"
+					type: "item"
+					item: "blue_skies:ventium_grittle_flatfish_bucket"
+				}
+				{
+					id: "3C23063BAE5759B4"
+					type: "item"
+					item: "blue_skies:ventium_municipal_monkfish_bucket"
+				}
+				{
+					id: "635CB505BF86143A"
+					type: "item"
+					item: "blue_skies:ventium_charscale_moki_bucket"
+				}
+				{
+					id: "16D273B4C725F237"
+					type: "item"
+					item: "blue_skies:ventium_horizofin_tunid_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "4291C0E00A20FEFE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6E4D08344D4F1A6A"
+					type: "item"
+					item: "blue_skies:cooked_grittle_flatfish"
+					count: 8
+				}
+				{
+					id: "53F673D3895CD5E9"
+					type: "item"
+					item: "blue_skies:cooked_municipal_monkfish"
+					count: 8
+				}
+				{
+					id: "6332D73586E09630"
+					type: "item"
+					item: "blue_skies:cooked_charscale_moki"
+					count: 8
+				}
+				{
+					id: "79FA4E55908831F4"
+					type: "item"
+					item: "blue_skies:cooked_horizofin_tunid"
+					count: 8
+				}
+				{
+					id: "0EB0C3EC39912358"
+					type: "loot"
+					table_id: 687554054301909623L
+				}
+				{
+					id: "7D08CB270D0DEAD8"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["You can get the key by trading with the Gatekeeper or buy it in the shop."]
+			hide_dependency_lines: true
+			dependencies: ["2C084EC64C064C08"]
+			id: "05A5684D3A12FDBB"
+			tasks: [{
+				id: "6C8EF4C2AE756A5B"
+				type: "item"
+				item: "blue_skies:blinding_key"
+			}]
+			rewards: [
+				{
+					id: "43897C20DD1EE2F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6DBCD28E0A864BDC"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "01F72B0C025AF723"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["You can get the key by trading with the Gatekeeper or buy it in the shop."]
+			hide_dependency_lines: true
+			dependencies: ["05A5684D3A12FDBB"]
+			hide: true
+			id: "5A344ECF1E5172AD"
+			tasks: [{
+				id: "57DA016F8F61A54B"
+				type: "item"
+				item: "blue_skies:nature_key"
+			}]
+			rewards: [
+				{
+					id: "4FC70A446B710A89"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "17920A6CB6E9968F"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "1D0EE02D677FCAF3"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["You can get the key by trading with the Gatekeeper or buy it in the shop."]
+			hide_dependency_lines: true
+			dependencies: ["05A5684D3A12FDBB"]
+			hide: true
+			id: "2FA12080898C0772"
+			tasks: [{
+				id: "76028EDBE36ABC01"
+				type: "item"
+				item: "blue_skies:poison_key"
+			}]
+			rewards: [
+				{
+					id: "0F2172E78A58D8E8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D89988DBC34F5BF"
+					type: "loot"
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "3E68F78C944287F2"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -6.098214285714292d
+			y: -0.0446428571428612d
+			dependencies: ["0323B0B3D6905A80"]
+			id: "6BD25630E4D56A59"
+			tasks: [{
+				id: "4A9E8C90788969D4"
+				type: "item"
+				item: "blue_skies:tool_box"
+			}]
+			rewards: [
+				{
+					id: "7BB8F21319D0069A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "19C7A611A3C1E37E"
+					type: "item"
+					item: "blue_skies:brewberry"
+					count: 8
+				}
+				{
+					id: "123E6E3721378FE4"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -2.7410714285714306d
+			y: -0.6875000000000071d
+			dependencies: ["5B2813DDE61E5F81"]
+			id: "0AF8077771A3D4B2"
+			tasks: [{
+				id: "4FC786799E47E188"
+				type: "item"
+				item: "blue_skies:snowcap_pinhead"
+			}]
+			rewards: [
+				{
+					id: "5B008F09D2DAABD3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7A2D78D1DF5431C6"
+					type: "item"
+					item: "blue_skies:winter_leaves"
+					count: 6
+				}
+				{
+					id: "45E02DEF5F48AE2D"
+					type: "random"
+					table_id: 5351675120932028234L
+				}
+				{
+					id: "6F7998B5180A992A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: -2.919642857142861d
+			y: 0.3124999999999929d
+			dependencies: ["0AF8077771A3D4B2"]
+			id: "02F22A0F41E310B9"
+			tasks: [{
+				id: "3FEEF51E19D3D08B"
+				type: "item"
+				item: "blue_skies:snowcap_oven"
+			}]
+			rewards: [
+				{
+					id: "7C8208FD0F3CD2FC"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "7EF95B9BA23EE6EB"
+					type: "item"
+					item: "blue_skies:star_flare"
+					count: 12
+				}
+				{
+					id: "24A773F1B1816961"
+					type: "choice"
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "4C88B4188B39C6A4"
+					type: "ftbmoney:money"
+					ftb_money: 70L
+				}
+			]
+		}
+		{
+			x: -3.669642857142861d
+			y: -2.473214285714292d
+			dependencies: ["5B2813DDE61E5F81"]
+			id: "61219066E1E82111"
+			tasks: [{
+				id: "19E9A47DD38431AA"
+				type: "item"
+				item: "blue_skies:pearl"
+			}]
+			rewards: [
+				{
+					id: "3D7B1AAA7EE4301E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "130D15A6B6B73E0F"
+					type: "item"
+					item: "blue_skies:pearl"
+					count: 4
+				}
+				{
+					id: "255AA2C3F8C0A23C"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "&6&lThe Cinderstone"
+			x: 3.5d
+			y: 1.5d
+			subtitle: "Why not?"
+			description: ["Just a beautiful block."]
+			dependencies: ["503203997E8D59A7"]
+			id: "2FB342873B0CE5F9"
+			tasks: [{
+				id: "18EA724B89224D12"
+				type: "item"
+				item: "blue_skies:cinderstone"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "6481B25EAC1B2607"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "10968D24B8E165FF"
+					type: "item"
+					item: "blue_skies:cherry_pie"
+				}
+				{
+					id: "6BC6D6004F8BE5F0"
+					type: "item"
+					item: "blue_skies:crystal_sandstone_pillar"
+					count: 64
+				}
+				{
+					id: "25CB422A4D69A60D"
+					type: "loot"
+					table_id: 6813199617749196115L
+				}
+				{
+					id: "3109E52862C9F056"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["20A5F775133EA736"]
+			id: "503203997E8D59A7"
+			tasks: [{
+				id: "165BAE5C4A06110D"
+				type: "item"
+				item: "blue_skies:food_prep_table"
+			}]
+			rewards: [
+				{
+					id: "676E7841D779521A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4225FE1035CE66C4"
+					type: "item"
+					item: "blue_skies:fiery_beans"
+					count: 12
+				}
+				{
+					id: "6A0FD98BCC8D2C0A"
+					type: "item"
+					item: "blue_skies:pine_fruit"
+					count: 12
+				}
+				{
+					id: "1ED8F3E279444016"
+					type: "item"
+					item: "blue_skies:scalefruit"
+					count: 12
+				}
+				{
+					id: "29D0864AAA840C72"
+					type: "item"
+					item: "blue_skies:winter_leaves"
+					count: 12
+				}
+				{
+					id: "69A13FE8B74A9619"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+	]
+}

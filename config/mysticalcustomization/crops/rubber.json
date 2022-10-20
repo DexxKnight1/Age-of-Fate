@@ -1,0 +1,14 @@
+{
+    "name": "Rubber",
+    "type": "resource",
+    "tier": "mysticalagriculture:2",
+    "ingredient": {
+        "item": "thermal:rubber"
+    },
+    "color": "0C090A",
+    "textures": {
+        "flower": "mysticalagriculture:block/rubber_flower",
+        "essence": "mysticalagriculture:item/rubber_essence",
+        "seeds": "mysticalagriculture:item/rubber_seeds"
+    }
+}
