@@ -1,0 +1,4 @@
+
+[general]
+	#If set to 'true', the player will receive an AstralSorcery Journal when they join the server for the first time.
+	giveJournalOnJoin = false
