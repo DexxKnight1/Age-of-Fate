@@ -1,4 +1,4 @@
-# #0969DA[AOF-v1.5.7] - 2022.09.14
+# #0969DA [AOF-v1.5.7] - 2022.09.14
 **Fixed**
 • Fixed compressed Nether Star recipes issues
 • Fixed a lot of unnecessary recipes
