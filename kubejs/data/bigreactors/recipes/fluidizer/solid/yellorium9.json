@@ -1,0 +1,13 @@
+{
+  "type": "bigreactors:fluidizersolid",
+  "ingredient": {
+    "ingredient": {
+      "item": "alltheores:uranium_block"
+    },
+    "count": 1
+  },
+  "result": {
+    "fluid": "alltheores:molten_uranium",
+    "count": 9000
+  }
+}

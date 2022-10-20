@@ -1,0 +1,50 @@
+{
+  "textures": {
+    "particle": "extendedcrafting:block/black_iron_block",
+    "all": "extendedcrafting:block/black_iron_block"
+  },
+  "elements": [
+    {
+      "name": "Cube",
+      "from": [1, 0, 1],
+      "to": [15, 2, 15],
+      "shade": false,
+      "faces": {
+        "north": {"uv": [2, 4, 14, 6], "texture": "#all"},
+        "east": {"uv": [2, 4, 14, 6], "texture": "#all"},
+        "south": {"uv": [2, 4, 14, 6], "texture": "#all"},
+        "west": {"uv": [2, 4, 14, 6], "texture": "#all"},
+        "up": {"uv": [2, 2, 14, 14], "texture": "#all"},
+        "down": {"uv": [2, 2, 14, 14], "texture": "#all"}
+      }
+    },
+    {
+      "name": "Cube",
+      "from": [3, 2, 3],
+      "to": [13, 14, 13],
+      "shade": false,
+      "faces": {
+        "north": {"uv": [4, 2, 12, 12], "texture": "#all"},
+        "east": {"uv": [4, 2, 12, 12], "texture": "#all"},
+        "south": {"uv": [4, 2, 12, 12], "texture": "#all"},
+        "west": {"uv": [4, 2, 12, 12], "texture": "#all"},
+        "up": {"uv": [2, 2, 10, 10], "texture": "#all"},
+        "down": {"uv": [2, 2, 10, 10], "texture": "#all"}
+      }
+    },
+    {
+      "name": "Cube",
+      "from": [2, 14, 2],
+      "to": [14, 16, 14],
+      "shade": false,
+      "faces": {
+        "north": {"uv": [3, 4, 13, 6], "texture": "#all"},
+        "east": {"uv": [3, 4, 13, 6], "texture": "#all"},
+        "south": {"uv": [3, 4, 13, 6], "texture": "#all"},
+        "west": {"uv": [3, 4, 13, 6], "texture": "#all"},
+        "up": {"uv": [2, 2, 12, 12], "texture": "#all"},
+        "down": {"uv": [3, 3, 13, 13], "texture": "#all"}
+      }
+    }
+  ]
+}

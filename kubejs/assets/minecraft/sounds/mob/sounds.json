@@ -1,0 +1,26 @@
+{
+  "entity.zombie.say": {
+    "sounds": [
+      "mob/zombie/say1",
+      "mob/zombie/say2",
+      "mob/zombie/say3",
+      "mob/zombie/say4",
+      "mob/zombie/say5",
+      "mob/zombie/say6",
+      "mob/zombie/say7",
+      "mob/zombie/say8",
+      "mob/zombie/say9",
+      "mob/zombie/say10",
+      "mob/zombie/say11",
+      "mob/zombie/say12",
+      "mob/zombie/say13",
+      "mob/zombie/say14",
+      "mob/zombie/say15",
+      "mob/zombie/say16",
+      "mob/zombie/say17",
+      "mob/zombie/say18",
+      "mob/zombie/say19"
+	  
+    ],
+    "subtitle": "subtitles.zombie.say"}
+}

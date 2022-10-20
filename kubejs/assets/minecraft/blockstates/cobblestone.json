@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/cobblestone"},
+            { "model": "block/cobblestone1"},
+			{ "model": "block/cobblestone2"},
+			{ "model": "block/cobblestone3"},
+			{ "model": "block/cobblestone5"}
+        ]
+    }
+}
