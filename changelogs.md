@@ -1,9 +1,9 @@
 # [AOF-v1.5.7] - 2022.09.14
-**Fixed**
+>Fixed
 - Fixed compressed Nether Star recipes issues
 - Fixed a lot of unnecessary recipes
 - Fixed launcher does not properly shut down (issue #21)
-**Added**
+>Added
 - Added Advancement Plaques
 - Added Quest Plaques
 - Added Iceberg
@@ -11,7 +11,7 @@
 - Added Shield Parry
 - Added Callable Horses
 - Added Medieval Siege Machines
-**Changed**
+>Changed
 - Updated Cloth Config API
 - Updated Collective
 - Updated Corail Tombstone
@@ -21,7 +21,7 @@
 - Updated Macaw's Roofs
 - Updated U Team Core
 - Updated Werewolves - Become a Beast!
-**Removed**
+>Removed
 - Removed Removed Not Enough Crashes
 - Removed VanillaTweaks
 - Removed Concrete Conversion
@@ -32,7 +32,7 @@
 - Removed Subterranean Wilderness
 
 # [AOF-v1.5.6] - 2022.09.01
-**Added**
+>Added
 - Added Blue Skies Quests
 - Added Rubidium
 - Added Rubidium Extra
@@ -43,7 +43,7 @@
 - Added Repurposed Structures
 - Added Super Saturation
 - Added Mana and Artifice
-**Changed**
+>Changed
 - Updated Apotheosis
 - Updated Ars Nouveau
 - Updated Chunk-Pregenerator
@@ -60,7 +60,7 @@
 - Updated Sophisticated Backpacs
 - Updated Structurize
 - Updated Werewolves - Become a Beast!
-**Removed**
+>Removed
 - Removed Beyond Earth
 - Removed Beyond Earth: Giselle Addon
 - Removed Upgraded Netherite
@@ -79,9 +79,9 @@
 - Removed FastWorkbench
 - Removed Fast Furnace minus Replacement
 # [AOF-v1.5.5] - 2022.08.04
-**Fixed**
+>Fixed
 - Fixed some game performances to increase FPS
-**Added**
+>Added
 - Added Psi Quests
 - Added YUNG's Better Mineshafts
 - Added YUNG's Better Dungeons
@@ -93,7 +93,7 @@
 - Added Universal Grid
 - Added Flat Bedrock
 - Added Configurable Extra Mob Drops
-**Changed**
+>Changed
 - Updated Astemir's Forestcraft
 - Updated Biomes O' Plenty
 - Updated CC: Tweaked
@@ -110,7 +110,7 @@
 - Updated Mining Gadgets
 - Updated Security Craft
 - Updated Sophisticated Backpacks
-**Removed**
+>Removed
 - Removed JourneyMap
 - Removed JourneyMap Integration
 - Removed JER Integration
@@ -139,10 +139,10 @@
 - Removed Occultism
 - Removed Upsizer Mod
 # [AOF-v1.5.4] - 2022.07.27
-**Fixed**
+>Fixed
 - Fixed The Ultimate Ingot recipe (issue #17)
 - Fixed all Arcane Gold recipes
-**Added**
+>Added
 - Added Ratlantis Quests
 - Added The Undergarden Quests
 - Added Majrusz's Progressive Difficulty
@@ -159,7 +159,7 @@
 - Added Mutant Beasts
 - Added Mutant More
 - Added Ksyxis
-**Changed**
+>Changed
 - Updated Advanced Peripherals
 - Updated Architectury API
 - Updated Ars Nouveau
@@ -210,7 +210,7 @@
 - Updated Vampirism - Become a vampire!
 - Updated Whisperwoods
 - Updated ZeroCore 2
-**Removed**
+>Removed
 - Removed Growthcraft Community Edition
 - Removed 🦇 Direbats
 - Removed Actually Compatible
@@ -218,10 +218,10 @@
 - Removed Pro Placer
 - Removed XP Tome
 # [AOF-v1.5.3] - 2022.06.16
-**Fixed**
+>Fixed
 - Fixed Big Reactors Fluidizer recipes
 - Fixed Gaia Seed recipe
-**Added**
+>Added
 - Added Enigmatic Legacy Quests
 - Added Vanilla Vistas (OTG)
 - Added Gehenna | Super Spooky Nether Overhaul (OTG)
@@ -241,7 +241,7 @@
 - Added Indestructible Tools
 - Added No More Piglin Portal Spawning
 - Added Spiders 2.0
-**Changed**
+>Changed
 - Updated Forge version to 36.2.35
 - Updated Advanced Peripherals
 - Updated AI Improvements
@@ -291,12 +291,12 @@
 - Updated XNet
 - Updated ZeroCore 2
 # [AOF-v1.5.2] - 2022.05.20
-**Fixed**
+>Fixed
 - The player will not receive, every time by logging in, an Akashic Tome
-**Added**
+>Added
 - Added The Afterlight Quests
 - Added MineColonies for ComputerCraft
-**Changed**
+>Changed
 - Updated Advanced Peripherals
 - Updated Apotheosis
 - Updated Architectury API
@@ -372,14 +372,14 @@
 - Updated Werewolves - Become a Beast!
 - Updated ZeroCore 2
 # [AOF-v1.5.1] - 2022.04.14
-**Fixed**
+>Fixed
 - Fixed Magic Soil recipe
-**Added**
+>Added
 - Added AttributeFix
 - Added FPS Reducer
 - Added BisectHosting Server Integration Menu
 - Added No Villager Death Messages
-**Changed**
+>Changed
 - Updated Architectury API
 - Updated Ars Nouveau
 - Updated Astemir's Forestcraft
@@ -412,10 +412,10 @@
 - Updated Werewolves - Become a Beast!
 - Updated XP Tome
 # [AOF-v1.5.0] - 2022.03.31
-**Fixed
+>Fixed
 - Fixed Creative Essence recipe
 - Fixed Twilight Forest Darkwood crashing game (Twilight Dimension is enabled now)
-**Added**
+>Added
 - Added Draconic Evolution Quests
 - Added Modular Routers Quests
 - Added Extended Crafting Quests
@@ -423,7 +423,7 @@
 - Added AEInfinityBooster
 - Added AE2 Additional Opportunity
 - Added Entangled
-**Changed**
+>Changed
 - Updated Forge version to 36.2.33
 - Updated AppleSkin
 - Updated Architectury API
@@ -481,17 +481,17 @@
 - Updated Tool Belt
 - Updated Trash Cans
 - Updated Werewolves - Become a Beast!
-**Removed**
+>Removed
 - Removed Magnesium
 - Removed Magnesium/Rubidium Extras
 # [AOF-v1.4.9] - 2022.03.07
-**EXTENDED CRAFTING MADNESS**
-**Fixed**
+>EXTENDED CRAFTING MADNESS>
+>Fixed
 - Fixed Clock module recipe
 - Fixed support for all Mystical Agriculture seeds by Botany Pots
 - Fixed MineColonies Quests
 - Fixed some minor issues by some Quests
-**Added**
+>Added
 - Added Quests for Creative Items
 - Added a few Vanilla QoL recipes
 - Added a few creative item recipes by Fusion Crafting (Draconic Evolution)
@@ -502,7 +502,7 @@
 - Added Advanced Peripherals
 - Added RFTools Control
 - Added Modular Routers
-**Changed**
+>Changed
 - Changed a few recipes in Extended Crafting
 - Updated AllTheCompressed
 - Updated Architectury API
@@ -526,13 +526,13 @@
 - Updated The One Probe
 - Updated Werewolves - Become a Beast! 
 # [AOF-v1.4.8] - 2022.02.25
-***SEVER FILES FOR THIS RELEASE AND RELEASE 1.4.7 ARE THE SAME***
-**Fixed**
+>*SEVER FILES FOR THIS RELEASE AND RELEASE 1.4.7 ARE THE SAME>*
+>Fixed
 - Fixed Official Age of Fate Server IP Address
 # [AOF-v1.4.7] - 2022.02.24
-**COMPLETE MODPACK OVERHAUL**
-**---// NEW WORLD REQUIRED \\---**
-**Added**
+>COMPLETE MODPACK OVERHAUL>
+>---// NEW WORLD REQUIRED \\--->
+>Added
 - Added Beyond Earth
 - Added Beyond Earth: Giselle Addon
 - Added No Recipe Advancements
@@ -574,7 +574,7 @@
 - Added Oh The Biomes You'll Go
 - Added Better Biome Blend
 - Added Open Terrain Generator (OTG)
-**Changed**
+>Changed
 - Updated AllTheCompressed
 - Updated Applied Energistics 2 Wireless Terminals
 - Updated AppleSkin
@@ -641,7 +641,7 @@
 - Updated Upgraded Netherite
 - Updated XL Packets
 - Updated XP Tome
-**Removed**
+>Removed
 - Removed Chance Cubes
 - Removed The Abyss II - The Other Side
 - Removed The Abyss: Beginning
@@ -700,9 +700,9 @@
 - Removed Undead Expansion
 - Removed Illagers+
 # [AOF-v1.4.6] - 2022.01.24
-**Fixed**
+>Fixed
 - Fixed JEI recipes
-**Changed**
+>Changed
 - Updated CoFH Core
 - Updated Engineer's Décor
 - Updated EvilCraft
@@ -714,16 +714,16 @@
 - Updated Thermal Foundation
 - Updated Tool's Complement
 # [AOF-v1.4.5] - 2022.01.23
-**Fixed**
+>Fixed
 - Fixed Server Files
 # [AOF-v1.4.4] - 2022.01.21
-**Added**
+>Added
 - Added Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons
 - Added Eidolon's Hexblades
 - Added JER Integration
 - Added Gauges and Switches
 - Added MixinBootstrap
-**Changed**
+>Changed
 - Updated Applied Energistics 2
 - Updated Ars Nouveau
 - Updated Blueprint
@@ -776,17 +776,17 @@
 - Updated Trash Cans
 - Updated Upgraded Netherite
 - Updated XNet
-**Removed**
+>Removed
 - Removed Default World Type
 # [AOF-v1.4.3] - 2022.01.04
-**Added**
+>Added
 - Added The One Probe
 - Added TOP Addons
 - Added Horizontal Panes
 - Added Dramatic Doors
 - Added Villagers Respawn
 - Added Tesseract
-**Changed**
+>Changed
 - Updated AllTheCompressed
 - Updated Applied Energistics 2
 - Updated Architectury API
@@ -837,12 +837,12 @@
 - Updated Tome of Blood
 - Updated Tool Stats
 - Updated Valhelsia Core
-**Removed**
+>Removed
 - Removed Jade 🔍
 # [AOF-v1.4.2] - 2021.12.23
-**Fixed**
+>Fixed
 - Fixed Biome Ice Labyrinth stack overflow crash issue
-**Added**
+>Added
 - Added IE Garden Cloche integration with Mystical Agriculture
 - Added Better Fps - Render Distance
 - Added Clickable advancements
@@ -856,7 +856,7 @@
 - Added IAP [Botania]
 - Added KubeJS Immersive Engineering
 - Added Configured
-**Changed**
+>Changed
 - Updated Forge version to 36.2.21
 - Updated Applied Energistics 2
 - Updated Apotheosis
@@ -894,21 +894,21 @@
 - Updated Treasure2!
 - Updated Vampirism - Become a vampire!
 - Updated ZeroCore 2
-**Removed**
+>Removed
 - Removed Aquamirae
 - Removed Obscuria's Core
 # [AOF-v1.4.1] - 2021.12.14
-**Fixed**
+>Fixed
 - Fixed FPS dropping issue
 - Fixed Tinkers’ Construct Quest
 - Fixed empty Quest rewards
-**Added**
+>Added
 - Added Click Machine
 - Added FramedBlocks
 - Added Carry On
 - Added Ignition: EnderBags
 - Added Not Enough Energistics
-**Changed**
+>Changed
 - Updated Forge version to 36.2.20
 - Updated Architectury API
 - Updated Ars Nouveau
@@ -949,12 +949,12 @@
 - Updated Updated Trash Cans
 - Upgrade Aquatic
 - Updated XNet
-**Removed**
+>Removed
 - Removed Farming for Blockheads
 # [AOF-v1.4.0] - 2021.12.08
-**Fixed**
+>Fixed
 - Fixed Server Crash issue
-**Added**
+>Added
 - Added XL Packets
 - Added Connectivity
 - Added Goblin Traders
@@ -974,7 +974,7 @@
 - Added Enchanting Infuser
 - Added Stylish Effects
 - Added Tool's Complement
-**Changed**
+>Changed
 - Updated Aquamirae
 - Updated Architectury API
 - Updated Atum 2: Return to the Sands
@@ -1025,12 +1025,12 @@
 - Updated Thermal Foundation
 - Updated Thermal Innovation
 - Updated ZeroCore 2
-**Removed**
+>Removed
 - Removed Charmonium Reforged
 - Removed The One Probe
 - Removed TOP Addons
 # [AOF-v1.3.9] - 2021.11.28
-**Added**
+>Added
 - Added Player Shop
 - Added Paxi
 - Added Chisels & Bits
@@ -1046,7 +1046,7 @@
 - Added Morph-o-Tool
 - Added Undead Expansion
 - Added Infernal Expansion
-**Changed**
+>Changed
 - Changed some Config Tweaks
 - Changed some Quests
 - Updated Forge version to 36.2.18
@@ -1088,15 +1088,15 @@
 - Updated Wither Skeleton Tweaks
 - Updated XNet
 - Updated ZeroCore 2
-**Removed**
+>Removed
 - Removed Quickstack
 - Removed CompactStorage
 - Removed Decimal Coins
 # [AOF-v1.3.8] - 2021.11.19
-**Fixed**
+>Fixed
 - Fixed Nether crush
 - Fixed some of Quests rewards
-**Added**
+>Added
 - Added We Got Runners!
 - Added Villager Names
 - Added Chisel
@@ -1111,7 +1111,7 @@
 - Added Entity Culling Fabric/Forge
 - Added Creative Wireless Transmitter
 - Added Creative Crafter
-**Changed**
+>Changed
 - Updated Allthemodium
 - Updated Ars Nouveau
 - Updated Apotheosis
@@ -1156,7 +1156,7 @@
 - Updated Titanium
 - Updated Treasure2!
 - Updated Village Artifacts
-**Removed**
+>Removed
 - Removed Chiseled
 - Removed Equipment Compare
 - Removed Quark Oddities
@@ -1165,9 +1165,9 @@
 - Removed Snow! Real Magic! ⛄
 - Removed Kiwi 🥝
 # [AOF-v1.3.7] - 2021.11.10
-**Fixed**
+>Fixed
 - Fixed Nether crash
-**Added**
+>Added
 - Added Drawers Tooltip
 - Added Blame
 - Added Magnesium
@@ -1189,7 +1189,7 @@
 - Added LazyDFU
 - Added Illagers+
 - Added Just Enough Effect Descriptions (JEED)
-**Changed**
+>Changed
 - Updated Advancement Plaques
 - Updated Allurement
 - Updated AmbientSounds 4
@@ -1246,7 +1246,7 @@
 - Updated Vampirism - Become a vampire!
 - Updated Vampirism Integrations
 - Updated Waystones
-**Removed**
+>Removed
 - Removed Nature's Starlight
 - Removed Halogen
 - Removed Tesseract
@@ -1255,9 +1255,9 @@
 - Removed ToroHealth Damage Indicators
 - Removed Diagonal Fences
 # [AOF-v1.3.6] - 2021.10.28
-**Fixed**
+>Fixed
 - Fixed some Quests rewards
-**Added**
+>Added
 - Added Atum 2 Quests
 - Added Treasures & Artifacts Quests
 - Added Large Fluid Tank
@@ -1277,7 +1277,7 @@
 - Added FTB Essentials
 - Added FTB Power Pots
 - Added Better-Zoom
-**Changed**
+>Changed
 - Updated AIOT Botania
 - Updated Allthemodium
 - Updated AmbientSounds 4
@@ -1332,19 +1332,19 @@
 - Updated Tetra
 - Updated Upgraded Netherite
 - Updated Vampires Need Umbrellas
-**Removed**
+>Removed
 - Removed Simple Homes
 - Removed BobLib
 - Removed ProjectE
 # [AOF-v1.3.5] - 2021.10.12
-**Fixed**
+>Fixed
 - Fixed some Quests rewards
-**Added**
+>Added
 - Added FTB Ultimine
 - Added Corail Recycler
 - Added Draconic Evolution
 - Added Brandon's Core
-**Changed**
+>Changed
 - Updated Allthemodium
 - Updated Apotheosis
 - Updated Applied Energistics 2
@@ -1382,13 +1382,13 @@
 - Updated Tome of Blood
 - Updated Undead Army!
 - Updated VanillaTweaks
-**Removed**
+>Removed
 - Removed Ore Excavation
 - Removed Just Enough Advancements (JEA)
 # [AOF-v1.3.4] - 2021.09.29
-**Fixed**
+>Fixed
 - Fixed Botania Quests reward
-**Added**
+>Added
 - Added Treasure2!
 - Added Treasure2: Twilight Forest Loot Pack
 - Added GottschCore
@@ -1396,7 +1396,7 @@
 - Added JourneyMap Integration
 - Added FerriteCore
 - Added Ding
-**Changed**
+>Changed
 - Updated Alex's Mobs
 - Updated Allthemodium
 - Updated Apotheosis
@@ -1460,7 +1460,7 @@
 - Updated VanillaTweaks
 - Updated Vampirism - Become a vampire!
 - Updated Werewolves - Become a Beast!
-**Removed**
+>Removed
 - Removed Baubley Heart Canisters
 - Removed Caged Mobs
 - Removed Chisels & Bits
@@ -1481,11 +1481,11 @@
 - Removed YUNG's Better Strongholds
 - Removed YUNG's API
 # [AOF-v1.3.3] - 2021.09.02
-**Fixed**
+>Fixed
 - Fixed full Akashic Tome as start item issue
-**Added**
+>Added
 - Added End Remastered
-**Changed**
+>Changed
 - Updated Advancement Plaques
 - Updated Alex's Mobs
 - Updated Allthemodium
@@ -1538,11 +1538,11 @@
 - Updated Doggy Talents
 - Updated Rhino
 # [AOF-v1.3.2] - 2021.08.22
-**Fixed**
+>Fixed
 - Fixed Tinkers Construct “Modifier Chest” Quest issue
 - Fixed Tetra “Workbench” Quest issue
 - Fixed Charged Certus Quartz Crystal issue
-**Changed**
+>Changed
 - Updated Allthemodium
 - Updated Architectury API
 - Updated Ars Nouveau
@@ -1598,10 +1598,10 @@
 - Updated PneumaticCraft: Repressurized
 - Updated Torchmaster
 # [AOF-v1.3.1] - 2021.08.06
-**Added**
+>Added
 - Added Shulker Drops Two
 - Added Stack Refill
-**Changed**
+>Changed
 - Updated Advancement Plaques
 - Updated Aquaculture 2
 - Updated Ars Nouveau
@@ -1662,7 +1662,7 @@
 - Updated YUNG's API
 - Updated YUNG's Better Strongholds
 - Updated Refined Storage Addons
-**Removed**
+>Removed
 - Remove Auto Tool Replacer
 - Remove Olympus Adventure mod
 - Remove Elvenation
@@ -1670,11 +1670,11 @@
 - Remove Terridus
 - Remove Dystopia
 # [AOF-v1.3.0] - 2021.07.26
-**Added**
+>Added
 - Added Simple Discord Rich Presence
 - Added Caves & Cliffs Backport
 - Added CaveBiomeAPI
-**Changed**
+>Changed
 - Updated TerraForged
 - Updated Sodium Reforged
 - Updated Just Enough Items (JEI)
@@ -1683,15 +1683,15 @@
 - Updated MineColonies
 - Updated Structurize
 - Updated The Twilight Forest
-**Removed**
+>Removed
 - Removed DiscordRichPresence
 - Removed That future mod - Caves & Cliffs update
 # [AOF-v1.2.9] - 2021.07.24
-**Added**
+>Added
 - Added ATO - All the Ores
 - Added ItemPhysic Lite
 - Added Nature's Starlight
-**Changed**
+>Changed
 - Updated Advancement Plaques
 - Updated Allthemodium
 - Updated AppleSkin
@@ -1733,7 +1733,7 @@
 - Updated CodeChicken Lib
 - Updated Cosmetic Armor Reworked
 - Updated GeckoLib
-**Removed**
+>Removed
 - Removed Dungeons Content
 - Removed Dungeons Gear
 - Removed Dynamic Trees
@@ -1751,7 +1751,7 @@
 - Removed ItemPhysic Full
 - Removed Coloured Tooltips
 # [AOF-v1.2.8] - 2021.07.16
-**Added**
+>Added
 - Added Advancement Plaques
 - Added Double Slabs
 - Added Platinum Mod Forge
@@ -1759,7 +1759,7 @@
 - Added Create Addon
 - Added Mass Inscriber
 - Added Materialis
-**Changed**
+>Changed
 - Updated Allthemodium
 - Updated Architectury API
 - Updated Ars Nouveau
@@ -1806,14 +1806,14 @@
 - Updated Flywheel
 - Updated FTB Chunks
 - Updated Tesseract
-**Removed**
+>Removed
 - Removed Platinum Mod
 - Removed Create Plus
 # [AOF-v1.2.7] - 2021.07.07
-**Fixed**
+>Fixed
 - Fixed The Food Quests
 - Fixed Pneumatic Craft Quests
-**Added**
+>Added
 - Added Basic Agriculture Quests
 - Added EvilCraft Quests
 - Added Nature's Aura Quests
@@ -1827,7 +1827,7 @@
 - Added Dynamic Trees - Atum 2
 - Added Dynamic Trees – Vampirism
 - Added Dynamic Trees - TerraForged
-**Changed**
+>Changed
 - Updated Architectury API
 - Updated FTB Chunks
 - Updated FTB Library
@@ -1866,14 +1866,14 @@
 - Updated Wool Tweaks
 - Updated Collective
 # [AOF-v1.2.6] - 2021.01.07
-**Added**
+>Added
 - Added Dystopia
 - Added Decimal Coins
 - Added Chance Cubes
 - Added Pretty Pipes
 - Added Pretty Pipes: Fluids
 - Added The Abyss: Chapter II Quests
-**Changed**
+>Changed
 - Updated Botania
 - Updated Chance Cubes
 - Updated Cooking for Blockheads
@@ -1902,11 +1902,11 @@
 - Updated Alex's Mobs
 - Updated Ars Nouveau
 - Updated AmbientWorld
-**Removed**
+>Removed
 - Remove Coins JE
 - Remove Better Foliage Renewed
 # [AOF-v1.2.5] - 2021.06.27
-**Added**
+>Added
 - Added Sodium Reforged
 - Added Platinum Mod
 - Added Environmental Tech
@@ -1917,7 +1917,7 @@
 - Added ValkyrieLib
 - Added Environmental Tech Quests
 - Added The Twilight Forest Quests
-**Changed**
+>Changed
 - Updated Buddycards
 - Updated FPS Reducer
 - Updated The Frozen Lands
@@ -1947,10 +1947,10 @@
 - Updated Structurize
 - Updated FTB Quests
 - Updated FTB Library
-**Removed**
+>Removed
 - Removed Performant
 # [AOF-v1.2.4] - 2021.06.23
-**Added**
+>Added
 - Added That future mod - Caves & Cliffs update
 - Added Upstream
 - Added The Undergarden
@@ -1967,7 +1967,7 @@
 - Added Mystical Adaptations
 - Added Better Rocks
 - Added Blood Magic Quests
-**Changed**
+>Changed
 - Updated Alex's Mobs
 - Updated Ars Nouveau
 - Updated Ender Storage
@@ -2002,7 +2002,7 @@
 - Updated Cable Tiers
 - Updated Enchantment Descriptions
 # [AOF-v1.2.3] - 2021.06.17
-**Added**
+>Added
 - Added Chiseled
 - Added Rats
 - Added Rats: Ratlantis
@@ -2010,7 +2010,7 @@
 - Added Builders Crafts & Additions
 - Added The Nether Quests
 - Added The End Quests
-**Changed**
+>Changed
 - Updated Boss Quests
 - Updated Applied Energistics 2
 - Updated Atum 2: Return to the Sands
@@ -2057,9 +2057,9 @@
 - Updated Biomes O' Plenty
 - Updated Ars Nouveau
 # [AOF-v1.2.2] - 2021.06.09
-**Added**
+>Added
 - Added MineColonies Quests
-**Changed**
+>Changed
 - Updated Cyclic
 - Updated CreativeCore
 - Updated GeckoLib
@@ -2092,11 +2092,11 @@
 - Updated Artifacts
 - Updated Allurement
 #[AOF-v1.2.1] - 2021.06.04
-**Fixed**
+>Fixed
 - Fixed Tinkers Construct Quests
-**Added**
+>Added
 - Added Occultism Quests
-**Changed**
+>Changed
 - Updated Occultism
 - Updated AmbientSounds 3
 - Updated Better Foliage
@@ -2139,7 +2139,7 @@
 - Updated Structurize
 - Updated The Twilight Forest
 # [AOF-v1.2.0] - 2021.05.30
-**Added**
+>Added
 - Added Occultism
 - Added Better Foliage
 - Added Guide-API Village and Pillage
@@ -2152,7 +2152,7 @@
 - Added Create Plus
 - Added FTB Quests
 - Added Item Filters
-**Changed**
+>Changed
 - Updated Astral Sorcery
 - Updated ObserverLib
 - Updated CraftTweaker
@@ -2237,7 +2237,7 @@
 - Updated SuperMartijn642's Core Lib
 - Updated XNet
 - Updated YUNG's Better Strongholds
-**Removed**
+>Removed
 - Removed Custom Starter Gear
 - Removed Abundance
 - Removed Click Machine
@@ -2263,7 +2263,7 @@
 - Removed Powah!
 - Removed Bayou Blues
 # [AOF-v1.1.0] - 2021.05.01
-**Added**
+>Added
 - Added Relics
 - Added Evolved RPG
 - Added Omnis
@@ -2271,7 +2271,7 @@
 - Added Elemental Craft
 - Added DataPack Anvil
 - Added Advanced Shulkerboxes
-**Changed**
+>Changed
 - Updated LibX
 - Updated Odd Water Mobs
 - Updated MythicBotany
@@ -2279,7 +2279,7 @@
 - Updated Desolation
 - Updated Pirates And Looters Mod
 # [AOF-v1.0.9] - 2021.04.30
-**Changed**
+>Changed
 - Updated AmbientWorld
 - Updated Apotheosis
 - Updated Applied Energistics 2
@@ -2317,9 +2317,9 @@
 - Updated Useful Backpacks
 - Updated Vampires Need Umbrellas
 # [AOF-v1.0.8] - 2021.04.23
-**Added**
+>Added
 - Added Custom Start Screen
-**Changed**
+>Changed
 - Updated Botany Pots
 - Updated Botany Trees
 - Updated Caged Mobs
@@ -2344,7 +2344,7 @@
 - Updated CreativeCore
 - Updated Undead Army!
 # [AOF-v1.0.7] - 2021.04.20
-**Changed**
+>Changed
 - Updated Ars Nouveau
 - Updated Supplementaries
 - Updated Alex's Mobs
@@ -2362,13 +2362,13 @@
 - Updated FPS Reducer
 - Updated Applied Energistics 2
 # [AOF-v1.0.3] - 2021.04.17
-**Added**
+>Added
 - Added Immersive Engineering
 - Added Tesseract
 - Added Fairy Lights
 - Added Extended Bone Meal
 - Added Allthemodium
-**Changed**
+>Changed
 - Updated KubeJS
 - Updated Rhino
 - Updated MmmMmmMmmMmm
