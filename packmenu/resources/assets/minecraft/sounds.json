@@ -1,0 +1,508 @@
+{
+  "weather.rain": {
+  "replace": true,
+    "sounds": [
+	  {
+	  "name": "custom/rain/base1",
+	  "weight": 240
+	  },
+	  {
+	  "name": "custom/rain/base2",
+	  "weight": 240
+	  },
+	  {
+	  "name": "custom/rain/drop1",
+	  "weight": 15
+	  },
+	  {
+	  "name": "custom/rain/drop2",
+	  "weight": 15
+	  },
+	  {
+	  "name": "custom/rain/drop3",
+	  "weight": 15
+	  },
+	  {
+	  "name": "custom/rain/drop4",
+	  "weight": 15
+	  },
+	  {
+	  "name": "custom/rain/drop5",
+	  "weight": 15
+	  },
+	  {
+	  "name": "custom/rain/drop6",
+	  "weight": 15
+	  },
+	  "custom/rain/distant_thunder1",
+	  "custom/rain/distant_thunder2",
+	  "custom/rain/distant_thunder3",
+	  "custom/rain/distant_thunder4",
+	  {
+	  "name": "ambient/nether/soulsand_valley/wind1",
+	  "volume": 0.8,
+	  "weight": 3
+	  },
+	  {
+	  "name": "ambient/nether/soulsand_valley/wind2",
+	  "volume": 0.8,
+	  "weight": 3
+	  },
+	  {
+	  "name": "ambient/nether/soulsand_valley/wind3",
+	  "volume": 0.8,
+	  "weight": 3
+	  },
+	  {
+	  "name": "ambient/nether/soulsand_valley/wind4",
+	  "volume": 0.8,
+	  "weight": 3
+	  }
+    ],
+    "subtitle": "subtitles.weather.rain"
+  },
+  "weather.rain.above": {
+  "replace": true,
+    "sounds": [
+	  {
+	  "name": "custom/rain/base1",
+	  "weight": 240
+	  },
+	  {
+	  "name": "custom/rain/base2",
+	  "weight": 240
+	  },
+	  {
+	  "name": "custom/rain/drop1",
+	  "weight": 15
+	  },
+	  {
+	  "name": "custom/rain/drop2",
+	  "weight": 15
+	  },
+	  {
+	  "name": "custom/rain/drop3",
+	  "weight": 15
+	  },
+	  {
+	  "name": "custom/rain/drop4",
+	  "weight": 15
+	  },
+	  {
+	  "name": "custom/rain/drop5",
+	  "weight": 15
+	  },
+	  {
+	  "name": "custom/rain/drop6",
+	  "weight": 15
+	  },
+	  "custom/rain/distant_thunder1",
+	  "custom/rain/distant_thunder2",
+	  "custom/rain/distant_thunder3",
+	  "custom/rain/distant_thunder4"
+    ],
+    "subtitle": "subtitles.weather.rain"
+  },
+  "entity.lightning_bolt.thunder": {
+    "sounds": [
+      {
+	  "name": "ambient/weather/thunder1",
+	  "weight": 3
+	  },
+	  {
+	  "name": "ambient/weather/thunder2",
+	  "weight": 3
+	  },
+	  {
+	  "name": "ambient/weather/thunder3",
+	  "weight": 3
+	  },
+	  "custom/thunder/thunder_loud1",
+      "custom/thunder/thunder_loud2",
+      "custom/thunder/thunder_loud3"
+    ],
+    "subtitle": "subtitles.entity.lightning_bolt.thunder"
+  },
+  "block.wooden_door.close": {
+  "replace": true,
+    "sounds": [
+      "block/wooden_door/close",
+	  "block/wooden_door/close2",
+	  "block/wooden_door/close3",
+	  "block/wooden_door/close4",
+      "block/wooden_door/close5",
+      "block/wooden_door/close6",
+	  "classic/wooden_door/close",
+	  "classic/wooden_door/close2",
+	  "classic/wooden_door/close3",
+	  "classic/wooden_door/close4",
+	  "classic/wooden_door/close5",
+	  "classic/wooden_door/close6"
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.wooden_door.open": {
+  "replace": true,
+    "sounds": [
+      "block/wooden_door/open",
+	  "block/wooden_door/open2",
+	  "block/wooden_door/open3",
+      "block/wooden_door/open4",
+	  "classic/wooden_door/open",
+	  "classic/wooden_door/open2",
+	  "classic/wooden_door/open3",
+	  "classic/wooden_door/open4"
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "entity.ghast.ambient": {
+  "replace": true,
+    "sounds": [
+      "mob/ghast/moan1",
+      "mob/ghast/moan2",
+      "mob/ghast/moan3",
+      "mob/ghast/moan4",
+      "mob/ghast/moan5",
+      "mob/ghast/moan6",
+      "mob/ghast/moan7",
+	  "custom/ghast/moan1",
+	  "custom/ghast/moan2",
+      "custom/ghast/moan3",
+      "custom/ghast/moan4",
+      "custom/ghast/moan5",
+      "custom/ghast/moan6",
+      "custom/ghast/moan7"
+    ],
+    "subtitle": "subtitles.entity.ghast.ambient"
+  },
+  "block.dispenser.launch": {
+  "replace": true,
+    "sounds": [
+      "classic/dispenser"
+    ],
+    "subtitle": "subtitles.block.dispenser.dispense"
+  },
+  "entity.arrow.shoot": {
+  "replace": true,
+    "sounds": [
+	  {
+        "name": "custom/bow",
+        "volume": 1.4
+      },
+	  {
+        "name": "custom/bow",
+        "volume": 1.4,
+        "pitch": 1.1
+      },
+	  {
+        "name": "custom/bow",
+        "volume": 1.4,
+        "pitch": 0.9
+      }
+    ],
+    "subtitle": "subtitles.entity.arrow.shoot"
+  },
+  "entity.enderman.teleport": {
+    "sounds": [
+      "custom/endermen/teleport1",
+      "custom/endermen/teleport2",
+	  "custom/endermen/teleport3",
+	  "custom/endermen/teleport4",
+	  "custom/endermen/teleport5",
+	  "custom/endermen/teleport6"
+    ],
+    "subtitle": "subtitles.entity.enderman.teleport"
+  },
+  "block.portal.ambient": {
+    "sounds": [
+      {
+        "name": "portal/portal",
+		"weight": 90,
+        "attenuation_distance": 8
+      },
+	  {
+        "name": "portal/portal",
+		"weight": 90,
+        "attenuation_distance": 8,
+		"volume": 0.7,
+		"pitch": 0.9
+      },
+	  {
+		"name": "custom/portal/moan1",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan2",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan3",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan4",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan5",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan6",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan7",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan8",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan9",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan10",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan11",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan12",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan13",
+		"volume": 0.7
+	  },
+	  {
+		"name": "custom/portal/moan14",
+		"volume": 0.7
+	  }
+    ],
+    "subtitle": "subtitles.block.portal.ambient"
+  },
+  "music.game": {
+    "sounds": [
+      {
+        "name": "custom/music/calm1",
+		"weight": 100,
+        "stream": true
+      },
+      {
+        "name": "custom/music/calm2",
+		"weight": 100,
+        "stream": true
+      },
+      {
+        "name": "custom/music/calm3",
+		"weight": 100,
+        "stream": true
+      },
+      {
+        "name": "custom/music/hal1",
+		"weight": 100,
+        "stream": true
+      },
+      {
+        "name": "custom/music/hal2",
+		"weight": 100,
+        "stream": true
+      },
+      {
+        "name": "custom/music/hal3",
+		"weight": 100,
+        "stream": true
+      },
+      {
+        "name": "custom/music/hal4",
+		"weight": 100,
+        "stream": true
+      },
+      {
+        "name": "custom/music/nuance1",
+		"weight": 100,
+        "stream": true
+      },
+      {
+        "name": "custom/music/nuance2",
+		"weight": 100,
+        "stream": true
+      },
+      {
+        "name": "custom/music/piano1",
+		"weight": 100,
+        "stream": true
+      },
+      {
+        "name": "custom/music/piano2",
+		"weight": 100,
+        "stream": true
+      },
+	  {
+        "name": "custom/music/piano3",
+		"weight": 100,
+        "stream": true
+      },
+      {
+        "name": "custom/music/piano4",
+		"weight": 100,
+        "stream": true
+      }
+    ]
+  },
+  "ambient.soul_sand_valley.additions": {
+    "sounds": [
+      {
+        "name": "ambient/nether/soulsand_valley/wind1",
+        "weight": 25,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/wind2",
+        "weight": 25,
+        "volume": 0.25
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/wind3",
+        "weight": 25,
+        "volume": 0.25
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/wind4",
+        "weight": 25,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/wind1",
+        "weight": 25,
+        "pitch": 0.75,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/wind2",
+        "weight": 25,
+        "pitch": 0.75,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/wind3",
+        "weight": 25,
+        "pitch": 0.75,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/wind4",
+        "weight": 25,
+        "pitch": 0.75,
+        "volume": 0.3
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/sand1",
+        "weight": 25,
+        "volume": 0.2
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/sand2",
+        "weight": 25,
+        "volume": 0.2
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/sand3",
+        "weight": 2,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/voices1",
+        "weight": 5,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/voices2",
+        "weight": 5,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/voices3",
+        "weight": 5,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/voices4",
+        "weight": 5,
+        "volume": 0.8
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/voices5",
+        "weight": 5,
+        "volume": 0.4
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/voices5",
+        "weight": 5,
+        "pitch": 0.7,
+        "volume": 0.15
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/with1",
+        "weight": 4,
+        "volume": 0.6
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/whisper1",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/whisper2",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/whisper3",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/whisper4",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/whisper5",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/whisper6",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/whisper7",
+        "weight": 5,
+        "volume": 0.9
+      },
+      {
+        "name": "ambient/nether/soulsand_valley/whisper8",
+        "weight": 5,
+        "volume": 1
+      },
+	  {
+		"name": "custom/ambient/soul_sand_valley/whispering",
+		"weight": 5,
+		"volume": 0.3
+	  },
+	  {
+		"name": "custom/ambient/soul_sand_valley/heartbeat",
+		"weight": 5,
+        "pitch": 0.7,
+		"volume": 0.5
+	  }
+    ]
+  }
+}
