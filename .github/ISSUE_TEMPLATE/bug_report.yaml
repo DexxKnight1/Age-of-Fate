@@ -7,7 +7,7 @@ body:
     id: title
     attributes:
       value: |
-        *Name your issue properly! Don't leave the title empty!       
+        **Name your issue properly! Don't leave the title empty!**       
         **We do not provide support to modified modpacks. So be sure you haven't added any mod to the pack before you submit a issue report.**
   - type: checkboxes
     id: general-info
@@ -16,8 +16,8 @@ body:
       description: You may select more than one.
       options:
         - label: I didn't added any mods
-        - label: I can reproduce this issue consistently in single-player
-        - label: I can reproduce this issue consistently in multi-player
+        - label: I get this issue consistently in single-player
+        - label: I get this issue consistently in multi-player
         - label: I am crashing and can provide my crash report(s)
         - label: I am using the latest version of the modpack
     validations:
