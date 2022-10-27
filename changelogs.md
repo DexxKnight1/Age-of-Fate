@@ -1,3 +1,57 @@
+# [AOF-v1.5.8] - 2022.10.27
+>Fixed
+- Fixed Basic Agriculture quest seeds issues by replacing coffee, tea and flax seeds with other seeds
+>Added
+- Added Tiny Chaos Fragment to the Shop
+- Added Timeless and Classics Guns
+- Added Bygone Nether
+- Added Tax' Ocean Villager
+- Added Tax' Deep Villager
+- Added Project: Vibrant Journeys
+- Added Fast Leaf Decay
+- Added NoFog
+- Added ItemZoom Rekindled
+- Added Chipped
+- Added Clumps
+- Added Let Me Despawn
+- Added Does It Tick?
+>Changed
+- Updated Atum 2: Return to the San
+- Updated CC: Tweaked
+- Updated Champions
+- Updated CoFH Core
+- Updated Collective
+- Updated Corail Tombstone
+- Updated Extreme Reactors
+- Updated Fish's Undead Rising
+- Updated GeckoLib
+- Updated GottschCore
+- Updated Lootr
+- Updated Macaw's Bridges
+- Updated Macaw's Furniture
+- Updated Macaw's Roofs
+- Updated Medieval Siege Machine
+- Updated Mowzie's Mobs
+- Updated Oh The Biomes You'll Go
+- Updated Polymorph
+- Updated Sophisticated Backpacks
+- Updated Stack Refill
+- Updated Thermal Foundation
+- Updated Treasure2: Twilight Forest Loot Pack
+- Updated Treasure2!
+- Updated Useful Backpacks
+- Updated Villager Names
+- Updated Weaker Spiderwebs
+- Updated Werewolves - Become a Beast!
+- Updated ZeroCore 2
+>Removed
+- Removed Rapid Leaf Decay
+- Removed Spartan Weaponry: Ice and Fire
+- Removed Spartan Weaponry: Twilight Forest
+- Removed Repurposed Structures
+- Removed Mutant Beasts
+- Removed Mutant More
+- Removed The Afterlight
 # [AOF-v1.5.7] - 2022.09.14
 >Fixed
 - Fixed compressed Nether Star recipes issues
