@@ -1,44 +1,69 @@
----
-name: Bug/Crash report
+name: 🤬 Bug/Crash report
 about: Create a report to help us improve
-title: '[Bug]'
-labels: 'bug'
-assignees: ''
-
----
-
-**NAME YOUR ISSUE PROPERLY! DON'T LEAVE THE TITLE EMPTY**
-
-**WE DO NOT PROVIDE SUPPORT TO MODIFIED MODPACKS.**
-
-**General Info**
-
-[ ] I didn't added any mods
-
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    id: title
+    attributes:
+      value: |
+        **NAME YOUR ISSUE PROPERLY! DON'T LEAVE THE TITLE EMPTY**
+        
+        **WE DO NOT PROVIDE SUPPORT TO MODIFIED MODPACKS.**
+  - type: checkboxes
+    id: general-info
+    attributes:
+      label: General Info
+      description: You may select more than one.
+      options:
+        - label: I didn't added any mods
+        - label: I can reproduce this issue consistently in single-player
+        - label: I can reproduce this issue consistently in multi-player
+        - label: I am crashing and can provide my crash report(s)
+        - label: I am using the latest version of the modpack
+    validations:
+      required: false
+  - type: input
+    id: launcher-info
+    attributes:
+      label: Your launcher
+      placeholder: ex. Curseforge, GDL, ATLauncher, MultiMC
+    validations:
+      required: true
+  - type: input
+    id: modpack-info
+    attributes:
+      label: Modpack version
+      placeholder: ex. 1.5.5
+    validations:
+      required: true
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Describe your issue
+      description: A clear and concise description of what the bug is.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: issue-reproduce
+    attributes:
+      label: Steps to reproduce the issue
+      description: A clear and concise description of what the bug is.
+      placeholder: 1. Go to...; 2. Click on...; 3. Use that...
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Additional Information
+      description: Please post crash report(located in crash-reports folder) and latest.log(located in logs folder), screenshots, etc. here. (use Pastebin.com, gist.github.com or Imgur.com accordingly). 
+      placeholder: If the pack is crashing please provide the latest.log from the logs folder of your instance.
+    validations:
+      required: true
+  - type: markdown
+    id: logs
+    attributes:
+      value: "**! ! ! PLEASE PROVIDE ANY TYPE OF LOGS. REPORTS WITHOUT LOGS OR CRASH-REPORTS WILL BE CLOSED WITHOUT REVIEWING ! !**"
