@@ -1,4 +1,4 @@
-name: 🤬 Bug/Crash report
+name: 🐞 Bug/Crash report
 description: Create a report to help us improve
 title: "[Bug]: "
 labels: [bug]
@@ -66,4 +66,4 @@ body:
   - type: markdown
     id: logs
     attributes:
-      value: "**! ! ! PLEASE PROVIDE ANY TYPE OF LOGS. REPORTS WITHOUT LOGS OR CRASH-REPORTS WILL BE CLOSED WITHOUT REVIEWING ! !**"
+      value: "**❗️ ❗️ ❗️ PLEASE PROVIDE ANY TYPE OF LOGS. REPORTS WITHOUT LOGS OR CRASH-REPORTS WILL BE CLOSED WITHOUT REVIEWING ❗️ ❗️ ❗️**"
