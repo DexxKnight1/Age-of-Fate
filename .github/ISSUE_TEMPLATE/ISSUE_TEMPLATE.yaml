@@ -60,7 +60,7 @@ body:
     attributes:
       label: Additional Information
       description: Please post crash report(located in crash-reports folder) and latest.log(located in logs folder), screenshots, etc. here. (use Pastebin.com, gist.github.com or Imgur.com accordingly). 
-      placeholder: If the pack is crashing please provide the latest.log from the logs folder of your instance.
+      placeholder: If the pack is crashing please provide the crash report or latest.log from the crash-reports/logs folder of your instance.
     validations:
       required: true
   - type: markdown
