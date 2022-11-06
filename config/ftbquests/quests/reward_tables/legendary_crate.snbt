@@ -207,6 +207,7 @@
 				}
 			}
 		}
+		{ item: "sophisticatedbackpacks:netherite_backpack" }
 	]
 	loot_crate: {
 		drops: {

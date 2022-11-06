@@ -59,12 +59,64 @@
 	"Dimension White List:" = ["minecraft:overworld"]
 
 ###############################
+# Integration properties
+###############################
+[integration]
+	#Enable/Disable Curios integration.
+	#Enabled by default, but Curios must be installed as well.
+	"Enable Curios Integration:" = true
+
+###############################
 # Chest properties
 ###############################
 [chests]
 	#The probability that a chest will contain a treasure map to another chest.
 	#Range: 20.0 ~ 100.0
 	"Treasure Chest Probability:" = 20.0
+
+	###############################
+	# Chest Generation properties
+	###############################
+	[chests."surface chest Gen"]
+		# The number of chests that are monitored. Most recent additions replace least recent when the registry is full.
+		# This is the set of chests used to measure distance between newly generated chests.
+		# A high count is better than a low count, especially in a multiplayer world.
+		#Range: 50 ~ 5000
+		"Maximum size of chest registry:" = 1000
+		# The probability that a chest will generate at selected spawn location.
+		# Including a non-100 value increases the randomization of chest placement.
+		#Range: 0.0 ~ 100.0
+		"Probability:" = 80.0
+		# The minimum distance, measured in blocks, that two chests can be in proximity (ie radius).
+		# Note: Only chests in the chest registry are checked against this property.
+		# Default = 256 blocks, or 16 chunks.
+		#Range: 80 ~ 32768
+		"Minimum distance per chest spawn:" = 192
+		# The number of chunks that are generated in a new world before a chests start to spawn.
+		#Range: 10 ~ 32000
+		"Wait for first chunks:" = 25
+
+	###############################
+	# Chest Generation properties
+	###############################
+	[chests."submerged chest gen"]
+		# The number of chests that are monitored. Most recent additions replace least recent when the registry is full.
+		# This is the set of chests used to measure distance between newly generated chests.
+		# A high count is better than a low count, especially in a multiplayer world.
+		#Range: 50 ~ 5000
+		"Maximum size of chest registry:" = 500
+		# The probability that a chest will generate at selected spawn location.
+		# Including a non-100 value increases the randomization of chest placement.
+		#Range: 0.0 ~ 100.0
+		"Probability:" = 70.0
+		# The minimum distance, measured in blocks, that two chests can be in proximity (ie radius).
+		# Note: Only chests in the chest registry are checked against this property.
+		# Default = 256 blocks, or 16 chunks.
+		#Range: 80 ~ 32768
+		"Minimum distance per chest spawn:" = 560
+		# The number of chunks that are generated in a new world before a chests start to spawn.
+		#Range: 10 ~ 32000
+		"Wait for first chunks:" = 100
 
 	###############################
 	# Chests that generate on land.
@@ -74,7 +126,7 @@
 	[chests."surface chests"]
 		# The probability chest will appear on the surface, instead of in a pit.
 		#Range: 0 ~ 100
-		"Probability of chest spawn on the surface:" = 15
+		"Probability of chest spawn on the surface:" = 20
 
 		###############################
 		# Common chest properties
@@ -82,6 +134,10 @@
 		[chests."surface chests".common]
 			# Enable/Disable generating chests associated with this rarity.
 			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 100
 			#The minimum blocks deep from the surface that a chest can generate at.
 			#Range: 5 ~ 250
 			"Minimum depth for spawn location:" = 6
@@ -95,10 +151,6 @@
 			"Enable surface spawn:" = true
 			#No comment
 			"Enable subterranean spawn:" = true
-			#The weight for this rarity to spawn a chest.
-			#Higher number relative to other weight means this has a high chance to be selected.
-			#Range: 0 ~ 32000
-			"Weight of rarity:" = 100
 
 			###############################
 			# Biome white and black list properties
@@ -119,6 +171,10 @@
 		[chests."surface chests".uncommon]
 			# Enable/Disable generating chests associated with this rarity.
 			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 70
 			#The minimum blocks deep from the surface that a chest can generate at.
 			#Range: 5 ~ 250
 			"Minimum depth for spawn location:" = 10
@@ -132,10 +188,6 @@
 			"Enable surface spawn:" = true
 			#No comment
 			"Enable subterranean spawn:" = true
-			#The weight for this rarity to spawn a chest.
-			#Higher number relative to other weight means this has a high chance to be selected.
-			#Range: 0 ~ 32000
-			"Weight of rarity:" = 70
 
 			###############################
 			# Biome white and black list properties
@@ -156,6 +208,10 @@
 		[chests."surface chests".scarce]
 			# Enable/Disable generating chests associated with this rarity.
 			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 40
 			#The minimum blocks deep from the surface that a chest can generate at.
 			#Range: 5 ~ 250
 			"Minimum depth for spawn location:" = 20
@@ -169,10 +225,6 @@
 			"Enable surface spawn:" = true
 			#No comment
 			"Enable subterranean spawn:" = true
-			#The weight for this rarity to spawn a chest.
-			#Higher number relative to other weight means this has a high chance to be selected.
-			#Range: 0 ~ 32000
-			"Weight of rarity:" = 40
 
 			###############################
 			# Biome white and black list properties
@@ -193,6 +245,10 @@
 		[chests."surface chests".rare]
 			# Enable/Disable generating chests associated with this rarity.
 			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 20
 			#The minimum blocks deep from the surface that a chest can generate at.
 			#Range: 5 ~ 250
 			"Minimum depth for spawn location:" = 30
@@ -206,10 +262,6 @@
 			"Enable surface spawn:" = true
 			#No comment
 			"Enable subterranean spawn:" = true
-			#The weight for this rarity to spawn a chest.
-			#Higher number relative to other weight means this has a high chance to be selected.
-			#Range: 0 ~ 32000
-			"Weight of rarity:" = 20
 
 			###############################
 			# Biome white and black list properties
@@ -230,6 +282,10 @@
 		[chests."surface chests".epic]
 			# Enable/Disable generating chests associated with this rarity.
 			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 10
 			#The minimum blocks deep from the surface that a chest can generate at.
 			#Range: 5 ~ 250
 			"Minimum depth for spawn location:" = 40
@@ -243,10 +299,6 @@
 			"Enable surface spawn:" = true
 			#No comment
 			"Enable subterranean spawn:" = true
-			#The weight for this rarity to spawn a chest.
-			#Higher number relative to other weight means this has a high chance to be selected.
-			#Range: 0 ~ 32000
-			"Weight of rarity:" = 10
 
 			###############################
 			# Biome white and black list properties
@@ -343,7 +395,7 @@
 	[chests."submerged chests"]
 		# The probability chest will appear on the surface, instead of in a pit.
 		#Range: 0 ~ 100
-		"Probability of chest spawn on the surface:" = 15
+		"Probability of chest spawn on the surface:" = 20
 
 		###############################
 		# Common chest properties
@@ -351,6 +403,10 @@
 		[chests."submerged chests".common]
 			# Enable/Disable generating chests associated with this rarity.
 			"Enable chests for rarity:" = false
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 76
 			#The minimum blocks deep from the surface that a chest can generate at.
 			#Range: 5 ~ 250
 			"Minimum depth for spawn location:" = 5
@@ -364,10 +420,6 @@
 			"Enable surface spawn:" = true
 			#No comment
 			"Enable subterranean spawn:" = true
-			#The weight for this rarity to spawn a chest.
-			#Higher number relative to other weight means this has a high chance to be selected.
-			#Range: 0 ~ 32000
-			"Weight of rarity:" = 76
 
 			###############################
 			# Biome white and black list properties
@@ -388,6 +440,10 @@
 		[chests."submerged chests".uncommon]
 			# Enable/Disable generating chests associated with this rarity.
 			"Enable chests for rarity:" = false
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 56
 			#The minimum blocks deep from the surface that a chest can generate at.
 			#Range: 5 ~ 250
 			"Minimum depth for spawn location:" = 5
@@ -401,10 +457,6 @@
 			"Enable surface spawn:" = true
 			#No comment
 			"Enable subterranean spawn:" = true
-			#The weight for this rarity to spawn a chest.
-			#Higher number relative to other weight means this has a high chance to be selected.
-			#Range: 0 ~ 32000
-			"Weight of rarity:" = 56
 
 			###############################
 			# Biome white and black list properties
@@ -425,6 +477,10 @@
 		[chests."submerged chests".scarce]
 			# Enable/Disable generating chests associated with this rarity.
 			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 36
 			#The minimum blocks deep from the surface that a chest can generate at.
 			#Range: 5 ~ 250
 			"Minimum depth for spawn location:" = 5
@@ -438,10 +494,6 @@
 			"Enable surface spawn:" = true
 			#No comment
 			"Enable subterranean spawn:" = true
-			#The weight for this rarity to spawn a chest.
-			#Higher number relative to other weight means this has a high chance to be selected.
-			#Range: 0 ~ 32000
-			"Weight of rarity:" = 36
 
 			###############################
 			# Biome white and black list properties
@@ -462,6 +514,10 @@
 		[chests."submerged chests".rare]
 			# Enable/Disable generating chests associated with this rarity.
 			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 16
 			#The minimum blocks deep from the surface that a chest can generate at.
 			#Range: 5 ~ 250
 			"Minimum depth for spawn location:" = 5
@@ -475,10 +531,6 @@
 			"Enable surface spawn:" = true
 			#No comment
 			"Enable subterranean spawn:" = true
-			#The weight for this rarity to spawn a chest.
-			#Higher number relative to other weight means this has a high chance to be selected.
-			#Range: 0 ~ 32000
-			"Weight of rarity:" = 16
 
 			###############################
 			# Biome white and black list properties
@@ -499,6 +551,10 @@
 		[chests."submerged chests".epic]
 			# Enable/Disable generating chests associated with this rarity.
 			"Enable chests for rarity:" = true
+			#The weight for this rarity to spawn a chest.
+			#Higher number relative to other weight means this has a high chance to be selected.
+			#Range: 0 ~ 32000
+			"Weight of rarity:" = 9
 			#The minimum blocks deep from the surface that a chest can generate at.
 			#Range: 5 ~ 250
 			"Minimum depth for spawn location:" = 5
@@ -512,10 +568,6 @@
 			"Enable surface spawn:" = true
 			#No comment
 			"Enable subterranean spawn:" = true
-			#The weight for this rarity to spawn a chest.
-			#Higher number relative to other weight means this has a high chance to be selected.
-			#Range: 0 ~ 32000
-			"Weight of rarity:" = 9
 
 			###############################
 			# Biome white and black list properties
@@ -604,50 +656,6 @@
 				# Disallowed Biome Types for generation. Must match the Type identifer(s).
 				"Black list by biome type:" = []
 
-	###############################
-	# Chest Generation properties
-	###############################
-	[chests."surface chest Gen"]
-		# The number of chests that are monitored. Most recent additions replace least recent when the registry is full.
-		# This is the set of chests used to measure distance between newly generated chests.
-		# A high count is better than a low count, especially in a multiplayer world.
-		#Range: 50 ~ 5000
-		"Maximum size of chest registry:" = 1000
-		# The probability that a chest will generate at selected spawn location.
-		# Including a non-100 value increases the randomization of chest placement.
-		#Range: 0.0 ~ 100.0
-		"Probability:" = 80.0
-		# The minimum distance, measured in blocks, that two chests can be in proximity (ie radius).
-		# Note: Only chests in the chest registry are checked against this property.
-		# Default = 256 blocks, or 16 chunks.
-		#Range: 80 ~ 32768
-		"Minimum distance per chest spawn:" = 192
-		# The number of chunks that are generated in a new world before a chests start to spawn.
-		#Range: 10 ~ 32000
-		"Wait for first chunks:" = 25
-
-	###############################
-	# Chest Generation properties
-	###############################
-	[chests."submerged chest gen"]
-		# The number of chests that are monitored. Most recent additions replace least recent when the registry is full.
-		# This is the set of chests used to measure distance between newly generated chests.
-		# A high count is better than a low count, especially in a multiplayer world.
-		#Range: 50 ~ 5000
-		"Maximum size of chest registry:" = 500
-		# The probability that a chest will generate at selected spawn location.
-		# Including a non-100 value increases the randomization of chest placement.
-		#Range: 0.0 ~ 100.0
-		"Probability:" = 70.0
-		# The minimum distance, measured in blocks, that two chests can be in proximity (ie radius).
-		# Note: Only chests in the chest registry are checked against this property.
-		# Default = 256 blocks, or 16 chunks.
-		#Range: 80 ~ 32768
-		"Minimum distance per chest spawn:" = 560
-		# The number of chunks that are generated in a new world before a chests start to spawn.
-		#Range: 10 ~ 32000
-		"Wait for first chunks:" = 100
-
 ###############################
 # Pit properties
 ###############################
@@ -691,17 +699,17 @@
 	# Used in conjunction with the chunks per well and spawn probability.
 	# Ex. TODO
 	#Range: 100 ~ 32000
-	"Minimum block distance per well spawn:" = 400
+	"Minimum block distance per well spawn:" = 600
 	#The probability that a well will generate.
 	#Range: 0.0 ~ 100.0
-	"Generation probability:" = 80.0
-	#The number of wells that are monitored. Most recent additions replace oldest when the registry is full.
-	#This is the set of wells used to measure distance between newly generated wells.
-	#Range: 5 ~ 1000
-	"Maximum size of chest registry:" = 25
+	"Generation probability:" = 50.0
 	# The number of chunks that are generated in a new world before wells start to spawn.
 	#Range: 10 ~ 32000
 	"Wait for first chunks:" = 100
+	#The number of wells that are monitored. Most recent additions replace oldest when the registry is full.
+	#This is the set of wells used to measure distance between newly generated wells.
+	#Range: 5 ~ 1000
+	"Maximum size of chest registry:" = 100
 
 	###############################
 	# Biome white and black list properties
@@ -871,10 +879,10 @@
 	# Used in conjunction with the chunks per wither tree and spawn probability.
 	# Ex. TODO
 	#Range: 100 ~ 32000
-	"Minimum block distance per wither tree spawn:" = 800
+	"Minimum block distance per wither tree spawn:" = 1000
 	# The probability that a wither tree will spawn.
 	#Range: 0.0 ~ 100.0
-	"Probability of wither tree spawn:" = 90.0
+	"Probability of wither tree spawn:" = 70.0
 	# The maximum height a wither tree can reach.
 	# This is the high end of a calculated range. ex. size is randomized between minTrunkSize and maxTrunkSize.
 	# (The minimum is predefined.)
@@ -889,7 +897,7 @@
 	#The number of wither trees that are monitored. Most recent additions replace oldest when the registry is full.
 	#This is the set of wither trees used to measure distance between newly generated wither trees.
 	#Range: 5 ~ 1000
-	"Maximum size of chest registry:" = 25
+	"Maximum size of chest registry:" = 100
 	# The number of chunks that are generated in a new world before wither trees start to spawn.
 	#Range: 10 ~ 32000
 	"Wait for first chunks:" = 608
@@ -906,12 +914,4 @@
 		"White list by biome type:" = []
 		# Disallowed Biome Types for generation. Must match the Type identifer(s).
 		"Black list by biome type:" = ["minecraft:ocean", "minecraft:deep_ocean"]
-
-###############################
-# Integration properties
-###############################
-[integration]
-	#Enable/Disable Curios integration.
-	#Enabled by default, but Curios must be installed as well.
-	"Enable Curios Integration:" = true
 

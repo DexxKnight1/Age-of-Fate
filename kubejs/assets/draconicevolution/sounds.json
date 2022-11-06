@@ -1,0 +1,245 @@
+{
+  "charge": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:charge",
+        "stream": false
+      }
+    ]
+  },
+  "discharge": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:discharge",
+        "stream": false
+      }
+    ]
+  },
+  "boom": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:boom",
+        "stream": false
+      }
+    ]
+  },
+  "beam": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:beam",
+        "stream": false
+      }
+    ]
+  },
+  "portal": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "draconicevolution:portal",
+        "stream": false
+      }
+    ]
+  },
+  "fusion_explosion": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "draconicevolution:fusion_explosion",
+        "stream": false
+      }
+    ]
+  },
+  "chaos_chamber_ambient": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "draconicevolution:chaos_chamber_ambient",
+        "stream": true
+      }
+    ]
+  },
+  "core_sound": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:core_sound",
+        "stream": false
+      }
+    ]
+  },
+  "shield_strike": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "draconicevolution:shield_strike",
+        "stream": false
+      }
+    ]
+  },
+  "energy_bolt": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:energy_bolt",
+        "stream": false
+      }
+    ]
+  },
+  "fusion_complete": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:fusion_complete",
+        "stream": false
+      }
+    ]
+  },
+  "fusion_rotation": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:fusion_rotation",
+        "stream": false
+      }
+    ]
+  },
+  "electric_buzz": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:electric_buzz",
+        "stream": false
+      }
+    ]
+  },
+  "sun_dial_effect": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:sun_dial_effect",
+        "stream": false
+      }
+    ]
+  },
+  "generator1": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:generator1",
+        "stream": false
+      }
+    ]
+  },
+  "generator2": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:generator2",
+        "stream": false
+      }
+    ]
+  },
+  "generator3": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "draconicevolution:generator3",
+        "stream": false
+      }
+    ]
+  },
+  "blink": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "draconicevolution:blink",
+        "stream": false
+      }
+    ]
+  },
+  "staff_charge_electric": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "draconicevolution:staff_charge_electric",
+        "stream": false
+      }
+    ]
+  },
+  "staff_charge_fire": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "draconicevolution:staff_charge_fire",
+        "stream": false
+      }
+    ]
+  },
+  "staff_hit_default": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "draconicevolution:staff_hit_default",
+        "stream": false
+      }
+    ]
+  },
+  "staff_hit_electric": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "draconicevolution:staff_hit_electric",
+        "stream": false
+      }
+    ]
+  },
+  "crystal_unstable": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "draconicevolution:crystal_unstable",
+        "stream": false
+      }
+    ]
+  },
+  "crystal_beam": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "draconicevolution:crystal_beam",
+        "stream": false
+      }
+    ]
+  },
+  "crystal_destabilize": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "draconicevolution:crystal_destabilize",
+        "stream": false
+      }
+    ]
+  },
+  "crystal_restore": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "draconicevolution:crystal_restore",
+        "stream": false
+      }
+    ]
+  },
+  "guardian_thonk": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "draconicevolution:guardian_thonk",
+        "stream": false
+      }
+    ]
+  }
+}

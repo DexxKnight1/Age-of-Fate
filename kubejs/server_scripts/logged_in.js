@@ -71,17 +71,6 @@ events.listen('player.logged_in', function (event) {
                             }
                         }
                     },
-					the_afterlight: {
-                    id: 'patchouli:guide_book',
-                    Count: 1,
-                    tag: {
-                            'akashictome:displayName': { text: "Afterlight Tome" },
-                            'patchouli:book': 'the_afterlight:afterlight_tome',
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Afterlight Tome"}]}'
-                            }
-                        }
-                    },
                     'mana-and-artifice': {
                         id: 'mana-and-artifice:guide_book',
                         Count: 1,

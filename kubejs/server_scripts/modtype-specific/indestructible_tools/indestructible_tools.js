@@ -34,7 +34,7 @@ onEvent('recipes', (event) => {
             E: {item: 'mysticalagradditions:insanium_ingot', },
             F: {item: 'vampirism:blood_infused_enhanced_iron_ingot', },
             G: {item: 'endrem:end_crystal_ingot', },
-            H: {item: 'the_afterlight:moonsteel_ingot', },
+            H: {item: 'extendedcrafting:crystaltine_ingot', },
             I: {item: 'mekanism:ingot_steel', },
             J: {item: 'tconstruct:cobalt_ingot', },
             K: {item: 'minecraft:nether_star', },

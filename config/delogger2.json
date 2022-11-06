@@ -6,6 +6,10 @@
     "DebugFile"
   ],
   "loggers": [
+    "mezz.jei.load.PluginCaller",
+    "com.connectivity.Connectivity",
+    "net.minecraft.network.datasync.EntityDataManager",
+    "configured",
     "net.minecraft.client.renderer.model.BlockModel",
     "net.minecraft.client.renderer.texture.AtlasTexture",
     "com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService",

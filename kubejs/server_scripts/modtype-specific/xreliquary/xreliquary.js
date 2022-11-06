@@ -11,4 +11,5 @@ onEvent('recipes', (event) => {
   removeRecipeByOutput(event, [
     'xreliquary:fertile_lily_pad'
   ])
+  
 })

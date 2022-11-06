@@ -104,9 +104,9 @@
 		}
 		{
 			title: "&a&lThe Town Hall"
-			x: 0.0d
+			x: 1.0d
 			y: -8.0d
-			subtitle: "Step 2: Town Hall"
+			subtitle: "The center of your colony"
 			description: [
 				"The Town Hall block is what actually creates the colony. It also functions as the center of it. This is where you start using the build tool to place buildings. Using the build tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level)."
 				""
@@ -116,7 +116,7 @@
 				""
 				"&lNote:&r Make sure you use the + and - options in the GUI to make sure you have the ground level of the hut where you want the ground level to be. Not all hut blocks sit on the ground.Once you commit to the placement of the Town Hall (green checkmark), the Town Hall block will be placed."
 			]
-			dependencies: ["01BA5896FE1F2896"]
+			dependencies: ["59C805F0C3A3E7E0"]
 			id: "649F6004232F335C"
 			tasks: [{
 				id: "607EDC7794E2FC97"
@@ -150,9 +150,9 @@
 		}
 		{
 			title: "&a&lThe Builder"
-			x: -1.5d
+			x: -0.5d
 			y: -7.0d
-			subtitle: "Step 3: Builder’s Hut"
+			subtitle: "Step 2: Builder’s Hut"
 			description: [
 				"Before anything can be built, you need a Builder. The Builder must build their own Builder’s Hut before building any other huts, and they cannot build or upgrade a hut to a higher level than their own hut level."
 				""
@@ -162,7 +162,7 @@
 				""
 				"&lNote:&r The Builder can only build or upgrade any other hut up to the level of their own hut. So, in order for the Builder to upgrade any building, the Builder’s Hut must be upgraded first. Then the Builder will be able to upgrade any other building(s)."
 			]
-			dependencies: ["649F6004232F335C"]
+			dependencies: ["01BA5896FE1F2896"]
 			id: "59C805F0C3A3E7E0"
 			tasks: [{
 				id: "4F6E4CB69D98EDEC"
@@ -366,7 +366,7 @@
 			title: "&a&lThe University"
 			x: 1.5d
 			y: -6.0d
-			subtitle: "Step 4: Rest of the Colony"
+			subtitle: "Step 3: Rest of the Colony"
 			description: [
 				"The University is where a Researcher will research various upgrades to your colony."
 				""
@@ -1301,7 +1301,7 @@
 			title: "&a&lThe Military"
 			x: -0.5d
 			y: -5.0d
-			subtitle: "Step 5: Guards are the protecting force for your colony"
+			subtitle: "Step 4: Guards are the protecting force for your colony"
 			description: [
 				"The Barracks is the ultimate protection for your colony. The Barracks will hold 4 Barracks Towers within its structure. The Barracks Towers (unlike the normal Guard Towers) will employ and house 1 Guard for every level built! Each new Guard will need a bed in a house in order to spawn. However, once they are hired at the Barracks Tower, that becomes their new residence and the bed in the house will open up for another new citizen. Each Barracks Tower can house and employ 5 Guards for a total of 20 Guards for your colony."
 				""

@@ -1,10 +1,5 @@
 onEvent('recipes', (event) => {	
 
-  event.remove({output: 'thermal:onion_block'})
-  event.remove({output: 'thermal:machine_frame'})
-  event.remove({output: 'thermal:redstone_servo'})
-  event.remove({output: 'thermal:rf_coil'})
-
   event.shapeless('thermal:onion_block', '9x #forge:crops/onion')
   event.shapeless('thermal:ender_pearl_dust', 'appliedenergistics2:ender_dust').id(`kubejs:appliedenergistics2/ender_dust`)
 
@@ -27,6 +22,18 @@ onEvent('recipes', (event) => {
     C: 'projectred-core:electrotine_ingot'
   }).id(`kubejs:thermal/rf_coil`)
 
+  modifyShaped(event, 'thermal:energy_cell_frame', 1, ['ABA', 'BCB', 'ABA'], {
+    A: 'projectred-core:electrotine_ingot',
+    B: '#forge:glass',
+    C: 'immersiveengineering:dynamo'
+  })
+
+  modifyShaped(event, 'thermal:fluid_cell_frame', 1, ['ABA', 'BCB', 'ABA'], {
+    A: 'alltheores:copper_ingot',
+    B: '#forge:glass',
+    C: 'immersiveengineering:fluid_sorter'
+  })
+
   const idRemovals = [
     'thermal:storage/tin_block',
     'thermal:storage/copper_block',
@@ -38,34 +45,10 @@ onEvent('recipes', (event) => {
     'thermal:storage/nickel_block',
     'thermal:storage/osmium_block',
     'thermal:storage/zinc_block',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_phantom_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_villager_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_wolf_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_polar_bear_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_llama_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_stray_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_vex_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_evoker_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_magma_cube_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_drowned_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_dolphin_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_husk_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_panda_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_vindicator_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_shulker_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_ravager_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_guardian_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_mooshroom_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_horse_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_silverfish_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_fox_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_endermite_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_witch_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_pillager_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_parrot_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_cat_seeds',
-    'thermal:compat/mysticalagriculture/insolator_mysticalag_bat_seeds',
+    'thermal:storage/onion_block',
+    'thermal:machine_frame',
+    'thermal:redstone_servo',
+    'thermal:rf_coil',
     'thermal:slag/white_concrete_powder_with_slag',
     'thermal:slag/orange_concrete_powder_with_slag',
     'thermal:slag/magenta_concrete_powder_with_slag',
@@ -87,14 +70,6 @@ onEvent('recipes', (event) => {
   idRemovals.forEach((id) => {
     event.remove({ id: id })
   })
-
-  //event.recipes.thermal.pulverizer(
-    //[
-      //Item.of('astralsorcery:aquamarine').withChance(6),
-      //Item.of('minecraft:sand').withChance(0.2)
-    //],
-    //[{ item: 'astralsorcery:aquamarine_sand_ore' }]
-  //)
 
   event.recipes.thermal.press('9x alltheores:copper_ingot', ['alltheores:copper_block', 'thermal:press_unpacking_die']).id(`kubejs:thermal:machine/press/unpacking/press_copper_unpacking`)
   event.recipes.thermal.press('9x alltheores:silver_ingot', ['alltheores:silver_block', 'thermal:press_unpacking_die']).id(`kubejs:thermal:machine/press/unpacking/press_silver_unpacking`)

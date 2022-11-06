@@ -20,7 +20,7 @@ onEvent('recipes', (event) => {
     C: 'druidcraft:rope'
   }).id(`kubejs:byg/pendorite_horse_armor`)
 
-  modifyShaped(event, 'byg:chain_plating', 2, ['ABA', 'B B', 'ABA'], {
+  modifyShaped(event, 'byg:chain_plating', 1, ['ABA', 'B B', 'ABA'], {
     A: '#forge:nuggets/iron',
     B: '#forge:ingots/iron'
   })

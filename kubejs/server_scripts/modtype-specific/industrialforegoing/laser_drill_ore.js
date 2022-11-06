@@ -134,7 +134,6 @@ onEvent(`recipes`, (event) => {
     drillOw("appliedenergistics2:charged_quartz_ore", 10, 33, 10, 3);
     drillOw("mysticalagriculture:prosperity_ore", 0, 80, 20, 0);
     drillOw("mysticalagriculture:inferium_ore", 0, 32, 20, 5);
-    drillOw("powah:uraninite_ore", 4, 36, 7, 13);
     drillOw("thermal:apatite_ore", 39, 48, 6, 3);
 
     drillNet(`mysticalagriculture:soulium_ore`, 0, 32, 20, 12);

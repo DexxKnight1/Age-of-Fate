@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    "x x",
+    "x x",
+    "yyy"
+  ],
+  "key": {
+    "x": {
+      "item": "eidolon:pewter_ingot"
+    },
+    "y": {
+      "item": "eidolon:pewter_block"
+    }
+  },
+  "result": {
+    "item": "eidolon:crucible"
+  }
+}

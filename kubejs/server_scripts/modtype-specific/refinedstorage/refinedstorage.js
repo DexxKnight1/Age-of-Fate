@@ -18,39 +18,27 @@ onEvent('recipes', (event) => {
   event.shapeless('refinedstorage:raw_advanced_processor', ['refinedstorage:processor_binding', 'rftoolsbase:infused_diamond', 'projectred-core:silicon', 'minecraft:redstone']).id(`kubejs:refinedstorage/raw_advanced_processor`)
   event.shapeless('extradisks:raw_withering_processor', ['refinedstorage:processor_binding', 'astralsorcery:shifting_star', 'projectred-core:silicon', 'minecraft:redstone']).id(`kubejs:extradisks/raw_withering_processor`)
   
-  event.shaped(Item.of('refinedstorage:machine_casing', 1), [
-      'ABA',
-      'CDC',
-      'ABA'
-    ], {
-          A: 'refinedstorage:quartz_enriched_iron',
-          B: '#forge:coins/invar',
-          C: 'industrialforegoing:plastic',
-          D: '#forge:stone'
+  event.shaped('refinedstorage:machine_casing', ['ABA', 'CDC', 'ABA'], {
+    A: 'refinedstorage:quartz_enriched_iron',
+    B: 'projectred-core:silicon',
+    C: 'industrialforegoing:plastic',
+    D: 'thermal:enderium_glass'
   }).id(`kubejs:refinedstorage/machine_casing`)
 
-  event.shaped(Item.of('extradisks:infinite_storage_disk', 1), [
-			'DED',
-			'EHE',
-			'FGF'
-	  ], {
-            D: '#forge:glass',
-            E: 'refinedstorage:quartz_enriched_iron',
-            F: 'extradisks:withering_processor',
-			      H: 'extradisks:infinite_storage_part',
-			      G: 'extrastorage:neural_processor'
+  event.shaped('extradisks:infinite_storage_disk', ['DED', 'EHE', 'FGF'], {
+    D: 'thermal:enderium_glass',
+    E: 'refinedstorage:quartz_enriched_iron',
+    F: 'extradisks:withering_processor',
+		H: 'extradisks:infinite_storage_part',
+		G: 'extrastorage:neural_processor'
   }).id(`kubejs:extradisks/infinite_storage_disk`)
 	
-	event.shaped(Item.of('extradisks:advanced_storage_housing', 1), [
-			'DED',
-			'E E',
-			'FGF'
-	  ], {
-            D: '#forge:glass',
-            E: 'refinedstorage:quartz_enriched_iron',
-            F: 'extradisks:withering_processor',
-			      G: 'extrastorage:neural_processor'
-    }).id(`kubejs:extradisks/advanced_storage_housing`)
+	event.shaped('extradisks:advanced_storage_housing', ['DED', 'E E', 'FGF'], {
+    D: 'thermal:enderium_glass',
+    E: 'refinedstorage:quartz_enriched_iron',
+    F: 'extradisks:withering_processor',
+		G: 'extrastorage:neural_processor'
+  }).id(`kubejs:extradisks/advanced_storage_housing`)
   
   event.replaceInput({item: 'refinedstorage:silicon'}, 'projectred-core:silicon')
   

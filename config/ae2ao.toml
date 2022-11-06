@@ -1,7 +1,23 @@
+#Disable all channels logic. If true amount of used channels is always 0.
 DisableChannels = false
-ControllerLimits = false
-Max_X = 7
-Max_Y = 7
-Max_Z = 7
-SCFD = false
-ChatInfo = true
+
+[Cells]
+	CellFireResistance = false
+	PortableCellFireResistance = false
+
+[Controllers]
+	#Control all controller limits. If is false, any variant of controller structure is correct.
+	ControllerLimits = true
+	#If is false, possible structure with cross pattern, i.e. two neighbors on two or three axes.
+	ControllerCross = false
+	#If is true, possible connect to one me net multiple controller structure.
+	MultipleControllers = false
+
+	[Controllers.ControllerSizeLimits]
+		#Range: 0 ~ 255
+		Max_X = 7
+		#Range: 0 ~ 255
+		Max_Y = 7
+		#Range: 0 ~ 255
+		Max_Z = 7
+

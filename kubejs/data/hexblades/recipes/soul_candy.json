@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "item": "eidolon:soul_shard"
+        }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        {
+          "item": "minecraft:sugar"
+        },
+        {
+          "item": "minecraft:honey_bottle"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "item": "hexblades:soul_candy",
+    "count": 4
+  }
+}

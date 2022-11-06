@@ -46,6 +46,15 @@
 		growth = true
 		#Set false to disable enchantment
 		step = true
+		#Initial level drop rate.  So level I of enchant gives this % drop chance
+		#Range: 1 ~ 100
+		beheadingDrop = 20
+		#Enchant level increase drop rate.  % = beheadingDrop + (level-1)*beheadingPerLevel
+		#Range: 1 ~ 100
+		beheadingPerLevel = 25
+		#Radius per level.  size around player to perform growth logic
+		#Range: 1 ~ 16
+		growthRadius = 2
 
 	#####################################################################################
 	# Worldgen settings  
@@ -103,6 +112,9 @@
 			#Tick rate.  20 will fire one block per second
 			#Range: 1 ~ 20
 			ticks = 20
+			#Radius
+			#Range: 1 ~ 32
+			radius = 4
 
 		#Ender shelf settings
 		[cyclic.blocks.ender_shelf]
@@ -118,6 +130,27 @@
 			#Sound Recorder - how far out does it listen to record sounds
 			#Range: 1 ~ 64
 			radius = 8
+
+		#battery settings
+		[cyclic.blocks.battery]
+			#RF/t charging rate for the battery item slot
+			#Range: 1 ~ 6400000
+			charge = 8000
+
+		#experience_pylon settings
+		[cyclic.blocks.experience_pylon]
+			#Radius to pickup xp orbs
+			#Range: 1 ~ 64
+			radius = 16
+
+		#fisher settings
+		[cyclic.blocks.fisher]
+			#Radius to Fish from nearby water
+			#Range: 1 ~ 32
+			radius = 12
+			#Chance to Fish from nearby water.  Smaller values is slower fish
+			#Range: 1.0E-5 ~ 0.999
+			chance = 0.1
 
 	#####################################################################################
 	# Logging related configs
@@ -212,6 +245,9 @@
 			#Seconds of noClip per chorus_spectral
 			#Range: 1 ~ 20000
 			ticks = 600
+			#Seconds of flight per chorus_flight
+			#Range: 1 ~ 20000
+			flight = 1200
 
 		#####################################################################################
 		# Settings for varios charms (curios)
@@ -232,7 +268,7 @@
 			#####################################################################################
 			[cyclic.items.charms.caving_torch]
 				#Light level at which to start placing down a torch
-				#Range: 0 ~ 13
+				#Range: 0 ~ 14
 				light_limit = 7
 				#Light level of the current block after placing down a torch. Must be greater than light_limit
 				#Higher values means torches will be placed closer to you. Lower values means torches will overlap less,
@@ -254,6 +290,62 @@
 			#Ore Prospector radius around player to search for ores
 			#Range: 1 ~ 99
 			range = 32
+
+		#####################################################################################
+		# scythe_brush settings. note radius is halved while player is sneaking
+		#####################################################################################
+		[cyclic.items.scythe_brush]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		#####################################################################################
+		# scythe_forage settings. note radius is halved while player is sneaking
+		#####################################################################################
+		[cyclic.items.scythe_forage]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		#####################################################################################
+		# scythe_leaves settings. note radius is halved while player is sneaking
+		#####################################################################################
+		[cyclic.items.scythe_leaves]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		#####################################################################################
+		# scythe_harvest settings. note radius is halved while player is sneaking
+		#####################################################################################
+		[cyclic.items.scythe_harvest]
+			#Radius defines how far it reaches (for example radius 6 is 13x13 square)
+			#Range: 0 ~ 32
+			radius = 6
+
+		#####################################################################################
+		# spell_water settings
+		#####################################################################################
+		[cyclic.items.spell_water]
+			#Radius defines how far it reaches
+			#Range: 0 ~ 32
+			radius = 3
+
+		#####################################################################################
+		# spell_ice settings
+		#####################################################################################
+		[cyclic.items.spell_ice]
+			#Radius defines how far it reaches
+			#Range: 0 ~ 32
+			radius = 3
+
+		#apple_ender of settings
+		[cyclic.items.apple_ender]
+			#Ignored Structures
+			ignore = ["minecraft:shipwreck", "minecraft:mineshaft", "minecraft:stronghold", "minecraft:buried_treasure", "minecraft:pillager_outpost", "minecraft:village", "minecraft:nether_fossil"]
+			#How many results the client will see
+			#Range: 1 ~ 60
+			printed = 5
 
 	#####################################################################################
 	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use  

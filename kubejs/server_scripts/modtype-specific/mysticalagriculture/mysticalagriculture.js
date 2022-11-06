@@ -28,7 +28,7 @@ onEvent('recipes', (event) => {
   essenceCircle('allthemodium:unobtainium_nugget', 1, 'unobtainium')
   essenceCircle('industrialforegoing:plastic', 6, 'plastic')
   essenceCircle('projectred-core:electrotine_dust', 6, 'electrotine')
-  essenceCircle('forbidden_arcanus:arcane_gold_ingot', 2, 'arcane_gold')
+  essenceCircle('eidolon:arcane_gold_ingot', 2, 'arcane_gold')
   essenceCircle('draconicevolution:small_chaos_frag', 1, 'chaotic')
   essenceCircle('botania:elementium_ingot', 2, 'elementium')
   essenceCircle('mythicbotany:alfsteel_ingot', 1, 'alfsteel')

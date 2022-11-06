@@ -74,8 +74,6 @@ onEvent('recipes', (event) => {
 
   //Craft only metals
   unifyCraftMetal('steel', 'mekanism:ingot_steel', 'mekanism:dust_steel', 'mekanism:block_steel', 'mekanism:nugget_steel')
-  unifyCraftMetal('arcane_gold', 'eidolon:arcane_gold_ingot', 'eidolon:arcane_gold_block', 'eidolon:arcane_gold_nugget')
-  unifyCraftMetal('arcane_gold', 'forbidden_arcanus:arcane_gold_ingot', 'forbidden_arcanus:arcane_gold_block', 'forbidden_arcanus:arcane_gold_nugget')
 
   //Thermal
   unifyCraftMetal('bronze', 'thermal:bronze_ingot', 'thermal:bronze_dust', 'thermal:bronze_block', 'thermal:bronze_nugget')
@@ -447,6 +445,11 @@ onEvent('recipes', (event) => {
   event.replaceInput('minecraft:stick', '#forge:rods/wooden')
   event.replaceInput('thermal:coal_coke', '#forge:coal_coke')
   event.replaceInput('immersiveengineering:coal_coke', '#forge:coal_coke')
+  event.replaceInput('forbidden_arcanus:arcane_gold_ingot', 'eidolon:arcane_gold_ingot')
+  event.replaceInput('forbidden_arcanus:arcane_gold_block', 'eidolon:arcane_gold_block')
+  event.replaceInput('forbidden_arcanus:arcane_gold_nugget', 'eidolon:arcane_gold_nugget')
+  event.remove({ id: 'forbidden_arcanus:arcane_gold_nugget' })
+  event.remove({ id: 'forbidden_arcanus:arcane_gold_block' })
 
   event.replaceOutput('immersivepetroleum:bitumen', 'thermal:bitumen')
   event.replaceOutput('lazierae2:coal_dust', 'mekanism:dust_coal')

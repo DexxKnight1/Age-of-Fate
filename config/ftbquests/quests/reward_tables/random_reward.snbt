@@ -62,6 +62,12 @@
 		{ item: "forestcraft:sponge_piece", count: 16 }
 		{ item: "bloodmagic:soulsnare", count: 16 }
 		{ item: "mana-and-artifice:vinteum_dust", count: 16 }
+		{ item: "fluxnetworks:flux_dust", count: 16 }
+		{ item: "forbidden_arcanus:arcane_crystal_dust", count: 8 }
+		{ item: "forbidden_arcanus:mundabitur_dust", count: 8 }
+		{ item: "lazierae2:carbonic_fluix_dust", count: 8 }
+		{ item: "forestcraft:molten_alloy", count: 8 }
+		{ item: "forbidden_arcanus:obsidian_with_iron", count: 8 }
 	]
 	loot_crate: {
 		drops: {

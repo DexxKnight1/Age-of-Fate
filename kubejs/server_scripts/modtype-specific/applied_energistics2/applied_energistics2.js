@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+onEvent('recipes', (event) => {
 
   event.shaped('appliedenergistics2:controller', ['ABA', 'CDC', 'ABA'], {
     A: 'appliedenergistics2:smooth_sky_stone_block',
@@ -40,11 +40,10 @@ onEvent('recipes', event => {
   
   event.remove({output: 'appliedenergistics2:controller'})
   event.remove({output: 'appliedenergistics2:cable_anchor'})
-  event.remove({id: 'appliedenergistics2:facade/stalwart_dungeons/awful_ghast_altar'})
-  event.remove({id: 'appliedenergistics2:facade/stalwart_dungeons/nether_keeper_altar'})
-  event.remove({id: 'appliedenergistics2:facade/stalwart_dungeons/shelterer_altar'})
-  
-  event.shapeless('3x appliedenergistics2:cable_anchor', ['#forge:ingots/iron', '#appliedenergistics2:knife']).id(`kubejs:appliedenergistics2/network/parts/cable_anchor`)
+  //event.remove({id: 'appliedenergistics2:facade/stalwart_dungeons/awful_ghast_altar'})
+  //event.remove({id: 'appliedenergistics2:facade/stalwart_dungeons/nether_keeper_altar'})
+  //event.remove({id: 'appliedenergistics2:facade/stalwart_dungeons/shelterer_altar'})
+
   event.shapeless('appliedenergistics2:ender_dust', 'thermal:ender_pearl_dust').id(`kubejs:thermal/ender_pearl_dust`)
 
   event.recipes.appliedenergistics2.grinder({

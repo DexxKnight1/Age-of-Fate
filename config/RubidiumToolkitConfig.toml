@@ -1,0 +1,47 @@
+
+#Rubidium Toolkit Settings
+["Rubidium Toolkit Settings"]
+
+	["Rubidium Toolkit Settings"."FPS Counter"]
+		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "OFF"
+		"Right-align FPS Counter" = false
+		"FPS Counter Distance" = 12
+
+	["Rubidium Toolkit Settings".Zoom]
+		"Lower Zoom Sensitivity" = true
+		"Zoom Scrolling Enabled" = true
+		"Zoom Transition Mode (OFF, LINEAR, SMOOTH)" = "SMOOTH"
+		"Zoom Transition Mode (TOGGLE, HOLD, PERSISTENT)" = "HOLD"
+		"Cinematic Camera Mode (OFF, VANILLA, MULTIPLIED)" = "OFF"
+		"Zoom Overlay?" = true
+
+	["Rubidium Toolkit Settings"."True Darkness"]
+		"Use True Darkness" = false
+		#Allowed Values: PITCH_BLACK, REALLY_DARK, DARK, DIM
+		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "DARK"
+
+		["Rubidium Toolkit Settings"."True Darkness".Advanced]
+			"Only Effect Block Lighting" = false
+			"Ignore Moon Light" = false
+			#Range: 0.0 ~ 1.0
+			"Minimum Moon Brightness (0->1)" = 0.0
+			#Range: 0.0 ~ 1.0
+			"Maximum Moon Brightness (0->1)" = 0.25
+
+		["Rubidium Toolkit Settings"."True Darkness"."Dimension Settings"]
+			"Dark Overworld?" = false
+			"Dark By Default?" = false
+			"Dark Nether?" = false
+			#Range: 0.0 ~ 1.0
+			"Dark Nether Fog Brightness (0->1)" = 0.5
+			"Dark End?" = false
+			#Range: 0.0 ~ 1.0
+			"Dark End Fog Brightness (0->1)" = 0.0
+			"Dark If No Skylight?" = false
+
+	["Rubidium Toolkit Settings"."Dynamic Lights Settings"]
+		"Quality Mode (OFF, SLOW, FAST, REALTIME)" = "REALTIME"
+		"Dynamic Entity Lighting" = true
+		"Dynamic TileEntity Lighting" = true
+		"Only Update On Position Change" = true
+

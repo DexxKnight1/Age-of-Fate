@@ -1733,71 +1733,6 @@
 						Count: 1b
 						tag: {
 							StoredEnchantments: [{
-								lvl: 7s
-								id: "spartanweaponry:throwing_range"
-							}]
-						}
-					}
-					buy: 2800L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 9s
-								id: "spartanweaponry:throwing_damage"
-							}]
-						}
-					}
-					buy: 3800L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s
-								id: "spartanweaponry:throwing_fire"
-							}]
-						}
-					}
-					buy: 3700L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 7s
-								id: "spartanweaponry:throwing_luck"
-							}]
-						}
-					}
-					buy: 6700L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s
-								id: "spartanweaponry:throwing_hydrodynamic"
-							}]
-						}
-					}
-					buy: 2600L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
 								lvl: 9s
 								id: "cyclic:excavate"
 							}]
@@ -2025,175 +1960,6 @@
 						}
 					}
 					buy: 3300L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s
-								id: "allurement:alleviating"
-							}]
-						}
-					}
-					buy: 1500L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 5s
-								id: "allurement:launch"
-							}]
-						}
-					}
-					buy: 9600L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 5s
-								id: "allurement:reeling"
-							}]
-						}
-					}
-					buy: 2000L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s
-								id: "allurement:reforming"
-							}]
-						}
-					}
-					buy: 6600L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 10s
-								id: "allurement:shockwave"
-							}]
-						}
-					}
-					buy: 4000L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 5s
-								id: "allurement:vengeance"
-							}]
-						}
-					}
-					buy: 3500L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s
-								id: "vanillatweaks:blazing"
-							}]
-						}
-					}
-					buy: 3000L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s
-								id: "vanillatweaks:siphon"
-							}]
-						}
-					}
-					buy: 1300L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s
-								id: "vanillatweaks:veteran"
-							}]
-						}
-					}
-					buy: 4000L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 8s
-								id: "vanillatweaks:nimble"
-							}]
-						}
-					}
-					buy: 6500L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 8s
-								id: "vanillatweaks:vigor"
-							}]
-						}
-					}
-					buy: 16500L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 8s
-								id: "vanillatweaks:hops"
-							}]
-						}
-					}
-					buy: 4500L
-				}
-				{
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 7s
-								id: "vanillatweaks:homing"
-							}]
-						}
-					}
-					buy: 4800L
 				}
 				{
 					item: {
@@ -2587,7 +2353,7 @@
 							Damage: 0
 						}
 					}
-					buy: 500L
+					buy: 7500L
 				}
 				{
 					item: "enderstorage:ender_pouch"
@@ -3256,33 +3022,13 @@
 				}
 				{
 					item: {
-						id: "swiaf:hammer_ice_dragonsteel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					buy: 70000L
-				}
-				{
-					item: {
 						id: "iceandfire:dragonsteel_lightning_sword"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-					buy: 15000L
-				}
-				{
-					item: {
-						id: "swiaf:heavy_crossbow_fire_dragonbone"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					buy: 15000L
+					buy: 300000L
 				}
 				{
 					item: "refinedstorage:creative_storage_disk"

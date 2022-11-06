@@ -2,7 +2,7 @@
   "type": "bigreactors:fluidizersolidmixing",
   "ingredient1": {
     "ingredient": {
-      "item": "balltheores:uranium_block"
+      "item": "alltheores:uranium_block"
     },
     "count": 2
   },

@@ -101,10 +101,36 @@ onEvent('item.tooltip', event => {
 	event.add('supplementaries:supplementaries_guide', [Text.of('This book is already included within your Akashic Tome').yellow()])
 	event.add('simplyjetpacks:guidebook', [Text.of('This book is already included within your Akashic Tome').yellow()])
 	event.add('securitycraft:sc_manual', [Text.of('This book is already included within your Akashic Tome').yellow()])
-	event.add('the_afterlight:afterlight_tome', [Text.of('This book is already included within your Akashic Tome').yellow()])
 	event.add('advancedperipherals:manual', [Text.of('This book is already included within your Akashic Tome').yellow()])
 	event.add('extendedcrafting:guide', [Text.of('This book is already included within your Akashic Tome').yellow()])
 	event.add('modularrouters:book', [Text.of('This book is already included within your Akashic Tome').yellow()])
 	event.add('apotheosis:apoth_chronicle', [Text.of('This book is already included within your Akashic Tome').yellow()])
+	event.add('patchouli:gude_book', [Text.of('This book is already included within your Akashic Tome').yellow()])
+
+	event.add('minecraft:water_bucket', [
+	[Text.of('The water buckets are stackable to save the space in the inventory.').gold()],
+	[Text.of('WARNING:').darkRed()],
+	[Text.of('By using them as entire stack they turns into one singular empty bucket.').darkPurple()],
+	[Text.of('Use them one by one from the stack.').darkPurple()],
+	])
+
+	event.add('minecraft:lava_bucket', [
+	[Text.of('The lava buckets are stackable to save the space in the inventory.').gold()],
+	[Text.of('WARNING:').darkRed()],
+	[Text.of('By using them as entire stack they turns into one singular empty bucket.').darkPurple()],
+	[Text.of('Use them one by one from the stack.').darkPurple()],
+	])
+
+	event.add('enderstorage:ender_chest', [
+	[Text.of('Cross-dimensional wireless item transfer to any chest on the same channel.').gold()],
+	[Text.of('Use dye on the colored bars to set the channel.').gold()],
+	[Text.of('Use a diamond on the latch to switch to private channel.').gold()],
+	])
+
+	event.add('enderstorage:ender_tank', [
+	[Text.of('Cross-dimensional wireless item transfer to any chest on the same channel.').gold()],
+	[Text.of('Use dye on the colored bars to set the channel.').gold()],
+	[Text.of('Use a diamond on the latch to switch to private channel.').gold()],
+	])
 
 })

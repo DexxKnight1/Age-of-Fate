@@ -889,4 +889,10 @@ onEvent('recipes', (event) => {
         C: '#forge:feathers'
     })
 
+    modifyShaped(event, 'minecraft:daylight_detector', 1, ['AAA', 'BBB', 'CCC'], {
+        A: '#forge:glass',
+        B: '#appliedenergistics2:crystals/quartz',
+        C: '#minecraft:slabs'
+    })
+
 })

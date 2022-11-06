@@ -1,4 +1,4 @@
-events.listen('item.registry', (event) => {
+onEvent('item.registry', (event) => {
 
   const items = [
 		'explorershat',
@@ -6,18 +6,18 @@ events.listen('item.registry', (event) => {
   ]
 
   items.forEach((item) => {
-      event.create(item).group('KubeJS').texture(`kubejs:item/${item}`)
+    event.create(item).texture(`kubejs:item/${item}`)
   })
 
 })
 
-events.listen('block.registry', (event) => {
+onEvent('block.registry', (event) => {
 
   const items = [
 		'magical_soil'
   ]
 
   items.forEach((item) => {
-    event.create(item).group('KubeJS').texture(`kubejs:block/${item}`)
+    event.create(item).displayName('§dMagical Soil').texture(`kubejs:block/${item}`)
   })
 })

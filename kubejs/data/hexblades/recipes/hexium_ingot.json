@@ -1,0 +1,30 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "tag": "forge:ingots/gold"
+        },
+        {
+          "tag": "forge:ingots/lead"
+        }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        {
+          "item": "eidolon:enchanted_ash"
+        },
+        {
+          "item": "eidolon:soul_shard"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "item": "hexblades:hexium_ingot",
+    "count": 2
+  }
+}
