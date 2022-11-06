@@ -1,3 +1,28 @@
+# [AOF-v1.5.9] - 2022.11.01
+>Fixed
+- Fixed Tick issue with mob spawning and with tree/seeds growth #26
+>Added
+- Added Project Intelligence
+- Rubidium Toolkit
+>Changed
+- Updated AE2 Additional Opportunity
+- Updated AEInfinityBooster
+- Updated Botania
+- Updated CC: Tweaked
+- Updated Champions
+- Updated Collective
+- Updated Corail Tombstone
+- Updated Cyclic
+- Updated GeckoLib
+- Updated Just Enough Items (JEI)
+- Updated Quests Additions
+- Updated Relics
+- Updated Scalable Cat's Force
+- Updated Thermal Expansion
+>Removed
+- Removed Does It Tick?
+- Removed Treasure2: Twilight Forest Loot Pack
+- Removed NoFog
 # [AOF-v1.5.8] - 2022.10.27
 >Fixed
 - Fixed Basic Agriculture quest seeds issues by replacing coffee, tea and flax seeds with other seeds
