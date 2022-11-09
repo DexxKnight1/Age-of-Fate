@@ -19,7 +19,7 @@
 - Updated Fish's Undead Rising
 - Updated Villager Names
 >Removed
-- Removed a lot of trash we don't need
+- Removed a bunch of trash we don't need it
 # [AOF-v1.5.9] - 2022.11.06
 >Fixed
 - Fixed Tick issue with mob spawning and with tree/seeds growth #26
