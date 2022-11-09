@@ -1,3 +1,25 @@
+# [AOF-v1.6.0] - 2022.11.09
+>Fixed
+- Fixed Twilight Forest crushing game #25
+- Fixed Visual texture bug by Tools & Armor #24
+>Added
+- Added Saturn
+- Added ForgetMeChunk
+>Changed
+- Modified Quests in Boss chapter
+- Modified and tweaked some recipes
+- Reverted Treasure2! to v1.7.3
+- Reverted GeckoLib to v3.0.92
+- Reverted Mowzie's Mobs to v1.5.25
+- Updated Aquaculture 2
+- Updated Ars Nouveau
+- Updated Collective
+- Updated Configurable Extra Mob Drops
+- Updated FerriteCore
+- Updated Fish's Undead Rising
+- Updated Villager Names
+>Removed
+- Removed a lot of trash we don't need
 # [AOF-v1.5.9] - 2022.11.06
 >Fixed
 - Fixed Tick issue with mob spawning and with tree/seeds growth #26
