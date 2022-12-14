@@ -1,3 +1,36 @@
+# [AOF-v1.6.1] - 2022.12.14
+### Fixed
+- Fixed Allthemodium Teleport Pad recipe
+- Fixed Creative Fluid Tank recipe
+- Fixed Rock Crystal low spawn chance
+- Fixed Missing rewards by some Quests
+### Added
+- Added TexTrue's Rubidium Options
+- Added Ice and Fire: Dragonseeker
+- Added Faster Ladder Climbing
+- Added Guard Villagers
+- Added No Potion Shift
+- Added Hole Filler Mod
+### Changed
+- Updated AE2 Additional Opportunity
+- Updated Chunk-Pregenerator
+- Updated Collective
+- Updated Corail Tombstone
+- Updated Experience Obelisk
+- Updated FTB Chunks
+- Updated Updated Draconic Evolution
+- Updated Lootr
+- Updated Macaw's Windows
+- Updated Medieval Siege Machines
+- Updated Oculus
+- Updated ReAuth
+- Updated Security Craft
+- Updated ShetiPhianCore
+- Updated Sophisticated Backpacks
+- Updated Tool Belt
+### Removed
+- Removed Lazy DataFixerUpper(LazyDFU)
+- Removed Ksyxis
 # [AOF-v1.6.0] - 2022.11.09
 ### Fixed
 - Fixed Twilight Forest crushing game #25
