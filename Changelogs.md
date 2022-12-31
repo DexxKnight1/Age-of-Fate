@@ -1,3 +1,24 @@
+# [AOF-v1.6.2] - 2022.12.31
+### Fixed
+- Fixed Rubidium rendering crash #32
+- Fixed Server crash caused by placing down Experience Obelisk
+### Added
+- Added Epic Fight
+- Added FastWorkbench
+- Added FastFurnace
+### Changed
+- Reverted Experience Obelisk to v 1.0.1
+- Updated Better Third Person
+- Updated Collective
+- Updated Fish's Undead Rising
+- Updated Macaw's Bridges
+- Updated Macaw's Fences and Walls
+- Updated Macaw's Roofs
+- Updated Rubidium Extra
+- Updated Macaw's Trapdoors
+- Updated Macaw's Windows
+Removed
+- Removed Golden Age Combat
 # [AOF-v1.6.1] - 2022.12.14
 ### Fixed
 - Fixed Allthemodium Teleport Pad recipe
