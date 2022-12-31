@@ -17,7 +17,7 @@
 - Updated Rubidium Extra
 - Updated Macaw's Trapdoors
 - Updated Macaw's Windows
-Removed
+### Removed
 - Removed Golden Age Combat
 # [AOF-v1.6.1] - 2022.12.14
 ### Fixed
