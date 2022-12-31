@@ -211,6 +211,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 - Iron Chests (by ProgWML6)
 - Relics (by SSKirillSS)
 - ATO - All the Ores (by ATMTeam)
+- XPiggy Bank (by CuboidDroid)
 - Tool's Complement (by TeamCoFH)
 - Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons (by Corgi_Taco)
 - PackMenu (by Shadows_of_Fire)
