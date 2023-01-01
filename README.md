@@ -69,7 +69,6 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 - Mowzie's Mobs (by bobmowzie)
 - FerriteCore (Forge) (by malte0811)
 - Overloaded (by cjm721)
-- Epic Fight (by maninthe_home)
 - Cyclops Core (by kroeser)
 - Mekanism Tools (by bradyaidanc)
 - Security Craft (by Geforce132)
