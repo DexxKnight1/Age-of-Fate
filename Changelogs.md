@@ -1,3 +1,6 @@
+# [AOF-v1.6.3] - 2023.01.01
+### Removed
+- Removed Epic Fight
 # [AOF-v1.6.2] - 2022.12.31
 ### Fixed
 - Fixed Rubidium rendering crash #32
