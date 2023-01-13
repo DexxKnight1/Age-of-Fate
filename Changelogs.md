@@ -1,3 +1,25 @@
+# [AOF-v1.6.4] - 2023.01.13
+### Changed
+- Updated Champions
+- Updated Collective
+- Updated Draconic Evolution
+- Updated Extreme Reactors
+- Updated FTB Chunks
+- Updated FTB Quests
+- Updated Hammer Lib
+- Updated Oculus
+- Updated Project Red - Core
+- Updated Project Red - Exploration
+- Updated Project Red - Illumination
+- Updated Project Red - Integration
+- Updated Project Red - Transmission
+- Updated Security Craft
+- Updated Solar Flux Reborn
+- Updated TexTrue's Rubidium Options
+- Updated Tinker's Planner
+- Updated Vampirism - Become a vampire!
+- Updated Werewolves - Become a Beast!
+- Updated ZeroCore 2
 # [AOF-v1.6.3] - 2023.01.01
 ### Removed
 - Removed Epic Fight
