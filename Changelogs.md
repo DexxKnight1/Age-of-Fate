@@ -1,3 +1,36 @@
+# [AOF-v1.6.5] - 2023.01.24
+### Fixed
+- Fixed The Nether Quests
+- Fixed Chest Quest
+- Fixed XK’s Deco steel recipe issues
+### Added
+- Added Drippy Loading Screen
+- Added AI Improvements
+### Changed
+- Updated Bookshelf
+- Updated Extreme Reactors
+- Updated Fish's Undead Rising
+- Updated FramedBlocks
+- Updated Supplementaries
+- Updated ZeroCore 2
+### Removed
+- Removed Whisperwoods
+- Removed Project: Vibrant Journeys
+- Removed Passable Foliage 🌳
+- Removed Extended Caves
+- Removed Sound Filters
+- Removed Open Loader
+- Removed Modern UI
+- Removed Custom Start Screen
+- Removed Open Terrain Generator (OTG)
+- Removed ManyIdeas Core
+- Removed ManyIdeas Doors
+- Removed AE2 Additional Opportunity
+- Removed AmbientWorld
+- Removed Basic End Ores
+- Removed Basic Nether Ores
+- Removed ItemZoom Rekindled
+- Removed Pickable Health Orbs
 # [AOF-v1.6.4] - 2023.01.13
 ### Changed
 - Updated Champions
