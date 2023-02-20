@@ -1,3 +1,65 @@
+# [AOF-v1.6.6] - 2023.02.20
+### Fixed
+- Fixed and tweaked some recipes to make more sense for crafting
+- Fixed and tweaked some configs to gain more performances
+- Fixed and removed a lot of mods to gain even more performance
+### Added
+- Added Inventory Profiles Next
+- Added Metal Barrels
+- Added Experience Obelisk
+- Added Dynamic View
+- Added /tank/null
+- Added Simple Magnets
+- Added Mob Grinding Utils
+### Changed
+- Updated Ars Nouveau
+- Updated Bygone Nether
+- Updated CC: Tweaked
+- Updated Connected Glass
+- Updated Corail Tombstone
+- Draconic Evolution
+- Updated Entangled
+- Updated FTB Power Pots
+- Updated GeckoLib
+- Updated Item Collectors
+- Updated Lazier AE2
+- Updated Macaw's Doors
+- Updated Macaw's Lights and Lamps
+- Updated MmmMmmMmmMmm (Target Dummy)
+- Updated Mowzie's Mobs
+- Updated Project Red - Core
+- Updated Project Red - Exploration
+- Updated Project Red - Illumination
+- Updated Project Red - Integration
+- Updated Project Red - Transmission
+- Updated Quests Additions
+- Updated Rubidium
+- Updated Rubidium Toolkit
+- Updated SuperMartijn642's Core Lib
+- Updated TerraForged
+- Updated Timeless and Classics Guns
+- Updated Tesseract
+- Updated Trash Cans
+- Updated Treasure2!
+- Updated Vampirism - Become a vampire!
+### Removed
+- Removed Flat Bedrock
+- Removed Terraqueous
+- Removed ShetiPhianCore
+- Removed Useful Backpacks
+- Removed XL Packets
+- Removed Villagers Respawn
+- Removed Tumbleweed
+- Removed Stack Refill
+- Removed Medieval Siege Machines
+- Removed Bed Benefits
+- Removed Avaritia Furnace
+- Removed inzhefop's Core
+- Removed Iron barrel mod
+- Removed XPiggy Bank
+- Removed Tips
+- Removed Charm Reforged
+- Removed Recipes Library
 # [AOF-v1.6.5] - 2023.01.24
 ### Fixed
 - Fixed The Nether Quests
