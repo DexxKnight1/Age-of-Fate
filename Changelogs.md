@@ -1,3 +1,10 @@
+# [AOF-v1.6.7] - 2023.02.22
+### Fixed
+- Fixed all Quests issues
+### Added
+- Added Global XP
+### Changed
+- Updated Tesseract
 # [AOF-v1.6.6] - 2023.02.20
 ### Fixed
 - Fixed and tweaked some recipes to make more sense for crafting
