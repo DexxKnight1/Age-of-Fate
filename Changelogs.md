@@ -1,3 +1,29 @@
+# [AOF-v1.6.8] - 2023.03.11
+### Fixed
+- Fixed hopefully all Quests issues
+- Fixed oredict Nether Star block issue
+- Fixed and cleaned up bunch of recipes
+- Fixed oredict Arcane Gold issue (again)
+### Added
+- Added Morpheus
+- Added Adventure Tools
+### Changed
+- Updated Building Gadgets
+- Updated Chunk-Pregenerator
+- Updated Controlling
+- Updated Corail Tombstone
+- Updated Curios API
+- Updated Epic Knights: Shields, Armor and Weapons
+- Updated Extended Crafting
+- Updated Macaw's Furniture
+- Updated Macaw's Roofs
+- Updated Macaw's Trapdoors
+- Updated Performant
+- Updated ReAuth
+- Updated Rubidium Extra
+- Updated SuperMartijn642's Core Lib
+- Updated Timeless and Classics Guns
+- Updated Trash Cans
 # [AOF-v1.6.7] - 2023.02.22
 ### Fixed
 - Fixed all Quests issues
