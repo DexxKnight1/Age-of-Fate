@@ -382,6 +382,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/simply-jetpacks-2">Simply Jetpacks 2 (by Tomson124)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/redstone-gauges-and-switches">Gauges and Switches (by wilechaote)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/simply-light">Simply Light (by Flanks255)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/morpheus">Morpheus (by Quetzi)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/thermal-expansion">Thermal Expansion (by TeamCoFH)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/iceberg">Iceberg [Forge] (by Grend_G)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/champions">Champions (by TheIllusiveC4)</a></li>
@@ -415,6 +416,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-create">KubeJS Create (by LatvianModder)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/botany-pots">Botany Pots (by DarkhaxDev)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils">Mob Grinding Utils (by vadis365)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/adventure-tools">Adventure Tools (by SyntacticSplenda)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cc-tweaked">CC: Tweaked (by SquidDev)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/forge-snad">[Forge] Snad (by lazynessmind)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cb-multipart">CB Multipart (by covers1624)</a></li>
