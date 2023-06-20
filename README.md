@@ -21,7 +21,7 @@ To run this pack smoothly I'll recommend to allocate about **10GB** to **12GB** 
 - About 490+ mods
 - Custom Ambient Music
 - Unique Player Shop for trading of your goodies and a Shop to buy all kind of stuff
-- 7 Dimensions: The Twilight Forest, The Lost Cities, The Undergarden, Tropicocraft, Blue Skies and more
+- 7 Dimensions: The Twilight Forest, The Lost Cities, The Undergarden, Tropicraft, Blue Skies and more
 - Ambient surroundings: Oh The Biomes You'll Go, Quark, AmbientSounds, Sound Physics, Terralith and more
 - A lot stuff to explore like a Dungeons, Dimensions, Unknown Seas and more
 - Unique Bosses, Skills, Looting system with Lootr
