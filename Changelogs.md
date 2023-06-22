@@ -1,3 +1,13 @@
+# [AOF-v2.0.1] - 2023.06.22
+### Added
+- Added ModernFix
+### Changed
+- Updated Better Runtime Resource Pack (BRRP)
+- Updated Collective
+- Updated Inventory Profiles Next
+- Updated Macaw's Bridges
+- Updated Progressive Bosses
+- Updated SuperMartijn642's Core Lib
 # [AOF-v2.0.0] - 2023.06.20]
 ### Changed
 - The whole pack has been revamped Into Minecraft 1.18.2
