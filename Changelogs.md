@@ -1,3 +1,8 @@
+# [AOF-v2.0.0] - 2023.06.20]
+### Changed
+- The whole pack has been revamped Into Minecraft 1.18.2
+- Has been added a lot of new mods and also removed some of them
+- Has been added a lot of new Quests
 # [AOF-v1.6.8] - 2023.03.11
 ### Fixed
 - Fixed hopefully all Quests issues
