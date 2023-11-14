@@ -1,3 +1,6 @@
+# [AOF-v3.0.0] - 2023.11.14
+### Changed
+- Updated to Minecraft version 1.19.2
 # [AOF-v2.0.2] - 2023.08.03
 ### Fixed
 - Fixed Inventory lag
