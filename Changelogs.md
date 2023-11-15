@@ -1,3 +1,8 @@
+# [AOF-v3.0.1] - 2023.11.15
+### Fixed
+- Fixed Crash by Joining the World
+### Changed
+- Updated MineColonies
 # [AOF-v3.0.0] - 2023.11.14
 ### Changed
 - Updated to Minecraft version 1.19.2
