@@ -1,3 +1,68 @@
+# [AOF-v3.0.2] - 2023.12.01
+### Fixed
+- Fixed Basic Hopper Botany Pot recipe
+- Fixed Witch Hats wasn't dropped by killing witches
+- Fixed Broken recipe tags
+### Added
+- Added Magma Blocks into Rocks'n'Diamonds shop
+- Added Saplings to buy instead of Logs into Knock on Wood shop
+- Added Progression Tree Chapter
+- Added Iron's Spells 'n Spellbooks Quests
+- Added The Aether Quests
+- Added The Aether
+- Added The Aether: Redux
+- Added Deep Aether
+- Added Eidolon: Repraised
+- Added NoMoWanderer
+- Added Midnight Madness
+- Added In Control!
+- Added [Let's Do] Bakery
+- Added [Let's Do] Vinery
+- Added [Let's Do] NetherVinery
+- Added [Let's Do] Meadow
+- Added [Let's Do] API
+### Changed
+- Updated Almost Unified
+- Updated Apotheosis
+- Updated Bigger Reactors
+- Updated BlockUI
+- Updated Bagus Lib
+- Updated Botany Trees
+- Updated Clickable advancements
+- Updated Collective
+- Updated Connected Glass
+- Updated Create Crafts & Additions
+- Updated Curios API
+- Updated Cyclops Core
+- Updated Embeddium
+- Updated EvilCraft
+- Updated Extra Disks
+- Updated FTB Quests
+- Updated Fusion
+- Updated HammerLib
+- Updated Harvest with ease
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated KubeJS
+- Updated libIPN
+- Updated MineColonies
+- Updated Mystical Agriculture
+- Updated Pipez
+- Updated Placebo
+- Updated PolyLib
+- Updated Rechiseled
+- Updated Shoulder Surfing Reloaded
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated Thermal: Extra
+- Updated Villager Names
+- Updated YUNG's API
+- Updated YUNG's Better Mineshafts
+### Removed
+- Removed Primal Magick
+- Removed Eidolon Rebrewed
+- Removed Dynamic Surroundings Resurrected
 # [AOF-v3.0.1] - 2023.11.15
 ### Fixed
 - Fixed Crash by Joining the World
