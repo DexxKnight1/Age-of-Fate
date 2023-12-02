@@ -1,3 +1,7 @@
+# [AOF-v3.0.3] - 2023.12.02
+### Fixed
+- Fixed The Ring of the Seven Curses quest
+- Fixed Server Files
 # [AOF-v3.0.2] - 2023.12.01
 ### Fixed
 - Fixed Basic Hopper Botany Pot recipe
