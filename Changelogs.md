@@ -1,3 +1,50 @@
+# [AOF-v3.0.4] - 2023.12.12
+### Fixed
+- Fixed Repeatable Quests
+- Fixed NBT issue on IE Blueprints quest
+- Fixed Tool Tiers
+- Fixed Flight issues
+- Fixed Lava Quest
+### Added
+- Added SilentGear Compat
+- Added Zaps Converter
+- Added No More Trampling
+- Added Refined Polymorphism
+- Added Angel Ring
+- Added Default Options
+### Changed
+- Updated Ars Nouveau
+- Updated BlockUI
+- Updated Collective
+- Updated Cooking for Blockheads
+- Updated Crafting Tweaks
+- Updated Create Crafts & Additions
+- Updated Eidolon : Repraised
+- Updated Embeddium
+- Updated Harvest with ease
+- Updated Jump Over Fences
+- Updated Kiwi
+- Updated KubeJS
+- Updated MineColonies
+- Updated ModernFix
+- Updated RFTools Utility
+- Updated Saturn
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Structurize
+- Updated SuperMartijn642's Core Lib
+- Updated Supplementaries
+- Updated Terralith
+- Updated The Aether
+- Updated TownTalk
+- Updated Waystones
+### Removed
+- Removed Client Tweaks
+- Removed DefaultSettings
+- Removed JCPlugin
+- Removed ItemPhysic Lite
+- Removed Create: Balanced Flight (Angel Ring)
 # [AOF-v3.0.3] - 2023.12.02
 ### Fixed
 - Fixed The Ring of the Seven Curses quest
