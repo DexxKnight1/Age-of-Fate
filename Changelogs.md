@@ -1,3 +1,13 @@
+# [AOF-v3.0.5] - 2023.12.14
+### Fixed
+- Fixed Warp Dust recipe
+- Fixed Infusion Pedestal recipe
+- Fixed Broken Quests
+### Added
+- Added Potions Master
+- Added CullLessLeaves Reforged
+### Removed
+- Removed Cull Leaves
 # [AOF-v3.0.4] - 2023.12.12
 ### Fixed
 - Fixed Repeatable Quests
