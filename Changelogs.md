@@ -1,3 +1,47 @@
+# [AOF-v3.0.6] - 2023.12.24
+### Fixed
+- Fixed Angel Ring Quest
+- Fixed Vampirism/Werewolf Skill button overlapping with Enigmatic Legacy buttons
+- Fixed Refined Storage broken Storage Disk Quests
+### Added
+- Added Tooltip to Demonic Ore (how to mine)
+- Added Fast Async World Save
+- Added Wesley's Roguelike Dungeons
+- Added Enderman Overhaul
+### Changed
+- Updated AIOT Botania
+- Updated Canary
+- Updated Cloth Config API
+- Updated CodeChicken Lib 1.8.+
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Collective
+- Updated Comforts
+- Updated Configurable Extra Mob Drops
+- Updated Connected Glass
+- Updated Embeddium++
+- Updated Extended Bone Meal
+- Updated FTB Chunks
+- Updated HammerLib
+- Updated Healing Campfire
+- Updated Iron's Spells 'n Spellbooks
+- Updated L_Ender 's Cataclysm
+- Updated Macaw's Windows
+- Updated Midnight Madness
+- Updated MineColonies
+- Updated ModernFix
+- Updated NoMoWanderer
+- Updated Relics
+- Updated Rhino
+- Updated Saturn
+- Updated Simple Discord Rich Presence
+- Updated Structurize
+- Updated Supplementaries
+- Updated The Aether
+- Updated Thermal Systeams
+- Updated Tool Stats
+- Updated Villager Names
+### Removed
+- Removed Dungeon Crawl
 # [AOF-v3.0.5] - 2023.12.14
 ### Fixed
 - Fixed Warp Dust recipe
