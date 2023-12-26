@@ -1,3 +1,16 @@
+# [AOF-v3.0.7] - 2023.12.26
+### Added
+- Added Easy Villagers
+- Added Easy Piglins
+### Changed
+- Updated [Let's Do] NetherVinery
+- Updated Ars Nouveau
+- Updated Canary
+- Updated Embeddium
+- Updated Extra Disks
+- Updated Midnight Madness
+- Updated ModernFix
+- Updated Moonlight Lib
 # [AOF-v3.0.6] - 2023.12.24
 ### Fixed
 - Fixed Angel Ring Quest
