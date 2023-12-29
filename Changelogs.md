@@ -1,3 +1,25 @@
+# [AOF-v3.0.8] - 2023.12.29
+### Fixed
+- Fixed World freezing issues
+### Changed
+- Reverted Canary to v0.2.8
+- Updated ComplementaryUnbound Shaders
+- Updated Bagus Lib
+- Updated Collective
+- Updated Common Capabilities
+- Updated Curios API
+- Updated Deep Aether
+- Updated Extended Crafting
+- Updated Industrial Foregoing
+- Updated L_Ender 's Cataclysm
+- Updated MineColonies
+- Updated Supplementaries
+- Updated The Aether: Redux
+- Updated Wesley's Roguelike Dungeons
+- Updated YDM's Weapon Master
+### Removed
+- Removed FLIB
+- Removed Terralith
 # [AOF-v3.0.7] - 2023.12.26
 ### Added
 - Added Easy Villagers
