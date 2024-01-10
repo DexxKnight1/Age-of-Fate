@@ -1,3 +1,37 @@
+# [AOF-v3.0.9] - 2024.01.10
+### Added
+- Added AECapFix
+- Added Stylecolonies
+- Added Treasure2
+- Added Treasure2: Twilight Forest Loot Pack
+### Changed
+- Updated Archaeology API
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Collective
+- Updated Connected Glass
+- Updated Corail Tombstone
+- Updated Deep Aether
+- Updated Embeddium++
+- Updated Enchant With Mob
+- Updated FTB Chunks
+- Updated Functional Storage
+- Updated Fusion (Connected Textures)
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Iron's Spells 'n Spellbooks
+- Updated Item Collectors 
+- Updated Midnight Madness
+- Updated MineColonies
+- Updated Saturn
+- Updated Shoulder Surfing Reloaded
+- Updated Smooth Boot (Reloaded)
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Structurize
+- Updated Supplementaries
+- Updated YDM's Weapon Master
+### Removed
+- Removed [Let's Do] Meadow
 # [AOF-v3.0.8] - 2023.12.29
 ### Fixed
 - Fixed World freezing issues
