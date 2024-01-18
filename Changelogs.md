@@ -1,3 +1,36 @@
+# [AOF-v3.1.0] - 2024.01.18
+### Fixed
+- Fixed Apatite, Cinnabar, Niter and Sulfur ores can spawn in the Overwold again
+- Potentially fixed “Waiting for Server…” issue
+### Added
+- Added Passive Skill Tree
+- Added Item Production Lib
+- Added Apothic Curios
+- Added Dave's Potioneering
+- Added Botanic Additions
+### Changed
+- Reverted Forge to v43.214
+- Updated Allthemodium
+- Updated Canary
+- Updated Cognition
+- Updated Easy Villagers
+- Updated Embeddium
+- Updated Embeddium++
+- Updated FancyMenu
+- Updated Harvest with ease
+- Updated Konkrete
+- Updated KubeJS
+- Updated L_Ender 's Cataclysm
+- Updated MineColonies
+- Updated ModernFix
+- Updated NoMoWanderer
+- Updated Structurize
+- Updated The Aether
+### Removed
+- Removed Improvable Skills 3
+- Removed The Lost Cities
+- Removed [Let's Do] Bakery
+- Removed [Let's Do] NetherVinery
 # [AOF-v3.0.9] - 2024.01.10
 ### Added
 - Added AECapFix
