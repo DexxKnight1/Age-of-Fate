@@ -1,3 +1,43 @@
+# [AOF-v3.1.1] - 2024.02.01
+### Fixed
+- Fixed Mekanism Tier Installers doesn’t match Machine Factory recipe
+- Fixed “Waiting for Server…” issue
+### Changed
+- Updated Ars Nouveau
+- Updated BlockUI
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Create Crafts & Additions
+- Updated Cupboard
+- Updated Curios API
+- Updated Dave's Potioneering
+- Updated Deep Aether
+- Updated Eidolon : Repraised
+- Updated Embeddium
+- Updated Embeddium++
+- Updated Farmer's Delight
+- Updated FTB Quests
+- Updated HammerLib
+- Updated Industrial Foregoing
+- Updated Iron Jetpacks
+- Updated Iron's Spells 'n Spellbooks
+- Updated Just Enough Resources (JER)
+- Updated Kiwi 🥝
+- Updated KubeJS
+- Updated L_Ender 's Cataclysm
+- Updated Lootr
+- Updated Macaw's Fences and Walls
+- Updated MineColonies
+- Updated NoMoWanderer
+- Updated Redirector [Modern]
+- Updated RFTools Builder
+- Updated Structurize
+- Updated Supplementaries
+- Updated The Aether
+- Updated Treasure2
+### Removed
+- Removed AECapFix (The mod was added in v3.0.9 by mistake)
+- Removed Fast Async World Save (Not needed as client-side mod)
+- Removed NoMoWanderer (Caused the “Waiting for Server” issue)
 # [AOF-v3.1.0] - 2024.01.18
 ### Fixed
 - Fixed Apatite, Cinnabar, Niter and Sulfur ores can spawn in the Overwold again
