@@ -1,3 +1,39 @@
+# [AOF-v3.1.2] - 2024.02.12
+### Fixed
+- Fixed Compressed Cobblestone recipes
+### Added
+- Added Farsight
+- Added MCA Reborn
+### Changed
+- Updated Architectury API
+- Updated Better Fps - Render Distance
+- Updated Botanic Additions
+- Updated Create Crafts & Additions
+- Updated Cyclops Core
+- Updated Deep Aether
+- Updated Embeddium++
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Immersive Aircraft
+- Updated Item Production Lib
+- Updated KubeJS
+- Updated Lootr
+- Updated Macaw's Roofs
+- Updated Majrusz Library
+- Updated Majrusz's Progressive Difficulty
+- Updated MineColonies
+- Updated ModernFix
+- Updated Passive Skill Tree
+- Updated Placebo
+- Updated Rechiseled: Create
+- Updated Saturn
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Structurize
+- Updated Supplementaries
+### Removed
+- Removed Canary (Moved to the server-side mods)
+- Removed Pluto (Moved to the server-side mods)
 # [AOF-v3.1.1] - 2024.02.01
 ### Fixed
 - Fixed Mekanism Tier Installers doesn’t match Machine Factory recipe
