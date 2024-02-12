@@ -127,6 +127,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/libipn">libIPN (by mirinimi)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mekanism">Mekanism (by bradyaidanc)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing">Industrial Foregoing (by Buuz135)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/minecraft-comes-alive-reborn">MCA Reborn [Fabric/Forge] (by jahx_senpoopie)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/trash-cans">Trash Cans (by SuperMartijn642)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/botanic-additions">Botanic Additions (by Zeith)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/aether">The Aether (by TheAetherTeam)</a></li>
@@ -255,7 +256,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/integrated-api">Integrated API (by CraisinLord)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/alternate-current">Alternate Current (by SpaceWalkerRS)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/delightful">Delightful (by brnbrd)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/forbidden-arcanus">Forbidden and Arcanus: Path of Knowledge (by cesar_zorak)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/forbidden-arcanus">Forbidden and Arcanus (by cesar_zorak)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/bookshelf">Bookshelf (by DarkhaxDev)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/geckolib">GeckoLib (by Gecko)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config">Cloth Config API (Fabric/Forge/NeoForge) (by shedaniel)</a></li>
@@ -283,6 +284,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge">FTB Chunks (Forge) (by FTB)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/minicoal">MiniCoal (by kwifrog)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics">Thermal Dynamics (by TeamCoFH)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/farsight">Farsight [Forge] (by someaddon)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/extended-bone-meal">Extended Bone Meal (by Serilum)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/treasure2">Treasure2 (by gottsch)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/human-companions">Human Companions (by jus10wontons)</a></li>
@@ -379,7 +381,6 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/simply-light">Simply Light (by Flanks255)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mcjtylib">McJtyLib (by McJty)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/spark">spark (by Iucko)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/canary">Canary (by AbdElAziz333)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials">Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons (by Corgi_Taco)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-title-screen">Better Title Screen (by Girafi)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/allthemodium">Allthemodium (by ATMTeam)</a></li>
@@ -398,7 +399,6 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/smooth-boot-reloaded">Smooth Boot (Reloaded) (by AbdElAziz333)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cyclic">Cyclic (by Lothrazar)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/refined-storage">Refined Storage (by raoulvdberge)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/pluto">Pluto (by AbdElAziz333)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/myrtrees">Myrtrees (by Jake_Evans)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/pipez">Pipez (by henkelmax)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/nyfs-archery-plus">Nyf's Archery Plus (by Nyfaria)</a></li>
