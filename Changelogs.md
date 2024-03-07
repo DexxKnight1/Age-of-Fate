@@ -1,3 +1,63 @@
+# [AOF-v3.1.3] - 2024.03.07
+### Added
+- Added Immersive FX
+- Added Achievements Optimizer
+- Added Client Crafting
+- Added Better With Minecolonies
+- Added Recipe Essentials
+- Added Psi
+- Added Magical Psi: Redux
+- Added Psionic Utilities
+- Added Villager Workers: Traveling Merchant Update!
+- Added Villager Recruits: Cavalry Update!
+### Changed
+- Updated Forge to v43.3.8
+- Updated Almost Unified
+- Updated Architectury API
+- Updated Artifacts
+- Updated AttributeFix
+- Updated Botany Trees
+- Updated Brutal Bosses - Custom Bosses
+- Updated Collective
+- Updated Corail Tombstone
+- Updated Croptopia Additions
+- Updated Cupboard
+- Updated Easy Villagers
+- Updated Embeddium
+- Updated Entangled
+- Updated FTB Essentials
+- Updated FTB Pack Companion
+- Updated Fusion (Connected Textures)
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Immersive Aircraft
+- Updated Iron's Spells 'n Spellbooks
+- Updated Item Production Lib
+- Updated Just Enough Items (JEI)
+- Updated MCA Reborn
+- Updated Midnight Madness
+- Updated MineColonies
+- Updated Mob Grinding Utils
+- Updated ModernFix
+- Updated More Music Discs
+- Updated Oh The Biomes You'll Go
+- Updated Passive Skill Tree
+- Updated Primitive Start
+- Updated Saturn
+- Updated Shoulder Surfing Reloaded
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated SuperMartijn642's Core Lib
+- Updated Titanium
+- Updated Tool Stats
+### Removed
+- Removed ChoiceTheorem's Overhauled Village
+- Removed Rotten Creatures
+- Removed Presence Footsteps
+- Removed FastSuite
+- Removed Guard Villagers
+- Removed More Villagers
 # [AOF-v3.1.2] - 2024.02.12
 ### Fixed
 - Fixed Compressed Cobblestone recipes
