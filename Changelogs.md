@@ -1,3 +1,64 @@
+# [AOF-v3.1.4] - 2024.03.27
+### Fixed
+- Fixed Game performance, Huge thanks to the ModernGamingWorld the owner of the Monumental Experience modpack
+- Fixed Platinum ingot in Player Shop
+- Fixed Empty Quest rewards
+- Fixed Custom Mystical seeds broken texture
+- Fixed [Bug]: MCA + Easy Villagers -- Dupe #35
+- Fixed [Bug]: FTBQuests - Wrong Quest type #36
+- Fixed [Bug]: Everlasting Guilty Pool and Creative Mana Tablet are uncraftable #37
+### Added
+- Added Psi Quests
+- Added Advanced Backups
+- Added Sawmill
+- Added ImmediatelyFast
+- Added Easy Mob Farm
+- Added Mowzie's Mobs
+- Added Ice and Fire: Dragons
+- Added Ice and Fire: Dragonseeker
+- Added Ice and Fire: Spellbooks
+### Changed
+- Updated Forge to v43.3.9
+- Updated AeroBlender
+- Updated Ars Nouveau
+- Updated Botanical Machinery
+- Updated Collective
+- Updated Configurable Extra Mob Drops
+- Updated Corail Tombstone
+- Updated Croptopia Additions
+- Updated Cupboard
+- Updated Embeddium
+- Updated Embeddium++
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Immersive Aircraft
+- Updated Integrated API
+- Updated Integrated Dungeons and Structures
+- Updated Inventory Profiles Next
+- Updated Iron's Spells 'n Spellbooks
+- Updated JourneyMap
+- Updated libIPN
+- Updated Lootr
+- Updated Majrusz Library
+- Updated Majrusz's Progressive Difficulty
+- Updated MineColonies
+- Updated ModernFix
+- Updated Passive Skill Tree
+- Updated Relics
+- Updated Shoulder Surfing Reloaded
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated The Aether
+- Updated The Aether: Redux
+- Updated Villager Workers: Traveling Merchant Update!
+### Removed
+- Removed ImmediatelyFast Reforged (Unofficial) – DISCONTINUED
+- Removed Entity Culling
+- Removed FTB Backups 2
+- Removed Corail Woodcutter
+- Removed Easy Villagers
+- Removed Easy Piglins
+- Removed Nyf's Quivers
 # [AOF-v3.1.3] - 2024.03.07
 ### Added
 - Added Immersive FX
