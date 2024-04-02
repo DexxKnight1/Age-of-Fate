@@ -1,3 +1,23 @@
+# [AOF-v3.1.5] - 2024.04.02
+### Fixed
+- Fixed Minor Quest Book issues
+- Fixed Ice and Fire - Dragonsteel Tools recipes
+### Added
+- Added Vampiric Ageing - A Vampirism Addon
+- Added Apotheotic Additions
+- Added Apothic Curios
+### Changed
+- Updated Botanical Machinery
+- Updated ImmediatelyFast
+- Updated Immersive Engineering
+- Updated Lootr
+- Updated Mystical Agriculture
+- Updated Placebo
+- Updated Polymorph
+- Updated Refined Polymorphism
+- Updated Redirector [Modern]
+- Updated Drippy Loading Screen
+- Updated FancyMenu
 # [AOF-v3.1.4] - 2024.03.27
 ### Fixed
 - Fixed Game performance, Huge thanks to the ModernGamingWorld the owner of the Monumental Experience modpack
