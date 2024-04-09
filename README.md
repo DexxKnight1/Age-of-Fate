@@ -25,7 +25,7 @@ To run this pack smoothly I'll recommend to allocate about **10GB** to **12GB** 
 - Ambient surroundings: Oh The Biomes You'll Go, Quark, AmbientSounds, Sound Physics, Terralith and more
 - A lot stuff to explore like a Dungeons, Dimensions, Unknown Seas and more
 - Unique Bosses, Skills, Looting system with Lootr
-- Bunch of magic mods: Botania, Iron's Spells 'n Spellbooks, EvilCraft, Ars Nouveau, Hexerei, Primal Magick and more
+- Bunch of magic mods: Botania, Iron's Spells 'n Spellbooks, EvilCraft, Ars Nouveau, Hexerei, Psi and more
 - Many kind of weapons and tools
 - Technics mods like Mekanism, Thermal Series, Refined Storage, Immersive Engineering, Extreme Reactors and more
 
