@@ -1,3 +1,49 @@
+# [AOF-v3.1.6] - 2024.04.09
+### Fixed
+- Fixed Tag issues by Immersive Engineering recipes
+### Added
+- Added Terralith
+- Added Tectonic
+- Added Lithosphere
+- Added Fixed Anvil Repair Cost
+- Added [EMF] Entity Model Features
+- Added [ETF] Entity Texture Features
+- Added Server Performance - Smooth Chunk Save
+- Added Chunk Sending
+- Added Better chunk loading
+- Added Chunky
+- Added Separated Leaves
+- Added Too Fast
+- Added Fast Paintings
+- Added Repurposed Structures
+- Added YUNG's Better Witch Huts
+- Added YUNG's Better Desert Temples
+- Added YUNG's Better Jungle Temples
+- Added YUNG's Better Nether Fortresses
+- Added Noisium
+- Added Amplified Nether
+- Added Nullscape
+- Added Packet Fixer
+### Changed
+- Updated Croptopia Additions
+- Updated Cyclic
+- Updated Embeddium
+- Updated Embeddium++
+- Updated EvilCraft
+- Updated FancyMenu
+- Updated FTB Pack Companion
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Iron's Spells 'n Spellbooks
+- Updated Macaw's Bridges
+- Updated Midnight Madness
+- Updated The Aether: Redux
+- Updated Zume
+### Removed
+- Removed Blood And Madness (A Bloodborne Inspired Mod)
+- Removed MCA Reborn
+- Removed Fastload
+- Removed Just Zoom
+- Removed Bygone Fortress
 # [AOF-v3.1.5] - 2024.04.02
 ### Fixed
 - Fixed Minor Quest Book issues
