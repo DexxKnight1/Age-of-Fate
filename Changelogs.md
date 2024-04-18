@@ -1,3 +1,43 @@
+# [AOF-v3.1.7] - 2024.04.18
+### Added
+- Added Inventory Pets
+- Added Inventory Pets Quests
+- Added RoadRunner
+- Added Dungeon Crawl
+- Added EverlastingAbilities
+- Added Ars Additions
+- Added Better Treasure Map
+- Added Macaw's Furniture
+- Added Nyf's Quivers
+### Changed
+- Updated Advanced Backups
+- Updated Apotheosis
+- Updated Better Advancements
+- Updated Botany Pots
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Cyclic
+- Updated Cyclops Core
+- Updated Embeddium
+- Updated Embeddium++
+- Updated Enchantment Descriptions
+- Updated FancyMenu
+- Updated In Control!
+- Updated KubeJS
+- Updated Lithosphere
+- Updated MemoryLeakFix
+- Updated ModernFix
+- Updated Pipez
+- Updated Psionic Utilities
+- Updated Shoulder Surfing Reloaded
+- Updated The Aether
+- Updated The Aether: Redux
+- Updated Zume
+### Removed
+- Removed DJ Quests
+- Removed More Music Discs
+- Removed Passive Skill Tree
+- Removed Item Production Lib
+- Removed Wesley's Roguelike Dungeons
 # [AOF-v3.1.6] - 2024.04.09
 ### Fixed
 - Fixed Tag issues by Immersive Engineering recipes
