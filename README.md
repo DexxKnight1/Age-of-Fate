@@ -6,6 +6,8 @@ This is the official repository and issue-tracker for Age of Fate 1.19.2
 
 ![Discord](https://img.shields.io/discord/831803522281635850?color=blueviolet&label=Discord&logo=Discord&logoColor=blueviolet&style=for-the-badge) [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DKnightDexx%26type%3Dpatrons&style=for-the-badge)](https://patreon.com/KnightDexx) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z5EO6KT)
 
+[![MMC Reviews](https://i.imgur.com/c1ji64K.png)](https://mmcreviews.com/all/modpacks/age-of-fate/)
+
 ## About the pack:
 
 It is said that when the world eventually falls into darkness, there will be one who will come from the light to lead humanity out of it. **YOU**. You are the Prophecy, an angel who is the sole salvation for the human race. You have been under constant threat of destruction. Demons and dark forces hunt you endlessly. It is a battle just to survive. On your journey you'll be needed a lot of assistance: Magic, mystical items, good weapons, amulets, skills and much more. You'll travel to other dimensions, you'll fight with many bosses, maybe you'll be turned to a vampire, maybe you'll gonna ride your own dragon and burn them all.
