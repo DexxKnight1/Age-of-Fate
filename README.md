@@ -6,7 +6,7 @@ This is the official repository and issue-tracker for Age of Fate 1.19.2
 
 ![Discord](https://img.shields.io/discord/831803522281635850?color=blueviolet&label=Discord&logo=Discord&logoColor=blueviolet&style=for-the-badge) [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DKnightDexx%26type%3Dpatrons&style=for-the-badge)](https://patreon.com/KnightDexx) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z5EO6KT)
 
-[![MMC Reviews](https://i.imgur.com/c1ji64K.png)](https://mmcreviews.com/all/modpacks/age-of-fate/)
+<a href="https://mmcreviews.com/all/modpacks/age-of-fate/"><img src="https://i.imgur.com/c1ji64K.png" alt="MMC Reviews" width="390" height="65" /></a>
 
 ## About the pack:
 
