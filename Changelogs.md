@@ -1,3 +1,25 @@
+# [AOF-v3.1.8] - 2024.04.21
+## VERY IMPORTANT: THE ANGEL RING IS INEFFECTIVE AND CAN'T BE USED UNTIL THE INVENTORY PESTS DEVS FIX THAT ISSUE
+### Fixed
+- Fixed The FTB Teams invites not working hopefully
+### Added
+- Added New Inventory Pets Recipe to avoid bypass of End Remastered
+- Added FTB Quests Optimizer
+- Added FTB Ranks with custom Ranks from ModernGamingWorld
+### Changed
+- Updated Forge to v43.3.13
+- Updated [EMF] Entity Model Features
+- Updated [ETF] Entity Texture Features
+- Updated Advanced Backups
+- Updated Collective
+- Updated Entangled
+- Updated Item Collectors
+- Updated Simple Magnets
+### Removed
+- Removed Better chunk loading, was not allowing chunks to load
+- Removed Chunk Sending, mod conflict with (https://github.com/someaddons/chunksending/issues/4)
+- Removed FastWorkbench, Replaced by Client Crafting/Recipe Essentials from v3.1.3
+- Removed FastFurnace, Replaced by Recipe essentials from v3.1.3
 # [AOF-v3.1.7] - 2024.04.18
 ### Added
 - Added Inventory Pets
