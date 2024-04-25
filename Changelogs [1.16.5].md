@@ -1,3 +1,10 @@
+# [AOF-v1.6.12] - 2024.04.25
+### Added
+- Added Vampiric Ageing - A Vampirism Addon
+### Changed
+- Updated ModernFix
+### Removed
+- Removed Platinum Mod
 # [AOF-v1.6.11] - 2024.04.24
 ### Fixed
 - Fixed Main Menu
