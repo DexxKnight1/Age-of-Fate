@@ -1,3 +1,47 @@
+# [AOF-v3.1.9] - 2024.05.02
+### Fixed
+- Fixed Flight support for Angel Ring, Insanium Armor, FTB Essentials /fly command
+### Added
+- Added Load My F***ing Tags
+- Added Fast Async World Save
+- Added Structure Essentials
+- Added Diagonal Fences
+- Added Diagonal Windows
+- Added Mantle
+- Added Tinkers Construct
+- Added Tinkers Construct Quests
+### Changed
+- Updated Collective
+- Updated EverlastingAbilities
+- Updated Extended Bone Meal
+- Updated Iron's Spells 'n Spellbooks
+- Updated ModernFix
+- Updated Packet Fixer
+- Updated Rechiseled
+- Updated Wireless Chargers
+- Updated McJtyLib
+- Updated RFTools Base
+- Updated RFTools Builder
+- Updated RFTools Control
+- Updated RFTools Utility
+- Updated Xnet
+- Updated [EMF] Entity Model Features
+- Updated [ETF] Entity Texture Features
+- Updated Collective
+- Updated Embeddium++
+- Updated Enderman Overhaul
+- Updated FancyMenu
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated ImmediatelyFast
+- Updated Mystical Agradditions
+- Updated Sophisticated Core
+- Updated The Aether
+- Updated Treasure2
+- Updated Inventory Pets
+- Updated Curios API
+### Removed
+- Removed CullLessLeaves Reforged (Unofficial)
+- Removed TexTrue's Embeddium Options
 # [AOF-v3.1.8] - 2024.04.21
 ## VERY IMPORTANT: THE ANGEL RING IS INEFFECTIVE AND CAN'T BE USED UNTIL THE INVENTORY PESTS DEVS FIX THAT ISSUE
 ### Fixed
