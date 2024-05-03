@@ -1,3 +1,15 @@
+# [AOF-v3.1.10] - 2024.05.02
+### Fixed
+- Fixed More performance stuff
+### Added
+- Added Configured Defaults: don't remove the options.txt file in here, but instead edit the options in-game
+- Added Leaves Be Gone, Replaces Fast Leaf Decay
+### Changed
+- Leaves Culling to all under Performance tab, Don't turn off unless you know its causing issues
+- Font Shadows are on under Performance tab, increasing FPS depending on how much text is on screen
+- Use Max Monster Distance on under Entity Culling, Don't turn off unless you know its causing issues
+### Removed
+- Removed Fast Leaf Decay
 # [AOF-v3.1.9] - 2024.05.02
 ### Fixed
 - Fixed Flight support for Angel Ring, Insanium Armor, FTB Essentials /fly command
