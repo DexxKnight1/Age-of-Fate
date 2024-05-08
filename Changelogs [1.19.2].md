@@ -1,3 +1,19 @@
+# [AOF-v3.1.11] - 2024.05.07
+### Changed
+- Updated Aquaculture 2
+- Updated Apotheosis
+- Updated Embeddium
+- Updated Embeddium++
+- Updated EvilCraft
+- Updated Fancymenu
+- Updated HammerLib
+- Updated ImmediatelyFast
+- Updated Immersive Aircraft
+- Updated In Control
+- Updated Shoulder Surfing Reloaded
+- Updated The Aether: Redux
+- Updated Villager Workers: Traveling
+- Updated Zume
 # [AOF-v3.1.10] - 2024.05.02
 ### Fixed
 - Fixed More performance stuff
