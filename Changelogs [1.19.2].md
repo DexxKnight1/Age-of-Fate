@@ -1,3 +1,43 @@
+# [AOF-v3.1.12] - 2024.05.16
+### Fixed
+- Fixed [Bug]: Some of Mystical Agriculture axes being consumed by crafting planks #41
+- Fixed Minor recipes issues
+### Added
+- Added Euphoria Patches
+- Added Bocchium
+- Added Dreadsteel
+- Added PiglinSafety
+- Added Savage Ender Dragon
+- Added Gardens of the Dead
+- Added When Dungeons Arise - Seven Seas
+- Added Explorify - Dungeons & Structures
+- Added Chef's Delight
+- Added Ecologics
+### Changed
+- Updated Advanced Backups
+- Updated Ars Additions
+- Updated Collective
+- Updated Embeddium++
+- Updated FancyMenu
+- Updated FTB XMod Compat
+- Updated Industrial Foregoing
+- Updated Iron's Spells 'n Spellbooks
+- Updated L_Ender 's Cataclysm
+- Updated Macaw's Trapdoors
+- Updated Mantle
+- Updated MineColonies
+- Updated Quartz
+- Updated Ring of the Miner
+- Updated Small Ships
+- Updated The Aether: Redux
+- Updated Tinkers Construct
+- Updated Zume
+### Removed
+- Removed Ring of Blink
+- Removed Ring of Growth
+- Removed Ring of Repair
+- Removed Ring of the Miner
+- Removed Ring of the Unseen
 # [AOF-v3.1.11] - 2024.05.07
 ### Changed
 - Updated Aquaculture 2
