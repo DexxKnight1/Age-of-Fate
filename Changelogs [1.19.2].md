@@ -1,4 +1,4 @@
-# [AOF-v3.1.13] - 2024.05.01
+# [AOF-v3.1.13] - 2024.05.23
 ### Fixed
 - Fixed Prismarine Watcher Boss doesn’t drop Grindstone Scrap 
 ### Added
