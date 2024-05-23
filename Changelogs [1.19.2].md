@@ -1,3 +1,42 @@
+# [AOF-v3.1.13] - 2024.05.01
+### Fixed
+- Fixed Prismarine Watcher Boss doesn’t drop Grindstone Scrap 
+### Added
+- Added Let’s do Vinery Quests
+- Added Ice & Fire  Quests
+- Added Dungeon Now Loading 1%
+- Added Dangers in the Darkness
+- Added Illage and Legend
+- Added Cataclysm Apotheosis Addon
+- Added [Let's Do] NetherVinery
+- Added Regions Unexplored
+- Added DespawnTweaker
+- Added Suggestion Provider Fix
+- Added Better Runtime Resource Pack (BRRP)
+### Changed
+- Updated Apothic Curios
+- Updated L_Ender 's Cataclysm
+- Updated McJtyLib
+- Updated Vampiric Ageing - A Vampirism Addon
+- Updated Shoulder Surfing Reloaded
+- Updated Progressive Bosses
+- Updated The Aether: Redux
+- Updated Xnet
+- Updated ImmediatelyFast
+- Updated Titanium
+- Updated Building Gadgets
+- Updated Iron's Spells 'n Spellbooks
+- Updated Tinkers Construct
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Collective
+### Removed
+- Removed Dungeon Crawl
+- Removed Stylecolonies
+- Removed TownTalk
+- Removed Immersive FX
+- Removed Tectonic
+- Removed Lithosphere
+- Removed Let Me Despawn
 # [AOF-v3.1.12] - 2024.05.16
 ### Fixed
 - Fixed [Bug]: Some of Mystical Agriculture axes being consumed by crafting planks #41
