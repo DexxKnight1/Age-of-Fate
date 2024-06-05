@@ -1,3 +1,29 @@
+# [AOF-v3.1.15] - 2024.06.05
+### Fixed
+- Fixed Recruit Teams Config to allow us to join to a Team
+- Fixed Wrong Armor and Tools Titles by the Ice & Fire Questline
+### Added
+- Added Cobweb (Harvest with ease now requires Cobweb API to work)
+### Changed
+- Updated Artifacts
+- Updated Cataclysm Apotheosis Addon
+- Updated Collective
+- Updated Corail Tombstone
+- Updated Harvest with ease
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Illage and Legend
+- Updated ImmediatelyFast
+- Updated Iron's Spells 'n Spellbooks
+- Updated Lootr
+- Updated MineColonies
+- Updated ModernFix
+- Updated More Overlays Updated
+- Updated Packet Fixer
+- Updated Pehkui
+- Updated Pipez
+- Updated Structure Compass
+### Removed
+- Removed EverlastingAbilities
 # [AOF-v3.1.14] - 2024.05.24
 ### Fixed
 - Fixed Custom Recipes & Quests Textures issues
