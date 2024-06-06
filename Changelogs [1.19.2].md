@@ -1,3 +1,9 @@
+# [AOF-v3.1.16] - 2024.06.06
+### Added
+- Added Fastboot, this should improve load times and have better mod compatibility
+### Removed
+- Removed LazyDfU
+- Removed Smooth Boot (Reloaded)
 # [AOF-v3.1.15] - 2024.06.05
 ### Fixed
 - Fixed Recruit Teams Config to allow us to join to a Team
