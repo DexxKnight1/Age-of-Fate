@@ -1,3 +1,34 @@
+# [AOF-v3.1.17] - 2024.06.19
+### Added
+- Added Attributizer
+### Changed
+- Updated Forge to v43.4.0
+- Updated Advanced Backups
+- Updated Cataclysm Apotheosis Addon
+- Updated Cobweb
+- Updated Euphoria Patches
+- Updated Explorify – Dungeons & Structures
+- Updated FTB Chunks
+- Updated FTB Pack Companion
+- Updated FTB Quests
+- Updated HammerLib
+- Updated Illage and Legend
+- Updated ImmediatelyFast
+- Updated In Control!
+- Updated Inventory Pets
+- Updated Just Enough Items (JEI)
+- Updated KubeJS
+- Updated Macaw's Doors
+- Updated Macaw's Fences and Walls
+- Updated Packet Fixer
+- Updated PolyLib
+- Updated RFTools Base
+- Updated Shoulder Surfing Reloaded
+- Updated Small Ships
+- Updated The Aether: Redux
+- Updated Villager Recruits: Cavalry Update!
+- Updated Xnet
+- Updated Zume
 # [AOF-v3.1.16] - 2024.06.06
 ### Added
 - Added Fastboot, this should improve load times and have better mod compatibility
