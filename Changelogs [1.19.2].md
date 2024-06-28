@@ -1,3 +1,27 @@
+# [AOF-v3.1.18] - 2024.06.28
+### Added
+- Added BadOptimizations
+- Added Tinkers Integrations and Tweaks
+- Added Tinkers' Levelling Addon
+### Changed
+- Updated Advanced Backups
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Collective
+- Updated Cyclops Core
+- Updated EvilCraft
+- Updated Explorify - Dungeons & Structures
+- Updated Gardens of the Dead
+- Updated Harvest with ease
+- Updated llage and Legend
+- Updated Iron's Spells 'n Spellbooks
+- Updated L_Ender 's Cataclysm
+- Updated Macaw's Bridges
+- Updated Macaw's Lights and Lamps
+- Updated MineColonies
+- Updated Pipez
+- Updated Shoulder Surfing Reloaded
+- Updated Small Ships
+- Updated Villager Recruits: Commander and Captain Update!
 # [AOF-v3.1.17] - 2024.06.19
 ### Added
 - Added Attributizer
