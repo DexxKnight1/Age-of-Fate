@@ -20,7 +20,7 @@ To run this pack smoothly I'll recommend to allocate about **10GB** to **12GB** 
 
 - New unique adventure to reach the End and beat the Ender Dragon with End Remastered mod
 - Quests! About 4'405+ Quests, 15 Chapter Groups, 66 Chapters
-- About 495+ mods
+- About 500+ mods
 - Custom Ambient Music
 - Unique Player Shop for trading of your goodies and a Shop to buy all kind of stuff
 - 7 Dimensions: The Twilight Forest, The Lost Cities, The Undergarden, The Abyss II, Blue Skies and more
