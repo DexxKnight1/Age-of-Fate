@@ -1,3 +1,18 @@
+# [AOF-v3.1.19] - 2024.07.06
+### Fixed
+- Fixed Some issues in KubeJS scripts
+### Added
+- Added Harder Illage and Spillage
+- Added Aether Addon: Treasure Reforging
+### Changed
+- Updated AmbientSounds 6
+- Updated CreativeCore
+- Updated Curios API
+- Updated Functional Storage
+- Updated Iron's Spells 'n Spellbooks
+- Updated Mystical Agradditions
+- Updated Tinkers Integrations and Tweaks
+- Updated XNet Gases
 # [AOF-v3.1.18] - 2024.06.28
 ### Added
 - Added BadOptimizations
