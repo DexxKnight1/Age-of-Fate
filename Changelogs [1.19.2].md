@@ -1,6 +1,6 @@
 # [AOF-v3.1.20] - 2024.07.08
 ### Fixed
-- Fixed Server Files
+- Fixed [Bug]: Server crash caused by Harder Illage and Spillage #42
 - Fixed Smithing Table recipe
 ### Changed
 - Updated Complementary Shaders - Reimagined
