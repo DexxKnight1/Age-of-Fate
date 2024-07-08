@@ -1,3 +1,12 @@
+# [AOF-v3.1.20] - 2024.07.08
+### Fixed
+- Fixed Smithing Table recipe
+### Changed
+- Updated Complementary Shaders - Reimagined
+- Updated Complementary Shaders - Unbound
+- Updated Euphoria Patches
+- Updated FPS Reducer
+- Updated Villager Recruits: Commander and Captain Update!
 # [AOF-v3.1.19] - 2024.07.06
 ### Fixed
 - Fixed Some issues in KubeJS scripts
