@@ -3,6 +3,7 @@
 - Chunk Sending
 - Dimensional Threading Reforked
 ### Changed
+- Updated Forge to v43.4.2
 - Updated Corail Tombstone
 # [AOF-v3.1.20] - 2024.07.08
 ### Fixed
