@@ -1,3 +1,19 @@
+# [AOF-v3.1.22] - 2024.07.21
+### Changed
+- Updated AIOT Botania
+- Updated Cataclysm Apotheosis Addon
+- Updated Embeddium
+- Updated EvilCraft
+- Updated Fast Async World Save
+- Updated Iron's Spells 'n Spellbooks
+- Updated Just Enough Items (JEI)
+- Updated MineColonies
+- Updated Pipez
+- Updated Recipe Essentials
+- Updated Shoulder Surfing Reloaded
+- Updated The Aether: Redux
+- Updated Treasure2
+- Updated Zume
 # [AOF-v3.1.21] - 2024.07.11
 ### Added
 - Chunk Sending
