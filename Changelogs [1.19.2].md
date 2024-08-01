@@ -1,3 +1,7 @@
+# [AOF-v3.1.23] - 2024.07.30
+### Changed
+- Updated Performance Configurations
+
 # [AOF-v3.1.22] - 2024.07.21
 ### Changed
 - Updated AIOT Botania
