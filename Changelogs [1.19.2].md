@@ -1,3 +1,12 @@
+# [AOF-v3.1.24] - 2024.07.31
+### Changed
+- Updated Common Capabilities
+- Updated Cyclops Core
+- Updated EvilCraft
+- Updated In-Control
+- Updated Midnight Lib
+- Updated Macaw's Roofs
+- Updated Treasure2
 # [AOF-v3.1.23] - 2024.07.30
 ### Changed
 - Updated Performance Configurations
