@@ -1,3 +1,16 @@
+# [AOF-v3.1.25] - 2024.08.02
+### Added
+- Added NEW Quest line - Boss Rush Challenge
+- Added NEW Quest line - The Final Quest
+### Changed
+- Updated Cataclysm Apotheosis Addon
+- Updated Illage and Legend
+- Updated Macaw's Furniture
+- Updated Macaw's Windows
+- Updated Shoulder Surfing Reloaded
+- Updated Treasure2
+### Removed
+- Removed Vanilla Expanded - Orcz
 # [AOF-v3.1.24] - 2024.07.31
 ### Changed
 - Updated Common Capabilities
