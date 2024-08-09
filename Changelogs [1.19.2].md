@@ -1,5 +1,6 @@
 # [AOF-v3.1.26] - 2024.08.09
 ### Fixed
+- Fixed [Bug]: Crystal of Creation not craftable #44
 - Fixed Minor KubeJs broken tags
 ### Added
 - Added Doggy Talents Next
