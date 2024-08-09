@@ -1,3 +1,16 @@
+# [AOF-v3.1.26] - 2024.08.09
+### Fixed
+- Fixed Minor KubeJs broken tags
+### Added
+- Added Doggy Talents Next
+- Added Better Dogs X Doggy Talents Next
+### Changed
+- Updated Botania
+- Updated Cognition (formerly Experience Obelisk)
+- Updated ImmediatelyFast
+- Updated Shoulder Surfing Reloaded
+### Removed
+- Removed Doggy Talents
 # [AOF-v3.1.25] - 2024.08.02
 ### Added
 - Added NEW Quest line - Boss Rush Challenge
