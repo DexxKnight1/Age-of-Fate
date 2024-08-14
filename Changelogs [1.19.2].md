@@ -1,3 +1,15 @@
+# [AOF-v3.1.27] - 2024.08.14
+### Fixed
+- Fixed Open to Lan connecting issue
+### Changed
+- Updated Dangers in the Darkness
+- Updated ImmediatelyFast
+- Updated Iron's Spells 'n Spellbooks
+- Updated Lootr
+- Updated McJtyLib
+- Updated Midnight Madness
+- Updated MineColonies
+- Updated Villager Recruits: Commander and Captain Update!
 # [AOF-v3.1.26] - 2024.08.09
 ### Fixed
 - Fixed [Bug]: Crystal of Creation not craftable #44
