@@ -19,8 +19,8 @@ To run this pack smoothly I'll recommend to allocate about **10GB** to **12GB** 
 ## Features:
 
 - New unique adventure to reach the End and beat the Ender Dragon with End Remastered mod
-- Quests! About 4'435+ Quests, 15 Chapter Groups, 66 Chapters
-- About 510+ mods
+- Quests! About 4'440+ Quests, 15 Chapter Groups, 66 Chapters
+- About 520+ mods
 - Custom Ambient Music
 - Unique Player Shop for trading of your goodies and a Shop to buy all kind of stuff
 - 7 Dimensions: The Twilight Forest, The Lost Cities, The Undergarden, The Abyss II, Blue Skies and more
@@ -55,6 +55,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/sawmill">Sawmill (by MehVahdJukaar)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/deeperdarker">Deeper and Darker (by KyaniteMods)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-spellbooks">Ice and Fire: Spellbooks (by Ace_The_Eldritch_King)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/combat-roll">Combat Roll [Fabric & Forge] (by daedelus_dev)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mod-name-tooltip">Mod Name Tooltip (by mezz)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-api">YUNG's API (Forge) (by YUNGNICKYOUNG)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/rsinfinitybooster">RSInfinityBooster (by hexeptiondev)</a></li>
@@ -82,6 +83,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/too-fast">Too Fast (by Noobanidus)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/tool-belt">Tool Belt (by gigaherz)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/enigmatic-legacy">Enigmatic Legacy (by Aizistral)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/tinker-and-better-combat">Tinker and Better Combat (by furious_booth793554)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/platforms">Platforms (by ShetiPhian)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/puzzles-lib">Puzzles Lib [Forge & Fabric] (by Fuzs)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/gamemenumodoption">Game Menu Mod Option [Forge] (by morimori0317)</a></li>
@@ -91,7 +93,6 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/diagonal-windows">Diagonal Windows [Forge & Fabric] (by Fuzs)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/torchmaster">Torchmaster (by xalcon)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/trashslot">TrashSlot (by BlayTheNinth)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-third-person">Better Third Person (by Socolio)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-village-forge">Better Villages - Forge (by jtl_elisa)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/create">Create (by simibubi)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/building-gadgets">Building Gadgets (by Direwolf20)</a></li>
@@ -215,6 +216,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/rechiseled">Rechiseled (by SuperMartijn642)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/dimensional-threads">Dimensional Threading Reforked (by SrRapero720)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/doggy-talents-next">Doggy Talents Next (by dashiedev)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/aqua-combat">Aqua Combat (by FaerMinded)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-shulker-boxes">Easy Shulker Boxes [Forge & Fabric] (by Fuzs)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/simple-discord-rich-presence">Simple Discord Rich Presence (Forge /  Fabric) (by Sunekaer)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/achievements-optimizer">Achievements Optimizer (by big_energy)</a></li>
@@ -287,8 +289,10 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/limited-chunkloading">Limited Chunkloading - Chunk cleanup[Forge/Fabric] (by someaddon)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/despawntweaker">DespawnTweaker (by pOtAto__bOy)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/lendercataclysm">L_Ender 's Cataclysm (by mcl_ender)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/cataclysmic-combat">Cataclysmic Combat (by FaerMinded)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/balm">Balm (Forge Edition) (by BlayTheNinth)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/corail-recycler">Corail Recycler (by Corail_31)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus">Better Combat [Fabric & Forge] (by daedelus_dev)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/apotheotic-additions">Apotheotic Additions (by Bryce792)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/relics-mod">Relics (by SSKirillSS)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/extended-crafting">Extended Crafting (by BlakeBr0)</a></li>
@@ -303,6 +307,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/fix-experience-bug">Fix Experience Bug (now with FABRIC and FORGE versions) (by MacTso)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged">Embeddium/Rubidium Dynamic Lights (by Txni)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/minecolonies">MineColonies (by Raycoms)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/champions-unofficial">Champions-Unofficial (by M1hono)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mantle">Mantle (by mDiyo)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/healing-campfire">Healing Campfire (by Serilum)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/universal-grid">Universal Grid (by Ultramegaaa)</a></li>
@@ -362,6 +367,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-with-minecolonies">Better With Minecolonies [Forge] (by Kreezxil)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge">FTB Quests (Forge) (by FTB)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/advancement-plaques">Advancement Plaques [Neo/Forge] (by Grend_G)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-farmers-combat">Better Farmer's Combat (by ElBaronJack)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/iron-ender-chests">Iron Ender Chests (by Iron431)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/suggestion-provider-fix">Suggestion Provider Fix (by HarleyOConnor)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/serializationisbad">SerializationIsBad (by Dogboy21)</a></li>
@@ -440,6 +446,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/new-mutant-more">Mutant More (by alexandersfunandgames)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/advanced-backups">Advanced Backups (by HeatherWhite)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ai-improvements">AI Improvements (by QueenOfMissiles)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-combat-fixes">Better Combat Fixes (by vertexcubed)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat">FTB XMod Compat (by FTB)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/nether-skeletons">Nether Skeletons (by GlitchedMastery)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/libx">LibX (by noeppinoeppi)</a></li>
@@ -506,6 +513,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/lmft">Load My F***ing Tags (by Blodhgarm)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-windows">Macaw's Windows (by sketch_macaw)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ob-aquamirae">Aquamirae (Forge) (by Obscuria)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick">Crafting on a stick (by OfekN_)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/badoptimizations">BadOptimizations (by thosea)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/immersive-engineering">Immersive Engineering (by BluSunrize)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics">Thermal Dynamics (by TeamCoFH)</a></li>
