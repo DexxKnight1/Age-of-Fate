@@ -1,3 +1,26 @@
+# [AOF-v3.1.28] - 2024.08.21
+### Added
+- Added Crafting on a stick
+- Added Champions-Unofficial
+- Added Better Combat
+- Added Better Combat Fixes
+- Added Cataclysm Combat
+- Added Aqua Combat
+- Added Better Farmer's Combat
+- Added Tinker and Better Combat
+- Added Combat Roll
+### Changed
+- Updated Advanced Backups
+- Updated Cataclysm Apotheosis Addon
+- Updated Corail Tombstone
+- Updated Harder Illage and Spillage
+- Updated Illage and Legend
+- Updated Lootr
+- Updated Repurposed Structures
+- Updated Shoulder Surfing Reloaded
+- Updated Tinkers' Leveling Addon
+### Removed
+- Removed Better Third Person
 # [AOF-v3.1.27] - 2024.08.14
 ### Fixed
 - Fixed Open to Lan connecting issue
