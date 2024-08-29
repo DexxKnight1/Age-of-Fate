@@ -1,3 +1,19 @@
+# [AOF-v3.1.29] - 2024.08.29
+### Added
+- Added Just Enough Mekanism Multiblocks
+- Added Mekanism: Weapons
+### Changed
+- Updated Cataclysm Apotheosis Addon
+- Updated Common Capabilities
+- Updated Connected Glass
+- Updated Entangled
+- Updated Fast IP Ping
+- Updated FTB Ultimine
+- Updated ImmediatelyFast
+- Updated SuperMartijn642's Core Lib
+- Updated World of bosses
+- Updated XNet Gases
+- Updated Zume
 # [AOF-v3.1.28] - 2024.08.21
 ### Added
 - Added Crafting on a stick
