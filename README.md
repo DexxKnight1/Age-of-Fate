@@ -19,7 +19,7 @@ To run this pack smoothly I'll recommend to allocate about **10GB** to **12GB** 
 ## Features:
 
 - New unique adventure to reach the End and beat the Ender Dragon with End Remastered mod
-- Quests! About 4'440+ Quests, 15 Chapter Groups, 66 Chapters
+- Quests! About 4'495+ Quests, 15 Chapter Groups, 66 Chapters
 - About 520+ mods
 - Custom Ambient Music
 - Unique Player Shop for trading of your goodies and a Shop to buy all kind of stuff
