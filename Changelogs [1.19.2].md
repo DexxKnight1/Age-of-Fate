@@ -1,3 +1,14 @@
+# [AOF-v3.1.30] - 2024.09.06
+### Added
+- Added Added Apotheosis Quests
+- Added GoProne
+### Changed
+- Updated Cataclysm Apotheosis Addon
+- Updated Champions-Unofficial
+- Updated Create
+- Updated EvilCraft
+- Updated Shoulder Surfing Reloaded
+- Updated Villager Recruits: Formation Update!
 # [AOF-v3.1.29] - 2024.08.29
 ### Added
 - Added Just Enough Mekanism Multiblocks
