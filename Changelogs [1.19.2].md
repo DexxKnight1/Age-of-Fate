@@ -1,3 +1,12 @@
+# [AOF-v3.1.31] - 2024.09.11
+### Changed
+- Updated Cataclysm Apotheosis Addon
+- Updated Doggy Talents Next
+- Updated EvilCraft
+- Updated FTB Chunks
+- Updated Harvest with ease
+- Updated In Control!
+- Updated XNet
 # [AOF-v3.1.30] - 2024.09.06
 ### Added
 - Added Added Apotheosis Quests
