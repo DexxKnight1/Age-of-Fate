@@ -1,3 +1,22 @@
+# [AOF-v3.1.32] - 2024.09.22
+### Changed
+- Updated Forge to v43.4.4
+- Updated Cataclysm Apotheosis Addon
+- Updated Cloth Config API (Fabric/Forge/NeoForge)
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Corail Tombstone
+- Updated Cucumber Library
+- Updated Explorify - Dungeons & Structures
+- Updated Fast IP Ping
+- Updated Harvest with ease
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Mystical Agriculture
+- Updated Simple Storage Network
+- Updated Shoulder Surfing Reloaded
+- Updated Thermal Systeams
+- Updated Tinkers Construct
+### Removed
+- Removed Dimensional Threading Reforked
 # [AOF-v3.1.31] - 2024.09.11
 ### Changed
 - Updated Cataclysm Apotheosis Addon
