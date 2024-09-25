@@ -1,3 +1,11 @@
+# [AOF-v3.1.33] - 2024.09.25
+### Fixed
+- Fixed [Bug]: Wood Dupe bug #48
+- Fixed Dracoflora spawn rate from the Dangers in the Darkness mod
+- Fixed Ankh of Prayer broken recipe
+### Changed
+- Updated Apotheosis
+- Updated Hostile Mobs and Girls (HMaG)
 # [AOF-v3.1.32] - 2024.09.22
 ### Changed
 - Updated Forge to v43.4.4
