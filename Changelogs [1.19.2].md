@@ -1,3 +1,19 @@
+# [AOF-v3.1.34] - 2024.10.12
+### Changed
+- Updated Aether Addon: Treasure Reforging
+- Updated Almost Unified
+- Updated Corail Tombstone
+- Updated Cataclysm Apotheosis Addon
+- Updated Create
+- Updated Doggy Talents Next
+- Updated Drippy Loading Screen
+- Updated Inventory Pets
+- Updated Just Enough Items (JEI)
+- Updated Just Enough Mekanism Multiblocks
+- Updated ModernFix
+- Updated Mutant More
+- Updated Tinkers Integrations and Tweaks
+- Updated Villager Recruits: Formation Update!
 # [AOF-v3.1.33] - 2024.09.25
 ### Fixed
 - Fixed [Bug]: Wood Dupe bug #48
