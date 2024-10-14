@@ -1,3 +1,16 @@
+# [AOF-v3.1.35] - 2024.10.13
+### Fixed
+- Fixed Missing Tombstone Ankh of pray quest reward, Mod developer changed the name of it
+- Fixed Server crash by disabling Recurits mod till mod developer fixes it
+### Added
+- Added Macaw's Stairs
+- Added Macaw's Path's and Pavings
+- Added Macaw's Holidays
+- Added Not Enough Wands
+### Changed
+- Updated Cataclysm Apotheosis Addon
+- Updated FancyMenu
+- Updated Inventory Profiles Next
 # [AOF-v3.1.34] - 2024.10.12
 ### Changed
 - Updated Aether Addon: Treasure Reforging
