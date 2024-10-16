@@ -1,3 +1,14 @@
+# [AOF-v3.1.36] - 2024.10.16
+### Fixed
+- Fixed [Bug]: Lag while crafting #49
+- Fixed Open to LAN issue
+### Added
+- Added Guard Villagers
+### Changed
+- Updated L_Ender 's Cataclysm
+- Updated Tinkers Integrations and Tweaks
+### Removed
+- Removed Villager Recruits: Formation Update!
 # [AOF-v3.1.35] - 2024.10.13
 ### Fixed
 - Fixed Missing Tombstone Ankh of pray quest reward, Mod developer changed the name of it
