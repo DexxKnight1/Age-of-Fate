@@ -1,3 +1,19 @@
+# [AOF-v3.1.37] - 2024.10.27
+### Changed
+- Updated Better Villages
+- Updated Cataclysm Apotheosis Addon
+- Updated Corail Tombstone
+- Updated Curios API
+- Updated Cyclic
+- Updated FancyMenu
+- Updated Ice and Fire: Spellbooks
+- Updated ImmediatelyFast
+- Updated In Control!
+- Updated Just Enough Items (JEI)
+- Updated L_Ender 's Cataclysm
+- Updated Shoulder Surfing Reloaded
+- Updated Simple Magnets
+- Updated Zume
 # [AOF-v3.1.36] - 2024.10.16
 ### Fixed
 - Fixed [Bug]: Lag while crafting #49
