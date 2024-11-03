@@ -1,3 +1,13 @@
+# [AOF-v3.1.38] - 2024.11.03
+### Fixed
+- Fixed Crash with JEI and Sophisticated Core
+- Fixed Tinkers’ Construct Quests
+### Changed
+- Updated Cataclysm Apotheosis Addon
+- Updated ImmediatelyFast
+- Updated Shoulder Surfing Reloaded
+- Updated Sophisticated Core
+- Updated Zume
 # [AOF-v3.1.37] - 2024.10.27
 ### Changed
 - Updated Better Villages
