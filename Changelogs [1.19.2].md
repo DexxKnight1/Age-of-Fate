@@ -1,3 +1,22 @@
+# [AOF-v3.1.39] - 2024.11.17
+### Changed
+- Updated Forge to v43.4.5
+- Updated Complementary Shaders – Reimagined
+- Updated Complementary Shaders - Unbound
+- Updated Advanced Backups
+- Updated BisectHosting Server Integration Menu
+- Updated Cataclysm Apotheosis Addon
+- Updated Corail Tombstone
+- Updated Cyclic
+- Updated Easy Mob Farm
+- Updated Entangled
+- Updated Euphoria Patches
+- Updated Harvest with ease
+- Updated ImmediatelyFast
+- Updated Lootr
+- Updated Tinkers Integrations and Tweaks
+### Removed
+- Removed Villager Workers: Traveling Merchant Update!
 # [AOF-v3.1.38] - 2024.11.03
 ### Fixed
 - Fixed Crash with JEI and Sophisticated Core
