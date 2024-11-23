@@ -1,3 +1,24 @@
+# [AOF-v3.1.40] - 2024.11.23
+### Fixed
+- Fixed Bag of Seeds lootable
+- Fixed Quests missing rewards
+### Added
+- Added Tom's Simple Storage Mod
+- Added Zombie Awareness
+- Added CoroUtil
+- Added Neruina - Ticking Entity Fixer
+### Changed
+- Updated Cataclysm Apotheosis Addon
+- Updated Cataclysmic Combat
+- Updated Corail Tombstone
+- Updated Easy Mob Farm
+- Updated Just Enough Mekanism Multiblocks
+- Updated L_Ender 's Cataclysm
+- Updated Shoulder Surfing Reloaded
+### Removed
+- Removed Simple Storage Network
+- Removed Dangers in the Darkness
+- Removed Mutant More
 # [AOF-v3.1.39] - 2024.11.17
 ### Changed
 - Updated Forge to v43.4.5
