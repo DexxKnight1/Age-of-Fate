@@ -1,3 +1,26 @@
+# [AOF-v3.1.41] - 2024.12.09
+### Fixed
+- Fixed Crafting Table lag
+### Added
+- Added Mekalus (Oculus fork with fixed Mekanism MekaSuit rendering)
+- Added Mobtimizations - Entity Performance Fixes
+- Added Ice and Fire Dragons X Better Combat
+- Added Structure Layout Optimizer
+- Added CrashExploitFixer
+- Added Structure No Rotate
+- Added Clear Gpu Cache
+- Added Icterine
+- Added FastSuite
+### Changed
+- Updated Forge to v43.4.6
+- Updated Cataclysm Apotheosis Addon
+- Updated Easy Mob Farm
+- Updated Harvest with ease
+- Updated ImmediatelyFast
+- Updated Lootr
+- Updated Macaw's Trapdoors
+- Updated ShetiPhianCore
+- Updated Shoulder Surfing Reloaded
 # [AOF-v3.1.40] - 2024.11.23
 ### Fixed
 - Fixed Bag of Seeds lootable
