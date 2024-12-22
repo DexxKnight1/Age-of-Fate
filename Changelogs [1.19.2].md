@@ -1,3 +1,17 @@
+# [AOF-v3.1.42] - 2024.12.22
+### Fixed
+- Fixed Structure overlapping issue [# ticket-0097], [# ticket-0100]
+### Changed
+- Updated Common Capabilities
+- Updated Doggy Talents Next
+- Updated Easy Mob Farm
+- Updated EvilCraft
+- Updated Midnight Madness
+- Updated Shoulder Surfing Reloaded
+- Updated Tesseract
+- Updated Treasure2
+### Removed
+- Removed Structure No Rotate
 # [AOF-v3.1.41] - 2024.12.09
 ### Fixed
 - Fixed Crafting Table lag
