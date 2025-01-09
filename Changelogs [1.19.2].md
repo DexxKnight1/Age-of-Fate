@@ -1,3 +1,84 @@
+# [AOF-v3.1.43] - 2025.01.09
+### Fixed
+- Fixed all Performance problems hopefully
+- Fixed and Tweaked Performance Configs
+### Added
+- Added Alex's Delight
+- Added Aquaculture Delight
+- Added Corn Delight
+- Added Croptopia Delight
+- Added Cultural Delights
+- Added Ender's Delight
+- Added Nether's Delight
+- Added Ocean's Delight
+- Added Quark Delight
+- Added Storage Delight
+- Added Twilight's Flavors & Delight
+- Added Undergarden Delight
+- Added Farmer's Cutting: Quark
+- Added Bartering Station
+- Added Bee Fix
+- Added Better Jukeboxes
+- Added Biome Music
+- Added Boat Break Fix
+- Added Chat Heads
+- Added Clear Despawn
+- Added Create Central Kitchen
+- Added Create Deco
+- Added Create: New Age
+- Added Create: Steam 'n' Rails
+- Added Dimensional Sync Fixes
+- Added Easy Anvils
+- Added Easy Magic
+- Added FindMe
+- Added Goblin Traders
+- Added Iris/Oculus & GeckoLib Compat
+- Added Just Enough Breeding (JEBr)
+- Added Just Enough Effect Descriptions (JEED)
+- Added Little Contraptions
+- Added Little Logistics
+- Added Loot Integrations
+- Added Loot Integrations: L_Ender 's Cataclysm
+- Added Loot Integrations: When Dungeons Arise & Co
+- Added Yung Structures Addon for Loot Integrations
+- Added LootJS: KubeJS Addon
+- Added Majrusz's Accessories
+- Added Macaw's Paintings
+- Added More Villager Trades
+- Added More Villagers
+- Added More Wandering Trades
+- Added Night Config Fixes
+- Added No Chat Reports
+- Added No Villager Death Messages
+- Added Not Enough Animations
+- Added Redstone Pen
+- Added Resource Pack Overrides
+- Added ServerConfigCleaner
+- Added Smarter Farmers (farmers replant)
+- Added Spyglass Improvements: Zoom, Quick Access...
+- Added Apothic Supplementaries - Enchanting
+- Added Trading Post
+- Added Visual Workbench
+- Added Waystones Teleport Pets
+- Added YUNG's Better End Island
+- Added YUNG's Bridges
+- Added YUNG's Extras
+### Changed
+- Updated Forge to v43.4.12
+- Updated Botanic Additions
+- Updated Easy Mob Farm
+- Updated Immersive Aircraft
+- Updated Mantle
+- Updated Mystical Agriculture
+- Updated Oculus
+- Updated Packet Fixer
+- Updated Shoulder Surfing Reloaded
+- Updated Structure Layout Optimizer
+- Updated SuperMartijn642's Core Lib
+- Updated Tinkers Construct
+### Removed
+- Removed Achievements Optimizer
+- Removed Performance mods that were not needed
 # [AOF-v3.1.42] - 2024.12.22
 ### Fixed
 - Fixed Structure overlapping issue [# ticket-0097], [# ticket-0100]
