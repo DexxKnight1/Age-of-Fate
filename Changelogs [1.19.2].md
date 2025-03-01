@@ -1,3 +1,20 @@
+# [AOF-v1.3.52] - 2025.03.01
+### Changed
+- Updated Forge to v43.4.20
+- Downgraded Harder Illage and Spillage
+- Updated Croptopia Delight
+- Updated Cultural Delights
+- Updated Cyclops Core
+- Updated Easy Mob Farm
+- Updated FancyMenu
+- Updated ImmediatelyFast
+- Updated Immersive Aircraft
+- Updated Macaw's Oh The Biomes You'll Go / We've Gone
+- Updated Macaw's Paths and Pavings
+- Updated Midnight Madness
+- Updated MrCrayfish's Furniture Mod: Refurbished
+- Updated Packet Fixer
+- Updated Shoulder Surfing Reloaded
 # [AOF-v3.1.43] - 2025.01.09
 ### Fixed
 - Fixed all Performance problems hopefully
