@@ -1,3 +1,8 @@
+# [AOF-v1.3.53] - 2025.03.02
+### Fixed
+- Fixed Champions-ranks spamming error
+### Changed
+- Updated Ice and Fire Dragons X Better Combat
 # [AOF-v1.3.52] - 2025.03.01
 ### Changed
 - Updated Forge to v43.4.20
