@@ -1,3 +1,135 @@
+# [AOF-v4.0.1] - 2025.03.10
+### Fixed
+- Improved game performance, courtesy of ModernGamingWorld
+- Reduced total loading time for the game from 11 minutes to 6 minutes
+- Resolved missing textures in the Quest Book #ticket-0124
+- Addressed missing reward in the Quest Book #ticket-0136
+### Added
+- Added Gendustry: Community Edition
+- Added Botanic Additions
+- Added Pick Up Notifier
+- Added Cut Through
+- Added Oculus
+- Added Iris/Oculus & GeckoLib Compat
+- Added Sodium/Embeddium Dynamic Lights
+- Added Better Compatibility Checker
+- Added Better Days
+- Added Crash Utilities
+- Added Effect Descriptions
+- Added Entity Culling
+- Added FindMe
+- Added Flat Bedrock
+- Added Flerovium
+- Added FlickerFix
+- Added Horse Expert
+- Added Just Enough Breeding (JEBr)
+- Added Leave My Bars Alone
+- Added Mystic's Monstrosity Fixes
+- Added Night Config Fixes
+- Added No Startup Messages Please
+- Added Ok Zoomer Forge
+- Added Pretty Beaches
+- Added Resource Pack Overrides
+- Added ResourcePackCached
+- Added Shut Up GL Error
+- Added Sparse Structures Reforged
+- Added TipTheScales
+- Added Visual Workbench
+- Added Yeetus Experimentus
+### Changed
+- Updated Forge to v47.4.0
+- Updated Amendments
+- Updated Aquaculture 2
+- Updated Battle Towers – LordTheo
+- Updated Blueprint
+- Updated Cataclysm Apotheosis Addon
+- Updated Chisel Reborn
+- Updated Chloride (Embeddium++)
+- Updated ChoiceTheorem's Overhauled Village
+- Updated Collective
+- Updated Compatibility addon for MineColonies
+- Updated Cooking for Blockheads
+- Updated Corail Tombstone
+- Updated Create
+- Updated Create Crafts & Additions
+- Updated Create: New Age
+- Updated Curios API
+- Updated Delightful
+- Updated Doggy Talents Next
+- Updated Easy Mob Farm
+- Updated Ender IO
+- Updated Enigmatic Addons
+- Updated EvilCraft
+- Updated Extreme Reactors
+- Updated Extreme sound muffler
+- Updated Forestry: Community Edition
+- Updated FramedBlocks
+- Updated FTB Quests
+- Updated Fzzy Config
+- Updated Ice and Fire Artifacts
+- Updated ImmediatelyFast
+- Updated Immersive Aircraft
+- Updated L_Ender 's Cataclysm
+- Updated LDLib
+- Updated Mantle
+- Updated Mekanism
+- Updated Mekanism Generators
+- Updated Mekanism Tools
+- Updated MineColonies
+- Updated MmmMmmMmmMmm (Target Dummy)
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated Moonlight Lib
+- Updated OctoLib
+- Updated Oh The Biomes We've Gone
+- Updated Placebo
+- Updated Puzzles Lib
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Structure Essentials
+- Updated Supplementaries
+- Updated TConJEI
+- Updated The Deep Void
+- Updated Thermal Extra
+- Updated Tickrate API
+- Updated Tinkers Construct
+- Updated Tinkers' Levelling Addon
+- Updated Tweaks addon for MineColonies
+- Updated Twilight Forest Final Boss
+- Updated Vampirism - Become a vampire!
+- Updated Werewolves - Become a Beast!
+- Updated Waystones
+- Updated What Are They Up To (Watut)
+- Updated YUNG's Cave Biomes (Forge)
+### Removed
+- Removed Entity Culling
+- Removed Progressive Difficulty: Chaos Integration
+- Removed Combat Roll
+- Removed Alternate current
+- Removed BadOptimizations
+- Removed Bobby Reforged
+- Removed Bocchium
+- Removed Clean Swing Through Grass
+- Removed Sinytra Connector
+- Removed Connector Extras
+- Removed Forgified Fabric API
+- Removed Wither Spawn Fix
+- Removed Starlight
+- Removed Smooth Boot (Reloaded)
+- Removed Saturn
+- Removed Packet Fixer
+- Removed Noisium
+- Removed Mekalus (Oculus fork with fixed Mekanism MekaSuit rendering)
+- Removed Lucent
+- Removed Limited Chunkloading - Chunk cleanup
+- Removed Leaky - Item Lag Fix
+- Removed fix GPU memory leak
+- Removed My Server Is Compatible
+- Removed Common Weapons
+- Removed Dungeon Now Loading 1%
+- Removed Too Fast
+- Removed Ice and Fire Artifacts
+- Removed Create: Crystal Clear
+- Removed Create: Steam 'n' Rails
 # [AOF-v4.0.0] - 2025.02.26
 ### Changed
 - Port to 1.20.1
