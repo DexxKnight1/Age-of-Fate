@@ -1,3 +1,109 @@
+# [AOF-v4.0.2] - 2025.03.17
+### Fixed
+- All repeatable Quests in the Quest Book have been fixed
+- Fixed Crafting on a Stick recipes
+- Fixed [Bug]: Wither Drops/Quest #58
+- Fixed [Bug]: Empty and partially empty Tags #59
+- Fixed [Bug]: Allthemodium Alloy Pick uncraftable #60
+- Fixed [Bug]: Repeatable Quests are not repeatable #61
+- Fixed [Bug]: Mystical Agriculture Seeds without Recipes #62
+- Fixed [Bug]: EpicStats will not give xp #63
+- Fixed [Bug]: KubeJS Boss-Crystals #65
+- Fixed #ticket-0195
+- Fixed #ticket-0197
+- Fixed #ticket-0200
+- Fixed #ticket-0201
+- Fixed #ticket-0202
+- Fixed #ticket-0231
+- Fixed #ticket-0236
+### Added
+- Added Tom's Simple Storage Mod
+- Added Tom's Simple Storage Quests
+- Added Create Contraption Terminals
+- Added Modern World Creation
+- Added Better Combat
+- Added Aqua Combat
+- Added Cataclysmic Combat
+- Added Ice and Fire Dragons X Better Combat
+- Added Tinker and Better Combat
+- Added Tooltip Integration
+- Added Obscure Tooltips
+- Added GravelMiner
+- Added Xenon
+- Added Applied Energistics 2
+- Added Applied Energistics 2 Wireless Terminals
+- Added Applied Mekanistics
+- Added Applied Botanics Addon
+- Added Applied Cooking
+- Added Applied Flux
+- Added AE2 Things
+- Added AEInfinityBooster
+- Added AE Additions - ExtraCells2 Fork
+- Added MEGA Cells
+- Added ME Requester
+- Added Polymorphic Energistics
+- Added AE2: Crafting Tree
+- Added GuideME
+- Added PackagedExCrafting
+- Added PackagedAuto
+- Added ExtendedAE
+- Added Ars Énergistique
+- Added Hang Glider
+### Changed
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Aquaculture 2
+- Updated Call from the depths - Sculk Dimencion
+- Updated Chisel Chipped Integration
+- Updated Compatibility addon for MineColonies
+- Updated Create
+- Updated Create Crafts & Additions
+- Updated Crucifix: Unbanished
+- Updated Cyclops Core
+- Updated Doggy Talents Next
+- Updated Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons
+- Updated Enigmatic Addons
+- Updated Fast Async World Save
+- Updated FramedBlocks
+- Updated Forestry: Community Edition
+- Updated Fzzy Config
+- Updated GeckoLib
+- Updated Hexerei
+- Updated ImmediatelyFast
+- Updated MineColonies
+- Updated Moonlight Lib
+- Updated Oh The Trees You'll Grow
+- Updated Quark
+- Updated Server Performance - Smooth Chunk Save
+- Updated Separated Leaves
+- Updated Sophisticated Backpacks
+- Updated Spice of MineColonies Life: Carrot Flavor
+- Updated Structurize
+- Updated TerraBlender
+- Updated Treasure2
+- Updated Tweaks addon for MineColonies
+- Updated TxniLib
+- Updated What Are They Up To (Watut)
+- Updated YUNG's Cave Biomes
+- Updated Zeta
+### Removed
+- Removed The Abyss II - The Other Side
+- Removed XyCraft
+- Removed XyCraft: Override
+- Removed XyCraft: World
+- Removed Underground Jungle
+- Removed The Conjurer
+- Removed Kobolds!
+- Removed Flerovium
+- Removed Embeddium
+- Removed Embeddium (Rubidium) Extra
+- Removed Sodium/Embeddium Options API
+- Removed Sodium/Embeddium Options Mod Compat
+- Removed Sodium/Embeddium Dynamic Lights
+- Removed Chloride (Embeddium++)
+- Removed Enhanced Celestials Shader Support
+- Removed Paragliders
+- Removed Progressive Bosses
+- Removed InsaneLib
 # [AOF-v4.0.1] - 2025.03.10
 ### Fixed
 - Improved game performance, courtesy of ModernGamingWorld
