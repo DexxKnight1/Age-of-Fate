@@ -2,7 +2,7 @@
 
 ![banner](https://user-images.githubusercontent.com/78975662/197360601-7f08068d-8b40-4d2a-a68e-bd3c8f9bea17.png)
 
-This is the official repository and issue-tracker for Age of Fate 1.19.2
+This is the official repository and issue-tracker for Age of Fate 1.20.1
 
 [![Discord](https://img.shields.io/static/v1?label=&message=Join%20my%20server&logo=Discord&style=for-the-badge&logoColor=white&labelColor=f091f6&color=3C3C3C)](https://discord.gg/JMqZhxk7gA) [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DKnightDexx%26type%3Dpatrons&style=for-the-badge)](https://patreon.com/KnightDexx) [![Server](https://img.shields.io/badge/Rent%20-a%20server-9cf?style=for-the-badge&logo=Codeforces&logoColor=cyan)](https://bisecthosting.com/KNIGHTDEXX) [![Forge](https://img.shields.io/badge/My-modpacks-red?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/dexxknight1/projects) [![ko-fi](https://img.shields.io/static/v1?label=&message=Support%20me%20on%20Ko-fi&color=C0C0C0&labelColor=4a94fb&style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/Z8Z5EO6KT)
 
