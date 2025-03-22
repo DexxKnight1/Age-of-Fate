@@ -1,3 +1,75 @@
+# [AOF-v1.3.57] - 2025.03.22
+### Fixed
+- Adjusted the Dread Steel armor value for better clarity and consistency
+- Fixed Thermal Sequential Fabricator recipe
+- Fixed Mystical Agriculture Seeds without recipes
+- Fixed [Bug]: Immersive Engineering Windmill #54
+- Fixed [Bug]: Easy mob farm + Enderman overhaul crashing game #57
+- Fixed [Bug]: Waystone not functioning #67
+- Fixed [Bug]: game crash when crafting majrusz's accessories miner rune #70
+### Added
+- Added RoadRunner
+### Changed
+- Updated Forge to v43.5.0
+- Updated Better Villages
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Deep Aether
+- Updated Fusion (Connected Textures)
+- Updated Tinker and Better Combat
+### Removed
+- Removed Progressive Bosses
+- Removed InsaneLib
+- Removed Ars Elemental
+- Removed Ars Additions
+- Removed Better Animations Collection
+- Removed Better Jukeboxes
+- Removed Cultural Delights
+- Removed Corn Delight
+- Removed Damage command (With damage types!)
+- Removed Dark Paintings
+- Removed Dungeon Now Loading 1%
+- Removed Better Mods Button
+- Removed Goblin Traders
+- Removed Little Contraptions
+- Removed Little Logistics
+- Removed Longer Chat History
+- Removed Loot Integrations
+- Removed Loot Integrations: L_Ender 's Cataclysm
+- Removed Loot Integrations: When Dungeons Arise & Co
+- Removed Yung Structures Addon for Loot Integrations
+- Removed LootJS: KubeJS Addon
+- Removed Majrusz's Accessories
+- Removed Stylish Effects
+- Removed Chloride (Embeddium++)
+- Removed Sodium/Embeddium Dynamic Lights
+- Removed Sodium/Embeddium Extras
+- Removed TexTrue's Embeddium Options
+- Removed Apotheotic Additions
+- Removed Apothic Supplementaries – Enchanting
+- Removed Cataclysm Apotheosis Addon
+- Removed Harder Illage and Spillage
+- Removed Alex's Delight
+- Removed Aquaculture Delight (A Farmer's Delight Add-on)
+- Removed Ender's Delight
+- Removed Nether's Delight
+- Removed Ocean's Delight
+- Removed Quark Delight
+- Removed Storage Delight
+- Removed Twilight's Flavors & Delight
+- Removed Undergarden Delight (A Farmer's Delight Add-on)
+- Removed Supplementaries Squared
+- Removed AddonsLib
+- Removed Better Runtime Resource Pack (BRRP)
+- Removed Farmer's Respite
+- Removed Mysterious Mountain Lib
+- Removed Ping Wheel
+- Removed Redstone Pen
+- Removed Smarter Farmers (farmers replant)
+- Removed Waystones Teleport Pets
+- Removed Creeper Overhaul
+- Removed Enderman Overhaul
+- Removed Resourceful Config
+- Removed The Aether: Redux
 # [AOF-v1.3.53] - 2025.03.02
 ### Fixed
 - Fixed Champions-ranks spamming error
