@@ -1,3 +1,126 @@
+# [AOF-v4.0.4] - 2025.03.28
+### Fixed
+- Fixed Smithing Table GUI
+- Resolved several recipe issues
+- Fixed [Bug]: Epic Stats Error Message Spam #76
+- Fixed [Bug]: ne.mc.cr.CrucifixMod message spam Dedicated Server #79
+- Fixed #ticket-0171, #ticket-0182, #ticket-0188, #ticket-0225, #ticket-0003
+### Added
+- Added AdvancedAE
+- Added [Suggestion]: Just enough calculation #73 
+- Added Gateways to Eternity
+- Added Gateways to Eternity - More Gateways
+- Added Passive Skill Tree
+- Added Jade 🔍
+- Added Jade Addons
+- Added JadeColonies
+- Added Fast Item Frames
+- Added Vanillin
+### Changed
+- Updated AE2: Crafting Tree
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Applied Energistics 2
+- Updated Applied Flux
+- Updated Artifacts
+- Updated Balm
+- Updated BlockUI
+- Updated Botany Pots
+- Updated Create
+- Updated Cyclops Core
+- Updated Data Anchor
+- Updated Does It Tick?
+- Updated Domum Ornamentum
+- Updated Easy Mob Farm
+- Updated Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons
+- Updated Entity Culling
+- Updated FastSuite
+- Updated Forestry: Community Edition
+- Updated Fzzy Config
+- Updated GeckoLib
+- Updated Gendustry: Community Edition
+- Updated HammerLib
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Immersive Aircraft
+- Updated Immersive Tips
+- Updated Integrated Dungeons and Structures
+- Updated L_Ender 's Cataclysm
+- Updated LDLib
+- Updated Lootr
+- Updated MineColonies
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated Moonlight Lib
+- Updated Not Enough Animations
+- Updated Oh The Biomes We've Gone
+- Updated Skin Layers 3D
+- Updated Sophisticated Core
+- Updated Supplementaries
+- Updated Structurize
+- Updated The Deep Void
+- Updated Tinker and Better Combat
+- Updated TrashSlot
+### Removed
+- Removed Achievements Optimizer
+- Removed FPS Reducer
+- Removed Epic Stats Remastered
+- Removed Recipe Essentials
+- Removed Obscure Tooltips
+- Removed Nyf's Quivers
+- Removed Nyf's Archery Plus
+- Removed Tweaks addon for MineColonies
+- Removed Compatibility addon for MineColonies
+- Removed Apotheotic Additions
+- Removed Ars Additions
+- Removed Bountiful
+- Removed Kambrik
+- Removed Cataclysm Apotheosis Addon (Be sure to look at the description section)
+- Removed Creeper Overhaul
+- Removed Enderman Overhaul
+- Removed Aether Villages
+- Removed Aether: Lost Content Addon
+- Removed Ancient Aether
+- Removed The Aether: Redux
+- Removed Ecologics
+- Removed Better With Minecolonies
+- Removed Spice of MineColonies Life: Carrot Flavor
+- Removed Attributizer
+- Removed Effect Descriptions
+- Removed Beautify!
+- Removed Biome Makeover
+- Removed Towns and Towers
+- Removed Cristel Lib
+- Removed Enemy Expansion
+- Removed VillagersPlus
+- Removed WITS (What Is This Structure?)
+- Removed Waystones Teleport Pets
+- Removed Nether Villager Trader
+- Removed Click Machine
+- Removed FindMe
+- Removed Ping Wheel
+- Removed PiglinSafety
+- Removed Pretty Beaches
+- Removed Radium Reforged
+- Removed FTB Quests Optimizer
+- Removed YetAnotherConfigLib
+- Removed Monobank
+- Removed Enlightend
+- Removed Netherific
+- Removed Mystic's Monstrosity Fixes
+- Removed OnlyLooking Updated
+- Removed Potions Master
+- Removed Resource Pack Overrides
+- Removed ResourcePackCached
+- Removed Wares
+- Removed YDM's Spellswords
+- Removed YDM's Weapon Master
+- Removed Just Enough Resources Profiler (JEARGH)
+- Removed Mod Name Tooltip
+- Removed Silent Gear
+- Removed SilentGear Compat
+- Removed Silent Lib (silentlib)
+- Removed Explorify – Dungeons & Structures
+- Removed The One Probe
+- Removed Simple Storage Network
+- Removed Crucifix: Unbanished
 # [AOF-v4.0.2] - 2025.03.17
 ### Fixed
 - All repeatable Quests in the Quest Book have been fixed
