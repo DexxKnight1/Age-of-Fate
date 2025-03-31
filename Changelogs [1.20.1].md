@@ -1,3 +1,61 @@
+# [AOF-v4.0.5] - 2025.03.31
+### Fixed
+- Fixed empty tags
+- Fixed broken recipes
+- Fixed empty quest rewards
+- Fixed [Bug]: Broom from EvilCraft grants unlimited creative flight #53
+- Fixed [Bug]: Prefab:gui/fish_pond - size 536 x 300 Lower resolution #74
+- Reorganized Quest Book, largely inspired by [Suggestion]: Quests #72
+- Resolved trades AllTheCompressed items by Wanderer Trader using a custom data pack
+### Added
+- Added Apotheotic Additions
+- Added Ars Additions
+- Added All The Arcanist Gear
+- Added All the Wizard Gear
+- Added KeybindsPurger
+- Added Wither Spawn Fix
+- Added T.O Magic 'n Extras - Iron's Spells Addon
+- Added Create: Oppenheimered
+- Added Temporal API
+- Added TACT - Tiny Alex's Caves Tweaks
+- Added Enigmatic Delicacy
+- Added JEI Integration
+- Added Neruina - Ticking Entity Fixer
+- Added Passive Skill Tree Additions
+- Added Project: Vibrant Journeys
+- Added Saturn
+- Added Apothic Curios
+- Added Ksyxis
+- Added Tinkers Integrations and Tweaks
+- Added Construct's Casting
+### Changed
+- Updated Balm
+- Updated BlockUI
+- Updated Botania
+- Updated Collective
+- Updated Doggy Talents Next
+- Updated Extra Disks
+- Updated Fast Item Frames
+- Updated FLIB
+- Updated Fzzy Config
+- Updated Integrated API
+- Updated L_Ender 's Cataclysm
+- Updated Macaw's Fences and Walls
+- Updated MineColonies
+- Updated Pipez
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Structurize
+- Updated Structure Essentials
+- Updated Tinker and Better Combat
+- Updated Zeta
+### Removed
+- Removed Does It Tick?
+- Removed Valarian Conquest
+- Removed Pirates of the Craft
+- Removed Blueprint Texture Issue Fix
+- Removed Chunk Activity Tracker
+- Removed Better Fps - Render Distance
 # [AOF-v4.0.4] - 2025.03.28
 ### Fixed
 - Fixed Smithing Table GUI
