@@ -1,3 +1,60 @@
+[AOF-v4.0.6] - 2025.04.09
+### Fixed
+- Fixed 3D tooltip that was causing lag in JEI, #ticket-0029
+- Fixed the incorrect template used for upgrading Plated Bone Tools, #ticket-0049
+- Fixed broken Quests and Quest-related issues, #ticket-0044, #ticket-0055
+### Added
+- Added Notes
+- Added Reflex AntiLag
+- Added OptiLeaves
+- Added Relics: Alex's Mobs Compat
+- Added Relics: Alex's Caves Compat
+- Added Twilight Construct
+- Added Packet Fixer
+- Added Mekanism Pipez Fix
+- Added Hostile Neural Networks
+- Added Extra Hostile Neural Networks
+- Added Sanguine Neural Networks
+- Added Hostile Neural Networks Quests
+### Changed
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Allthemodium
+- Updated AmbientSounds 6
+- Updated Apotheotic Additions
+- Updated Artifacts
+- Updated CreativeCore
+- Updated Curios API
+- Updated Cyclic
+- Updated Elysium API
+- Updated Enigmatic Delicacy
+- Updated Iron's Spells 'n Spellbooks
+- Updated Jaden's Nether Expansion
+- Updated MineColonies
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated ModernFix
+- Updated Moonlight Lib
+- Updated Mystical Agradditions
+- Updated Mystical Agriculture
+- Updated Oh The Biomes We've Gone
+- Updated Oh The Trees You'll Grow
+- Updated Polymorph
+- Updated Powah!
+- Updated Puzzles Lib
+- Updated Relics
+- Updated Snow Under Trees
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated The Deep Void
+### Removed
+- Removed GuideME
+- Removed Legendary Tooltips
+- Removed Prism
+- Removed JEI Integration
+- Removed In Control!
+- Removed Clear Despawn
+- Removed Forgified Fabric API
 # [AOF-v4.0.5] - 2025.03.31
 ### Fixed
 - Fixed empty tags
