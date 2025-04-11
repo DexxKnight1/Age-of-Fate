@@ -1,4 +1,48 @@
-[AOF-v4.0.6] - 2025.04.09
+# [AOF-v4.0.7] - 2025.04.12
+### Fixed
+- Fixed the Middle Button key bind for inventory sorting
+- Enhanced and optimized game performance
+### Added
+- Added Crash Assistant
+- Added Actually Subtractions
+- Added Actually Divisions
+- Added Mekanism Covers
+- Added MNS - Moog's Nether Structures
+- Added MVS - Moog's Voyager Structures
+- Added MSS - Moog's Soaring Structures
+- Added AE2 Network Analyser
+- Added AE2 Import Export Card
+- Added Hey Berry! SHUT UP
+- Added Nolijium
+- Added FTB Filter System
+- Added Chidori Origins Collection
+- Added Medieval Origins Revival
+- Added Glassential Renewed
+- Added Improvable Skills 3
+### Changed
+- Updated Blueprint
+- Updated Corail Tombstone
+- Updated Curios API
+- Updated FTB Ranks
+- Updated FTB XMod Compat
+- Updated Fzzy Config
+- Updated Sophisticated Storage
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Supplementaries
+- Updated THE UNDEAD REVAMPED
+### Removed
+- Removed Vanilla AIOTs
+- Removed Glassential
+- Removed Apothic Curios
+- Removed Passive Skill Tree
+- Removed Passive Skill Tree Additions
+- Removed Origins: Vampire
+- Removed Tinker's Compatibility
+- Removed LDLib
+- Removed Construct's Casting
+- Removed ConnectedTexturesMod
+# [AOF-v4.0.6] - 2025.04.09
 ### Fixed
 - Fixed 3D tooltip that was causing lag in JEI, #ticket-0029
 - Fixed the incorrect template used for upgrading Plated Bone Tools, #ticket-0049
