@@ -1,3 +1,37 @@
+# [AOF-v4.0.8] - 2025.04.14
+### Fixed
+- Fixed empty rewards and some other issues in the Quest book
+- Resolved the issue with empty loot chests, #ticket-0072 
+### Added
+- Added Multipart Machines: Farming
+- Added Multipart Machines: Grinding (Replacement for Easy Mob Farm)
+- Added Farming & Grinding Quests
+- Added Extra Data Models for Hostile Networks
+- Added Cataclysm stone recipes
+### Changed
+- Updated Chat Heads
+- Updated ChoiceTheorem's Overhauled Village
+- Updated Corail Tombstone
+- Updated Crash Assistant
+- Updated Curios API
+- Updated Cyclops Core
+- Updated Fusion (Connected Textures)
+- Updated L_Ender 's Cataclysm
+- Updated MineColonies
+- Updated Oh The Biomes We've Gone
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Structure Essentials
+- Updated The Deep Void
+- Updated THE UNDEAD REVAMPED
+- Updated Tom's Simple Storage Mod
+### Removed
+- Removed Easy Mob Farm
+- Removed Shut Up GL Error
+- Removed [EMF] Entity Model Features
+- Removed [ESF] Entity Sound Features
+- Removed [ETF] Entity Texture Features
 # [AOF-v4.0.7] - 2025.04.12
 ### Fixed
 - Fixed the Middle Button key bind for inventory sorting
