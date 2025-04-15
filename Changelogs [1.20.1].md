@@ -1,3 +1,20 @@
+# [AOF-v4.0.9] - 2025.04.15
+### Added
+- Added Embeddium
+- Added Chloride (Embeddium++)
+- Added Mowzie's Cataclysm
+- Added No Animal Tempt Delay
+- Added Macaw's Paintings
+- Added Cycle Paintings
+- Added Quests Kill Task Tweaks
+### Changed
+- Updated Chat Heads
+- Updated PackagedExCrafting
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated THE UNDEAD REVAMPED
+### Removed
+- Removed Xenon
 # [AOF-v4.0.8] - 2025.04.14
 ### Fixed
 - Fixed empty rewards and some other issues in the Quest book
