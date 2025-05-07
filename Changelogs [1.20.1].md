@@ -1,3 +1,109 @@
+# [AOF-v4.1.0] - 2025.05.07
+### Fixed
+- Fixed Creepers no longer explode behind walls
+- Fixed Gold block recipe, [Suggestion]: Changing the order for gold block crafting. #83
+- Fixed Framed Drawer recipe, [Suggestion]: Compacting drawer can be bypassed… #85
+- Main Menu music is set to 80% volume and can be turned off in the music options settings
+- Resolved the MBT issue with Singularity quest completions
+- Resolved Advanced Importer and Exporter in the Refined Storage questline, #ticket-0110
+- Resolved the Coal Dust problem by implementing a crafting recipe, #ticket-0114
+### Added
+- Added Eyes of Ice and Fire
+- Added Ice and Fire: Curios and Trinkets
+- Added Simply Swords: Overhaul
+- Added Xenon
+- Added Game Menu Mod Option
+- Added Underwater Village - Oceanic Structures
+- Added Whisperer's Jungle Temple
+- Added Haunted House
+- Added Spooky Campsite
+- Added Psi
+- Added Psi Quests
+### Changed
+- Updated MakeUp - Ultra Fast | Shaders
+- Updated AEInfinityBooster
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Almost Unified
+- Updated AmbientSounds 6
+- Updated Applied Energistics 2
+- Updated Applied Flux
+- Updated Apotheosis
+- Updated Autochef's Delight
+- Updated Biome Music
+- Updated Born in Chaos
+- Updated Born In Configuration
+- Updated Brutal Bosses - Custom Bosses
+- Updated Chat Heads
+- Updated ChoiceTheorem's Overhauled Village
+- Updated Collective
+- Updated Crash Assistant
+- Updated Create: New Age
+- Updated Croptopia Delight
+- Updated Cyclops Core
+- Updated Data Anchor
+- Updated Doggy Talents Next
+- Updated Drippy Loading Screen
+- Updated Enchant With Mob
+- Updated EvilCraft
+- Updated ExtendedAE
+- Updated FancyMenu
+- Updated Fast Item Frames
+- Updated Forestry: Community Edition
+- Updated Fusion (Connected Textures)
+- Updated FTB Chunks
+- Updated FTB Filter System
+- Updated FTB Quests
+- Updated FTB Ranks
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Immersive Messages API
+- Updated Immersive Optimization
+- Updated Iron's Spells 'n Spellbooks
+- Updated Kiwi 🥝
+- Updated L_Ender 's Cataclysm
+- Updated Macaw's Lights and Lamps
+- Updated Macaw's Roofs
+- Updated Measurements
+- Updated Midnight Madness
+- Updated MineColonies
+- Updated Moonlight Lib
+- Updated Mowzie's Mobs
+- Updated Mystical Agriculture
+- Updated Mystical Agradditions
+- Updated Oh The Trees You'll Grow
+- Updated Particle Core
+- Updated Polymorph
+- Updated Powah! (Rearchitected)
+- Updated Quark
+- Updated Refined Storage Manual
+- Updated Security Craft
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated Structurize
+- Updated TConJEI
+- Updated The Deep Void
+- Updated THE UNDEAD REVAMPED
+- Updated Thermal Extra
+- Updated Treasure2
+- Updated Twilight Construct
+- Updated Vanillin
+- Updated Zeta
+### Removed
+- Removed Embeddium
+- Removed Chloride (Embeddium++)
+- Removed The Lost Castle
+- Removed Savage Ender Dragon
+- Removed Better Mods Button
+- Removed Suggestion Provider Fix
+- Removed Skin Layers 3D
+- Removed SerializationIsBad
+- Removed Particle Core
+- Removed Packet Fixer
+- Removed Log Begone
+- Removed FTB Pack Companion
+- Removed Ksyxis
+- Removed Faster Ladder Climbing
 # [AOF-v4.0.9] - 2025.04.15
 ### Added
 - Added Embeddium
