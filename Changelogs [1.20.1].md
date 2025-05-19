@@ -1,3 +1,52 @@
+# [AOF-v4.1.1] - 2025.05.19
+### Fixed
+- Fixed the Custom Portals quest in the Mekanism chapter one questline
+### Added
+- Added Gnetum
+- Added FastEvent
+- Added a Grave Dust recipe for the Pulverizer, Sag Mill, and Crusher as suggested in [Suggestion]: #88
+### Changed
+- Updated Complementary Shaders – Reimagined
+- Updated Complementary Shaders – Unbound
+- Updated AE Additions - ExtraCells2 Fork
+- Updated AmbientSounds 6
+- Updated Balm
+- Updated Common Capabilities
+- Updated Crash Assistant
+- Updated Data Anchor
+- Updated Deep Aether
+- Updated Dungeons Enhanced
+- Updated Enigmatic Addons
+- Updated Elysium API
+- Updated Euphoria Patches
+- Updated ExtendedAE
+- Updated Extreme sound muffler
+- Updated FancyMenu
+- Updated FTB Ranks
+- Updated Ice And Fire Patcher
+- Updated Lithostitched
+- Updated Macaw's Bridges
+- Updated Medieval Origins Revival
+- Updated MineColonies
+- Updated Moonlight Lib
+- Updated ModernFix
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated OptiLeaves
+- Updated Repurposed Structures
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Structurize
+- Updated The Deep Void
+- Updated Tickrate API
+- Updated Tinker and Better Combat
+- Updated TxniLib
+- Updated Waystones
+- Updated Werewolves - Become a Beast!
+### Removed
+- Removed Gateways to Eternity
+- Removed Gateways to Eternity - More Gateways
+- Removed Origins: Classes
 # [AOF-v4.1.0] - 2025.05.07
 ### Fixed
 - Fixed Creepers no longer explode behind walls
