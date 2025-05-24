@@ -1,3 +1,27 @@
+# [AOF-v4.1.2] - 2025.05.24
+### Fixed
+- Fixed the overlap between the Vampirism Skills button and the Enigmatic Magnet Ring button
+- Fixed several recipe callbacks due to non-existing items
+### Changed
+- Updated Almost Unified
+- Updated Balm
+- Updated Corail Tombstone
+- Updated Crash Assistant
+- Updated Doggy Talents Next
+- Updated Enigmatic Addons
+- Updated Euphoria Patches
+- Updated Forestry: Community Edition
+- Updated FTB Essentials
+- Updated Infinity Nexus Miner
+- Updated Mekanism
+- Updated Mekanism Generators
+- Updated Mekanism Tools
+- Updated MineColonies
+- Updated ModernFix
+- Updated Sophisticated Core
+- Updated Waystones
+### Removed
+- Removed Immersive Optimization
 # [AOF-v4.1.1] - 2025.05.19
 ### Fixed
 - Fixed the Custom Portals quest in the Mekanism chapter one questline
