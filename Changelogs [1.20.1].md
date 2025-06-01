@@ -1,3 +1,50 @@
+# [AOF-v4.1.3] - 2025.06.01
+### Fixed
+- Fixed several invalid recipes
+- Fixed the invalid reward in the Ars Nouveau questline
+### Added
+- Added fix GPU memory leak
+- Added Item Split Bug Fix
+- Added Icarus
+- Added Mermod
+- Added Transmog
+### Changed
+- Updated Forge to v47.4.1
+- Updated AmbientSounds 6
+- Updated Applied Flux
+- Updated Balm
+- Updated Common Capabilities
+- Updated Corail Tombstone
+- Updated Crash Assistant
+- Updated Cyclops Core
+- Updated Doggy Talents Next
+- Updated Elysium API
+- Updated Enchant With Mob
+- Updated Enigmatic Addons
+- Updated Euphoria Patches
+- Updated Forestry: Community Edition
+- Updated Fzzy Config
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Gnetum
+- Updated Jaden's Nether Expansion
+- Updated Just Enough Items (JEI)
+- Updated Just Enough Items (JEI)
+- Updated KeybindsPurger
+- Updated Mantle
+- Updated McJtyLib
+- Updated MineColonies
+- Updated Mowzie's Mobs
+- Updated Mystical Agriculture
+- Updated Oh The Trees You'll Grow
+- Updated OpenBlocks Elevator
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated TConJEI
+- Updated Tinkers Construct
+- Updated The Midnight
+### Removed
+- Removed GPUTape
 # [AOF-v4.1.2] - 2025.05.24
 ### Fixed
 - Fixed the overlap between the Vampirism Skills button and the Enigmatic Magnet Ring button
