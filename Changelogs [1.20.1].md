@@ -1,3 +1,56 @@
+# [AOF-v4.1.4] - 2025.06.15
+### Fixed
+- Fixed key binding for Knowledge of Death
+- Fixed auto resetting render distance to 5 chunks
+### Added
+- Added Cable Facades
+- Added Nature's Aura Render Fix
+- Added Bad Horse Fix
+- Added Allex’s Caves Better Combat
+- Added Useful Slime
+### Changed
+- Updated Applied Energistics 2
+- Updated Applied Flux
+- Updated BlockUI
+- Updated Born In Configuration
+- Updated Botanical Machinery
+- Updated Brutal Bosses - Custom Bosses
+- Updated Chisel Chipped Integration
+- Updated Corail Tombstone
+- Updated CorgiLib
+- Updated Crash Assistant
+- Updated Create
+- Updated Croptopia Delight
+- Updated Delightful
+- Updated Doggy Talents Next
+- Updated Dungeons Enhanced
+- Updated Extra Hostile Neural Networks
+- Updated Farmer's Delight
+- Updated Gnetum
+- Updated GottschCore
+- Updated GuideME
+- Updated Immersive Tips
+- Updated Industrial Foregoing
+- Updated Mantle
+- Updated MineColonies
+- Updated MmmMmmMmmMmm (Target Dummy)
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated ModernFix
+- Updated Moonlight Lib
+- Updated MVS - Moog's Voyager Structures
+- Updated Oh The Trees You'll Grow
+- Updated Sawmill
+- Updated Supplementaries
+- Updated Structurize
+- Updated The Deep Void
+- Updated Thermal Extra
+- Updated Tinkers Construct
+- Updated Tinkers Integrations and Tweaks
+- Updated Tinkers' Levelling Addon
+- Updated Tinkers' Thinking
+- Updated YUNG's Cave Biomes
+### Removed
+- Removed Accessories
 # [AOF-v4.1.3] - 2025.06.01
 ### Fixed
 - Fixed several invalid recipes
