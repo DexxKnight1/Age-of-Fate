@@ -1,3 +1,35 @@
+# [AOF-v4.1.5] - 2025.06.22
+### Fixed
+- Fixed several key bindings, this time for sure
+### Added
+- Added Macaw's Paths and Pavings
+### Changed
+- Updated Chalk
+- Updated Corail Tombstone
+- Updated Cucumber Library
+- Updated Domum Ornamentum
+- Updated Enigmatic Addons
+- Updated Enigmatic Delicacy
+- Updated Entity Culling
+- Updated Euphoria Patches
+- Updated ExtendedAE
+- Updated Fast IP Ping
+- Updated Fast Item Frames
+- Updated GeckoLib
+- Updated GuideME
+- Updated Item Split Bug Fix
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated L_Ender 's Cataclysm
+- Updated MineColonies
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated Moonlight Lib
+- Updated Mystical Agriculture
+- Updated Oh The Biomes We've Gone
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated The Deep Void
+- Updated Tinkers' Thinking
 # [AOF-v4.1.4] - 2025.06.15
 ### Fixed
 - Fixed key binding for Knowledge of Death
