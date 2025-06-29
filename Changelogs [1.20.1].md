@@ -1,3 +1,33 @@
+# [AOF-v4.1.6] - 2025.06.29
+### Fixed
+- Fixed [Bug]: Crop Crate recipe broken after update #94
+- Fixed [Bug]: Create Mechanical Crafter Ticking Entity while crafting Crushing Wheel #96
+- Fixed Smeltery recipes for Allthemodium, Vibranium, and Unobtainium blocks
+### Changed
+- Updated AE2: Crafting Tree
+- Updated Ars Nouveau
+- Updated Citadel
+- Updated Corail Tombstone
+- Updated Crash Assistant
+- Updated Delightful
+- Updated Doggy Talents Next
+- Updated Domum Ornamentum
+- Updated Enigmatic Delicacy
+- Updated FramedBlocks
+- Updated FTB Ultimine
+- Updated Functional Storage
+- Updated GottschCore
+- Updated Integrated Dungeons and Structures
+- Updated Integrated Villages
+- Updated Jaden's Nether Expansion
+- Updated Lithostitched
+- Updated MineColonies
+- Updated Moonlight Lib
+- Updated MythicBotany
+- Updated Not Enough Animations
+- Updated Oh The Biomes We've Gone
+- Updated Sophisticated Storage
+- Updated Tinkers' Thinking
 # [AOF-v4.1.5] - 2025.06.22
 ### Fixed
 - Fixed several key bindings, this time for sure
