@@ -10,30 +10,39 @@ This is the official repository and issue-tracker for Age of Fate 1.20.1
 
 ## About the pack:
 
-It is said that when the world eventually falls into darkness, there will be one who will come from the light to lead humanity out of it. **YOU**. You are the Prophecy, an angel who is the sole salvation for the human race. You have been under constant threat of destruction. Demons and dark forces hunt you endlessly. It is a battle just to survive. On your journey you'll be needed a lot of assistance: Magic, mystical items, good weapons, amulets, skills and much more. You'll travel to other dimensions, you'll fight with many bosses, maybe you'll be turned to a vampire, maybe you'll gonna ride your own dragon and burn them all.
+When the world plunges into midnight darkness and all hope seems to flicker out, a single ray breaks through—the Age of Fate has arrived, and you stand at its center. As the fabled angel of prophecy, you alone have the power to steer humanity away from annihilation. Shadows gather, demons lurk, and relentless doom stalks your every step.
 
-To run this pack smoothly I'll recommend to allocate about **10GB** to **12GB** amount of **RAM**.
+Age of Fate isn’t just a challenge; it’s a mystical odyssey full of peril, awe, and destiny. Embrace ancient magics, wield unfathomable weapons, unearth enchanted relics, and master skills long lost to legend. As you journey, discover portals to strange dimensions, topple formidable bosses, and shape your destiny with decisions that twist the very fabric of your soul. Will you become a night-walking vampire, or tame dragons to rain fire on your foes?
 
-**OptiFine** mod is incompatible in this modpack. 
+Forge alliances, uncover secrets, and define your legend in a realm torn between salvation and destruction. The world lies on the edge of oblivion—will your wings bring healing light, or will you give in to the shadows pursuing you?
+
+The Age of Fate begins now. Ready your spirit. The journey awaits.
+
+To run this pack smoothly I'll recommend to allocate about **12GB** to **16GB** amount of **RAM**.
+
+**OptiFine** mod is incompatible in this modpack.
+I would recommend to use those **JVM** arguments:
+
+```-Xms8G -Xmx16G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=40 -XX:G1MaxNewSizePercent=50 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=15 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=20 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dfile.encoding=UTF-8 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true```
 
 ## Features:
 
-- New unique adventure to reach the End and beat the Ender Dragon with End Remastered mod
-- Quests! About 4'495+ Quests, 15 Chapter Groups, 66 Chapters
-- About 520+ mods
+- New unique adventure to reach the End and beat the Ender Dragon with End Remastered mod
+- Quests! About 4'405+ Quests, 16 Chapter Groups, 72 Chapters
+- About 660+ mods
 - Custom Ambient Music
 - Unique Player Shop for trading of your goodies and a Shop to buy all kind of stuff
-- 7 Dimensions: The Twilight Forest, The Lost Cities, The Undergarden, The Abyss II, Blue Skies and more
-- Ambient surroundings: Oh The Biomes You'll Go, Quark, AmbientSounds, Sound Physics, Terralith and more
+- 8 Dimensions: The Twilight Forest, The Undergarden, The Aether, Blue Skies and more
+- Ambient surroundings: Oh The Biomes We've Gone, Regions Unexplored, Quark, AmbientSounds, Terralith and more
 - A lot stuff to explore like a Dungeons, Dimensions, Unknown Seas and more
 - Unique Bosses, Skills, Looting system with Lootr
-- Bunch of magic mods: Botania, Iron's Spells 'n Spellbooks, EvilCraft, Ars Nouveau, Hexerei, Psi and more
+- Bunch of magic mods: Botania, Iron's Spells 'n Spellbooks, EvilCraft, Ars Nouveau, Hexerei, Psi and more
 - Many kind of weapons and tools
-- Technics mods like Mekanism, Thermal Series, Refined Storage, Immersive Engineering, Extreme Reactors and more
+- Technics mods like Mekanism, Thermal Series, Refined Storage, Immersive Engineering, Extreme Reactors and more
 
 ![server](https://user-images.githubusercontent.com/78975662/198345255-6f52f58b-62f2-475d-a9da-10463008fa43.png)
 
-Do you like to play **AoF** modpack with your friends and you need a hosting server for that? Well, not a problem at all just create a server at BisectHosting! Use my Promo code: **KNIGHTDEXX** and get **25%** off your first month for any of their gaming servers on **https://bisecthosting.com/KNIGHTDEXX** link. I recommend getting a plan with at **LEAST 8GB** of **RAM** for **AoF** modpack.
+Do you like to play **AoF** modpack with your friends and you need a hosting server for that? Well, not a problem at all just create a server at BisectHosting! Use my Promo code: **KNIGHTDEXX** and get **25%** off your first month for any of their gaming servers on **https://bisecthosting.com/KNIGHTDEXX** link. I recommend getting a plan with at **LEAST 12GB** of **RAM** for **AoF** modpack.
 
 ## Modlist:
 <ul>
