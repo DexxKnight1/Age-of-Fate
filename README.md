@@ -28,8 +28,8 @@ I would recommend to use those **JVM** arguments:
 ## Features:
 
 - New unique adventure to reach the End and beat the Ender Dragon with End Remastered mod
-- Quests! About 4'405+ Quests, 16 Chapter Groups, 72 Chapters
-- About 660+ mods
+- Quests! About 4'830+ Quests, 16 Chapter Groups, 72 Chapters
+- About 665+ mods
 - Custom Ambient Music
 - Unique Player Shop for trading of your goodies and a Shop to buy all kind of stuff
 - 8 Dimensions: The Twilight Forest, The Undergarden, The Aether, Blue Skies and more
