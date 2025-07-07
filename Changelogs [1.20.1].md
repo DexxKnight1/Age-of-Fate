@@ -1,3 +1,48 @@
+# [AOF-v4.1.7] - 2025.07.07
+### Fixed
+- Fixed [ticket] Rods and plates recycling recipes #0184
+- Fixed several missing gear and plate recipes
+### Added
+- Added Fix Attack Lag
+- Added Advanced Loot Info
+- Added Dead Bush recipe
+- Added Mushroom Blocks recipe
+- Added Empty Minecarts recipe
+- Added Pointed Dripstone
+- Added Rose Bush recipe
+### Changed
+- Updated Forge to v47.4.3
+- Updated AIOT Botania
+- Updated Amplified Nether
+- Updated Bagus Lib
+- Updated Cataclysmic Combat
+- Updated Corail Tombstone
+- Updated Crash Assistant
+- Updated Dave's Potioneering
+- Updated Domum Ornamentum
+- Updated Enigmatic Delicacy
+- Updated Entity Culling
+- Updated Extended Crafting
+- Updated FancyMenu
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Jaden's Nether Expansion
+- Updated L_Ender 's Cataclysm
+- Updated Macaw's Windows
+- Updated Midnight Madness
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated ModernFix
+- Updated PackagedAuto
+- Updated PackagedExCrafting
+- Updated Realm RPG: Imps & Demons
+- Updated RPG-Hud
+- Updated Sophisticated Storage
+- Updated Structure Essentials
+- Updated Structurize
+- Updated Supplementaries
+- Updated THE UNDEAD REVAMPED
+- Updated Werewolves - Become a Beast!
+### Removed
+- Removed Pick Up Notifier
 # [AOF-v4.1.6] - 2025.06.29
 ### Fixed
 - Fixed [Bug]: Crop Crate recipe broken after update #94
