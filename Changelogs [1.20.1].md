@@ -1,3 +1,39 @@
+# [AOF-v4.1.8] - 2025.07.12
+### Fixed
+- Fixed several missing dust recipes
+### Added
+- Added Mo' Bees
+- Added Forestry: Worktable Display
+- Added Thermal Unlimited
+- Added Save My Shaky Network
+- Added Metal Bundles
+- Added Ender Zoology
+- Added Cataclysm: Spellbooks
+- Added AzureLib
+- Added NEW Quests to Iron's Spells 'n Spellbooks questline
+- Added NEW Quests to Let’s begin the adventure questline
+### Changed
+- Increased the number of milestones for Spice of Life from 300 to 1199, thanks to Kuktar
+- Changed the recipes for Compasses as suggested in [Suggestion]: "Explorer's Compass" #92
+- Changed Clock recipe
+- Changed Bucket recipe
+- Updated AdvancedAE
+- Updated Applied Flux
+- Updated Corail Tombstone
+- Updated ImmediatelyFast
+- Updated Immersive Aircraft
+- Updated Lithostitched
+- Updated MineColonies
+- Updated Moonlight Lib
+- Updated Not Enough Animations
+- Updated PackagedExCrafting
+- Updated Snow Under Trees
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated THE UNDEAD REVAMPED
+- Updated Tickrate API
 # [AOF-v4.1.7] - 2025.07.07
 ### Fixed
 - Fixed [ticket] Rods and plates recycling recipes #0184
