@@ -1,3 +1,45 @@
+# [AOF-v4.1.9] - 2025.07.22
+### Changed
+- Updated Forge to v47.4.4
+- Updated Advanced Loot Info
+- Updated Applied Energistics 2
+- Updated Balm
+- Updated Cataclysm: Spellbooks
+- Updated Corail Tombstone
+- Updated Crafting Tweaks
+- Updated Crash Assistant
+- Updated Delightful
+- Updated Draconic Evolution
+- Updated Ender IO
+- Updated Entity Culling
+- Updated Extreme Reactors
+- Updated FancyMenu
+- Updated Formations (Structure Library)
+- Updated Formations Overworld
+- Updated Fusion (Connected Textures)
+- Updated Fzzy Config
+- Updated GeckoLib
+- Updated Guard Villagers
+- Updated Ice and Fire: Curios and Trinkets
+- Updated Integrated Simply Swords
+- Updated Inventory Essentials
+- Updated KleeSlabs
+- Updated L_Ender 's Cataclysm
+- Updated Mantle
+- Updated MineColonies
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated ModernFix
+- Updated PackagedAuto
+- Updated PackagedExCrafting
+- Updated Reliquary Reincarnations
+- Updated Repurposed Structures
+- Updated Save My Shaky Network
+- Updated Sophisticated Backpacks
+- Updated THE UNDEAD REVAMPED
+- Updated T.O Magic 'n Extras - Iron's Spells Addon
+- Updated Tickrate API
+- Updated Tinkers Construct
+- Updated Waystones
 # [AOF-v4.1.8] - 2025.07.12
 ### Fixed
 - Fixed several missing dust recipes
