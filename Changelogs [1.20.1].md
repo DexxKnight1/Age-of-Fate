@@ -1,3 +1,31 @@
+# [AOF-v4.2.0] - 2025.07.29
+### Changed
+- Updated Advanced Loot Info
+- Updated AzureLib
+- Updated Corail Tombstone
+- Updated Crash Assistant
+- Updated Forestry: Community Edition
+- Updated Fusion (Connected Textures)
+- Updated FTB Library
+- Updated Integrated Dungeons and Structures
+- Updated Item Collectors
+- Updated Inventory Profiles Next
+- Updated L_Ender 's Cataclysm
+- Updated Mantle
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated MineColonies
+- Updated Mo' Bees
+- Updated Moonlight Lib
+- Updated Oh The Biomes We've Gone
+- Updated Reliquary Reincarnations
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated T.O Magic 'n Extras - Iron's Spells Addon
+- Updated The Deep Void
+- Updated THE UNDEAD REVAMPED
+- Updated Tinkers' Thinking
+- Updated Visual Workbench
 # [AOF-v4.1.9] - 2025.07.22
 ### Changed
 - Updated Forge to v47.4.4
