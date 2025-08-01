@@ -1,3 +1,24 @@
+# [AOF-v4.2.1] - 2025.08.01
+### Changed
+- Downgraded Forge to v47.4.1
+- Updated AzureLib
+- Updated Corail Tombstone
+- Updated Durability Tooltip
+- Updated EvilCraft
+- Updated FTB Quests
+- Updated Fusion (Connected Textures)
+- Updated Glassential Renewed
+- Updated Inventory Profiles Next
+- Updated L_Ender 's Cataclysm
+- Updated MmmMmmMmmMmm (Target Dummy)
+- Updated PackagedAuto
+- Updated PackagedExCrafting
+- Updated Powah! (Rearchitected)
+- Updated Sawmill
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated The Deep Void
+- Updated Tickrate API
 # [AOF-v4.2.0] - 2025.07.29
 ### Changed
 - Updated Advanced Loot Info
