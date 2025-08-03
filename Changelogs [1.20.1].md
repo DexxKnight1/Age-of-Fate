@@ -1,3 +1,30 @@
+# [AOF-v4.2.2] - 2025.08.03
+### Fixed
+- Potential Fixed Memory Leak Issue
+- Potential fix for The Final Boss not spawning
+- Fixed some Quest issues
+- Fixed some recipe issues
+### Added
+- Added End Memory Leak API [experimentally]
+- Added GWOLF's API [experimentally]
+### Changed
+- Updated Forge to v47.4.5
+- Updated Applied Energistics 2
+- Updated Balm
+- Updated Born in Chaos
+- Updated Botania
+- Updated Deep Aether
+- Updated Fzzy Config
+- Updated Inventory Pets
+- Updated Iron's Spells 'n Spellbooks
+- Updated MineColonies
+- Updated ModernFix
+- Updated Moonlight Lib
+- Updated Sanguine Neural Networks [Hostile Neural Networks Addon]
+- Updated Structurize
+- Updated TConJEI
+- Updated T.O Magic 'n Extras - Iron's Spells Addon
+- Updated THE UNDEAD REVAMPED
 # [AOF-v4.2.1] - 2025.08.01
 ### Changed
 - Downgraded Forge to v47.4.1
