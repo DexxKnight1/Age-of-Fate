@@ -1,3 +1,30 @@
+# [AOF-v4.2.3] - 2025.08.08
+### Added
+- Added Bosses'Rise [experimentally]
+### Changed
+- Downgraded Forge to v47.4.3 [seems to be the best option for now]
+- Downgraded Formations Overworld [it seems the gameplay is less laggy]
+- Updated Amendments
+- Updated Applied Energistics 2
+- Updated AzureLib
+- Updated Building Gadgets
+- Updated Corail Tombstone
+- Updated Enigmatic Addons
+- Updated EvilCraft
+- Updated Jade 🔍
+- Updated L_Ender 's Cataclysm
+- Updated MineColonies
+- Updated MmmMmmMmmMmm (Target Dummy)
+- Updated Moonlight Lib
+- Updated Mystical Agriculture
+- Updated Sophisticated Core
+- Updated The Deep Void
+- Updated THE UNDEAD REVAMPED
+- Updated Vampirism Integrations
+- Updated Waystones
+### Removed
+- Removed End Memory Leak API
+- Removed GWOLF's API
 # [AOF-v4.2.2] - 2025.08.03
 ### Fixed
 - Potential Fixed Memory Leak Issue
