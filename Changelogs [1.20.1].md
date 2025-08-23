@@ -1,3 +1,72 @@
+# [AOF-v4.2.4] - 2025.08.23
+### Added
+- Added Mo Glass
+- Added Origins Expanded Foods [datapack]
+- Added 4 NEW Bosses to the Boss Arena Questline
+- Added Hardened Myrmex Resin recipe
+### Changed
+- Updated Forge to v47.4.6
+- Updated MakeUp - Ultra Fast | Shaders
+- Updated Actually Divisions
+- Updated AdvancedAE
+- Updated Advanced Loot Info
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Almost Unified
+- Updated Amendments
+- Updated Bad Horse Fix
+- Updated Bosses'Rise
+- Updated Botania
+- Updated Common Capabilities
+- Updated Cucumber Library
+- Updated Corail Tombstone
+- Updated Create Crafts & Additions
+- Updated Domum Ornamentum
+- Updated Eidolon : Repraised
+- Updated Ender IO
+- Updated Enigmatic Addons
+- Updated EvilCraft
+- Updated ExtendedAE
+- Updated Extended Crafting
+- Updated Extra Hostile Neural Networks
+- Updated Farmer's Delight
+- Updated Formations Overworld
+- Updated FTB Ultimine
+- Updated Fusion (Connected Textures)
+- Updated Inventory Profiles Next
+- Updated Iron Jetpacks
+- Updated Kiwi 🥝
+- Updated KleeSlabs
+- Updated L_Ender 's Cataclysm
+- Updated Lootr
+- Updated Mekanism: Weapons
+- Updated MES - Moog's End Structures
+- Updated MineColonies
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated Moonlight Lib
+- Updated Mystical Agradditions
+- Updated Mystical Agriculture
+- Updated Mystical Customization
+- Updated Oh The Biomes We've Gone
+- Updated PackagedAuto
+- Updated Platforms
+- Updated Reliquary Reincarnations
+- Updated Sanguine Neural Networks [Hostile Neural Networks Addon]
+- Updated Save My Shaky Network
+- Updated ShetiPhianCore
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Structurize
+- Updated Supplementaries
+- Updated Tesseract
+- Updated Tinker and Better Combat
+- Updated Tinkers Integrations and Tweaks
+- Updated Tinkers' Thinking
+- Updated T.O Magic 'n Extras - Iron's Spells Addon
+### Removed
+- Removed Infinity Upgrade recipe
+- Removed GWOLF's API [this time, for sure]
+- Removed Better Days
 # [AOF-v4.2.3] - 2025.08.08
 ### Added
 - Added Bosses'Rise [experimentally]
