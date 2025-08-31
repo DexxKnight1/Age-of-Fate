@@ -1,3 +1,51 @@
+# [AOF-v4.2.5] - 2025.08.31
+### Fixed
+- Fixed Nether Star & Ender Pearl compressed block recipes
+### Added
+- Added KubeJS Ars Nouveau
+- Added KubeJS Create
+- Added Ars Controle
+- Added Ars Botania
+- Added Ars Fauna
+- Added Create: Alex's Caves Compat
+- Added Create: Escalated
+- Added Sophisticated Backpack Allthemodium Tier
+- Added Sophisticated Storage Allthemodium tier
+- Added Tinker's Planner Reborn
+- Added Botania Seeds
+- Added Digital Botania
+### Changed
+- Updated MakeUp - Ultra Fast | Shaders
+- Updated AdvancedAE
+- Updated Advanced Loot Info
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Bagus Lib
+- Updated Baubley Heart Canisters
+- Updated Ender IO
+- Updated FancyMenu
+- Updated Fast Async World Save
+- Updated Fusion (Connected Textures)
+- Updated GeckoLib
+- Updated GuideME
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Hunter'sReturn
+- Updated Ice And Fire Patcher
+- Updated MineColonies
+- Updated Moonlight Lib
+- Updated More Overlays Updated
+- Updated Not Enough Animations
+- Updated Oh The Biomes We've Gone
+- Updated PackagedAuto
+- Updated Pipez
+- Updated Puzzles Lib
+- Updated Reliquary Reincarnations
+- Updated Save My Shaky Network
+- Updated Sodium/Embeddium Options Mod Compat
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated THE UNDEAD REVAMPED
+- Updated T.O Magic 'n Extras - Iron's Spells Addon
+- Updated Wireless Chargers
 # [AOF-v4.2.4] - 2025.08.23
 ### Added
 - Added Mo Glass
