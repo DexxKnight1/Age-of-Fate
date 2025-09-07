@@ -1,3 +1,34 @@
+# [AOF-v4.2.6] - 2025.09.07
+### Fixed
+- Fixed Aversion Obelisk recipe
+### Added
+- Added Extended Terminal
+- Added PackagedMekemicals
+- Added PackagedDraconic
+- Added Applied Sorting
+- Added Tinkers' Unexplored
+### Changed
+- Updated Forge to v47.4.8
+- Updated AdvancedAE
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Brutal Bosses - Custom Bosses
+- Updated Cable Facades
+- Updated Corail Tombstone
+- Updated Enigmatic Addons
+- Updated Fast Item Frames
+- Updated Inventory Profiles Next
+- Updated Iron's Spells 'n Spellbooks
+- Updated Lootr
+- Updated Mekanism: Weapons
+- Updated MineColonies
+- Updated Relics
+- Updated Save My Shaky Network
+- Updated Sawmill
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated The Deep Void
+- Updated Tinker's Planner Reborn
 # [AOF-v4.2.5] - 2025.08.31
 ### Fixed
 - Fixed Nether Star & Ender Pearl compressed block recipes
