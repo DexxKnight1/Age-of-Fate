@@ -1,3 +1,43 @@
+# [AOF-v4.2.7] - 2025.09.14
+###Fixed
+- Fixed recipes for Deorum tools and weapons
+- Fixed Nature's Aura questline
+###Added
+- Added Bee Fix
+- Added chunky chunks!
+- Added Industrial Foregoing Souls
+- Added Just Enough Mekanism Multiblocks
+- Added Gravitational Modulating Additional Unit
+- Added Ars Elemental
+- Added Ars Technica
+- Added Laser Bridges & Doors
+- Added Chargers
+- Added Ice And Fire: Addon
+### Changed
+- Updated Advanced Loot Info
+- Updated Balm
+- Updated Cooking for Blockheads
+- Updated Create: Alex's Caves Compat
+- Updated Delightful
+- Updated Eidolon : Repraised
+- Updated Euphoria Patches
+- Updated Extended Terminal
+- Updated ExtendedAE
+- Updated Farming for Blockheads
+- Updated Immersive Aircraft
+- Updated Inventory Essentials
+- Updated Just Enough Breeding (JEBr)
+- Updated MineColonies
+- Updated Moonlight Lib
+- Updated Relics
+- Updated Relics: Artifacts Compat
+- Updated Reliquary Reincarnations
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated T.O Magic 'n Extras - Iron's Spells Addon
+- Updated Thermal Extra
 # [AOF-v4.2.6] - 2025.09.07
 ### Fixed
 - Fixed Aversion Obelisk recipe
