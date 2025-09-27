@@ -1,8 +1,53 @@
+# [AOF-v4.2.8] - 2025.09.27
+### Added
+- Added EXP Counter
+### Changed
+- Updated Forge to v47.4.9
+- Updated AdvancedAE
+- Updated Advanced Loot Info
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Applied Botanics Addon
+- Updated Applied Energistics 2 Wireless Terminals
+- Updated AzureLib
+- Updated Born In Configuration
+- Updated Bosses'Rise
+- Updated Brutal Bosses - Custom Bosses
+- Updated Chat Heads
+- Updated Connectivity
+- Updated Dreadsteel
+- Updated Ender IO
+- Updated ExtendedAE
+- Updated Extreme Reactors
+- Updated Farsight
+- Updated GeckoLib
+- Updated GuideME
+- Updated ImmediatelyFast
+- Updated Just Enough Breeding (JEBr)
+- Updated Just Enough Items (JEI)
+- Updated Macaw's Paths and Pavings
+- Updated Macaw's Windows
+- Updated MineColonies
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated Moonlight Lib
+- Updated Relics: Artifacts Compat
+- Updated Reliquary Reincarnations
+- Updated Save My Shaky Network
+- Updated Simply Swords: Overhaul
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated Structurize
+- Updated The Deep Void
+- Updated THE UNDEAD REVAMPED
+- Updated Tinkers Integrations and Tweaks
+### Removed
+- Removed Iris / Oculus & GeckoLib Compat
 # [AOF-v4.2.7] - 2025.09.14
-###Fixed
+### Fixed
 - Fixed recipes for Deorum tools and weapons
 - Fixed Nature's Aura questline
-###Added
+### Added
 - Added Bee Fix
 - Added chunky chunks!
 - Added Industrial Foregoing Souls
