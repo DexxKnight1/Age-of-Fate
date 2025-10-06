@@ -1,3 +1,48 @@
+# [AOF-v4.2.9] - 2025.10.06
+### Changed
+- Updated MakeUp - Ultra Fast | Shaders
+- Updated Actually Subtractions
+- Updated Advanced Loot Info
+- Updated AdvancedAE
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Amendments
+- Updated Applied Flux
+- Updated Aquamirae (Forge)
+- Updated AzureLib
+- Updated Balm
+- Updated BlockUI
+- Updated Cataclysm: Spellbooks
+- Updated Chat Heads
+- Updated Collective
+- Updated Crash Assistant
+- Updated Dungeons Enhanced
+- Updated ExtendedAE
+- Updated Extra Hostile Neural Networks
+- Updated Farming for Blockheads
+- Updated Gnetum
+- Updated GottschCore
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Ice and Fire: Curios and Trinkets
+- Updated Industrial Foregoing
+- Updated Integrated Dungeons and Structures
+- Updated Just Enough Breeding (JEBr)
+- Updated Just Enough Mekanism Multiblocks
+- Updated MineColonies
+- Updated Modonomicon
+- Updated Moonlight Lib
+- Updated Oh The Biomes We've Gone
+- Updated Raided
+- Updated Relics: Artifacts Compat
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Structurize
+- Updated Structurize
+- Updated Supplementaries
+- Updated T.O Magic 'n Extras - Iron's Spells Addon
+- Updated TACT - Tiny Alex's Caves Tweaks
+- Updated Tinkers Integrations and Tweaks
+- Updated Treasure2
 # [AOF-v4.2.8] - 2025.09.27
 ### Added
 - Added EXP Counter
