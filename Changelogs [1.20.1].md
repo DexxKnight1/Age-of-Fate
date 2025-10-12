@@ -1,3 +1,36 @@
+# [AOF-v4.3.0] - 2025.10.12
+### Fixed
+- Fixed "net.minecraft.nbt.compounttag.m128459(string)" error message; NEW WORLD REQUIRED
+- Increased separation distance for dragon roosts, cyclops caves, etc., based on [Suggestion]: Dragon Nest spawn rate #105
+### Changed
+- Updated Forge to v47.4.10
+- Updated Complementary Shaders – Reimagined
+- Updated Complementary Shaders – Unbound
+- Updated Actually Subtractions
+- Updated Amplified Nether
+- Updated Applied Energistics 2
+- Updated AzureLib
+- Updated Balm
+- Updated Born In Configuration
+- Updated Botany Trees
+- Updated Call from the depths - Sculk Dimension
+- Updated Common Capabilities
+- Updated Crash Assistant
+- Updated Cyclops Core
+- Updated Enigmatic Addons
+- Updated Entity Culling Fabric/Forge
+- Updated Euphoria Patches
+- Updated Fzzy Config
+- Updated L's Spooky Trees
+- Updated MineColonies
+- Updated Modonomicon
+- Updated Not Enough Animations
+- Updated Oh The Trees You'll Grow
+- Updated Sophisticated Core
+- Updated Zume
+### Removed
+- Removed Ice And Fire: Addon
+- Removed Cataclysm: Spellbooks
 # [AOF-v4.2.9] - 2025.10.06
 ### Changed
 - Updated MakeUp - Ultra Fast | Shaders
