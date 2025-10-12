@@ -2,6 +2,8 @@
 ### Fixed
 - Fixed "net.minecraft.nbt.compounttag.m128459(string)" error message; NEW WORLD REQUIRED
 - Increased separation distance for dragon roosts, cyclops caves, etc., based on [Suggestion]: Dragon Nest spawn rate #105
+### Added
+- Added Pale Garde Backport: The Garde Awakens
 ### Changed
 - Updated Forge to v47.4.10
 - Updated Complementary Shaders – Reimagined
@@ -31,6 +33,7 @@
 ### Removed
 - Removed Ice And Fire: Addon
 - Removed Cataclysm: Spellbooks
+- Removed Pale Garden and Creaking
 # [AOF-v4.2.9] - 2025.10.06
 ### Changed
 - Updated MakeUp - Ultra Fast | Shaders
