@@ -1,3 +1,25 @@
+# [AOF-v4.3.1] - 2025.10.14
+### Fixed
+- Fixed Memory leak issue
+- Fixed [Bug]: Performance Issue: Significant Block Breaking Delay in Survival Mode Caused by Rats Mod #104
+- Fixed [Bug]: Energizing rod (Spirited) crafting recipe #106
+### Added
+- Added Labelling Containers
+- Added Colorwheel
+### Changed
+- Downgraded Aquamirae to v6.0.0
+- Updated Call from the depths - Sculk Dimension
+- Updated FastConfigAPI
+- Updated MNS - Moog's Nether Structures
+- Updated Multi-Piston
+- Updated Not Enough Animations
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Storage
+- Updated Tickrate API
+- Updated Void Lib
+### Removed
+- Removed Rats
+- Removed Call of Yucatán
 # [AOF-v4.3.0] - 2025.10.12
 ### Fixed
 - Fixed "net.minecraft.nbt.compounttag.m128459(string)" error message; NEW WORLD REQUIRED
