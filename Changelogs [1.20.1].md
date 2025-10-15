@@ -1,3 +1,19 @@
+# [AOF-v4.3.2] - 2025.10.15
+### Fixed
+- Fixed missed tag for sugar
+- Fixed [Bug]: Using Quest Journal and Necronomicon in the Eccentric Tome causes duplication of those books. #ticket-0274
+- Fixed missed items in the Iron's Spells 'n Spellbooks questline
+- Fixed Quests reward table
+### Changed
+- Updated AdvancedAE
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Crash Assistant
+- Updated Extra Hostile Neural Networks
+- Updated MineColonies
+- Updated Relics: Artifacts Compat
+- Updated ShadowizardLib
+- Updated Sophisticated Storage
+- Updated The Deep Void
 # [AOF-v4.3.1] - 2025.10.14
 ### Fixed
 - Fixed Memory leak issue
