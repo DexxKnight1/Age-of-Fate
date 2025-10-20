@@ -1,3 +1,30 @@
+# [AOF-v4.3.3] - 2025.10.20
+### Added
+- Added Better Biome Reblend
+- Added TickAccelerate
+- Added Anvil Restoration
+### Changed
+- Updated AzureLib
+- Updated Collective
+- Updated Common Capabilities
+- Updated Crash Assistant
+- Updated Doggy Talents Next
+- Updated Entity Culling
+- Updated Euphoria Patches
+- Updated GuideME
+- Updated Just Enough Immersive Multiblocks
+- Updated Moonlight Lib
+- Updated MVS - Moog's Voyager Structures
+- Updated Not Enough Animations
+- Updated Reliquary Reincarnations
+- Updated Savage & Ravage
+- Updated ShadowizardLib
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated Thermal Extra
+### Removed
+- Removed Zume
 # [AOF-v4.3.2] - 2025.10.15
 ### Fixed
 - Fixed missed tag for sugar
