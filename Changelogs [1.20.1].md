@@ -1,3 +1,28 @@
+# [AOF-v4.3.4] - 2025.10.25
+### Fixed
+- Fixed Medieval Origins Revival sizing issue, #ticket-0312
+- Fixed Farmer's Delight and Quark crates/bags recipe issues, #ticket-0307
+### Added
+- Added Great Scrollable Tooltips
+### Changed
+- Downgraded AzureLib to v 3.0.27
+- Updated Allthemodium
+- Updated Applied Energistics 2
+- Updated Collective
+- Updated Crash Assistant
+- Updated Cyclops Core
+- Updated Dreadsteel
+- Updated ExtendedAE
+- Updated Just Enough Immersive Multiblocks
+- Updated MineColonies
+- Updated Not Enough Animations
+- Updated Security Craft
+- Updated Structure Layout Optimizer
+- Updated Thermal Extra
+- Updated Tinkers Integrations and Tweaks
+- Updated T.O Magic 'n Extras - Iron's Spells Addon
+### Removed
+- Removed Cable Facades
 # [AOF-v4.3.3] - 2025.10.20
 ### Added
 - Added Better Biome Reblend
