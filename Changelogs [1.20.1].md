@@ -1,3 +1,26 @@
+# [AOF-v4.3.5] - 2025.10.28
+### Fixed
+- Fixed Crates/Bags tags by the Basic Agriculture questline
+### Added
+- Added Skeleton AI Fix
+- Added Achievements Optimizer
+- Added AE2AddonLib
+### Changed
+- Updated Actually Divisions
+- Updated AdvancedAE
+- Updated Applied Energistics 2 Wireless Terminals
+- Updated Born in Chaos
+- Updated Crash Assistant
+- Updated Colorwheel
+- Updated Create
+- Updated Laser Bridges & Doors
+- Updated Midnight Madness
+- Updated MineColonies
+- Updated MNS - Moog's Nether Structures
+- Updated T.O Magic 'n Extras - Iron's Spells Addon
+### Removed
+- Removed Ars Botania
+- Removed Ars Fauna
 # [AOF-v4.3.4] - 2025.10.25
 ### Fixed
 - Fixed Medieval Origins Revival sizing issue, #ticket-0312
