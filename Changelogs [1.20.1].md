@@ -1,3 +1,24 @@
+# [AOF-v4.3.6] - 2025.11.02
+### Changed
+- Updated Aquamirae
+- Updated Crash Assistant
+- Updated Entity Culling
+- Updated Gnetum
+- Updated Inventory Essentials
+- Updated Just Enough Items (JEI)
+- Updated Just Enough Mekanism Multiblocks
+- Updated MineColonies
+- Updated Obscure API
+- Updated Oh The Biomes We've Gone
+- Updated Save My Shaky Network
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Thermal Extra
+- Updated Tinkers Integrations and Tweaks
+- Updated Treasure2
+### Removed
+- Removed Ice And Fire Patcher
 # [AOF-v4.3.5] - 2025.10.28
 ### Fixed
 - Fixed Crates/Bags tags by the Basic Agriculture questline
