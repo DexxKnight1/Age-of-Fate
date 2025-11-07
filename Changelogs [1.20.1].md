@@ -1,3 +1,38 @@
+# [AOF-v4.3.7] - 2025.11.07
+### Added
+- Added Origins (Fabric)
+- Added Sinytra Connector
+- Added Connector Extras
+- Added Krypton FNP
+### Changed
+- Disabled Krampus and Krampus Henchman from spawning to prevent deleting players' items
+- Updated Advanced Loot Info
+- Updated AE2: Crafting Tree
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Battle Towers – Thexian
+- Updated Create
+- Updated Cucumber Library
+- Updated Domum Ornamentum
+- Updated Enchant With Mob
+- Updated Ender IO
+- Updated Euphoria Patches
+- Updated Generator Galore
+- Updated Just Enough Breeding (JEBr)
+- Updated Just Enough Items (JEI)
+- Updated Medieval Origins Revival
+- Updated MineColonies
+- Updated Moderately Enough Effect Descriptions (MEED)
+- Updated ModernFix
+- Updated Moonlight Lib
+- Updated Mystical Agradditions
+- Updated OptiLeaves
+- Updated T.O Magic 'n Extras - Iron's Spells Addon
+- Updated THE UNDEAD REVAMPED
+### Removed
+- Removed Mermod
+- Removed Origins (Forge)
+- Removed Origins RPG
+- Removed Alternate Origin GUI
 # [AOF-v4.3.6] - 2025.11.02
 ### Changed
 - Updated Aquamirae
