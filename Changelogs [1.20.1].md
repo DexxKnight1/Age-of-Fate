@@ -1,3 +1,28 @@
+# [AOF-v4.3.8] - 2025.11.10
+### Fixed
+- Fixed [Bug]: JEI does not display ATM Furnaces
+- Added a warning note to address the possibility that items with durability could be voided when using the Lost Engine spellstone
+- Fixed a few recipe bugs
+### Added
+- Added Allthemodium Quests
+- Added Iron Furnaces Enhanced
+- Added FTB Chunks Compatibility
+- Added Just Enough Archaeology
+### Changed
+- Updated Crash Assistant
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Macaw's Furniture
+- Updated MineColonies
+- Updated ModernFix
+### Removed
+- Removed AzureLib
+- Removed Item Production Lib
+- Removed Nolijium
+- Removed Tickrate API
+- Removed Necronomicon API
+- Removed AeroBlender
+- Removed AE2AddonLib
+- Removed Iron Furnaces
 # [AOF-v4.3.7] - 2025.11.07
 ### Added
 - Added Origins (Fabric)
