@@ -1,3 +1,41 @@
+# [AOF-v4.3.9] - 2025.11.16
+### Fixed
+- Fixed minor recipe issues
+### Added
+- Added A Quarky Registry Fix
+- Added Nyfs Spiders Au Naturel Edit
+- Added quick pack
+- Added Netherite Tweaks & Fixes
+- Added Void Miner: Fully Automated
+- Added Mango's MultiBlock Library
+- Added Void Miner Quests
+### Changed
+- Updated Actually Subtractions
+- Updated Advanced Loot Info
+- Updated AE Additions - ExtraCells2 Fork
+- Updated BisectHosting Server Integration Menu
+- Updated Chat Heads
+- Updated Common Capabilities
+- Updated Crash Assistant
+- Updated Create Crafts & Additions
+- Updated Cyclops Core
+- Updated Deimos Lib
+- Updated Euphoria Patches
+- Updated EvilCraft
+- Updated FTB Quests
+- Updated Gnetum
+- Updated Inventory Essentials
+- Updated Just Enough Items (JEI)
+- Updated MineColonies
+- Updated MNS - Moog's Nether Structures
+- Updated Oh The Biomes We've Gone
+- Updated PackagedAuto
+- Updated Structurize
+- Updated Treasure2
+### Removed
+- Removed Infinity Nexus Miner [Replaced by Void Miner: Fully Automated]
+- Removed Infinity Nexus Core
+- Removed Nyf's Spiders [Replaced by Nyfs Spiders Au Naturel Edit]
 # [AOF-v4.3.8] - 2025.11.10
 ### Fixed
 - Fixed [Bug]: JEI does not display ATM Furnaces
