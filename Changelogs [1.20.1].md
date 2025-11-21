@@ -1,3 +1,6 @@
+# [AOF-v4.4.1] - 2025.11.21
+### Fixed
+- HOT FIX: the IGSEconomy folder was missed
 # [AOF-v4.4.0] - 2025.11.21
 ### Fixed
 - Fixed [Bug]: Can't shoot with a Draconic Bow (Draconic Evolution) #118
