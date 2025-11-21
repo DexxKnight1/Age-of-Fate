@@ -1,3 +1,29 @@
+# [AOF-v4.4.0] - 2025.11.21
+### Fixed
+- Fixed [Bug]: Can't shoot with a Draconic Bow (Draconic Evolution) #118
+- Fixed the amount of ATM molten fluids from 1000 mb to the correct 810 mb
+### Added
+- Added missing ores into Mining Dimension
+- Added Sophisticated Storage Create Integration
+### Changed
+- Improved Currency System, thanks to TheStraying11, Nahaj, and the InfiniteGamingServers team
+- Disabled shaders by default when launching the game
+- Disabled Extended Terminal mod [not entirely removed] until the mod devs fix the issue
+- Updated Advanced Loot Info
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Amendments
+- Updated Applied Mekanistics
+- Updated Born In Configuration
+- Updated Crash Assistant
+- Updated Eidolon : Repraised
+- Updated Euphoria Patches
+- Updated Forestry: Community Edition
+- Updated FTB Quests
+- Updated Icarus
+- Updated Just Enough Items (JEI)
+- Updated Moog's Structure Lib (moogs_structures)
+- Updated Save My Shaky Network
+- Updated Sinytra Connector
 # [AOF-v4.3.9] - 2025.11.16
 ### Fixed
 - Fixed minor recipe issues
