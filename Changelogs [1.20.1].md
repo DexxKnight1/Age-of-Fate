@@ -1,3 +1,23 @@
+# [AOF-v4.4.2] - 2025.11.24
+### Fixed
+- Fixed [Bug]: can't use /withdraw #119
+### Changed
+- Updated Forge to v47.4.12
+- Updated Applied Energistics 2 Wireless Terminals
+- Updated Blood Magic
+- Updated Crash Assistant
+- Updated Create: Escalated
+- Updated Data Anchor
+- Updated Drippy Loading Screen
+- Updated Extended Terminal
+- Updated ExtendedAE
+- Updated FancyMenu
+- Updated Just Enough Items (JEI)
+- Updated Macaw's Furniture
+- Updated Macaw's Trapdoors
+- Updated MineColonies
+### Removed
+- Removed Tooltip Integration
 # [AOF-v4.4.1] - 2025.11.21
 ### Fixed
 - HOT FIX: the IGSEconomy folder was missed
