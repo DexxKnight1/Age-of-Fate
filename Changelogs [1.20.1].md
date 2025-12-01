@@ -1,3 +1,27 @@
+# [AOF-v4.4.3] - 2025.12.01
+### Fixed
+- Polished and cleaned all KubeJS scripts
+- Resolved Eternal modifier exploit by adding a blacklist through datapack. Thanks to @Cyn-SolveroftheAbsolute Gremlins
+- Fixed Allthemodium structure spawners spawning below Apotheosis minimum depth via datapack. Thanks to @Cyn-SolveroftheAbsolute Gremlins
+- Implemented automated quest reward system with custom tradeable items, shop integration, and optional paper conversion. Thanks to @Cyn-SolveroftheAbsolute Gremlins
+### Added
+- Added LightSpeedRe - Launch optimizations
+### Changed
+- Updated A Quarky Registry Fix
+- Updated Advanced Loot Info
+- Updated Eidolon : Repraised
+- Updated FTB Quests
+- Updated Gnetum
+- Updated Guard Villagers
+- Updated Hostile Mobs and Girls (HMaG)
+- Updated Icarus
+- Updated Just Enough Items (JEI)
+- Updated Lootr
+- Updated MineColonies
+- Updated Sophisticated Storage
+- Updated Structurize
+### Removed
+- Removed Create: Alex's Caves Compat [currently incompatible with the Create version]
 # [AOF-v4.4.2] - 2025.11.24
 ### Fixed
 - Fixed [Bug]: can't use /withdraw #119
