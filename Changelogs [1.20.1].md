@@ -1,3 +1,40 @@
+# [AOF-v4.4.4] - 2025.12.06
+### Fixed
+- Fixed [Bug]: Server cannot start #121
+- Fixed [Bug]: Immersive Airship hull recipe does not work #122
+- Fixed Immersive Engineering coil recipes
+- Fixed and removed some duplicate recipes
+- Fixed Reward tables the Quest book
+- Fixed Datapack mess
+- Resolved the excavating issue by disabling that enchantment [Use FTB Ultimine instead]
+### Added
+- Added Industrial Heavy Metal Thunder
+- Added Twilight Forest Final Boss (remake)
+- Added Twilight Forest Cave Fix
+- Added RPG Origins
+- Added Packet Fixer
+- Added MMV - Moog's Missing Villages
+### Changed
+- Updated Forge to v47.4.13
+- Updated Aquaculture 2
+- Updated Better Combat
+- Updated Crash Assistant
+- Updated Dank Storage
+- Updated Eccentric Tome
+- Updated Extreme Reactors
+- Updated Extended Terminal
+- Updated Forestry: Community Edition
+- Updated FTB Library
+- Updated Guard Villagers
+- Updated Kiwi 🥝
+- Updated Kotlin for Forge
+- Updated Krypton FNP
+- Updated Netherite Tweaks & Fixes
+- Updated Save My Shaky Network
+### Removed
+- Removed Twilight Forest Final Boss
+- Removed Twilight Tweaks
+- Removed Integrated Villages [Prevents the CTOV mod from working properly]
 # [AOF-v4.4.3] - 2025.12.01
 ### Fixed
 - Polished and cleaned all KubeJS scripts
