@@ -1,3 +1,41 @@
+# [AOF-v4.4.5] - 2025.12.09
+### Fixed
+- Fixed missing rewards for some quests
+- Fixed server crash caused by Adaptive Optimization on dedicated servers
+### Added
+- Added Sync Fix
+- Added Adaptive Optimization(reborn)
+- Added Utilitarian
+- Added Sparse Structures
+### Changed
+- Updated Doggy Talents Next
+- Updated Guard Villagers
+- Updated Just Enough Breeding (JEBr)
+- Updated Macaw's Fences and Walls
+- Updated Macaw's Lights and Lamps
+- Updated Medieval Origins Revival
+- Updated MineColonies
+- Updated ModernFix
+- Updated MVS - Moog's Voyager Structures
+- Updated Oh The Biomes We've Gone
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated THE UNDEAD REVAMPED
+### Removed
+- Removed chunky chunks! [Not needed]
+- Removed Better Advancements [Not needed]
+- Removed FastEvent [Not needed]
+- Removed Krypton FNP [Not needed]
+- Removed Sodium/Embeddium Dynamic Lights [Incompatible with Lucent]
+- Removed No Startup Messages Please [Feature implemented in the Utilitarian mod]
+- Removed No More Trampling [Feature implemented in the Utilitarian mod]
+- Removed Snad [Feature implemented in the Utilitarian mod]
+- Removed MiniCoal [Feature implemented in the Utilitarian mod]
+- Removed Save My Shaky Network [Not needed]
+- Removed Dynamic View [Feature implemented in the ServerCore mod]
+- Removed Sparse Structures Reforged [Replaced by Sparse Structures mod]
+- Removed TickAccelerate [Not needed]
+- Removed **Vanillin** [Incompatible with Shaders - Confirmed Flywheel conflict causing shader performance degradation]
 # [AOF-v4.4.4] - 2025.12.06
 ### Fixed
 - Fixed [Bug]: Server cannot start #121
