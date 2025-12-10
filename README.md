@@ -56,7 +56,7 @@ Forge alliances, uncover secrets, and define your legend in a realm torn between
 ### 🔧 Technology & Automation
 - **Mekanism**: Advanced machinery and power generation
 - **Thermal Series**: Comprehensive tech suite
-- **Refined Storage**: Digital storage and autocrafting
+- **Refined Storage & AE2**: Digital storage and autocrafting
 - **Immersive Engineering**: Multiblock structures and industrial processing
 - **Extreme Reactors**: Nuclear power generation
 
