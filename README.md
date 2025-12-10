@@ -258,7 +258,7 @@ Special thanks to all mod developers whose incredible work makes this modpack po
 - 📦 Dual-pack optimization strategy
 - ✨ Enhanced stability and performance
 
-See [CHANGELOG.md](CHANGELOG.md) for full version history.
+See [CHANGELOG.md](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.4.5) for full version history.
 
 
 ---
