@@ -55,7 +55,7 @@ Table of Contents
 - [4.0.4] - 2025-10-28
 - [4.0.3] - 2025-10-27
 - [4.0.2] - 2025-10-26
-- [4.0.1] - 2025-10-25
+- [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v401---20250226) - 2025-10-25
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v400---20250226) - 2025-02-26 (Initial 1.20.1 Release)
 
 ---
