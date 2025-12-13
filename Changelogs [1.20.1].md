@@ -22,41 +22,41 @@ Table of Contents
 - [[4.3.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v437---20251107) - 2025-11-30
 - [[4.3.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v436---20251102) - 2025-11-29
 - [[4.3.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v435---20251028) - 2025-11-28
-- [[4.3.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#aof-v434---20251025) - 2025-11-27
-- [[4.3.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v433---20251020) - 2025-11-26
-- [[4.3.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v432---20251015) - 2025-11-25
-- [[4.3.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v431---20251014) - 2025-11-24
-- [[4.3.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v430---20251012) - 2025-11-23
-- [[4.2.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v429---20251006) - 2025-11-22
-- [[4.2.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v428---20250927) - 2025-11-21
-- [[4.2.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v427---20250914) - 2025-11-20
-- [[4.2.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v426---20250907) - 2025-11-19
-- [[4.2.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v425---20250831) - 2025-11-18
-- [[4.2.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v424---20250823) - 2025-11-17
-- [[4.2.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v423---20250808) - 2025-11-16
-- [[4.2.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v422---20250803) - 2025-11-15
-- [[4.2.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v421---20250801) - 2025-11-14
-- [[4.2.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v420---20250729) - 2025-11-13
-- [[4.1.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v419---20250722) - 2025-11-12
-- [[4.1.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v418---20250712) - 2025-11-11
-- [[4.1.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v417---20250707) - 2025-11-10
-- [[4.1.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v416---20250629) - 2025-11-09
-- [[4.1.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v415---20250622) - 2025-11-08
-- [[4.1.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v414---20250615) - 2025-11-07
-- [[4.1.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v413---20250601) - 2025-11-06
-- [[4.1.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v412---20250524) - 2025-11-05
-- [[4.1.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v411---20250519) - 2025-11-04
-- [[4.1.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v410---20250507) - 2025-11-03
-- [[4.0.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v409---20250415) - 2025-11-02
-- [[4.0.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v408---20250414) - 2025-11-01
-- [[4.0.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v407---20250412) - 2025-10-31
-- [[4.0.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v406---20250409) - 2025-10-30
-- [[4.0.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v405---20250331) - 2025-10-29
-- [[4.0.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v404---20250328) - 2025-10-28
-- [4.0.3] - 2025-10-27
-- [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v402---20250317) - 2025-10-26
-- [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v401---20250310) - 2025-10-25
-- [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v400---20250226) - 2025-02-26 (Initial 1.20.1 Release)
+- [[4.3.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#aof-v434---20251025) - 2025.10.25
+- [[4.3.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v433---20251020) - 2025.10.20
+- [[4.3.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v432---20251015) - 2025.10.15
+- [[4.3.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v431---20251014) - 2025.10.14
+- [[4.3.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v430---20251012) - 2025.10.12
+- [[4.2.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v429---20251006) - 2025.10.06
+- [[4.2.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v428---20250927) - 2025.09.27
+- [[4.2.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v427---20250914) - 2025.09.14
+- [[4.2.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v426---20250907) - 2025.09.07
+- [[4.2.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v425---20250831) - 2025.08.31
+- [[4.2.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v424---20250823) - 2025.08.23
+- [[4.2.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v423---20250808) - 2025.08.08
+- [[4.2.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v422---20250803) - 2025.08.03
+- [[4.2.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v421---20250801) - 2025.08.01
+- [[4.2.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v420---20250729) - 2025.07.29
+- [[4.1.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v419---20250722) - 2025.07.22
+- [[4.1.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v418---20250712) - 2025.07.12
+- [[4.1.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v417---20250707) - 2025.07.07
+- [[4.1.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v416---20250629) - 2025.06.29
+- [[4.1.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v415---20250622) - 2025.06.22
+- [[4.1.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v414---20250615) - 2025.06.15
+- [[4.1.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v413---20250601) - 2025.06.01
+- [[4.1.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v412---20250524) - 2025.05.24
+- [[4.1.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v411---20250519) - 2025.05.19
+- [[4.1.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v410---20250507) - 2025.05.07
+- [[4.0.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v409---20250415) - 2025.04.15
+- [[4.0.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v408---20250414) - 2025.04.14
+- [[4.0.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v407---20250412) - 2025.04.12
+- [[4.0.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v406---20250409) - 2025.04.09
+- [[4.0.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v405---20250331) - 2025.03.31
+- [[4.0.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v404---20250328) - 2025.03.28
+- [[4.0.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v403---20250321) - 2025.03.21
+- [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v402---20250317) - 2025.03.17
+- [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v401---20250310) - 2025.03.10
+- [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
 
 ---
 
@@ -458,7 +458,7 @@ Table of Contents
 
 ---
 
-# [AOF-v4.3.4] - 2025.10.25
+# 🎮 [AOF-v4.3.4] - 2025.10.25
 ### 🔧 Fixed
 - Fixed Medieval Origins Revival sizing issue, #ticket-0312
 - Fixed Farmer's Delight and Quark crates/bags recipe issues, #ticket-0307
