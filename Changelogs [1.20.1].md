@@ -11,51 +11,51 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [4.4.5] - 2025-12-09 (Latest)
-- [4.4.4] - 2025-12-08
-- [4.4.3] - 2025-12-07
-- [4.4.2] - 2025-12-06
-- [4.4.1] - 2025-12-05
-- [4.4.0] - 2025-12-04
-- [4.3.9] - 2025-12-03
-- [4.3.8] - 2025-12-02
-- [4.3.7] - 2025-11-30
-- [4.3.6] - 2025-11-29
-- [4.3.5] - 2025-11-28
-- [4.3.4] - 2025-11-27
-- [4.3.3] - 2025-11-26
-- [4.3.2] - 2025-11-25
-- [4.3.1] - 2025-11-24
-- [4.3.0] - 2025-11-23
-- [4.2.9] - 2025-11-22
-- [4.2.8] - 2025-11-21
-- [4.2.7] - 2025-11-20
-- [4.2.6] - 2025-11-19
-- [4.2.5] - 2025-11-18
-- [4.2.4] - 2025-11-17
-- [4.2.3] - 2025-11-16
-- [4.2.2] - 2025-11-15
-- [4.2.1] - 2025-11-14
-- [4.2.0] - 2025-11-13
-- [4.1.9] - 2025-11-12
-- [4.1.8] - 2025-11-11
-- [4.1.7] - 2025-11-10
-- [4.1.6] - 2025-11-09
-- [4.1.5] - 2025-11-08
-- [4.1.4] - 2025-11-07
-- [4.1.3] - 2025-11-06
-- [4.1.2] - 2025-11-05
-- [4.1.1] - 2025-11-04
-- [4.1.0] - 2025-11-03
-- [4.0.9] - 2025-11-02
-- [4.0.8] - 2025-11-01
-- [4.0.7] - 2025-10-31
-- [4.0.6] - 2025-10-30
-- [4.0.5] - 2025-10-29
-- [4.0.4] - 2025-10-28
+- [[4.4.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v445---20251209) - 2025-12-09 (Latest)
+- [[4.4.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v444---20251206) - 2025-12-08
+- [[4.4.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v443---20251201) - 2025-12-07
+- [[4.4.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v442---20251124) - 2025-12-06
+- [[4.4.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v441---20251121) - 2025-12-05
+- [[4.4.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v440---20251121) - 2025-12-04
+- [[4.3.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v439---20251116) - 2025-12-03
+- [[4.3.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v438---20251110) - 2025-12-02
+- [[4.3.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v437---20251107) - 2025-11-30
+- [[4.3.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v436---20251102) - 2025-11-29
+- [[4.3.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v435---20251028) - 2025-11-28
+- [[4.3.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#aof-v434---20251025) - 2025-11-27
+- [[4.3.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v433---20251020) - 2025-11-26
+- [[4.3.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v432---20251015) - 2025-11-25
+- [[4.3.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v431---20251014) - 2025-11-24
+- [[4.3.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v430---20251012) - 2025-11-23
+- [[4.2.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v429---20251006) - 2025-11-22
+- [[4.2.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v428---20250927) - 2025-11-21
+- [[4.2.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v427---20250914) - 2025-11-20
+- [[4.2.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v426---20250907) - 2025-11-19
+- [[4.2.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v425---20250831) - 2025-11-18
+- [[4.2.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v424---20250823) - 2025-11-17
+- [[4.2.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v423---20250808) - 2025-11-16
+- [[4.2.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v422---20250803) - 2025-11-15
+- [[4.2.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v421---20250801) - 2025-11-14
+- [[4.2.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v420---20250729) - 2025-11-13
+- [[4.1.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v419---20250722) - 2025-11-12
+- [[4.1.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v418---20250712) - 2025-11-11
+- [[4.1.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v417---20250707) - 2025-11-10
+- [[4.1.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v416---20250629) - 2025-11-09
+- [[4.1.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v415---20250622) - 2025-11-08
+- [[4.1.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v414---20250615) - 2025-11-07
+- [[4.1.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v413---20250601) - 2025-11-06
+- [[4.1.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v412---20250524) - 2025-11-05
+- [[4.1.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v411---20250519) - 2025-11-04
+- [[4.1.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v410---20250507) - 2025-11-03
+- [[4.0.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v409---20250415) - 2025-11-02
+- [[4.0.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v408---20250414) - 2025-11-01
+- [[4.0.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v407---20250412) - 2025-10-31
+- [[4.0.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v406---20250409) - 2025-10-30
+- [[4.0.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v405---20250331) - 2025-10-29
+- [[4.0.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v404---20250328) - 2025-10-28
 - [4.0.3] - 2025-10-27
-- [4.0.2] - 2025-10-26
-- [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v401---20250226) - 2025-10-25
+- [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v402---20250317) - 2025-10-26
+- [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v401---20250310) - 2025-10-25
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v400---20250226) - 2025-02-26 (Initial 1.20.1 Release)
 
 ---
@@ -96,7 +96,7 @@ Table of Contents
 - Perfect client-server synchronization (Sync Fix)
 - Optimized structure generation (Structure Layout Optimizer)
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed missing rewards for some quests
 - Fixed server crash caused by Adaptive Optimization on dedicated servers
 ### ➕ Added
@@ -168,7 +168,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.4.4] - 2025.12.06
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed [Bug]: Server cannot start #121
 - Fixed [Bug]: Immersive Airship hull recipe does not work #122
 - Fixed Immersive Engineering coil recipes
@@ -209,7 +209,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.4.3] - 2025.12.01
 
-### ✅ Fixed
+### 🔧 Fixed
 - Polished and cleaned all KubeJS scripts
 - Resolved Eternal modifier exploit by adding a blacklist through datapack. Thanks to @Cyn-SolveroftheAbsolute Gremlins
 - Fixed Allthemodium structure spawners spawning below Apotheosis minimum depth via datapack. Thanks to @Cyn-SolveroftheAbsolute Gremlins
@@ -237,7 +237,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.4.2] - 2025.11.24
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed [Bug]: can't use /withdraw #119
 ### 🔄 Changed
 - Updated Forge to v47.4.12
@@ -261,14 +261,14 @@ Table of Contents
 
 # 🎮 [AOF-v4.4.1] - 2025.11.21
 
-### ✅ Fixed
+### 🔧 Fixed
 - 🔥 HOT FIX: the IGSEconomy folder was missed
 
 ---
 
 # 🎮 [AOF-v4.4.0] - 2025.11.21
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed [Bug]: Can't shoot with a Draconic Bow (Draconic Evolution) #118
 - Fixed the amount of ATM molten fluids from 1000 mb to the correct 810 mb
 ### ➕ Added
@@ -298,7 +298,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.3.9] - 2025.11.16
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed minor recipe issues
 ### ➕ Added
 - Added A Quarky Registry Fix
@@ -340,7 +340,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.3.8] - 2025.11.10
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed [Bug]: JEI does not display ATM Furnaces
 - Added a warning note to address the possibility that items with durability could be voided when using the Lost Engine spellstone
 - Fixed a few recipe bugs
@@ -433,7 +433,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.3.5] - 2025.10.28
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed Crates/Bags tags by the Basic Agriculture questline
 ### ➕ Added
 - Added Skeleton AI Fix
@@ -459,7 +459,7 @@ Table of Contents
 ---
 
 # [AOF-v4.3.4] - 2025.10.25
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed Medieval Origins Revival sizing issue, #ticket-0312
 - Fixed Farmer's Delight and Quark crates/bags recipe issues, #ticket-0307
 ### ➕ Added
@@ -519,7 +519,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.3.2] - 2025.10.15
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed missed tag for sugar
 - Fixed [Bug]: Using Quest Journal and Necronomicon in the Eccentric Tome causes duplication of those books. #ticket-0274
 - Fixed missed items in the Iron's Spells 'n Spellbooks questline
@@ -539,7 +539,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.3.1] - 2025.10.14
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed Memory leak issue
 - Fixed [Bug]: Performance Issue: Significant Block Breaking Delay in Survival Mode Caused by Rats Mod #104
 - Fixed [Bug]: Energizing rod (Spirited) crafting recipe #106
@@ -565,7 +565,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.3.0] - 2025.10.12
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed "net.minecraft.nbt.compounttag.m128459(string)" error message; NEW WORLD REQUIRED
 - Increased separation distance for dragon roosts, cyclops caves, etc., based on [Suggestion]: Dragon Nest spawn rate #105
 ### ➕ Added
@@ -703,7 +703,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.2.7] - 2025.09.14
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed recipes for Deorum tools and weapons
 - Fixed Nature's Aura questline
 ### ➕ Added
@@ -747,7 +747,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.2.6] - 2025.09.07
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed Aversion Obelisk recipe
 ### ➕ Added
 - Added Extended Terminal
@@ -782,7 +782,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.2.5] - 2025.08.31
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed Nether Star & Ender Pearl compressed block recipes
 ### ➕ Added
 - Added KubeJS Ars Nouveau
@@ -938,7 +938,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.2.2] - 2025.08.03
 
-### ✅ Fixed
+### 🔧 Fixed
 - Potential Fixed Memory Leak Issue
 - Potential fix for The Final Boss not spawning
 - Fixed some Quest issues
@@ -1072,7 +1072,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.1.8] - 2025.07.12
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed several missing dust recipes
 ### ➕ Added
 - Added Mo' Bees
@@ -1112,7 +1112,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.1.7] - 2025.07.07
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed [ticket] Rods and plates recycling recipes #0184
 - Fixed several missing gear and plate recipes
 ### ➕ Added
@@ -1161,7 +1161,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.1.6] - 2025.06.29
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed [Bug]: Crop Crate recipe broken after update #94
 - Fixed [Bug]: Create Mechanical Crafter Ticking Entity while crafting Crushing Wheel #96
 - Fixed Smeltery recipes for Allthemodium, Vibranium, and Unobtainium blocks
@@ -1195,7 +1195,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.1.5] - 2025.06.22
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed several key bindings, this time for sure
 ### ➕ Added
 - Added Macaw's Paths and Pavings
@@ -1231,7 +1231,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.1.4] - 2025.06.15
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed key binding for Knowledge of Death
 - Fixed auto resetting render distance to 5 chunks
 ### ➕ Added
@@ -1288,7 +1288,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.1.3] - 2025.06.01
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed several invalid recipes
 - Fixed the invalid reward in the Ars Nouveau questline
 ### ➕ Added
@@ -1339,7 +1339,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.1.2] - 2025.05.24
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed the overlap between the Vampirism Skills button and the Enigmatic Magnet Ring button
 - Fixed several recipe callbacks due to non-existing items
 ### 🔄 Changed
@@ -1367,7 +1367,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.1.1] - 2025.05.19
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed the Custom Portals quest in the Mekanism chapter one questline
 ### ➕ Added
 - Added Gnetum
@@ -1420,7 +1420,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.1.0] - 2025.05.07
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed Creepers no longer explode behind walls
 - Fixed Gold block recipe, [Suggestion]: Changing the order for gold block crafting. #83
 - Fixed Framed Drawer recipe, [Suggestion]: Compacting drawer can be bypassed… #85
@@ -1551,7 +1551,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.0.8] - 2025.04.14
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed empty rewards and some other issues in the Quest book
 - Resolved the issue with empty loot chests, #ticket-0072 
 ### ➕ Added
@@ -1589,7 +1589,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.0.7] - 2025.04.12
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed the Middle Button key bind for inventory sorting
 - Enhanced and optimized game performance
 ### ➕ Added
@@ -1637,7 +1637,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.0.6] - 2025.04.09
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed 3D tooltip that was causing lag in JEI, #ticket-0029
 - Fixed the incorrect template used for upgrading Plated Bone Tools, #ticket-0049
 - Fixed broken Quests and Quest-related issues, #ticket-0044, #ticket-0055
@@ -1698,7 +1698,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.0.5] - 2025.03.31
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed empty tags
 - Fixed broken recipes
 - Fixed empty quest rewards
@@ -1760,7 +1760,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.0.4] - 2025.03.28
 
-### ✅ Fixed
+### 🔧 Fixed
 - Fixed Smithing Table GUI
 - Resolved several recipe issues
 - Fixed [Bug]: Epic Stats Error Message Spam #76
@@ -1885,9 +1885,43 @@ Table of Contents
 
 ---
 
+# 🎮 [AOF-v4.0.3] - 2025.03.21
+
+### 🔧 Fixed
+- Random crashes from mods with the latest mod updates below
+- Journeymap keybinding issues by removing other keybindings attached to **J**
+### 🔄 Changed
+- Updated AE2: Crafting Tree
+- Updated AllTheLeaks (Memory Leak Fix)
+- Updated Applied Flux
+- Updated Artifacts
+- Updated Balm
+- Updated Create
+- Updated Data Anchor
+- Updated Enhanced Celestials
+- Updated Epic Stats Remastered
+- Updated FastSuite
+- Updated Gendustry
+- Updated Immersive Aircraft
+- Updated Immersive Tips
+- Updated Integrated Dungeons and Structures
+- Updated L_Enders_Cataclysm
+- Updated LDLib
+- Updated Moonlight
+- Updated Sophisticated Core
+- Updated The Deep Void
+- Updated Trashslot
+- Updated Tweaks addon
+### ➖ Removed
+- Achievements Optimizer [*Icterine does the samething*]
+- FPS Reducer [*Idle Boost does the samething*]
+- Recipe Essentials [*Incompatible with FastSuite*]
+
+---
+
 # 🎮 [AOF-v4.0.2] - 2025.03.17
 
-### ✅ Fixed
+### 🔧 Fixed
 - All repeatable Quests in the Quest Book have been fixed
 - Fixed Crafting on a Stick recipes
 - Fixed [Bug]: Wither Drops/Quest #58
@@ -1997,7 +2031,7 @@ Table of Contents
 
 # 🎮 [AOF-v4.0.1] - 2025.03.10
 
-### ✅ Fixed
+### 🔧 Fixed
 - Improved game performance, courtesy of ModernGamingWorld
 - Reduced total loading time for the game from 11 minutes to 6 minutes
 - Resolved missing textures in the Quest Book #ticket-0124
