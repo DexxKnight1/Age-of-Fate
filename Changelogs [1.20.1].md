@@ -11,7 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.4.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v446---2025-12-15) - 2025.12.15 (Latest)
+- [[4.4.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v446---20251215) - 2025.12.15 (Latest)
 - [[4.4.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v445---20251209) - 2025.12.09
 - [[4.4.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v444---20251206) - 2025.12.06
 - [[4.4.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md#-aof-v443---20251201) - 2025.12.01
