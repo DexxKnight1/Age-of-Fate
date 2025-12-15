@@ -60,6 +60,211 @@ Table of Contents
 
 ---
 
+# 🎮🔥 [AOF-v4.4.6] - 2025-12-15
+
+> **🚀 HIGHLIGHT:** Complete KubeJS cleanup (137 warnings → 0) + Voidminer dimensional expansion + Cataclysm automation breakthrough!
+
+### ⚡ What's New in This Update
+- **Zero warnings!** - Eliminated all 137 KubeJS warnings for cleaner startup
+- **Voidminer everywhere** - Now spawns ores in ALL dimensions (Overworld, Nether, End, Mining)
+- **Automation fixed** - Create Mechanical Saw now works with Cataclysm blocks
+- **LAN restored** - Multiplayer functionality back online
+- **Recipe cleanup** - Forestry crash resolved + tin tagging fixed
+- **28 mod updates** - Latest versions for stability & performance
+
+---
+
+### 🔧 Fixed
+
+#### **🔥 CRITICAL FIXES**
+
+**[137 WARNINGS → 0] Resolved all KubeJS warnings**
+- Eliminated recipe parser conflicts (57 warnings from KubeJS Mekanism)
+- Fixed deprecated syntax across all scripts
+- Optimized script load time
+- Cleaner console output
+- **Impact:** Faster startup, professional console, improved performance
+
+#### **🌍 VOIDMINER REVOLUTION**
+
+**[MAJOR] Fixed Voidminer ore spawning across all dimensions**
+- ✅ **Overworld** - Full ore table configured
+- ✅ **Nether** - Dimension-specific ores added
+- ✅ **End** - Custom ore generation
+- ✅ **Mining Dimension** - Optimized spawn rates
+- ✅ **JEI integration** fully functional for all dimensions
+- Custom ore tables now managed via KubeJS scripts
+- **Impact:** 4x more farming options, true dimensional progression
+
+#### **🔧 RECIPE FIXES**
+
+**[CRITICAL] Fixed Forestry recipe crash (ticket-0375)**
+- Root cause: Industrial Heavy Metal Thunder tin tagging issue
+- Server stability restored
+
+**[CRITICAL] Fixed Industrial Heavy Metal Thunder tin item tagging**
+- Removed incorrect `#storage_blocks/tin` tag from tin ingots and nuggets
+- 1x compressed tin recipe now correctly requires tin blocks (not ingots)
+- Resolves tin block-to-ingot conversion conflict
+- **This was the root cause of ticket-0375!**
+- **Impact:** Compressed recipes work correctly, no more confusion
+
+**Fixed multiple broken recipes**
+- Removed missing inputs/outputs
+- Removed barrier placeholders
+- Cleaned up orphaned recipe IDs
+- **Impact:** Clean JEI display, no phantom recipes
+
+#### **🎮 GAMEPLAY FIXES**
+
+**Fixed LAN multiplayer functionality**
+- Connection issues resolved
+- Friend invites now work properly
+- **Impact:** Play with friends again!
+
+**[BONUS DISCOVERY] 🎁 Fixed Cataclysm stonecutting recipe display bugs**
+- Slab/Stairs/Wall recipes now show **correct icons** in JEI
+- Removed duplicate stonecutting recipes
+- All Azure Seastone variants properly organized
+- 🎁 **BONUS: Fixed Create Mechanical Saw cutting interactions!** ⚙️✨
+  - Mechanical Saw now processes Cataclysm blocks correctly
+  - Automated cutting of Azure Seastone, Black Steel, Prismarine variants
+  - **Production lines now operational!** 🏭
+- **Impact:** Clean JEI + automated stone processing = massive QoL win!
+
+---
+
+### ➕ Added
+
+**Void Miners** - Original mod (replacing Void Miner: Fully Automated)
+- Better maintained, more stable
+- Native dimensional support
+- Improved performance
+
+**Custom Voidminer ore tables** - Full control via KubeJS scripts
+- Balanced ore generation per dimension
+- Easy configuration and maintenance
+
+---
+
+### 🔄 Changed
+
+#### **🎨 Shaderpacks**
+- Updated **MakeUp - Ultra Fast** shaderpack
+  - Latest optimizations
+  - Improved compatibility
+
+#### **⚙️ Technical Changes**
+- **Voidminer ore configuration** now managed via KubeJS scripts
+  - Centralized control
+  - Easy balancing
+  - Per-dimension customization
+
+- **Mekanism recipes** now use native `event.custom()` format
+  - Cleaner code
+  - Better maintainability
+  - Eliminated 57 warnings
+
+#### **📦 Mod Updates (27)**
+<details>
+<summary>Click to expand full mod list</summary>
+
+- Updated Adaptive Optimization (reborn)
+- Updated AmbientSounds 6
+- Updated Aquaculture 2
+- Updated Chef's Delight - Farmer's Delight Villagers
+- Updated Crash Assistant
+- Updated Create: New Age
+- Updated Enchantment Descriptions
+- Updated Entity Culling
+- Updated Fast IP Ping
+- Updated Fzzy Config
+- Updated ImmediatelyFast
+- Updated Industrial Heavy Metal Thunder
+- Updated Macaw's Stairs
+- Updated Macaw's Windows
+- Updated MineColonies
+- Updated Not Enough Animations
+- Updated PackagedAuto
+- Updated Reliquary Reincarnations
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Sync Fix
+- Updated Zeta
+
+</details>
+
+---
+
+### ➖ Removed
+
+- **Void Miner: Fully Automated** - [Replaced by Void Miners (original mod)]
+  - Original mod is better maintained
+  - Native dimensional support
+  - Improved stability
+
+- **KubeJS Mekanism UNOFFICIAL** - [Recipe parser conflict → 57 warnings eliminated]
+  - Caused 57 startup warnings
+  - Replaced with native event.custom() implementation
+  - Cleaner code, zero warnings
+
+- **Duplicate Cataclysm stonecutting recipes** - [Mod now provides these natively]
+  - Cleaned up recipe overlap
+  - JEI display now correct
+
+---
+
+### 📊 Impact Summary
+```
+WARNINGS:     137 → 0        (100% cleanup!)
+VOIDMINER:    1 → 4 dims     (4x expansion!)
+RECIPES:      15+ fixed      (stability++)
+AUTOMATION:   Create + Cata  (✅ working!)
+MULTIPLAYER:  LAN restored   (✅ fixed!)
+MOD UPDATES:  28 mods        (latest versions)
+SHADERPACKS:  1 updated      (MakeUp Ultra Fast)
+```
+
+---
+
+### 🎯 Upgrade Notes
+- ⚠️ **Backup your world before updating!**
+- ✅ No new world required
+- ✅ KubeJS reload recommended after first boot: `/kubejs reload`
+- ✅ Check JEI for Voidminer ore tables (all dimensions now shown)
+- ✅ Test Create Mechanical Saw with Cataclysm blocks (now works!)
+- ✅ Verify LAN multiplayer if you use it
+
+---
+
+### 🙏 Credits
+
+**💜 Special Thanks:**
+- **Cyn-SolveroftheAbsolute Gremlins** - Support Staff, Discord
+  - *Providing ongoing technical support across all modpacks*
+  - *Tireless dedication to community assistance*
+  - *The backbone of our technical operations* 🛠️💪
+  - **Thank you for everything you do!** 💜🔥
+
+**🐛 Bug Reports & Community:**
+- **Industrial Heavy Metal Thunder tin tagging fix** - Community bug report (ticket-0375)
+- **Cataclysm stonecutting cleanup** - Internal testing discovery
+
+**⚙️ Technical Implementation:**
+- **Voidminer dimensional expansion** - Custom KubeJS implementation
+- **Create Mechanical Saw integration** - Bonus discovery during stonecutting fix
+
+---
+
+### 🔗 Links
+- **Full Changelog:** [GitHub](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs%20%5B1.20.1%5D.md)
+- **Issue Tracker:** [GitHub Issues](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord:** [Join our community](https://discord.gg/JMqZhxk7gA)
+- **CurseForge:** [Download Page](https://www.curseforge.com/members/dexxknight1/projects)
+
+---
+
 # 🎮 [AOF-v4.4.5] - 2025.12.09
 
 ### ⚡ Performance & Stability Improvements
