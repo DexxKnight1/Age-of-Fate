@@ -250,7 +250,7 @@ Special thanks to all mod developers whose incredible work makes this modpack po
 
 ## 📊 Latest Version
 
-**Current Version**: v4.4.5 (December 9, 2025)
+**Current Version**: v4.4.6 (December 15, 2025)
 
 **Key Updates**:
 - ⚡ 100-133% shader FPS improvement
