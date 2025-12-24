@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.4.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v446---20251215) - 2025.12.15 (Latest)
+- [[4.4.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v447---20251215) - 2025.12.24 (Latest)
+- [[4.4.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v446---20251215) - 2025.12.15
 - [[4.4.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v445---20251209) - 2025.12.09
 - [[4.4.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v444---20251206) - 2025.12.06
 - [[4.4.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v443---20251201) - 2025.12.01
@@ -58,6 +59,238 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+# 🎮🔥 [AOF-v4.4.7] - 2025.12.24
+
+📌 **HIGHLIGHT:** Massive recipe rebalancing across 11+ mod systems + Tag conflict fixes + KubeJS optimization + Building But Better added!
+
+## ⚡ What's New in This Update
+
+- **Recipe revolution!** - Enhanced recipes across Angel Rings, Allthemodium, Construction Wand, Cable Tiers, Entangled, IE, IF, Mystical Agriculture, RS, AE2, Mekanism, and Thermal Series
+- **Tag conflicts resolved** - Fixed Tin Ingots unification (Alltheores + Forestry + Industrial Heavy Metal Thunder)
+- **KubeJS optimized** - Fixed and organized Tags script + Unification system improvements
+- **Building enhanced** - Added Building But Better mod for improved construction
+- **20+ mod updates** - Latest stable versions for performance & compatibility
+
+---
+
+## 🔧 Fixed
+
+- **Fixed Alltheores Tin Ingots tag conflict** with Forestry & Industrial Heavy Metal Thunder
+  - Resolved item unification issues causing recipe conflicts
+  - All tin sources now properly unified across modpack
+
+- **Fixed Unification system via KubeJS script**
+  - Improved item tag handling
+  - Better cross-mod compatibility
+  - Cleaner recipe processing
+
+- **Fixed and organized Tags KubeJS script**
+  - Restructured for better maintainability
+  - Optimized performance
+  - Clearer documentation
+
+---
+
+## ➕ Added
+
+### New Mods
+- **Building But Better** 🏗️
+  - Enhanced building mechanics
+  - Additional construction options
+  - Seamlessly integrated with existing building mods
+
+---
+
+## 🔄 Changed
+
+### ⚖️ Enhanced Recipes for Greater Progression Flexibility and Balance
+
+This update includes a **comprehensive recipe rebalance** across multiple major mod systems to provide smoother progression and better balance:
+
+<details>
+<summary><strong>🔮 Angel Ring & Diamond Ring</strong></summary>
+
+- New balanced recipes for progression-appropriate crafting
+- Better integration with modpack tier system
+
+</details>
+
+<details>
+<summary><strong>⚙️ Allthemodium Recipes</strong></summary>
+
+Complete overhaul of Allthemodium crafting:
+- New Tools recipes
+- New Armors recipes
+- New Alloys recipes
+- New Alloy Tools recipes
+- Balanced for late-game progression
+
+</details>
+
+<details>
+<summary><strong>🪄 Construction Wand</strong></summary>
+
+- New Infinity Wand recipe
+- Balanced for creative-tier building
+
+</details>
+
+<details>
+<summary><strong>⚡ Cable Tiers</strong></summary>
+
+- New balanced recipes across all cable tiers
+- Better progression between power transfer levels
+
+</details>
+
+<details>
+<summary><strong>🔗 Entangled</strong></summary>
+
+- New balanced recipes for quantum linking
+- Adjusted for mid-to-late game progression
+
+</details>
+
+<details>
+<summary><strong>⚙️ Immersive Engineering</strong></summary>
+
+- New balanced recipes across IE machines and components
+- Better integration with modpack progression
+
+</details>
+
+<details>
+<summary><strong>🔥 IE Kiln</strong></summary>
+
+- Simple Alloy recipe additions
+- Enhanced material processing options
+
+</details>
+
+<details>
+<summary><strong>🏭 Industrial Foregoing</strong></summary>
+
+- New balanced Machine Frames recipes
+- Tiered progression through IF content
+
+</details>
+
+<details>
+<summary><strong>🌿 Mystical Agriculture</strong></summary>
+
+- New balanced recipes for essence and seeds
+- Adjusted growth mechanics
+
+</details>
+
+<details>
+<summary><strong>💾 Refined Storage</strong></summary>
+
+- New balanced recipe for storage components
+- Better early-to-mid game accessibility
+
+</details>
+
+<details>
+<summary><strong>📦 Applied Energistics 2</strong></summary>
+
+- New balanced recipe for AE2 components
+- Improved progression path
+
+</details>
+
+<details>
+<summary><strong>⚛️ Mekanism</strong></summary>
+
+- New balanced recipe for machines and components
+- Enhanced tier progression
+
+</details>
+
+<details>
+<summary><strong>🔧 Thermal Series</strong></summary>
+
+- New balanced recipe for Thermal machines
+- Better integration with power generation systems
+
+</details>
+
+---
+
+### 📦 Updated Mods
+
+<details>
+<summary><strong>View All 20 Updated Mods</strong></summary>
+
+- Born in Chaos
+- Chalk
+- Connectivity
+- Create: New Age
+- Extra Hostile Neural Networks
+- Extreme Reactors
+- Extreme sound muffler
+- Fusion (Connected Textures)
+- Just Enough Items (JEI)
+- Mantle
+- MineColonies
+- Nyfs Spiders Au Naturel Edit
+- Oh The Biomes We've Gone
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Structurize
+- TACT - Tiny Alex's Caves Tweaks
+- TConJEI
+- THE UNDEAD REVAMPED
+- TrashSlot
+- ZeroCore 2
+
+</details>
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Recipe Systems Rebalanced** | 11+ major mod systems |
+| **Mods Updated** | 20 mods |
+| **New Mods** | 1 (Building But Better) |
+| **Critical Fixes** | 3 (Tag conflicts, KubeJS scripts) |
+| **Progression Impact** | Enhanced balance across early/mid/late game |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** - Always recommended before major updates
+2. **Backup your configs** - Custom settings will be preserved
+3. **Note installed mods** - In case you have custom additions
+
+### After Updating
+- Check new recipes in JEI - Many progression paths have been rebalanced
+- Existing items remain unchanged - Only new crafting affected
+- KubeJS changes are automatic - No manual intervention needed
+
+---
+
+## 🎄 Special Notes
+
+This **Christmas Update** focuses on **quality of life** and **gameplay balance**. The extensive recipe rebalancing provides more flexibility in how you progress through the modpack while maintaining challenge and rewarding gameplay.
+
+**Merry Christmas and Happy Holidays from the Age of Fate team!** 🎅✨
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository:** [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker:** [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community:** [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page:** [DexxKnight's Projects](https://www.curseforge.com/members/dexxknight1/projects)
 
 ---
 
