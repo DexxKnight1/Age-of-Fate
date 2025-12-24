@@ -63,7 +63,7 @@ Table of Contents
 ---
 # 🎮🔥 [AOF-v4.4.7] - 2025.12.24
 
-📌 **HIGHLIGHT:** Massive recipe rebalancing across 11+ mod systems + Tag conflict fixes + KubeJS optimization + Building But Better added!
+>📌 **HIGHLIGHT:** Massive recipe rebalancing across 11+ mod systems + Tag conflict fixes + KubeJS optimization + Building But Better added!
 
 ## ⚡ What's New in This Update
 
