@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.4.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v447---20251224) - 2025.12.24 (Latest)
+- [[4.4.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v448---20260101) - 2026.01.01 (Latest)
+- [[4.4.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v447---20251224) - 2025.12.24
 - [[4.4.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v446---20251215) - 2025.12.15
 - [[4.4.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v445---20251209) - 2025.12.09
 - [[4.4.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v444---20251206) - 2025.12.06
@@ -61,6 +62,137 @@ Table of Contents
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
 
 ---
+
+# 🎮🔥 [AOF-v4.4.8] - 2026.01.01
+
+> 📌 **HIGHLIGHT:** New loot system additions + Economy improvements + Various mod updates!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Economy System Enhancement**: All player commands now require NO OP!
+- **Smart Deposit Feature**: SHIFT + Right-click to deposit ALL currency notes at once!
+- **Aquaculture 2 balanced fishing system**: All fish can spawn in any water to ensure that no fish are restricted by non-existent biome!
+- **Client-Side Bugs Fixed**: Resolved MA crop rendering issues, console spam, and 80+ recipe conflicts.
+- **Miscellaneous Fixes**: Improvements to the Looting System and End Remastered functionality.
+- **New Mods Implemented**: Create: Steam 'n' Rails, LootJS: KubeJS Addon, MoreJS.
+
+---
+
+## 🔧 Fixed
+
+- **Economy System**: Enhanced with new features for a smoother experience.
+- **Aquaculture 2**: [Bug]: Unable to catch anything from the Aquaculture 2 mod [#123](https://github.com/DexxKnight1/Age-of-Fate/issues/123)
+- **Client-Side Bugs**: General fixes leading to a more stable environment.
+- **KubeJS Optimization**: Revised scripts for better performance and maintainability.
+- **server-start.sh script**: Fixed an issue where the server-start script failed on Linux due to Windows-style line endings (CRLF).
+The file now ships with Unix-style (LF) line endings and is already executable, so Linux users can launch the server immediately without running ``dos2unix`` or ``chmod +x``.
+
+---
+
+## ➕ Added
+
+### New Mods
+- **LootJS**: KubeJS Addon for enhanced mechanics.
+- **Create: Steam 'n' Rails**: Expanding construction capabilities.
+- **MoreJS**: Added for better scripting options.
+
+---
+
+## 🔄 Changed
+
+### ⚖️ Enhanced Features
+This update includes comprehensive rebalancing across multiple systems for improved gameplay:
+
+- Improved handling and unification for various mod resources to ensure smooth progression.
+- Enhanced user interface feedback with color-coding and sound notifications.
+
+---
+
+## 📦 Updated Mods
+
+<details>
+<summary><strong>View All 23 Updated Mods</strong></summary>
+
+- Amplified Nether
+- BlockUI
+- Colorwheel
+- Create: New Age
+- Crash Assistant
+- Entity Culling
+- FramedBlocks
+- Gnetum
+- Industrial Heavy Metal Thunder
+- Just Enough Breeding (JEBr)
+- Just Enough Items (JEI)
+- MineColonies
+- Moonlight Lib
+- Nyfs Spiders Au Naturel Edit
+- Oh The Biomes We've Gone
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Sophisticated Storage Create Integration
+- T.O Magic 'n Extras - Iron's Spells Addon
+- The Deep Void
+- Tinkers Construct
+- Tinkers' Thinking
+
+</details>
+
+## ➖ Removed Mods
+
+- Configurable Extra Mob Drops
+- Advanced Loot Info
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Recipe Systems Enhanced** | Revisions across major mod systems |
+| **Aquaculture 2 fishing** | All fish can spawn in any water |
+| **Mods Updated** | 23 mods |
+| **New Mods** | 3 (LootJS, Create: Steam 'n' Rails, MoreJS) |
+| **Critical Fixes** | 5 significant improvements |
+| **Progression Impact** | Enhanced game balance |
+| **Fixed serve_start.sh skript** | The file now ships with Unix-style (LF)
+
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** - Always recommended before major updates.
+2. **Backup your configs** - Preserves custom settings.
+3. **Note installed mods** - Useful for reference.
+
+### After Updating
+- Check new recipes in JEI for adjustments.
+- Existing items remain unchanged – only new crafting paths are affected.
+- KubeJS changes are automatic – no manual input required.
+
+---
+
+## 🏆 Special Notes
+
+This update focuses on quality of life and gameplay balance improvements. Enhanced mechanics provide a flexible progression path while maintaining the challenge for players.
+
+> **Thank you for playing Age of Fate! Enjoy the updates!**
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+
+---
+
 # 🎮🔥 [AOF-v4.4.7] - 2025.12.24
 
 >📌 **HIGHLIGHT:** Massive recipe rebalancing across 11+ mod systems + Tag conflict fixes + KubeJS optimization + Building But Better added!
