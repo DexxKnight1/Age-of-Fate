@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.4.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v448---20260101) - 2026.01.01 (Latest)
+- [[4.4.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v449---20260105) - 2026.01.05 (Latest)
+- [[4.4.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v448---20260101) - 2026.01.01
 - [[4.4.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v447---20251224) - 2025.12.24
 - [[4.4.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v446---20251215) - 2025.12.15
 - [[4.4.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v445---20251209) - 2025.12.09
@@ -60,6 +61,136 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.4.9] - 2026.01.05
+
+> 📌 **HIGHLIGHT:** Project Red suite added, Mob Currency auto-deposit fixed, startup time improved by 40 s!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Mob Currency Auto-Deposit Fixed**: Killing mobs once again deposits money directly to `/balance` – no manual pickup required!
+- **Startup Performance Boost**: MineColonies recipe loading optimised – saves **20-40 seconds** on every launch.
+- **Texture Fixes**: Aether Aerogel & Quark Myalite walls now render correctly.
+- **Project Red Full Suite**: 7 new modules for advanced redstone, automation & logistics.
+- **Winter Vibes**: Snow! Real Magic! adds fresh snow mechanics & visuals.
+- **Faster Loading**: New “Fast Loading” & “Mods Fixer” mods reduce RAM pressure and smooth mod-pack init.
+
+---
+
+## 🔧 Fixed
+
+- Fixed Auto-Deposit for Killing Mobs to Earn Money in the Mob Currency System
+- Fixed pickaxe tags for mining Treasure2’s blocks
+- Resolved broken textures for Aether Aerogel wall and Quark’s Myalite wall
+- Fixed MineColonies recipes not loading into JEI at startup (cuts boot time by 20-40 s)
+- Fixed MineColonies items missing from JEI
+- Fixed a few conflicting recipes
+
+---
+
+## ➕ Added
+
+### New Mods
+- **Project Red – Core**
+- **Project Red – Expansion**
+- **Project Red – Exploration**
+- **Project Red – Fabrication**
+- **Project Red – Illumination**
+- **Project Red – Integration**
+- **Project Red – Transmission**
+- **Snow! Real Magic!** ⛄
+- **Underlay**
+- **MineColonies JEI Recipe Startup Fix**
+- **Fast Loading**
+- **Mods Fixer**
+
+---
+
+## 🔄 Changed
+
+### ⚖️ Enhanced Features
+- Updated 20 core mods (see list below) for improved compatibility, performance and new content.
+- General recipe polish and tag corrections across multiple mods.
+
+---
+
+## 📦 Updated Mods
+
+<details>
+<summary><strong>View All 20 Updated Mods</strong></summary>
+
+- Adaptive Optimization (reborn)
+- Balm
+- Colorwheel
+- Delightful
+- Domum Ornamentum
+- Forestry: Community Edition
+- Gendustry: Community Edition
+- GravelMiner
+- Ice and Fire: Spellbooks
+- Iron’s Spells ’n Spellbooks
+- Large Fluid Tank
+- Mantle
+- MineColonies
+- Sophisticated Backpacks
+- Sophisticated Storage
+- Structurize
+- T.O Magic ’n Extras – Iron’s Spells Addon
+- The Deep Void
+- THE UNDEAD REVAMPED
+- Tinkers Construct
+
+</details>
+
+## ➖ Removed Mods
+
+*None in this release.*
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Mods Updated** | 20 |
+| **New Mods** | 11 |
+| **Critical Fixes** | 6 |
+| **Startup Time** | −20-40 s |
+| **Progression Impact** | More automation options, stable economy, faster load |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** – always recommended.
+2. **Backup your configs** if you customised any.
+3. Remove old config folders for *Project Red* mods to ensure default settings generate correctly.
+
+### After Updating
+- Check JEI for new/redone recipes.
+- Existing currency and items remain untouched.
+- Project Red gates & wires now available – experiment freely!
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **restoring the economy loop**, **expanding tech/automation** and **shortening the road to gameplay**. Enjoy the smoother start and the fresh redstone toys!
+
+> Thank you for playing Age of Fate! Enjoy the updates!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
 
 ---
 
