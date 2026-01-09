@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.4.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v449---20260105) - 2026.01.05 (Latest)
+- [[4.5.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v450---20260109) - 2026.01.09 (Latest)
+- [[4.4.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v449---20260105) - 2026.01.05
 - [[4.4.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v448---20260101) - 2026.01.01
 - [[4.4.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v447---20251224) - 2025.12.24
 - [[4.4.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v446---20251215) - 2025.12.15
@@ -61,6 +62,127 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.5.0] - 2026.01.09
+
+> 📌 **HIGHLIGHT:** Refined Storage tooltips added, Electrotine ore in Mining Dimension, 7 new mods & Sholas shaders!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Refined Storage Tooltips**: Storage parts now warn players about NBT-heavy items and encourage external storage for gear.
+- **Electrotine Ore**: Project Red – Expansion’s Electrotine now generates in the Mining Dimension for easier automation.
+- **Immersive Audio**: Sound Physics Remastered brings realistic sound propagation to every corner of your world.
+- **Visual Polish**: Continuity, Connectible Chains, Cool Rain Reforged, Particle Rain, Sooty Chimneys & Foolproof added for richer ambience.
+- **Fresh Shader**: Sholas Shaders included – try them for stunning new lighting!
+
+---
+
+## 🔧 Fixed
+
+- Pigs (and other passive mobs) no longer randomly drop Eyes from the End Remastered mod
+
+---
+
+## ➕ Added
+
+### New Mods
+- **Sound Physics Remastered**
+- **Continuity**
+- **Connectible Chains**
+- **Cool Rain Reforged**
+- **Particle Rain**
+- **Sooty Chimneys**
+- **Foolproof**
+
+### New Shaders
+- **Sholas Shaders**
+
+---
+
+## 🔄 Changed
+
+### ⚖️ Enhanced Features
+- Updated 15 core mods and 1 shader pack for improved compatibility, performance and fresh content (see full lists below).
+
+---
+
+## 📦 Updated Mods
+
+<details>
+<summary><strong>View All 15 Updated Mods</strong></summary>
+
+- Adaptive Optimization (reborn)
+- Almost Unified
+- AIOT Botania
+- AmbientSounds 6
+- Applied Botanics Addon
+- Create: Escalated
+- FastSuite
+- MineColonies
+- Moderately Enough Effect Descriptions (MEED)
+- Moonlight Lib
+- Structurize
+- SuperMartijn642’s Core Lib
+- Supplementaries
+- T.O Magic ’n Extras – Iron's Spells Addon
+- The Deep Void
+
+</details>
+
+## 📦 Updated Shaders
+
+- **MakeUp – Ultra Fast | Shaders**
+
+## ➖ Removed Mods
+
+*None in this release.*
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Mods Updated** | 15 |
+| **New Mods** | 7 |
+| **Critical Fixes** | 1 |
+| **Shaders Added** | 1 |
+| **Progression Impact** | Smarter storage, richer ambience, smoother performance |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** – always recommended.
+2. **Backup your economy file!**
+Before every update, copy the ``*.json`` file from ``Age of Fate\kubejs\IAOFEconomy`` (it contains your balance) — otherwise you’ll start from zero coins.
+3. Check existing Refined Storage setups – new tooltips may suggest external storage for heavily-enchanted gear.
+
+### After Updating
+- Explore the Mining Dimension for Electrotine veins.
+- Test new shaders via the in-game shader menu.
+- Enjoy cleaner mob drops – no more unexpected End Remastered eyes!
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **quality-of-life polish**, **storage clarity**, **ambient immersion** and **performance upkeep**. Enjoy the fresher sights & sounds!
+
+> Thank you for playing Age of Fate! Enjoy the enhancements!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
 
 ---
 
