@@ -250,7 +250,7 @@ Special thanks to all mod developers whose incredible work makes this modpack po
 
 ## 📊 Latest Version
 
-**Current Version**: [v4.5.0](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v450---20260109) (January 9, 2026)
+**Current Version**: [v4.5.0](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.5.0) (January 9, 2026)
 
 **Key Updates**:
 - ⚡ 100-133% shader FPS improvement
