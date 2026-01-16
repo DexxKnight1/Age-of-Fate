@@ -79,7 +79,7 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 | **Client with Shaders** | 180-350 FPS | Up from ~150 FPS baseline |
 | **Client without Shaders** | 500-900 FPS | Up from ~500 FPS baseline |
 | **Dedicated Server** | Stable 20 TPS | Zero "can't keep up" warnings |
-| **Server Boot Time** | ~183 seconds | With 634 mods on server |
+| **Server Boot Time** | ~183 seconds | With 651 mods on server |
 | **Stability** | 99%+ smooth | Minimal frame drops during exploration |
 
 ### 🔑 Key Optimizations
