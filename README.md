@@ -72,7 +72,7 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📊 Performance Benchmarks
 
-**Latest Version (v4.4.5)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
+**Latest Version (v4.5.0)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
 
 | Configuration | Performance | Notes |
 |--------------|-------------|-------|
