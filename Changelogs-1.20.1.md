@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.5.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v450---20260109) - 2026.01.09 (Latest)
+- [[4.5.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v451---20260116) - 2026.01.16 (Latest)
+- [[4.5.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v450---20260109) - 2026.01.09
 - [[4.4.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v449---20260105) - 2026.01.05
 - [[4.4.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v448---20260101) - 2026.01.01
 - [[4.4.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v447---20251224) - 2025.12.24
@@ -62,6 +63,162 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.5.1] - 2026.01.16
+
+> 📌 **HIGHLIGHT:** Universal Dust Processing System + Critical Bug Fixes!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Universal Dust Processing System**: Comprehensive 8-path crushing & 10-path smelting unification for all tech mods. Zero conflicts, maximum automation flexibility.
+- **Performance Optimization**: FastSuite downgrade resolves AE2 terminal lag issues.
+- **Botania Quest Accuracy**: Fixed Living Wood & Living Rock descriptions in quest book.
+- **Recipe Integrity**: Restored Uranium nuggets→ingot conversion.
+
+---
+
+## 🔧 Fixed
+
+- **[Bug #125](https://github.com/DexxKnight1/Age-of-Fate/issues/125)**: Torch texture rendering issue
+- **[Bug #126](https://github.com/DexxKnight1/Age-of-Fate/issues/126)**: Phyto-Gro not functioning for specific Mystical Agriculture seeds in Phytogenic Insolator
+- **[Bug #127](https://github.com/DexxKnight1/Age-of-Fate/issues/127)**: FastSuite 5.1.1 causing 0 FPS when opening JEI recipes in AE2 Crafting Terminal
+- **Botania Quests**: Corrected inaccurate Living Wood & Living Rock descriptions
+- **ATO**: Fixed Uranium nuggets to ingot recipe conversion
+
+---
+
+## ➕ Added
+
+### Enhanced Dust Processing Integration Unification System
+
+Implemented a comprehensive **8-path ingot/gem-to-dust processing system** & **10-path dust-to-ingot/gem processing system** that unifies all major tech mods into a single, seamless automation framework. This enhancement provides players with **maximum flexibility** while maintaining **perfect recipe integrity** across all machines.
+
+#### ✅ Supported Processing Paths
+
+**⚙️ 8-path for Crushing Ingot/Gem ➝ Dust System**
+- **Ore Hammering** – early-game accessibility
+- **Create Crushing & Milling** – mid-game accessibility
+- **Actually Additions Crusher** – mid-game accessibility
+- **EnderIO SAG Mill** – mid-game efficiency
+- **Immersive Engineering Crusher** – mid-game efficiency
+- **Thermal Pulverizer** – mid-game efficiency
+- **Mekanism Crushing Factory** – high-tier automation
+
+**🔥 10-path for melting Dust ➝ Ingot/Gem System**
+- **Vanilla Furnace & Blast Furnace** – early-game accessibility
+- **Create Bulk Blasting** – early-game accessibility
+- **Thermal Redstone Furnace & Induction Smelter** – mid-game efficiency
+- **EnderIO Alloy Smelter** – mid-game efficiency
+- **Mekanism Smelting Factory** – high-tier automation
+- **Immersive Engineering Arc Furnace** – late-game power
+- **Alex's Caves Nuclear Furnace** – late-game power
+- **Blood Magic ARC Furnace** – magic-integration
+- **💥BONUS: Tinkers Construct Smeltery** – early-game accessibility covers 95% of dust processing
+
+#### 🎯 Key Features
+- **Zero duplicate recipes** – clean, conflict-free system
+- **Intelligent priority handling** – recipes load in optimal order
+- **Full mod compatibility** – supports 700+ mod integration
+- **Player choice preservation** – every machine remains viable
+
+#### 💎 Result
+Players can now automate dust processing through **any preferred tech path** without worrying about missing recipes or conflicts. Whether using **early-game furnaces** or **late-game arc furnaces**, every method produces identical results with appropriate energy/time scaling.
+
+> This is part of our ongoing effort to create the ultimate tech-magic hybrid experience, with magic-based processing systems coming in future updates.
+
+---
+
+## 🔄 Changed
+
+### ⚖️ Enhanced Features
+- Updated 17 core mods for improved compatibility, performance and fresh content
+- Downgraded FastSuite to v5.1.0 for stability
+- Updated shader pack for enhanced visuals
+
+---
+
+## 📦 Updated Mods
+
+<details>
+<summary><strong>View All 17 Updated Mods</strong></summary>
+
+- Amendments
+- Cooking for Blockheads
+- Crafting Tweaks
+- Create: New Age
+- Create: Steam 'n' Rails
+- Ender IO
+- Extreme Sound Muffler
+- Fusion (Connected Textures)
+- KleeSlabs
+- MineColonies
+- Modonomicon
+- Mods Fixer
+- Moonlight Lib
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- The Deep Void
+- THE UNDEAD REVAMPED
+- Tinkers Construct
+- Waystones
+
+</details>
+
+## 📦 Updated Shaders
+
+- **MakeUp – Ultra Fast | Shaders**
+
+## ➖ Removed Mods
+
+*None in this release.*
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Mods Updated** | 17 |
+| **New Features** | 1 (Universal Dust Processing) |
+| **Critical Fixes** | 5 |
+| **Performance Fixes** | 1 (FastSuite downgrade) |
+| **Progression Impact** | Seamless tech automation, resolved quest accuracy |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** – always recommended.
+2. **Backup your economy file!**
+Before every update, copy the ``*.json`` file from ``Age of Fate\kubejs\IAOFEconomy`` (it contains your balance) — otherwise you'll start from zero coins.
+3. Check existing automation setups – new dust processing may offer more efficient paths.
+
+### After Updating
+- **Phyto-Gro catalyst requirement removed for Mystical Agriculture seeds in Phytogenic Insolator** (now processes without catalyst at 100,000 RF per operation)
+- Explore new dust processing automation opportunities
+- Experience improved AE2 terminal performance
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **universal tech mod compatibility**, **critical bug resolution**, and **automation framework enhancement**. The dust processing system represents a major step toward seamless tech-magic integration.
+
+> Thank you for playing Age of Fate! Enjoy the enhanced automation capabilities!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
 
 ---
 
