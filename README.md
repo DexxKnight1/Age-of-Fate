@@ -104,8 +104,8 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📦 Dual-Pack Strategy
 
-- **Client Pack**: 694 mods (includes rendering, optimization, and UI mods)
-- **Server Pack**: 634 mods (excludes 60 client-side mods)
+- **Client Pack**: 715 mods (includes rendering, optimization, and UI mods)
+- **Server Pack**: 651 mods (excludes 64 client-side mods)
 - **Benefit**: Maximum performance for both client and server environments
 
 
