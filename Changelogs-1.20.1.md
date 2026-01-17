@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.5.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v451---20260116) - 2026.01.16 (Latest)
+- [[4.5.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v452---20260117) - 2026.01.17 (Latest)
+- [[4.5.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v451---20260116) - 2026.01.16
 - [[4.5.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v450---20260109) - 2026.01.09
 - [[4.4.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v449---20260105) - 2026.01.05
 - [[4.4.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v448---20260101) - 2026.01.01
@@ -63,6 +64,110 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.5.2] - 2026.01.17
+
+> 📌 **HOTFIX:** Server Crash Fix + Mod Updates!
+
+---
+
+## ⚡ What's New in This Hotfix
+
+- **Server Crash Fix**: Resolved Arc Furnace recipe loading issue on dedicated servers
+- **Mod Updates**: 7 core mods updated for improved stability and compatibility
+
+---
+
+## 🔧 Fixed
+
+- **Dust Processing System – Server Crash Fix**
+  - Fixed Arc Furnace recipes failing on dedicated servers due to uppercase characters in recipe IDs
+  - This resolves an issue where servers would crash during recipe loading
+  - Client and server now work correctly without ResourceLocation exceptions
+  - Files Changed: `unify/dust_processing.js` – line 113
+  - Testing: Confirmed working on both client and dedicated server environments
+  - Note: No recipe behavior changes – purely a compatibility/loading fix
+
+---
+
+## ➕ Added
+
+*No new features in this hotfix release.*
+
+---
+
+## 🔄 Changed
+
+### ⚖️ Enhanced Features
+- Updated 7 core mods for improved compatibility and stability
+
+---
+
+## 📦 Updated Mods
+
+<details>
+<summary><strong>View All 7 Updated Mods</strong></summary>
+
+- Adaptive Optimization(reborn)
+- Amendments
+- Botanical Machinery
+- Eidolon : Repraised
+- Extreme sound muffler
+- Fusion (Connected Textures)
+- Moonlight Lib
+
+</details>
+
+## 📦 Updated Shaders
+
+*No shader updates in this hotfix.*
+
+## ➖ Removed Mods
+
+*None in this release.*
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Mods Updated** | 7 |
+| **New Features** | 0 (Hotfix release) |
+| **Critical Fixes** | 1 (Server crash fix) |
+| **Performance Fixes** | 0 |
+| **Progression Impact** | Server stability restored |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** – always recommended.
+2. **Backup your economy file!**
+Before every update, copy the ``*.json`` file from ``Age of Fate\kubejs\IAOFEconomy`` (it contains your balance) — otherwise you'll start from zero coins.
+
+### After Updating
+- Server operators should see immediate stability improvements
+- No changes to existing automation setups required
+
+---
+
+## 🏆 Special Notes
+
+This hotfix addresses a critical server crash introduced in v4.5.1. We apologize for any inconvenience caused and thank the community for their patience and detailed bug reports.
+
+> Thank you for playing Age of Fate! Enjoy the stable multiplayer experience!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
 
 ---
 
