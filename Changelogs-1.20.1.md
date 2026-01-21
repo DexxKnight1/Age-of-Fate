@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.5.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v452---20260117) - 2026.01.17 (Latest)
+- [[4.5.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v453---20260121) - 2026.01.21 (Latest)
+- [[4.5.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v452---20260117) - 2026.01.17
 - [[4.5.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v451---20260116) - 2026.01.16
 - [[4.5.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v450---20260109) - 2026.01.09
 - [[4.4.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v449---20260105) - 2026.01.05
@@ -64,6 +65,149 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.5.3] - 2026.01.21
+
+> 📌 **HIGHLIGHT:** Alloy Infusion Magic Integration + Critical Recipe Fixes!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Alloy Infusion Magic Integration**: Create Steel and seven classic alloys through 7 magic paths. Equal difficulty to tech, different gameplay!
+- **Recipe Conflict Resolution**: Fixed all Mechanical Press & Metal Press duplicate recipes between Create and Immersive Engineering.
+- **Raw Materials Processing Fix**: Unified all raw→ingot conversions (blocks, ores, crushed ores).
+- **Performance Optimization**: 14 core mods updated for improved compatibility and stability.
+
+---
+
+## 🔧 Fixed
+
+- Fixed the conflict in Mechanical Press recipes between Gears and Plates
+- Fixed duplicate Plate recipes for Create Mechanical Press & IE Metal Press
+- Fixed duplicate Rod recipes for Create Rolling Mill & IE Metal Press
+- Fixed all raw materials processing
+  - Raw blocks → 9x ingot
+  - Raw ores → 1x ingot
+  - Crushed ores → 1x ingot
+
+---
+
+## ➕ Added
+
+### 🔮 Alloy Infusion - Magic Mod Integration
+
+Implemented a comprehensive **KubeJS script system** that enables creation of **Steel and seven classic alloys** through **7 different magic paths**. This enhancement provides players with **magical alternatives** to tech-based alloy production while maintaining **equal difficulty** and **different gameplay requirements**.
+
+#### ✅ Supported Alloys
+- **Steel** (9 different methods - most versatile)
+- **Manyullyn** (7 methods)
+- **Electrical Steel** (7 methods)
+- **Copper Alloy** (7 methods)
+- **Redstone Alloy** (7 methods)
+- **Pulsating Alloy** (7 methods)
+- **Hepatizon** (6 methods)
+- **Sky Steel** (6 methods)
+
+#### 🎯 Magic Paths Available
+- **Botania Terra Plate** → Mana-based transmutation
+- **Ars Nouveau Enchanting** → Source-based arcane crafting
+- **Blood Magic Altar & Soul Forge** → Demonic blood rituals
+- **Eidolon Crucible & Worktable** → Arcane alloying
+- **EvilCraft Blood Infuser** → Blood essence infusion
+- **Hexerei Mixing Cauldron** → Mystic brewing
+- **Nature's Aura Altar** → Natural aura infusion
+
+#### ⚖️ Balance Philosophy
+- **Tech Path** → Requires machines + power infrastructure
+- **Magic Path** → Requires mana/blood/aura + setup
+- **Both Paths** → Equal difficulty, different gameplay! ⚖️
+
+#### 💎 Result
+Players can now choose between **tech automation** or **magical ritual** for alloy creation. Each method requires appropriate **resource investment**, **setup complexity**, and **energy/mana/blood** costs, ensuring **balanced progression** regardless of chosen path.
+
+> More alloys will be added in future updates. This is part of our ongoing effort to create the ultimate tech-magic hybrid experience.
+
+---
+
+## 🔄 Changed
+
+### ⚖️ Enhanced Features
+- Updated 14 core mods for improved compatibility, performance and fresh content
+- Continuity removed to prevent texture pack conflicts
+
+---
+
+## 📦 Updated Mods
+
+<details>
+<summary><strong>View All 14 Updated Mods</strong></summary>
+
+- Citadel
+- Colorwheel
+- ExtendedAE
+- Fast Loading
+- FTB Teams
+- Fzzy Config
+- Inventory Pets
+- Moderately Enough Effect Descriptions (MEED)
+- Mods Fixer
+- Oh The Trees You'll Grow
+- Snow! Real Magic! ⛄
+- Sophisticated Core
+- Sophisticated Storage
+- Tome of Blood: Rebirth
+
+</details>
+
+## ➖ Removed Mods
+
+- **Continuity** [It may lead to conflicts with certain texture packs]
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Mods Updated** | 14 |
+| **New Features** | 1 (Alloy Infusion Magic Integration) |
+| **Critical Fixes** | 4 |
+| **Performance Fixes** | 0 |
+| **Progression Impact** | New magical alloy crafting alternatives, resolved recipe conflicts |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** – always recommended.
+2. **Backup your economy file!**
+Before every update, copy the ``*.json`` file from ``Age of Fate\kubejs\IAOFEconomy`` (it contains your balance) — otherwise you'll start from zero coins.
+3. Check existing automation setups – new magical alloy methods may offer alternative progression paths.
+
+### After Updating
+- **Explore new magical alloy crafting opportunities** through 7 different magic mods
+- **Experience resolved recipe conflicts** between Create and Immersive Engineering
+- **Discover balanced alternatives** to tech-based alloy production
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **magical mod integration**, **recipe conflict resolution**, and **progression balance enhancement**. The Alloy Infusion system represents a major step toward seamless tech-magic integration, providing players with **meaningful choices** in their automation journey.
+
+> Thank you for playing Age of Fate! Enjoy the enhanced magical crafting capabilities!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
 
 ---
 
