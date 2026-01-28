@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.5.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v453---20260121) - 2026.01.21 (Latest)
+- [[4.5.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v454---20260128) - 2026.01.28 (Latest)
+- [[4.5.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v453---20260121) - 2026.01.21
 - [[4.5.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v452---20260117) - 2026.01.17
 - [[4.5.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v451---20260116) - 2026.01.16
 - [[4.5.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v450---20260109) - 2026.01.09
@@ -65,6 +66,167 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# ⛏️🔥 [AOF-v4.5.4] - 2026.01.28
+
+> 📌 **HIGHLIGHT:** Void Miner Overhaul + Performance Fixes & New Mods!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Void Miner Crystal & Ore Scaling Overhaul**: Complete KubeJS rewrite adding 8-tier progressive scaling (15 % crystals, 12 % ores) across all 4 dimensions. 290+ unique ores, dimension-specific weights, meaningful progression from Tier 1 to Tier 8.
+- **Critical Performance Fix**: Resolved severe lag caused by FastSuite + ModernFix + AE2 + JEI Integration.
+- **Fresh Content**: 7 new utility mods, Modular Routers quest-line, and 21 updated core mods for improved compatibility and stability.
+
+---
+
+## 🔧 Fixed
+
+- Fixed a severe performance issue that can occur with FastSuite + ModernFix + AE2 + JEI Integration
+
+---
+
+## ➕ Added
+
+### ⛏️ Void Miner – Crystal & Ore Scaling System
+
+Implemented an **extensive KubeJS-driven overhaul** that gives every Void Miner tier (1-8) **progressively better access** to crystals and ores, **scaling rewards** without hard locks, and **dimension-specific loot tables**.
+
+#### ✨ Major Features
+- **Crystal Scaling System**: 8-tier progressive scaling with **15 % increase per tier difference**
+- **Ore Scaling System**: All 4 dimensions support **12 % scaling per miner tier (1-8)**
+- **Universal Tier Support**: Every tier can access all ores/crystals with appropriate weights
+- **Dimension-Specific Balancing**: Overworld, Nether, End, and Mining dimensions each have **unique distributions**
+
+#### 📊 Scaling Breakdown
+| Tier | Crystal Range | Ore Multiplier |
+|------|---------------|----------------|
+| 1    | 1-2           | 1.00×          |
+| 2    | 1-3           | 1.12×          |
+| 3    | 1-4           | 1.24×          |
+| 4    | 1-5           | 1.36×          |
+| 5    | 1-6           | 1.48×          |
+| 6    | 1-7           | 1.60×          |
+| 7    | 1-8           | 1.72×          |
+| 8    | all           | 1.84×          |
+
+#### 🌍 Dimension Coverage
+- **Overworld**: 95 ores (AllTheOres, Mystical Agriculture, Thermal, Mekanism, EvilCraft, Forbidden & Arcanus, Allthemodium slate, Ancient Debris…)
+- **Nether**: 45 ores (Nether variants, cobalt, ardite, vibranium, ancient debris, quartz…)
+- **The End**: 30 ores (End variants, draconium, unobtainium, enderium shards…)
+- **Mining Dimension**: 120 ores (**all pooled tables**, highest crystal base weights)
+
+#### 🔧 Technical Improvements
+- 100 % Rhino-compatible scripting
+- Consistent recipe ID naming
+- Memory-optimised array-based ore management
+- Safe recipe removal before generation
+
+> See the full 290+ ore list and exact weights in the source script inside the mod-pack.
+
+#### 🎯 Player Experience
+- **Early Game**: Tier 1-3 miners give **accessible progression**
+- **Mid Game**: Tier 4-6 unlock **advanced materials** with **meaningful boost**
+- **Late Game**: Tier 7-8 offer **maximum efficiency** for every material
+- **Choice**: specialise per dimension or push one tier – both are viable
+- **Crystals**: higher tiers **progressively unlock more crystal types**
+
+---
+
+### 🆕 New Mods (7)
+
+| Mod | Purpose |
+|-----|---------|
+| **Quantified API** | Performance metrics API |
+| **spark** | Lightweight profiling & lag analysis |
+| **Observable** | In-game observable profiling |
+| **Horse Stonks** | Better horse trading |
+| **Shiny Horses Forge** | Enchantable horse armour |
+| **Modular Routers** | Item/exploration automation + new **quest line** |
+| **RFTools Storage** | Advanced storage & remote access early-game |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (21)
+
+<details>
+<summary><strong>View All 21 Updated Mods</strong></summary>
+
+- BlockUI
+- Botany Pots
+- Domum Ornamentum
+- FastSuite
+- ImmediatelyFast
+- Inventory Pets
+- Kiwi 🥝
+- MineColonies
+- Moderately Enough Effect Descriptions (MEED)
+- ModernFix
+- Moonlight Lib
+- MVS - Moog's Voyager Structures
+- RPG Origins
+- Shield Expansion
+- Sophisticated Core
+- Sophisticated Storage
+- SuperMartijn642's Core Lib
+- Structurize
+- The Deep Void
+- Vampirism Integrations
+
+</details>
+
+---
+
+## ➖ Removed Mods
+
+None
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Mods Updated** | 21 |
+| **New Mods** | 7 |
+| **Major Features** | 1 (Void Miner Overhaul) |
+| **Critical Fixes** | 1 (FastSuite/AE2/JEI freeze) |
+| **Performance Fixes** | 1 |
+| **Progression Impact** | **Significantly improved Void Miner scaling, new early-storage & profiling tools, fresh quest content** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** – always recommended.
+2. No economy-wipe changes; still good practice to backup `IAOFEconomy/*.json` if you track coins manually.
+
+### After Updating
+- **Check your Void Miner tier** – existing miners will **immediately benefit** from the new scaling weights.
+- **Run `/spark profiler` or `/profile start`** to try the new built-in profilers.
+- **Look for the new Modular Routers quest chapter** – rewards help early automation.
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **late-game scaling**, **server performance**, and **QoL tooling**. The Void Miner overhaul removes the artificial tier-locks while still making each upgrade feel meaningful. Spark + Observable give players and admins **professional-grade profiling** without leaving the game.
+
+> Thank you for playing Age of Fate! Enjoy the smoother ticks and richer mining rewards!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
 
 ---
 
