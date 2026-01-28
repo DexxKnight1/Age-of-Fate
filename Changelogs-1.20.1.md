@@ -69,7 +69,7 @@ Table of Contents
 
 ---
 
-# ⛏️🔥 [AOF-v4.5.4] - 2026.01.28
+# 🎮🔥 [AOF-v4.5.4] - 2026.01.28
 
 > 📌 **HIGHLIGHT:** Void Miner Overhaul + Performance Fixes & New Mods!
 
