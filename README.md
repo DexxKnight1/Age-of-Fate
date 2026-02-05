@@ -72,7 +72,7 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📊 Performance Benchmarks
 
-**Latest Version (v4.5.3)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
+**Latest Version (v4.5.5)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
 
 | Configuration | Performance | Notes |
 |--------------|-------------|-------|
@@ -104,8 +104,8 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📦 Dual-Pack Strategy
 
-- **Client Pack**: 715 mods (includes rendering, optimization, and UI mods)
-- **Server Pack**: 651 mods (excludes 64 client-side mods)
+- **Client Pack**: 733 mods (includes rendering, optimization, and UI mods)
+- **Server Pack**: 671 mods (excludes 64 client-side mods)
 - **Benefit**: Maximum performance for both client and server environments
 
 
