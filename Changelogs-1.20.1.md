@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.5.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v454---20260128) - 2026.01.28 (Latest)
+- [[4.5.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v455---20260205) - 2026.02.05 (Latest)
+- [[4.5.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v454---20260128) - 2026.01.28
 - [[4.5.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v453---20260121) - 2026.01.21
 - [[4.5.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v452---20260117) - 2026.01.17
 - [[4.5.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v451---20260116) - 2026.01.16
@@ -66,6 +67,129 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# ⛏️🔥 [AOF-v4.5.5] - 2026.02.05
+
+> 📌 **HIGHLIGHT:** Mod Updates & New Additions – 19 mods updated, 4 shaders updated, 9 new mods added for enhanced gameplay and stability.
+
+---
+
+## ⚡ What's New in This Update
+
+- **Fresh Content**: 9 new utility & integration mods, 19 updated core mods, and 4 refreshed shader packs for improved compatibility, performance, and visuals.
+- **Stability Boost**: Latest versions of Mekanism extras, spellbooks, storage tweaks, and config libraries keep everything running smooth on Forge 47.4.16.
+
+---
+
+## 🔧 Fixed
+
+- None
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (9)
+
+| Mod | Purpose |
+|-----|---------|
+| **Sync Fix Core** | Core sync safety library |
+| **Construct's Casting** | Tinkers' casting additions |
+| **Cataclysm: Spellbooks** | New spell content for Iron's Spells |
+| **Psionic Utilities** | Psi-themed tools & gadgets |
+| **Mekanism Extras** | Extra Mekanism content |
+| **Evolved Mekanism Extras** | Extended Mek features |
+| **Mekanism x Vampirism Integration: MekaSuit Modules** | Cross-mod armor modules |
+| **Chipped Express** | Chipped blocks fast transport |
+| **Refined Storage Mixin** | RS performance & compat tweaks |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (19)
+
+<details>
+<summary><strong>View All 19 Updated Mods</strong></summary>
+
+- All the Wizard Gear
+- AmbientSounds 6
+- Euphoria Patches
+- Extra Hostile Neural Networks
+- Forestry: Community Edition
+- Fzzy Config
+- GeckoLib
+- Gendustry: Community Edition
+- Inventory Profiles Next
+- Iron's Spells 'n Spellbooks
+- LootJS: KubeJS Addon
+- Mantle
+- MineColonies
+- Mods Fixer
+- Not Enough Animations
+- Sophisticated Core
+- Sophisticated Storage
+- Sync Fix
+- Tinker and Better Combat
+
+</details>
+
+### 🎨 Updated Shaders (4)
+
+- Complementary Shaders – Reimagined
+- Complementary Shaders – Unbound
+- MakeUp – Ultra Fast | Shaders
+- Solas Shader
+
+---
+
+## ➖ Removed Mods
+
+None
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Mods Updated** | 19 |
+| **Shaders Updated** | 4 |
+| **New Mods** | 9 |
+| **Major Features** | 0 |
+| **Critical Fixes** | 0 |
+| **Performance Fixes** | 0 |
+| **Progression Impact** | **New spell tools, Mekanism extras, storage & sync improvements** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** – always recommended.
+
+### After Updating
+- Existing Mekanism setups remain intact; new extras unlock automatically.
+- Check JEI for new spellbook recipes from Cataclysm: Spellbooks.
+- Shader presets refresh – re-select your favorite in video settings if needed.
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **mod compatibility**, **fresh content**, and **visual polish**. No world-breaking changes; just more toys to play with and smoother internals under the hood.
+
+> Thank you for playing Age of Fate! Enjoy the new gear, spells, and shaders!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
 
 ---
 
