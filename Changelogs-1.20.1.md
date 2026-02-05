@@ -70,7 +70,7 @@ Table of Contents
 
 ---
 
-# ⛏️🔥 [AOF-v4.5.5] - 2026.02.05
+# 🎮🔥 [AOF-v4.5.5] - 2026.02.05
 
 > 📌 **HIGHLIGHT:** Mod Updates & New Additions – 19 mods updated, 4 shaders updated, 9 new mods added for enhanced gameplay and stability.
 
