@@ -277,7 +277,7 @@ Paste the IP directly in-game (*Multiplayer → Add Server*) – no Discord requ
 2. Minecraft → Multiplayer → Add Server → paste IP → Done → Join!
 
 ### Want your server listed?
-Open a [GitHub issue](https://github.com/DexxKnight1/Age-of-Fate-1.16.5/issues) or DM **DexxKnight** on Discord with:
+Open a [GitHub issue](https://github.com/DexxKnight1/Age-of-Fate/issues) or DM **DexxKnight** on Discord with:
 - Server IP:PORT  
 - Short description (max 60 chars)  
 - AOF version you run  
