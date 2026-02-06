@@ -269,7 +269,7 @@ Paste the IP directly in-game (*Multiplayer → Add Server*) – no Discord requ
 
 | Server Name | IP / Port | AOF Version | Location | Notes | Added |
 |-------------|-----------|-------------|----------|-------|-------|
-| **ExampleCraft** | `play.example.com:25565` | 4.5.5 | EU | KeepInventory on, 20 TPS, fresh map | 2026-02-06 |
+| **Infinite Gaming** | `ageoffate.infinitegamingservers.com` | 4.4.7 | US | Public server (note: older version) | 2026-02-06 |
 | **YourServerHere** | `your.ip.here` | 4.5.x | ? | *DM us to add yours* | — |
 
 ### How to join in 10 seconds
@@ -277,7 +277,7 @@ Paste the IP directly in-game (*Multiplayer → Add Server*) – no Discord requ
 2. Minecraft → Multiplayer → Add Server → paste IP → Done → Join!
 
 ### Want your server listed?
-Open a [GitHub issue](https://github.com/DexxKnight1/Age-of-Fate/issues/new) or DM **DexxKnight** on Discord with:
+Open a [GitHub issue](https://github.com/DexxKnight1/Age-of-Fate-1.16.5/issues) or DM **DexxKnight** on Discord with:
 - Server IP:PORT  
 - Short description (max 60 chars)  
 - AOF version you run  
