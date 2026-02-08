@@ -29,7 +29,7 @@ Forge alliances, uncover secrets, and define your legend in a realm torn between
 
 ### 🌟 Core Experience
 - **4,820+ Quests** across 16 Chapter Groups and 72 Chapters
-- **700+ Mods** carefully curated for performance and gameplay
+- **730+ Mods** carefully curated for performance and gameplay
 - **Custom Ambient Music** for immersive atmosphere
 - **Unique Adventure** to reach the End with End Remastered mod
 - **Player Shop System** for trading and purchasing items
