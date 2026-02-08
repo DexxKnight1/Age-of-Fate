@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.5.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v455---20260205) - 2026.02.05 (Latest)
+- [[4.5.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v456---20260207) - 2026.02.07 (Latest)
+- [[4.5.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v455---20260205) - 2026.02.05
 - [[4.5.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v454---20260128) - 2026.01.28
 - [[4.5.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v453---20260121) - 2026.01.21
 - [[4.5.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v452---20260117) - 2026.01.17
@@ -67,6 +68,127 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.5.6] - 2026.02.07
+
+> 📌 **HIGHLIGHT:** Naquadah Integration + Dark Arts & Performance Fixes!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Naquadah Ore Integration**: Added Naquadah ore to the Mining Dimension and fully integrated it into the Void Miner.
+- **The Dark Arts**: Two new Goety mods bring forbidden magic and cataclysmic events—forge your destiny with power!
+- **Performance & Stability**: Fixed memory settings, resolved Evolved Mekanism issues, and corrected questline bugs.
+
+---
+
+## 🔧 Fixed
+
+- Adjusted the author's recommended memory settings back to 16 GB
+- Fixed the mess caused by Evolved Mekanism and Evolved Mekanism Extras
+- Fixed Astral Dust now spawning in End City loot chests
+- Fixed Sulfur Dust issue in the Mekanism Part 2 questline
+
+---
+
+## ➕ Added
+
+### ⛏️ Naquadah Ore Integration
+
+Implemented **Naquadah ore** into the Mining Dimension and **fully integrated it into the Void Miner**.
+
+#### ✨ Major Features
+- **Mining Dimension Spawns**: Naquadah ore now generates in the Mining Dimension
+- **Void Miner Integration**: Added to the Void Miner loot tables with appropriate weights
+- **Progressive Scaling**: Benefits from the existing 8-tier scaling system
+- **Universal Access**: All miner tiers can access Naquadah with appropriate weights
+
+#### 🎯 Player Experience
+- **Early Game**: Tier 1-3 miners give accessible Naquadah progression
+- **Mid Game**: Tier 4-6 unlock advanced Naquadah yields
+- **Late Game**: Tier 7-8 offer maximum Naquadah efficiency
+- **Choice**: Specialize per dimension or push one tier – both are viable
+
+---
+
+### 🆕 New Mods (2)
+
+| Mod | Purpose |
+|-----|---------|
+| **Goety - The Dark Arts** | Forbidden magic and dark arts system |
+| **Goety Cataclysm** | Cataclysmic events and powerful rituals |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (8)
+
+<details>
+<summary><strong>View All 8 Updated Mods</strong></summary>
+
+- Construct's Casting
+- Domum Ornamentum
+- Euphoria Patches
+- Extended Terminal
+- Moderately Enough Effect Descriptions (MEED)
+- Sophisticated Storage
+- Structurize
+- The Deep Void
+
+</details>
+
+---
+
+## ➖ Removed Mods
+
+- **Evolved Mekanism** [Redundant, mistakenly included in the previous update]
+- **Evolved Mekanism Extras** [Redundant, mistakenly included in the previous update]
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Mods Updated** | 8 |
+| **New Mods** | 2 |
+| **Major Features** | 2 (Naquadah Integration & Goety Magic) |
+| **Critical Fixes** | 4 |
+| **Performance Fixes** | 1 |
+| **Progression Impact** | **Significantly improved resource diversity, new magic progression path, resolved critical issues** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** – always recommended.
+2. No economy-wipe changes; still good practice to backup `IAOFEconomy/*.json` if you track coins manually.
+
+### After Updating
+- **Check your Void Miner** – existing miners will immediately benefit from Naquadah integration.
+- **Explore Goety magic** – new dark arts progression path available.
+- **Verify memory settings** – should now default to 16 GB as recommended.
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **resource diversity**, **magic progression**, and **stability fixes**. The Naquadah integration expands the Void Miner's capabilities while Goety introduces a new magic system. Removal of redundant Evolved Mekanism mods resolves previous conflicts.
+
+> Thank you for playing Age of Fate! Enjoy the new resources and forbidden magic!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
 
 ---
 
