@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.5.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v456---20260207) - 2026.02.07 (Latest)
+- [[4.5.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v457---20260214) - 2026.02.14 (Latest)
+- [[4.5.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v456---20260207) - 2026.02.07
 - [[4.5.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v455---20260205) - 2026.02.05
 - [[4.5.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v454---20260128) - 2026.01.28
 - [[4.5.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v453---20260121) - 2026.01.21
@@ -68,6 +69,179 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.5.7] - 2026.02.14
+
+> 📌 **HIGHLIGHT:** Fate’s Fortune Casino + Custom Rewards & Magic Mods!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Fate’s Fortune Casino Questline**: A thrilling new casino-themed questline with custom KubeJS scripts for gambling mechanics, reward unlocking, and economy integration. Includes tiered Fate Vouchers, Money Bundles, Mystical Agriculture Seed Pouches, and Currency Multiplier Tokens.
+- **Custom Items and Scripts**: New obtainable rewards via quests, enhancing gameplay with random elements, boosts, and unlocks.
+- **New Data Packs and Mods**: Added 4 data packs for world generation and structures, plus Mahou Tsukai for magical content.
+- **Performance and Fixes**: Resolved KubeJS warnings and recipe tags for smoother experience, with 37 updated mods for better compatibility.
+
+---
+
+## 🔧 Fixed
+
+- Fixed multiple warning messages in the KubeJS log
+- Fixed the missing tag for recipes that utilize Netherite Dust
+
+---
+
+## ➕ Added
+
+### 🎰 Fate’s Fortune Casino – Custom Rewards System
+
+Implemented an **extensive KubeJS-driven questline** featuring custom items and scripts that add gambling, random rewards, and economy boosts. Obtain items via quest rewards and right-click to activate.
+
+#### ✨ Major Features
+- **Casino Reward Set Unlocker**: Right-click custom items to unlock full sets (armor, tools, structures). Consumes item with visual/audio feedback; supports multiple tiers.
+- **Fate's Voucher Gamble System**: Tiered vouchers (Bronze to Emerald) with weighted random outcomes (currency, items, or bust). Integrates with economy, shows balance updates, and includes particles.
+- **Money Bundle Unwrapper**: Right-click for random currency amounts; tiered bundles (Common to Mythic) with custom ranges and direct economy deposits.
+- **Mystical Agriculture Seeds Pouch Unlocker**: Right-click for one random seed from 12 possibilities per tier (Bronze to Emerald). Consumes pouch with feedback.
+- **Currency Multiplier Token Boost**: Applies temporary multipliers to all drops, stored in player persistentData.
+
+#### 📊 Custom Items Breakdown
+| Item Type | Details |
+|-----------|---------|
+| **Currency Multiplier Tokens** | Temporary boosts to drops; quest rewards |
+| **Money Bundles** | Random currency unwrap; integrates with economy |
+| **Custom Armor Sets, Multiblocks Setups, Weapon & Tool Sets** | Unlock full sets via right-click |
+| **Custom Mysticalagriculture Seed Pouches** | Random seed per tier |
+| **Casino Vouchers** | Trigger gambles and rewards |
+
+#### 🔧 Technical Improvements
+- KubeJS scripts for AOF Custom Rewards: Handlers for casino, vouchers, bundles, and pouches.
+- Full integration with existing economy system for balance updates and feedback.
+
+> See the full questline and script details in the mod-pack source.
+
+#### 🎯 Player Experience
+- **Early Game**: Start with basic vouchers and bundles for quick rewards.
+- **Mid Game**: Unlock pouches and sets for progression boosts.
+- **Late Game**: Use multipliers and high-tier gambles for massive gains.
+- **Fun Factor**: Random elements with risks/rewards add excitement.
+
+---
+
+### 🆕 New Mods (1)
+
+| Mod | Purpose |
+|-----|---------|
+| **Mahou Tsukai** | Advanced magic system with spells and artifacts |
+
+---
+
+### 📦 New Data Packs (4)
+
+- Trek
+- Sunken Spires
+- Twilight Forest - Aurora Palace Regeared
+- Improved Pillager Outpost
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (37)
+
+<details>
+<summary><strong>View All 37 Updated Mods</strong></summary>
+
+- Applied Flux
+- AttributeFix
+- BlockUI
+- Bookshelf
+- Botany Pots
+- Botany Trees
+- Chat Heads
+- Crash Assistant
+- Cupboard
+- Dark Utilities
+- Enchantment Descriptions
+- Euphoria Patches
+- ExtendedAE
+- Farmer's Delight
+- FTB Essentials
+- FTB Quests
+- Goety - The Dark Arts
+- Hostile Mobs and Girls (HMaG)
+- Iron's Spells 'n Spellbooks
+- Just Enough Mekanism Multiblocks
+- Macaw's Doors
+- Max Health Fix
+- MineColonies
+- Mobtimizations - Entity Performance Fixes
+- Neruina - Ticking Entity Fixer
+- Pig Pen Cipher
+- Primitive Start
+- Quantified API
+- Runelic
+- Shield Expansion
+- Sinytra Connector
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Structurize
+- Sync Fix
+- Sync Fix Core
+- Tool Stats
+
+</details>
+
+---
+
+## ➖ Removed Mods
+
+None
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Mods Updated** | 37 |
+| **New Mods** | 1 |
+| **Major Features** | 1 (Fate’s Fortune Casino Questline) |
+| **Critical Fixes** | 2 (KubeJS warnings and recipe tags) |
+| **Performance Fixes** | Minor (via updates) |
+| **Progression Impact** | **New questline adds fun, random rewards; magic mod expands gameplay** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** – always recommended.
+2. No economy-wipe changes; still good practice to backup `IAOFEconomy/*.json` if you track coins manually.
+
+### After Updating
+- **Explore the new Fate’s Fortune Casino questline** – rewards include custom items for gambling and boosts.
+- **Check Mahou Tsukai** for new magic mechanics.
+- **Verify KubeJS logs** for the fixed warnings.
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **engaging content**, **custom rewards**, and **magical expansion**. The casino questline introduces fun gambling mechanics with real economy ties, while custom scripts add depth to rewards. Mahou Tsukai brings powerful spells to complement existing mods.
+
+> Thank you for playing Age of Fate! Enjoy the rolls and rewards!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
 
 ---
 
