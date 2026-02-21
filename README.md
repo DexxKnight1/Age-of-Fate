@@ -29,7 +29,7 @@ Forge alliances, uncover secrets, and define your legend in a realm torn between
 
 ### 🌟 Core Experience
 - **4,820+ Quests** across 16 Chapter Groups and 72 Chapters
-- **730+ Mods** carefully curated for performance and gameplay
+- **740+ Mods** carefully curated for performance and gameplay
 - **Custom Ambient Music** for immersive atmosphere
 - **Unique Adventure** to reach the End with End Remastered mod
 - **Player Shop System** for trading and purchasing items
@@ -79,7 +79,7 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 | **Client with Shaders** | 180-350 FPS | Up from ~150 FPS baseline |
 | **Client without Shaders** | 500-900 FPS | Up from ~500 FPS baseline |
 | **Dedicated Server** | Stable 20 TPS | Zero "can't keep up" warnings |
-| **Server Boot Time** | ~183 seconds | With 672 mods on server |
+| **Server Boot Time** | ~183 seconds | With 679 mods on server |
 | **Stability** | 99%+ smooth | Minimal frame drops during exploration |
 
 ### 🔑 Key Optimizations
@@ -104,8 +104,8 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📦 Dual-Pack Strategy
 
-- **Client Pack**: 734 mods (includes rendering, optimization, and UI mods)
-- **Server Pack**: 672 mods (excludes 64 client-side mods)
+- **Client Pack**: 741 mods (includes rendering, optimization, and UI mods)
+- **Server Pack**: 679 mods (excludes 64 client-side mods)
 - **Benefit**: Maximum performance for both client and server environments
 
 
@@ -250,7 +250,7 @@ Special thanks to all mod developers whose incredible work makes this modpack po
 
 ## 📊 Latest Version
 
-**Current Version**: [v4.5.7](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.5.7) (February 14, 2026)
+**Current Version**: [v4.5.8](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.5.8) (February 21, 2026)
 
 **Key Updates**:
 - ⚡ 100-133% shader FPS improvement
