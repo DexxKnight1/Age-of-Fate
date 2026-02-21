@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.5.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v457---20260214) - 2026.02.14 (Latest)
+- [[4.5.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v458---20260221) - 2026.02.21 (Latest)
+- [[4.5.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v457---20260214) - 2026.02.14
 - [[4.5.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v456---20260207) - 2026.02.07
 - [[4.5.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v455---20260205) - 2026.02.05
 - [[4.5.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v454---20260128) - 2026.01.28
@@ -69,6 +70,144 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.5.8] - 2026.02.21
+
+> 📌 **HIGHLIGHT:** When Dungeons Arise Questline + Magic & Computation Mods!
+
+---
+
+## ⚡ What's New in This Update
+
+- **When Dungeons Arise Questline**: An epic new questline that introduces incredible dungeons with challenging encounters and valuable treasures. Explore massive structures and battle powerful foes.
+- **Magic System Expansion**: New magic mods including Electroblob's Wizardry Redux and Mana Unification for enhanced spellcasting and magical mechanics.
+- **Computation & Advanced Tech**: Added CC: Tweaked, CC:C Bridge, and Advanced Peripherals for programmable computing and automation.
+- **Industrial Additions**: More Industrial Foregoing Addons (MIFA) expands crafting and processing capabilities.
+- **Performance and Fixes**: Resolved Silver Vouchers rewards issue and End Remastered eye drops bug with fixes applied to both client and server sides. 21 updated mods for better compatibility.
+
+---
+
+## 🔧 Fixed
+
+- Fixed Silver Vouchers rewards issue
+- Fixed random End Remastered eye drops by eliminating pigs (This time the fix works on both client and server sides)
+
+---
+
+## ➕ Added
+
+### 🏰 When Dungeons Arise – Epic Questline Expansion
+
+Explore **massive new dungeons** with challenging encounters, rare loot, and thrilling adventures. This questline integrates seamlessly with the modpack's progression system.
+
+#### ✨ Major Features
+- **Dungeon Discovery**: Find and explore new structure variations throughout your world.
+- **Combat Challenges**: Face custom-tuned boss encounters and mob variations.
+- **Rare Treasures**: Unlock unique loot rewards for completing dungeons.
+- **Quest Integration**: Full quest tracking and progression rewards via FTB Quests.
+
+#### 🎯 Player Experience
+- **Early Game**: Discover basic dungeons for starter-tier rewards.
+- **Mid Game**: Face challenging encounters with better loot.
+- **Late Game**: Unlock exclusive end-game dungeons with maximum rewards.
+
+---
+
+### 🆕 New Mods (6)
+
+| Mod | Purpose |
+|-----|---------|
+| **CC: Tweaked** | Advanced Lua-based computing for automation |
+| **CC:C Bridge** | Integration between CC: Tweaked and other mods |
+| **Advanced Peripherals** | Extended computing peripherals for CC: Tweaked |
+| **Electroblob's Wizardry Redux** | Comprehensive magic system with spells and artifacts |
+| **Mana Unification** | Unified mana pool for multiple magic mods |
+| **More Industrial Foregoing Addons (MIFA)** | Expanded Industrial Foregoing processing |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (21)
+
+<details>
+<summary><strong>View All 21 Updated Mods</strong></summary>
+
+- Actually Subtractions
+- Applied Flux
+- Bosses'Rise
+- Botania
+- Brutal Bosses - Custom Bosses
+- Building But Better
+- Client Crafting
+- CreativeCore
+- Cyclops Core
+- Eidolon : Repraised
+- Gnetum
+- Goety - The Dark Arts
+- Macaw's Bridges
+- MineColonies
+- Not Enough Animations
+- Quantified API
+- Sophisticated Backpacks
+- Sophisticated Core
+- TACT - Tiny Alex's Caves Tweaks
+- Tinker and Better Combat
+- Underlay
+- Waystones
+
+</details>
+
+---
+
+## ➖ Removed Mods
+
+None
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Mods Updated** | 21 |
+| **New Mods** | 6 |
+| **New Questline** | 1 (When Dungeons Arise) |
+| **Critical Fixes** | 2 (Silver Vouchers & End Remastered eye drops) |
+| **Forge Version** | 47.4.16 |
+| **Progression Impact** | **New questline adds epic dungeons; magic & computation mods expand gameplay depth** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** – always recommended.
+2. No economy-wipe changes; still good practice to backup important player data.
+
+### After Updating
+- **Explore the new When Dungeons Arise questline** – start with basic dungeons and progress to end-game variations.
+- **Check Magic Mods**: Experiment with Electroblob's Wizardry Redux for new spellcasting mechanics.
+- **Explore Computing**: Use CC: Tweaked and Advanced Peripherals for advanced automation.
+- **Verify mod compatibility** for any custom scripts or integrations.
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **epic exploration**, **magical depth**, and **advanced automation**. The new When Dungeons Arise questline provides engaging challenges and progression rewards. The addition of 8 new mods significantly expands gameplay possibilities with magic systems and computing capabilities.
+
+> Thank you for playing Age of Fate! Discover dungeons, master magic, and automate with computing!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
 
 ---
 
