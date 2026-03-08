@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.5.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v458---20260221) - 2026.02.21 (Latest)
+- [[4.5.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v459---20260308) - 2026.03.08 (Latest)
+- [[4.5.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v458---20260221) - 2026.02.21
 - [[4.5.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v457---20260214) - 2026.02.14
 - [[4.5.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v456---20260207) - 2026.02.07
 - [[4.5.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v455---20260205) - 2026.02.05
@@ -70,6 +71,241 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.5.9] - 2026.03.08
+
+> 📌 **HIGHLIGHT:** Shards of Fate Premium Currency + 8-Tier Reputation System + Custom Items!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Shards of Fate Currency System**: A powerful new premium currency earned through the Shop, Reputation system, and seasonal events. Use Shards to refill the Essence of Fate and unlock exclusive rewards.
+- **8-Tier Reputation System**: Progress from OUTSIDER to CHOSEN, earning increasingly valuable rewards including Shards, custom items (Guardian Sigil, Lightning Crystal, Elder's Token), and special privileges.
+- **Custom Artifacts**: Four legendary items with unique abilities – Guardian Sigil (Resistance V), Lightning Crystal (summon lightning), and Elder's Token (Luck boost).
+- **Unified Shop System**: New chat-based shop with clickable item purchasing, balance checking, and real-time economy management.
+- **Massive Mod Updates**: 40+ mods updated for improved compatibility, stability, and new features. New shader updates for enhanced visuals.
+- **Performance & Fixes**: Resolved Bronze Vouchers rewards issue and Iron ore generation bug with Primitive Start downgrade.
+
+---
+
+## 🔧 Fixed
+
+- Fixed Bronze Vouchers rewards issue
+- Fixed Iron ore issue by downgrading Primitive Start mod to v2.0.0
+
+---
+
+## ➕ Added
+
+### 💎 Shards of Fate – Premium Currency System
+
+A multi-tiered currency system designed to enhance progression and provide multiple paths to exclusive rewards.
+
+#### 🪙 Shard Denominations (5 Tiers)
+
+| Shard Type | Value | USD Equivalent |
+|-----------|-------|-----------------|
+| **Shard of Fate** | 1 | $10 |
+| **Greater Shard** | 5 | $50 |
+| **Exalted Shard** | 25 | $250 |
+| **Transcendent Shard** | 100 | $1,000 |
+| **Mythic Shard** | 500 | $5,000 |
+
+#### 🎯 Essence of Fate Refill
+- **Required Value**: 16,000 Shard Value
+- **Equivalent To**: 32x Mythic Shards or $160,000
+
+#### 📍 How to Obtain Shards
+
+- **Direct Purchase**: Shop (1:10 ratio - 1 value = $10)
+- **Reputation Rewards**: Unlock at each tier advancement
+- **Seasonal Events**: Special challenges and limited-time events
+- **Special Challenges**: Unique in-game achievements
+
+---
+
+### 🎖️ Reputation System – 8 Tiers
+
+A comprehensive progression system rewarding player engagement with valuable items and currency.
+
+#### Tier Breakdown
+
+| Tier | Name | RP Threshold | Description | Reward |
+|------|------|--------------|-------------|--------|
+| 1 | **OUTSIDER** | 0 | Nobody knows you | None |
+| 2 | **NEUTRAL** | 100 | Recognized | 50 Shards |
+| 3 | **ACQUAINTED** | 250 | Known friendly | 100 Shards + 5x Shard of Fate |
+| 4 | **ALLY** | 500 | True ally | 250 Shards + 3x Greater Shard |
+| 5 | **VANGUARD** | 2,500 | Battle companion | 500 Shards + 2x Exalted Shard |
+| 6 | **CHAMPION** | 5,000 | Legendary champion | 1,000 Shards + 2x Transcendent Shard |
+| 7 | **EXALTED** | 7,500 | Nearly divine | 2,500 Shards + 3x Transcendent Shard + Guardian Sigil |
+| 8 | **CHOSEN** | 15,000 | Chosen by fate itself | 5,000 Shards + 2x Mythic Shard + Elder's Token |
+
+---
+
+### ✨ Custom Artifacts
+
+#### 🛡️ Guardian Sigil
+- **Activation**: Right-click with item in hand
+- **Effect**: Resistance V (Amplifier 4) for 5 seconds
+- **Cooldown**: 3,600 seconds (1 hour)
+- **Obtainable**: Reputation Tier 7 (EXALTED)
+
+#### ⚡ Lightning Crystal
+- **Activation**: Right-click with item in hand
+- **Effect**: Summons lightning bolt at player position
+- **Cooldown**: 900 seconds (15 minutes)
+- **Obtainable**: Custom item reward or crafted through Chronicles of Fate
+
+#### 🏺 Elder's Token
+- **Activation**: Right-click with item in hand
+- **Effect**: Luck effect for 1 hour (72,000 ticks)
+- **Usage**: Single use item
+- **Obtainable**: Reputation Tier 8 (CHOSEN)
+
+---
+
+### 🔨 KubeJS Scripts Added
+
+| Script | Purpose |
+|--------|---------|
+| **Shards of Fate - Essence Refuel Currency System** | Manages Shard denominations, conversion rates, and Essence refilling mechanics |
+| **The Chronicles of Fate** | Contains all recipes for creating the Nexus of Fate and related artifacts |
+| **Unified Economy & Shards - Premium Auto-Deposit** | Automated Shard deposit system for premium players |
+| **Reputation System** | 8-tier reputation tracking with reward distribution and progression mechanics |
+
+---
+
+### 🛒 Unified Shop System
+
+A streamlined, chat-based shopping experience for easy item purchasing and balance management.
+
+#### Commands
+- `/shop list <page_number>` – View shop items with clickable interface
+- `/bal` or `/balance` – Check current account balance
+- **Clickable Items**: Simply click item names in chat to purchase directly
+
+#### Features
+- Real-time inventory updates
+- Multiple page support for extensive catalogs
+- Integrated balance checking
+- Transaction history tracking
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (40+)
+
+<details>
+<summary><strong>View All 40+ Updated Mods</strong></summary>
+
+- AdvancedAE
+- Aquamirae
+- Ars Elemental
+- Bosses'Rise
+- Cataclysm: Spellbooks
+- Crash Assistant
+- Doggy Talents Next
+- Eidolon: Repraised
+- Electroblob's Wizardry Redux
+- Ender IO
+- Energy Meter
+- Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons
+- Forestry: Community Edition
+- Goety - The Dark Arts
+- Guard Villagers
+- Iron's Spells 'n Spellbooks
+- Item Collectors
+- Mekanism Pipez Fix
+- MineColonies
+- Moderately Enough Effect Descriptions (MEED)
+- Moonlight Lib
+- Neruina - Ticking Entity Fixer
+- Particle Rain
+- Quantified API
+- Relics
+- Repurposed Structures
+- Sooty Chimneys
+- Sophisticated Backpacks
+- Sophisticated Core
+- Structurize
+- Tinker and Better Combat
+- TConJEI
+- Tinker's Planner Reborn
+- Tinkers' Thinking
+- Waystones
+
+</details>
+
+### 📉 Downgraded Mods
+
+- **Primitive Start** – Rolled back to v2.0.0 to resolve Iron ore generation issues
+
+### 🎨 Updated Shaders
+
+- MakeUp - Ultra Fast | Shaders
+- Solas Shader
+
+---
+
+## 📊 Impact Summary
+
+| Category | Changes |
+|----------|---------|
+| **Mods Updated** | 40+ |
+| **Custom Items Added** | 4 (Guardian Sigil, Lightning Crystal, Elder's Token, Shard types) |
+| **Reputation Tiers** | 8 (OUTSIDER → CHOSEN) |
+| **KubeJS Scripts** | 4 (Shards, Chronicles, Economy, Reputation) |
+| **Shop Commands** | 2 (/shop, /bal) |
+| **Critical Fixes** | 2 (Bronze Vouchers & Iron ore) |
+| **Forge Version** | 47.4.16 |
+| **Progression Impact** | **Major expansion of economy system with multi-tiered rewards, artifact progression, and reputation tracking** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** – always recommended for major updates.
+2. Backup your economy file! Before every update, copy the *.json file from Age of Fate\kubejs\AOFEconomy (it contains your balance) — otherwise you'll start from zero coins.
+3. Backup your reputation file! Before every update, copy the *.json file from Age of Fate\kubejs\AOFReputation (it contains your reputation) — otherwise you'll start from zero RP.
+
+### After Updating
+- **Reputation System Starts at 0**: All players begin as OUTSIDER and can earn reputation points through gameplay.
+- **Explore the Shop**: Use `/shop list` to view available items and start collecting Shards.
+- **Check Your Balance**: Execute `/bal` to see current account status.
+- **Reputation Rewards**: Monitor your RP threshold to unlock new tiers and rare items.
+- **Custom Artifacts**: Test Guardian Sigil, Lightning Crystal, and Elder's Token abilities.
+- **Verify Scripts**: Ensure KubeJS scripts loaded correctly on server startup.
+
+---
+
+## 🏆 Special Notes
+
+This release represents a **major economy and progression overhaul**. The Shards of Fate system provides multiple engagement paths, while the 8-tier Reputation System creates long-term goals for players. Custom Artifacts add legendary endgame items with powerful effects. The Unified Shop System streamlines transactions and makes economy participation accessible to all players.
+
+**Player Progression Flow:**
+1. Start as OUTSIDER (0 RP)
+2. Earn RP through gameplay and challenges
+3. Unlock reputation tiers and corresponding Shard rewards
+4. Accumulate Shards through multiple sources
+5. Use Shards to refill Essence of Fate and access exclusive content
+6. Reach CHOSEN status for maximum rewards
+
+> Thank you for playing Age of Fate! Climb the reputation ladder, master the Shards of Fate, and become CHOSEN!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate)
 
 ---
 
