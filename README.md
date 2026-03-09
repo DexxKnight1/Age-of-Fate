@@ -68,11 +68,11 @@ Forge alliances, uncover secrets, and define your legend in a realm torn between
 
 ## ⚡ Performance & Optimization
 
-Age of Fate has been **extensively optimized** to deliver smooth gameplay even with 700+ mods.
+Age of Fate has been **extensively optimized** to deliver smooth gameplay even with 740+ mods.
 
 ### 📊 Performance Benchmarks
 
-**Latest Version (v4.5.7)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
+**Latest Version (v4.5.9)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
 
 | Configuration | Performance | Notes |
 |--------------|-------------|-------|
@@ -212,7 +212,7 @@ Use promo code **`KNIGHTDEXX`** and get **25% off** your first month for any gam
 
 ### Dedicated Server
 
-1. Download the **server pack** (634 mods)
+1. Download the **server pack** (679 mods)
 2. Allocate **12-15GB RAM** minimum
 3. Apply the recommended JVM arguments
 4. Configure server properties
@@ -250,7 +250,7 @@ Special thanks to all mod developers whose incredible work makes this modpack po
 
 ## 📊 Latest Version
 
-**Current Version**: [v4.5.8](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.5.8) (February 21, 2026)
+**Current Version**: [v4.5.9](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.5.9) (March 8, 2026)
 
 **Key Updates**:
 - ⚡ 100-133% shader FPS improvement
