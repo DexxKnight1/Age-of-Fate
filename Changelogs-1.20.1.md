@@ -75,7 +75,7 @@ Table of Contents
 
 ---
 
-# 🔧⚡ [AOF-v4.6.0] - 2026.03.14
+# 🎮🔥 [AOF-v4.6.0] - 2026.03.14
 
 > 📌 **HIGHLIGHT:** Void Miners V3 Major Rebalance + Money Bundle Fix + Emerald Casino Quest Fix!
 
