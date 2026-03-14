@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.5.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v459---20260308) - 2026.03.08 (Latest)
+- [[4.6.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v460---20260314) - 2026.03.14 (Latest)
+- [[4.5.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v459---20260308) - 2026.03.08
 - [[4.5.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v458---20260221) - 2026.02.21
 - [[4.5.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v457---20260214) - 2026.02.14
 - [[4.5.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v456---20260207) - 2026.02.07
@@ -71,6 +72,165 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🔧⚡ [AOF-v4.6.0] - 2026.03.14
+
+> 📌 **HIGHLIGHT:** Void Miners V3 Major Rebalance + Money Bundle Fix + Emerald Casino Quest Fix!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Void Miners V3 Major Rebalance**: Comprehensive script overhaul fixing critical scaling and gating issues with per-dimension minTier enforcement and consolidated ore data model for future expansion.
+- **Money Bundles Right-Click Fix**: Resolved interaction functionality issue allowing proper bundle handling.
+- **Emerald Casino Quest Rewards**: Fixed loot table to ensure quest treasures drop correctly upon completion.
+- **3 New Mods Added**: Thulium (new material system), Tinker's Construct Crafting Station Fix, and Fast Item Frames Botania Fix for enhanced compatibility.
+- **19 Core Mods Updated**: Bosses'Rise, CC: Tweaked, Electroblob's Wizardry Redux, Forestry: Community Edition, Goety mods, and more for improved stability.
+- **Data Pack Updates**: Trek enhanced with new structures and biome variations.
+
+---
+
+## 🔧 Fixed
+
+### 🔧 Void Miners V3 Script – MAJOR OVERHAUL
+
+Critical baseline fixes addressing fundamental issues with ore scaling and dimensional constraints:
+
+- ✅ **Corrected Scaling Issues**: Fixed the broken scaling mechanics that existed in V3
+- ✅ **Removed Ineffective Global Scaling**: Eliminated the problematic global 12% scaling per tier
+- ✅ **Restored Per-Dimension Gating**: Fully restored and enforced per-dimension minTier gating for ores
+- ✅ **Consolidated Ore Data Model**: Restructured ore data for easier maintenance and future expansion
+- ✅ **Result**: Void Miners now generate ores at proper rates with correct dimensional constraints
+
+### 💰 Money Bundles – Right-Click Event Fix
+
+- **Issue**: Money Bundles right-click event was broken, preventing item interaction
+- **Solution**: Fixed the interaction event handler
+- **Result**: Players can now properly interact with Money Bundles using right-click
+
+### 🎰 Emerald Casino – Quest Reward Loot Table Fix
+
+- **Issue**: Quest reward loot table was not distributing treasures correctly
+- **Solution**: Fixed loot table configuration
+- **Result**: Treasures now drop correctly upon casino quest completion
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (3)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Thulium** | New material system with advanced crafting capabilities | Crafting/Materials |
+| **Tinker's Construct Crafting Station Fix** | Tool station compatibility fixes and improvements | Compatibility |
+| **Fast Item Frames Botania Fix** | Performance optimization for Botania item frames | Performance/Optimization |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (19)
+
+<details>
+<summary><strong>View All 19 Updated Mods</strong></summary>
+
+- **Bosses'Rise** - Enhanced boss mechanics and balance
+- **Botanical Machinery** - Botania automation improvements
+- **CC: Tweaked** - Computercraft updates and fixes
+- **Cupboard** - Storage and organization enhancements
+- **Domum Ornamentum** - Building and decoration updates
+- **Electroblob's Wizardry Redux** - Magic system improvements
+- **EXP Counter** - Experience tracking enhancements
+- **Forestry: Community Edition** - Forestry mod improvements
+- **Goety - The Dark Arts** - Dark magic spell updates
+- **Goety Cataclysm** - Goety integration with Cataclysm
+- **Inventory Pets** - Pet system improvements
+- **KeybindsPurger** - Keybind conflict resolution
+- **Patchouli** - Documentation and guide improvements
+- **Shield Expansion** - Shield mechanics expansion
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system enhancements
+- **The Deep Void** - End dimension content updates
+- **Tinker and Better Combat** - Combat mechanics enhancements
+- **Warrior Rage** - Warrior ability system updates
+
+</details>
+
+### 📦 Updated Data Packs
+
+- **Trek**: Enhanced with new structures, biome variations, and exploration content
+
+---
+
+## ➖ Removed Mods
+
+None
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.5.9 | v4.6.0 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 2 (Bronze Vouchers & Iron Ore) | 3 Major Issues | +1 Major Script Overhaul |
+| **Void Miners V3** | Scaling Issues | MAJOR REBALANCE | ✅ Complete Fix |
+| **Money Bundles** | Broken (right-click) | Fixed ✅ | ✅ Functional |
+| **Emerald Casino Quests** | Broken (loot table) | Fixed ✅ | ✅ Rewards Drop |
+| **New Mods** | – | 3 New Mods | Thulium, TC Fix, Item Frames Fix |
+| **Mods Updated** | 40+ | 19 | Focused update |
+| **Data Packs Updated** | – | 1 (Trek) | ✅ Enhanced |
+| **Forge Version** | 47.4.16 | 47.4.16 | ✅ Stable |
+| **Overall Impact** | Economy Focus 🔥🔥🔥🔥🔥 | Stability Focus 🔥🔥🔥🔥 | Critical Bug Fixes |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+
+2. **💰Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+
+3. **🏅Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+
+4. **💾 Existing Void Miners** – If you have active Void Miners in your world, note their location and tier. Performance should improve significantly after the update due to proper scaling and gating.
+
+5. **🔍 Review Custom Scripts** – If you have custom scripts or automated systems, verify compatibility before updating.
+
+6. **📋 Documentation** – Keep notes of any custom configurations or special setups that might be affected by mod updates.
+
+### After Updating
+
+- **✅ Void Miners V3 Testing**: Check existing miners; they should now generate ores at proper rates with correct dimensional constraints
+- **✅ Money Bundles Functionality**: Test right-click functionality with Money Bundles to confirm fixes
+- **✅ Emerald Casino Completion**: Complete casino quests to verify treasure rewards drop correctly
+- **✅ New Mods Integration**: Explore Thulium and test new compatibility fixes
+- **✅ Performance Check**: Monitor performance improvements from Botania item frame optimization
+- **✅ Script Verification**: Ensure all KubeJS scripts and custom configurations loaded correctly on server startup
+- **✅ Mod Compatibility**: Verify that any previously installed mods still work as expected with updated versions
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **critical bug fixes and script optimization** rather than new features. The Void Miners V3 overhaul represents a significant improvement in ore generation mechanics with proper scaling and per-dimension gating enforcement. Money Bundles and Emerald Casino fixes ensure core economy systems function flawlessly.
+
+**Update Priority:** HIGH (Contains critical fixes for core systems)
+
+**Recommendation:** Update as soon as possible to benefit from bug fixes and improved stability.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate)
 
 ---
 
