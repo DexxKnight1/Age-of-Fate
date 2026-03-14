@@ -72,14 +72,14 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📊 Performance Benchmarks
 
-**Latest Version (v4.5.9)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
+**Latest Version (v4.6.0)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
 
 | Configuration | Performance | Notes |
 |--------------|-------------|-------|
 | **Client with Shaders** | 180-350 FPS | Up from ~150 FPS baseline |
 | **Client without Shaders** | 500-900 FPS | Up from ~500 FPS baseline |
 | **Dedicated Server** | Stable 20 TPS | Zero "can't keep up" warnings |
-| **Server Boot Time** | ~183 seconds | With 679 mods on server |
+| **Server Boot Time** | ~183 seconds | With 681 mods on server |
 | **Stability** | 99%+ smooth | Minimal frame drops during exploration |
 
 ### 🔑 Key Optimizations
@@ -104,8 +104,8 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📦 Dual-Pack Strategy
 
-- **Client Pack**: 741 mods (includes rendering, optimization, and UI mods)
-- **Server Pack**: 679 mods (excludes 64 client-side mods)
+- **Client Pack**: 744 mods (includes rendering, optimization, and UI mods)
+- **Server Pack**: 681 mods (excludes 64 client-side mods)
 - **Benefit**: Maximum performance for both client and server environments
 
 
@@ -250,7 +250,7 @@ Special thanks to all mod developers whose incredible work makes this modpack po
 
 ## 📊 Latest Version
 
-**Current Version**: [v4.5.9](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.5.9) (March 8, 2026)
+**Current Version**: [v4.6.0](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.6.0) (March 14, 2026)
 
 **Key Updates**:
 - ⚡ 100-133% shader FPS improvement
