@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.6.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v460---20260314) - 2026.03.14 (Latest)
+- [[4.6.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v461---20260321) - 2026.03.21 (Latest)
+- [[4.6.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v460---20260314) - 2026.03.14
 - [[4.5.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v459---20260308) - 2026.03.08
 - [[4.5.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v458---20260221) - 2026.02.21
 - [[4.5.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v457---20260214) - 2026.02.14
@@ -72,6 +73,188 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.6.1] - 2026.03.21
+
+> 📌 **HIGHLIGHT:** Quest Book Botania Fix + Shop Command Fix + Artifact Cooldowns + 2 New Mods!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Quest Book Botania Dependency Fix**: Resolved incorrect dependency quest preventing proper quest progression.
+- **Shop Command Fix**: /shop command and runCommandSilent scripts now work without operator permissions for all players.
+- **Artifact Cooldowns Conversion**: Fixed critical cooldown mechanics converting from seconds to ticks for proper balance.
+- **Cooldown Display Enhancement**: Improved chat display for cooldowns making them easier to read.
+- **Uranium Blocks Recipe Conflict Resolution**: Fixed conflicting recipes between Uranium Blocks and raw uranium.
+- **2 New Mods Added**: Botanical Machinery Extra Reforked, and Mana Jade for enhanced crafting and automatition.
+- **world-gen.json Configuration**: New comprehensive ore generation configuration with JEI graphs showing dimension and mining location information for all ores.
+- **20 Core Mods Updated**: Adaptive Optimization (reborn), Baubley Heart Canisters, Bosses'Rise, MineColonies, Sophisticated Storage, and more for improved stability.
+
+---
+
+## 🔧 Fixed
+
+### 📖 Quest Book – Botania Dependency Fix
+
+Critical fix for quest progression system:
+
+- ✅ **Corrected Botania Dependency**: Fixed the incorrect dependency quest blocking Botania progression
+- ✅ **Quest Flow Restored**: Players can now progress through Botania quests without blockage
+- ✅ **Result**: Quest book now properly tracks Botania dependencies
+
+### 💻 Shop Command – Permission Fix
+
+Essential fix for economy system accessibility:
+
+- **Issue**: /shop command required operator permissions, blocking regular player access
+- **Solution**: Fixed permission handling in /shop command and runCommandSilent scripts
+- **Result**: All players can now use /shop command without needing operator status
+
+### ⏱️ Artifact Cooldowns – Conversion Fix
+
+Critical balance fix for artifact mechanics:
+
+- **Issue**: Artifact cooldowns were converted from seconds to ticks but were much shorter than intended
+- **Solution**: Properly converted cooldown values ensuring correct duration
+- **Result**: Artifact cooldowns now function at intended balance
+
+### 💬 Cooldown Display – Chat Readability
+
+Quality of life improvement for user experience:
+
+- **Issue**: Cooldown messages in chat were difficult to read
+- **Solution**: Enhanced cooldown display formatting
+- **Result**: Players can now easily read cooldown information
+
+### ⛏️ Uranium Blocks – Recipe Conflict Resolution
+
+Crafting system fix for ore processing:
+
+- **Issue**: Conflicting recipes between Uranium Blocks and raw uranium
+- **Solution**: Resolved recipe conflicts and clarified crafting paths
+- **Result**: Players can now craft uranium materials without recipe conflicts
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (2)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Botanical Machinery Extra Reforked** | Enhanced Botania automation machinery | Automation/Botania |
+| **Mana Jade** | New material system with mana-based crafting | Crafting/Magic |
+
+### 🗺️ New Configuration
+
+- **world-gen.json Configuration**: Comprehensive ore generation system with JEI graphs displaying dimension and mining location information for all ores, making ore discovery seamless
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (20)
+
+<details>
+<summary><strong>View All 20 Updated Mods</strong></summary>
+
+- **Adaptive Optimization (reborn)** - Performance optimization improvements
+- **Baubley Heart Canisters** - Health system enhancements
+- **Bosses'Rise** - Boss mechanics and balance updates
+- **Crash Assistant** - Crash prevention and diagnostics
+- **Colorwheel** - Color system improvements
+- **Create: Steam 'n' Rails** - Create mod transportation updates
+- **Domum Ornamentum** - Building and decoration enhancements
+- **Entangled** - Utility system improvements
+- **Goety - The Dark Arts** - Dark magic spell updates and balance
+- **Integrated Dungeons and Structures** - Dungeon and structure generation
+- **Medieval Origins Revival** - Medieval gameplay features
+- **MineColonies** - Colony management system improvements
+- **Moderately Enough Effect Descriptions (MEED)** - Effect description clarity
+- **Oh The Biomes We've Gone** - Biome generation and variations
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **SuperMartijn642's Core Lib** - Core library stability
+- **The Deep Void** - End dimension content updates
+- **TrashSlot** - Item disposal system improvements
+
+</details>
+
+---
+
+## ➖ Removed Mods
+
+None
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.6.0 | v4.6.1 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 3 Major Issues | 5 Critical Fixes | +2 Major System Fixes |
+| **Quest Book** | Botania Quest Broken | Fixed ✅ | ✅ Progression Enabled |
+| **Shop Command** | Operator Required | Open Access ✅ | ✅ All Players Access |
+| **Artifact Cooldowns** | Broken Timing | Fixed ✅ | ✅ Balanced Duration |
+| **Cooldown Display** | Unreadable | Enhanced ✅ | ✅ Clear Info |
+| **Uranium Recipes** | Recipe Conflicts | Resolved ✅ | ✅ Crafting Fixed |
+| **Ore Discovery** | Manual Search | JEI Graphs 🗺️ | ✅ Seamless Discovery |
+| **New Mods** | – | 2 New Mods | Automation + Magic |
+| **Mods Updated** | 19 | 20 | Focused stability update |
+| **Forge Version** | 47.4.16 | 47.4.18 | ✅ Latest Stable |
+| **Overall Impact** | Stability Focus 🔥🔥🔥🔥 | System Access Focus 🔥🔥🔥🔥🔥 | Critical Player Experience |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+
+4. **📖 Quest Book Progress** – If you're in the middle of Botania quests, note your current progress. The quest fix ensures proper dependency tracking going forward.
+
+5. **⏱️ Active Artifacts** – If you have active artifacts with cooldowns, test them after update to verify new cooldown display format.
+
+6. **🗺️ Ore Location Discovery** – Familiarize yourself with the new world-gen.json JEI graphs for efficient ore mining.
+
+### After Updating
+
+- **✅ Quest Book Verification**: Complete a Botania quest to verify dependency system works correctly
+- **✅ Shop Command Testing**: Test /shop command as regular player to confirm permission fix
+- **✅ Artifact Cooldown Check**: Equip an artifact and verify cooldown displays correctly in chat
+- **✅ Uranium Crafting**: Test uranium block crafting to confirm recipe conflicts resolved
+- **✅ Ore Discovery**: Use JEI to check world-gen.json ore location graphs
+- **✅ New Mods Integration**:  Botanical Machinery Extra, and Mana Jade
+- **✅ Performance Monitoring**: Check performance improvements from updated mods
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **critical system fixes and player accessibility** ensuring all core systems function properly. The shop command fix enables all players to access the economy system, artifact cooldowns now balance gameplay mechanics, and quest book fixes restore progression. The new world-gen.json configuration provides seamless ore discovery with integrated JEI support.
+
+**Update Priority:** HIGH (Contains critical fixes affecting player access and progression)
+
+**Recommendation:** Update as soon as possible to benefit from bug fixes and improved accessibility.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate)
 
 ---
 
