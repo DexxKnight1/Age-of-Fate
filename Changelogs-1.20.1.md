@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.6.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v461---20260321) - 2026.03.21 (Latest)
+- [[4.6.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v462---20260328) - 2026.03.28 (Latest)
+- [[4.6.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v461---20260321) - 2026.03.21
 - [[4.6.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v460---20260314) - 2026.03.14
 - [[4.5.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v459---20260308) - 2026.03.08
 - [[4.5.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v458---20260221) - 2026.02.21
@@ -73,6 +74,152 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.6.2] - 2026.03.28
+
+> 📌 **HIGHLIGHT:** Nexus of Fate Fix + Create Big Cannons + Create Diesel Generators + 3 New Mods!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Nexus of Fate Crafting Fix**: Resolved critical issue with Drained Essence of Fate not being granted correctly after crafting.
+- **Create Mod Expansion**: Massive Create mod additions with Big Cannons for siege warfare and Diesel Generators for industrial power.
+- **TrashSlot Management**: Added Blacklist Addon for improved item filtering and disposal control.
+- **3 New Mods Added**: TrashSlot Blacklist Addon, Create Big Cannons, and Create: Diesel Generators for enhanced automation and combat.
+- **22 Core Mods Updated**: AzureLib, Bosses'Rise, MineColonies, Sophisticated Storage, Iron's Spells 'n Spellbooks, and more for improved stability and features.
+
+---
+
+## 🔧 Fixed
+
+### ⚔️ Nexus of Fate – Crafting Reward Fix
+
+Critical fix for endgame crafting system:
+
+- ✅ **Drained Essence of Fate Grant**: Fixed the issue with Drained Essence of Fate not being granted correctly after crafting the Nexus of Fate
+- ✅ **Crafting Flow Restored**: Players now receive proper rewards for completing the Nexus of Fate craft
+- ✅ **Result**: Endgame progression now functions as intended
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (3)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **TrashSlot Blacklist Addon** | Enhanced item filtering for TrashSlot | Utility/QoL |
+| **Create Big Cannons** | Siege warfare and heavy artillery for Create | Combat/Create |
+| **Create: Diesel Generators** | Industrial power generation for Create | Power/Create |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (22)
+
+<details>
+<summary><strong>View All 22 Updated Mods</strong></summary>
+
+- **AzureLib** - Animation library improvements
+- **Bosses'Rise** - Boss mechanics and balance updates
+- **Botanical Machinery Extra Reforked** - Botania automation enhancements
+- **Colorwheel** - Color system improvements
+- **Domum Ornamentum** - Building and decoration enhancements
+- **Entity Culling Fabric/Forge** - Performance optimization for entity rendering
+- **EverFurnace** - Furnace utility improvements
+- **ExtendedAE** - Applied Energistics expansion updates
+- **Farmer's Delight** - Cooking and farming content
+- **Goety - The Dark Arts** - Dark magic spell updates and balance
+- **GottschCore** - Core library stability
+- **Iron Furnaces Enhanced** - Furnace tier system improvements
+- **Iron's Spells 'n Spellbooks** - Magic system enhancements and new spells
+- **MineColonies** - Colony management system improvements
+- **Mowzie's Mobs** - Mob behavior and animation updates
+- **Not Enough Animations** - First-person animation improvements
+- **Particle Rain** - Weather particle effects
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **Structurize** - Structure building tools
+- **Tinker and Better Combat** - Combat mechanics and tool customization
+- **Tinkers Integrations and Tweaks** - Tinkers Construct compatibility
+
+</details>
+
+---
+
+## ➖ Removed Mods
+
+None
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.6.1 | v4.6.2 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 5 Critical Fixes | 1 Major Fix | Nexus of Fate Reward |
+| **Endgame Crafting** | Broken Rewards | Fixed ✅ | ✅ Proper Essence Grant |
+| **Create Mod** | Steam 'n' Rails | Expanded 🚀 | +Big Cannons +Diesel |
+| **Combat Systems** | Standard | Siege Warfare ✅ | +Heavy Artillery |
+| **Power Generation** | Steam Focus | Industrial Diesel ✅ | +Diesel Power |
+| **Item Management** | Basic TrashSlot | Enhanced Filtering ✅ | +Blacklist Control |
+| **New Mods** | 2 New Mods | 3 New Mods | Create Expansion Focus |
+| **Mods Updated** | 20 | 22 | Broader stability update |
+| **Forge Version** | 47.4.18 | 47.4.18 | ✅ Latest Stable |
+| **Overall Impact** | System Access Focus 🔥🔥🔥🔥🔥 | Create Expansion 🔥🔥🔥🔥🔥 | Endgame + Industrial |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+
+4. **⚔️ Nexus of Fate Crafters** – If you've crafted the Nexus of Fate before this update, check if you received Drained Essence of Fate. The fix ensures proper reward granting going forward.
+
+5. **🛠️ Create Builders** – Prepare for new Create expansion content including cannon construction and diesel power systems.
+
+6. **🗑️ TrashSlot Users** – Review new Blacklist Addon features for improved item management.
+
+### After Updating
+
+- **✅ Nexus of Fate Verification**: Craft or check Nexus of Fate to verify Drained Essence of Fate is granted correctly
+- **✅ Create Big Cannons**: Test cannon construction and firing mechanics
+- **✅ Diesel Generators**: Set up diesel power generation for your Create factories
+- **✅ TrashSlot Blacklist**: Configure blacklist settings for improved item filtering
+- **✅ Iron's Spells Check**: Test new spells and spellbook features from the update
+- **✅ MineColonies Progress**: Verify colony systems function with latest updates
+- **✅ Performance Check**: Monitor FPS improvements from Entity Culling updates
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **endgame crafting fixes and Create mod expansion** delivering both critical bug resolution and major content additions. The Nexus of Fate fix ensures proper endgame progression, while Create Big Cannons and Diesel Generators open new possibilities for siege warfare and industrial power generation. Combined with 22 mod updates for stability and features, this update enhances both late-game completion and mid-game creativity.
+
+**Update Priority:** HIGH (Contains critical endgame fix and major content expansion)
+
+**Recommendation:** Update as soon as possible to benefit from the Nexus of Fate fix and explore new Create content.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate)
 
 ---
 
