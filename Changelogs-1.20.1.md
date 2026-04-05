@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.6.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v462---20260328) - 2026.03.28 (Latest)
+- [[4.6.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v462---20260405) - 2026.04.05 (Latest)
+- [[4.6.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v462---20260328) - 2026.03.28
 - [[4.6.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v461---20260321) - 2026.03.21
 - [[4.6.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v460---20260314) - 2026.03.14
 - [[4.5.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v459---20260308) - 2026.03.08
@@ -74,6 +75,135 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.6.3] - 2026.04.05
+
+> 📌 **HIGHLIGHT:** BiblioCraft Legacy Returns + Solas Shader Update + 26 Mods Updated!
+
+---
+
+## ⚡ What's New in This Update
+
+- **BiblioCraft Returns**: The beloved BiblioCraft is back as Legacy Expanded with all your favorite storage and decoration blocks!
+- **Solas Shader Update**: Updated shaders for enhanced visual experience and better performance.
+- **26 Core Mods Updated**: AdvancedAE, MineColonies, Sophisticated Storage, Electroblob's Wizardry Redux, and more for improved stability and features.
+
+---
+
+## 🔧 Fixed
+
+No bug fixes in this update — pure content addition and stability improvements!
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (1)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **BiblioCraft Legacy (Expanded)** | Classic storage and decoration mod returns | Storage/Decoration |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Shaders
+
+- **Solas Shader** - Visual enhancements and performance improvements
+
+### 📦 Updated Mods (26)
+
+<details>
+<summary><strong>View All 26 Updated Mods</strong></summary>
+
+- **AdvancedAE** - Applied Energistics addon improvements
+- **Amplified Nether** - Nether generation enhancements
+- **CB Multipart** - Multipart block system updates
+- **Chat Heads** - Chat UI improvements
+- **Crash Assistant** - Crash reporting enhancements
+- **Create: Diesel Generators** - Diesel power system updates
+- **Electroblob's Wizardry Redux** - Magic system updates and balance
+- **EverFurnace** - Furnace utility improvements
+- **ExtendedAE** - Applied Energistics expansion updates
+- **Fast Item Frames Botania Fix** - Botania compatibility fix
+- **Integrated API** - Integration library updates
+- **Iron's Patreon Library** - Core library stability
+- **Just Enough Mekanism Multiblocks** - JEI Mekanism improvements
+- **Macaw's Paintings** - Decoration content updates
+- **MineColonies** - Colony management system improvements
+- **Oh The Trees You'll Grow** - Tree generation enhancements
+- **Packet Fixer** - Network optimization
+- **Particle Rain** - Weather particle effects
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **Sophisticated Storage Create Integration** - Create compatibility
+- **TConJEI** - Tinkers Construct JEI integration
+- **THE UNDEAD REVAMPED** - Undead mob improvements
+- **Underlay** - Rendering improvements
+
+</details>
+
+---
+
+## ➖ Removed Mods
+
+None
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.6.2 | v4.6.3 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 1 Major Fix | 0 Fixes | Stability Focus |
+| **New Mods** | 3 New Mods | 1 New Mod | BiblioCraft Returns |
+| **Mods Updated** | 22 | 26 | Broader stability update |
+| **Shaders Updated** | 0 | 1 | Solas Shader |
+| **Forge Version** | 47.4.18 | 47.4.18 | ✅ Latest Stable |
+| **Overall Impact** | Create Expansion 🔥🔥🔥🔥🔥 | Content Return 🔥🔥🔥🔥🔥 | Storage + Visuals |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+
+### After Updating
+
+- **✅ BiblioCraft Check**: Explore the returned BiblioCraft blocks and storage options
+- **✅ Shader Verification**: Test Solas Shader updates for visual improvements
+- **✅ MineColonies Progress**: Verify colony systems function with latest updates
+- **✅ Sophisticated Storage**: Check storage system improvements
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **bringing back beloved content and visual enhancements** delivering both nostalgia and improved aesthetics. BiblioCraft Legacy Expanded returns the classic storage solutions players loved, while the Solas Shader update enhances the visual experience. Combined with 26 mod updates for stability and features, this update enriches both decoration options and overall gameplay polish.
+
+**Update Priority:** MEDIUM (Content addition and stability improvements)
+
+**Recommendation:** Update when convenient to enjoy returning content and shader improvements.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate)
 
 ---
 
