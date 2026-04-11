@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.6.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v463---20260405) - 2026.04.05 (Latest)
+- [[4.6.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v464---20260411) - 2026.04.11 (Latest)
+- [[4.6.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v463---20260405) - 2026.04.05
 - [[4.6.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v462---20260328) - 2026.03.28
 - [[4.6.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v461---20260321) - 2026.03.21
 - [[4.6.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v460---20260314) - 2026.03.14
@@ -75,6 +76,135 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.6.4] - 2026.04.11
+
+> 📌 **HIGHLIGHT:** G3 Doors Added + Forge 47.4.20 Update + 29 Mods Updated!
+
+---
+
+## ⚡ What's New in This Update
+
+- **G3 Doors**: New door variety added to enhance your building options!
+- **Forge Update**: Updated to Forge 47.4.20 for better stability and performance.
+- **29 Core Mods Updated**: Adaptive Optimization, Aquamirae, Artifacts, Electroblob's Wizardry Redux, Sophisticated Storage, MineColonies, and more for improved stability and features.
+
+---
+
+## 🔧 Fixed
+
+No bug fixes in this update — pure content addition and stability improvements!
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (1)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **G3 Doors** | Additional door variety for building | Decoration |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (29)
+
+<details>
+<summary><strong>View All 29 Updated Mods</strong></summary>
+
+- **Adaptive Optimization(reborn)** - Performance optimization updates
+- **Aquamirae** - Underwater content enhancements
+- **Artifacts** - Artifact system improvements
+- **AzureLib** - Core library updates
+- **Botanical Machinery Extra Reforked** - Botania machinery updates
+- **Clickable advancements** - Advancement UI improvements
+- **Collective** - Core library stability
+- **Cupboard** - Storage system updates
+- **Electroblob's Wizardry Redux** - Magic system updates and balance
+- **Entity Culling** - Rendering performance improvements
+- **Explorer's Compass** - Exploration tool updates
+- **FTB Chunks** - Chunk claiming improvements
+- **FTB Quests** - Quest system updates
+- **FTB Ultimine** - Mining utility enhancements
+- **Goety - The Dark Arts** - Dark magic system updates
+- **Icarus** - Wing/flight system improvements
+- **Iron's Lib** - Core library stability
+- **Iron's Spells 'n Spellbooks** - Spell system updates
+- **MineColonies** - Colony management system improvements
+- **Nature's Compass** - Biome exploration updates
+- **Not Enough Animations** - Animation improvements
+- **Quantified API** - API library updates
+- **quick pack** - Utility mod updates
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **Structurize** - Structure building updates
+- **Supplementaries** - Decoration and utility updates
+- **Tool Belt** - Tool storage improvements
+
+</details>
+
+---
+
+## ➖ Removed Mods
+
+None
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.6.3 | v4.6.4 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 0 Fixes | 0 Fixes | Stability Focus |
+| **New Mods** | 1 New Mod | 1 New Mod | G3 Doors Added |
+| **Mods Updated** | 26 | 29 | Broader stability update |
+| **Shaders Updated** | 1 | 0 | No shader updates |
+| **Forge Version** | 47.4.18 | 47.4.20 | ✅ Updated |
+| **Overall Impact** | Content Return 🔥🔥🔥🔥🔥 | Stability + Doors 🔥🔥🔥🔥🔥 | Forge + Mods |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+
+### After Updating
+
+- **✅ G3 Doors Check**: Explore new door options for your builds
+- **✅ Forge Verification**: Verify mod compatibility with Forge 47.4.20
+- **✅ MineColonies Progress**: Verify colony systems function with latest updates
+- **✅ Sophisticated Storage**: Check storage system improvements
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **Forge update and broad mod stability** delivering both new building options and improved performance. G3 Doors adds variety to your construction projects, while the Forge 47.4.20 update ensures better compatibility. Combined with 29 mod updates for stability and features, this update enriches both decoration options and overall gameplay polish.
+
+**Update Priority:** MEDIUM (Forge update and stability improvements)
+
+**Recommendation:** Update when convenient to enjoy new door options and Forge improvements.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate)
 
 ---
 
