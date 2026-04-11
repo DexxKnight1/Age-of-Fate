@@ -72,14 +72,14 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📊 Performance Benchmarks
 
-**Latest Version (v4.6.2)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
+**Latest Version (v4.6.4)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
 
 | Configuration | Performance | Notes |
 |--------------|-------------|-------|
 | **Client with Shaders** | 180-350 FPS | Up from ~150 FPS baseline |
 | **Client without Shaders** | 500-900 FPS | Up from ~500 FPS baseline |
 | **Dedicated Server** | Stable 20 TPS | Zero "can't keep up" warnings |
-| **Server Boot Time** | ~183 seconds | With 686 mods on server |
+| **Server Boot Time** | ~183 seconds | With 689 mods on server |
 | **Stability** | 99%+ smooth | Minimal frame drops during exploration |
 
 ### 🔑 Key Optimizations
@@ -104,8 +104,8 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📦 Dual-Pack Strategy
 
-- **Client Pack**: 750 mods (includes rendering, optimization, and UI mods)
-- **Server Pack**: 686 mods (excludes 64 client-side mods)
+- **Client Pack**: 752 mods (includes rendering, optimization, and UI mods)
+- **Server Pack**: 689 mods (excludes 64 client-side mods)
 - **Benefit**: Maximum performance for both client and server environments
 
 
@@ -212,7 +212,7 @@ Use promo code **`KNIGHTDEXX`** and get **25% off** your first month for any gam
 
 ### Dedicated Server
 
-1. Download the **server pack** (686 mods)
+1. Download the **server pack** (689 mods)
 2. Allocate **12-15GB RAM** minimum
 3. Apply the recommended JVM arguments
 4. Configure server properties
@@ -250,7 +250,7 @@ Special thanks to all mod developers whose incredible work makes this modpack po
 
 ## 📊 Latest Version
 
-**Current Version**: [v4.6.2](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.6.2) (March 28, 2026)
+**Current Version**: [v4.6.4](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.6.4) (April 11, 2026)
 
 **Key Updates**:
 - ⚡ 100-133% shader FPS improvement
