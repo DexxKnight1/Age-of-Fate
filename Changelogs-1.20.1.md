@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.6.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v464---20260411) - 2026.04.11 (Latest)
+- [[4.6.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v465---20260422) - 2026.04.22 (Latest)
+- [[4.6.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v464---20260411) - 2026.04.11
 - [[4.6.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v463---20260405) - 2026.04.05
 - [[4.6.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v462---20260328) - 2026.03.28
 - [[4.6.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v461---20260321) - 2026.03.21
@@ -76,6 +77,171 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.6.5] - 2026.04.22
+
+> 📌 **HIGHLIGHT:** Critical Bug Fixes + 6 New Mods + 41 Mods Updated!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Critical Server Crash Fixed**: Electroblob's Wizardry spell casting crash resolved!
+- **Quest Fixes**: Horse Flute double-post and AE2 questline images fixed
+- **6 New Mods Added**: Create: Solar Powered, performance fixes, and compatibility mods
+- **41 Core Mods Updated**: AdvancedAE, Blood Magic, MineColonies, Sophisticated Storage, and more for maximum stability
+
+---
+
+## 🔧 Fixed
+
+- ✅ **Fixed [Bug]:** Electroblob's Wizardry casting spells crashes server #133
+- ✅ **Fixed:** A double-posted Horse Flute quest in the Treasures & Artifacts questline
+- ✅ **Fixed:** All broken images in the AE2 questline
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (6)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Pipez Lag Fix** | Performance optimization for pipe systems | Performance |
+| **Lootr Liason** | Lootr integration improvements | Utility |
+| **Toms Storage Star Optimized** | Enhanced storage performance | Performance |
+| **BIC Shield Compat** | Shield compatibility improvements | Combat |
+| **Apothic Compat** | Apotheosis compatibility addon | Compatibility |
+| **Create 6.0.8 Backported Fixes** | Create mod stability fixes | Bug Fixes |
+| **Create: Solar Powered** | Solar power for Create machinery | Tech/Power |
+
+---
+
+## ➖ Removed Mods
+
+### 🚫 Temporarily Removed (1)
+
+| Mod | Reason | Status |
+|-----|--------|--------|
+| **Mana Unification** | Server crashes - incompatible with latest Electroblob's Wizardry Redux | Will return once compatibility resolved |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (41)
+
+<details>
+<summary><strong>View All 41 Updated Mods</strong></summary>
+
+- **AdvancedAE** - Applied Energistics addon improvements
+- **Aquamirae** - Underwater content enhancements
+- **AzureLib** - Core library updates
+- **Blood Magic** - Magic system updates and balance
+- **Born in Chaos** - Chaos content updates
+- **Botanical Machinery** - Botania machinery updates
+- **Client Crafting** - Client-side crafting improvements
+- **Collective** - Core library stability
+- **Colorwheel** - Color utility updates
+- **Construct's Casting** - Tinkers Construct casting updates
+- **Corail Tombstone** - Death system improvements
+- **Crash Assistant** - Crash reporting enhancements
+- **Create: Diesel Generators** - Diesel power system updates
+- **Croptopia** - Farming content updates
+- **Cycle Paintings** - Decoration utility updates
+- **Deimos Lib** - Core library updates
+- **Electroblob's Wizardry Redux** - Magic system updates and crash fixes
+- **Extended Terminal** - Terminal UI improvements
+- **Farmer's Delight** - Cooking system updates
+- **Fast IP Ping** - Network optimization
+- **FTB Quests** - Quest system updates
+- **G3 Doors** - Door variety updates
+- **Gnetum** - Content updates
+- **Goety - The Dark Arts** - Dark magic system updates
+- **Industrial Foregoing** - Industrial machinery updates
+- **Integrated API** - Integration library updates
+- **Inventory Essentials** - Inventory management updates
+- **Just Enough Items (JEI)** - Recipe viewing improvements
+- **Just Enough Mekanism Multiblocks** - JEI Mekanism improvements
+- **Lionfish API** - Core library updates
+- **MineColonies** - Colony management system improvements
+- **ModernFix** - Performance optimization updates
+- **Myotus Lib** - Core library updates
+- **Not Enough Animations** - Animation improvements
+- **quick pack** - Utility mod updates
+- **Quantified API** - API library updates
+- **Reliquary Reincarnations** - Artifact system updates
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **Sophisticated Storage Create Integration** - Create compatibility
+- **Structurize** - Structure building updates
+- **Structure Essentials** - Structure generation improvements
+- **The Deep Void** - Void dimension updates
+- **Thermal Extra** - Thermal series expansion updates
+- **Tinker and Better Combat** - Combat system improvements
+- **Titanium** - Core library updates
+- **Vampirism - Become a vampire!** - Vampire system updates
+
+</details>
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.6.4 | v4.6.5 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 0 Fixes | 3 Fixes | Server Crash + Quests |
+| **New Mods** | 1 New Mod | 6 New Mods | Major Content Addition |
+| **Mods Updated** | 29 | 41 | Massive Stability Update |
+| **Mods Removed** | 0 | 1 (temp) | Compatibility Issue |
+| **Forge Version** | 47.4.20 | 47.4.20 | ✅ Stable |
+| **Overall Impact** | Stability + Doors 🔥🔥🔥🔥🔥 | Critical Fixes + Content 🔥🔥🔥🔥🔥 | HIGH PRIORITY |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+
+### After Updating
+
+- **✅ Server Stability**: Verify Electroblob's Wizardry spells no longer crash the server
+- **✅ Quest Check**: Verify Horse Flute quest displays correctly and AE2 quest images load
+- **✅ Create Solar**: Test new Create: Solar Powered features
+- **✅ Mana Unification**: Note that this mod is temporarily removed - adjust automation accordingly
+- **✅ MineColonies Progress**: Verify colony systems function with latest updates
+- **✅ Sophisticated Storage**: Check storage system improvements
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+This release is a **HIGH PRIORITY UPDATE** focusing on critical server stability and major content additions. The Electroblob's Wizardry server crash has been resolved, alongside quest fixes and a massive 41-mod update for improved compatibility.
+
+**6 new mods** bring Create: Solar Powered for renewable energy options, performance fixes for Pipez and Toms Storage, and compatibility improvements. **Mana Unification** has been temporarily removed due to incompatibility with the latest Electroblob's Wizardry Redux - it will return once the issue is resolved.
+
+**Update Priority:** HIGH (Critical server crash fix + major content)
+
+**Recommendation:** Update immediately to resolve server crashes and enjoy new content!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate)
 
 ---
 
