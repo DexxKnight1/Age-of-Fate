@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.6.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v465---20260422) - 2026.04.22 (Latest)
+- [[4.6.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v466---20260502) - 2026.05.02 (Latest)
+- [[4.6.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v465---20260422) - 2026.04.22
 - [[4.6.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v464---20260411) - 2026.04.11
 - [[4.6.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v463---20260405) - 2026.04.05
 - [[4.6.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v462---20260328) - 2026.03.28
@@ -77,6 +78,162 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.6.6] - 2026.05.02
+
+> 📌 **HIGHLIGHT:** E-LITE Shaders Added + 6 New Mods + Nature's Aura Compatibility Fix + 35 Mods Updated!
+
+---
+
+## ⚡ What's New in This Update
+
+- **E-LITE Shaders (MakeUp Edit)**: Stunning new shader pack added for enhanced visuals!
+- **6 New Mods**: Async Logger, Kerria, TT20 (TPS Fixer), BandwidthOptimizer, Rhenium, ApothSB
+- **Nature's Aura Fix**: Potentially fixed leaves compatibility with Separated Leaves mod
+- **35 Mods Updated**: Botania, Electroblob's Wizardry Redux, KubeJS, MineColonies, Sophisticated Storage, and more!
+- **Solas Shader Updated**: Visual enhancements and performance improvements
+
+---
+
+## 🔧 Fixed
+
+- **Nature's Aura Leaves Compatibility**: Potentially resolved leaves compatibility with Separated Leaves mod
+- **Minor Modpack Issues**: Resolved a few minor issues for smoother gameplay
+
+---
+
+## ➕ Added
+
+### 🆕 New Shaders (1)
+
+| Shader | Purpose | Category |
+|--------|---------|----------|
+| **E-LITE shaders (MakeUp edit)** | Premium visual enhancement | Shaders |
+
+### 🆕 New Mods (6)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Async Logger** | Optimized async logging for performance | Performance |
+| **Kerria** | New content and features | Content |
+| **TT20 (TPS Fixer)** | Server TPS stabilization and optimization | Performance |
+| **BandwidthOptimizer** | Network bandwidth optimization | Performance |
+| **Rhenium** | Rendering and visual improvements | Visuals |
+| **ApothSB** | Apotheosis compatibility and enhancements | Compatibility |
+
+---
+
+## 🔄 Changed
+
+### 🎨 Updated Shaders
+
+- **Solas Shader** - Visual enhancements and performance improvements
+
+### 📦 Updated Mods (35)
+
+<details>
+<summary><strong>View All 35 Updated Mods</strong></summary>
+
+- **AmbientSounds 6** - Ambient audio enhancements
+- **Apothic Compat** - Apotheosis compatibility updates
+- **Aquamirae** - Underwater content enhancements
+- **Born In Configuration** - Configuration system updates
+- **Botania** - Magic flora system updates
+- **Botanical Machinery Extra Reforked** - Botania machinery updates
+- **Collective** - Core library stability
+- **Crafting Tweaks** - Crafting UI improvements
+- **Create Big Cannons** - Create cannon system updates
+- **CreativeCore** - Core library updates
+- **Cyclops Core** - Core library stability
+- **Electroblob's Wizardry Redux** - Magic system updates and balance
+- **Extended Terminal** - Terminal interface improvements
+- **ExtendedAE** - Applied Energistics expansion updates
+- **Extra Hostile Neural Networks** - Hostile mob data improvements
+- **Farmer's Delight** - Farming and cooking updates
+- **Gnetum** - Plant/content updates
+- **Inventory Essentials** - Inventory management improvements
+- **Just Enough Breeding (JEBr)** - Breeding information updates
+- **KubeJS** - Scripting and customization improvements
+- **Lootr Liason** - Lootr compatibility updates
+- **MineColonies** - Colony management system improvements
+- **MMV - Moog's Missing Villages** - Village structure updates
+- **ModernFix** - Performance optimization updates
+- **MVS - Moog's Voyager Structures** - Structure generation updates
+- **Myotus Lib** - Library updates
+- **Neruina - Ticking Entity Fixer** - Entity performance improvements
+- **Quantified API** - API library updates
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **Sophisticated Storage Create Integration** - Create compatibility
+- **Structurize** - Structure building updates
+- **TrashSlot** - Inventory trash functionality updates
+- **Villager Names** - Villager naming updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+### 🗑️ Removed Shaders (1)
+
+- **MakeUp - Ultra Fast Shaders** - Replaced by E-LITE shaders (MakeUp edit)
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.6.5 | v4.6.6 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 3 Fixes | 2 Fixes | Nature's Aura + Minor Fixes |
+| **New Mods** | 6 New Mods | 6 New Mods | Async Logger, Kerria, TT20, BW Opt, Rhenium, ApothSB |
+| **New Shaders** | 0 | 1 | E-LITE Shaders |
+| **Mods Updated** | 41 | 35 | Broader stability update |
+| **Mods Removed** | 1 | 1 | MakeUp - Ultra Fast Shaders |
+| **Forge Version** | 47.4.20 | 47.4.20 | ✅ Latest Stable |
+| **Overall Impact** | Crash Fix 🔥🔥🔥🔥🔥 | Shaders + Perf 🔥🔥🔥🔥🔥 | Visuals + Performance |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+
+### After Updating
+
+- **🎨 E-LITE Shaders**: Test stunning new shader visuals
+- **⚡ Performance Check**: Verify TT20 and Async Logger improvements
+- **🍃 Nature's Aura**: Test leaves compatibility with Separated Leaves
+- **🏰 MineColonies Progress**: Verify colony systems function with latest updates
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **enhanced visuals and performance optimization** delivering both stunning new shaders and critical server improvements. E-LITE shaders (MakeUp edit) bring premium visual quality, while TT20 (TPS Fixer) and Async Logger optimize server performance. Combined with 35 mod updates, this update enriches both the visual experience and overall gameplay stability.
+
+**Update Priority:** MEDIUM-HIGH (Performance improvements and new shaders)
+
+**Recommendation:** Update for better visuals and server performance optimization.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate)
 
 ---
 
