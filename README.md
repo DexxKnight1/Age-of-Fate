@@ -29,7 +29,7 @@ Forge alliances, uncover secrets, and define your legend in a realm torn between
 
 ### 🌟 Core Experience
 - **4,820+ Quests** across 16 Chapter Groups and 72 Chapters
-- **755+ Mods** carefully curated for performance and gameplay
+- **765+ Mods** carefully curated for performance and gameplay
 - **Custom Ambient Music** for immersive atmosphere
 - **Unique Adventure** to reach the End with End Remastered mod
 - **Player Shop System** for trading and purchasing items
@@ -68,18 +68,18 @@ Forge alliances, uncover secrets, and define your legend in a realm torn between
 
 ## ⚡ Performance & Optimization
 
-Age of Fate has been **extensively optimized** to deliver smooth gameplay even with 755+ mods.
+Age of Fate has been **extensively optimized** to deliver smooth gameplay even with 765+ mods.
 
 ### 📊 Performance Benchmarks
 
-**Latest Version (v4.6.5)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
+**Latest Version (v4.6.6)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
 
 | Configuration | Performance | Notes |
 |--------------|-------------|-------|
 | **Client with Shaders** | 180-350 FPS | Up from ~150 FPS baseline |
 | **Client without Shaders** | 500-900 FPS | Up from ~500 FPS baseline |
 | **Dedicated Server** | Stable 20 TPS | Zero "can't keep up" warnings |
-| **Server Boot Time** | ~183 seconds | With 694 mods on server |
+| **Server Boot Time** | ~183 seconds | With 701 mods on server |
 | **Stability** | 99%+ smooth | Minimal frame drops during exploration |
 
 ### 🔑 Key Optimizations
@@ -104,8 +104,8 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📦 Dual-Pack Strategy
 
-- **Client Pack**: 759 mods (includes rendering, optimization, and UI mods)
-- **Server Pack**: 694 mods (excludes 64 client-side mods)
+- **Client Pack**: 765 mods (includes rendering, optimization, and UI mods)
+- **Server Pack**: 701 mods (excludes 64 client-side mods)
 - **Benefit**: Maximum performance for both client and server environments
 
 
@@ -212,7 +212,7 @@ Use promo code **`KNIGHTDEXX`** and get **25% off** your first month for any gam
 
 ### Dedicated Server
 
-1. Download the **server pack** (694 mods)
+1. Download the **server pack** (701 mods)
 2. Allocate **12-15GB RAM** minimum
 3. Apply the recommended JVM arguments
 4. Configure server properties
@@ -250,7 +250,7 @@ Special thanks to all mod developers whose incredible work makes this modpack po
 
 ## 📊 Latest Version
 
-**Current Version**: [v4.6.5](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.6.5) (April 22, 2026)
+**Current Version**: [v4.6.6](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.6.6) (Mai 2, 2026)
 
 **Key Updates**:
 - ⚡ 100-133% shader FPS improvement
