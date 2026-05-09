@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.6.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v466---20260502) - 2026.05.02 (Latest)
+- [[4.6.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v467---20260509) - 2026.05.09 (Latest)
+- [[4.6.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v466---20260502) - 2026.05.02
 - [[4.6.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v465---20260422) - 2026.04.22
 - [[4.6.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v464---20260411) - 2026.04.11
 - [[4.6.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v463---20260405) - 2026.04.05
@@ -78,6 +79,125 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.6.7] - 2026.05.09
+
+> 📌 **HIGHLIGHT:** All Server Crashes Fixed + 25 Mods Updated + Separated Leaves Removed for Stability
+
+---
+
+## ⚡ What's New in This Update
+
+- **Server Crash Fixes**: Based on latest tests, all server crashes related to structure generation issues are now fixed
+- **25 Mods Updated**: AmbientSounds 6, MineColonies, ModernFix, Mystical Agriculture, Sophisticated Storage, and more!
+- **Separated Leaves Removed**: Mod was causing a lot of server crashes
+- **Mod Updates Stability**: Many recently updated mods brought numerous fixes
+
+---
+
+## 🔧 Fixed
+
+- **Server Crash Fixes**: Based on latest tests, all server crashes related to structure generation issues are now fixed
+- **Mod Update Stability**: Many mods were recently updated and their updates brought numerous fixes
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (25)
+
+<details>
+<summary><strong>View All 25 Updated Mods</strong></summary>
+
+- **AmbientSounds 6** - Ambient audio enhancements
+- **Apothic Compat** - Apotheosis compatibility updates
+- **BandwidthOptimizer** - Network bandwidth optimization
+- **Blueprint** - Core library updates
+- **Bosses'Rise** - Boss content updates
+- **Crash Assistant** - Crash handling improvements
+- **Drippy Loading Screen** - Loading screen updates
+- **Entity Culling** - Performance optimization updates
+- **EverFurnace** - Furnace mechanics updates
+- **FancyMenu** - Menu customization updates
+- **G3 Doors** - Door variety updates
+- **MES - Moog's End Structures** - End structure updates
+- **MineColonies** - Colony management system improvements
+- **MNS - Moog's Nether Structures** - Nether structure updates
+- **Moderately Enough Effect Descriptions (MEED)** - Effect description updates
+- **ModernFix** - Performance optimization updates
+- **MSS - Moog's Soaring Structures** - Sky structure updates
+- **MVS - Moog's Voyager Structures** - Structure generation updates
+- **Mystical Agriculture** - Farming and resource updates
+- **Not Enough Animations** - Animation improvements
+- **Particle Rain** - Particle effects updates
+- **Reliquary Reincarnations** - Relic system updates
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+
+</details>
+
+---
+
+## ➖ Removed
+
+### 🗑️ Removed Mods (1)
+
+- **Separated Leaves** - The mod has lately been causing a lot of server crashes
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.6.6 | v4.6.7 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 2 Fixes | Multiple | Server crash fixes |
+| **New Mods** | 6 New Mods | 0 | ⛔ None added |
+| **New Shaders** | 1 | 0 | ⛔ None added |
+| **Mods Updated** | 35 | 25 | Stability updates |
+| **Mods Removed** | 1 | 1 | Separated Leaves |
+| **Forge Version** | 47.4.20 | 47.4.20 | ✅ Latest Stable |
+| **Overall Impact** | Shaders + Perf 🔥🔥🔥🔥🔥 | Stability 🔥🔥🔥🔥🔥 | Crash Fixes |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+
+### After Updating
+
+- **⚡ Stability Check**: Verify that structure generation crashes are resolved
+- **🌿 Separated Leaves**: Removal confirmed stable in your world
+- **🏰 MineColonies Progress**: Verify colony systems function with latest updates
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+This release focuses on **stability and crash fixes** delivering a cleaner, more reliable experience. All known server crashes related to structure generation have been resolved. Separated Leaves has been removed due to persistent crash issues. Combined with 25 mod updates, this update significantly improves overall server stability.
+
+**Update Priority:** HIGH (Critical crash fixes)
+
+**Recommendation:** Update as soon as possible for crash-free gameplay.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate)
 
 ---
 
