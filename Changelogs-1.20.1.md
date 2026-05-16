@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.6.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v467---20260509) - 2026.05.09 (Latest)
+- [[4.6.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v468---20260516) - 2026.05.16 (Latest)
+- [[4.6.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v467---20260509) - 2026.05.09
 - [[4.6.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v466---20260502) - 2026.05.02
 - [[4.6.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v465---20260422) - 2026.04.22
 - [[4.6.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v464---20260411) - 2026.04.11
@@ -82,6 +83,122 @@ Table of Contents
 
 ---
 
+# 🎮🔥 [AOF-v4.6.8] - 2026.05.16
+
+> 📌 **HIGHLIGHT:** Apothic Tooltip Cleanup Added + 21 Mods Updated for Stability!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Apothic Tooltip Cleanup**: New mod added as suggested in Issue #136 for cleaner tooltip display
+- **21 Mods Updated**: ModernFix, Farmer's Delight, Sophisticated Storage, FTB Quests, Goety, and more for improved stability and features!
+
+---
+
+## 🔧 Fixed
+
+No bug fixes in this update.
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (1)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Apothic Tooltip Cleanup** | Cleaner tooltip display and organization | UI/Quality of Life |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (21)
+
+<details>
+<summary><strong>View All 21 Updated Mods</strong></summary>
+
+- **Apothic Compat** - Apotheosis compatibility updates
+- **Async Logger** - Optimized async logging for server performance
+- **BandwidthOptimizer** - Network bandwidth optimization
+- **Colorwheel** - Color management updates
+- **Croptopia** - Farming and food content updates
+- **Cyclic** - Utility and gameplay enhancements
+- **EvilCraft** - Dark magic content updates
+- **Farmer's Delight** - Farming and cooking updates
+- **FLIB** - Library updates
+- **FTB Quests** - Quest system improvements
+- **Gnetum** - Plant/content updates
+- **Goety - The Dark Arts** - Dark magic system updates
+- **Kerria** - Content and features updates
+- **Lionfish API** - API library updates
+- **ModernFix** - Performance optimization updates
+- **Moonlight Lib** - Library updates
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **The Deep Void** - Void dimension content updates
+- **Tinkers' Thinking** - Tinkers' Construct integration updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+No mods were removed in this update.
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.6.7 | v4.6.8 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | Structure Crash Fixes | 0 Fixes | Maintenance Focus |
+| **New Mods** | 0 New Mods | 1 New Mod | Apothic Tooltip Cleanup |
+| **Mods Updated** | 28 | 21 | Broader stability update |
+| **Mods Removed** | 1 | 0 | None |
+| **Forge Version** | 47.4.20 | 47.4.20 | ✅ Latest Stable |
+| **Overall Impact** | 🔥🔥🔥🔥🔥 | 🔥🔥🔥 | Quality of Life |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+
+### After Updating
+
+- **🖥️ Apothic Tooltip Cleanup**: Test cleaner tooltip display functionality
+- **⚡ Performance Check**: Verify ModernFix and BandwidthOptimizer improvements
+- **🏰 MineColonies Progress**: Verify colony systems function with latest updates
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+This update focuses on **quality of life improvements** with the addition of Apothic Tooltip Cleanup (community-suggested via Issue #136) and comprehensive mod maintenance with 21 mods updated to their latest stable versions.
+
+**Update Priority:** MEDIUM (Recommended for ongoing stability)
+
+**Recommendation:** Update for cleaner tooltips and improved mod stability.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate)
+
+---
 # 🎮🔥 [AOF-v4.6.7] - 2026.05.09
 
 > 📌 **HIGHLIGHT:** All Server Crashes Fixed + 25 Mods Updated + Separated Leaves Removed for Stability
