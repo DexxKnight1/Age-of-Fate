@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.6.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v468---20260516) - 2026.05.16 (Latest)
+- [[4.6.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v469---20260526) - 2026.05.26 (Latest)
+- [[4.6.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v468---20260516) - 2026.05.16
 - [[4.6.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v467---20260509) - 2026.05.09
 - [[4.6.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v466---20260502) - 2026.05.02
 - [[4.6.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v465---20260422) - 2026.04.22
@@ -80,6 +81,180 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.6.9] - 2026.05.26
+
+> 📌 **HIGHLIGHT:** 4 Critical Bug Fixes + 12 Mods Removed by Community Vote + Loading Times Improved by ~65s!
+
+---
+
+## ⚡ What's New in This Update
+
+- **4 Critical Bugs Fixed**: Memory freeze, LAN connection, Cataclysm issues, FTB Quests crash
+- **12 Mods Removed**: Based on community Discord poll votes — Origins series, Sinytra Connector series, and more
+- **Au The Leaks Added**: Memory leak fix replacement for better performance
+- **Loading Times Improved**: Game loading ~65s faster, server loading ~60s faster
+- **Flax Fixed**: All three types of flax now usable for making strings
+- **Forge 47.4.18**: Downgraded from 47.4.20 for improved stability
+- **28 Mods Updated**: Botania, MineColonies, L_Ender's Cataclysm, ModernFix, and more
+
+---
+
+## 🔧 Fixed
+
+### 🐛 Bug Fixes (4)
+
+| Issue | Link | Status |
+|-------|------|--------|
+| Memory freeze | [#137](https://github.com/DexxKnight1/Age-of-Fate/issues/137) | ✅ Fixed |
+| LAN-Connection issue | [#138](https://github.com/DexxKnight1/Age-of-Fate/issues/138) | ✅ Fixed |
+| Cataclysm mods issue | [#139](https://github.com/DexxKnight1/Age-of-Fate/issues/139) | ✅ Fixed |
+| FTB Quests crash | [#140](https://github.com/DexxKnight1/Age-of-Fate/issues/140) | ✅ Fixed |
+
+### ⚡ Other Fixes
+
+- **Flax Farming**: All three types of flax fixed — can now be used for making strings
+- **Game Loading Time**: Improved by approximately **65 seconds**
+- **Server Loading Time**: Improved by approximately **60 seconds**
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (1)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Au The Leaks - Au Naturel Edit** | Memory leak fix replacement | Performance |
+
+---
+
+## 🔄 Changed
+
+### ⚙️ Forge Version
+
+| Version | Previous | New | Reason |
+|---------|----------|-----|--------|
+| Forge | 47.4.20 | **47.4.18** | More stable release |
+
+### 🎨 Updated Shaders (2)
+
+| Shader | Changes |
+|--------|---------|
+| **Complementary Shaders – Reimagined** | Visual and performance enhancements |
+| **Complementary Shaders - Unbound** | Visual and performance enhancements |
+
+### 📦 Updated Mods (28)
+
+<details>
+<summary><strong>View All 28 Updated Mods</strong></summary>
+
+- **AzureLib** - Library updates
+- **BandwidthOptimizer** - Network optimization updates
+- **Bosses'Rise** - Boss content updates
+- **Botania** - Magic flora system updates
+- **Colorwheel** - UI color utilities updates
+- **Construct's Casting** - Tinkers' Construct casting updates
+- **CreativeCore** - Core library updates
+- **Delightful** - Farmer's Delight addon updates
+- **Euphoria Patches** - Compatibility and performance fixes
+- **Extended Terminal** - AE2 terminal enhancements
+- **Gnetum** - Plant/content updates
+- **Goety - The Dark Arts** - Dark magic content updates
+- **Goety Cataclysm** - Goety and Cataclysm integration updates
+- **GottschCore** - Core library updates
+- **Just Enough Breeding (JEBr)** - Breeding information updates
+- **Kerria** - Content updates
+- **Kiwi** - Utility library updates
+- **L_Ender's Cataclysm** - Cataclysm content updates
+- **MineColonies** - Colony management updates
+- **ModernFix** - Performance optimization updates
+- **Mowzie's Cataclysm** - Cataclysm content updates
+- **Pipez Lag Fix** - Pipe performance improvements
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **Structurize** - Structure building updates
+- **TConJEI** - Tinkers' Construct JEI integration updates
+- **The Deep Void** - Void dimension updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+### 🗑️ Removed Mods (12)
+
+Removed based on community votes in the Discord poll:
+
+| Mod | Reason |
+|-----|--------|
+| **Origins** | Community vote |
+| **RPG Origins** | Community vote |
+| **Medieval Origins Revival** | Community vote |
+| **Chidori Origins Collection** | Community vote |
+| **Sinytra Connector** | Community vote |
+| **Connector Extras** | Community vote |
+| **Forgified Fabric API** | Community vote |
+| **Icarus** | Community vote |
+| **Pehkui** | Community vote |
+| **T.O Magic 'n Extras - Iron's Spells Addon** | Community vote |
+| **Cataclysm: Spellbooks** | Community vote |
+| **AllTheLeaks (Memory Leak Fix)** | Replaced by Au The Leaks |
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.6.8 | v4.6.9 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 0 Fixes | 4 Fixes | 🐛🔥🔥🔥🔥🔥 |
+| **New Mods** | 1 New Mod | 1 New Mod | Au The Leaks |
+| **Mods Updated** | 21 | 28 | 🔄🔥🔥🔥🔥🔥 |
+| **Shaders Updated** | 0 | 2 | Complementary (Reimagined + Unbound) |
+| **Mods Removed** | 0 | 12 | 🗑️🔥🔥🔥🔥🔥 |
+| **Loading Time** | Standard | -65s Game / -60s Server | ⚡🔥🔥🔥🔥🔥 |
+| **Forge Version** | 47.4.20 | **47.4.18** | ✅ More Stable |
+| **Overall Impact** | 🎮🔥🔥🔥🔥 | 🎮🔥🔥🔥🔥🔥🔥 | **Massive Update!** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **⚠️ Forge Version Change** – Forge downgraded from 47.4.20 to 47.4.18. Ensure no conflicts.
+
+### After Updating
+
+- **⚡ Au The Leaks**: Improved memory leak management for smoother gameplay
+- **🧹 12 Mods Removed**: Verify worlds/saves don't depend on removed mods (Origins, Sinytra Connector, etc.)
+- **🎨 Complementary Shaders**: Test updated shader visuals (both Reimagined & Unbound)
+- **🌾 Flax Farming**: Test all three flax types for string production
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+This is the **largest community-driven update** for Age of Fate! Based on Discord poll results, 12 mods have been removed to streamline the pack and improve performance. Four critical bugs have been squashed, and loading times are drastically improved — saving you over a minute every launch! Forge has been downgraded to 47.4.18 for better stability. A huge thank you to everyone who voted and reported bugs! 💚
+
+**Update Priority:** HIGH (Critical bug fixes + performance improvements)
+
+**Recommendation:** Update as soon as possible to benefit from bug fixes and loading time improvements.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
