@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.6.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v469---20260526) - 2026.05.26 (Latest)
+- [[4.7.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v470---20260602) - 2026.06.02 (Latest)
+- [[4.6.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v469---20260526) - 2026.05.26
 - [[4.6.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v468---20260516) - 2026.05.16
 - [[4.6.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v467---20260509) - 2026.05.09
 - [[4.6.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v466---20260502) - 2026.05.02
@@ -81,6 +82,136 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.7.0] - 2026.06.02
+
+> 📌 **HIGHLIGHT:** 3 New Mods + 18 Mods Updated + 3 Mods Removed for Cleaner Performance!
+
+---
+
+## ⚡ What's New in This Update
+
+- **3 New Mods Added**: Put A Plug In it! (PAPI), Biome Localizations, Ixeris
+- **18 Mods Updated**: Create Big Cannons, Electroblob's Wizardry Redux, Goety - The Dark Arts, Sophisticated series, and more
+- **3 Mods Removed**: TT20 (acting weird in SP), Night Config Fixes (discontinued), ServerConfigCleaner (incompatible)
+- **Stable Build**: Continuing on Forge 47.4.18 for maximum stability
+
+---
+
+## 🔧 Fixed
+
+\- No bug fixes in this update
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (3)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Put A Plug In it! (PAPI)** | Placeholder API integration | Performance/API |
+| **Biome Localizations** | Biome name translations | Localization |
+| **Ixeris** | Content/library addition | Library |
+
+---
+
+## 🔄 Changed
+
+### ⚙️ Forge Version
+
+| Version | Previous | New | Reason |
+|---------|----------|-----|--------|
+| Forge | 47.4.18 | **47.4.18** | Unchanged — most stable release |
+
+### 📦 Updated Mods (18)
+
+<details>
+<summary><strong>View All 18 Updated Mods</strong></summary>
+
+- **Apothic Compat** - Compatibility updates
+- **Apothic Tooltip Cleanup** - Tooltip UI improvements
+- **BandwidthOptimizer** - Network optimization updates
+- **Botanical Machinery Extra Reforked** - Botany addon updates
+- **Create Big Cannons** - Create addon cannon updates
+- **Domum Ornamentum** - Decorative block updates
+- **Electroblob's Wizardry Redux** - Magic system updates
+- **Enigmatic Addons** - Enigmatic legacy integration updates
+- **Euphoria Patches** - Compatibility and performance fixes
+- **EverFurnace** - Furnace system updates
+- **Goety - The Dark Arts** - Dark magic content updates
+- **Integrated Simply Swords** - Weapon integration updates
+- **Iron's Lib** - Library utility updates
+- **KleeSlabs** - Slab placement updates
+- **MMV - Moog's Missing Villages** - Village structure updates
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+
+</details>
+
+---
+
+## ➖ Removed
+
+### 🗑️ Removed Mods (3)
+
+| Mod | Reason |
+|-----|--------|
+| **TT20 (TPS Fixer)** | Acting weird in single-player mode |
+| **Night Config Fixes** | Mod was discontinued as of 02.04.2026. |
+| **ServerConfigCleaner** | Incompatible with the latest Sophisticated Backpacks update |
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.6.9 | v4.7.0 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 4 Fixes | 0 Fixes | Maintenance release |
+| **New Mods** | 1 New Mod | 3 New Mods | 🆕🔥🔥🔥🔥🔥 |
+| **Mods Updated** | 28 | 18 | 🔄🔥🔥🔥🔥 |
+| **Mods Removed** | 12 | 3 | 🗑️🔥🔥 |
+| **Forge Version** | 47.4.18 | **47.4.18** | ✅ Stable |
+| **Overall Impact** | 🎮🔥🔥🔥🔥🔥🔥 | 🎮🔥🔥🔥 | **Clean Maintenance Update** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **⚠️ ServerConfigCleaner Removed** – Verify Sophisticated Backpacks configs load correctly without it.
+
+### After Updating
+
+- **🔌 Put A Plug In it! (PAPI)**: New Placeholder API integration — check any addons that depend on it
+- **🌍 Biome Localizations**: Biome names now properly localized in your language
+- **📦 TT20 Removed**: If you were using TPS fixer features, monitor performance in single-player
+- **🧹 Night Config Fixes Removed**: Mod is discontinued — configs will work without it
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+A clean maintenance update for Age of Fate! Three fresh mods join the pack — Put A Plug In it! (PAPI) brings better placeholder support, Biome Localizations improves multilingual experience, and Ixeris adds to the library ecosystem. We've cleaned house by removing three problematic mods: TT20 was causing issues in single-player, Night Config Fixes was discontinued, and ServerConfigCleaner became incompatible with the latest Sophisticated Backpacks update. Continuing on Forge 47.4.18 for rock-solid stability! 💚
+
+**Update Priority:** MEDIUM (Maintenance update with new content)
+
+**Recommendation:** Update to get the latest mod versions and cleaner mod list.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
