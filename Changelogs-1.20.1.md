@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.7.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v470---20260602) - 2026.06.02 (Latest)
+- [[4.7.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v471---20260620) - 2026.06.20 (Latest)
+- [[4.7.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v470---20260602) - 2026.06.02
 - [[4.6.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v469---20260526) - 2026.05.26
 - [[4.6.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v468---20260516) - 2026.05.16
 - [[4.6.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v467---20260509) - 2026.05.09
@@ -82,6 +83,226 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.7.1] - 2026.06.20
+
+> 📌 **HIGHLIGHT:** Massive Optimization Update! 36 Mods Removed + 67 Updated + 4 New Mods! Memory reduced to 12GB!
+
+---
+
+## ⚡ What's New in This Update
+
+- **🔥 36 Mods Removed**: Almost all MCreator mods purged — massive performance & memory improvement!
+- **🔄 67 Mods Updated**: Biggest update batch in AOF history!
+- **🆕 4 New Mods Added**: Just Dire Things, Serene Seasons, Serene Seasons Fix, JEIOptimizer
+- **⚡ Performance Boost**: Game launch now ~210 seconds for new world!
+- **💾 Memory Reduced**: Now runs smoothly on 12GB instead of 16GB!
+- **🧟 Undead Army**: Kill count bumped to 200 between raids (was 100)
+- **⚙️ Config Optimization**: Multiple performance & stability tweaks
+
+---
+
+## 🔧 Fixed & Improved
+
+- **🧟 Undead Army Raids**: Kill count between raids bumped from 100 → **200**
+- **⚙️ Config Tweaks**: Multiple settings adjusted for better performance and stability
+- **🧹 MCreator Purge**: Almost all MCreator mods removed — they caused significant memory usage and performance issues
+- **🚀 Launch Time**: Drastically improved — creating a new world now takes only **~210 seconds**
+- **💾 Memory Usage**: Reduced from 16GB to **12GB** — the pack is now much lighter!
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (4)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Just Dire Things** | Direwolf20's utility mod — useful tools and gadgets | Utility |
+| **Serene Seasons** | Seasons system for dynamic world environment | World/Environment |
+| **Serene Seasons Fix – Revived** | Compatibility fix for Serene Seasons | Compatibility |
+| **JEIOptimizer** | JEI performance optimization | Performance |
+
+---
+
+## 🔄 Changed
+
+### ⚙️ Forge Version
+
+| Version | Previous | New | Reason |
+|---------|----------|-----|--------|
+| Forge | 47.4.18 | **47.4.18** | Unchanged — most stable release |
+
+### 📦 Updated Mods (67)
+
+<details>
+<summary><strong>View All 67 Updated Mods</strong></summary>
+
+- Advanced Peripherals
+- Apothic Category Compat
+- Apothic Compat
+- Apothic Tooltip Cleanup
+- ApothSB
+- Applied Sorting
+- Async Logger
+- AzureLib
+- BandwidthOptimizer
+- BIC Shield Compat
+- Biome Music
+- Botanical Machinery Extra Reforked
+- Chat Heads
+- ComputerCraft (CC Fork)
+- Collective
+- Colorwheel
+- Construct's Casting
+- Corail Tombstone
+- Crash Assistant
+- Create: New Age
+- Delightful
+- Deimos Lib
+- Electroblob's Wizardry Redux
+- Entity Culling
+- EverFurnace
+- ExtendedAE
+- FancyMenu
+- Farsight
+- FTB Chunks
+- FTB Library
+- Fusion (Connected Textures)
+- Gnetum
+- Goety - The Dark Arts
+- Guard Villagers
+- GuideME
+- Immersive Aircraft
+- Iron's Lib
+- Iron's Spells 'n Spellbooks
+- Jade Addons
+- Kerria
+- L_Ender's Cataclysm
+- McJtyLib
+- Mekanism Extras
+- MineColonies
+- MNS - Moog's Nether Structures
+- ModernFix
+- Moog's Structure Lib (moogs_structures)
+- Moonlight Lib
+- Neruina - Ticking Entity Fixer
+- Not Enough Animations
+- Oh The Biomes We've Gone
+- Oh The Trees You'll Grow
+- Reliquary Reincarnations
+- Repurposed Structures
+- RFTools Base
+- RFTools Builder
+- RFTools Control
+- RFTools Power
+- RFTools Storage
+- RFTools Utility
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Sophisticated Storage Create Integration
+- THE UNDEAD REVAMPED
+- Underlay
+- Villager Names
+- XNet
+
+</details>
+
+---
+
+## ➖ Removed
+
+### 🗑️ Removed Mods (36)
+
+*Purged for performance — mostly MCreator mods:*
+
+| Mod | Reason |
+|-----|--------|
+| **Quantified API** | Performance cleanup |
+| **Temporal API** | Performance cleanup |
+| **AchievementOptimizer** | Performance cleanup |
+| **Ixeris** | Performance cleanup |
+| **Thulium** | Performance cleanup |
+| **Adaptive Optimization (reborn)** | Performance cleanup |
+| **Fast Loading** | Performance cleanup |
+| **Mods Fixer** | Performance cleanup |
+| **Sync Fix** | Performance cleanup |
+| **Sync Fix Core** | Performance cleanup |
+| **LightSpeedRe - Launch optimizations** | Performance cleanup |
+| **Reflex AntiLag** | Performance cleanup |
+| **Cataclysm Weaponery** | MCreator mod — performance issues |
+| **Nether's Overhaul** | MCreator mod — performance issues |
+| **Ruthless Beings** | MCreator mod — performance issues |
+| **Undead Weapons** | MCreator mod — performance issues |
+| **The Midnight** | MCreator mod — performance issues |
+| **SmartBrainLib** | MCreator mod — performance issues |
+| **Mystical Expansion** | MCreator mod — performance issues |
+| **Call from the depths - Sculk Dimension** | MCreator mod — performance issues |
+| **The Deep Void** | MCreator mod — performance issues |
+| **Croptopia Additions** | MCreator mod — performance issues |
+| **Particle Rain** | MCreator mod — performance issues |
+| **Realm RPG: Creep & Crop** | MCreator mod — performance issues |
+| **Realm RPG: Dragon Wyrms** | MCreator mod — performance issues |
+| **Realm RPG: Fallen Adventurers** | MCreator mod — performance issues |
+| **Realm RPG: Imps & Demons** | MCreator mod — performance issues |
+| **Realm RPG: Pots & Mimics** | MCreator mod — performance issues |
+| **Realm RPG: Quests & Rewards** | MCreator mod — performance issues |
+| **Realm RPG: Sea Dwellers** | MCreator mod — performance issues |
+| **Reinforced Crate mod (from Actually Additions)** | MCreator mod — performance issues |
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.7.0 | v4.7.1 | Changes |
+|----------|--------|--------|---------|
+| **Mods Removed** | 3 | **36** | 🗑️🔥🔥🔥🔥🔥🔥🔥🔥 |
+| **Mods Updated** | 18 | **67** | 🔄🔥🔥🔥🔥🔥🔥🔥🔥 |
+| **New Mods** | 3 | 4 | 🆕🔥🔥🔥🔥🔥 |
+| **Memory Usage** | 16GB | **12GB** | 💾🔥🔥🔥🔥🔥🔥 |
+| **Launch Time** | Standard | **~210s** | 🚀🔥🔥🔥🔥🔥🔥 |
+| **Forge Version** | 47.4.18 | **47.4.18** | ✅ Stable |
+| **Overall Impact** | 🎮🔥🔥🔥 | 🎮🔥🔥🔥🔥🔥🔥🔥🔥🔥 | **MASSIVE Optimization!** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Mandatory! 36 mods removed — worlds may be affected!
+2. **⚠️ 36 Mods Removed** – Check if your worlds/saves used any removed mods (especially The Midnight, The Deep Void, Realm RPG series)
+3. **💾 Memory Reduction** – Pack now runs on 12GB instead of 16GB — adjust your launcher settings!
+
+### After Updating
+
+- **🌿 Serene Seasons** – New season system active — crops and biomes will change with seasons
+- **🧟 Undead Army** – Kill count bumped to 200 between raids — longer gaps between waves
+- **🗑️ MCreator Mods Gone** – Expect smoother gameplay, faster chunk loading, less memory usage
+- **🚀 Launch Time** – New world creation should take ~210 seconds (3.5 minutes)
+- **✅ Script Verification** – Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+**This is the BIGGEST optimization update in Age of Fate history!** After weeks of work, we've purged almost **all MCreator mods** from the pack — these mods were notorious for memory leaks and performance issues. The result? The pack now runs on **12GB RAM** instead of 16GB, with dramatically improved launch times (~210 seconds for a new world). 67 mods updated, 4 new additions including Serene Seasons for dynamic world environments, and the undead army raid system has been rebalanced. A huge thank you to everyone who reported performance issues — this update was built for YOU! 💚
+
+**Update Priority:** HIGH (Performance & optimization improvements)
+
+**Recommendation:** Update as soon as possible — massive performance gains across the board!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
