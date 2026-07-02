@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.7.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v471---20260620) - 2026.06.20 (Latest)
+- [[4.7.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v472---20260702) - 2026.07.02 (Latest)
+- [[4.7.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v471---20260620) - 2026.06.20
 - [[4.7.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v470---20260602) - 2026.06.02
 - [[4.6.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v469---20260526) - 2026.05.26
 - [[4.6.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v468---20260516) - 2026.05.16
@@ -83,6 +84,152 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.7.2] - 2026.07.02
+
+> 📌 **HIGHLIGHT:** Performance Update! Optimized Block Entities Added + 35 Mods Updated + E-LITE Shaders + Forge 47.4.20!
+
+---
+
+## ⚡ What's New in This Update
+
+- **🆕 1 New Mod Added**: Optimized Block Entities — better block entity performance
+- **🔄 35 Mods Updated**: Async Logger, Goety - The Dark Arts, ImmediatelyFast, JEI, MineColonies, ModernFix, and more!
+- **🎨 New Shader**: E-LITE shaders (MakeUp edit) — visual enhancements
+- **⚙️ Forge Upgraded**: 47.4.18 → **47.4.20**
+- **🔧 Minor fixes**: A few minor issues resolved
+
+---
+
+## 🔧 Fixed
+
+- Fixed a few minor issues
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (1)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Optimized Block Entities** | Better block entity rendering performance | Performance |
+
+---
+
+## 🔄 Changed
+
+### ⚙️ Forge Version
+
+| Version | Previous | New | Reason |
+|---------|----------|-----|--------|
+| Forge | 47.4.18 | **47.4.20** | Updated to latest stable |
+
+### 🎨 Updated Shaders (1)
+
+| Shader | Changes |
+|--------|---------|
+| **E-LITE shaders (MakeUp edit)** | Visual enhancements |
+
+### 📦 Updated Mods (35)
+
+<details>
+<summary><strong>View All 35 Updated Mods</strong></summary>
+
+- Async Logger
+- BandwidthOptimizer
+- Biome Music
+- Collective
+- Common Network
+- ComputerCraft (CC Fork)
+- CreativeCore
+- Domum Ornamentum
+- Entity Culling
+- EverFurnace
+- ExtendedAE
+- FancyMenu
+- Food Effect Tooltips
+- Fusion (Connected Textures)
+- GeckoLib
+- Goety - The Dark Arts
+- Healing Campfire
+- ImmediatelyFast
+- Inventory Essentials
+- Just Dire Things
+- Just Enough Items (JEI)
+- Kiwi 🥝
+- ME Requester
+- MineColonies
+- MNS - Moog's Nether Structures
+- ModernFix
+- Moog's Structure Lib (moogs_structures)
+- RPG-Hud
+- Sawmill
+- Security Craft
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Stylish Effects
+- THE UNDEAD REVAMPED
+
+</details>
+
+---
+
+## ➖ Removed
+
+- No mods removed in this update
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.7.1 | v4.7.2 | Changes |
+|----------|--------|--------|---------|
+| **New Mods** | 4 | 1 | 🆕🔥🔥 |
+| **Mods Updated** | 67 | 35 | 🔄🔥🔥🔥🔥🔥 |
+| **Shaders Added** | 0 | 1 | 🎨🔥🔥🔥 |
+| **Mods Removed** | 36 | 0 | ✅ Clean |
+| **Forge Version** | 47.4.18 | **47.4.20** | ⬆️ Upgraded |
+| **Overall Impact** | 🎮🔥🔥🔥🔥🔥🔥🔥🔥🔥 | 🎮🔥🔥🔥🔥 | **Performance Refresh** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update!
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+4. **⚠️ Forge Upgrade** – Forge updated from 47.4.18 to 47.4.20 — ensure compatibility
+
+### After Updating
+
+- **⚡ Optimized Block Entities** – Expect smoother block entity rendering and performance
+- **🎨 E-LITE Shaders** – Test the new shader visuals (MakeUp edit)
+- **✅ Script Verification** – Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+A solid performance refresh for Age of Fate! Optimized Block Entities joins the pack for smoother block rendering, E-LITE shaders bring fresh visuals, and 35 mods have been refreshed to their latest versions. Forge has been upgraded to 47.4.20. Keeping Age of Fate smooth and up-to-date! 💚
+
+**Update Priority:** MEDIUM (Performance refresh)
+
+**Recommendation:** Update to get the latest mod versions and performance improvements.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
