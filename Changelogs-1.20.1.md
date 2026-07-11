@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.7.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v472---20260702) - 2026.07.02 (Latest)
+- [[4.7.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v473---20260711) - 2026.07.11 (Latest)
+- [[4.7.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v472---20260702) - 2026.07.02
 - [[4.7.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v471---20260620) - 2026.06.20
 - [[4.7.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v470---20260602) - 2026.06.02
 - [[4.6.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v469---20260526) - 2026.05.26
@@ -84,6 +85,154 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.7.3] - 2026.07.11
+
+> 📌 **HIGHLIGHT:** 4 New Cyberware Mods + Solas Shader + 26 Updated Mods + MoreJS Removed!
+
+---
+
+## ⚡ What's New in This Update
+
+- **4 New Mods Added**: Cyberware: Reforged, Cyberware: Visible Modifications, Cyber_Spells & DGLib
+- **Solas Shader Added**: Fresh new shader option for enhanced visuals
+- **26 Mods Updated**: Botania, Vampirism, Sophisticated series, Iron's Spells, and more
+- **1 Mod Removed**: MoreJS
+- **Forge 47.4.20**: Continuing on the latest stable Forge release
+
+---
+
+## 🔧 Fixed
+
+\- No specific bug fixes in this update
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (4)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Cyberware: Reforged** | Cybernetic enhancements and augmentations | Content |
+| **Cyberware: Visible Modifications** | Visual display of installed cyberware | Visual |
+| **Cyber_Spells** | Spell integration with Cyberware system | Magic |
+| **DGLib** | Library dependency for Cyberware mods | Library |
+
+---
+
+## 🔄 Changed
+
+### ⚙️ Forge Version
+
+| Version | Previous | New | Reason |
+|---------|----------|-----|--------|
+| Forge | 47.4.20 | **47.4.20** | Unchanged — stable release |
+
+### 🎨 Updated Shaders (1)
+
+| Shader | Changes |
+|--------|---------|
+| **Solas Shader** | New shader added for enhanced visual experience |
+
+### 📦 Updated Mods (26)
+
+<details>
+<summary><strong>View All 26 Updated Mods</strong></summary>
+
+- **Amplified Nether** - Nether dimension updates
+- **Ars Elemental** - Ars Nouveau addon updates
+- **AzureLib** - Library updates
+- **Balm** - Utility library updates
+- **BisectHosting Server Integration Menu** - Server integration updates
+- **Botania** - Magic flora system updates
+- **Corail Tombstone** - Gravestone system updates
+- **Cupboard** - Config/library updates
+- **Goety - The Dark Arts** - Dark magic content updates
+- **Inventory Essentials** - Inventory management updates
+- **Iron's Lib** - Library utility updates
+- **Iron's Spells 'n Spellbooks** - Magic spell system updates
+- **Just Dire Things** - Content updates
+- **Just Enough Items (JEI)** - Recipe viewer updates
+- **Kerria** - Content updates
+- **Moog's Structure Lib (moogs_structures)** - Structure library updates
+- **MVS - Moog's Voyager Structures** - Structure content updates
+- **quick pack** - Utility updates
+- **Refined Storage Mixin** - Storage system updates
+- **Reliquary Reincarnations** - Relic content updates
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **Sophisticated Storage Create Integration** - Create storage compatibility updates
+- **THE UNDEAD REVAMPED** - Undead content updates
+- **Vampirism - Become a vampire!** - Vampire content updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+### 🗑️ Removed Mods (1)
+
+| Mod | Reason |
+|-----|--------|
+| **MoreJS** | Removed |
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.7.2 | v4.7.3 | Changes |
+|----------|--------|--------|---------|
+| **New Mods** | 1 New Mod | 4 New Mods | 🆕🔥🔥🔥🔥🔥 |
+| **Mods Updated** | 34 | 26 | 🔄🔥🔥🔥🔥 |
+| **Mods Removed** | 0 | 1 | 🗑️🔥 |
+| **Shader Updated** | 1 (E-LITE) | 1 (Solas) | 🎨🔥🔥🔥 |
+| **Forge Version** | 47.4.20 | **47.4.20** | ✅ Stable |
+| **Overall Impact** | 🎮🔥🔥 | 🎮🔥🔥🔥🔥 | **Cyberware Content Update!** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+
+### After Updating
+
+- **🤖 Cyberware: Reforged**: Explore new cybernetic augmentations and enhancements
+- **👁️ Cyberware: Visible Modifications**: Your cyberware now shows on your character model
+- **🔮 Cyber_Spells**: New spell interactions with the Cyberware system
+- **🎨 Solas Shader**: Test the new shader for enhanced visuals
+- **🗑️ MoreJS Removed**: Verify scripts and configurations load correctly without it
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+Welcome to the cyberpunk era of Age of Fate! This update introduces the full **Cyberware** suite — Reforged, Visible Modifications, and Cyber_Spells — giving players the ability to enhance their characters with cybernetic augmentations that are also visible on their character models. Solas Shader joins the pack for a fresh visual experience, while 26 mods have been updated to keep everything running smoothly. MoreJS has been removed to streamline the pack.
+
+**⚠️ CRITICAL:** All updates include an important note regarding your in-game progress. Before updating, make sure to back up your **economy file** (`Age of Fate\kubejs\AOFEconomy`) and your **reputation file** (`Age of Fate\kubejs\AOFReputation`) to avoid losing your balance and RP! 💰🏅
+
+**Update Priority:** MEDIUM-HIGH (New content + important backup notice)
+
+**Recommendation:** Update to experience the new Cyberware content, but do not forget to back up your economy and reputation files first!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
