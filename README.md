@@ -185,7 +185,7 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ## 🖥️ Server Hosting
 
-![server](https://www.bisecthosting.com/partners/custom-banners/fd1be5c2-6afd-4000-8095-0e31ef4da735.png)
+[![server](https://www.bisecthosting.com/partners/custom-banners/fd1be5c2-6afd-4000-8095-0e31ef4da735.png)](https://bisecthosting.com/KNIGHTDEXX)
 
 Want to play **Age of Fate** with your friends? Get a high-performance server at **BisectHosting**!
 
