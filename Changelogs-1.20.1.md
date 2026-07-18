@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.7.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v473---20260711) - 2026.07.11 (Latest)
+- [[4.7.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v474---20260718) - 2026.07.18 (Latest)
+- [[4.7.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v473---20260711) - 2026.07.11
 - [[4.7.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v472---20260702) - 2026.07.02
 - [[4.7.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v471---20260620) - 2026.06.20
 - [[4.7.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v470---20260602) - 2026.06.02
@@ -85,6 +86,143 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.7.4] - 2026.07.18
+
+> 📌 **HIGHLIGHT:** 2 New Navigation Mods + 22 Mods Updated + Cyberware Crash Fixed!
+
+---
+
+## ⚡ What's New in This Update
+
+- **2 New Mods Added**: JourneyMap Teams + Compass to Map addon for better navigation
+- **22 Mods Updated**: MineColonies, ModernFix, Sophisticated series, Goety, and more
+- **3 Mods Removed**: JourneyMap Integration (dev inactivity), Cyberware: Visible Modifications (crash fix), DGLib (cleanup)
+- **Forge 47.4.21**: Upgraded from 47.4.20 for latest fixes
+
+---
+
+## 🔧 Fixed
+
+### 🐛 Bug Fixes
+
+- **Fixed game crashes** caused by Cyberware: Visible Modifications mod — mod has been removed
+- **Fixed a few KubeJS scripts** for proper functionality
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (2)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **JourneyMap Teams** | Shared map markers for multiplayer teams | Navigation |
+| **Compass to Map: JourneyMap & Explorer's Compass & Nature's Compass Addon** | Seamless compass-to-map integration | Navigation |
+
+---
+
+## 🔄 Changed
+
+### ⚙️ Forge Version
+
+| Version | Previous | New | Reason |
+|---------|----------|-----|--------|
+| Forge | 47.4.20 | **47.4.21** | Latest stable release |
+
+### 📦 Updated Mods (22)
+
+<details>
+<summary><strong>View All 22 Updated Mods</strong></summary>
+
+- **Corail Tombstone** - Graves and death mechanics updates
+- **Crash Assistant** - Crash handling updates
+- **FancyMenu** - Menu customization updates
+- **Functional Storage** - Storage system updates
+- **Fusion (Connected Textures)** - Connected textures updates
+- **Goety - The Dark Arts** - Dark magic content updates
+- **Just Dire Things** - Content updates
+- **Just Enough Items (JEI)** - Recipe viewing updates
+- **Mekanism: Weapons** - Mekanism weapon system updates
+- **MineColonies** - Colony management updates
+- **Moderately Enough Effect Descriptions (MEED)** - Effect description updates
+- **ModernFix** - Performance optimization updates
+- **Moog's Structure Lib (moogs_structures)** - Structure library updates
+- **Neruina - Ticking Entity Fixer** - Entity fix updates
+- **Refined Storage (Fixes) Mixin** - Storage system fixes
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **Sophisticated Storage Create Integration** - Create integration updates
+- **TACT - Tiny Alex's Caves Tweaks** - Alex's Caves tweaks updates
+- **Titanium** - Library updates
+- **Underlay** - Utility updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+### 🗑️ Removed Mods (3)
+
+| Mod | Reason |
+|-----|--------|
+| **JourneyMap Integration** | Mod developers don't follow JourneyMap updates |
+| **Cyberware: Visible Modifications** | Caused game crashes (core Cyberware mod remains!) |
+| **DGLib** | Library cleanup |
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.7.3 | v4.7.4 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 0 Fixes | Crash + Script Fixes | 🐛🔥🔥🔥 |
+| **New Mods** | 4 New Mods | 2 New Mods | 🆕🔥🔥🔥 |
+| **Mods Updated** | 26 | 22 | 🔄🔥🔥🔥🔥 |
+| **Mods Removed** | 1 | 3 | 🗑️🔥🔥🔥 |
+| **Forge Version** | 47.4.20 | **47.4.21** | 🔼 Upgraded |
+| **Overall Impact** | 🎮🔥🔥🔥🔥 | 🎮🔥🔥🔥🔥 | **Stability & Navigation Update** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update!
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+
+### After Updating
+
+- **🗺️ JourneyMap Teams**: New team markers feature — test with friends in multiplayer
+- **🧭 Compass to Map**: New compass-to-map integration — check compatibility with your compass mods
+- **🦾 Cyberware**: Core Cyberware mod remains! Only Visible Modifications removed — your cyberware saves are safe
+- **🔥 Forge 47.4.21**: Upgraded Forge — verify all mods load correctly
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+Quick follow-up after v4.7.3's Cyberware update! Turns out Cyberware: Visible Modifications was causing crashes, so it's been removed — the core Cyberware: Reforged mod stays, so all your cybernetic enhancements are safe! 🦾 Two new navigation mods join the pack — JourneyMap Teams for multiplayer coordination and a Compass to Map addon for seamless exploration. JourneyMap Integration was dropped due to developer inactivity. Forge bumped to 47.4.21. Clean stability update! 💚
+
+**Update Priority:** HIGH (Crash fix + Forge upgrade)
+
+**Recommendation:** Update to resolve Cyberware crashes and get the latest Forge improvements.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
