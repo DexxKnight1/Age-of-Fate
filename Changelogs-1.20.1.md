@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.7.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v474---20260718) - 2026.07.18 (Latest)
+- [[4.7.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v475---20260725) - 2026.07.25 (Latest)
+- [[4.7.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v474---20260718) - 2026.07.18
 - [[4.7.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v473---20260711) - 2026.07.11
 - [[4.7.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v472---20260702) - 2026.07.02
 - [[4.7.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v471---20260620) - 2026.06.20
@@ -86,6 +87,84 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+@everyone
+# :boom: AGE OF FATE v4.7.5 – EXPLORATION UPDATE! :boom:
+
+**2 NEW MODS ADDED + 23 MODS UPDATED!**
+
+---
+
+## :sparkles: WHAT'S NEW
+
+✨ **AOF v4.7.5 brings fresh exploration content!**
+> Integrated Dungeons Arise and Integrated Seven Seas added! 23 mods updated for continued stability and performance. Forge upgraded to 47.4.22.
+
+---
+
+## :hammer_pick: FIXED
+
+- No specific bug fixes in this update
+
+---
+
+## :sparkles: ADDED
+
+**:package: New Mods Added (2)**
+- **Integrated Dungeons Arise** — Dungeons Arise integration and compatibility
+- **Integrated Seven Seas** — Seven Seas exploration integration
+
+---
+
+## :package: UPDATED MODS
+
+**23 mods updated including:** Async Logger • BandwidthOptimizer • Botanical Machinery Extra Reforked • Chat Heads • CodeChicken Lib 1.8.+ • EvilCraft • ExtendedAE • Fusion (Connected Textures) • Jade • Just Dire Things • Just Enough Items (JEI) • Just Enough Mekanism Multiblocks • Mana Jade • MineColonies • Moderately Enough Effect Descriptions (MEED) • ModernFix • Optimized Block Entities • Sophisticated Backpacks • Sophisticated Core • Sophisticated Storage • Sophisticated Storage Create Integration • THE UNDEAD REVAMPED • Treasure2
+
+---
+
+## :chart_with_upwards_trend: IMPACT SUMMARY
+
+- **New Mods Added:** 2
+- **Mods Updated:** 23
+- **Mods Removed:** 0
+- **Critical Fixes:** 0
+- **Forge Version:** 47.4.22
+
+---
+
+## :warning: BEFORE YOU UPDATE
+
+**BACKUP YOUR WORLD!** Always recommended for updates!
+:moneybag: **Backup your economy file!** Copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` — otherwise you'll start from zero coins.
+:trophy: **Backup your reputation file!** Copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` — otherwise you'll start from zero RP.
+Check new integrations & recipes in JEI after updating!
+
+---
+
+## :video_game: DOWNLOAD NOW
+
+**Full Changelog:** [GitHub](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md)
+**Download:** [CurseForge](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
+
+---
+
+## :green_heart: COMMUNITY MESSAGE
+
+Two new exploration mods and 23 updated mods — expanding the world of Age of Fate! Big thanks to everyone for your continued support! 💚
+
+---
+
+## :speech_balloon: FEEDBACK
+
+Found a bug? Got suggestions?
+**Report Issues:** [GitHub Issues](https://github.com/DexxKnight1/Age-of-Fate/issues)
+**Discuss here:** [This Discord channel!](https://discord.com/channels/831803522281635850/1057736914721054781)
+
+---
+
+**UPDATE NOW AND MASTER YOUR FATE!**
 
 ---
 
