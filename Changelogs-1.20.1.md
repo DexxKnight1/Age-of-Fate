@@ -93,22 +93,23 @@ Table of Contents
 
 # 🎮🔥 [AOF-v4.7.6] - 2026.07.29
 
-> 📌 **HIGHLIGHT:** Key Compatibility Fix + 3 New Mods + 11 Updated Mods!
+> 📌 **HIGHLIGHT:** Compatibility Fix + 3 New Mods + 11 Updated Mods!
 
 ---
 
 ## ⚡ What's New in This Update
 
-- **Fixed incompatibility** between Integrated Dungeons Arise and Integrated Seven Seas
+- **2 Compatibility Fixes**: Integrated Dungeons Arise & Integrated Seven Seas now compatible — no more conflict with original dungeon mods
 - **3 New Mods Added**: Feature Recycler, Ice and Fire Memory Fix, Sophisticated Chest Optimized
 - **11 Mods Updated**: Aquamirae, Blood Magic, Cyberware: Reforged, MineColonies, JEI, and more
-- **2 Mods Removed**: When Dungeons Arise & When Dungeons Arise - Seven Seas (incompatibility)
+- **2 Mods Removed**: When Dungeons Arise & When Dungeons Arise - Seven Seas (incompatible with Integrated versions)
 
 ---
 
 ## 🔧 Fixed
 
-- **Fixed incompatibility issue** between **Integrated Dungeons Arise** and **Integrated Seven Seas**
+- Fixed incompatibility between **Integrated Dungeons Arise** and original **When Dungeons Arise**
+- Fixed incompatibility between **Integrated Seven Seas** and original **When Dungeons Arise - Seven Seas**
 
 ---
 
@@ -118,7 +119,7 @@ Table of Contents
 
 | Mod | Purpose | Category |
 |-----|---------|----------|
-| **Feature Recycler** | Recycle unused items back into resources | Utility |
+| **Feature Recycler** | Prevents crashes caused by Minecraft's Feature Cycler — fixes Feature order cycle errors and logs conflicts | Bug Fix |
 | **Ice and Fire Memory Fix** | Memory optimization patch for Ice and Fire | Performance |
 | **Sophisticated Chest Optimized** | Performance-enhanced sophisticated chests | Performance |
 
@@ -162,7 +163,7 @@ Table of Contents
 
 | Category | v4.7.5 | v4.7.6 | Changes |
 |----------|--------|--------|---------|
-| **Critical Fixes** | 0 Fixes | 1 Fix | 🐛🔥🔥🔥🔥 |
+| **Critical Fixes** | 0 Fixes | 2 Fixes | 🐛🔥🔥🔥🔥 |
 | **New Mods** | 2 New Mods | 3 New Mods | 🆕🔥🔥🔥🔥 |
 | **Mods Updated** | 23 | 11 | 🔄🔥🔥 |
 | **Mods Removed** | 0 | 2 | ➖ Cleanup |
@@ -182,8 +183,8 @@ Table of Contents
 
 ### After Updating
 
-- **🐛 Incompatibility Fixed**: Integrated Dungeons Arise and Integrated Seven Seas now work together smoothly
-- **♻️ Feature Recycler**: New recycling mechanics available for unused items
+- **🐛 Compatibility Fixed**: Integrated Dungeons Arise & Integrated Seven Seas no longer conflict with original dungeon mods
+- **♻️ Feature Recycler**: Crash prevention for Feature Cycler errors — smoother worldgen
 - **⚡ Performance Boost**: Ice and Fire Memory Fix & Sophisticated Chest Optimized improve game performance
 - **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
 
@@ -191,7 +192,7 @@ Table of Contents
 
 ## 🏆 Special Notes
 
-A quick compatibility fix update for Age of Fate! The main focus is resolving the incompatibility between Integrated Dungeons Arise and Integrated Seven Seas, ensuring both mods play nicely together. We've also added three useful new mods — Feature Recycler for item recycling, Ice and Fire Memory Fix for performance, and Sophisticated Chest Optimized for smoother chest interactions. Two incompatible dungeon mods have been removed. 11 mods refreshed to keep everything running smoothly on Forge 47.4.22! 💚
+A quick compatibility fix update for Age of Fate! The main focus is resolving incompatibilities between the newly added Integrated Dungeons Arise/Seven Seas and their original counterpart mods (When Dungeons Arise & When Dungeons Arise - Seven Seas). Since the originals couldn't coexist with the Integrated versions, they've been removed. We've also added three useful new mods — Feature Recycler to prevent Feature Cycler crashes during worldgen, Ice and Fire Memory Fix for performance, and Sophisticated Chest Optimized for smoother chest interactions. 11 mods refreshed to keep everything running smoothly on Forge 47.4.22! 💚
 
 **Update Priority:** MEDIUM (Compatibility fix — recommended if using Integrated Dungeons/Seven Seas)
 
@@ -205,7 +206,6 @@ A quick compatibility fix update for Age of Fate! The main focus is resolving th
 - **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
 - **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
 - **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
-
 ---
 
 # 🎮🔥 [AOF-v4.7.5] - 2026.07.25
