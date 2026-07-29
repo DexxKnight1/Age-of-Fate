@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.7.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v475---20260725) - 2026.07.25 (Latest)
+- [[4.7.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v476---20260729) - 2026.07.29 (Latest)
+- [[4.7.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v475---20260725) - 2026.07.25
 - [[4.7.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v474---20260718) - 2026.07.18
 - [[4.7.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v473---20260711) - 2026.07.11
 - [[4.7.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v472---20260702) - 2026.07.02
@@ -87,6 +88,123 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.7.6] - 2026.07.29
+
+> 📌 **HIGHLIGHT:** Key Compatibility Fix + 3 New Mods + 11 Updated Mods!
+
+---
+
+## ⚡ What's New in This Update
+
+- **Fixed incompatibility** between Integrated Dungeons Arise and Integrated Seven Seas
+- **3 New Mods Added**: Feature Recycler, Ice and Fire Memory Fix, Sophisticated Chest Optimized
+- **11 Mods Updated**: Aquamirae, Blood Magic, Cyberware: Reforged, MineColonies, JEI, and more
+- **2 Mods Removed**: When Dungeons Arise & When Dungeons Arise - Seven Seas (incompatibility)
+
+---
+
+## 🔧 Fixed
+
+- **Fixed incompatibility issue** between **Integrated Dungeons Arise** and **Integrated Seven Seas**
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (3)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Feature Recycler** | Recycle unused items back into resources | Utility |
+| **Ice and Fire Memory Fix** | Memory optimization patch for Ice and Fire | Performance |
+| **Sophisticated Chest Optimized** | Performance-enhanced sophisticated chests | Performance |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (11)
+
+<details>
+<summary><strong>View All 11 Updated Mods</strong></summary>
+
+- **Aquamirae** - Underwater content updates
+- **Blood Magic** - Magic system updates
+- **Cyberware: Reforged** - Cybernetic enhancements updates
+- **Fusion (Connected Textures)** - Connected textures updates
+- **G3 Doors** - Door mechanics updates
+- **Gnetum** - Plant content updates
+- **Just Dire Things** - Content updates
+- **Just Enough Items (JEI)** - Recipe viewing updates
+- **MineColonies** - Colony management updates
+- **Sophisticated Storage** - Storage system improvements
+- **SuperMartijn642's Core Lib** - Core library updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+### 🗑️ Mods Removed (2)
+
+| Mod | Reason |
+|-----|--------|
+| **When Dungeons Arise** | Incompatible with Integrated Dungeons Arise |
+| **When Dungeons Arise - Seven Seas** | Incompatible with Integrated Seven Seas |
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.7.5 | v4.7.6 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 0 Fixes | 1 Fix | 🐛🔥🔥🔥🔥 |
+| **New Mods** | 2 New Mods | 3 New Mods | 🆕🔥🔥🔥🔥 |
+| **Mods Updated** | 23 | 11 | 🔄🔥🔥 |
+| **Mods Removed** | 0 | 2 | ➖ Cleanup |
+| **Forge Version** | 47.4.22 | **47.4.22** | ⚡ Unchanged |
+| **Overall Impact** | 🎮🔥🔥🔥 | 🎮🔥🔥🔥 | **Compatibility Fix Update** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+4. **⚠️ CRITICAL:** All updates require economy and reputation backups as described above — these files are not preserved across updates automatically!
+
+### After Updating
+
+- **🐛 Incompatibility Fixed**: Integrated Dungeons Arise and Integrated Seven Seas now work together smoothly
+- **♻️ Feature Recycler**: New recycling mechanics available for unused items
+- **⚡ Performance Boost**: Ice and Fire Memory Fix & Sophisticated Chest Optimized improve game performance
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+A quick compatibility fix update for Age of Fate! The main focus is resolving the incompatibility between Integrated Dungeons Arise and Integrated Seven Seas, ensuring both mods play nicely together. We've also added three useful new mods — Feature Recycler for item recycling, Ice and Fire Memory Fix for performance, and Sophisticated Chest Optimized for smoother chest interactions. Two incompatible dungeon mods have been removed. 11 mods refreshed to keep everything running smoothly on Forge 47.4.22! 💚
+
+**Update Priority:** MEDIUM (Compatibility fix — recommended if using Integrated Dungeons/Seven Seas)
+
+**Recommendation:** Update to resolve the incompatibility and enjoy the new additions and performance improvements.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
