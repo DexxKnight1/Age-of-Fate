@@ -72,7 +72,7 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📊 Performance Benchmarks
 
-**Latest Version (v4.7.6)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
+**Latest Version (v4.7.7)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
 
 | Configuration | Performance | Notes |
 |--------------|-------------|-------|
@@ -250,7 +250,7 @@ Special thanks to all mod developers whose incredible work makes this modpack po
 
 ## 📊 Latest Version
 
-**Current Version**: [v4.7.6](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.7.6) (July 29, 2026)
+**Current Version**: [v4.7.7](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.7.7) (August 8, 2026)
 
 **Key Updates**:
 - ⚡ 100-133% shader FPS improvement
