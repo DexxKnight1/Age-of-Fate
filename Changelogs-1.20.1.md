@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.7.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v476---20260729) - 2026.07.29 (Latest)
+- [[4.7.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v477---20260808) - 2026.08.08 (Latest)
+- [[4.7.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v476---20260729) - 2026.07.29
 - [[4.7.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v475---20260725) - 2026.07.25
 - [[4.7.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v474---20260718) - 2026.07.18
 - [[4.7.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v473---20260711) - 2026.07.11
@@ -88,6 +89,135 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.7.7] - 2026.08.08
+
+> 📌 **HIGHLIGHT:** New Lunar Events System (Enhanced Celestials 2) + 27 Mods Updated!
+
+---
+
+## ⚡ What's New in This Update
+
+- **3 New Mods Added**: Enhanced Celestials 2 (Core, Default Lunar Events, Shader Support) — the new lunar events system
+- **1 Mod Removed**: Old Enhanced Celestials — replaced by the new Enhanced Celestials 2 (mod devs moved to a NEW version)
+- **27 Mods Updated**: AdvancedAE, EvilCraft, MineColonies, Goety, Sophisticated Storage, and more
+
+---
+
+## 🔧 Fixed
+
+\- No bug fixes in this update
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (3)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Enhanced Celestials 2: Core** | Core module of the new lunar events system | Events |
+| **Enhanced Celestials 2: Default Lunar Events** | Default lunar events — Blood Moons, Blue Moons, Harvest Moons & more | Events |
+| **Enhanced Celestials 2: Shader Support** | Shader compatibility for Enhanced Celestials 2 | Compatibility |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (27)
+
+<details>
+<summary><strong>View All 27 Updated Mods</strong></summary>
+
+- **AdvancedAE** - AE2 advanced features updates
+- **Aquamirae** - Underwater content updates
+- **Balm** - Cross-platform library updates
+- **Battle Towers – Thexior** - Tower structure updates
+- **Chat Heads** - Chat UI updates
+- **Chunk Sending** - Network chunk sending updates
+- **CorgiLib** - Core library updates
+- **Data Anchor** - Data storage updates
+- **Drippy Loading Screen** - Loading screen updates
+- **EvilCraft** - Dark magic content updates
+- **FancyMenu** - Menu customization updates
+- **Fusion (Connected Textures)** - Connected textures updates
+- **Glassential Renewed** - Glass block updates
+- **Goety - The Dark Arts** - Dark arts content updates
+- **JEIOptimizer** - JEI performance updates
+- **Just Dire Things** - Content updates
+- **Just Enough Items (JEI)** - Recipe viewing updates
+- **Just Enough Mekanism Multiblocks** - Mekanism multiblock info updates
+- **Laser Bridges & Doors** - Laser door updates
+- **MineColonies** - Colony management updates
+- **Moderately Enough Effect Descriptions (MEED)** - Effect description updates
+- **PackagedExCrafting** - Packaged automation updates
+- **quick pack** - Pack optimization updates
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **SuperMartijn642's Core Lib** - Core library updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+### 🗑️ Mods Removed (1)
+
+| Mod | Reason |
+|-----|--------|
+| **Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons** | Mod devs moved to a NEW version (Enhanced Celestials 2) |
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.7.6 | v4.7.7 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 2 Fixes | 0 Fixes | Maintenance release |
+| **New Mods** | 3 New Mods | 3 New Mods | 🆕🔥🔥🔥 |
+| **Mods Updated** | 11 | 27 | 🔄🔥🔥🔥🔥 |
+| **Mods Removed** | 2 | 1 | ➖ Cleanup |
+| **Forge Version** | 47.4.22 | **47.4.22** | ⚡ Unchanged |
+| **Overall Impact** | 🎮🔥🔥🔥 | 🎮🔥🔥🔥 | **Celestial Update** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+4. **⚠️ CRITICAL:** All updates require economy and reputation backups as described above — these files are not preserved across updates automatically!
+
+### After Updating
+
+- **🌙 Enhanced Celestials 2**: New lunar events system — watch the skies for Blood Moons, Blue Moons & more
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+A celestial refresh for Age of Fate! Enhanced Celestials has been completely reworked by its developers into a new version (Enhanced Celestials 2), now split into three modules — Core, Default Lunar Events, and Shader Support. The old Enhanced Celestials mod has been removed in favor of the new system. We've also refreshed 27 mods to keep everything running smoothly on Forge 47.4.22. 💚
+
+**Update Priority:** LOW (Maintenance update with new lunar events system)
+
+**Recommendation:** Update at your convenience to enjoy the new Enhanced Celestials 2 lunar events and latest mod versions.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
