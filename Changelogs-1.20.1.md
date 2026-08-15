@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.7.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v477---20260808) - 2026.08.08 (Latest)
+- [[4.7.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v478---20260815) - 2026.08.15 (Latest)
+- [[4.7.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v477---20260808) - 2026.08.08
 - [[4.7.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v476---20260729) - 2026.07.29
 - [[4.7.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v475---20260725) - 2026.07.25
 - [[4.7.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v474---20260718) - 2026.07.18
@@ -89,6 +90,146 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.7.8] - 2026.08.15
+
+> 📌 **HIGHLIGHT:** 5 Critical Fixes — Rewards, Drops & Tooltips Fixed! + 30 Mods Updated!
+
+---
+
+## ⚡ What's New in This Update
+
+- **5 Critical Fixes**: Mob kill rewards, boss/mob drops, tooltip rendering, fishing loot chances + KubeJS script cleanup
+- **1 New Mod Added**: Simple Custom Early Loading — custom loading screen (replaces Drippy Loading Screen)
+- **1 Mod Removed**: Drippy Loading Screen — replaced by Simple Custom Early Loading
+- **30 Mods Updated**: Async Logger, ModernFix, MineColonies, Goety, Sophisticated Storage, and more
+
+---
+
+## 🔧 Fixed
+
+### 🐛 Critical Fixes (5)
+
+- **Mob Kill Rewards**: Fixed mob kills not awarding money/reputation — mob ID is now resolved via the `ForgeRegistries.ENTITY_TYPES` registry key, fixing Rhino's `includes()` comparison against raw `EntityType` objects
+- **KubeJS Script Cleanup**: Fixed and cleaned up junk from a few KubeJS scripts
+- **Tooltip Rendering**: Fixed tooltips rendering multiple times — tooltip lines are now added through a duplicate-immune wrapper that checks for existing lines before adding, so every tooltip renders exactly once regardless of handler re-registration
+- **Boss & Mob Drops**: Fixed custom boss & mob drops not working — `EntityEvents.death` scripts now resolve entity IDs correctly via `ForgeRegistries`
+- **Fishing Loot Probabilities**: Fixed fishing loot pool probabilities — `withChance` values corrected from percentages to proper 0-1 range
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (1)
+
+| Mod | Purpose | Category |
+|-----|---------|----------|
+| **Simple Custom Early Loading** | Customizable early loading screen (replaces Drippy Loading Screen) | Loading |
+
+---
+
+## 🔄 Changed
+
+### 📦 Updated Mods (30)
+
+<details>
+<summary><strong>View All 30 Updated Mods</strong></summary>
+
+- **Async Logger** - Logging optimization updates
+- **BandwidthOptimizer** - Network optimization updates
+- **Botanical Machinery Extra Reforked** - Botany addon updates
+- **Chat Heads** - Chat UI updates
+- **Chunk Sending** - Network chunk sending updates
+- **Corail Tombstone** - Grave/tombstone updates
+- **Crash Assistant** - Crash report helper updates
+- **Cupboard** - Utility library updates
+- **Electroblob's Wizardry Redux** - Magic content updates
+- **ExtendedAE** - AE2 extended terminal updates
+- **FancyMenu** - Menu customization updates
+- **Goety - The Dark Arts** - Dark arts content updates
+- **Goety Cataclysm** - Goety & Cataclysm content updates
+- **Integrated API** - Integration library updates
+- **Just Enough Items (JEI)** - Recipe viewing updates
+- **Lootr Liason** - Lootr integration updates
+- **MineColonies** - Colony management updates
+- **Moderately Enough Effect Descriptions (MEED)** - Effect description updates
+- **ModernFix** - Performance optimization updates
+- **Put A Plug In it! (PAPI)** - Placeholder API updates
+- **quick pack** - Pack optimization updates
+- **Reliquary Reincarnations** - Reliquary content updates
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **Structurize** - Structure building updates
+- **Stylish Effects** - Effect HUD styling updates
+- **Tinker's Planner Reborn** - Tinkers' planning tool updates
+- **Trash Cans** - Trash/disposal updates
+- **Treasure2** - Treasure/loot content updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+### 🗑️ Mods Removed (1)
+
+| Mod | Reason |
+|-----|--------|
+| **Drippy Loading Screen** | Replaced by Simple Custom Early Loading mod |
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.7.7 | v4.7.8 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 0 Fixes | 5 Fixes | 🔧🔥🔥🔥🔥 Rewards & drops fixed |
+| **New Mods** | 3 New Mods | 1 New Mod | 🆕 |
+| **Mods Updated** | 27 | 30 | 🔄🔥🔥🔥🔥 |
+| **Mods Removed** | 1 | 1 | ➖ Swap |
+| **Forge Version** | 47.4.22 | **47.4.22** | ⚡ Unchanged |
+| **Overall Impact** | 🎮🔥🔥🔥 | 🎮🔥🔥🔥🔥 | **Rewards & Loading Update** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+4. **⚠️ CRITICAL:** All updates require economy and reputation backups as described above — these files are not preserved across updates automatically!
+
+### After Updating
+
+- **💰 Mob Kill Rewards**: Money & reputation are now properly awarded on mob kills — verify in-game
+- **💀 Boss & Mob Drops**: Custom boss & mob drops now work — verify drop tables in-game
+- **🎣 Fishing Loot**: Fishing loot chances corrected — verify loot pools in-game
+- **🖥️ Simple Custom Early Loading**: Custom loading screen — check the new loading customization options
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+A much-needed fix update for Age of Fate! The biggest highlight: mob kills now correctly award money and reputation again — the mob ID is resolved via the `ForgeRegistries.ENTITY_TYPES` registry key, fixing Rhino's `includes()` comparison against raw `EntityType` objects. Custom boss & mob drops are fixed too — `EntityEvents.death` scripts now resolve entity IDs correctly via `ForgeRegistries`. Tooltips no longer render multiple times thanks to a duplicate-immune wrapper, fishing loot chances are corrected to proper 0-1 ranges, and we cleaned up some junk from KubeJS scripts. On the content side, Simple Custom Early Loading joins the pack to replace Drippy Loading Screen, and 30 mods were refreshed to keep everything running smoothly on Forge 47.4.22. 💚
+
+**Update Priority:** MEDIUM (Multiple critical fixes — recommended for all players)
+
+**Recommendation:** Update soon to restore proper rewards, drops, tooltips & fishing loot, and enjoy the new custom loading screen.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
