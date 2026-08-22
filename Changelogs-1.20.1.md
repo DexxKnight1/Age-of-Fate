@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.7.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v478---20260815) - 2026.08.15 (Latest)
+- [[4.7.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v479---20260822) - 2026.08.22 (Latest)
+- [[4.7.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v478---20260815) - 2026.08.15
 - [[4.7.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v477---20260808) - 2026.08.08
 - [[4.7.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v476---20260729) - 2026.07.29
 - [[4.7.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v475---20260725) - 2026.07.25
@@ -90,6 +91,149 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.7.9] - 2026.08.22
+
+> 📌 **HIGHLIGHT:** Smarter Rewards System + 2 Critical Fixes + 29 Mods Updated!
+
+---
+
+## ⚡ What's New in This Update
+
+- **🧠 HP-Based Rewards System**: Mob Currency & Reputation overhauled to an 8-band HP tier system — every hostile creature now pays based on real danger
+- **🧪 Solidified Experience Fix**: Added Centrifugal Separator recipe to close the conversion gap
+- **🪧 Sign Rendering Fix**: Overlapping sign text resolved via Optimized Block Entities config
+- **🔄 29 Mods Updated**: Botania, Enhanced Celestials 2, Farmer's Delight, Iron's Spells 'n Spellbooks, ModernFix, and more
+
+---
+
+## 🔧 Fixed
+
+### 1. Solidified Experience Conversion Gap
+- Resolved by adding a **Centrifugal Separator recipe**: `1 item → 250 mB cofh_core:experience` at **400 RF**
+- Solidified Experience can now be properly converted back into liquid experience
+
+### 2. Sign Text Rendering Overlaps
+- Disabled Optimized Block Entities' sign optimization via the mod config
+- `sign_text_culling` and `optimized_sign` set to `false` — sign text now renders correctly without overlaps
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods
+
+\- No mods added in this update
+
+---
+
+## 🔄 Changed
+
+### 🧠 KubeJS Scripts — New HP-Based Tier System (8 Bands)
+
+The **Mob Currency & Reputation system** has been completely reworked:
+
+- Replaced **static mob lists** with an **HP-based tier system (8 bands)**
+- Every hostile creature now pays in **cash and Reputation Points** based on how dangerous it truly is
+- From **pocket change** for weak mobs to **guaranteed big payouts** for mini-bosses and bosses
+- **No more fighting a massive boss for nothing** — rewards scale with actual threat level
+- **Newly discovered creatures are rewarded automatically** — no more missing payouts for unknown mobs
+
+### 📦 Updated Mods (29)
+
+<details>
+<summary><strong>View All 29 Updated Mods</strong></summary>
+
+- **Amendments** - Vanilla enhancements updates
+- **Aquamirae** - Underwater adventure content updates
+- **BandwidthOptimizer** - Network optimization updates
+- **Botania** - Magic flora content updates
+- **Enhanced Celestials 2: Core** - Lunar event core updates
+- **Enhanced Celestials 2: Default Lunar Events** - Lunar event content updates
+- **Enhanced Celestials 2: Shader Support** - Lunar event shader updates
+- **Farmer's Delight** - Farming/cooking content updates
+- **Fusion (Connected Textures)** - Connected textures updates
+- **Goety - The Dark Arts** - Dark magic content updates
+- **Inventory Essentials** - Inventory management updates
+- **Iron's Spells 'n Spellbooks** - Spellcasting content updates
+- **Just Enough Items (JEI)** - Recipe viewing updates
+- **Just Enough Mekanism Multiblocks** - Mekanism multiblock info updates
+- **Lootr Liason** - Loot container integration updates
+- **ModernFix** - Performance optimization updates
+- **Moog's Structure Lib (moogs_structures)** - Structure library updates
+- **No Chat Reports** - Chat privacy updates
+- **Optimized Block Entities** - Block entity performance updates
+- **Reliquary Reincarnations** - Relic content updates
+- **Repurposed Structures** - Structure overhaul updates
+- **RFTools Builder** - Builder machine updates
+- **Sophisticated Backpacks** - Backpack storage enhancements
+- **Sophisticated Core** - Storage core library updates
+- **Sophisticated Storage** - Storage system improvements
+- **Sophisticated Storage Create Integration** - Create storage integration updates
+- **SuperMartijn642's Core Lib** - Core library updates
+- **TConJEI** - Tinkers Construct JEI integration updates
+- **Underlay** - Rendering/layer utility updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+\- No mods removed in this update
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.7.8 | v4.7.9 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 5 Fixes | 2 Fixes | 🔧 Targeted fixes |
+| **New Mods** | 1 New Mod | 0 New Mods | ⚪ None |
+| **Mods Updated** | 30 | 29 | 🔄🔥🔥🔥🔥 |
+| **Mods Removed** | 1 | 0 | ✅ Clean |
+| **System Changes** | — | **HP Tier Rewards** | 🧠🔥🔥🔥🔥🔥 |
+| **Forge Version** | 47.4.22 | **47.4.22** | ⚪ Unchanged |
+| **Overall Impact** | 🎮🔥🔥🔥 | 🎮🔥🔥🔥🔥 | **Smart Rewards Update** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+4. **⚠️ CRITICAL:** All updates require economy and reputation backups as described above — these files are not preserved across updates automatically!
+
+### After Updating
+
+- **🧠 New HP-Based Rewards**: Every mob now pays cash & RP based on its danger tier — farm weak mobs for pocket change or hunt bosses for big payouts
+- **🧪 Solidified Experience**: Convert it back via the new Centrifugal Separator recipe (1 item → 250 mB experience, 400 RF)
+- **🪧 Sign Rendering**: Sign text overlaps are gone — no more visual glitches
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+A truly **smart rewards overhaul** for Age of Fate! The Mob Currency & Reputation system has evolved from static lists to a dynamic **8-band HP tier system** — the tougher the creature, the bigger the payout. Boss hunting finally pays off, and new creatures automatically join the reward pool. Combined with two quality-of-life fixes (Solidified Experience conversion and sign rendering) and 29 refreshed mods, this is a solid quality-of-life update. 💚
+
+**Update Priority:** MEDIUM (Recommended — includes rewards system overhaul and important fixes)
+
+**Recommendation:** Backup your economy & reputation files, then update to enjoy the smarter rewards system!
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
