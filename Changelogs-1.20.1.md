@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.7.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v479---20260822) - 2026.08.22 (Latest)
+- [[4.8.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v480---20260829) - 2026.08.29 (Latest)
+- [[4.7.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v479---20260822) - 2026.08.22
 - [[4.7.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v478---20260815) - 2026.08.15
 - [[4.7.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v477---20260808) - 2026.08.08
 - [[4.7.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v476---20260729) - 2026.07.29
@@ -91,6 +92,144 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.8.0] - 2026.08.29
+
+> 📌 **HIGHLIGHT:** 3 Critical Fixes + 28 Mods Updated + Forge Upgraded to 47.4.23!
+
+---
+
+## ⚡ What's New in This Update
+
+- **3 Critical Fixes**: Quest book issues, Apotheosis spawners no longer spawning Ender Dragons, Enderiophage spawning fixed across multiple End biomes
+- **28 Mods Updated**: Create: Steam 'n' Rails, EvilCraft, Goety - The Dark Arts, Forestry: CE, and more
+- **Shader Update**: Solas Shader refreshed
+- **Stable Build**: Forge upgraded to 47.4.23 for improved stability
+
+---
+
+## 🔧 Fixed
+
+- **Quest Book** — Fixed multiple issues in the Quest book
+- **Apotheosis Spawners** — Fixed Apotheosis spawners unintentionally spawning Ender Dragons
+- **Enderiophage Spawning** — Fixed the Enderiophage not spawning — the Nullscape mod hides the End Midlands biome, which prevented spawning. The Enderiophage now spawns correctly via a biome tag and config file in End Highlands (most common), Void Barrens, Crystal Peaks, and Shadowlands
+
+---
+
+## ➕ Added
+
+\- No new mods added in this update
+
+---
+
+## 🔄 Changed
+
+### ⚙️ Forge Version
+
+| Version | Previous | New | Reason |
+|---------|----------|-----|--------|
+| Forge | 47.4.22 | **47.4.23** | Upgraded for improved stability |
+
+### 🎨 Updated Shader
+
+| Shader | Note |
+|--------|------|
+| **Solas Shader** | Visual update |
+
+### 📦 Updated Mods (28)
+
+<details>
+<summary><strong>View All 28 Updated Mods</strong></summary>
+
+- **BandwidthOptimizer** - Network optimization updates
+- **Chunk Sending** - Chunk loading performance updates
+- **Create: Steam 'n' Rails** - Train content updates
+- **Cupboard** - Utility library updates
+- **Cyclops Core** - Core library updates
+- **Doggy Talents Next** - Dog companion content updates
+- **Eidolon: Repraised** - Dark magic content updates
+- **Electroblob's Wizardry Redux** - Wizardry content updates
+- **EvilCraft** - Dark magic content updates
+- **FancyMenu** - Menu customization updates
+- **Forestry: CE** - Forestry content updates
+- **Fusion (Connected Textures)** - Connected textures updates
+- **Goety - The Dark Arts** - Dark arts content updates
+- **Guard Villagers** - Villager protection updates
+- **Inventory Pets** - Pet inventory content updates
+- **JEIOptimizer** - JEI performance updates
+- **Just Dire Things** - Content updates
+- **Just Enough Effect Descriptions (JEED)** - Effect description updates
+- **Just Enough Items (JEI)** - Recipe viewing updates
+- **Just Enough Mekanism Multiblocks** - Mekanism multiblock info updates
+- **Moderately Enough Effect Descriptions (MEED)** - Effect description updates
+- **Moog's Structure Lib (moogs_structures)** - Structure library updates
+- **Optimized Block Entities** - Block entity performance updates
+- **Refined Storage (Fixes) Mixin** - Refined Storage fixes updates
+- **Sophisticated Storage** - Storage system improvements
+- **THE UNDEAD REVAMPED** - Undead content updates
+- **Trash Cans** - Utility updates
+- **Underlay** - Rendering updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+\- No mods removed in this update
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.7.9 | v4.8.0 | Changes |
+|----------|--------|--------|---------|
+| **Critical Fixes** | 2 Fixes | 3 Fixes | 🔧🔥🔥🔥 |
+| **New Mods** | 0 New Mods | 0 New Mods | ➖ No change |
+| **Mods Updated** | 29 | 28 | 🔄🔥🔥🔥🔥 |
+| **Mods Removed** | 0 | 0 | ✅ Clean |
+| **Forge Version** | 47.4.22 | **47.4.23** | ⚡ Upgraded |
+| **Overall Impact** | 🎮🔥🔥🔥 | 🎮🔥🔥🔥 | **Stability & Fixes Update** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+4. **⚠️ CRITICAL:** All updates require economy and reputation backups as described above — these files are not preserved across updates automatically!
+
+### After Updating
+
+- **📖 Quest Book**: Fixed multiple issues for smoother progression
+- **🐲 Apotheosis Spawners**: No longer spawn Ender Dragons
+- **🦇 Enderiophage**: Now spawns correctly in End Highlands (most common), Void Barrens, Crystal Peaks, and Shadowlands
+- **🖼️ Solas Shader**: Updated visuals
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+A stability-focused update for Age of Fate! v4.8.0 addresses three key issues: Quest book problems are resolved, Apotheosis spawners no longer spawn Ender Dragons, and the Enderiophage now spawns correctly across multiple End biomes (the Nullscape mod hides the End Midlands biome, so spawning was re-routed via a biome tag and config file). We've also refreshed 28 mods and the Solas Shader, plus upgraded Forge to 47.4.23 for improved stability. No mods were added or removed — a clean, focused release!
+
+**Update Priority:** MEDIUM (Stability & fixes with Forge upgrade)
+
+**Recommendation:** Recommended update for Quest book fixes and spawn corrections.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
