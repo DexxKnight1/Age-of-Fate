@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.8.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v480---20260829) - 2026.08.29 (Latest)
+- [[4.8.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v481---20260905) - 2026.09.05 (Latest)
+- [[4.8.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v480---20260829) - 2026.08.29
 - [[4.7.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v479---20260822) - 2026.08.22
 - [[4.7.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v478---20260815) - 2026.08.15
 - [[4.7.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v477---20260808) - 2026.08.08
@@ -92,6 +93,130 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.8.1] - 2026.09.05
+
+> 📌 **HIGHLIGHT:** 1 New Mod (Bye?Pregen!) + 20 Mods Updated + 2 Shaders Refreshed!
+
+---
+
+## ⚡ What's New in This Update
+
+- **New Mod — Bye?Pregen!**: World generation performance mod that reduces exploration lag, lowers generation-related MSPT, increases chunk-generation throughput, and minimizes server freezes
+- **20 Mods Updated**: BandwidthOptimizer, MineColonies, Tinkers Construct, Farmer's Delight, and more
+- **Shader Updates**: Complementary Shaders – Reimagined and Complementary Shaders - Unbound refreshed
+- **Stable Build**: Forge remains on 47.4.23
+
+---
+
+## 🔧 Fixed
+
+- No fixes in this update — a clean performance-focused release
+
+---
+
+## ➕ Added
+
+### 🆕 New Mod (1)
+
+- **Bye?Pregen!** — A server-side world generation performance optimizer for 1.20.1. Improves chunk generation so the world loads faster and smoother: reduced exploration lag, lower generation-related MSPT, increased chunk-generation throughput and fewer server freezes. Fully compatible with C2ME & FastNoise. **Not compatible with Noisium & AntiXRay** (neither is in the pack, so you're good to go!).
+
+---
+
+## 🔄 Changed
+
+### 🎨 Updated Shaders (2)
+
+| Shader | Note |
+|--------|------|
+| **Complementary Shaders – Reimagined** | Visual update |
+| **Complementary Shaders - Unbound** | Visual update |
+
+### 📦 Updated Mods (20)
+
+<details>
+<summary><strong>View All 20 Updated Mods</strong></summary>
+
+- **BandwidthOptimizer** - Network optimization updates
+- **Botanical Machinery Extra Reforked** - Botania addon updates
+- **Domum Ornamentum** - Decorative block updates
+- **Enhanced Celestials 2: Core** - Celestial events core updates
+- **Enhanced Celestials 2: Default Lunar Events** - Lunar event updates
+- **Enhanced Celestials 2: Shader Support** - Shader support updates
+- **Euphoria Patches** - Shader patch updates
+- **Farmer's Delight** - Farming content updates
+- **Fusion (Connected Textures)** - Connected textures updates
+- **Guard Villagers** - Villager protection updates
+- **Just Enough Items (JEI)** - Recipe viewing updates
+- **Just Enough Mekanism Multiblocks** - Mekanism multiblock info updates
+- **Mantle** - Core library updates
+- **MineColonies** - Colony management updates
+- **Moderately Enough Effect Descriptions (MEED)** - Effect description updates
+- **ModernFix** - Performance updates
+- **MVS - Moog's Voyager Structures** - Structure content updates
+- **Optimized Block Entities** - Block entity performance updates
+- **Tinkers Construct** - Tool crafting content updates
+- **TrashSlot Blacklist Addon** - TrashSlot utility updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+- No mods removed in this update
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.8.0 | v4.8.1 | Changes |
+|----------|--------|--------|---------|
+| **New Mods** | 0 New Mods | 1 New Mod | ➕ Bye?Pregen! |
+| **Mods Updated** | 28 | 20 | 🔄🔥🔥🔥 |
+| **Shaders Updated** | 1 | 2 | 🎨🔥🔥 |
+| **Mods Removed** | 0 | 0 | ✅ Clean |
+| **Forge Version** | 47.4.23 | 47.4.23 | ⚡ No change |
+| **Overall Impact** | Stability & Fixes | World Gen Performance | **World Gen Performance Update** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+4. **⚠️ CRITICAL:** All updates require economy and reputation backups as described above — these files are not preserved across updates automatically!
+
+### After Updating
+
+- **🌍 Bye?Pregen!**: World generation is now optimized — expect smoother exploration, faster chunk loading and fewer server freezes
+- **⚠️ Compatibility note**: Bye?Pregen! is not compatible with Noisium & AntiXRay — neither is present in the pack, so you're good to go
+- **🖼️ Complementary Shaders**: Both Reimagined & Unbound updated to the latest versions
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+A performance-focused update for Age of Fate! v4.8.1 adds **Bye?Pregen!**, a world generation optimization mod that reduces exploration lag, lowers generation-related MSPT, increases chunk-generation throughput, and minimizes server freezes — meaning the world around you loads faster and smoother than ever. Both **Complementary Shaders** (Reimagined & Unbound) are refreshed, along with 20 mods across the pack. No mods were removed and no fixes were needed — a clean, smooth release!
+
+**Update Priority:** MEDIUM (Performance & visual refresh)
+
+**Recommendation:** Recommended update for smoother exploration and chunk generation.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
