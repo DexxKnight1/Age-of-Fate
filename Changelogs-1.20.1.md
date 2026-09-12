@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.8.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v481---20260905) - 2026.09.05 (Latest)
+- [[4.8.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v482---20260912) - 2026.09.12 (Latest)
+- [[4.8.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v481---20260905) - 2026.09.05
 - [[4.8.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v480---20260829) - 2026.08.29
 - [[4.7.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v479---20260822) - 2026.08.22
 - [[4.7.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v478---20260815) - 2026.08.15
@@ -93,6 +94,140 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.8.2] - 2026.09.12
+
+> 📌 **HIGHLIGHT:** 30 Mods Updated + 2 Shaders Refreshed!
+
+---
+
+## ⚡ What's New in This Update
+
+- **30 Mods Updated**: Balm, Blueprint, MineColonies, EvilCraft, Vampirism, and more
+- **Shader Updates**: Complementary Shaders – Reimagined and Complementary Shaders - Unbound refreshed
+- **Stable Build**: Forge remains on 47.4.23
+- **No New Mods**: A pure maintenance pass — nothing added or removed
+
+---
+
+## 🔧 Fixed
+
+- No fixes in this update — a clean maintenance release
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods
+
+- No mods added in this update
+
+---
+
+## 🔄 Changed
+
+### 🎨 Updated Shaders (2)
+
+| Shader | Note |
+|--------|------|
+| **Complementary Shaders – Reimagined** | Visual update |
+| **Complementary Shaders - Unbound** | Visual update |
+
+### 📦 Updated Mods (30)
+
+<details>
+<summary><strong>View All 30 Updated Mods</strong></summary>
+
+- **Balm** - Cross-platform library updates
+- **Blueprint** - Library updates
+- **Colorwheel** - Client-side color library updates
+- **Compass to Map: JourneyMap & Explorer's Compass & Nature's Compass Addon** - Map integration updates
+- **Cyclops Core** - Core library updates
+- **Durability Tooltip** - Tooltip utility updates
+- **Enhanced Celestials 2: Core** - Celestial events core updates
+- **Euphoria Patches** - Shader patch updates
+- **EvilCraft** - Evil-themed content updates
+- **ExtendedAE** - Applied Energistics content updates
+- **Farsight** - Chunk rendering updates
+- **Forestry: CE** - Forestry content updates
+- **Fusion (Connected Textures)** - Connected textures updates
+- **Hostile Mobs and Girls (HMaG)** - Mob content updates
+- **JEIOptimizer** - JEI performance updates
+- **Just Enough Items (JEI)** - Recipe viewing updates
+- **MES - Moog's End Structures** - End structure content updates
+- **MineColonies** - Colony management updates
+- **Moonlight Lib** - Core library updates
+- **Polymorph** - Recipe conflict utility updates
+- **Refined Storage (Fixes) Mixin** - Refined Storage fix updates
+- **Sanguine Neural Networks [Hostile Neural Networks Addon]** - Addon updates
+- **Sophisticated Backpacks** - Backpack storage updates
+- **Sophisticated Core** - Core library updates
+- **Structurize** - Structure building updates
+- **THE UNDEAD REVAMPED** - Undead content updates
+- **TrashSlot Blacklist Addon** - TrashSlot utility updates
+- **Treasure2** - Treasure content updates
+- **Vampirism - Become a vampire!** - Vampire gameplay updates
+- **Waystones** - Teleportation content updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+- No mods removed in this update
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.8.1 | v4.8.2 | Changes |
+|----------|--------|--------|---------|
+| **New Mods** | 1 New Mod | 0 New Mods | ➖ None |
+| **Mods Updated** | 20 | 30 | 🔄🔥🔥🔥🔥 |
+| **Shaders Updated** | 2 | 2 | 🎨 — |
+| **Mods Removed** | 0 | 0 | ✅ Clean |
+| **Forge Version** | 47.4.23 | 47.4.23 | ⚡ No change |
+| **Overall Impact** | World Gen Performance | Mods Refresh | **Mods Refresh Update** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+4. **⚠️ CRITICAL:** All updates require economy and reputation backups as described above — these files are not preserved across updates automatically!
+
+### After Updating
+
+- **📦 30 Mods Refreshed**: Core libraries, content mods and performance utilities all updated to their latest versions
+- **🖼️ Complementary Shaders**: Both Reimagined & Unbound updated to the latest versions
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+- **🔧 No Config Changes**: Nothing was removed or restructured — your existing setup carries over untouched
+
+---
+
+## 🏆 Special Notes
+
+A broad maintenance pass for Age of Fate! v4.8.2 brings 30 mods up to date — spanning core libraries (Balm, Blueprint, Cyclops Core, Moonlight Lib, Sophisticated Core), content mods (MineColonies, EvilCraft, ExtendedAE, Vampirism, Treasure2, THE UNDEAD REVAMPED, Waystones) and performance utilities (Farsight, JEIOptimizer, Fusion). Both **Complementary Shaders** (Reimagined & Unbound) are refreshed too. No mods were added or removed and no fixes were needed — a clean, stable release that keeps everything running smoothly!
+
+**Update Priority:** MEDIUM (Routine maintenance & stability)
+
+**Recommendation:** Recommended update to keep every mod current and the pack running smoothly.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
