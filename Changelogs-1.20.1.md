@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.8.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v482---20260912) - 2026.09.12 (Latest)
+- [[4.8.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v483---20260921) - 2026.09.21 (Latest)
+- [[4.8.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v482---20260912) - 2026.09.12
 - [[4.8.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v481---20260905) - 2026.09.05
 - [[4.8.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v480---20260829) - 2026.08.29
 - [[4.7.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v479---20260822) - 2026.08.22
@@ -97,6 +98,146 @@ Table of Contents
 
 ---
 
+# 🎮🔥 [AOF-v4.8.3] - 2026.09.21
+
+> 📌 **HIGHLIGHT:** 1 Shop Fix (Player Shop) + 1 New Mod (Respawning Animals) + 33 Mods Updated + 2 Shaders Refreshed!
+
+---
+
+## ⚡ What's New in This Update
+
+- **🛠️ Player Shop Fixed**: `/shop list` used to show a flat **$400** for every single item — prices are now read straight from the shop database, and bundle/set entries list their member items instead of a blank name
+- **New Mod — Respawning Animals**: Bedrock Edition animal spawning comes to Java — wild animals naturally despawn and repopulate, so wildlife never runs out
+- **33 Mods Updated**: MineColonies, Botania, Goety - The Dark Arts, Aquamirae, ExtendedAE, Integrated Dungeons Arise and more
+- **Shader Updates**: Complementary Shaders – Reimagined and Complementary Shaders - Unbound refreshed
+- **Stable Build**: Forge remains on 47.4.23
+
+---
+
+## 🔧 Fixed
+
+- **Player Shop (`/shop list`)**: every item previously displayed a flat **$400** because the price was hardcoded in the display routine — prices are now read directly from the shop database, and bundle/set entries (armor sets, enchanted book pairs, sapling bundles) now list their member items instead of showing an empty name
+
+---
+
+## ➕ Added
+
+### 🆕 New Mod (1)
+
+- **Respawning Animals** — Brings **Bedrock Edition animal spawning to Java Edition**: wild animals naturally despawn and repopulate, preventing the world's animal population from being permanently depleted, while player-associated animals stay protected. **Features:** Bedrock Edition Parity, naturally respawning wild animals, no permanent depletion, renewable animal populations, protection for player animals, simple world configuration.
+
+---
+
+## 🔄 Changed
+
+### 🎨 Updated Shaders (2)
+
+| Shader | Note |
+|--------|------|
+| **Complementary Shaders – Reimagined** | Visual update |
+| **Complementary Shaders - Unbound** | Visual update |
+
+### 📦 Updated Mods (33)
+
+<details>
+<summary><strong>View All 33 Updated Mods</strong></summary>
+
+- **Applied Sorting** - Inventory sorting updates
+- **Aquamirae** - Abyssal content updates
+- **Bad Horse Fix** - Horse behavior fix updates
+- **Botania** - Flower magic content updates
+- **Botanical Machinery Extra Reforked** - Botania addon updates
+- **Collective** - Core library updates
+- **Cupboard** - Core library updates
+- **Data Anchor** - Data storage utility updates
+- **Entity Culling** - Rendering performance updates
+- **Euphoria Patches** - Shader patch updates
+- **ExtendedAE** - Applied Energistics content updates
+- **Farsight** - Chunk rendering updates
+- **Fast IP Ping** - Server connection utility updates
+- **Fragmentum** - Content updates
+- **Fzzy Config** - Config library updates
+- **Goety - The Dark Arts** - Dark magic content updates
+- **Immersive Aircraft** - Aircraft content updates
+- **Integrated API** - API library updates
+- **Integrated Dungeons Arise** - Dungeon content updates
+- **JadeColonies** - Jade/MineColonies integration updates
+- **JEIOptimizer** - JEI performance updates
+- **Just Enough Items (JEI)** - Recipe viewing updates
+- **Just Enough Mekanism Multiblocks** - Mekanism multiblock info updates
+- **MineColonies** - Colony management updates
+- **MMV - Moog's Missing Villages** - Village structure content updates
+- **MNS - Moog's Nether Structures** - Nether structure content updates
+- **Moderately Enough Effect Descriptions (MEED)** - Effect description updates
+- **Moog's Structure Lib (moogs_structures)** - Structure library updates
+- **MSS - Moog's Soaring Structures** - Sky structure content updates
+- **Myotus Lib** - Core library updates
+- **Not Enough Animations** - First-person animation updates
+- **THE UNDEAD REVAMPED** - Undead content updates
+- **Thermal Extra** - Thermal Series addon updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+- No mods removed in this update
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.8.2 | v4.8.3 | Changes |
+|----------|--------|--------|---------|
+| **New Mods** | 0 New Mods | 1 New Mod | ➕ Respawning Animals |
+| **Mods Updated** | 30 | 33 | 🔄🔥🔥🔥🔥 |
+| **Shaders Updated** | 2 | 2 | 🎨 — |
+| **Mods Removed** | 0 | 0 | ✅ Clean |
+| **Critical Fixes** | 0 | 1 | 🛠️ Player Shop prices |
+| **Forge Version** | 47.4.23 | 47.4.23 | ⚡ No change |
+| **Overall Impact** | Mods Refresh | Shop Fix & Respawning Animals | **Shop Fix & Respawning Animals Update** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+4. **⚠️ CRITICAL:** All updates require economy and reputation backups as described above — these files are not preserved across updates automatically!
+
+### After Updating
+
+- **🛒 Shop Prices Now Real**: open `/shop list` and you'll finally see actual prices pulled from the shop database instead of a flat $400 — bundle/set entries (armor sets, enchanted book pairs, sapling bundles) now list their member items too
+- **🐄 Respawning Animals**: wild animals now despawn and repopulate naturally, Bedrock-style — populations stay renewable, while animals you bred, named or leashed remain protected
+- **📦 33 Mods Refreshed**: Core libraries, structure mods and content mods all updated to their latest versions
+- **🖼️ Complementary Shaders**: Both Reimagined & Unbound updated to the latest versions
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+- **🔧 No Config Changes**: Nothing was removed or restructured — your existing setup carries over untouched
+
+---
+
+## 🏆 Special Notes
+
+A fix-and-feature release for Age of Fate! v4.8.3 finally puts the **Player Shop** in order — `/shop list` was showing a hardcoded **$400** for every item, and now it reads real prices straight from the shop database, with bundle and set entries listing their actual member items instead of a blank name. On top of that, **Respawning Animals** arrives to keep your world's wildlife alive: Bedrock-style natural despawning and repopulation means animals never run out, while your own named, bred or leashed animals stay protected. **33 mods** are refreshed — including MineColonies, Botania, Goety, Aquamirae, ExtendedAE and Integrated Dungeons Arise — along with both **Complementary Shaders** (Reimagined & Unbound). No mods were removed, and Forge stays on the stable **47.4.23**.
+
+**Update Priority:** HIGH (Critical shop fix + new content)
+
+**Recommendation:** Strongly recommended — the Player Shop price bug affected every listing, and the new wildlife respawning keeps the world feeling alive.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
+
+---
 # 🎮🔥 [AOF-v4.8.2] - 2026.09.12
 
 > 📌 **HIGHLIGHT:** 30 Mods Updated + 2 Shaders Refreshed!
