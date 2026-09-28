@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.8.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v483---20260921) - 2026.09.21 (Latest)
+- [[4.8.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v484---20260928) - 2026.09.28 (Latest)
+- [[4.8.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v483---20260921) - 2026.09.21
 - [[4.8.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v482---20260912) - 2026.09.12
 - [[4.8.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v481---20260905) - 2026.09.05
 - [[4.8.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v480---20260829) - 2026.08.29
@@ -98,6 +99,152 @@ Table of Contents
 
 ---
 
+# 🎮🔥 [AOF-v4.8.4] - 2026.09.28
+
+> 📌 **HIGHLIGHT:** 5 New Mods (AllTheLeaks, PackForge, Just Enough Threads, Explorer's Compass Enhance, Fast Tag) + 29 Mods Updated + 1 Shader Refreshed + 2 Mods Replaced!
+
+---
+
+## ⚡ What's New in This Update
+
+- **5 New Performance & Utility Mods**: AllTheLeaks (memory leak fixes), PackForge (resource pack loading), Just Enough Threads (JEI startup), Explorer's Compass Enhance and Fast Tag
+- **Faster Startup & Less Memory Waste**: JEI search index building drops from 5.18s to 0.55s with Just Enough Threads, while AllTheLeaks clamps memory leaks across the pack
+- **29 Mods Updated**: Allthemodium, Applied Energistics 2, MineColonies, Tinkers Construct, Goety, Sophisticated suite and more
+- **Shader Refresh**: E-LITE shaders (MakeUp edit) updated
+- **2 Clean Swaps**: Au The Leaks → AllTheLeaks and JEIOptimizer → Just Enough Threads
+- **Stable Build**: Forge remains on 47.4.23
+
+---
+
+## 🔧 Fixed
+
+- No standalone fixes in this update — a performance-focused release
+
+---
+
+## ➕ Added
+
+### 🆕 New Mods (5)
+
+- **AllTheLeaks (Memory Leak Fix)** — A memory-leak fixing mod for Minecraft and large modpacks. Identifies and patches leaks across the game and many popular mods to keep memory usage stable over long play sessions — less stutter, fewer out-of-memory crashes and smoother performance the longer you play.
+- **PackForge - Optimized Resource Pack Loading Time** — Speeds up resource pack loading and protects against crashes caused by oversized texture atlases. Features **Atlas Overflow Protection**, which prevents packs from failing to load when the stitched atlas exceeds its limit, plus configurable loading optimizations for smoother pack application.
+- **Just Enough Threads [JEI Startup Optimize]** — Offloads JEI's search index building and recipe pre-resolution onto multiple threads to speed up startup in large modpacks. Measured gains: **JEI startup "Building runtime" 5.18s → 0.55s** and **"Starting JEI (total)" 10.7s → 6.4s**.
+- **Explorer's Compass Enhance** — Upgrades the Explorer's Compass with richer structure and biome searching: filter search results, visualize structures before travelling, and better integration with companion mods like Nature's Compass and Xaero's Minimap.
+- **Fast Tag** — A startup optimization mod that speeds up `TagKey` handling in Minecraft, reducing the cost of building and resolving item, block and entity tags — smoother load times on big packs. *(Note: now superseded upstream by Just Enough Threads, which handles the same optimization.)*
+
+---
+
+## 🔄 Changed
+
+### 🎨 Updated Shaders (1)
+
+| Shader | Note |
+|--------|------|
+| **E-LITE shaders (MakeUp edit)** | Visual update |
+
+### 📦 Updated Mods (29)
+
+<details>
+<summary><strong>View All 29 Updated Mods</strong></summary>
+
+- **Allthemodium** - Content & material updates
+- **Applied Energistics 2** - Storage network updates
+- **AzureLib** - Animation library updates
+- **Balm** - Core library updates
+- **Colorwheel** - Utility updates
+- **Connectivity** - Network performance updates
+- **CreativeCore** - Core library updates
+- **Electroblob's Wizardry Redux** - Magic content updates
+- **Entity Culling Fabric/Forge** - Rendering performance updates
+- **EverFurnace** - Furnace utility updates
+- **Extended Terminal** - AE2 terminal addon updates
+- **Fusion (Connected Textures)** - Connected textures updates
+- **G3 Doors** - Door content updates
+- **Goety - The Dark Arts** - Dark arts content updates
+- **Integrated API** - Integration library updates
+- **MineColonies** - Colony management updates
+- **Moderately Enough Effect Descriptions (MEED)** - Effect description updates
+- **MVS - Moog's Voyager Structures** - Structure content updates
+- **Myotus Lib** - Core library updates
+- **OptiLeaves** - Leaf rendering performance updates
+- **Sophisticated Backpacks** - Backpack content updates
+- **Sophisticated Core** - Core library updates
+- **Sophisticated Storage** - Storage content updates
+- **SuperMartijn642's Core Lib** - Core library updates
+- **THE UNDEAD REVAMPED** - Mob content updates
+- **Time in a Bottle** - Time acceleration utility updates
+- **Tinkers Construct** - Tool crafting content updates
+- **Trash Cans** - Trash utility updates
+- **Underlay** - Layering library updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+### 🗑️ Removed Mods (2)
+
+| Removed | Replaced By | Reason |
+|---------|-------------|--------|
+| **Au The Leaks - Au Naturel Edit** | **AllTheLeaks** | Swapped for the original AllTheLeaks mod |
+| **JEIOptimizer** | **Just Enough Threads** | Swapped for  Just Enough Threads mod |
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.8.3 | v4.8.4 | Changes |
+|----------|--------|--------|---------|
+| **New Mods** | 1 New Mod | 5 New Mods | ➕🔥🔥🔥 |
+| **Mods Updated** | 33 | 29 | 🔄🔥🔥 |
+| **Shaders Updated** | 2 | 1 | 🎨 |
+| **Mods Removed** | 0 | 2 | 🔁 Replaced |
+| **Critical Fixes** | 1 | 0 | ✅ Clean |
+| **Forge Version** | 47.4.23 | 47.4.23 | ⚡ No change |
+| **Overall Impact** | Shop Fix & Animal Spawning | Startup & Memory Performance | **Startup & Memory Performance Update** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+4. **⚠️ CRITICAL:** All updates require economy and reputation backups as described above — these files are not preserved across updates automatically!
+
+### After Updating
+
+- **⚡ Faster JEI Startup**: With Just Enough Threads, JEI search index building drops from ~5.18s to ~0.55s and total JEI startup from ~10.7s to ~6.4s — expect a noticeably quicker load into the main menu
+- **🧠 Stable Memory Usage**: AllTheLeaks patches memory leaks across the pack and popular mods — long sessions should stay stable with fewer out-of-memory crashes
+- **📦 Faster Resource Pack Loading**: PackForge speeds up pack application and adds Atlas Overflow Protection against oversized texture atlases (may slightly reduce atlas texture quality to prevent load failures)
+- **🧭 Explorer's Compass Enhance**: New search filters and structure visualization when using the Explorer's Compass
+- **🔁 Mod Swaps**: Au The Leaks → AllTheLeaks and JEIOptimizer → Just Enough Threads — both are clean replacements with identical intent
+- **🎨 E-LITE Shaders**: MakeUp edit refreshed to the latest version
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+A performance-focused update for Age of Fate! v4.8.4 brings **five new optimization and utility mods** to the pack: **AllTheLeaks** keeps memory usage stable across long sessions, **Just Enough Threads** slashes JEI startup time, **PackForge** accelerates resource pack loading with Atlas Overflow Protection, and **Explorer's Compass Enhance** plus **Fast Tag** round out the toolkit. Alongside them, **29 mods** and **E-LITE shaders** are refreshed, and two mods (Au The Leaks and JEIOptimizer) are swapped for their original counterparts, AllTheLeaks and Just Enough Threads. No standalone fixes were needed — a clean, speed-focused release!
+
+**Update Priority:** MEDIUM-HIGH (Startup & memory performance)
+
+**Recommendation:** Recommended update for faster startup, lower memory pressure and smoother long play sessions.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
+
+---
 # 🎮🔥 [AOF-v4.8.3] - 2026.09.21
 
 > 📌 **HIGHLIGHT:** 1 Shop Fix (Player Shop) + 1 New Mod (Respawning Animals) + 33 Mods Updated + 2 Shaders Refreshed!
