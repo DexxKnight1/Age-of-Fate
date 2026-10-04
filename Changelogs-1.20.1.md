@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.8.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v484---20260928) - 2026.09.28 (Latest)
+- [[4.8.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v485---20261004) - 2026.10.04 (Latest)
+- [[4.8.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v484---20260928) - 2026.09.28
 - [[4.8.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v483---20260921) - 2026.09.21
 - [[4.8.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v482---20260912) - 2026.09.12
 - [[4.8.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v481---20260905) - 2026.09.05
@@ -96,6 +97,149 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.8.5] - 2026.10.04
+
+> 📌 **HIGHLIGHT:** Ultimate Ingot Recipe Fixed + Forge Bumped to 47.4.26 + 42 Mods Updated!
+
+---
+
+## ⚡ What's New in This Update
+
+- **🛠️ Ultimate Ingot Recipe Fixed**: The Ultimate Ingot crafting recipe is now working correctly
+- **⚙️ Forge Upgraded**: 47.4.23 → **47.4.26** (recommended bump for stability & compatibility)
+- **42 Mods Updated**: AmbientSounds 6, MineColonies, ModernFix, Tinkers' Thinking and more
+- **Clean Release**: No mods added, no shaders changed, no mods removed
+
+---
+
+## 🔧 Fixed
+
+- **Ultimate Ingot Recipe** — corrected so the Ultimate Ingot can be crafted as intended
+
+---
+
+## ➕ Added
+
+- No mods added in this update — a clean maintenance release
+
+---
+
+## 🔄 Changed
+
+### 🎨 Updated Shaders (0)
+
+- No shader changes in this update
+
+### 📦 Updated Mods (42)
+
+<details>
+<summary><strong>View All 42 Updated Mods</strong></summary>
+
+- **AmbientSounds 6** - Ambient audio updates
+- **Anvil Restoration** - Anvil restoration updates
+- **AzureLib** - Animation library updates
+- **BandwidthOptimizer** - Network optimization updates
+- **Botanical Machinery Extra Reforked** - Botania addon updates
+- **Chunk Sending** - Chunk sending performance updates
+- **Collective** - Shared library updates
+- **Cycle Paintings** - Painting cycling updates
+- **Extended Bone Meal** - Bone meal utility updates
+- **FancyMenu** - Menu customization updates
+- **Farsight** - Server-side render distance updates
+- **Fixed Anvil Repair Cost** - Anvil repair cost fix updates
+- **Fragmentum** - Fragmentum content updates
+- **Healing Campfire** - Healing campfire updates
+- **Integrated Dungeons Arise** - Dungeon integration updates
+- **Integrated Patches** - Integrated patches updates
+- **Iron's Lib** - Iron's library updates
+- **Just Dire Things** - Just Dire Things content updates
+- **Just Enough Breeding (JEBr)** - Breeding info updates
+- **Just Enough Items (JEI)** - Recipe viewing updates
+- **Just Enough Mekanism Multiblocks** - Mekanism multiblock info updates
+- **Just Enough Threads [JEI Startup Optimize]** - JEI startup optimization updates
+- **Laser Bridges & Doors** - Laser bridge/door updates
+- **Lootr Liaison** - Lootr integration updates
+- **MezzConfig** - Config library updates
+- **MineColonies** - Colony management updates
+- **ModernFix** - Performance updates
+- **Moog's Structure Lib (moogs_structures)** - Structure library updates
+- **No Animal Tempt Delay** - Animal temptation updates
+- **Oh The Trees You'll Grow** - Tree growth updates
+- **OptiLeaves** - Leaf rendering performance updates
+- **PackForge - Optimized Resource Pack Loading Time** - Resource pack loading updates
+- **quick pack** - Quick pack utility updates
+- **Rhenium** - Performance mod updates
+- **Sophisticated Backpacks** - Backpack content updates
+- **Sophisticated Core** - Sophisticated core updates
+- **Structurize** - Structure building updates
+- **THE UNDEAD REVAMPED** - Undead content updates
+- **Tinkers' Thinking** - Tinkers thinking updates
+- **Trash Cans** - Trash can utility updates
+- **Villager Names** - Villager naming updates
+- **Weaker Spiderwebs** - Spiderweb balancing updates
+
+</details>
+
+---
+
+## ➖ Removed
+
+- No mods removed in this update
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.8.4 | v4.8.5 | Changes |
+|----------|--------|--------|---------|
+| **New Mods** | 5 New Mods | 0 New Mods | — |
+| **Mods Updated** | 29 | 42 | 🔄🔥🔥🔥 |
+| **Shaders Updated** | 1 | 0 | — |
+| **Mods Removed** | 2 | 0 | ✅ Clean |
+| **Critical Fixes** | 0 | 1 | 🛠️ Ultimate Ingot recipe |
+| **Forge Version** | 47.4.23 | 47.4.26 | ⚡ Upgraded |
+| **Overall Impact** | Startup & Memory Performance | Clean Maintenance & Stability | **Maintenance + Forge Bump** |
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+
+1. **🌐 BACKUP YOUR WORLD** – Always recommended before any update. This ensures you can revert if issues occur.
+2. **💰 Backup your economy file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFEconomy` (it contains your balance) — otherwise you'll start from zero coins.
+3. **🏅 Backup your reputation file!** Before every update, copy the `*.json` file from `Age of Fate\kubejs\AOFReputation` (it contains your reputation) — otherwise you'll start from zero RP.
+4. **⚠️ CRITICAL:** All updates require economy and reputation backups as described above — these files are not preserved across updates automatically!
+5. **⚙️ Forge Bump:** This update moves Forge from **47.4.23 → 47.4.26** — make sure your launcher uses the new version.
+
+### After Updating
+
+- **🛠️ Ultimate Ingot**: The Ultimate Ingot recipe now works correctly — craft away!
+- **⚙️ Forge 47.4.26**: Confirm the server/client is running the new Forge build
+- **📦 42 Mods Refreshed**: Core libraries, structure mods and content mods all updated to their latest versions
+- **✅ Script Verification**: Ensure all KubeJS scripts loaded correctly on server startup
+
+---
+
+## 🏆 Special Notes
+
+A clean maintenance release for Age of Fate! v4.8.5 fixes the **Ultimate Ingot recipe** and bumps **Forge to 47.4.26**, alongside **42 mods** refreshed to their latest versions. No mods were added, no mods were removed and no shaders were touched — a tidy, stability-focused update. Don't forget your economy and reputation backups before updating!
+
+**Update Priority:** MEDIUM (Fix + Forge bump)
+
+**Recommendation:** Recommended update for the Ultimate Ingot fix and the Forge 47.4.26 bump.
+
+---
+
+## 🔗 Links
+
+- **GitHub Repository**: [Age of Fate GitHub](https://github.com/DexxKnight1/Age-of-Fate)
+- **Issue Tracker**: [Report Bugs](https://github.com/DexxKnight1/Age-of-Fate/issues)
+- **Discord Community**: [Join Us](https://discord.gg/JMqZhxk7gA)
+- **CurseForge Page**: [Download Here](https://legacy.curseforge.com/minecraft/modpacks/age-of-fate/files)
 
 ---
 
