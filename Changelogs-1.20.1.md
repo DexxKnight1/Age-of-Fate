@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.8.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v485---20261004) - 2026.10.04 (Latest)
+- [[4.8.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v486---20261008) - 2026.10.08 (Latest)
+- [[4.8.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v485---20261004) - 2026.10.04
 - [[4.8.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v484---20260928) - 2026.09.28
 - [[4.8.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v483---20260921) - 2026.09.21
 - [[4.8.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v482---20260912) - 2026.09.12
@@ -97,6 +98,159 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.8.6] - 2026.10.08
+
+**Forge version: 47.4.26**
+
+---
+
+## 📌 HIGHLIGHT
+
+**Combat, Magic & QoL Overhaul Update** — Age of Fate gets its biggest content jump of this series! This update brings **8 new mods** that together upgrade combat, magic and quality of life: magic is finally unified through **Mana Unification** (successfully re-added after the compatibility issue was resolved), combat becomes more readable and satisfying through **Blessfulled: Damage Indicators+**, and the interface and everyday play get serious polish through **Better Advancements**, **Fancy Toasts**, **Mining Speed Tooltips**, **SelectiveBounds**, **Bigger Trees** and **Simply Swords Tweaks**. On top of that, **31 mods were updated**, and four mods were removed or replaced due to conflicts with the latest versions. Forge stays on **47.4.26**.
+
+---
+
+## ⚡ What's New
+
+- **Mana Unification** is back in the pack — the compatibility issue is resolved, and mana is now unified across the leading magic mods.
+- **8 new mods** in total: magic, combat feedback, UI/UX and worldgen improvements.
+- **31 mods updated** — including major ones such as MineColonies, JourneyMap, Simply Swords and the Sophisticated series.
+- **4 mods removed/replaced** — clearing conflicts and making room for better solutions.
+- Forge stays stable on **47.4.26** — no breaking environment changes.
+
+---
+
+## 🔧 Fixed
+
+- *(No specific fixes in this release — the focus is on new content and updates.)*
+
+---
+
+## ➕ Added
+
+### Added Mods
+- **Mana Unification** — *Unifies Mana between Magic Mods.* Unifies the mana system across magic mods (Ars Nouveau, Iron's Spells 'n Spellbooks, Apotheosis, Electroblob's Wizardry Redux, Put Mana In). *[Re-added because the compatibility issue has been resolved.]*
+- **Bigger Trees** — Makes vanilla trees bigger — taller, denser trunks and larger canopies for a fuller, more impressive world.
+- **Better Advancements** — A complete UI/UX redesign of the advancement system: screen-filling UI, changeable advancement icon colors, and an option to stop the background from fading on hover.
+- **Fancy Toasts | Better Advancements** — Modernizes advancement toast notifications — cleaner, more readable and more elegant notifications.
+- **Blessfulled: Damage Indicators+** — Adds 2 new visual combat features: *Damage Text Popup Particles* (animated damage counters with onomatopoeia text and configurable colors) and *White Hurt Overlay* (an animated white overlay when a mob/player is hurt).
+- **Mining Speed Tooltips** — Shows mining speed in the tooltip — clear tool efficiency info at a glance.
+- **SelectiveBounds** — Hides the block selection outline when it isn't relevant — a cleaner, calmer visual experience, fully configurable.
+- **Simply Swords Tweaks** — Adds *Battle Standards Customization* and a set of *Bug Fixes* for Simply Swords — better control and stability.
+
+---
+
+## 🔄 Changed
+
+### Updated Mods
+
+<details>
+<summary><strong>Click to expand the list (31 mods)</strong></summary>
+
+- AmbientSounds 6
+- AzureLib
+- BandwidthOptimizer
+- Born In Configuration
+- Botanical Machinery Extra Reforked
+- Chef's Delight - Farmer's Delight Villagers
+- Collective
+- Corail Tombstone
+- Entity Culling
+- Fragmentum
+- Fusion (Connected Textures)
+- G3 Doors
+- Gnetum
+- JourneyMap
+- Just Enough Breeding (JEBr)
+- Just Enough Mekanism Multiblocks
+- Just Enough Threads [JEI Startup Optimize]
+- MmmMmmMmmMmm (Target Dummy)
+- MineColonies
+- Moonlight Lib
+- Myotus Lib
+- Oh The Biomes We've Gone
+- Oh The Trees You'll Grow
+- Put A Plug In it! (PAPI)
+- Simply Swords
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Sophisticated Storage Create Integration
+- SuperMartijn642's Core Lib
+- Tesseract
+
+</details>
+
+### Updated Shaders
+- *(No shader updates in this release.)*
+
+---
+
+## ➖ Removed
+
+### Removed Mods
+- **JourneyMap Teams** — *[Mod crashes due to the JourneyMap 6 update and changes.]*
+- **Advancement Plaques** — *[Replaced by Fancy Toasts | Better Advancements.]*
+- **Integrated Simply Swords** — *[Mod is incompatible with the latest Simply Swords update.]*
+- **Simply Swords: Overhaul** — *[Mod is incompatible with the latest Simply Swords update.]*
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.8.5 (previous) | v4.8.6 (new) |
+|---|---|---|
+| New Mods | 0 | **8** ⬆️ |
+| Updated Mods | 42 | 31 |
+| Removed Mods | 0 | **4** ⬆️ |
+| Bug Fixes | 1 | 0 |
+| Updated Shaders | 0 | 0 |
+| Forge Version | 47.4.26 | 47.4.26 |
+
+> **Net result:** a major content jump — 8 new mods and cleanup of 4 conflicting mods. The total mod count in the pack grows, while stability stays intact thanks to the resolved Mana Unification conflict and the replacement of outdated mods.
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** — always make a safety copy before updating.
+2. **Backup your economy data** — save the `Age of Fate\kubejs\AOFEconomy` (.json files).
+3. **Backup your reputation data** — save the `Age of Fate\kubejs\AOFReputation` (.json files).
+
+### After Updating
+1. **Verify economy** — make sure the `AOFEconomy` values loaded correctly.
+2. **Verify reputation** — make sure the `AOFReputation` values loaded correctly.
+3. **Advancement display** — the new **Better Advancements** and **Fancy Toasts** change the look of notifications; if you don't like something, tweak it in the config.
+4. **Mana Unification** — if you already use magic mods, check that mana is unifying correctly.
+
+---
+
+## 🏆 Special Notes
+
+> This update is **recommended for all players**. It brings a significant content expansion (8 new mods) as well as critical compatibility fixes by replacing outdated/problematic mods. Everything is available in **All updates** — no breaking environment changes.
+
+**Update Priority: 🟡 MEDIUM — HIGH**
+
+- New content and major quality-of-life improvements → recommended.
+- Removed conflicting mods (JourneyMap Teams, Integrated Simply Swords, Simply Swords: Overhaul) → mandatory update for stability if you use those mods.
+- Forge unchanged → the update is safe and free of breaking changes.
+
+---
+
+## 🔗 Links
+
+- **GitHub:** `github.com/DexxKnight1/Age-of-Fate`
+- **Changelog:** `github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md`
+- **CurseForge:** `legacy.curseforge.com/minecraft/modpacks/age-of-fate/files`
+- **Discord:** `discord.gg/JMqZhxk7gA`
+
+---
+
+*Age of Fate — Master Your Fate.* 🎮🔥
 
 ---
 
