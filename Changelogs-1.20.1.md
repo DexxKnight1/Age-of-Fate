@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.8.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v486---20261008) - 2026.10.08 (Latest)
+- [[4.8.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v487---20261019) - 2026.10.19 (Latest)
+- [[4.8.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v486---20261008) - 2026.10.08
 - [[4.8.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v485---20261004) - 2026.10.04
 - [[4.8.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v484---20260928) - 2026.09.28
 - [[4.8.3]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v483---20260921) - 2026.09.21
@@ -98,6 +99,174 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.8.7] - 2026.10.19
+
+**Forge version: 47.4.28**
+
+---
+
+## 📌 HIGHLIGHT
+
+**Bosses, Beasts & Backup Update** — Age of Fate grows in every direction at once! This update brings **7 new mods** spanning boss combat, mob variety, magic content, tarot abilities and world safety: the Wither fight is reborn through **Wither: Reincarnated**, the Deep Dark gets far more dangerous with **Blighted Beasts** (8 new Sculk mobs), survival mobs become smarter and richer through **Royal Variations**, and **Tarot Cards: Remastered** adds 22 passive abilities to chase. Magic gets a serious boost as **T.O Magic 'n Extras** returns (compatibility resolved) alongside the **cataclysm magic compat** patch, while **FTB Backups 2** finally makes automatic world backups painless. On top of that, **42 mods were updated** and **5 bugs were fixed**, including the Advanced Solar Generator rendering offset and invisible Immersive Engineering Water Wheels/Windmills under shaders. Forge moves to **47.4.28**.
+
+---
+
+## ⚡ What's New
+
+- **7 new mods** in total: bosses, mobs, magic, tarot abilities and backups.
+- **T.O Magic 'n Extras** is back in the pack — the compatibility issue is resolved.
+- **42 mods updated** — including AllTheLeaks, Goety, Tinkers' Thinking, Sophisticated series and JEI.
+- **5 fixes** — recipes, rendering, shader compatibility and a KubeJS JEI suggestion.
+- **1 mod removed** — Advanced Backups, replaced by the more capable FTB Backups 2.
+- **Forge 47.4.26 → 47.4.28** — stable build, no breaking environment changes expected.
+
+---
+
+## 🔧 Fixed
+
+- **ME Interface recipe** — corrected so the ME Interface crafts as intended.
+- **Stone tool recipes** — corrected recipe outputs.
+- **Advanced Solar Generator** — rendering offset fixed by tweaking ModernFix configs.
+- **Immersive Engineering Water Wheels/Windmills** — no longer render invisible when shaders are enabled (VBO disabled in client config).
+- **jei_hide_items.js** — improvement to the JEI hide-items script implemented (suggestion #146).
+
+---
+
+## ➕ Added
+
+### Added Mods
+- **T.O Magic 'n Extras – Iron's Spells Addon** — A large Iron's Spells addon: new spells, weapons and cross-mod integration with Cataclysm and Alex's Caves. *[Re-added because the compatibility issue has been resolved.]*
+- **cataclysm magic compat** — A pure compatibility patch (no new content): restores missing classes, adapts APIs and repairs Mixin targets so T.O Magic 'n Extras and other spell mods work with newer Cataclysm and AzureLib versions, fixing `NoClassDefFoundError` crashes.
+- **Blighted Beasts** — Adds 8 new Sculk mobs, 6 of which spawn in the Deep Dark — a much more dangerous underground.
+- **Wither: Reincarnated** — Reimagines and enhances the Wither boss fight with new mechanics and a more engaging encounter.
+- **Royal Variations** — Enhances vanilla mobs with unique characteristics, abilities, increased XP and drops, plus new items — more diverse and dangerous survival without a pile of new mechanics. Mob spawning is configurable.
+- **Tarot Cards: Remastered** — Adds 22 tarot cards, each granting a distinct passive ability (e.g. *Death* — +20% damage to non-undead mobs; *Justice*; *The Moon* — constant Night Vision).
+- **FTB Backups 2** — Automatic world backups: silent backups, configurable amount/timer, metadata storage, plus commands (`/backup create`, `/backup snapshot`).
+
+### Updated Shaders
+- *(No shader updates in this release.)*
+
+---
+
+## 🔄 Changed
+
+### Updated Mods
+
+<details>
+<summary><strong>Click to expand the list (42 mods)</strong></summary>
+
+- AllTheLeaks (Memory Leak Fix)
+- AzureLib
+- BandwidthOptimizer
+- Botanical Machinery Extra Reforked
+- Bye?Pregen!
+- CC: Tweaked
+- Collective
+- CorgiLib
+- Enigmatic Addons
+- EvilCraft
+- Extended Terminal
+- Fragmentum
+- Goety - The Dark Arts
+- Goety Cataclysm
+- GottschCore
+- Integrated API
+- Just Dire Things
+- Just Enough Items (JEI)
+- Just Enough Threads [JEI Startup Optimize]
+- Laser Bridges & Doors
+- Moderately Enough Effect Descriptions (MEED)
+- ModernFix
+- Moonlight Lib
+- Neruina - Ticking Entity Fixer
+- Oh The Biomes We've Gone
+- Oh The Trees You'll Grow
+- Optimized Block Entities
+- Puzzles Lib
+- Reliquary Reincarnations
+- Sanguine Neural Networks [Hostile Neural Networks Addon]
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Sophisticated Storage Create Integration
+- SuperMartijn642's Core Lib
+- Supplementaries
+- Tinkers Integrations and Tweaks
+- Tinkers' Levelling Addon
+- Tinkers' Thinking
+- Treasure2
+- Vampirism Integrations
+- Villager Names
+
+</details>
+
+---
+
+## ➖ Removed
+
+### Removed Mods
+- **Advanced Backups** — *[Replaced by the FTB Backups 2 mod.]*
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.8.6 (previous) | v4.8.7 (new) |
+|---|---|---|
+| New Mods | 8 | **7** |
+| Updated Mods | 31 | **42** ⬆️ |
+| Removed Mods | 4 | **1** ⬇️ |
+| Bug Fixes | 0 | **5** ⬆️ |
+| Updated Shaders | 0 | 0 |
+| Forge Version | 47.4.26 | **47.4.28** ⬆️ |
+
+> **Net result:** a broad content expansion paired with the largest maintenance sweep in recent releases — 7 new mods, 42 refreshed mods, 5 real bug fixes and a Forge bump. The return of T.O Magic 'n Extras (now with a dedicated compat patch) makes this a particularly strong update for magic-focused players.
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** — always make a safety copy before updating.
+2. **Backup your economy data** — save the `Age of Fate\kubejs\AOFEconomy` (.json files).
+3. **Backup your reputation data** — save the `Age of Fate\kubejs\AOFReputation` (.json files).
+
+### After Updating
+1. **Verify economy** — make sure the `AOFEconomy` values loaded correctly.
+2. **Verify reputation** — make sure the `AOFReputation` values loaded correctly.
+3. **Forge bump** — make sure your launcher uses **47.4.28**.
+4. **Shader users** — Immersive Engineering Water Wheels/Windmills are now visible with shaders enabled; no action needed.
+5. **Backups** — check FTB Backups 2 config to set your preferred interval and backup count.
+6. **Mob spawning** — Royal Variations spawning can be tuned in its config file if the new variants feel too aggressive.
+
+---
+
+## 🏆 Special Notes
+
+> This update is **recommended for all players**. It delivers a significant content expansion (7 new mods), the largest mod refresh of the recent cycle (42 updated), 5 bug fixes and a Forge bump to 47.4.28 — all of it available in **All updates**, with no breaking environment changes.
+
+**Update Priority: 🟠 HIGH**
+
+- New boss content (Wither: Reincarnated) and new mobs (Blighted Beasts, Royal Variations) change core survival balance → recommended.
+- T.O Magic 'n Extras returns with a dedicated compat patch → mandatory if you use spell mods.
+- Advanced Backups removed → mandatory if you rely on it, FTB Backups 2 replaces it.
+- Forge bumped to 47.4.28 → the update is safe but requires the new version in your launcher.
+
+---
+
+## 🔗 Links
+
+- **GitHub:** `github.com/DexxKnight1/Age-of-Fate`
+- **Changelog:** `github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md`
+- **CurseForge:** `legacy.curseforge.com/minecraft/modpacks/age-of-fate/files`
+- **Discord:** `discord.gg/JMqZhxk7gA`
+
+---
+
+*Age of Fate — Master Your Fate.* 🎮🔥
 
 ---
 
