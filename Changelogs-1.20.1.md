@@ -131,7 +131,7 @@ Table of Contents
 - **Stone tool recipes** — corrected recipe outputs.
 - **Advanced Solar Generator** — rendering offset fixed by tweaking ModernFix configs.
 - **Immersive Engineering Water Wheels/Windmills** — no longer render invisible when shaders are enabled (VBO disabled in client config).
-- **jei_hide_items.js** — improvement to the JEI hide-items script implemented (suggestion #146).
+- **jei_hide_items.js** — improvement to the JEI hide-items script implemented (suggestion [#146](https://github.com/DexxKnight1/Age-of-Fate/issues/146)).
 
 ---
 
