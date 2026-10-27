@@ -29,7 +29,7 @@ Forge alliances, uncover secrets, and define your legend in a realm torn between
 
 ### 🌟 Core Experience
 - **4,800+ Quests** across 16 Chapter Groups and 72 Chapters
-- **745+ Mods** carefully curated for performance and gameplay
+- **760+ Mods** carefully curated for performance and gameplay
 - **Custom Ambient Music** for immersive atmosphere
 - **Unique Adventure** to reach the End with End Remastered mod
 - **Player Shop System** for trading and purchasing items
@@ -68,18 +68,18 @@ Forge alliances, uncover secrets, and define your legend in a realm torn between
 
 ## ⚡ Performance & Optimization
 
-Age of Fate has been **extensively optimized** to deliver smooth gameplay even with 730+ mods.
+Age of Fate has been **extensively optimized** to deliver smooth gameplay even with 760+ mods.
 
 ### 📊 Performance Benchmarks
 
-**Latest Version (v4.8.6)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
+**Latest Version (v4.8.8)** - *Tested on i7-14700K / RTX 4070 Ti SUPER / 64GB RAM*
 
 | Configuration | Performance | Notes |
 |--------------|-------------|-------|
 | **Client with Shaders** | 180-350 FPS | Up from ~150 FPS baseline |
 | **Client without Shaders** | 500-900 FPS | Up from ~500 FPS baseline |
 | **Dedicated Server** | Stable 20 TPS | Zero "can't keep up" warnings |
-| **Server Boot Time** | ~183 seconds | With 687 mods on server |
+| **Server Boot Time** | ~183 seconds | With 686 mods on server |
 | **Stability** | 99%+ smooth | Minimal frame drops during exploration |
 
 ### 🔑 Key Optimizations
@@ -104,8 +104,8 @@ Age of Fate has been **extensively optimized** to deliver smooth gameplay even w
 
 ### 📦 Dual-Pack Strategy
 
-- **Client Pack**: 748 mods (includes rendering, optimization, and UI mods)
-- **Server Pack**: 687 mods (excludes 61 client-side mods)
+- **Client Pack**: 760 mods (includes rendering, optimization, and UI mods)
+- **Server Pack**: 686 mods (excludes 74 client-side mods)
 - **Benefit**: Maximum performance for both client and server environments
 
 
@@ -250,7 +250,7 @@ Special thanks to all mod developers whose incredible work makes this modpack po
 
 ## 📊 Latest Version
 
-**Current Version**: [v4.8.6](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.8.6) (October 8, 2026)
+**Current Version**: [v4.8.8](https://github.com/DexxKnight1/Age-of-Fate/releases/tag/AOF-v4.8.8) (October 27, 2026)
 
 **Key Updates**:
 - ⚡ 100-133% shader FPS improvement
