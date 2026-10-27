@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.8.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v487---20261019) - 2026.10.19 (Latest)
+- [[4.8.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v488---20261027) - 2026.10.27 (Latest)
+- [[4.8.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v487---20261019) - 2026.10.19
 - [[4.8.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v486---20261008) - 2026.10.08
 - [[4.8.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v485---20261004) - 2026.10.04
 - [[4.8.4]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v484---20260928) - 2026.09.28
@@ -99,6 +100,162 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.8.8] - 2026.10.27
+
+**Forge version: 47.4.28**
+
+---
+
+## 📌 HIGHLIGHT
+
+**Performance, JEI & Worldgen Polish Update** — Age of Fate gets leaner, faster and better-looking. This release adds **9 new mods**, almost all of them aimed at performance and bug-fixing: **Just Enough Loading** and **JEI/EMI Optimizations** cut both startup and join times, **AsyncParticles** offloads particles to the GPU, **Furia Memory** puts memory cleanup in your hands, and **Radium Re-Reforged** boosts server performance. On the visuals and world side, **Climate Rivers** replaces the default river biome with natural warm/lukewarm/cold biome-specific rivers, **Simple Snowy Fix** repairs the classic "snow not covering leaves" vanilla bug (MC-119599) and **Golem Spawn Fix** stops small objects from blocking Iron Golem spawning, while **Enigmatic Addons Fix** cleans up several addon bugs. **2 shaders** were updated (E-LITE MakeUp edit, Solas) and **30 mods** refreshed. **Just Enough Threads** was removed, replaced by Just Enough Loading. Forge stays on **47.4.28**.
+
+---
+
+## ⚡ What's New
+
+- **9 new mods** — 7 performance/bug-fix mods and 2 worldgen improvements.
+- **JEI overhaul** — Just Enough Loading + JEI/EMI Optimizations deliver faster startup and instant JEI availability.
+- **2 shaders updated** — E-LITE (MakeUp edit) and Solas Shader.
+- **30 mods updated** — core libraries, storage, colonies and more.
+- **1 mod removed** — Just Enough Threads, replaced by the newer Just Enough Loading.
+- **Forge 47.4.28** — unchanged, no environment changes expected.
+
+---
+
+## 🔧 Fixed
+
+- *(No direct changelog fixes in this release — extensive bug fixes arrive via new mods: Enigmatic Addons Fix, Simple Snowy Fix, Golem Spawn Fix and Radium Re-Reforged.)*
+
+---
+
+## ➕ Added
+
+### Added Mods
+- **Just Enough Loading** — A client-side performance addon for JEI that reduces startup time by limiting redundant Anvil and Grindstone recipe examples (up to 3 items per enchantment, 16 generic repair examples). Optional Iron's Spells support.
+- **JEI/EMI Optimizations** — Loads slow JEI/EMI plugins and the search index *after* you join the world, so you get in far sooner and JEI works right away while the index builds in the background.
+- **AsyncParticles** — GPU-accelerated particle rendering with large FPS gains in heavy-particle scenes (e.g. fire particles), compatible with Sodium.
+- **Furia Memory** — A lightweight memory-management mod for singleplayer and servers offering manual memory cleanup for better stability; includes commands.
+- **Enigmatic Addons Fix** — Fixes several issues when playing with Enigmatic Addons: Antique Book Bag, Magic Quartz Flower, Revival Leaves and Ring of Ultimate Luxury, plus usage-status tooltips and mining/experience config options.
+- **Simple Snowy Fix** — Multiloader port that fixes vanilla bug MC-119599: snow not fully covering tree leaves in snowy biomes due to chunk generation order. No dependencies.
+- **Golem Spawn Fix** — Fixes small objects (snow, buttons, candles, carpets, small plants, flowers, pots) obstructing Iron Golem spawning.
+- **Climate Rivers** — Replaces Minecraft's default river biome with natural, biome-specific rivers (warm, lukewarm, cold) for better-looking landscapes for builders and explorers.
+- **Radium Re-Reforged** — A Forge 1.20.1 server-optimization mod with upstream bug fixes (NullPointerException when copying NBT compounds, ConcurrentModificationException during entity status changes) and a new cached pushability system for cramming tests.
+
+### Updated Shaders
+- **E-LITE shaders (MakeUp edit)**
+- **Solas Shader**
+
+---
+
+## 🔄 Changed
+
+### Updated Mods
+
+<details>
+<summary><strong>Click to expand the list (30 mods)</strong></summary>
+
+- AEInfinityBooster
+- AmbientSounds 6
+- Async Logger
+- AzureLib
+- cataclysm magic compat
+- Collective
+- Enigmatic Addons
+- ExtendedAE
+- GottschCore
+- Iron's Lib
+- Just Dire Things
+- Just Enough Items (JEI)
+- McJtyLib
+- MezzConfig
+- MineColonies
+- ModernFix
+- Netherite Tweaks & Fixes
+- Refined Storage (Fixes) Mixin
+- RSInfinityBooster
+- SelectiveBounds
+- Server Performance - Smooth Chunk Save
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Structure Essentials
+- Structurize
+- Trash Cans
+- TrashSlot Blacklist Addon
+- Treasure2
+- Villager Names
+
+</details>
+
+---
+
+## ➖ Removed
+
+### Removed Mods
+- **Just Enough Threads (JEI Startup Optimize)** — *[Replaced by the Just Enough Loading mod.]*
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.8.7 (previous) | v4.8.8 (new) |
+|---|---|---|
+| New Mods | 7 | **9** ⬆️ |
+| Updated Mods | 42 | **30** |
+| Removed Mods | 1 | **1** |
+| Updated Shaders | 0 | **2** ⬆️ |
+| Bug Fixes | 5 | 0 |
+| Forge Version | 47.4.28 | **47.4.28** ✅ |
+
+> **Net result:** a performance- and polish-focused release — 9 new mods (mostly optimizations and fixes), a lighter JEI pipeline, two shader updates and a solid library refresh. Forge remains stable at 47.4.28.
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** — always make a safety copy before updating.
+2. **Backup your economy data** — save the `Age of Fate\kubejs\AOFEconomy` (.json files).
+3. **Backup your reputation data** — save the `Age of Fate\kubejs\AOFReputation` (.json files).
+
+### After Updating
+1. **Verify economy** — make sure the `AOFEconomy` values loaded correctly.
+2. **Verify reputation** — make sure the `AOFReputation` values loaded correctly.
+3. **ForgE version** — stays on **47.4.28**, no launcher change needed.
+4. **JEI pipeline** — Just Enough Threads removed; Just Enough Loading + JEI/EMI Optimizations take over. First join may rebuild the JEI search index once.
+5. **Climate Rivers** — already-generated chunks keep their rivers; new chunks will use biome-specific rivers.
+6. **Royal Variations & spawn fixes** — Golem Spawn Fix and Simple Snowy Fix apply automatically, no config needed.
+
+---
+
+## 🏆 Special Notes
+
+> This update is **recommended** — a performance and polish release that speeds up startup/join times, boosts FPS with GPU particles, improves server performance and cleans up several vanilla and addon bugs. All of it is available in **All updates**, with no breaking environment changes.
+
+**Update Priority: 🟡 MEDIUM**
+
+- Faster startup/join (JEI overhaul) → great quality-of-life win for JEI-heavy packs.
+- Worldgen visual upgrade (Climate Rivers) + snow/golem fixes → safe, cosmetic/behavioral improvements.
+- Shader updates → recommended for shader users.
+- Just Enough Threads removed → replaced by Just Enough Loading, no action needed.
+- Economy/reputation backups required as always.
+
+---
+
+## 🔗 Links
+
+- **GitHub:** `github.com/DexxKnight1/Age-of-Fate`
+- **Changelog:** `github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md`
+- **CurseForge:** `legacy.curseforge.com/minecraft/modpacks/age-of-fate/files`
+- **Discord:** `discord.gg/JMqZhxk7gA`
+
+---
+
+*Age of Fate — Master Your Fate.* 🎮🔥
 
 ---
 
