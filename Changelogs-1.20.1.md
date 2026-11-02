@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.8.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v488---20261027) - 2026.10.27 (Latest)
+- [[4.8.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v488---20261102) - 2026.11.02 (Latest)
+- [[4.8.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v488---20261027) - 2026.10.27
 - [[4.8.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v487---20261019) - 2026.10.19
 - [[4.8.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v486---20261008) - 2026.10.08
 - [[4.8.5]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v485---20261004) - 2026.10.04
@@ -100,6 +101,158 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.8.9] - 2026.11.02
+
+**Forge version: 47.4.28**
+
+---
+
+## 📌 HIGHLIGHT
+
+**Performance, Boss UI & Spell Library Update** — Age of Fate gets a smoother engine and a richer combat experience. This release adds **4 new mods**: **Solix**, a fast multi-threaded light engine for Forge 1.20.1 that spreads light brightest-first, skips re-sending unchanged light to players and ships a working opacity cache plus backported Starlight fixes, and **Alex's Mobs and Caves Optimization**, which trims entity, network and AI overhead (broadcast batching, goal scans, per-tick scans, the Luxtructosaurus roar scatter and cockroach spawn density). On the combat side, **GTBC's Cataclysmic Boss UI** delivers pre-fight boss intel — lore, rendered models, mechanics and tips — while **GTBC's SpellLib/API** provides the library needed for the new **T.O Magic 'n Extras** update. **30 mods** were refreshed and **1 removed** (cataclysm magic compat, no longer needed). Forge stays on **47.4.28**.
+
+---
+
+## ⚡ What's New
+
+- **4 new mods** — 2 performance, 1 boss UI overhaul and 1 spell library.
+- **Solix light engine** — faster, multi-threaded lighting for Forge 1.20.1.
+- **Boss UI overhaul** — GTBC's Cataclysmic Boss UI brings pre-fight boss intel, lore and models.
+- **Spell library** — GTBC's SpellLib/API supports the latest T.O Magic 'n Extras update.
+- **30 mods updated** — core libraries, storage, colonies and more.
+- **1 mod removed** — cataclysm magic compat, no longer needed.
+- **Forge 47.4.28** — unchanged, no environment changes expected.
+
+---
+
+## 🔧 Fixed
+
+- *(No direct changelog fixes in this release — performance and stability gains arrive via the new Solix light engine and Alex's Mobs and Caves Optimization.)*
+
+---
+
+## ➕ Added
+
+### Added Mods
+- **Alex's Mobs and Caves Optimization** — Trims entity/network/AI overhead for smoother performance: batches network broadcasts, reduces AI goal scans and per-tick entity scans for specific mobs, optimizes the Luxtructosaurus roar scatter and reduces cockroach spawn density.
+- **Solix** — A faster light engine for Forge 1.20.1: multi-threaded light updates, queued light work ordered by player distance, brightest-first light spreading, skips re-sending unchanged light to players, a working opacity cache, and backported Starlight fixes. Includes config options in `config/solix.toml`.
+- **GTBC's Cataclysmic Boss UI** — Provides pre-fight boss information before you fight: boss lore, rendered models, mechanics and tips in a clean UI overlay.
+- **GTBC's SpellLib/API** — A library for Iron's Spellbooks addons: new attributes, particle managers and item customization options — *needed for the new T.O Magic 'n Extras - Iron's Spells Addon update.*
+
+### Updated Shaders
+- *(No shader changes in this update.)*
+
+---
+
+## 🔄 Changed
+
+### Updated Mods
+
+<details>
+<summary><strong>Click to expand the list (30 mods)</strong></summary>
+
+- Applied Energistics 2
+- AzureLib
+- Collective
+- Colorwheel
+- Data Anchor
+- Deimos Lib
+- Electroblob's Wizardry Redux
+- EvilCraft
+- EXP Counter
+- Explorer's Compass Enhance
+- Farsight
+- Fixed Anvil Repair Cost
+- Goety - The Dark Arts
+- Goety Cataclysm
+- Healing Campfire
+- JEI/EMI Optimizations
+- Laser Bridges & Doors
+- MezzConfig
+- MineColonies
+- Moderately Enough Effect Descriptions (MEED)
+- Moonlight Lib
+- Not Enough Animations
+- Optimized Block Entities
+- RFTools Builder
+- Royal Variations
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- SuperMartijn642's Core Lib
+- T.O Magic 'n Extras - Iron's Spells Addon
+
+</details>
+
+---
+
+## ➖ Removed
+
+### Removed Mods
+- **cataclysm magic compat** — *[No longer needed.]*
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.8.8 (previous) | v4.8.9 (new) | Changes |
+|---|---|---|---|
+| New Mods | 9 | **4** | ➕🔥🔥 |
+| Mods Updated | 30 | **30** | 🔄 |
+| Shaders Updated | 2 | **0** | — |
+| Mods Removed | 1 | **1** | ✅ Clean |
+| Critical Fixes | 0 | 0 | — |
+| Forge Version | 47.4.28 | **47.4.28** | ✅ Stable |
+| Overall Impact | Performance, JEI & Worldgen Polish | **Boss UI & Spell Library** | Performance + Combat |
+
+> **Net result:** a performance- and combat-polish release — a new light engine (Solix) and mob-optimization mod, a boss UI overhaul, a spell library to support the latest T.O Magic update, and a solid library refresh. Forge remains stable at 47.4.28.
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** — always make a safety copy before updating.
+2. **Backup your economy data** — save the `Age of Fate\kubejs\AOFEconomy` (.json files).
+3. **Backup your reputation data** — save the `Age of Fate\kubejs\AOFReputation` (.json files).
+
+### After Updating
+1. **Verify economy** — make sure the `AOFEconomy` values loaded correctly.
+2. **Verify reputation** — make sure the `AOFReputation` values loaded correctly.
+3. **Forge version** — stays on **47.4.28**, no launcher change needed.
+4. **Solix light engine** — first load will rebuild lighting once; afterwards light updates are much faster. Tune `config/solix.toml` if needed.
+5. **T.O Magic addon** — now requires GTBC's SpellLib/API; keep both installed together.
+6. **cataclysm magic compat** removed — safe to delete from the mods folder.
+
+---
+
+## 🏆 Special Notes
+
+> This update is **recommended** — a performance and polish release that speeds up lighting and mob performance, adds a polished boss-intel UI and a spell library that keeps the T.O Magic addon stack current. All of it is available in **All updates**, with no breaking environment changes.
+
+**Update Priority: 🟡 MEDIUM**
+
+- Solix light engine + mob optimization → big performance win for heavy worlds.
+- Boss UI overhaul → great combat/QoL upgrade.
+- T.O Magic addon now depends on GTBC's SpellLib → keep both.
+- Shaders unchanged → nothing to do for shader users.
+- Economy/reputation backups required as always.
+
+---
+
+## 🔗 Links
+
+- **GitHub:** `github.com/DexxKnight1/Age-of-Fate`
+- **Changelog:** `github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md`
+- **CurseForge:** `legacy.curseforge.com/minecraft/modpacks/age-of-fate/files`
+- **Discord:** `discord.gg/JMqZhxk7gA`
+
+---
+
+*Age of Fate — Master Your Fate.* 🎮🔥
 
 ---
 
