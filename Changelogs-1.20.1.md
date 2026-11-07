@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.8.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v489---20261102) - 2026.11.02 (Latest)
+- [[4.9.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v490---20261107) - 2026.11.07 (Latest)
+- [[4.8.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v489---20261102) - 2026.11.02
 - [[4.8.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v488---20261027) - 2026.10.27
 - [[4.8.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v487---20261019) - 2026.10.19
 - [[4.8.6]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v486---20261008) - 2026.10.08
@@ -101,6 +102,158 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.9.0] - 2026.11.07
+
+**Forge version: 47.4.28**
+
+---
+
+## 📌 HIGHLIGHT
+
+**Performance Framework & Leak Fix Update** — Age of Fate gets a whole new performance stack and a crash-level fix. This release adds **4 new mods**: **Dimension Leak Fix**, which stops memory leaks when changing dimensions, leaving singleplayer worlds or running known leaky mods; **[AMT] Alex's Mobs: Tweaks**, which optimizes pathfinding and cuts CPU load without changing mob behavior; **[JEIR] JEI Rewired**, which rewires JEI for significantly faster startup; and **[QAPI] Quantified API**, a new-generation performance framework (V2). It also fixes a **world-loading hang** involving Solix 0.3.5 and Ender IO (#149). **29 mods** and **1 shader** (Solas) were refreshed, and **2 mods removed/replaced**: Alex's Mobs and Caves Optimization → AMT, and Just Enough Loading → JEI Rewired. Forge stays on **47.4.28**.
+
+---
+
+## ⚡ What's New
+
+- **4 new mods** — all performance/QoL: leak fix, mob tweaks, JEI and a framework.
+- **Quantified API** — a new performance framework (V2) for mods.
+- **[AMT] Alex's Mobs: Tweaks** — optimized pathfinding without changing mob behavior.
+- **[JEIR] JEI Rewired** — faster JEI startup.
+- **Dimension Leak Fix** — fixes memory leaks on dimension changes.
+- **29 mods + 1 shader updated** — libraries, storage, colonies and more.
+- **2 mods removed/replaced** — Alex's Mobs and Caves Optimization → AMT, Just Enough Loading → JEI Rewired.
+- **Forge 47.4.28** — unchanged, no environment changes expected.
+
+---
+
+## 🔧 Fixed
+
+- **World-loading hang** involving **Solix 0.3.5** and **Ender IO** — resolved ([Bug] #149). Existing worlds can now load safely.
+
+---
+
+## ➕ Added
+
+### Added Mods
+- **Dimension Leak Fix** — Fixes memory leaks when changing dimensions, leaving singleplayer worlds and with known leaky mods. Also handles low-memory situations and provides diagnostic information and log output.
+- **[AMT] | Alex's Mobs: Tweaks** — Optimizes pathfinding and reduces CPU load without altering mob behavior — a drop-in performance improvement for Alex's Mobs.
+- **[JEIR] | JEI Rewired** — v1.2.0 (Forge & Fabric 1.20.1). Rewires JEI for significantly faster startup — *replaces Just Enough Loading.*
+- **[QAPI] | Quantified API** — A performance framework for mods (V2): proper async scheduling, parallel execution, dependency-aware task graphs, backend-aware compute routing, duplicate task suppression, advanced caching, automatic mod registration and live diagnostics.
+
+### Updated Shaders
+- **Solas Shader**
+
+---
+
+## 🔄 Changed
+
+### Updated Mods
+
+<details>
+<summary><strong>Click to expand the list (29 mods)</strong></summary>
+
+- AEInfinityBooster
+- AzureLib
+- Collective
+- Colorwheel
+- Cycle Paintings
+- Cyclops Core
+- Enhanced Celestials 2: Core
+- Enhanced Celestials 2: Default Lunar Events
+- Enhanced Celestials 2: Shader Support
+- G3 Doors
+- Goety - The Dark Arts
+- Just Enough Items (JEI)
+- Lithostitched
+- Mantle
+- MezzConfig
+- MineColonies
+- Oh The Trees You'll Grow
+- Optimized Block Entities
+- Radium Re-Reforged
+- Reliquary Reincarnations
+- Solix
+- Sophisticated Core
+- Sophisticated Storage
+- Structurize
+- SuperMartijn642's Core Lib
+- T.O Magic 'n Extras - Iron's Spells Addon
+- Tesseract
+- Tinkers' Thinking
+- Titanium
+
+</details>
+
+---
+
+## ➖ Removed
+
+### Removed Mods
+- **Alex's Mobs and Caves Optimization** — *[Replaced by [AMT] Alex's Mobs: Tweaks.]*
+- **Just Enough Loading** — *[Replaced by [JEIR] JEI Rewired.]*
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.8.9 (previous) | v4.9.0 (new) | Changes |
+|---|---|---|---|
+| New Mods | 4 | **4** | ➕🔥🔥 |
+| Mods Updated | 30 | **29** | 🔄 |
+| Shaders Updated | 0 | **1** | 🔄 |
+| Mods Removed | 1 | **2** | 🗑️ Replaced |
+| Critical Fixes | 0 | **1** | 🛠️ Solix + Ender IO hang |
+| Forge Version | 47.4.28 | **47.4.28** | ✅ Stable |
+| Overall Impact | Boss UI & Spell Library | **Performance Framework & Leak Fix** | Performance + Stability |
+
+> **Net result:** a performance-focused release — a whole new mod-optimization stack (QAPI framework + AMT pathfinding + JEI Rewired + Dimension Leak Fix), one crash-level fix (Solix ↔ Ender IO world-loading hang) and two clean mod swaps. Forge remains stable at 47.4.28.
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** — always make a safety copy before updating.
+2. **Backup your economy data** — save the `Age of Fate\kubejs\AOFEconomy` (.json files).
+3. **Backup your reputation data** — save the `Age of Fate\kubejs\AOFReputation` (.json files).
+
+### After Updating
+1. **Verify economy** — make sure the `AOFEconomy` values loaded correctly.
+2. **Verify reputation** — make sure the `AOFReputation` values loaded correctly.
+3. **Forge version** — stays on **47.4.28**, no launcher change needed.
+4. **Solix + Ender IO** — the world-loading hang is fixed; existing worlds load safely.
+5. **QAPI framework** — keep it installed alongside JEI Rewired and AMT (they depend on it).
+6. **Removed mods** — Alex's Mobs and Caves Optimization and Just Enough Loading can be safely deleted from the mods folder (replaced by AMT and JEI Rewired).
+
+---
+
+## 🏆 Special Notes
+
+> This update is **recommended** — a performance and stability release that adds a whole new optimization stack (QAPI + AMT + JEI Rewired + Dimension Leak Fix), fixes a crash-level world-loading hang between Solix and Ender IO, and performs two clean mod swaps. All of it is available in **All updates**, with no breaking environment changes.
+
+**Update Priority: 🟡 MEDIUM**
+
+- New performance stack → measurable gains on heavy mob/world loads.
+- Crash-level fix (Solix/Ender IO) → recommended before reporting any load hangs.
+- JEI Rewired replaces Just Enough Loading → faster startup.
+- Economy/reputation backups required as always.
+
+---
+
+## 🔗 Links
+
+- **GitHub:** `github.com/DexxKnight1/Age-of-Fate`
+- **Changelog:** `github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md`
+- **CurseForge:** `legacy.curseforge.com/minecraft/modpacks/age-of-fate/files`
+- **Discord:** `discord.gg/JMqZhxk7gA`
+
+---
+
+*Age of Fate — Master Your Fate.* 🎮🔥
 
 ---
 
