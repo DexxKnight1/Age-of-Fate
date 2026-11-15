@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.9.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v490---20261107) - 2026.11.07 (Latest)
+- [[4.9.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v491---20261115) - 2026.11.15 (Latest)
+- [[4.9.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v490---20261107) - 2026.11.07
 - [[4.8.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v489---20261102) - 2026.11.02
 - [[4.8.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v488---20261027) - 2026.10.27
 - [[4.8.7]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v487---20261019) - 2026.10.19
@@ -102,6 +103,155 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.9.1] - 2026.11.15
+
+**Forge version: 47.4.28**
+
+---
+
+## 📌 HIGHLIGHT
+
+**Unique Bows & Library Refresh Update** — Age of Fate gains a brand-new content mod and a broad library refresh. This release adds **1 new mod**, **Simply Bows**, which introduces **7+ unique, uncraftable bows** found in chests while adventuring — each with its own ability, upgradeable with **Reinforced Bow-Frames** and **Enchanted Bow-Strings**, and customisable with **rune etchings** (Grace, Pain, Chaos, Bounty) for **28+ unique ability combinations**. **34 mods** were updated (libraries, storage, colonies, structure and content mods), with **no mods removed** and **no shaders changed**. Forge stays on **47.4.28**.
+
+---
+
+## ⚡ What's New
+
+- **1 new mod** — Simply Bows: 7+ unique uncraftable bows with a deep upgrade and rune system.
+- **34 mods updated** — libraries, storage, colonies, structure and content mods.
+- **0 shaders updated**, **0 mods removed** — clean release.
+- **No bug fixes** — maintenance/polish release.
+- **Forge 47.4.28** — unchanged, no environment changes expected.
+
+---
+
+## 🔧 Fixed
+
+- No fixes in this update.
+
+---
+
+## ➕ Added
+
+### Added Mods
+- **Simply Bows** — Adds **7+ unique bows** that can be discovered in chests while adventuring. Each has a **unique ability** and **cannot be crafted**. Bows can be upgraded with **Reinforced Bow-Frames** (+1 frame) and **Enchanted Bow-Strings** (+1 string), and **etched with runes** — **Grace, Pain, Chaos and Bounty** — that alter the bow's ability, allowing for **28+ unique ability combinations**. Featured bows include **Echo, Petalwind, Everbloom, Trenorstrike, Hinterfang and Bubbleveil**.
+
+### Updated Shaders
+- None in this update.
+
+---
+
+## 🔄 Changed
+
+### Updated Mods
+
+<details>
+<summary><strong>Click to expand the list (34 mods)</strong></summary>
+
+- [JEIR] | JEI Rewired
+- AllTheLeaks (Memory Leak Fix)
+- AsyncParticles
+- AzureLib
+- Collective
+- Compass to Map: JourneyMap & Explorer's Compass & Nature's Compass Addon
+- CreativeCore
+- Cyclops Core
+- Entangled
+- Entity Culling
+- Extended Bone Meal
+- FancyMenu
+- Forestry: CE
+- G3 Doors
+- Integrated API
+- Just Dire Things
+- McJtyLib
+- MezzConfig
+- MineColonies
+- ModernFix
+- Moonlight Lib
+- PackForge - Optimized Resource Pack Loading Time
+- Prefab
+- Reliquary Reincarnations
+- RFTools Utility
+- ShatterLib | OctoLib
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Structurize
+- Structure Layout Optimizer
+- TACT - Tiny Alex's Caves Tweaks
+- T.O Magic 'n Extras - Iron's Spells Addon
+- Villager Names
+
+</details>
+
+---
+
+## ➖ Removed
+
+### Removed Mods
+- None in this update — clean release.
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.9.0 (previous) | v4.9.1 (new) | Changes |
+|---|---|---|---|
+| New Mods | 4 | **1** | ➕ |
+| Mods Updated | 29 | **34** | 🔄🔥🔥🔥 |
+| Shaders Updated | 1 | **0** | — |
+| Mods Removed | 2 | **0** | ✅ Clean |
+| Critical Fixes | 1 | **0** | — |
+| Forge Version | 47.4.28 | **47.4.28** | ✅ Stable |
+| Overall Impact | Performance Framework & Leak Fix | **Unique Bows & Library Refresh** | Content + Maintenance |
+
+> **Net result:** a content-and-maintenance release — one new gameplay mod (Simply Bows) with a deep upgrade/rune system, plus a broad 34-mod library refresh. Forge remains stable at 47.4.28.
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** — always make a safety copy before updating.
+2. **Backup your economy data** — save the `Age of Fate\kubejs\AOFEconomy` (.json files).
+3. **Backup your reputation data** — save the `Age of Fate\kubejs\AOFReputation` (.json files).
+
+### After Updating
+1. **Verify economy** — make sure the `AOFEconomy` values loaded correctly.
+2. **Verify reputation** — make sure the `AOFReputation` values loaded correctly.
+3. **Forge version** — stays on **47.4.28**, no launcher change needed.
+4. **Simply Bows** — new loot is generated in chests; explore new chunks to find the unique bows.
+5. **34 mods refreshed** — libraries, storage, colonies and content mods all updated to latest.
+6. **Verify scripts/configs** — ensure KubeJS scripts and custom configs load correctly on startup.
+
+---
+
+## 🏆 Special Notes
+
+> This update is **recommended** — a content and maintenance release that adds one new gameplay mod (Simply Bows) and refreshes 34 mods. All of it is available in **All updates**, with no breaking environment changes.
+
+**Update Priority: 🟢 LOW–MEDIUM**
+
+- New gameplay mod (Simply Bows) → more loot variety and build options.
+- 34 mods refreshed → stability and polish.
+- Economy/reputation backups required as always.
+
+---
+
+## 🔗 Links
+
+- **GitHub:** `github.com/DexxKnight1/Age-of-Fate`
+- **Changelog:** `github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md`
+- **CurseForge:** `legacy.curseforge.com/minecraft/modpacks/age-of-fate/files`
+- **Discord:** `discord.gg/JMqZhxk7gA`
+
+---
+
+*Age of Fate — Master Your Fate.* 🎮🔥
 
 ---
 
