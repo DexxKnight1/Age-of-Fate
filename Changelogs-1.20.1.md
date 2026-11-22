@@ -11,7 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ---
 
 Table of Contents
-- [[4.9.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v491---20261115) - 2026.11.15 (Latest)
+- [[4.9.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v492---20261122) - 2026.11.22 (Latest)
+- [[4.9.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v491---20261115) - 2026.11.15
 - [[4.9.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v490---20261107) - 2026.11.07
 - [[4.8.9]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v489---20261102) - 2026.11.02
 - [[4.8.8]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v488---20261027) - 2026.10.27
@@ -103,6 +104,177 @@ Table of Contents
 - [[4.0.2]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v402---20250317) - 2025.03.17
 - [[4.0.1]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v401---20250310) - 2025.03.10
 - [[4.0.0]](https://github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md#-aof-v400---20250226) - 2025.02.26 (Initial 1.20.1 Release)
+
+---
+
+# 🎮🔥 [AOF-v4.9.2] - 2026.11.22
+
+**Forge version: 47.4.29**
+
+---
+
+## 📌 HIGHLIGHT
+
+**Player Shop Automation & Forge 47.4.29 Update** — Age of Fate's biggest quality-of-life leap yet: the **Player Shop is now fully automatable**. After many hours of work, every player can now **automate their sales through the Task Screen**, with **payouts credited digitally straight to their account** — no more manual claiming. On top of that, this release brings **3 critical fixes**, **3 updated shaders**, and a broad refresh of **41 mods**, plus **2 removals**. Critically, **Forge moves from 47.4.28 → 47.4.29**, so make sure your launcher picks up the new build. **No new mods** this time — it's all about the automation system and polish.
+
+---
+
+## ⚡ What's New
+
+- **Player Shop full automation** — automate sales via the Task Screen with digital payout to the player's account. 🔥
+- **3 critical fixes** — Macaw's Windows recipe conflict (#150), unobtainable Cheesecake in the Farmer's Delight & Croptopia questline, and Apotheosis spawner modification items.
+- **3 shaders updated** — Complementary Reimagined, Complementary Unbound, E-LITE (MakeUp edit).
+- **41 mods updated** — RFTools suite, Sophisticated suite, libraries, content and performance mods.
+- **2 mods removed** — JEI/EMI Optimizations (no longer needed) and No Chat Reports (platform compliance).
+- **0 new mods** — content already in the pack; this is a feature + maintenance release.
+- **Forge 47.4.28 → 47.4.29** — environment upgrade, launcher uses the new build.
+
+---
+
+## 🔧 Fixed
+
+- **Fixed [Suggestion]: Macaw's Windows recipe conflict resolution #150** — conflicting recipes resolved.
+- **Fixed the unobtainable Cheesecake** in the Farmer's Delight & Croptopia questline — the quest step is now completable.
+- **Fixed Apotheosis spawner modification items** — spawner modification items now function correctly.
+
+---
+
+## ➕ Added
+
+### Added Mods
+- **None** — no new mods in this update.
+
+### New Feature — Player Shop Automation
+- **Player Shop automation:** every player can now **automate their sales through the Task Screen**. Sales are processed automatically and the **payout is credited digitally to the player's account** — no manual claiming required. This is the headline feature of the update and a massive quality-of-life improvement for shop owners.
+
+---
+
+## 🔄 Changed
+
+### Updated Shaders
+
+| Shader | Status |
+|---|---|
+| Complementary Shaders - Reimagined | 🔄 Updated |
+| Complementary Shaders - Unbound | 🔄 Updated |
+| E-LITE shaders (MakeUp edit) | 🔄 Updated |
+
+### Updated Mods
+
+<details>
+<summary><strong>Click to expand the list (41 mods)</strong></summary>
+
+- AllTheLeaks (Memory Leak Fix)
+- AsyncParticles
+- BandwidthOptimizer
+- Collective
+- Cooking for Blockheads
+- Croptopia Delight
+- Entity Culling
+- Euphoria Patches
+- EvilCraft
+- G3 Doors
+- GeckoLib
+- Gnetum
+- GTBC's SpellLib/API
+- Industrial Foregoing
+- Iron's Lib
+- Iron's Spells 'n Spellbooks
+- JourneyMap
+- Just Dire Things
+- Just Enough Items (JEI)
+- Kerria
+- McJtyLib
+- MineColonies
+- ModernFix
+- OpenBlocks Elevator
+- Optimized Block Entities
+- PackagedAuto
+- PackagedMekemicals
+- quick pack
+- Reliquary Reincarnations
+- RFTools Base
+- RFTools Builder
+- RFTools Power
+- RFTools Storage
+- RFTools Utility
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sophisticated Storage
+- Structurize
+- SuperMartijn642's Core Lib
+- Supplementaries
+- XNet
+
+</details>
+
+---
+
+## ➖ Removed
+
+### Removed Mods
+- **JEI/EMI Optimizations** — no longer needed.
+- **No Chat Reports** — following Mojang's recent request to remove this mod from major platforms, it has been excluded from the modpack to ensure smooth future updates and platform compliance. This removal will **not affect gameplay or performance**. If you prefer playing with it, you can still download it manually from **Modrinth**.
+
+---
+
+## 📊 Impact Summary
+
+| Category | v4.9.1 (previous) | v4.9.2 (new) | Changes |
+|---|---|---|---|
+| New Mods | 1 | **0** | — |
+| Mods Updated | 34 | **41** | 🔄🔥🔥🔥 |
+| Shaders Updated | 0 | **3** | 🎨🔥🔥 |
+| Mods Removed | 0 | **2** | 🗑️ |
+| Critical Fixes | 0 | **3** | 🛠️🔥🔥 |
+| Forge Version | 47.4.28 | **47.4.29** | ⚡ Upgraded |
+| Overall Impact | Unique Bows & Library Refresh | **Player Shop Automation & Forge Upgrade** | Feature + Maintenance |
+
+> **Net result:** a feature-and-maintenance release — the **Player Shop is now fully automatable** (Task Screen sales with digital payout), **3 critical fixes** land, **3 shaders** and **41 mods** are refreshed, **2 mods removed**, and **Forge is upgraded to 47.4.29**. No new mods — all about automation and polish.
+
+---
+
+## ⚠️ Upgrade Notes
+
+### Before Updating
+1. **Backup your world** — always make a safety copy before updating.
+2. **Backup your economy data** — save the `Age of Fate\kubejs\AOFEconomy` (.json files).
+3. **Backup your reputation data** — save the `Age of Fate\kubejs\AOFReputation` (.json files).
+
+### After Updating
+1. **Verify economy** — make sure the `AOFEconomy` values loaded correctly.
+2. **Verify reputation** — make sure the `AOFReputation` values loaded correctly.
+3. **Forge version** — **upgraded to 47.4.29**, so your launcher must use the new Forge build.
+4. **Player Shop automation** — set up your sales on the **Task Screen**; payouts are credited digitally to the player's account.
+5. **No Chat Reports removed** — if you want it back, download it manually from Modrinth.
+6. **41 mods refreshed** — RFTools suite, Sophisticated suite, libraries and content mods all updated to latest.
+7. **Verify scripts/configs** — ensure KubeJS scripts and custom configs load correctly on startup.
+
+---
+
+## 🏆 Special Notes
+
+> This update is **recommended** — a feature release that adds **full Player Shop automation** (Task Screen sales + digital payout), ships **3 critical fixes**, refreshes **3 shaders** and **41 mods**, and upgrades **Forge to 47.4.29**. All of it is available in **All updates**. Economy and reputation backups are required, and remember your launcher needs the new Forge build.
+
+**Update Priority: 🟠 MEDIUM–HIGH**
+
+- **Player Shop automation** → major quality-of-life for every shop owner.
+- **3 critical fixes** → questline, recipe, and spawner items corrected.
+- **Forge 47.4.28 → 47.4.29** → environment upgrade, verify your launcher.
+- Economy/reputation backups required as always.
+
+---
+
+## 🔗 Links
+
+- **GitHub:** `github.com/DexxKnight1/Age-of-Fate`
+- **Changelog:** `github.com/DexxKnight1/Age-of-Fate/blob/main/Changelogs-1.20.1.md`
+- **CurseForge:** `legacy.curseforge.com/minecraft/modpacks/age-of-fate/files`
+- **Discord:** `discord.gg/JMqZhxk7gA`
+
+---
+
+*Age of Fate — Master Your Fate.* 🎮🔥
 
 ---
 
